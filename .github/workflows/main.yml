@@ -36,14 +36,14 @@ jobs:
         run: |
           set -x
           firebase --version
-          firebase projects:list
+          node -e "const fs=require('fs'); JSON.parse(fs.readFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS,'utf8')); console.log('service-account-json-ok')"
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/service-account.json
 
       - name: Deploy to Firebase with logs
         run: |
           set -x
-          firebase deploy --project=costam-3f612 --only hosting,functions --debug
+          firebase deploy --project=costam-3f612 --only hosting,functions --debug --non-interactive
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/service-account.json
           DEBUG: firebase:*
