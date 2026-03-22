@@ -2,13 +2,13 @@
   "name": "mellowcards",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/KrukowskiAdam/mellowcards#readme",
+  "homepage": "https://github.com/KrukowskiAdam/Zentalista_mobile#readme",
   "bugs": {
-    "url": "https://github.com/KrukowskiAdam/mellowcards/issues"
+    "url": "https://github.com/KrukowskiAdam/Zentalista_mobile/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KrukowskiAdam/mellowcards.git"
+    "url": "git+https://github.com/KrukowskiAdam/Zentalista_mobile.git"
   },
   "license": "ISC",
   "author": "",

@@ -1,115 +1,97 @@
- krok‑po‑kroku plan wdrożenia w tym repo.
+# Mobile App Guide
 
----
+Praktyczny przewodnik pracy nad aplikacją mobilną (Capacitor + Firebase Functions/Hosting) w tym repo.
 
-## 1) Gdzie co robić (VS Code vs Chrome vs Android Studio)
+## 1) Co robić w którym narzędziu
 
-### VS Code (tu edytujesz)
-- CSS/HTML/EJS/JS
-- logika UI i wygląd
-- konfiguracje projektu
+### VS Code
+- Edycja UI i logiki: CSS, HTML/EJS, JS.
+- Zmiany konfiguracji projektu.
 
-### Chrome DevTools (tu sprawdzasz UI web)
-- inspect element (HTML/CSS)
-- console
-- network
-- szybkie testy wyglądu
+### Chrome DevTools
+- Szybka analiza DOM/CSS.
+- Console i Network dla warstwy web.
 
-### Android Studio (tu budujesz i uruchamiasz apkę)
-- instalacja APK na fizycznym telefonie
-- test realnego zachowania na Samsungu
-- logcat i błędy natywne Android
+### Android Studio
+- Build i uruchamianie na fizycznym urządzeniu.
+- Logcat i błędy warstwy natywnej.
 
-W skrócie:
-- edycja: VS Code
-- podgląd web i debug CSS/DOM: Chrome
-- uruchomienie aplikacji na telefonie: Android Studio
+## 2) Daily workflow (Samsung po Wi-Fi)
 
----
-
-## 2) Daily workflow (Samsung po Wi‑Fi) — najwygodniejszy loop
-
-### Folder roboczy
-Wszystkie komendy poniżej uruchamiaj z katalogu projektu:
+Wszystkie komendy uruchamiaj z katalogu projektu:
 
 ```bash
 cd /Users/adamkrukowski/Desktop/WEB/ZENTLIST/mellowcards
 ```
 
-### Terminal A (lokalny serwer aplikacji)
-1. Przejdź do katalogu projektu:
-
-```bash
-cd /Users/adamkrukowski/Desktop/WEB/ZENTLIST/mellowcards
-```
-
-2. Uruchom emulatory (hosting + functions):
+### Terminal A: backend lokalny
 
 ```bash
 npx firebase-tools emulators:start --only hosting,functions
 ```
 
-3. Zostaw ten terminal uruchomiony podczas testów na telefonie.
+Zostaw terminal uruchomiony podczas testów.
 
-### Terminal B (style CSS live)
-1. Przejdź do katalogu projektu:
-
-```bash
-cd /Users/adamkrukowski/Desktop/WEB/ZENTLIST/mellowcards
-```
-
-2. Uruchom watcher Tailwind (jeśli zmieniasz style w src/input.css):
+### Terminal B: style live
 
 ```bash
 npm run tailwind
 ```
 
-3. Zostaw ten terminal uruchomiony, żeby public/css/style.css aktualizował się automatycznie.
+Zostaw terminal uruchomiony, aby odświeżać CSS automatycznie.
 
-### Android Studio (Samsung po Wi‑Fi)
-1. Uruchom aplikację raz na urządzeniu (Run).
-2. Po zmianach UI zwykle wystarczy odświeżyć widok w aplikacji.
-3. Pełny Run rób co jakiś czas jako kontrolę finalną.
-
-### Gdzie podgląd
-1. Telefon Samsung: rzeczywisty wygląd i zachowanie aplikacji.
-2. Chrome DevTools: inspect CSS/HTML, console, network (gdy działa zdalny podgląd WebView).
-3. Android Studio Logcat: błędy Android/Capacitor.
+### Android Studio: urządzenie fizyczne
+1. Uruchom aplikację raz przez Run.
+2. Po zmianach UI zwykle wystarczy odświeżyć widok.
+3. Pełny Run wykonuj okresowo jako kontrolę końcową.
 
 ### Szybki loop po zmianie UI
 1. Edytuj pliki w VS Code.
-2. Upewnij się, że Terminal A i B działają.
+2. Sprawdź, czy Terminal A i B działają.
 3. Odśwież ekran aplikacji na Samsungu.
-4. Zweryfikuj wygląd na telefonie.
+4. Zweryfikuj wygląd i zachowanie.
 
----
+## 3) Kiedy robić pełny rebuild
 
-## 3) Kiedy trzeba robić pełny rebuild
+Pełny rebuild jest wymagany, gdy zmieniasz:
+- Kod natywny Android/iOS.
+- Pluginy Capacitor.
+- Konfigurację Capacitor.
+- Tryb uruchamiania aplikacji.
 
-Pełny "copy + run" jest wymagany, gdy zmieniasz:
-- kod natywny Android (katalog android)
-- pluginy Capacitor
-- konfigurację Capacitor
-- tryb uruchamiania (np. local bundle vs URL dev)
-
-Komendy (z katalogu projektu):
+Przykładowy krok synchronizacji Android:
 
 ```bash
-cd /Users/adamkrukowski/Desktop/WEB/ZENTLIST/mellowcards
 npx cap copy android
 ```
 
 Następnie w Android Studio:
-1. Build > Clean Project
-2. Run na Samsungu
+1. Build > Clean Project.
+2. Run na urządzeniu.
 
----
+## 4) Kiedy pełny rebuild zwykle nie jest potrzebny
 
-## 4) Kiedy nie trzeba robić pełnego rebuildu
+Zwykle nie trzeba pełnego rebuildu przy zmianach:
+- CSS.
+- HTML/EJS.
+- Frontend JS.
 
-Pełny rebuild zwykle nie jest potrzebny przy zmianach:
-- CSS
-- HTML/EJS
-- JS frontend
+Warunek: aplikacja działa w trybie dev i ładuje aktualny widok z lokalnego środowiska.
 
-Warunek: aplikacja jest uruchomiona w trybie dev URL i pobiera aktualny widok z lokalnego serwera.
+## 5) Stan repo po porządkach
+
+### Wykonane
+- Metadane repo w package zostały zaktualizowane na Zentalista_mobile.
+- Dodano ignorowanie .DS_Store.
+- Konfiguracja Capacitor została przygotowana pod release (bez server.url).
+
+### Zalecenia bezpieczeństwa
+- Nie trzymaj pliku firebase-service-account.json w katalogu repo (nawet jeśli jest ignorowany).
+- Trzymaj sekrety poza repo i podawaj je przez zmienne środowiskowe.
+
+## 6) Szybka checklista przed release
+
+1. Upewnij się, że w capacitor.config.json nie ma sekcji server.url.
+2. Zweryfikuj, że sekrety nie są trackowane przez git.
+3. Zrób finalny build i test na fizycznym Samsungu.
+4. Sprawdź logcat pod kątem błędów krytycznych.
