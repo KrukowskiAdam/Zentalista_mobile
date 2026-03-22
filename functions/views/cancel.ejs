@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #030712;">
+  <%- include('partials/head') %>
+
+  <body class="m-0 p-0 bg-dark-bg text-gray-200" style="padding-top: 80px;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <%- include('partials/menu') %>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl text-center">
+      <h1 class="text-3xl font-bold text-gray-700 mb-4">Payment Cancelled</h1>
+      <p class="text-lg text-gray-600 mb-6">Your payment was not completed.</p>
+      <a href="/" class="px-4 py-2 bg-level-expert hover:bg-level-expert-dark text-white rounded-lg transition-colors inline-block">Go to Homepage</a>
+    </div>
+  <%- include('partials/modals') %>
+
+  <script defer type="module" src="/scripts/auth.js"></script>
+  <script defer type="module" src="/scripts/index.js"></script>
+</body>
+</html>

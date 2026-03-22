@@ -1,0 +1,765 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 03 - Food & Restaurants",
+    "categories": [
+        {
+            "name": "Food & Drinks",
+            "words": [
+                {
+                    "en": "Rice",
+                    "es": "Arroz",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0001.mp3"
+                },
+                {
+                    "en": "Bread",
+                    "es": "Pan",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0002.mp3"
+                },
+                {
+                    "en": "Meat",
+                    "es": "Carne",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0003.mp3"
+                },
+                {
+                    "en": "Fish",
+                    "es": "Pescado",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0004.mp3"
+                },
+                {
+                    "en": "Vegetables",
+                    "es": "Verduras",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0005.mp3"
+                },
+                {
+                    "en": "Fruit",
+                    "es": "Fruta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0006.mp3"
+                },
+                {
+                    "en": "Egg",
+                    "es": "Huevo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0007.mp3"
+                },
+                {
+                    "en": "Milk",
+                    "es": "Leche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0008.mp3"
+                },
+                {
+                    "en": "Water",
+                    "es": "Agua",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0009.mp3"
+                },
+                {
+                    "en": "Coffee",
+                    "es": "Café",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0010.mp3"
+                },
+                {
+                    "en": "Tea",
+                    "es": "Té",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0011.mp3"
+                },
+                {
+                    "en": "Juice",
+                    "es": "Jugo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0012.mp3"
+                },
+                {
+                    "en": "Beer",
+                    "es": "Cerveza",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0013.mp3"
+                },
+                {
+                    "en": "Wine",
+                    "es": "Vino",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0014.mp3"
+                },
+                {
+                    "en": "Soup",
+                    "es": "Sopa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0015.mp3"
+                },
+                {
+                    "en": "Salad",
+                    "es": "Ensalada",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0016.mp3"
+                },
+                {
+                    "en": "Noodles",
+                    "es": "Fideos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0017.mp3"
+                },
+                {
+                    "en": "Apple",
+                    "es": "Manzana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0018.mp3"
+                },
+                {
+                    "en": "Appetizer",
+                    "es": "Aperitivo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0019.mp3"
+                },
+                {
+                    "en": "Main course",
+                    "es": "Plato principal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0020.mp3"
+                },
+                {
+                    "en": "Side dish",
+                    "es": "Guarnición",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0021.mp3"
+                },
+                {
+                    "en": "Dessert menu",
+                    "es": "Menú de postres",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0022.mp3"
+                },
+                {
+                    "en": "Leftovers",
+                    "es": "Sobras",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0023.mp3"
+                },
+                {
+                    "en": "Takeaway box",
+                    "es": "Caja para llevar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0024.mp3"
+                },
+                {
+                    "en": "Food allergy",
+                    "es": "Alergia alimentaria",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0025.mp3"
+                },
+                {
+                    "en": "Gluten-free",
+                    "es": "Sin gluten",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0026.mp3"
+                },
+                {
+                    "en": "Vegan",
+                    "es": "Vegano",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0027.mp3"
+                },
+                {
+                    "en": "Spicy",
+                    "es": "Picante",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0028.mp3"
+                },
+                {
+                    "en": "Mild",
+                    "es": "Suave",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0029.mp3"
+                },
+                {
+                    "en": "Savory",
+                    "es": "Salado",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0030.mp3"
+                },
+                {
+                    "en": "Sweet tooth",
+                    "es": "Goloso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0031.mp3"
+                },
+                {
+                    "en": "Portion",
+                    "es": "Porción",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0032.mp3"
+                },
+                {
+                    "en": "Chef",
+                    "es": "Chef",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0033.mp3"
+                },
+                {
+                    "en": "Wait time",
+                    "es": "Tiempo de espera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0034.mp3"
+                },
+                {
+                    "en": "Reservation list",
+                    "es": "Lista de reservas",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0035.mp3"
+                },
+                {
+                    "en": "Split bill",
+                    "es": "Dividir la cuenta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0036.mp3"
+                },
+                {
+                    "en": "Street food",
+                    "es": "Comida callejera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0037.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Food & Drinks - Phrases",
+            "words": [
+                {
+                    "en": "What do you want to eat?",
+                    "es": "¿Qué quieres comer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0038.mp3"
+                },
+                {
+                    "en": "I'm hungry",
+                    "es": "Tengo hambre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0039.mp3"
+                },
+                {
+                    "en": "I'm full",
+                    "es": "Estoy lleno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0040.mp3"
+                },
+                {
+                    "en": "It's delicious",
+                    "es": "Está delicioso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0041.mp3"
+                },
+                {
+                    "en": "It's not good",
+                    "es": "No es bueno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0042.mp3"
+                },
+                {
+                    "en": "Is it spicy?",
+                    "es": "¿Es picante?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0043.mp3"
+                },
+                {
+                    "en": "Too spicy",
+                    "es": "Demasiado picante",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0044.mp3"
+                },
+                {
+                    "en": "A bit salty",
+                    "es": "Un poco salado",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0045.mp3"
+                },
+                {
+                    "en": "What do you want to drink?",
+                    "es": "¿Qué quieres beber?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0046.mp3"
+                },
+                {
+                    "en": "Water please",
+                    "es": "Agua, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0047.mp3"
+                },
+                {
+                    "en": "Want some coffee?",
+                    "es": "¿Quieres café?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0048.mp3"
+                },
+                {
+                    "en": "I drink tea",
+                    "es": "Bebo té",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0049.mp3"
+                },
+                {
+                    "en": "Do you like beer?",
+                    "es": "¿Te gusta la cerveza?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0050.mp3"
+                },
+                {
+                    "en": "Can't drink alcohol?",
+                    "es": "¿No puedes beber alcohol?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0051.mp3"
+                },
+                {
+                    "en": "Want more?",
+                    "es": "¿Quieres más?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0052.mp3"
+                },
+                {
+                    "en": "Thank you for the food",
+                    "es": "Gracias por la comida",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0053.mp3"
+                },
+                {
+                    "en": "I ate well",
+                    "es": "Comí bien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0054.mp3"
+                },
+                {
+                    "en": "Cheers!",
+                    "es": "¡Salud!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0055.mp3"
+                },
+                {
+                    "en": "Could we start with an appetizer?",
+                    "es": "¿Podríamos empezar con un aperitivo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0056.mp3"
+                },
+                {
+                    "en": "Do you have vegan options?",
+                    "es": "¿Tienen opciones veganas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0057.mp3"
+                },
+                {
+                    "en": "Please make it mild",
+                    "es": "Por favor, hágalo suave",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0058.mp3"
+                },
+                {
+                    "en": "Can we get a takeaway box?",
+                    "es": "¿Podemos pedir una caja para llevar?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0059.mp3"
+                },
+                {
+                    "en": "How long is the wait?",
+                    "es": "¿Cuánto es la espera?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0060.mp3"
+                },
+                {
+                    "en": "Our name is on the reservation list",
+                    "es": "Nuestro nombre está en la lista de reservas",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0061.mp3"
+                },
+                {
+                    "en": "Shall we split the bill?",
+                    "es": "¿Dividimos la cuenta?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0062.mp3"
+                },
+                {
+                    "en": "Is the tip included?",
+                    "es": "¿Está incluida la propina?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0063.mp3"
+                },
+                {
+                    "en": "Do you accept cash only?",
+                    "es": "¿Solo aceptan efectivo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0064.mp3"
+                },
+                {
+                    "en": "I love the street food here",
+                    "es": "Me encanta la comida callejera de aquí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0065.mp3"
+                },
+                {
+                    "en": "Could you recommend a local specialty?",
+                    "es": "¿Podría recomendar una especialidad local?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0066.mp3"
+                },
+                {
+                    "en": "Is there a seasonal menu today?",
+                    "es": "¿Hay un menú de temporada hoy?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0067.mp3"
+                },
+                {
+                    "en": "Do you have anything for food allergies?",
+                    "es": "¿Tienen algo para alergias alimentarias?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0068.mp3"
+                },
+                {
+                    "en": "We would like to share a couple of dishes",
+                    "es": "Nos gustaría compartir un par de platos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0069.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering",
+            "words": [
+                {
+                    "en": "Restaurant",
+                    "es": "Restaurante",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0070.mp3"
+                },
+                {
+                    "en": "Cafe",
+                    "es": "Café",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0071.mp3"
+                },
+                {
+                    "en": "Menu",
+                    "es": "Menú",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0072.mp3"
+                },
+                {
+                    "en": "Order",
+                    "es": "Pedido",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0073.mp3"
+                },
+                {
+                    "en": "Food",
+                    "es": "Comida",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0074.mp3"
+                },
+                {
+                    "en": "Dish",
+                    "es": "Plato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0075.mp3"
+                },
+                {
+                    "en": "Reservation",
+                    "es": "Reserva",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0076.mp3"
+                },
+                {
+                    "en": "Seat",
+                    "es": "Asiento",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0077.mp3"
+                },
+                {
+                    "en": "Table",
+                    "es": "Mesa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0078.mp3"
+                },
+                {
+                    "en": "Waiter",
+                    "es": "Camarero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0079.mp3"
+                },
+                {
+                    "en": "Bill",
+                    "es": "Cuenta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0080.mp3"
+                },
+                {
+                    "en": "Tip",
+                    "es": "Propina",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0081.mp3"
+                },
+                {
+                    "en": "Takeout",
+                    "es": "Para llevar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0082.mp3"
+                },
+                {
+                    "en": "Delivery",
+                    "es": "Entrega",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0083.mp3"
+                },
+                {
+                    "en": "Spoon",
+                    "es": "Cuchara",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0084.mp3"
+                },
+                {
+                    "en": "Chopsticks",
+                    "es": "Palillos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0085.mp3"
+                },
+                {
+                    "en": "Fork",
+                    "es": "Tenedor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0086.mp3"
+                },
+                {
+                    "en": "Napkin",
+                    "es": "Servilleta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0087.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering - Phrases",
+            "words": [
+                {
+                    "en": "Menu please",
+                    "es": "El menú, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0088.mp3"
+                },
+                {
+                    "en": "What's recommended?",
+                    "es": "¿Qué recomienda?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0089.mp3"
+                },
+                {
+                    "en": "This please",
+                    "es": "Esto, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0090.mp3"
+                },
+                {
+                    "en": "I'll order",
+                    "es": "Yo pediré",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0091.mp3"
+                },
+                {
+                    "en": "Is this spicy?",
+                    "es": "¿Esto es picante?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0092.mp3"
+                },
+                {
+                    "en": "How many people?",
+                    "es": "¿Cuántas personas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0093.mp3"
+                },
+                {
+                    "en": "Party of two",
+                    "es": "Mesa para dos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0094.mp3"
+                },
+                {
+                    "en": "Do you have seats?",
+                    "es": "¿Tienen asientos?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0095.mp3"
+                },
+                {
+                    "en": "I have a reservation",
+                    "es": "Tengo una reserva",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0096.mp3"
+                },
+                {
+                    "en": "Can I get takeout?",
+                    "es": "¿Puedo pedir para llevar?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0097.mp3"
+                },
+                {
+                    "en": "Do you deliver?",
+                    "es": "¿Hacen entregas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0098.mp3"
+                },
+                {
+                    "en": "Check please",
+                    "es": "La cuenta, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0099.mp3"
+                },
+                {
+                    "en": "Separate checks",
+                    "es": "Cuentas separadas",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0100.mp3"
+                },
+                {
+                    "en": "Together please",
+                    "es": "Juntos, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0101.mp3"
+                },
+                {
+                    "en": "More water please",
+                    "es": "Más agua, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0102.mp3"
+                },
+                {
+                    "en": "Spoon please",
+                    "es": "Una cuchara, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0103.mp3"
+                },
+                {
+                    "en": "Do you have a fork?",
+                    "es": "¿Tiene un tenedor?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0104.mp3"
+                },
+                {
+                    "en": "How long will it take?",
+                    "es": "¿Cuánto tardará?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0105.mp3"
+                },
+                {
+                    "en": "Could we get separate plates for sharing?",
+                    "es": "¿Podríamos tener platos separados para compartir?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0106.mp3"
+                },
+                {
+                    "en": "Can you hold the order for ten minutes?",
+                    "es": "¿Puede retener el pedido por diez minutos?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0107.mp3"
+                },
+                {
+                    "en": "Is the service charge already included?",
+                    "es": "¿El cargo por servicio ya está incluido?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0108.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance",
+            "words": [
+                {
+                    "en": "Clothes",
+                    "es": "Ropa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0109.mp3"
+                },
+                {
+                    "en": "T-shirt",
+                    "es": "Camiseta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0110.mp3"
+                },
+                {
+                    "en": "Pants",
+                    "es": "Pantalones",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0111.mp3"
+                },
+                {
+                    "en": "Skirt",
+                    "es": "Falda",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0112.mp3"
+                },
+                {
+                    "en": "Dress",
+                    "es": "Vestido",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0113.mp3"
+                },
+                {
+                    "en": "Jacket",
+                    "es": "Chaqueta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0114.mp3"
+                },
+                {
+                    "en": "Coat",
+                    "es": "Abrigo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0115.mp3"
+                },
+                {
+                    "en": "Shoes",
+                    "es": "Zapatos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0116.mp3"
+                },
+                {
+                    "en": "Hat",
+                    "es": "Sombrero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0117.mp3"
+                },
+                {
+                    "en": "Glasses",
+                    "es": "Gafas",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0118.mp3"
+                },
+                {
+                    "en": "Watch",
+                    "es": "Reloj",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0119.mp3"
+                },
+                {
+                    "en": "Bag",
+                    "es": "Bolso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0120.mp3"
+                },
+                {
+                    "en": "Color",
+                    "es": "Color",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0121.mp3"
+                },
+                {
+                    "en": "Size",
+                    "es": "Talla",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0122.mp3"
+                },
+                {
+                    "en": "Big",
+                    "es": "Grande",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0123.mp3"
+                },
+                {
+                    "en": "Small",
+                    "es": "Pequeño",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0124.mp3"
+                },
+                {
+                    "en": "Pretty",
+                    "es": "Bonito",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0125.mp3"
+                },
+                {
+                    "en": "Cool",
+                    "es": "Genial",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0126.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance - Phrases",
+            "words": [
+                {
+                    "en": "What should I wear?",
+                    "es": "¿Qué debería ponerme?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0127.mp3"
+                },
+                {
+                    "en": "That's pretty",
+                    "es": "Eso es bonito",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0128.mp3"
+                },
+                {
+                    "en": "It suits you",
+                    "es": "Te queda bien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0129.mp3"
+                },
+                {
+                    "en": "How about this?",
+                    "es": "¿Qué tal esto?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0130.mp3"
+                },
+                {
+                    "en": "Can I try it on?",
+                    "es": "¿Puedo probármelo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0131.mp3"
+                },
+                {
+                    "en": "What size?",
+                    "es": "¿Qué talla?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0132.mp3"
+                },
+                {
+                    "en": "A bit small",
+                    "es": "Un poco pequeño",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0133.mp3"
+                },
+                {
+                    "en": "A bit big",
+                    "es": "Un poco grande",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0134.mp3"
+                },
+                {
+                    "en": "It's a perfect fit",
+                    "es": "Me queda perfecto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0135.mp3"
+                },
+                {
+                    "en": "Other colors?",
+                    "es": "¿Otros colores?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0136.mp3"
+                },
+                {
+                    "en": "Black please",
+                    "es": "Negro, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0137.mp3"
+                },
+                {
+                    "en": "White is good",
+                    "es": "El blanco está bien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0138.mp3"
+                },
+                {
+                    "en": "Is this on sale?",
+                    "es": "¿Está esto en oferta?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0139.mp3"
+                },
+                {
+                    "en": "Did you cut your hair?",
+                    "es": "¿Te cortaste el pelo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0140.mp3"
+                },
+                {
+                    "en": "New glasses?",
+                    "es": "¿Gafas nuevas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0141.mp3"
+                },
+                {
+                    "en": "You dress well",
+                    "es": "Te vistes bien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0142.mp3"
+                },
+                {
+                    "en": "Cool shoes",
+                    "es": "Zapatos geniales",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0143.mp3"
+                },
+                {
+                    "en": "Pretty bag",
+                    "es": "Bolso bonito",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0144.mp3"
+                },
+                {
+                    "en": "Could you tailor it to a smaller size?",
+                    "es": "¿Podría ajustarlo a una talla más pequeña?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0145.mp3"
+                },
+                {
+                    "en": "I'm looking for something that matches this jacket",
+                    "es": "Busco algo que combine con esta chaqueta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/03/es_0146.mp3"
+                }
+            ]
+        }
+    ]
+}

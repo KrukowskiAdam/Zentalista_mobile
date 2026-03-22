@@ -1,0 +1,495 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 07 - Health & Body",
+    "categories": [
+        {
+            "name": "Body Parts",
+            "words": [
+                {
+                    "en": "Head"
+                },
+                {
+                    "en": "Hair"
+                },
+                {
+                    "en": "Face"
+                },
+                {
+                    "en": "Eye"
+                },
+                {
+                    "en": "Nose"
+                },
+                {
+                    "en": "Ear"
+                },
+                {
+                    "en": "Mouth"
+                },
+                {
+                    "en": "Tooth"
+                },
+                {
+                    "en": "Neck"
+                },
+                {
+                    "en": "Shoulder"
+                },
+                {
+                    "en": "Arm"
+                },
+                {
+                    "en": "Hand"
+                },
+                {
+                    "en": "Finger"
+                },
+                {
+                    "en": "Leg"
+                },
+                {
+                    "en": "Knee"
+                },
+                {
+                    "en": "Foot"
+                },
+                {
+                    "en": "Back"
+                },
+                {
+                    "en": "Stomach"
+                }
+            ]
+        },
+        {
+            "name": "Body Parts - Phrases",
+            "words": [
+                {
+                    "en": "My head hurts."
+                },
+                {
+                    "en": "I cut my hair."
+                },
+                {
+                    "en": "Wash your face."
+                },
+                {
+                    "en": "Close your eyes."
+                },
+                {
+                    "en": "Can you smell it?"
+                },
+                {
+                    "en": "Can you hear me?"
+                },
+                {
+                    "en": "Open your mouth."
+                },
+                {
+                    "en": "Brush your teeth."
+                },
+                {
+                    "en": "My neck hurts."
+                },
+                {
+                    "en": "Relax your shoulders."
+                },
+                {
+                    "en": "Raise your arms."
+                },
+                {
+                    "en": "Hold my hand."
+                },
+                {
+                    "en": "Count on your fingers."
+                },
+                {
+                    "en": "Cross your legs."
+                },
+                {
+                    "en": "My knee hurts."
+                },
+                {
+                    "en": "My feet hurt."
+                },
+                {
+                    "en": "My back hurts."
+                },
+                {
+                    "en": "I have a stomachache."
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine",
+            "words": [
+                {
+                    "en": "Health"
+                },
+                {
+                    "en": "Doctor"
+                },
+                {
+                    "en": "Hospital"
+                },
+                {
+                    "en": "Pharmacy"
+                },
+                {
+                    "en": "Medicine"
+                },
+                {
+                    "en": "Pill"
+                },
+                {
+                    "en": "Injection"
+                },
+                {
+                    "en": "Bandage"
+                },
+                {
+                    "en": "Sick"
+                },
+                {
+                    "en": "Pain"
+                },
+                {
+                    "en": "Fever"
+                },
+                {
+                    "en": "Cold"
+                },
+                {
+                    "en": "Cough"
+                },
+                {
+                    "en": "Headache"
+                },
+                {
+                    "en": "Allergy"
+                },
+                {
+                    "en": "Injury"
+                },
+                {
+                    "en": "Emergency"
+                },
+                {
+                    "en": "Appointment"
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine - Phrases",
+            "words": [
+                {
+                    "en": "How's your health?"
+                },
+                {
+                    "en": "I need a doctor."
+                },
+                {
+                    "en": "Where's the hospital?"
+                },
+                {
+                    "en": "Is there a pharmacy nearby?"
+                },
+                {
+                    "en": "I need medicine."
+                },
+                {
+                    "en": "Take this pill."
+                },
+                {
+                    "en": "I need an injection."
+                },
+                {
+                    "en": "Put on a bandage."
+                },
+                {
+                    "en": "I'm sick."
+                },
+                {
+                    "en": "Are you in pain?"
+                },
+                {
+                    "en": "I have a fever."
+                },
+                {
+                    "en": "I have a cold."
+                },
+                {
+                    "en": "I'm coughing."
+                },
+                {
+                    "en": "I have a headache."
+                },
+                {
+                    "en": "Do you have allergies?"
+                },
+                {
+                    "en": "I'm injured."
+                },
+                {
+                    "en": "It's an emergency!"
+                },
+                {
+                    "en": "I have an appointment."
+                },
+                {
+                    "en": "Could you explain the treatment plan?"
+                },
+                {
+                    "en": "I need a note for work, please."
+                },
+                {
+                    "en": "Can you call me when the prescription is ready?"
+                },
+                {
+                    "en": "Is there a clinic open on weekends?"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities",
+            "words": [
+                {
+                    "en": "Exercise"
+                },
+                {
+                    "en": "Sleep"
+                },
+                {
+                    "en": "Rest"
+                },
+                {
+                    "en": "Diet"
+                },
+                {
+                    "en": "Water"
+                },
+                {
+                    "en": "Energy"
+                },
+                {
+                    "en": "Strong"
+                },
+                {
+                    "en": "Weak"
+                },
+                {
+                    "en": "Healthy"
+                },
+                {
+                    "en": "Fit"
+                },
+                {
+                    "en": "Walk"
+                },
+                {
+                    "en": "Run"
+                },
+                {
+                    "en": "Stretch"
+                },
+                {
+                    "en": "Breathe"
+                },
+                {
+                    "en": "Relax"
+                },
+                {
+                    "en": "Stress"
+                },
+                {
+                    "en": "Wellness"
+                },
+                {
+                    "en": "Recovery"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities - Phrases",
+            "words": [
+                {
+                    "en": "Do you exercise?"
+                },
+                {
+                    "en": "Did you sleep well?"
+                },
+                {
+                    "en": "Get some rest."
+                },
+                {
+                    "en": "I'm on a diet."
+                },
+                {
+                    "en": "Drink more water."
+                },
+                {
+                    "en": "I have no energy."
+                },
+                {
+                    "en": "You're strong."
+                },
+                {
+                    "en": "I feel weak."
+                },
+                {
+                    "en": "Stay healthy."
+                },
+                {
+                    "en": "Are you fit?"
+                },
+                {
+                    "en": "Let's go for a walk."
+                },
+                {
+                    "en": "I'm going running."
+                },
+                {
+                    "en": "Let's stretch."
+                },
+                {
+                    "en": "Breathe deeply."
+                },
+                {
+                    "en": "Just relax."
+                },
+                {
+                    "en": "I'm so stressed."
+                },
+                {
+                    "en": "Focus on wellness."
+                },
+                {
+                    "en": "Full recovery."
+                },
+                {
+                    "en": "Set a reminder to stretch during breaks."
+                },
+                {
+                    "en": "Let's track our sleep for a week."
+                },
+                {
+                    "en": "I'm trying to cut back on sugar."
+                },
+                {
+                    "en": "Can we cool down with a short walk?"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies",
+            "words": [
+                {
+                    "en": "Clinic"
+                },
+                {
+                    "en": "Appointment card"
+                },
+                {
+                    "en": "Emergency room"
+                },
+                {
+                    "en": "Sprain"
+                },
+                {
+                    "en": "Fracture"
+                },
+                {
+                    "en": "Painkiller"
+                },
+                {
+                    "en": "Thermometer"
+                },
+                {
+                    "en": "Rash"
+                },
+                {
+                    "en": "Ambulance"
+                },
+                {
+                    "en": "Paramedic"
+                },
+                {
+                    "en": "Insurance card"
+                },
+                {
+                    "en": "Prescription refill"
+                },
+                {
+                    "en": "Blood pressure"
+                },
+                {
+                    "en": "Breathing"
+                },
+                {
+                    "en": "Vaccination"
+                },
+                {
+                    "en": "Injury report"
+                },
+                {
+                    "en": "Recovery plan"
+                },
+                {
+                    "en": "Follow-up visit"
+                },
+                {
+                    "en": "Triage"
+                },
+                {
+                    "en": "Stitches"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies - Phrases",
+            "words": [
+                {
+                    "en": "I need to see a doctor."
+                },
+                {
+                    "en": "Where is the nearest clinic?"
+                },
+                {
+                    "en": "Please call an ambulance."
+                },
+                {
+                    "en": "I think I sprained my ankle."
+                },
+                {
+                    "en": "I'm allergic to this medicine."
+                },
+                {
+                    "en": "Can I get a prescription refill?"
+                },
+                {
+                    "en": "My insurance card is here."
+                },
+                {
+                    "en": "Check my blood pressure, please."
+                },
+                {
+                    "en": "He is having trouble breathing."
+                },
+                {
+                    "en": "When is the next vaccination?"
+                },
+                {
+                    "en": "Please stay with me until help arrives."
+                },
+                {
+                    "en": "Can you call the emergency number for me?"
+                },
+                {
+                    "en": "I need directions to the emergency room."
+                },
+                {
+                    "en": "Please let my family know where I am."
+                }
+            ]
+        }
+    ]
+}

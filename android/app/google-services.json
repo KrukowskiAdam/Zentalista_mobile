@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "767407380440",
+    "firebase_url": "https://costam-3f612-default-rtdb.firebaseio.com",
+    "project_id": "costam-3f612",
+    "storage_bucket": "costam-3f612.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767407380440:android:c5eae512c0f1d796c384ad",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk4Z6DX8u1tju276xCgxIdfrCuc_BnXfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767407380440:android:5988de19f72b1d79c384ad",
+        "android_client_info": {
+          "package_name": "com.zentalist.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk4Z6DX8u1tju276xCgxIdfrCuc_BnXfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

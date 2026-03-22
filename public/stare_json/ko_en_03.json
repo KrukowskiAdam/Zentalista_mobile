@@ -1,0 +1,911 @@
+{
+    "info": "Korean Translation - File 03",
+    "categories": [
+        {
+            "name": "Food & Drinks",
+            "words": [
+                {
+                    "ko": "밥",
+                    "romaja": "Bap",
+                    "en": "Rice",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0001.mp3"
+                },
+                {
+                    "ko": "빵",
+                    "romaja": "Ppang",
+                    "en": "Bread",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0002.mp3"
+                },
+                {
+                    "ko": "고기",
+                    "romaja": "Gogi",
+                    "en": "Meat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0003.mp3"
+                },
+                {
+                    "ko": "생선",
+                    "romaja": "Saengseon",
+                    "en": "Fish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0004.mp3"
+                },
+                {
+                    "ko": "채소",
+                    "romaja": "Chaeso",
+                    "en": "Vegetables",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0005.mp3"
+                },
+                {
+                    "ko": "과일",
+                    "romaja": "Gwail",
+                    "en": "Fruit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0006.mp3"
+                },
+                {
+                    "ko": "달걀",
+                    "romaja": "Dalgyal",
+                    "en": "Egg",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0007.mp3"
+                },
+                {
+                    "ko": "우유",
+                    "romaja": "Uyu",
+                    "en": "Milk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0008.mp3"
+                },
+                {
+                    "ko": "물",
+                    "romaja": "Mul",
+                    "en": "Water",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0009.mp3"
+                },
+                {
+                    "ko": "커피",
+                    "romaja": "Keopi",
+                    "en": "Coffee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0010.mp3"
+                },
+                {
+                    "ko": "차",
+                    "romaja": "Cha",
+                    "en": "Tea",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0011.mp3"
+                },
+                {
+                    "ko": "주스",
+                    "romaja": "Juseu",
+                    "en": "Juice",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0012.mp3"
+                },
+                {
+                    "ko": "맥주",
+                    "romaja": "Maekju",
+                    "en": "Beer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0013.mp3"
+                },
+                {
+                    "ko": "와인",
+                    "romaja": "Wain",
+                    "en": "Wine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0014.mp3"
+                },
+                {
+                    "ko": "국",
+                    "romaja": "Guk",
+                    "en": "Soup",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0015.mp3"
+                },
+                {
+                    "ko": "샐러드",
+                    "romaja": "Saelleodeu",
+                    "en": "Salad",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0016.mp3"
+                },
+                {
+                    "ko": "국수",
+                    "romaja": "Guksu",
+                    "en": "Noodles",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0017.mp3"
+                },
+                {
+                    "ko": "사과",
+                    "romaja": "Sagwa",
+                    "en": "Apple",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0018.mp3"
+                },
+                {
+                    "ko": "전채 요리",
+                    "romaja": "Jeonchae yori",
+                    "en": "Appetizer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0019.mp3"
+                },
+                {
+                    "ko": "메인 요리",
+                    "romaja": "Mein yori",
+                    "en": "Main course",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0020.mp3"
+                },
+                {
+                    "ko": "반찬",
+                    "romaja": "Banchan",
+                    "en": "Side dish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0021.mp3"
+                },
+                {
+                    "ko": "디저트 메뉴",
+                    "romaja": "Dijeoteu menyu",
+                    "en": "Dessert menu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0022.mp3"
+                },
+                {
+                    "ko": "남은 음식",
+                    "romaja": "Nameun eumsik",
+                    "en": "Leftovers",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0023.mp3"
+                },
+                {
+                    "ko": "포장 박스",
+                    "romaja": "Pojang bakseu",
+                    "en": "Takeaway box",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0024.mp3"
+                },
+                {
+                    "ko": "음식 알레르기",
+                    "romaja": "Eumsik allereugi",
+                    "en": "Food allergy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0025.mp3"
+                },
+                {
+                    "ko": "글루텐 프리",
+                    "romaja": "Geulluten peuri",
+                    "en": "Gluten-free",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0026.mp3"
+                },
+                {
+                    "ko": "비건",
+                    "romaja": "Bigeon",
+                    "en": "Vegan",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0027.mp3"
+                },
+                {
+                    "ko": "매운",
+                    "romaja": "Maeun",
+                    "en": "Spicy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0028.mp3"
+                },
+                {
+                    "ko": "순한",
+                    "romaja": "Sunhan",
+                    "en": "Mild",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0029.mp3"
+                },
+                {
+                    "ko": "감칠맛 나는",
+                    "romaja": "Gamchilmat naneun",
+                    "en": "Savory",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0030.mp3"
+                },
+                {
+                    "ko": "단것을 좋아하는",
+                    "romaja": "Dangeoseul joahaneun",
+                    "en": "Sweet tooth",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0031.mp3"
+                },
+                {
+                    "ko": "1인분",
+                    "romaja": "Irinbun",
+                    "en": "Portion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0032.mp3"
+                },
+                {
+                    "ko": "요리사",
+                    "romaja": "Yorisa",
+                    "en": "Chef",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0033.mp3"
+                },
+                {
+                    "ko": "대기 시간",
+                    "romaja": "Daegi sigan",
+                    "en": "Wait time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0034.mp3"
+                },
+                {
+                    "ko": "예약 명단",
+                    "romaja": "Yeyak myeongdan",
+                    "en": "Reservation list",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0035.mp3"
+                },
+                {
+                    "ko": "각자 계산",
+                    "romaja": "Gakja gyesan",
+                    "en": "Split bill",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0036.mp3"
+                },
+                {
+                    "ko": "길거리 음식",
+                    "romaja": "Gilgeori eumsik",
+                    "en": "Street food",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0037.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Food & Drinks - Phrases",
+            "words": [
+                {
+                    "ko": "뭐 먹고 싶어요?",
+                    "romaja": "Mwo meokgo sipeoyo?",
+                    "en": "What do you want to eat?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0038.mp3"
+                },
+                {
+                    "ko": "배고파요",
+                    "romaja": "Baegopayo",
+                    "en": "I'm hungry",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0039.mp3"
+                },
+                {
+                    "ko": "배불러요",
+                    "romaja": "Baebulleoyo",
+                    "en": "I'm full",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0040.mp3"
+                },
+                {
+                    "ko": "맛있어요",
+                    "romaja": "Masisseoyo",
+                    "en": "It's delicious",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0041.mp3"
+                },
+                {
+                    "ko": "맛없어요",
+                    "romaja": "Maseopseoyo",
+                    "en": "It's not good",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0042.mp3"
+                },
+                {
+                    "ko": "매워요?",
+                    "romaja": "Maewoyo?",
+                    "en": "Is it spicy?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0043.mp3"
+                },
+                {
+                    "ko": "너무 매워요",
+                    "romaja": "Neomu maewoyo",
+                    "en": "Too spicy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0044.mp3"
+                },
+                {
+                    "ko": "좀 짜요",
+                    "romaja": "Jom jjayo",
+                    "en": "A bit salty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0045.mp3"
+                },
+                {
+                    "ko": "뭐 마실래요?",
+                    "romaja": "Mwo masillaeyo?",
+                    "en": "What do you want to drink?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0046.mp3"
+                },
+                {
+                    "ko": "물 주세요",
+                    "romaja": "Mul juseyo",
+                    "en": "Water please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0047.mp3"
+                },
+                {
+                    "ko": "커피 드실래요?",
+                    "romaja": "Keopi deusillaeyo?",
+                    "en": "Want some coffee?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0048.mp3"
+                },
+                {
+                    "ko": "저는 차를 마셔요",
+                    "romaja": "Jeoneun chareul masyeoyo",
+                    "en": "I drink tea",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0049.mp3"
+                },
+                {
+                    "ko": "맥주 좋아하세요?",
+                    "romaja": "Maekju joahaseyo?",
+                    "en": "Do you like beer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0050.mp3"
+                },
+                {
+                    "ko": "술 못 드세요?",
+                    "romaja": "Sul mot deuseyo?",
+                    "en": "Can't drink alcohol?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0051.mp3"
+                },
+                {
+                    "ko": "더 드릴까요?",
+                    "romaja": "Deo deurilkkayo?",
+                    "en": "Want more?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0052.mp3"
+                },
+                {
+                    "ko": "잘 먹겠습니다",
+                    "romaja": "Jal meokgesseumnida",
+                    "en": "Thank you for the food",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0053.mp3"
+                },
+                {
+                    "ko": "잘 먹었습니다",
+                    "romaja": "Jal meogeosseumnida",
+                    "en": "I ate well",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0054.mp3"
+                },
+                {
+                    "ko": "건배!",
+                    "romaja": "Geonbae!",
+                    "en": "Cheers!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0055.mp3"
+                },
+                {
+                    "ko": "전채 요리부터 시작할까요?",
+                    "romaja": "Jeonchae yoributeo sijakhalkkayo?",
+                    "en": "Could we start with an appetizer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0056.mp3"
+                },
+                {
+                    "ko": "비건 메뉴 있나요?",
+                    "romaja": "Bigeon menyu innayo?",
+                    "en": "Do you have vegan options?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0057.mp3"
+                },
+                {
+                    "ko": "순하게 해 주세요",
+                    "romaja": "Sunhage hae juseyo",
+                    "en": "Please make it mild",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0058.mp3"
+                },
+                {
+                    "ko": "포장 박스 좀 주시겠어요?",
+                    "romaja": "Pojang bakseu jom jusigesseoyo?",
+                    "en": "Can we get a takeaway box?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0059.mp3"
+                },
+                {
+                    "ko": "얼마나 기다려야 해요?",
+                    "romaja": "Eolmana gidaryeoya haeyo?",
+                    "en": "How long is the wait?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0060.mp3"
+                },
+                {
+                    "ko": "예약 명단에 이름이 있어요",
+                    "romaja": "Yeyak myeongdane ireumi isseoyo",
+                    "en": "Our name is on the reservation list",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0061.mp3"
+                },
+                {
+                    "ko": "각자 계산할까요?",
+                    "romaja": "Gakja gyesanhalkkayo?",
+                    "en": "Shall we split the bill?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0062.mp3"
+                },
+                {
+                    "ko": "팁이 포함되어 있나요?",
+                    "romaja": "Tibi pohamdoeeo innayo?",
+                    "en": "Is the tip included?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0063.mp3"
+                },
+                {
+                    "ko": "현금만 받으시나요?",
+                    "romaja": "Hyeongeumman badeusinayo?",
+                    "en": "Do you accept cash only?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0064.mp3"
+                },
+                {
+                    "ko": "여기 길거리 음식이 정말 좋아요",
+                    "romaja": "Yeogi gilgeori eumsigi jeongmal joayo",
+                    "en": "I love the street food here",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0065.mp3"
+                },
+                {
+                    "ko": "지역 특산물을 추천해 주시겠어요?",
+                    "romaja": "Jiyeok teuksanmureul chucheonhae jusigesseoyo?",
+                    "en": "Could you recommend a local specialty?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0066.mp3"
+                },
+                {
+                    "ko": "오늘 계절 메뉴가 있나요?",
+                    "romaja": "Oneul gyejeol menyuga innayo?",
+                    "en": "Is there a seasonal menu today?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0067.mp3"
+                },
+                {
+                    "ko": "음식 알레르기용 메뉴가 있나요?",
+                    "romaja": "Eumsik allereugiyong menyuga innayo?",
+                    "en": "Do you have anything for food allergies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0068.mp3"
+                },
+                {
+                    "ko": "요리 몇 개를 같이 나눠 먹고 싶어요",
+                    "romaja": "Yori myeot gaereul gachi nanwo meokgo sipeoyo",
+                    "en": "We would like to share a couple of dishes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0069.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering",
+            "words": [
+                {
+                    "ko": "식당",
+                    "romaja": "Sikdang",
+                    "en": "Restaurant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0070.mp3"
+                },
+                {
+                    "ko": "카페",
+                    "romaja": "Kape",
+                    "en": "Cafe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0071.mp3"
+                },
+                {
+                    "ko": "메뉴",
+                    "romaja": "Menyu",
+                    "en": "Menu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0072.mp3"
+                },
+                {
+                    "ko": "주문",
+                    "romaja": "Jumun",
+                    "en": "Order",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0073.mp3"
+                },
+                {
+                    "ko": "음식",
+                    "romaja": "Eumsik",
+                    "en": "Food",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0074.mp3"
+                },
+                {
+                    "ko": "요리",
+                    "romaja": "Yori",
+                    "en": "Dish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0075.mp3"
+                },
+                {
+                    "ko": "예약",
+                    "romaja": "Yeyak",
+                    "en": "Reservation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0076.mp3"
+                },
+                {
+                    "ko": "좌석",
+                    "romaja": "Jwaseok",
+                    "en": "Seat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0077.mp3"
+                },
+                {
+                    "ko": "테이블",
+                    "romaja": "Teibeul",
+                    "en": "Table",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0078.mp3"
+                },
+                {
+                    "ko": "웨이터",
+                    "romaja": "Weiteo",
+                    "en": "Waiter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0079.mp3"
+                },
+                {
+                    "ko": "계산서",
+                    "romaja": "Gyesanseo",
+                    "en": "Bill",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0080.mp3"
+                },
+                {
+                    "ko": "팁",
+                    "romaja": "Tip",
+                    "en": "Tip",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0081.mp3"
+                },
+                {
+                    "ko": "포장",
+                    "romaja": "Pojang",
+                    "en": "Takeout",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0082.mp3"
+                },
+                {
+                    "ko": "배달",
+                    "romaja": "Baedal",
+                    "en": "Delivery",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0083.mp3"
+                },
+                {
+                    "ko": "숟가락",
+                    "romaja": "Sutgarak",
+                    "en": "Spoon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0084.mp3"
+                },
+                {
+                    "ko": "젓가락",
+                    "romaja": "Jeotgarak",
+                    "en": "Chopsticks",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0085.mp3"
+                },
+                {
+                    "ko": "포크",
+                    "romaja": "Pokeu",
+                    "en": "Fork",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0086.mp3"
+                },
+                {
+                    "ko": "냅킨",
+                    "romaja": "Naepkin",
+                    "en": "Napkin",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0087.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering - Phrases",
+            "words": [
+                {
+                    "ko": "메뉴판 주세요",
+                    "romaja": "Menyupan juseyo",
+                    "en": "Menu please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0088.mp3"
+                },
+                {
+                    "ko": "추천 메뉴가 뭐예요?",
+                    "romaja": "Chucheon menyuga mwoyeyo?",
+                    "en": "What's recommended?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0089.mp3"
+                },
+                {
+                    "ko": "이거 주세요",
+                    "romaja": "Ige juseyo",
+                    "en": "This please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0090.mp3"
+                },
+                {
+                    "ko": "주문할게요",
+                    "romaja": "Jumunhalgeyo",
+                    "en": "I'll order",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0091.mp3"
+                },
+                {
+                    "ko": "이거 매워요?",
+                    "romaja": "Igeo maewoyo?",
+                    "en": "Is this spicy?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0092.mp3"
+                },
+                {
+                    "ko": "몇 명이에요?",
+                    "romaja": "Myeot myeongieyo?",
+                    "en": "How many people?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0093.mp3"
+                },
+                {
+                    "ko": "두 명이에요",
+                    "romaja": "Du myeongieyo",
+                    "en": "Party of two",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0094.mp3"
+                },
+                {
+                    "ko": "자리 있나요?",
+                    "romaja": "Jari innayo?",
+                    "en": "Do you have seats?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0095.mp3"
+                },
+                {
+                    "ko": "예약했습니다",
+                    "romaja": "Yeyakhaesseumnida",
+                    "en": "I have a reservation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0096.mp3"
+                },
+                {
+                    "ko": "포장되나요?",
+                    "romaja": "Pojangdoenayo?",
+                    "en": "Can I get takeout?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0097.mp3"
+                },
+                {
+                    "ko": "배달되나요?",
+                    "romaja": "Baedaldoenayo?",
+                    "en": "Do you deliver?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0098.mp3"
+                },
+                {
+                    "ko": "계산서 주세요",
+                    "romaja": "Gyesanseo juseyo",
+                    "en": "Check please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0099.mp3"
+                },
+                {
+                    "ko": "따로 계산할게요",
+                    "romaja": "Ttaro gyesanhalgeyo",
+                    "en": "Separate checks",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0100.mp3"
+                },
+                {
+                    "ko": "같이 계산할게요",
+                    "romaja": "Gachi gyesanhalgeyo",
+                    "en": "Together please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0101.mp3"
+                },
+                {
+                    "ko": "물 좀 더 주세요",
+                    "romaja": "Mul jom deo juseyo",
+                    "en": "More water please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0102.mp3"
+                },
+                {
+                    "ko": "숟가락 주세요",
+                    "romaja": "Sutgarak juseyo",
+                    "en": "Spoon please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0103.mp3"
+                },
+                {
+                    "ko": "포크 있나요?",
+                    "romaja": "Pokeu innayo?",
+                    "en": "Do you have a fork?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0104.mp3"
+                },
+                {
+                    "ko": "얼마나 걸려요?",
+                    "romaja": "Eolmana geollyeoyo?",
+                    "en": "How long will it take?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0105.mp3"
+                },
+                {
+                    "ko": "나눠 먹게 앞접시 좀 주시겠어요?",
+                    "romaja": "Nanwo meokge apjeopsi jom jusigesseoyo?",
+                    "en": "Could we get separate plates for sharing?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0106.mp3"
+                },
+                {
+                    "ko": "주문을 십 분만 미뤄주시겠어요?",
+                    "romaja": "Jumuneul sip bunman mirwojusigesseoyo?",
+                    "en": "Can you hold the order for ten minutes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0107.mp3"
+                },
+                {
+                    "ko": "봉사료가 이미 포함되어 있나요?",
+                    "romaja": "Bongsaryoga imi pohamdoeeo innayo?",
+                    "en": "Is the service charge already included?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0108.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance",
+            "words": [
+                {
+                    "ko": "옷",
+                    "romaja": "Ot",
+                    "en": "Clothes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0109.mp3"
+                },
+                {
+                    "ko": "티셔츠",
+                    "romaja": "Tisyeocheu",
+                    "en": "T-shirt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0110.mp3"
+                },
+                {
+                    "ko": "바지",
+                    "romaja": "Baji",
+                    "en": "Pants",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0111.mp3"
+                },
+                {
+                    "ko": "치마",
+                    "romaja": "Chima",
+                    "en": "Skirt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0112.mp3"
+                },
+                {
+                    "ko": "원피스",
+                    "romaja": "Wonpiseu",
+                    "en": "Dress",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0113.mp3"
+                },
+                {
+                    "ko": "재킷",
+                    "romaja": "Jaekit",
+                    "en": "Jacket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0114.mp3"
+                },
+                {
+                    "ko": "코트",
+                    "romaja": "Koteu",
+                    "en": "Coat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0115.mp3"
+                },
+                {
+                    "ko": "신발",
+                    "romaja": "Sinbal",
+                    "en": "Shoes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0116.mp3"
+                },
+                {
+                    "ko": "모자",
+                    "romaja": "Moja",
+                    "en": "Hat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0117.mp3"
+                },
+                {
+                    "ko": "안경",
+                    "romaja": "Angyeong",
+                    "en": "Glasses",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0118.mp3"
+                },
+                {
+                    "ko": "손목시계",
+                    "romaja": "Sonmoksigye",
+                    "en": "Watch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0119.mp3"
+                },
+                {
+                    "ko": "가방",
+                    "romaja": "Gabang",
+                    "en": "Bag",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0120.mp3"
+                },
+                {
+                    "ko": "색깔",
+                    "romaja": "Saekkkal",
+                    "en": "Color",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0121.mp3"
+                },
+                {
+                    "ko": "사이즈",
+                    "romaja": "Saijeu",
+                    "en": "Size",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0122.mp3"
+                },
+                {
+                    "ko": "큰",
+                    "romaja": "Keun",
+                    "en": "Big",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0123.mp3"
+                },
+                {
+                    "ko": "작은",
+                    "romaja": "Jageun",
+                    "en": "Small",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0124.mp3"
+                },
+                {
+                    "ko": "예쁜",
+                    "romaja": "Yeppeun",
+                    "en": "Pretty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0125.mp3"
+                },
+                {
+                    "ko": "멋진",
+                    "romaja": "Meotjin",
+                    "en": "Cool",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0126.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance - Phrases",
+            "words": [
+                {
+                    "ko": "뭐 입을까요?",
+                    "romaja": "Mwo ibeulkkayo?",
+                    "en": "What should I wear?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0127.mp3"
+                },
+                {
+                    "ko": "예쁘네요",
+                    "romaja": "Yeppeuneyo",
+                    "en": "That's pretty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0128.mp3"
+                },
+                {
+                    "ko": "잘 어울려요",
+                    "romaja": "Jal eoullyeoyo",
+                    "en": "It suits you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0129.mp3"
+                },
+                {
+                    "ko": "이건 어때요?",
+                    "romaja": "Igeon eottaeyo?",
+                    "en": "How about this?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0130.mp3"
+                },
+                {
+                    "ko": "입어봐도 되나요?",
+                    "romaja": "Ibeobwado doenayo?",
+                    "en": "Can I try it on?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0131.mp3"
+                },
+                {
+                    "ko": "무슨 사이즈요?",
+                    "romaja": "Museun saijeuyo?",
+                    "en": "What size?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0132.mp3"
+                },
+                {
+                    "ko": "좀 작아요",
+                    "romaja": "Jom jagayo",
+                    "en": "A bit small",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0133.mp3"
+                },
+                {
+                    "ko": "좀 커요",
+                    "romaja": "Jom keoyo",
+                    "en": "A bit big",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0134.mp3"
+                },
+                {
+                    "ko": "딱 맞아요",
+                    "romaja": "Ttak majayo",
+                    "en": "It's a perfect fit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0135.mp3"
+                },
+                {
+                    "ko": "다른 색깔 있나요?",
+                    "romaja": "Dareun saekkkal innayo?",
+                    "en": "Other colors?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0136.mp3"
+                },
+                {
+                    "ko": "검은색 주세요",
+                    "romaja": "Geomeunsaek juseyo",
+                    "en": "Black please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0137.mp3"
+                },
+                {
+                    "ko": "흰색이 좋아요",
+                    "romaja": "Huinsaegi joayo",
+                    "en": "White is good",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0138.mp3"
+                },
+                {
+                    "ko": "이거 세일하나요?",
+                    "romaja": "Igeo seilhanayo?",
+                    "en": "Is this on sale?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0139.mp3"
+                },
+                {
+                    "ko": "머리 잘랐어요?",
+                    "romaja": "Meori jallasseoyo?",
+                    "en": "Did you cut your hair?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0140.mp3"
+                },
+                {
+                    "ko": "새 안경이에요?",
+                    "romaja": "Sae angyeongieyo?",
+                    "en": "New glasses?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0141.mp3"
+                },
+                {
+                    "ko": "옷을 잘 입으시네요",
+                    "romaja": "Oseul jal ibeusineyo",
+                    "en": "You dress well",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0142.mp3"
+                },
+                {
+                    "ko": "신발 멋지네요",
+                    "romaja": "Sinbal meotjineyo",
+                    "en": "Cool shoes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0143.mp3"
+                },
+                {
+                    "ko": "가방 예쁘네요",
+                    "romaja": "Gabang yeppeuneyo",
+                    "en": "Pretty bag",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0144.mp3"
+                },
+                {
+                    "ko": "더 작은 사이즈로 수선해 주시겠어요?",
+                    "romaja": "Deo jageun saijeuro suseonhae jusigesseoyo?",
+                    "en": "Could you tailor it to a smaller size?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0145.mp3"
+                },
+                {
+                    "ko": "이 재킷과 어울리는 것을 찾고 있어요",
+                    "romaja": "I jaekitgwa eoullineun geoseul chatgo isseoyo",
+                    "en": "I'm looking for something that matches this jacket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/03/ko_0146.mp3"
+                }
+            ]
+        }
+    ]
+}

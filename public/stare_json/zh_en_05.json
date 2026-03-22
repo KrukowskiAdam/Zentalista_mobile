@@ -1,0 +1,1091 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 05 - Daily Life & Shopping",
+    "categories": [
+        {
+            "name": "Shopping & Money",
+            "words": [
+                {
+                    "en": "Money",
+                    "zh": "钱。",
+                    "pinyin": "Qián",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0001.mp3"
+                },
+                {
+                    "en": "Price",
+                    "zh": "价格。",
+                    "pinyin": "Jiàgé",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0002.mp3"
+                },
+                {
+                    "en": "Cheap",
+                    "zh": "便宜。",
+                    "pinyin": "Piányi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0003.mp3"
+                },
+                {
+                    "en": "Expensive",
+                    "zh": "贵。",
+                    "pinyin": "Guì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0004.mp3"
+                },
+                {
+                    "en": "Cost",
+                    "zh": "费用。",
+                    "pinyin": "fèiyòng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0005.mp3"
+                },
+                {
+                    "en": "Pay",
+                    "zh": "支付。",
+                    "pinyin": "zhīfù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0006.mp3"
+                },
+                {
+                    "en": "Buy",
+                    "zh": "买。",
+                    "pinyin": "mǎi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0007.mp3"
+                },
+                {
+                    "en": "Sell",
+                    "zh": "卖。",
+                    "pinyin": "mài",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0008.mp3"
+                },
+                {
+                    "en": "Cash",
+                    "zh": "现金。",
+                    "pinyin": "Xiànjīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0009.mp3"
+                },
+                {
+                    "en": "Card",
+                    "zh": "卡。",
+                    "pinyin": "kǎ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0010.mp3"
+                },
+                {
+                    "en": "Change",
+                    "zh": "零钱。",
+                    "pinyin": "língqián",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0011.mp3"
+                },
+                {
+                    "en": "Receipt",
+                    "zh": "收据。",
+                    "pinyin": "shōujù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0012.mp3"
+                },
+                {
+                    "en": "Discount",
+                    "zh": "折扣。",
+                    "pinyin": "zhékòu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0013.mp3"
+                },
+                {
+                    "en": "Sale",
+                    "zh": "促销。",
+                    "pinyin": "cùxiāo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0014.mp3"
+                },
+                {
+                    "en": "Free",
+                    "zh": "免费。",
+                    "pinyin": "miǎnfèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0015.mp3"
+                },
+                {
+                    "en": "Total",
+                    "zh": "总计。",
+                    "pinyin": "zǒngjì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0016.mp3"
+                },
+                {
+                    "en": "Tax",
+                    "zh": "税。",
+                    "pinyin": "shuì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0017.mp3"
+                },
+                {
+                    "en": "Wallet",
+                    "zh": "钱包。",
+                    "pinyin": "qiánbāo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0018.mp3"
+                },
+                {
+                    "en": "Sales tax",
+                    "zh": "消费税。",
+                    "pinyin": "xiāofèishuì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0019.mp3"
+                },
+                {
+                    "en": "Refund",
+                    "zh": "退款。",
+                    "pinyin": "tuìkuǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0020.mp3"
+                },
+                {
+                    "en": "Exchange policy",
+                    "zh": "换货政策。",
+                    "pinyin": "huànhuò zhèngcè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0021.mp3"
+                },
+                {
+                    "en": "Store credit",
+                    "zh": "商店积分。",
+                    "pinyin": "shāngdiàn jīfēn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0022.mp3"
+                },
+                {
+                    "en": "Fitting room",
+                    "zh": "试衣间。",
+                    "pinyin": "shìyījiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0023.mp3"
+                },
+                {
+                    "en": "Size guide",
+                    "zh": "尺码指南。",
+                    "pinyin": "chǐmǎ zhǐnán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0024.mp3"
+                },
+                {
+                    "en": "Loyalty card",
+                    "zh": "会员卡。",
+                    "pinyin": "huìyuánkǎ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0025.mp3"
+                },
+                {
+                    "en": "Cashier",
+                    "zh": "收银员。",
+                    "pinyin": "shōuyínyuán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0026.mp3"
+                },
+                {
+                    "en": "Self-checkout",
+                    "zh": "自助结账。",
+                    "pinyin": "zìzhù jiézhàng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0027.mp3"
+                },
+                {
+                    "en": "Price tag",
+                    "zh": "价格标签。",
+                    "pinyin": "jiàgé biāoqiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0028.mp3"
+                },
+                {
+                    "en": "Coupon",
+                    "zh": "优惠券。",
+                    "pinyin": "yōuhuìquàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0029.mp3"
+                },
+                {
+                    "en": "Gift wrap",
+                    "zh": "礼品包装。",
+                    "pinyin": "lǐpǐn bāozhuāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0030.mp3"
+                },
+                {
+                    "en": "Delivery option",
+                    "zh": "配送选项。",
+                    "pinyin": "pèisòng xuǎnxiàng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0031.mp3"
+                },
+                {
+                    "en": "Installment",
+                    "zh": "分期付款。",
+                    "pinyin": "fēnqī fùkuǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0032.mp3"
+                },
+                {
+                    "en": "Wire transfer",
+                    "zh": "电汇。",
+                    "pinyin": "diànhuì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0033.mp3"
+                },
+                {
+                    "en": "Bank fee",
+                    "zh": "银行手续费。",
+                    "pinyin": "yínháng shǒuxùfèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0034.mp3"
+                },
+                {
+                    "en": "Budget",
+                    "zh": "预算。",
+                    "pinyin": "yùsuàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0035.mp3"
+                },
+                {
+                    "en": "Spending limit",
+                    "zh": "消费限额。",
+                    "pinyin": "xiāofèi xiàn'é",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0036.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Shopping & Money - Phrases",
+            "words": [
+                {
+                    "en": "How much is it?",
+                    "zh": "多少钱？",
+                    "pinyin": "Duōshǎo qián?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0037.mp3"
+                },
+                {
+                    "en": "It's too expensive",
+                    "zh": "太贵了。",
+                    "pinyin": "Tài guì le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0038.mp3"
+                },
+                {
+                    "en": "Do you have something cheaper?",
+                    "zh": "有便宜点的吗？",
+                    "pinyin": "Yǒu piányi diǎn de ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0039.mp3"
+                },
+                {
+                    "en": "Can I pay by card?",
+                    "zh": "可以刷卡吗？",
+                    "pinyin": "Kěyǐ shuākǎ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0040.mp3"
+                },
+                {
+                    "en": "Cash only",
+                    "zh": "只收现金。",
+                    "pinyin": "Zhǐ shōu xiànjīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0041.mp3"
+                },
+                {
+                    "en": "Do you have change?",
+                    "zh": "你有零钱吗？",
+                    "pinyin": "Nǐ yǒu língqián ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0042.mp3"
+                },
+                {
+                    "en": "Receipt please",
+                    "zh": "请给我收据。",
+                    "pinyin": "Qǐng gěi wǒ shōujù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0043.mp3"
+                },
+                {
+                    "en": "Is there a discount?",
+                    "zh": "有折扣吗？",
+                    "pinyin": "Yǒu zhékòu ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0044.mp3"
+                },
+                {
+                    "en": "Is it on sale?",
+                    "zh": "在打折吗？",
+                    "pinyin": "Zài dǎzhé ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0045.mp3"
+                },
+                {
+                    "en": "Is it free?",
+                    "zh": "是免费的吗？",
+                    "pinyin": "Shì miǎnfèi de ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0046.mp3"
+                },
+                {
+                    "en": "What's the total?",
+                    "zh": "总共多少钱？",
+                    "pinyin": "Zǒnggòng duōshǎo qián?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0047.mp3"
+                },
+                {
+                    "en": "Including tax?",
+                    "zh": "含税吗？",
+                    "pinyin": "Hánshuì ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0048.mp3"
+                },
+                {
+                    "en": "I'll buy it",
+                    "zh": "我买了。",
+                    "pinyin": "Wǒ mǎi le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0049.mp3"
+                },
+                {
+                    "en": "I'm just looking",
+                    "zh": "我只是看看。",
+                    "pinyin": "Wǒ zhǐshì kànkan",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0050.mp3"
+                },
+                {
+                    "en": "Can I return it?",
+                    "zh": "可以退货吗？",
+                    "pinyin": "Kěyǐ tuìhuò ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0051.mp3"
+                },
+                {
+                    "en": "Do you have a warranty?",
+                    "zh": "有保修吗？",
+                    "pinyin": "Yǒu bǎoxiū ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0052.mp3"
+                },
+                {
+                    "en": "Where do I pay?",
+                    "zh": "在哪里付款？",
+                    "pinyin": "Zài nǎlǐ fùkuǎn?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0053.mp3"
+                },
+                {
+                    "en": "Keep the change",
+                    "zh": "不用找了。",
+                    "pinyin": "Bùyòng zhǎo le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0054.mp3"
+                },
+                {
+                    "en": "Is the tax included?",
+                    "zh": "税包含在内了吗？",
+                    "pinyin": "Shuì bāohán zài nèi le ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0055.mp3"
+                },
+                {
+                    "en": "Could I get a receipt?",
+                    "zh": "可以给我收据吗？",
+                    "pinyin": "Kěyǐ gěi wǒ shōujù ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0056.mp3"
+                },
+                {
+                    "en": "What is your return policy?",
+                    "zh": "你们的退货政策是什么？",
+                    "pinyin": "Nǐmen de tuìhuò zhèngcè shì shénme?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0057.mp3"
+                },
+                {
+                    "en": "Do you offer store credit?",
+                    "zh": "你们提供商店积分吗？",
+                    "pinyin": "Nǐmen tígōng shāngdiàn jīfēn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0058.mp3"
+                },
+                {
+                    "en": "Where is the fitting room?",
+                    "zh": "试衣间在哪里？",
+                    "pinyin": "Shìyījiān zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0059.mp3"
+                },
+                {
+                    "en": "Do you have this in my size?",
+                    "zh": "这个有我的尺码吗？",
+                    "pinyin": "Zhège yǒu wǒ de chǐmǎ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0060.mp3"
+                },
+                {
+                    "en": "Can I use this coupon?",
+                    "zh": "我可以用这张优惠券吗？",
+                    "pinyin": "Wǒ kěyǐ yòng zhè zhāng yōuhuìquàn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0061.mp3"
+                },
+                {
+                    "en": "Is delivery available?",
+                    "zh": "可以配送吗？",
+                    "pinyin": "Kěyǐ pèisòng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0062.mp3"
+                },
+                {
+                    "en": "Can I pay in installments?",
+                    "zh": "可以分期付款吗？",
+                    "pinyin": "Kěyǐ fēnqī fùkuǎn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0063.mp3"
+                },
+                {
+                    "en": "Please stay within our budget",
+                    "zh": "请控制在我们的预算内。",
+                    "pinyin": "Qǐng kòngzhì zài wǒmen de yùsuàn nèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0064.mp3"
+                },
+                {
+                    "en": "Could you double-check the price at the register?",
+                    "zh": "能在收银台复核一下价格吗？",
+                    "pinyin": "Néng zài shōuyíntái fùhé yīxià jiàgé ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0065.mp3"
+                },
+                {
+                    "en": "I'm comparing a few options online before I buy",
+                    "zh": "我买之前想在网上比较几个选项。",
+                    "pinyin": "Wǒ mǎi zhīqián xiǎng zài wǎngshàng bǐjiào jǐ gè xuǎnxiàng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0066.mp3"
+                },
+                {
+                    "en": "Can you hold this item for the next two hours?",
+                    "zh": "可以帮我保留这件商品两小时吗？",
+                    "pinyin": "Kěyǐ bāng wǒ bǎoliú zhè jiàn shāngpǐn liǎng xiǎoshí ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0067.mp3"
+                },
+                {
+                    "en": "Is there a student discount available?",
+                    "zh": "有学生折扣吗？",
+                    "pinyin": "Yǒu xuésheng zhékòu ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0068.mp3"
+                },
+                {
+                    "en": "Could you email me the receipt as well?",
+                    "zh": "可以把收据也发邮件给我吗？",
+                    "pinyin": "Kěyǐ bǎ shōujù yě fā yóujiàn gěi wǒ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0069.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Places in City",
+            "words": [
+                {
+                    "en": "City",
+                    "zh": "城市。",
+                    "pinyin": "chéngshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0070.mp3"
+                },
+                {
+                    "en": "Town",
+                    "zh": "城镇。",
+                    "pinyin": "chéngzhèn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0071.mp3"
+                },
+                {
+                    "en": "Village",
+                    "zh": "村庄。",
+                    "pinyin": "cūnzhuāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0072.mp3"
+                },
+                {
+                    "en": "Street",
+                    "zh": "街道。",
+                    "pinyin": "jiēdào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0073.mp3"
+                },
+                {
+                    "en": "Building",
+                    "zh": "建筑物。",
+                    "pinyin": "jiànzhùwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0074.mp3"
+                },
+                {
+                    "en": "Store",
+                    "zh": "商店。",
+                    "pinyin": "shāngdiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0075.mp3"
+                },
+                {
+                    "en": "Shop",
+                    "zh": "店铺。",
+                    "pinyin": "diànpù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0076.mp3"
+                },
+                {
+                    "en": "Market",
+                    "zh": "市场。",
+                    "pinyin": "shìchǎng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0077.mp3"
+                },
+                {
+                    "en": "Bank",
+                    "zh": "银行。",
+                    "pinyin": "Yínháng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0078.mp3"
+                },
+                {
+                    "en": "Post office",
+                    "zh": "邮局。",
+                    "pinyin": "Yóujú",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0079.mp3"
+                },
+                {
+                    "en": "Hospital",
+                    "zh": "医院。",
+                    "pinyin": "Yīyuàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0080.mp3"
+                },
+                {
+                    "en": "Pharmacy",
+                    "zh": "药房。",
+                    "pinyin": "Yàofáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0081.mp3"
+                },
+                {
+                    "en": "Library",
+                    "zh": "图书馆。",
+                    "pinyin": "Túshūguǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0082.mp3"
+                },
+                {
+                    "en": "Park",
+                    "zh": "公园。",
+                    "pinyin": "Gōngyuán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0083.mp3"
+                },
+                {
+                    "en": "Station",
+                    "zh": "车站。",
+                    "pinyin": "Chēzhàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0084.mp3"
+                },
+                {
+                    "en": "Bus stop",
+                    "zh": "公交车站。",
+                    "pinyin": "gōngjiāo chēzhàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0085.mp3"
+                },
+                {
+                    "en": "Taxi",
+                    "zh": "出租车。",
+                    "pinyin": "Chūzūchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0086.mp3"
+                },
+                {
+                    "en": "Metro",
+                    "zh": "地铁。",
+                    "pinyin": "dìtiě",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0087.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Places in City - Phrases",
+            "words": [
+                {
+                    "en": "Where's the bank?",
+                    "zh": "银行在哪里？",
+                    "pinyin": "Yínháng zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0088.mp3"
+                },
+                {
+                    "en": "Where's the post office?",
+                    "zh": "邮局在哪里？",
+                    "pinyin": "Yóujú zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0089.mp3"
+                },
+                {
+                    "en": "Is there a pharmacy nearby?",
+                    "zh": "附近有药房吗？",
+                    "pinyin": "Fùjìn yǒu yàofáng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0090.mp3"
+                },
+                {
+                    "en": "How do I get to the station?",
+                    "zh": "怎么去车站？",
+                    "pinyin": "Zěnme qù chēzhàn?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0091.mp3"
+                },
+                {
+                    "en": "Where's the nearest bus stop?",
+                    "zh": "最近的公交车站在哪里？",
+                    "pinyin": "Zuìjìn de gōngjiāochē zhàn zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0092.mp3"
+                },
+                {
+                    "en": "Can I walk there?",
+                    "zh": "我可以走着去吗？",
+                    "pinyin": "Wǒ kěyǐ zǒuzhe qù ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0093.mp3"
+                },
+                {
+                    "en": "Do I need a taxi?",
+                    "zh": "我需要坐出租车吗？",
+                    "pinyin": "Wǒ xūyào zuò chūzūchē ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0094.mp3"
+                },
+                {
+                    "en": "Is there a metro?",
+                    "zh": "有地铁吗？",
+                    "pinyin": "Yǒu dìtiě ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0095.mp3"
+                },
+                {
+                    "en": "Where should we eat?",
+                    "zh": "我们该去哪里吃？",
+                    "pinyin": "Wǒmen gāi qù nǎlǐ chī?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0096.mp3"
+                },
+                {
+                    "en": "Are you going to the library?",
+                    "zh": "您要去图书馆吗？",
+                    "pinyin": "Nín yào qù túshūguǎn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0097.mp3"
+                },
+                {
+                    "en": "Let's go to the park",
+                    "zh": "我们去公园吧。",
+                    "pinyin": "Wǒmen qù gōngyuán ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0098.mp3"
+                },
+                {
+                    "en": "I'm going shopping",
+                    "zh": "我要去购物。",
+                    "pinyin": "Wǒ yào qù gòuwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0099.mp3"
+                },
+                {
+                    "en": "Is the store open?",
+                    "zh": "商店开门了吗？",
+                    "pinyin": "Shāngdiàn kāimén le ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0100.mp3"
+                },
+                {
+                    "en": "What time does it close?",
+                    "zh": "几点关门？",
+                    "pinyin": "Jǐdiǎn guānmén?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0101.mp3"
+                },
+                {
+                    "en": "Is it far?",
+                    "zh": "远吗？",
+                    "pinyin": "Yuǎn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0102.mp3"
+                },
+                {
+                    "en": "It's very close",
+                    "zh": "很近。",
+                    "pinyin": "Hěn jìn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0103.mp3"
+                },
+                {
+                    "en": "It's crowded today",
+                    "zh": "今天人很多。",
+                    "pinyin": "Jīntiān rén hěn duō",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0104.mp3"
+                },
+                {
+                    "en": "Let's meet in the city",
+                    "zh": "我们在城里见面吧。",
+                    "pinyin": "Wǒmen zài chénglǐ jiànmiàn ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0105.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Home & Living",
+            "words": [
+                {
+                    "en": "Home",
+                    "zh": "家。",
+                    "pinyin": "Jiā",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0106.mp3"
+                },
+                {
+                    "en": "House",
+                    "zh": "房子。",
+                    "pinyin": "Fángzi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0107.mp3"
+                },
+                {
+                    "en": "Apartment",
+                    "zh": "公寓。",
+                    "pinyin": "Gōngyù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0108.mp3"
+                },
+                {
+                    "en": "Room",
+                    "zh": "房间。",
+                    "pinyin": "Fángjiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0109.mp3"
+                },
+                {
+                    "en": "Kitchen",
+                    "zh": "厨房。",
+                    "pinyin": "Chúfáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0110.mp3"
+                },
+                {
+                    "en": "Bathroom",
+                    "zh": "浴室。",
+                    "pinyin": "Yùshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0111.mp3"
+                },
+                {
+                    "en": "Bedroom",
+                    "zh": "卧室。",
+                    "pinyin": "Wòshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0112.mp3"
+                },
+                {
+                    "en": "Living room",
+                    "zh": "客厅。",
+                    "pinyin": "Kètīng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0113.mp3"
+                },
+                {
+                    "en": "Door",
+                    "zh": "门。",
+                    "pinyin": "Mén",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0114.mp3"
+                },
+                {
+                    "en": "Window",
+                    "zh": "窗户。",
+                    "pinyin": "Chuānghu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0115.mp3"
+                },
+                {
+                    "en": "Floor",
+                    "zh": "地板。",
+                    "pinyin": "Dìbǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0116.mp3"
+                },
+                {
+                    "en": "Wall",
+                    "zh": "墙。",
+                    "pinyin": "Qiáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0117.mp3"
+                },
+                {
+                    "en": "Roof",
+                    "zh": "屋顶。",
+                    "pinyin": "Wūdǐng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0118.mp3"
+                },
+                {
+                    "en": "Furniture",
+                    "zh": "家具。",
+                    "pinyin": "Jiājù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0119.mp3"
+                },
+                {
+                    "en": "Table",
+                    "zh": "桌子。",
+                    "pinyin": "Zhuōzi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0120.mp3"
+                },
+                {
+                    "en": "Chair",
+                    "zh": "椅子。",
+                    "pinyin": "Yǐzi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0121.mp3"
+                },
+                {
+                    "en": "Bed",
+                    "zh": "床。",
+                    "pinyin": "Chuáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0122.mp3"
+                },
+                {
+                    "en": "Sofa",
+                    "zh": "沙发。",
+                    "pinyin": "Shāfā",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0123.mp3"
+                },
+                {
+                    "en": "Groceries",
+                    "zh": "杂货。",
+                    "pinyin": "Záhuò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0124.mp3"
+                },
+                {
+                    "en": "Errand",
+                    "zh": "差事。",
+                    "pinyin": "Chāishì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0125.mp3"
+                },
+                {
+                    "en": "Appointment",
+                    "zh": "预约。",
+                    "pinyin": "Yùyuē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0126.mp3"
+                },
+                {
+                    "en": "Queue",
+                    "zh": "排队。",
+                    "pinyin": "Páiduì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0127.mp3"
+                },
+                {
+                    "en": "Package",
+                    "zh": "包裹。",
+                    "pinyin": "Bāoguǒ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0128.mp3"
+                },
+                {
+                    "en": "Delivery slot",
+                    "zh": "送货时间段。",
+                    "pinyin": "Sònghuò shíjiān duàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0129.mp3"
+                },
+                {
+                    "en": "Subscription",
+                    "zh": "订阅。",
+                    "pinyin": "Dìngyuè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0130.mp3"
+                },
+                {
+                    "en": "Utility bill",
+                    "zh": "水电费账单。",
+                    "pinyin": "Shuǐdiànfèi zhàngdān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0131.mp3"
+                },
+                {
+                    "en": "Due date",
+                    "zh": "截止日期。",
+                    "pinyin": "Jiézhǐ rìqī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0132.mp3"
+                },
+                {
+                    "en": "Budget sheet",
+                    "zh": "预算表。",
+                    "pinyin": "Yùsuàn biǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0133.mp3"
+                },
+                {
+                    "en": "Rent",
+                    "zh": "租金。",
+                    "pinyin": "Zūjīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0134.mp3"
+                },
+                {
+                    "en": "Lease",
+                    "zh": "租约。",
+                    "pinyin": "Zūyuē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0135.mp3"
+                },
+                {
+                    "en": "Landlord",
+                    "zh": "房东。",
+                    "pinyin": "Fángdōng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0136.mp3"
+                },
+                {
+                    "en": "Roommate",
+                    "zh": "室友。",
+                    "pinyin": "Shìyǒu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0137.mp3"
+                },
+                {
+                    "en": "Repair request",
+                    "zh": "维修申请。",
+                    "pinyin": "Wéixiū shēnqǐng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0138.mp3"
+                },
+                {
+                    "en": "Meter reading",
+                    "zh": "抄表。",
+                    "pinyin": "Chāobiǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0139.mp3"
+                },
+                {
+                    "en": "Recycling bin",
+                    "zh": "回收箱。",
+                    "pinyin": "Huíshōu xiāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0140.mp3"
+                },
+                {
+                    "en": "Trash pickup",
+                    "zh": "垃圾收集。",
+                    "pinyin": "Lājī shōují",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0141.mp3"
+                },
+                {
+                    "en": "Public service",
+                    "zh": "公共服务。",
+                    "pinyin": "Gōnggòng fúwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0142.mp3"
+                },
+                {
+                    "en": "Community center",
+                    "zh": "社区中心。",
+                    "pinyin": "Shèqū zhōngxīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0143.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Home & Living - Phrases",
+            "words": [
+                {
+                    "en": "Do you live here?",
+                    "zh": "您住在这里吗？",
+                    "pinyin": "Nín zhù zài zhèlǐ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0144.mp3"
+                },
+                {
+                    "en": "I live nearby",
+                    "zh": "我住在附近。",
+                    "pinyin": "Wǒ zhù zài fùjìn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0145.mp3"
+                },
+                {
+                    "en": "Where do you live?",
+                    "zh": "您住在哪里？",
+                    "pinyin": "Nín zhù zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0146.mp3"
+                },
+                {
+                    "en": "I live in an apartment",
+                    "zh": "我住在公寓里。",
+                    "pinyin": "Wǒ zhù zài gōngyù lǐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0147.mp3"
+                },
+                {
+                    "en": "Do you have a house?",
+                    "zh": "您有房子吗？",
+                    "pinyin": "Nín yǒu fángzi ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0148.mp3"
+                },
+                {
+                    "en": "How many rooms?",
+                    "zh": "有多少个房间？",
+                    "pinyin": "Yǒu duōshǎo gè fángjiān?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0149.mp3"
+                },
+                {
+                    "en": "It's a nice place",
+                    "zh": "这是个好地方。",
+                    "pinyin": "Zhè shì gè hǎo dìfang",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0150.mp3"
+                },
+                {
+                    "en": "Can I come in?",
+                    "zh": "我可以进来吗？",
+                    "pinyin": "Wǒ kěyǐ jìnlái ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0151.mp3"
+                },
+                {
+                    "en": "Please come in",
+                    "zh": "请进。",
+                    "pinyin": "Qǐng jìn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0152.mp3"
+                },
+                {
+                    "en": "Make yourself at home",
+                    "zh": "别客气，像在自己家一样。",
+                    "pinyin": "Bié kèqì, xiàng zài zìjǐ jiā yíyàng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0153.mp3"
+                },
+                {
+                    "en": "Where's the bathroom?",
+                    "zh": "洗手间在哪里？",
+                    "pinyin": "Xǐshǒujiān zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0154.mp3"
+                },
+                {
+                    "en": "Is it clean?",
+                    "zh": "干净吗？",
+                    "pinyin": "Gānjìng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0155.mp3"
+                },
+                {
+                    "en": "I need to clean",
+                    "zh": "我需要打扫。",
+                    "pinyin": "Wǒ xūyào dǎsǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0156.mp3"
+                },
+                {
+                    "en": "It's messy",
+                    "zh": "很乱。",
+                    "pinyin": "Hěn luàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0157.mp3"
+                },
+                {
+                    "en": "It's very tidy",
+                    "zh": "很整洁。",
+                    "pinyin": "Hěn zhěngjié",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0158.mp3"
+                },
+                {
+                    "en": "I'm at home",
+                    "zh": "我在家。",
+                    "pinyin": "Wǒ zài jiā",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0159.mp3"
+                },
+                {
+                    "en": "I'm going home",
+                    "zh": "我要回家。",
+                    "pinyin": "Wǒ yào huíjiā",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0160.mp3"
+                },
+                {
+                    "en": "Welcome to my home",
+                    "zh": "欢迎来我家。",
+                    "pinyin": "Huānyíng lái wǒ jiā",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0161.mp3"
+                },
+                {
+                    "en": "I have to run a few errands",
+                    "zh": "我得去办点事。",
+                    "pinyin": "Wǒ děi qù bàn diǎn shì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0162.mp3"
+                },
+                {
+                    "en": "Can you sign for this package?",
+                    "zh": "您能签收这个包裹吗？",
+                    "pinyin": "Nín néng qiānshōu zhège bāoguǒ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0163.mp3"
+                },
+                {
+                    "en": "The bill is due tomorrow",
+                    "zh": "账单明天到期。",
+                    "pinyin": "Zhàngdān míngtiān dàoqī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0164.mp3"
+                },
+                {
+                    "en": "Let's split the utilities",
+                    "zh": "我们分摊水电费吧。",
+                    "pinyin": "Wǒmen fēntān shuǐdiànfèi ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0165.mp3"
+                },
+                {
+                    "en": "Please remind me about the appointment",
+                    "zh": "请提醒我关于预约的事。",
+                    "pinyin": "Qǐng tíxǐng wǒ guānyú yùyuē de shì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0166.mp3"
+                },
+                {
+                    "en": "I left a note for the landlord",
+                    "zh": "我给房东留了张便条。",
+                    "pinyin": "Wǒ gěi fángdōng liú le zhāng biàntiáo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0167.mp3"
+                },
+                {
+                    "en": "When is trash pickup?",
+                    "zh": "什么时候收垃圾？",
+                    "pinyin": "Shénme shíhou shōu lājī?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0168.mp3"
+                },
+                {
+                    "en": "We need to recycle these bottles",
+                    "zh": "我们需要回收这些瓶子。",
+                    "pinyin": "Wǒmen xūyào huíshōu zhèxiē píngzi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0169.mp3"
+                },
+                {
+                    "en": "Is the community center open?",
+                    "zh": "社区中心开门了吗？",
+                    "pinyin": "Shèqū zhōngxīn kāimén le ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0170.mp3"
+                },
+                {
+                    "en": "Can you help me with the meter reading?",
+                    "zh": "您能帮我抄表吗？",
+                    "pinyin": "Nín néng bāng wǒ chāobiǎo ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0171.mp3"
+                },
+                {
+                    "en": "Can you water the plants while I'm away?",
+                    "zh": "我不在的时候您能帮我浇花吗？",
+                    "pinyin": "Wǒ bú zài de shíhou nín néng bāng wǒ jiāohuā ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0172.mp3"
+                },
+                {
+                    "en": "Let's set up a cleaning schedule for the week",
+                    "zh": "我们制定这周的清洁计划吧。",
+                    "pinyin": "Wǒmen zhìdìng zhè zhōu de qīngjié jìhuà ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0173.mp3"
+                },
+                {
+                    "en": "Please remind me to pay the rent on Friday",
+                    "zh": "请提醒我周五付房租。",
+                    "pinyin": "Qǐng tíxǐng wǒ Zhōuwǔ fù fángzū",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0174.mp3"
+                },
+                {
+                    "en": "Can we share the cost of new furniture?",
+                    "zh": "我们可以分摊新家具的费用吗？",
+                    "pinyin": "Wǒmen kěyǐ fēntān xīn jiājù de fèiyòng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0175.mp3"
+                },
+                {
+                    "en": "I'll message you when I'm almost home",
+                    "zh": "我快到家时给您发信息。",
+                    "pinyin": "Wǒ kuài dào jiā shí gěi nín fā xìnxī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/05/zh_0176.mp3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1110 @@
+{
+  "categories": [
+    {
+      "name": "Home - Rooms & Structure",
+      "words": [
+        {
+          "es": "casa",
+          "en": "house",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_casa.mp3"
+        },
+        {
+          "es": "apartamento",
+          "en": "apartment",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_apartamento.mp3"
+        },
+        {
+          "es": "sala de estar",
+          "en": "living room",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_sala_de_estar.mp3"
+        },
+        {
+          "es": "salón",
+          "en": "lounge",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_sal%C3%B3n.mp3"
+        },
+        {
+          "es": "baño",
+          "en": "bathroom",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_ba%C3%B1o.mp3"
+        },
+        {
+          "es": "comedor",
+          "en": "dining room",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_comedor.mp3"
+        },
+        {
+          "es": "oficina",
+          "en": "office",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_oficina.mp3"
+        },
+        {
+          "es": "balcón",
+          "en": "balcony",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_balc%C3%B3n.mp3"
+        },
+        {
+          "es": "terraza",
+          "en": "terrace",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_terraza.mp3"
+        },
+        {
+          "es": "jardín",
+          "en": "garden",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_jard%C3%ADn.mp3"
+        },
+        {
+          "es": "garaje",
+          "en": "garage",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_garaje.mp3"
+        },
+        {
+          "es": "pared",
+          "en": "wall",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_pared.mp3"
+        },
+        {
+          "es": "techo",
+          "en": "ceiling",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_techo.mp3"
+        },
+        {
+          "es": "suelo",
+          "en": "floor",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_suelo.mp3"
+        },
+        {
+          "es": "pasillo",
+          "en": "hallway",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_pasillo.mp3"
+        },
+        {
+          "es": "ático",
+          "en": "attic",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_%C3%A1tico.mp3"
+        },
+        {
+          "es": "sótano",
+          "en": "basement",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_s%C3%B3tano.mp3"
+        },
+        {
+          "es": "puerta",
+          "en": "door",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_puerta.mp3"
+        },
+        {
+          "es": "ventana",
+          "en": "window",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0019_ventana.mp3"
+        },
+        {
+          "es": "habitación",
+          "en": "room",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0020_habitaci%C3%B3n.mp3"
+        },
+        {
+          "es": "recibidor",
+          "en": "entrance hall",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0021_recibidor.mp3"
+        },
+        {
+          "es": "chimenea",
+          "en": "fireplace",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0022_chimenea.mp3"
+        },
+        {
+          "es": "patio",
+          "en": "courtyard",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0023_patio.mp3"
+        },
+        {
+          "es": "vestíbulo",
+          "en": "lobby",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0024_vest%C3%ADbulo.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Home - Furniture & Decor",
+      "words": [
+        {
+          "es": "cama",
+          "en": "bed",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_cama.mp3"
+        },
+        {
+          "es": "sofá",
+          "en": "sofa",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_sof%C3%A1.mp3"
+        },
+        {
+          "es": "mesa",
+          "en": "table",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_mesa.mp3"
+        },
+        {
+          "es": "silla",
+          "en": "chair",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_silla.mp3"
+        },
+        {
+          "es": "armario",
+          "en": "wardrobe",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_armario.mp3"
+        },
+        {
+          "es": "lámpara",
+          "en": "lamp",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_l%C3%A1mpara.mp3"
+        },
+        {
+          "es": "alfombra",
+          "en": "carpet",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_alfombra.mp3"
+        },
+        {
+          "es": "cortina",
+          "en": "curtain",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_cortina.mp3"
+        },
+        {
+          "es": "espejo",
+          "en": "mirror",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_espejo.mp3"
+        },
+        {
+          "es": "cuadro",
+          "en": "picture",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_cuadro.mp3"
+        },
+        {
+          "es": "radio",
+          "en": "radio",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_radio.mp3"
+        },
+        {
+          "es": "ordenador",
+          "en": "computer",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_ordenador.mp3"
+        },
+        {
+          "es": "cojín",
+          "en": "cushion",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_coj%C3%ADn.mp3"
+        },
+        {
+          "es": "estantería",
+          "en": "shelf",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_estanter%C3%ADa.mp3"
+        },
+        {
+          "es": "televisor",
+          "en": "television",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_televisor.mp3"
+        },
+        {
+          "es": "reloj",
+          "en": "clock",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_reloj.mp3"
+        },
+        {
+          "es": "escritorio",
+          "en": "desk"
+        },
+        {
+            "es": "cómoda",
+            "en": "dresser"
+          }
+      ]
+    },
+    {
+      "name": "Home - Appliances & Cleaning",
+      "words": [
+        {
+          "es": "nevera",
+          "en": "refrigerator",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_nevera.mp3"
+        },
+        {
+          "es": "horno",
+          "en": "oven",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_horno.mp3"
+        },
+        {
+          "es": "microondas",
+          "en": "microwave",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_microondas.mp3"
+        },
+        {
+          "es": "lavadora",
+          "en": "washing machine",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_lavadora.mp3"
+        },
+        {
+          "es": "plancha",
+          "en": "iron",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_plancha.mp3"
+        },
+        {
+          "es": "aire acondicionado",
+          "en": "air conditioner",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_aire_acondicionado.mp3"
+        },
+        {
+          "es": "calefacción",
+          "en": "heating",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_calefacci%C3%B3n.mp3"
+        },
+        {
+          "es": "hervidor",
+          "en": "kettle",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_hervidor.mp3"
+        },
+        {
+          "es": "escoba",
+          "en": "broom",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_escoba.mp3"
+        },
+        {
+          "es": "fregona",
+          "en": "mop",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_fregona.mp3"
+        },
+        {
+          "es": "basura",
+          "en": "garbage",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_basura.mp3"
+        },
+        {
+          "es": "cubo",
+          "en": "bucket",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_cubo.mp3"
+        },
+        {
+          "es": "trapo",
+          "en": "cloth",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_trapo.mp3"
+        },
+        {
+          "es": "aspiradora",
+          "en": "vacuum cleaner",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_aspiradora.mp3"
+        },
+        {
+          "es": "detergente",
+          "en": "detergent",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_detergente.mp3"
+        },
+        {
+          "es": "enchufe",
+          "en": "plug",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_enchufe.mp3"
+        },
+        {
+          "es": "lavavajillas",
+          "en": "dishwasher"
+        },
+        {
+          "es": "secadora",
+          "en": "dryer"
+        }
+      ]
+    },
+    {
+      "name": "Home - Kitchen Items",
+      "words": [
+        {
+          "es": "plato",
+          "en": "plate",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_plato.mp3"
+        },
+        {
+          "es": "vaso",
+          "en": "glass",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_vaso.mp3"
+        },
+        {
+          "es": "taza",
+          "en": "cup",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_taza.mp3"
+        },
+        {
+          "es": "cuchillo",
+          "en": "knife",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_cuchillo.mp3"
+        },
+        {
+          "es": "tenedor",
+          "en": "fork",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_tenedor.mp3"
+        },
+        {
+          "es": "sartén",
+          "en": "pan",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_sart%C3%A9n.mp3"
+        },
+        {
+          "es": "cacerola",
+          "en": "pot",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_cacerola.mp3"
+        },
+        {
+          "es": "cuenco",
+          "en": "bowl",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_cuenco.mp3"
+        },
+        {
+          "es": "bandeja",
+          "en": "tray",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_bandeja.mp3"
+        },
+        {
+          "es": "servilleta",
+          "en": "napkin",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_servilleta.mp3"
+        },
+        {
+          "es": "mantel",
+          "en": "tablecloth",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_mantel.mp3"
+        },
+        {
+          "es": "abridor",
+          "en": "bottle opener",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_abridor.mp3"
+        },
+        {
+          "es": "colador",
+          "en": "strainer",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_colador.mp3"
+        },
+        {
+          "es": "tabla de cortar",
+          "en": "cutting board",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_tabla_de_cortar.mp3"
+        },
+        {
+          "es": "cucharón",
+          "en": "ladle",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_cuchar%C3%B3n.mp3"
+        },
+        {
+          "es": "batidora",
+          "en": "blender",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_batidora.mp3"
+        },
+        {
+          "es": "tupper",
+          "en": "container",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_tupper.mp3"
+        },
+        {
+          "es": "espátula",
+          "en": "spatula",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_esp%C3%A1tula.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Home - Bathroom Items",
+      "words": [
+        {
+          "es": "toalla",
+          "en": "towel",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_toalla.mp3"
+        },
+        {
+          "es": "jabón",
+          "en": "soap",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_jab%C3%B3n.mp3"
+        },
+        {
+          "es": "champú",
+          "en": "shampoo",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_champ%C3%BA.mp3"
+        },
+        {
+          "es": "cepillo",
+          "en": "brush",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_cepillo.mp3"
+        },
+        {
+          "es": "pasta de dientes",
+          "en": "toothpaste",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_pasta_de_dientes.mp3"
+        },
+        {
+          "es": "bañera",
+          "en": "bathtub",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_ba%C3%B1era.mp3"
+        },
+        {
+          "es": "inodoro",
+          "en": "toilet",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_inodoro.mp3"
+        },
+        {
+          "es": "lavabo",
+          "en": "sink",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_lavabo.mp3"
+        },
+        {
+          "es": "papel higiénico",
+          "en": "toilet paper",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_papel_higi%C3%A9nico.mp3"
+        },
+        {
+          "es": "cepillo de dientes",
+          "en": "toothbrush",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_cepillo_de_dientes.mp3"
+        },
+        {
+          "es": "ducha",
+          "en": "shower",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/05/es_0011_ducha.mp3"
+        },
+        {
+          "es": "alfombra de baño",
+          "en": "bath mat",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_alfombra_de_ba%C3%B1o.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Home - Questions & Answers",
+      "words": [
+        {
+          "es": "¿Dónde está la cocina?",
+          "en": "Where is the kitchen?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_d%C3%B3nde_est%C3%A1_la_cocina.mp3"
+        },
+        {
+          "es": "Está al lado del salón.",
+          "en": "It's next to the living room.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_est%C3%A1_al_lado_del_sal%C3%B3n.mp3"
+        },
+        {
+          "es": "¿Cuántas habitaciones tienes?",
+          "en": "How many rooms do you have?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_cu%C3%A1ntas_habitaciones_tienes.mp3"
+        },
+        {
+          "es": "Tengo tres dormitorios.",
+          "en": "I have three bedrooms.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_tengo_tres_dormitorios.mp3"
+        },
+        {
+          "es": "¿Tienes jardín?",
+          "en": "Do you have a garden?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_tienes_jard%C3%ADn.mp3"
+        },
+        {
+          "es": "No, pero tengo balcón.",
+          "en": "No, but I have a balcony.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_no_pero_tengo_balc%C3%B3n.mp3"
+        },
+        {
+          "es": "¿Dónde duermes?",
+          "en": "Where do you sleep?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_d%C3%B3nde_duermes.mp3"
+        },
+        {
+          "es": "Duermo en mi dormitorio.",
+          "en": "I sleep in my bedroom.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_duermo_en_mi_dormitorio.mp3"
+        },
+        {
+          "es": "¿Hay microondas?",
+          "en": "Is there a microwave?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_hay_microondas.mp3"
+        },
+        {
+          "es": "Sí, está en la cocina.",
+          "en": "Yes, it's in the kitchen.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_s%C3%AD_est%C3%A1_en_la_cocina.mp3"
+        },
+        {
+          "es": "¿Dónde preparas la comida?",
+          "en": "Where do you prepare food?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_d%C3%B3nde_preparas_la_comida.mp3"
+        },
+        {
+          "es": "Preparo la comida en la cocina.",
+          "en": "I prepare food in the kitchen.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_preparo_la_comida_en_la_cocina.mp3"
+        },
+        {
+          "es": "¿Qué hay en la nevera?",
+          "en": "What's in the fridge?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_qu%C3%A9_hay_en_la_nevera.mp3"
+        },
+        {
+          "es": "Hay leche y queso.",
+          "en": "There's milk and cheese.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_hay_leche_y_queso.mp3"
+        },
+        {
+          "es": "¿Dónde vives?",
+          "en": "Where do you live?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_d%C3%B3nde_vives.mp3"
+        },
+        {
+          "es": "Vivo en el centro de la ciudad.",
+          "en": "I live in the city center.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_vivo_en_el_centro_de_la_ciudad.mp3"
+        },
+        {
+          "es": "¿Tu casa es grande?",
+          "en": "Is your house big?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_tu_casa_es_grande.mp3"
+        },
+        {
+          "es": "No, mi casa es pequeña.",
+          "en": "No, my house is small.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_no_mi_casa_es_peque%C3%B1a.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Home - Phrases",
+      "words": [
+        {
+          "es": "Limpio la casa los sábados.",
+          "en": "I clean the house on Saturdays.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_limpio_la_casa_los_s%C3%A1bados.mp3"
+        },
+        {
+          "es": "Estoy cocinando pasta para cenar.",
+          "en": "I'm cooking pasta for dinner.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_estoy_cocinando_pasta_para_cenar.mp3"
+        },
+        {
+          "es": "Mi hermana se está duchando.",
+          "en": "My sister is showering.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_mi_hermana_se_est%C3%A1_duchando.mp3"
+        },
+        {
+          "es": "Necesito limpiar mi habitación.",
+          "en": "I need to clean my room.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_necesito_limpiar_mi_habitaci%C3%B3n.mp3"
+        },
+        {
+          "es": "Voy a hacer la cama.",
+          "en": "I'm going to make the bed.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_voy_a_hacer_la_cama.mp3"
+        },
+        {
+          "es": "Estoy lavando los platos.",
+          "en": "I'm washing the dishes.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_estoy_lavando_los_platos.mp3"
+        },
+        {
+          "es": "Mi madre está aspirando.",
+          "en": "My mother is vacuuming.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_mi_madre_est%C3%A1_aspirando.mp3"
+        },
+        {
+          "es": "Guardamos la ropa en el armario.",
+          "en": "We keep clothes in the wardrobe.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_guardamos_la_ropa_en_el_armario.mp3"
+        },
+        {
+          "es": "Leo libros en la sala de estar.",
+          "en": "I read books in the living room.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_leo_libros_en_la_sala_de_estar.mp3"
+        },
+        {
+          "es": "Duermo bien en mi cama nueva.",
+          "en": "I sleep well in my new bed.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_duermo_bien_en_mi_cama_nueva.mp3"
+        },
+        {
+          "es": "Abro las ventanas por la mañana.",
+          "en": "I open the windows in the morning.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_abro_las_ventanas_por_la_ma%C3%B1ana.mp3"
+        },
+        {
+          "es": "Uso la lavadora los lunes.",
+          "en": "I use the washing machine on Mondays.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_uso_la_lavadora_los_lunes.mp3"
+        },
+        {
+          "es": "Pongo la mesa para cenar.",
+          "en": "I set the table for dinner.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_pongo_la_mesa_para_cenar.mp3"
+        },
+        {
+          "es": "Estoy barriendo el suelo.",
+          "en": "I'm sweeping the floor.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_estoy_barriendo_el_suelo.mp3"
+        },
+        {
+          "es": "Voy a planchar la ropa.",
+          "en": "I'm going to iron the clothes.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_voy_a_planchar_la_ropa.mp3"
+        },
+        {
+          "es": "Voy al baño.",
+          "en": "I'm going to the bathroom.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_voy_al_ba%C3%B1o.mp3"
+        },
+        {
+          "es": "Abro la puerta.",
+          "en": "I open the door.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_abro_la_puerta.mp3"
+        },
+        {
+          "es": "Cierro las cortinas.",
+          "en": "I close the curtains.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_cierro_las_cortinas.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Food - Basics",
+      "words": [
+        {
+          "es": "pan",
+          "en": "bread",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_pan.mp3"
+        },
+        {
+          "es": "arroz",
+          "en": "rice",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_arroz.mp3"
+        },
+        {
+          "es": "pasta",
+          "en": "pasta",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_pasta.mp3"
+        },
+        {
+          "es": "huevo",
+          "en": "egg",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_huevo.mp3"
+        },
+        {
+          "es": "leche",
+          "en": "milk",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_leche.mp3"
+        },
+        {
+          "es": "queso",
+          "en": "cheese",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_queso.mp3"
+        },
+        {
+          "es": "yogur",
+          "en": "yogurt",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_yogur.mp3"
+        },
+        {
+          "es": "carne",
+          "en": "meat",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_carne.mp3"
+        },
+        {
+          "es": "pollo",
+          "en": "chicken",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_pollo.mp3"
+        },
+        {
+          "es": "pescado",
+          "en": "fish",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_pescado.mp3"
+        },
+        {
+          "es": "cerdo",
+          "en": "pork",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_cerdo.mp3"
+        },
+        {
+          "es": "jamón",
+          "en": "ham",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_jam%C3%B3n.mp3"
+        },
+        {
+          "es": "atún",
+          "en": "tuna",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_at%C3%BAn.mp3"
+        },
+        {
+          "es": "salmón",
+          "en": "salmon",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_salm%C3%B3n.mp3"
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_agua.mp3"
+        },
+        {
+          "es": "café",
+          "en": "coffee",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_caf%C3%A9.mp3"
+        },
+        {
+          "es": "té",
+          "en": "tea",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_t%C3%A9.mp3"
+        },
+        {
+          "es": "mantequilla",
+          "en": "butter",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_mantequilla.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Food - Fruits & Vegetables",
+      "words": [
+        {
+          "es": "manzana",
+          "en": "apple",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_manzana.mp3"
+        },
+        {
+          "es": "plátano",
+          "en": "banana",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_pl%C3%A1tano.mp3"
+        },
+        {
+          "es": "naranja",
+          "en": "orange",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_naranja.mp3"
+        },
+        {
+          "es": "fresa",
+          "en": "strawberry",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_fresa.mp3"
+        },
+        {
+          "es": "limón",
+          "en": "lemon",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_lim%C3%B3n.mp3"
+        },
+        {
+          "es": "pera",
+          "en": "pear",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_pera.mp3"
+        },
+        {
+          "es": "uva",
+          "en": "grape",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_uva.mp3"
+        },
+        {
+          "es": "tomate",
+          "en": "tomato",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_tomate.mp3"
+        },
+        {
+          "es": "patata",
+          "en": "potato",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_patata.mp3"
+        },
+        {
+          "es": "zanahoria",
+          "en": "carrot",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_zanahoria.mp3"
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_cebolla.mp3"
+        },
+        {
+          "es": "calabacín",
+          "en": "zucchini",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/05/es_0012_calabac%C3%ADn.mp3"
+        },
+        {
+          "es": "lechuga",
+          "en": "lettuce",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_lechuga.mp3"
+        },
+        {
+          "es": "pepino",
+          "en": "cucumber",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_pepino.mp3"
+        },
+        {
+          "es": "melón",
+          "en": "melon",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_mel%C3%B3n.mp3"
+        },
+        {
+          "es": "sandía",
+          "en": "watermelon",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_sand%C3%ADa.mp3"
+        },
+        {
+          "es": "espinaca",
+          "en": "spinach",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_espinaca.mp3"
+        },
+        {
+          "es": "brócoli",
+          "en": "broccoli",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_br%C3%B3coli.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Food - Cooking & Spices",
+      "words": [
+        {
+          "es": "sal",
+          "en": "salt",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_sal.mp3"
+        },
+        {
+          "es": "aceite",
+          "en": "oil",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_aceite.mp3"
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_az%C3%BAcar.mp3"
+        },
+        {
+          "es": "vinagre",
+          "en": "vinegar",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_vinagre.mp3"
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_ajo.mp3"
+        },
+        {
+          "es": "perejil",
+          "en": "parsley",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_perejil.mp3"
+        },
+        {
+          "es": "orégano",
+          "en": "oregano",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_or%C3%A9gano.mp3"
+        },
+        {
+          "es": "freír",
+          "en": "to fry",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_fre%C3%ADr.mp3"
+        },
+        {
+          "es": "hornear",
+          "en": "to bake",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_hornear.mp3"
+        },
+        {
+          "es": "pimienta",
+          "en": "pepper",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_pimienta.mp3"
+        },
+        {
+          "es": "laurel",
+          "en": "bay leaf",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_laurel.mp3"
+        },
+        {
+          "es": "cocer",
+          "en": "to boil",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_cocer.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Food - Questions & Answers",
+      "words": [
+        {
+          "es": "¿Qué quieres para desayunar?",
+          "en": "What do you want for breakfast?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_qu%C3%A9_quieres_para_desayunar.mp3"
+        },
+        {
+          "es": "Quiero tostadas con mantequilla.",
+          "en": "I want toast with butter.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_quiero_tostadas_con_mantequilla.mp3"
+        },
+        {
+          "es": "¿Tienes hambre?",
+          "en": "Are you hungry?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_tienes_hambre.mp3"
+        },
+        {
+          "es": "Sí, tengo mucha hambre.",
+          "en": "Yes, I'm very hungry.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_s%C3%AD_tengo_mucha_hambre.mp3"
+        },
+        {
+          "es": "¿Qué hay para cenar?",
+          "en": "What's for dinner?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_qu%C3%A9_hay_para_cenar.mp3"
+        },
+        {
+          "es": "Hay pollo con arroz.",
+          "en": "There's chicken with rice.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_hay_pollo_con_arroz.mp3"
+        },
+        {
+          "es": "¿Te gusta la comida picante?",
+          "en": "Do you like spicy food?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_te_gusta_la_comida_picante.mp3"
+        },
+        {
+          "es": "No, prefiero la comida suave.",
+          "en": "No, I prefer mild food.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_no_prefiero_la_comida_suave.mp3"
+        },
+        {
+          "es": "¿Dónde compraste estas frutas?",
+          "en": "Where did you buy these fruits?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_d%C3%B3nde_compraste_estas_frutas.mp3"
+        },
+        {
+          "es": "Las compré en el mercado.",
+          "en": "I bought them at the market.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_las_compr%C3%A9_en_el_mercado.mp3"
+        },
+        {
+          "es": "¿Quieres algo de comer?",
+          "en": "Do you want something to eat?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_quieres_algo_de_comer.mp3"
+        },
+        {
+          "es": "Sí, tengo un poco de hambre.",
+          "en": "Yes, I'm a bit hungry.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_s%C3%AD_tengo_un_poco_de_hambre.mp3"
+        },
+        {
+          "es": "¿Sabes cocinar?",
+          "en": "Do you know how to cook?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_sabes_cocinar.mp3"
+        },
+        {
+          "es": "Sí, cocino todos los días.",
+          "en": "Yes, I cook every day.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_s%C3%AD_cocino_todos_los_d%C3%ADas.mp3"
+        },
+        {
+          "es": "¿Quieres beber algo?",
+          "en": "Do you want to drink something?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_quieres_beber_algo.mp3"
+        },
+        {
+          "es": "Sí, quiero agua.",
+          "en": "Yes, I want water.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_s%C3%AD_quiero_agua.mp3"
+        },
+        {
+          "es": "¿Hay postre?",
+          "en": "Is there dessert?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_hay_postre.mp3"
+        },
+        {
+          "es": "Sí, hay tarta.",
+          "en": "Yes, there is cake.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_s%C3%AD_hay_tarta.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Food - Phrases",
+      "words": [
+        {
+          "es": "Desayuno cereales con leche.",
+          "en": "I have cereal with milk for breakfast.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0001_desayuno_cereales_con_leche.mp3"
+        },
+        {
+          "es": "Estoy cocinando pasta italiana.",
+          "en": "I'm cooking Italian pasta.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0002_estoy_cocinando_pasta_italiana.mp3"
+        },
+        {
+          "es": "Compro verduras frescas en el mercado.",
+          "en": "I buy fresh vegetables at the market.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0003_compro_verduras_frescas_en_el_mercado.mp3"
+        },
+        {
+          "es": "Bebo agua durante las comidas.",
+          "en": "I drink water during meals.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0004_bebo_agua_durante_las_comidas.mp3"
+        },
+        {
+          "es": "Me gusta el café por la mañana.",
+          "en": "I like coffee in the morning.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0005_me_gusta_el_caf%C3%A9_por_la_ma%C3%B1ana.mp3"
+        },
+        {
+          "es": "Pongo azúcar en el té.",
+          "en": "I put sugar in my tea.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0006_pongo_az%C3%BAcar_en_el_t%C3%A9.mp3"
+        },
+        {
+          "es": "Las manzanas están muy dulces.",
+          "en": "The apples are very sweet.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0007_las_manzanas_est%C3%A1n_muy_dulces.mp3"
+        },
+        {
+          "es": "Necesito ir de compras mañana.",
+          "en": "I need to go shopping tomorrow.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0008_necesito_ir_de_compras_ma%C3%B1ana.mp3"
+        },
+        {
+          "es": "El pan está fresco y caliente.",
+          "en": "The bread is fresh and warm.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0009_el_pan_est%C3%A1_fresco_y_caliente.mp3"
+        },
+        {
+          "es": "Guardo la comida en la nevera.",
+          "en": "I keep food in the fridge.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0010_guardo_la_comida_en_la_nevera.mp3"
+        },
+        {
+          "es": "Como fruta después de comer.",
+          "en": "I eat fruit after meals.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0011_como_fruta_despu%C3%A9s_de_comer.mp3"
+        },
+        {
+          "es": "Estoy preparando la cena.",
+          "en": "I'm preparing dinner.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0012_estoy_preparando_la_cena.mp3"
+        },
+        {
+          "es": "Mi plato favorito es la paella.",
+          "en": "My favorite dish is paella.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0013_mi_plato_favorito_es_la_paella.mp3"
+        },
+        {
+          "es": "Corto el pan con un cuchillo.",
+          "en": "I cut bread with a knife.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0014_corto_el_pan_con_un_cuchillo.mp3"
+        },
+        {
+          "es": "Sirvo la comida en platos.",
+          "en": "I serve food on plates.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0015_sirvo_la_comida_en_platos.mp3"
+        },
+        {
+          "es": "Me gusta cocinar con aceite.",
+          "en": "I like cooking with oil.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0016_me_gusta_cocinar_con_aceite.mp3"
+        },
+        {
+          "es": "Guardo las verduras en la nevera.",
+          "en": "I keep the vegetables in the fridge.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0017_guardo_las_verduras_en_la_nevera.mp3"
+        },
+        {
+          "es": "Preparo el desayuno temprano.",
+          "en": "I prepare breakfast early.",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/06/es_0018_preparo_el_desayuno_temprano.mp3"
+        }
+      ]
+    }
+  ]
+}

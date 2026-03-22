@@ -1,0 +1,745 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 07 - Health & Body",
+    "categories": [
+        {
+            "name": "Body Parts",
+            "words": [
+                {
+                    "en": "Head",
+                    "ru": "Голова",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0001.mp3"
+                },
+                {
+                    "en": "Hair",
+                    "ru": "Волосы",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0002.mp3"
+                },
+                {
+                    "en": "Face",
+                    "ru": "Лицо",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0003.mp3"
+                },
+                {
+                    "en": "Eye",
+                    "ru": "Глаз",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0004.mp3"
+                },
+                {
+                    "en": "Nose",
+                    "ru": "Нос",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0005.mp3"
+                },
+                {
+                    "en": "Ear",
+                    "ru": "Ухо",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0006.mp3"
+                },
+                {
+                    "en": "Mouth",
+                    "ru": "Рот",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0007.mp3"
+                },
+                {
+                    "en": "Tooth",
+                    "ru": "Зуб",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0008.mp3"
+                },
+                {
+                    "en": "Neck",
+                    "ru": "Шея",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0009.mp3"
+                },
+                {
+                    "en": "Shoulder",
+                    "ru": "Плечо",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0010.mp3"
+                },
+                {
+                    "en": "Arm",
+                    "ru": "Рука",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0011.mp3"
+                },
+                {
+                    "en": "Hand",
+                    "ru": "Кисть руки",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0012.mp3"
+                },
+                {
+                    "en": "Finger",
+                    "ru": "Палец",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0013.mp3"
+                },
+                {
+                    "en": "Leg",
+                    "ru": "Нога",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0014.mp3"
+                },
+                {
+                    "en": "Knee",
+                    "ru": "Колено",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0015.mp3"
+                },
+                {
+                    "en": "Foot",
+                    "ru": "Стопа",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0016.mp3"
+                },
+                {
+                    "en": "Back",
+                    "ru": "Спина",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0017.mp3"
+                },
+                {
+                    "en": "Stomach",
+                    "ru": "Живот",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0018.mp3"
+                },
+                {
+                    "en": "Body",
+                    "ru": "Тело",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0019.mp3"
+                },
+                {
+                    "en": "Skin",
+                    "ru": "Кожа",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0020.mp3"
+                },
+                {
+                    "en": "Blood",
+                    "ru": "Кровь",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0021.mp3"
+                },
+                {
+                    "en": "Voice",
+                    "ru": "Голос",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0022.mp3"
+                },
+                {
+                    "en": "Heart",
+                    "ru": "Сердце",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0023.mp3"
+                },
+                {
+                    "en": "Brain",
+                    "ru": "Мозг",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0024.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Body Parts - Phrases",
+            "words": [
+                {
+                    "en": "My head hurts.",
+                    "ru": "У меня болит голова",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0151.mp3"
+                },
+                {
+                    "en": "I cut my hair.",
+                    "ru": "Я подстригся",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0152.mp3"
+                },
+                {
+                    "en": "Wash your face.",
+                    "ru": "Умойся",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0153.mp3"
+                },
+                {
+                    "en": "Close your eyes.",
+                    "ru": "Закрой глаза",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0154.mp3"
+                },
+                {
+                    "en": "Open your mouth.",
+                    "ru": "Открой рот",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0025.mp3"
+                },
+                {
+                    "en": "Brush your teeth.",
+                    "ru": "Почисти зубы",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0026.mp3"
+                },
+                {
+                    "en": "My neck hurts.",
+                    "ru": "У меня болит шея",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0027.mp3"
+                },
+                {
+                    "en": "Relax your shoulders.",
+                    "ru": "Расслабь плечи",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0028.mp3"
+                },
+                {
+                    "en": "Raise your arms.",
+                    "ru": "Подними руки",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0029.mp3"
+                },
+                {
+                    "en": "Hold my hand.",
+                    "ru": "Держи меня за руку",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0030.mp3"
+                },
+                {
+                    "en": "Cross your legs.",
+                    "ru": "Скрести ноги",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0032.mp3"
+                },
+                {
+                    "en": "My knee hurts.",
+                    "ru": "У меня болит колено",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0033.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine",
+            "words": [
+                {
+                    "en": "Health",
+                    "ru": "Здоровье",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0037.mp3"
+                },
+                {
+                    "en": "Doctor",
+                    "ru": "Врач",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0038.mp3"
+                },
+                {
+                    "en": "Hospital",
+                    "ru": "Больница",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0039.mp3"
+                },
+                {
+                    "en": "Pharmacy",
+                    "ru": "Аптека",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0040.mp3"
+                },
+                {
+                    "en": "Medicine",
+                    "ru": "Лекарство",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0041.mp3"
+                },
+                {
+                    "en": "Pill",
+                    "ru": "Таблетка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0042.mp3"
+                },
+                {
+                    "en": "Injection",
+                    "ru": "Укол",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0043.mp3"
+                },
+                {
+                    "en": "Bandage",
+                    "ru": "Бинт",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0044.mp3"
+                },
+                {
+                    "en": "Sick",
+                    "ru": "Больной",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0045.mp3"
+                },
+                {
+                    "en": "Pain",
+                    "ru": "Боль",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0046.mp3"
+                },
+                {
+                    "en": "Fever",
+                    "ru": "Жар",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0047.mp3"
+                },
+                {
+                    "en": "Cold",
+                    "ru": "Простуда",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0048.mp3"
+                },
+                {
+                    "en": "Cough",
+                    "ru": "Кашель",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0049.mp3"
+                },
+                {
+                    "en": "Headache",
+                    "ru": "Головная боль",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0050.mp3"
+                },
+                {
+                    "en": "Allergy",
+                    "ru": "Аллергия",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0051.mp3"
+                },
+                {
+                    "en": "Injury",
+                    "ru": "Травма",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0052.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine - Phrases",
+            "words": [
+                {
+                    "en": "How's your health?",
+                    "ru": "Как здоровье?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0055.mp3"
+                },
+                {
+                    "en": "Where's the hospital?",
+                    "ru": "Где больница?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0057.mp3"
+                },
+                {
+                    "en": "Is there a pharmacy nearby?",
+                    "ru": "Есть аптека поблизости?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0058.mp3"
+                },
+                {
+                    "en": "I need medicine.",
+                    "ru": "Мне нужно лекарство",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0059.mp3"
+                },
+                {
+                    "en": "Take this pill.",
+                    "ru": "Прими эту таблетку",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0060.mp3"
+                },
+                {
+                    "en": "I need an injection.",
+                    "ru": "Мне нужен укол",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0061.mp3"
+                },
+                {
+                    "en": "Put on a bandage.",
+                    "ru": "Наложи повязку",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0062.mp3"
+                },
+                {
+                    "en": "I'm sick.",
+                    "ru": "Я болен",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0063.mp3"
+                },
+                {
+                    "en": "Are you in pain?",
+                    "ru": "Тебе больно?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0064.mp3"
+                },
+                {
+                    "en": "I have a fever.",
+                    "ru": "У меня температура",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0065.mp3"
+                },
+                {
+                    "en": "I have a cold.",
+                    "ru": "Я простудился",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0066.mp3"
+                },
+                {
+                    "en": "I'm coughing.",
+                    "ru": "Я кашляю",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0067.mp3"
+                },
+                {
+                    "en": "I have a headache.",
+                    "ru": "У меня болит голова",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0068.mp3"
+                },
+                {
+                    "en": "Do you have allergies?",
+                    "ru": "У вас есть аллергия?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0069.mp3"
+                },
+                {
+                    "en": "I'm injured.",
+                    "ru": "Я ранен",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0070.mp3"
+                },
+                {
+                    "en": "It's an emergency!",
+                    "ru": "Это срочно!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0071.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities",
+            "words": [
+                {
+                    "en": "Exercise",
+                    "ru": "Тренировка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0077.mp3"
+                },
+                {
+                    "en": "Sleep",
+                    "ru": "Сон",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0078.mp3"
+                },
+                {
+                    "en": "Rest",
+                    "ru": "Отдых",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0079.mp3"
+                },
+                {
+                    "en": "Diet",
+                    "ru": "Диета",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0080.mp3"
+                },
+                {
+                    "en": "Energy",
+                    "ru": "Энергия",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0082.mp3"
+                },
+                {
+                    "en": "Strong",
+                    "ru": "Сильный",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0083.mp3"
+                },
+                {
+                    "en": "Weak",
+                    "ru": "Слабый",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0084.mp3"
+                },
+                {
+                    "en": "Healthy",
+                    "ru": "Здоровый",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0085.mp3"
+                },
+                {
+                    "en": "Fit",
+                    "ru": "В форме",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0086.mp3"
+                },
+                {
+                    "en": "Walk",
+                    "ru": "Прогулка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0087.mp3"
+                },
+                {
+                    "en": "Run",
+                    "ru": "Бег",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0088.mp3"
+                },
+                {
+                    "en": "Stretch",
+                    "ru": "Растяжка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0089.mp3"
+                },
+                {
+                    "en": "Breathe",
+                    "ru": "Дышать",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0090.mp3"
+                },
+                {
+                    "en": "Relax",
+                    "ru": "Расслабляться",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0091.mp3"
+                },
+                {
+                    "en": "Wellness",
+                    "ru": "Благополучие",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0093.mp3"
+                },
+                {
+                    "en": "Recovery",
+                    "ru": "Восстановление",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0094.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities - Phrases",
+            "words": [
+                {
+                    "en": "Do you exercise?",
+                    "ru": "Ты занимаешься спортом?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0095.mp3"
+                },
+                {
+                    "en": "Did you sleep well?",
+                    "ru": "Ты хорошо спал?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0096.mp3"
+                },
+                {
+                    "en": "Get some rest.",
+                    "ru": "Отдохни",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0097.mp3"
+                },
+                {
+                    "en": "I'm on a diet.",
+                    "ru": "Я на диете",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0098.mp3"
+                },
+                {
+                    "en": "Drink more water.",
+                    "ru": "Пей больше воды",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0099.mp3"
+                },
+                {
+                    "en": "I have no energy.",
+                    "ru": "У меня нет сил",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0100.mp3"
+                },
+                {
+                    "en": "You're strong.",
+                    "ru": "Ты сильный",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0101.mp3"
+                },
+                {
+                    "en": "I feel weak.",
+                    "ru": "Я чувствую слабость",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0102.mp3"
+                },
+                {
+                    "en": "Stay healthy.",
+                    "ru": "Будь здоров",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0103.mp3"
+                },
+                {
+                    "en": "Are you fit?",
+                    "ru": "Ты в форме?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0104.mp3"
+                },
+                {
+                    "en": "Let's go for a walk.",
+                    "ru": "Пойдем гулять",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0105.mp3"
+                },
+                {
+                    "en": "I'm going running.",
+                    "ru": "Я иду бегать",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0106.mp3"
+                },
+                {
+                    "en": "Let's stretch.",
+                    "ru": "Давай потянемся",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0107.mp3"
+                },
+                {
+                    "en": "Breathe deeply.",
+                    "ru": "Дыши глубоко",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0108.mp3"
+                },
+                {
+                    "en": "Just relax.",
+                    "ru": "Просто расслабься",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0109.mp3"
+                },
+                {
+                    "en": "I'm so stressed.",
+                    "ru": "Я в таком стрессе",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0110.mp3"
+                },
+                {
+                    "en": "Focus on wellness.",
+                    "ru": "Сосредоточься на здоровье",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0111.mp3"
+                },
+                {
+                    "en": "Full recovery.",
+                    "ru": "Полное выздоровление",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0112.mp3"
+                },
+                {
+                    "en": "Let's track our sleep for a week.",
+                    "ru": "Давай следить за сном неделю",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0114.mp3"
+                },
+                {
+                    "en": "I'm trying to cut back on sugar.",
+                    "ru": "Я стараюсь есть меньше сахара",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0115.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies",
+            "words": [
+                {
+                    "en": "Clinic",
+                    "ru": "Клиника",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0117.mp3"
+                },
+                {
+                    "en": "Appointment card",
+                    "ru": "Талон",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0118.mp3"
+                },
+                {
+                    "en": "Emergency room",
+                    "ru": "Травмпункт",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0119.mp3"
+                },
+                {
+                    "en": "Sprain",
+                    "ru": "Растяжение",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0120.mp3"
+                },
+                {
+                    "en": "Fracture",
+                    "ru": "Перелом",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0121.mp3"
+                },
+                {
+                    "en": "Painkiller",
+                    "ru": "Обезболивающее",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0122.mp3"
+                },
+                {
+                    "en": "Thermometer",
+                    "ru": "Термометр",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0123.mp3"
+                },
+                {
+                    "en": "Rash",
+                    "ru": "Сыпь",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0124.mp3"
+                },
+                {
+                    "en": "Ambulance",
+                    "ru": "Скорая помощь",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0125.mp3"
+                },
+                {
+                    "en": "Paramedic",
+                    "ru": "Фельдшер",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0126.mp3"
+                },
+                {
+                    "en": "Insurance card",
+                    "ru": "Страховой полис",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0127.mp3"
+                },
+                {
+                    "en": "Prescription refill",
+                    "ru": "Продление рецепта",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0128.mp3"
+                },
+                {
+                    "en": "Blood pressure",
+                    "ru": "Давление",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0129.mp3"
+                },
+                {
+                    "en": "Breathing",
+                    "ru": "Дыхание",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0130.mp3"
+                },
+                {
+                    "en": "Vaccination",
+                    "ru": "Вакцинация",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0131.mp3"
+                },
+                {
+                    "en": "Injury report",
+                    "ru": "Отчет о травме",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0132.mp3"
+                },
+                {
+                    "en": "Recovery plan",
+                    "ru": "План реабилитации",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0133.mp3"
+                },
+                {
+                    "en": "Follow-up visit",
+                    "ru": "Повторный прием",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0134.mp3"
+                },
+                {
+                    "en": "Triage",
+                    "ru": "Сортировка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0135.mp3"
+                },
+                {
+                    "en": "Stitches",
+                    "ru": "Швы",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0136.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies - Phrases",
+            "words": [
+                {
+                    "en": "I need to see a doctor.",
+                    "ru": "Мне нужно к врачу",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0137.mp3"
+                },
+                {
+                    "en": "Where is the nearest clinic?",
+                    "ru": "Где ближайшая клиника?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0138.mp3"
+                },
+                {
+                    "en": "Please call an ambulance.",
+                    "ru": "Вызовите скорую",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0139.mp3"
+                },
+                {
+                    "en": "I think I sprained my ankle.",
+                    "ru": "Кажется, я подвернул лодыжку",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0140.mp3"
+                },
+                {
+                    "en": "I'm allergic to this medicine.",
+                    "ru": "У меня аллергия на это лекарство",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0141.mp3"
+                },
+                {
+                    "en": "Can I get a prescription refill?",
+                    "ru": "Можно продлить рецепт?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0142.mp3"
+                },
+                {
+                    "en": "My insurance card is here.",
+                    "ru": "Вот моя страховка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0143.mp3"
+                },
+                {
+                    "en": "Check my blood pressure, please.",
+                    "ru": "Измерьте давление, пожалуйста",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0144.mp3"
+                },
+                {
+                    "en": "He is having trouble breathing.",
+                    "ru": "Ему трудно дышать",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0145.mp3"
+                },
+                {
+                    "en": "When is the next vaccination?",
+                    "ru": "Когда следующая прививка?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0146.mp3"
+                },
+                {
+                    "en": "Please stay with me until help arrives.",
+                    "ru": "Побудьте со мной, пока не придет помощь",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0147.mp3"
+                },
+                {
+                    "en": "Can you call the emergency number for me?",
+                    "ru": "Позвоните в экстренную службу",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0148.mp3"
+                },
+                {
+                    "en": "I need directions to the emergency room.",
+                    "ru": "Как пройти в травмпункт?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0149.mp3"
+                },
+                {
+                    "en": "Please let my family know where I am.",
+                    "ru": "Сообщите семье, где я",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0150.mp3"
+                },
+                {
+                    "en": "Is it broken?",
+                    "ru": "Сломано?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0155.mp3"
+                },
+                {
+                    "en": "Stay calm.",
+                    "ru": "Сохраняйте спокойствие.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/07/ru_0156.mp3"
+                }
+            ]
+        }
+    ]
+}

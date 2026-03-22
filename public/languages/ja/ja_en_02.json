@@ -1,0 +1,1159 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 02 - Numbers & Time",
+    "categories": [
+        {
+            "name": "Numbers 0-20",
+            "words": [
+                {
+                    "en": "Zero",
+                    "ja": "零",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0001.mp3",
+                    "romaji": "Rei / Zero"
+                },
+                {
+                    "en": "One",
+                    "ja": "一",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0002.mp3",
+                    "romaji": "Ichi"
+                },
+                {
+                    "en": "Two",
+                    "ja": "二",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0003.mp3",
+                    "romaji": "Ni"
+                },
+                {
+                    "en": "Three",
+                    "ja": "三",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0004.mp3",
+                    "romaji": "San"
+                },
+                {
+                    "en": "Four",
+                    "ja": "四",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0005.mp3",
+                    "romaji": "Shi / Yon"
+                },
+                {
+                    "en": "Five",
+                    "ja": "五",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0006.mp3",
+                    "romaji": "Go"
+                },
+                {
+                    "en": "Six",
+                    "ja": "六",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0007.mp3",
+                    "romaji": "Roku"
+                },
+                {
+                    "en": "Seven",
+                    "ja": "七",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0008.mp3",
+                    "romaji": "Shichi / Nana"
+                },
+                {
+                    "en": "Eight",
+                    "ja": "八",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0009.mp3",
+                    "romaji": "Hachi"
+                },
+                {
+                    "en": "Nine",
+                    "ja": "九",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0010.mp3",
+                    "romaji": "Kyuu / Ku"
+                },
+                {
+                    "en": "Ten",
+                    "ja": "十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0011.mp3",
+                    "romaji": "Juu"
+                },
+                {
+                    "en": "Eleven",
+                    "ja": "十一",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0012.mp3",
+                    "romaji": "Juuichi"
+                },
+                {
+                    "en": "Twelve",
+                    "ja": "十二",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0013.mp3",
+                    "romaji": "Juuni"
+                },
+                {
+                    "en": "Thirteen",
+                    "ja": "十三",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0014.mp3",
+                    "romaji": "Juusan"
+                },
+                {
+                    "en": "Fourteen",
+                    "ja": "十四",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0015.mp3",
+                    "romaji": "Juuyon"
+                },
+                {
+                    "en": "Fifteen",
+                    "ja": "十五",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0016.mp3",
+                    "romaji": "Juugo"
+                },
+                {
+                    "en": "Sixteen",
+                    "ja": "十六",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0017.mp3",
+                    "romaji": "Juuroku"
+                },
+                {
+                    "en": "Seventeen",
+                    "ja": "十七",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0018.mp3",
+                    "romaji": "Juunana"
+                },
+                {
+                    "en": "Eighteen",
+                    "ja": "十八",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0019.mp3",
+                    "romaji": "Juuhachi"
+                },
+                {
+                    "en": "Nineteen",
+                    "ja": "十九",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0020.mp3",
+                    "romaji": "Juukyuu"
+                }
+            ]
+        },
+        {
+            "name": "Numbers 0-20 - Phrases",
+            "words": [
+                {
+                    "en": "How many?",
+                    "ja": "いくつですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0022.mp3",
+                    "romaji": "Ikutsu desu ka"
+                },
+                {
+                    "en": "Is there just one?",
+                    "ja": "一つだけですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0185.mp3",
+                    "romaji": "Hitotsu dake desu ka ?"
+                },
+                {
+                    "en": "Are there two people?",
+                    "ja": "二人いますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0023.mp3",
+                    "romaji": "Ni nin i masu ka ?"
+                },
+                {
+                    "en": "Three times.",
+                    "ja": "三回です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0025.mp3",
+                    "romaji": "Sankai desu"
+                },
+                {
+                    "en": "Four days.",
+                    "ja": "四日間",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0026.mp3",
+                    "romaji": "Yokkakan"
+                },
+                {
+                    "en": "Do we have five minutes?",
+                    "ja": "5分ありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0186.mp3",
+                    "romaji": "5 fun ari masu ka ?"
+                },
+                {
+                    "en": "Six months.",
+                    "ja": "六ヶ月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0028.mp3",
+                    "romaji": "Rokkagetsu"
+                },
+                {
+                    "en": "Seven years.",
+                    "ja": "七年",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0029.mp3",
+                    "romaji": "Shichinen"
+                },
+                {
+                    "en": "Is it eight o'clock?",
+                    "ja": "8時ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0187.mp3",
+                    "romaji": "8 ji desu ka ?"
+                },
+                {
+                    "en": "Nine hours.",
+                    "ja": "九時間",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0031.mp3",
+                    "romaji": "Kujikan"
+                },
+                {
+                    "en": "Does it cost ten dollars?",
+                    "ja": "10ドルかかりますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0188.mp3",
+                    "romaji": "10 doru kakari masu ka ?"
+                },
+                {
+                    "en": "Eleven items.",
+                    "ja": "十一個",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0033.mp3",
+                    "romaji": "Juuikko"
+                },
+                {
+                    "en": "Twelve months.",
+                    "ja": "十二ヶ月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0034.mp3",
+                    "romaji": "Juunikagetsu"
+                },
+                {
+                    "en": "How old are you?",
+                    "ja": "何歳ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0035.mp3",
+                    "romaji": "Nansai desu ka"
+                },
+                {
+                    "en": "Are you 20 years old?",
+                    "ja": "20歳ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0189.mp3",
+                    "romaji": "20 sai desu ka ?"
+                },
+                {
+                    "en": "Can you count to ten?",
+                    "ja": "10まで数えられますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0036.mp3",
+                    "romaji": "10 made kazoe rare masu ka ?"
+                },
+                {
+                    "en": "Number one.",
+                    "ja": "一番",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0038.mp3",
+                    "romaji": "Ichiban"
+                },
+                {
+                    "en": "First time.",
+                    "ja": "初めて",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0039.mp3",
+                    "romaji": "Hajimete"
+                },
+                {
+                    "en": "Add up to twenty.",
+                    "ja": "合計で二十になります",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0040.mp3",
+                    "romaji": "Goukei de nijuu ni narimasu"
+                },
+                {
+                    "en": "Do we only have fifteen left?",
+                    "ja": "あと15個しかありませんか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0190.mp3",
+                    "romaji": "Ato 15 ko shika ari mase n ka ?"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers",
+            "words": [
+                {
+                    "en": "Twenty",
+                    "ja": "二十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0046.mp3",
+                    "romaji": "Nijuu"
+                },
+                {
+                    "en": "Thirty",
+                    "ja": "三十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0047.mp3",
+                    "romaji": "Sanjuu"
+                },
+                {
+                    "en": "Forty",
+                    "ja": "四十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0048.mp3",
+                    "romaji": "Yonjuu"
+                },
+                {
+                    "en": "Fifty",
+                    "ja": "五十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0049.mp3",
+                    "romaji": "Gojuu"
+                },
+                {
+                    "en": "Sixty",
+                    "ja": "六十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0050.mp3",
+                    "romaji": "Rokujuu"
+                },
+                {
+                    "en": "Seventy",
+                    "ja": "七十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0051.mp3",
+                    "romaji": "Nanajuu"
+                },
+                {
+                    "en": "Eighty",
+                    "ja": "八十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0052.mp3",
+                    "romaji": "Hachijuu"
+                },
+                {
+                    "en": "Ninety",
+                    "ja": "九十",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0053.mp3",
+                    "romaji": "Kyuujuu"
+                },
+                {
+                    "en": "Hundred",
+                    "ja": "百",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0054.mp3",
+                    "romaji": "Hyaku"
+                },
+                {
+                    "en": "Thousand",
+                    "ja": "千",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0055.mp3",
+                    "romaji": "Sen"
+                },
+                {
+                    "en": "Million",
+                    "ja": "百万",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0056.mp3",
+                    "romaji": "Hyakuman"
+                },
+                {
+                    "en": "Billion",
+                    "ja": "十億",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0057.mp3",
+                    "romaji": "Juuoku"
+                },
+                {
+                    "en": "Trillion",
+                    "ja": "一兆",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0058.mp3",
+                    "romaji": "Icchou"
+                },
+                {
+                    "en": "First",
+                    "ja": "最初",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0059.mp3",
+                    "romaji": "Saisho"
+                },
+                {
+                    "en": "Second",
+                    "ja": "秒",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0094.mp3",
+                    "romaji": "Byou"
+                },
+                {
+                    "en": "Third",
+                    "ja": "三番目",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0061.mp3",
+                    "romaji": "Sanbanme"
+                },
+                {
+                    "en": "Last",
+                    "ja": "最後",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0062.mp3",
+                    "romaji": "Saigo"
+                },
+                {
+                    "en": "Half",
+                    "ja": "半分",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0063.mp3",
+                    "romaji": "Hanbun"
+                },
+                {
+                    "en": "Quarter",
+                    "ja": "四分の一",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0064.mp3",
+                    "romaji": "Yonbun no ichi"
+                },
+                {
+                    "en": "Percentage",
+                    "ja": "パーセンテージ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0065.mp3",
+                    "romaji": "Paasenteeji"
+                },
+                {
+                    "en": "Fraction",
+                    "ja": "分数",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0066.mp3",
+                    "romaji": "Bunsuu"
+                },
+                {
+                    "en": "Plus",
+                    "ja": "プラス",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0191.mp3",
+                    "romaji": "Purasu"
+                },
+                {
+                    "en": "Minus",
+                    "ja": "マイナス",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0192.mp3",
+                    "romaji": "Mainasu"
+                },
+                {
+                    "en": "Equals",
+                    "ja": "イコール",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0193.mp3",
+                    "romaji": "Ikōru"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers - Phrases",
+            "words": [
+                {
+                    "en": "How much is it?",
+                    "ja": "いくらですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0067.mp3",
+                    "romaji": "Ikura desu ka"
+                },
+                {
+                    "en": "Is it twenty dollars?",
+                    "ja": "20ドルですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0194.mp3",
+                    "romaji": "20 doru desu ka ?"
+                },
+                {
+                    "en": "Is it fifty percent?",
+                    "ja": "50パーセントですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0195.mp3",
+                    "romaji": "50 pāsento desu ka ?"
+                },
+                {
+                    "en": "One hundred.",
+                    "ja": "百",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0070.mp3",
+                    "romaji": "Hyaku"
+                },
+                {
+                    "en": "One thousand.",
+                    "ja": "千",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0071.mp3",
+                    "romaji": "Sen"
+                },
+                {
+                    "en": "Two million.",
+                    "ja": "二百万",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0072.mp3",
+                    "romaji": "Nihyakuman"
+                },
+                {
+                    "en": "Who is in first place?",
+                    "ja": "誰が一位ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0196.mp3",
+                    "romaji": "Dare ga ichi i desu ka ?"
+                },
+                {
+                    "en": "Second time.",
+                    "ja": "二回目",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0074.mp3",
+                    "romaji": "Nikaime"
+                },
+                {
+                    "en": "Is it on the third floor?",
+                    "ja": "3階ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0073.mp3",
+                    "romaji": "3 kai desu ka ?"
+                },
+                {
+                    "en": "Is this the last one?",
+                    "ja": "これが最後ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0197.mp3",
+                    "romaji": "Kore ga saigo desu ka ?"
+                },
+                {
+                    "en": "Is it half price?",
+                    "ja": "半額ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0075.mp3",
+                    "romaji": "Hangaku desu ka ?"
+                },
+                {
+                    "en": "Quarter past.",
+                    "ja": "十五分過ぎ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0078.mp3",
+                    "romaji": "Juugofun sugi"
+                },
+                {
+                    "en": "What number?",
+                    "ja": "何番ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0079.mp3",
+                    "romaji": "Nanban desu ka"
+                },
+                {
+                    "en": "Even number.",
+                    "ja": "偶数",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0080.mp3",
+                    "romaji": "Guusuu"
+                },
+                {
+                    "en": "Odd number.",
+                    "ja": "奇数",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0081.mp3",
+                    "romaji": "Kisuu"
+                },
+                {
+                    "en": "Round number.",
+                    "ja": "切りの良い数",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0082.mp3",
+                    "romaji": "Kiri no yoi kazu"
+                },
+                {
+                    "en": "What is your phone number?",
+                    "ja": "電話番号は何番ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0198.mp3",
+                    "romaji": "Denwa bangō wa nan ban desu ka ?"
+                },
+                {
+                    "en": "Room number.",
+                    "ja": "部屋番号",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0084.mp3",
+                    "romaji": "Heya bangou"
+                },
+                {
+                    "en": "Is that a huge amount?",
+                    "ja": "それは膨大な量ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0083.mp3",
+                    "romaji": "Sore wa bōdai na ryō desu ka ?"
+                },
+                {
+                    "en": "Is it less than half?",
+                    "ja": "半分以下ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0199.mp3",
+                    "romaji": "Hambun ika desu ka ?"
+                },
+                {
+                    "en": "Is the population nearly three million?",
+                    "ja": "人口はほぼ300万人ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0085.mp3",
+                    "romaji": "Jinkō wa hobo 300 man nin desu ka ?"
+                },
+                {
+                    "en": "We negotiated a twenty percent discount overall.",
+                    "ja": "全体で二十パーセントの割引を交渉しました",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0088.mp3",
+                    "romaji": "Zentai de nijuu paasento no waribiki wo koushou shimashita"
+                },
+                {
+                    "en": "Their budget is just under half a million.",
+                    "ja": "彼らの予算は五十万弱です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0089.mp3",
+                    "romaji": "Karera no yosan wa gojuuman jaku desu"
+                },
+                {
+                    "en": "You'll find the office on the twenty-first floor.",
+                    "ja": "オフィスは二十一階にあります",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0090.mp3",
+                    "romaji": "Ofisu wa nijuuikkai ni arimasu"
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock",
+            "words": [
+                {
+                    "en": "Time",
+                    "ja": "時間",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0091.mp3",
+                    "romaji": "Jikan"
+                },
+                {
+                    "en": "Hour",
+                    "ja": "一時間",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0092.mp3",
+                    "romaji": "Ichi-jikan"
+                },
+                {
+                    "en": "Minute",
+                    "ja": "分",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0093.mp3",
+                    "romaji": "Fun"
+                },
+                {
+                    "en": "Second",
+                    "ja": "秒",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0200.mp3",
+                    "romaji": "Byou"
+                },
+                {
+                    "en": "Clock",
+                    "ja": "時計",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0095.mp3",
+                    "romaji": "Tokei"
+                },
+                {
+                    "en": "Watch",
+                    "ja": "腕時計",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0096.mp3",
+                    "romaji": "Udedokei"
+                },
+                {
+                    "en": "Morning",
+                    "ja": "朝",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0097.mp3",
+                    "romaji": "Asa"
+                },
+                {
+                    "en": "Afternoon",
+                    "ja": "午後",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0098.mp3",
+                    "romaji": "Gogo"
+                },
+                {
+                    "en": "Evening",
+                    "ja": "夕方",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0099.mp3",
+                    "romaji": "Yuugata"
+                },
+                {
+                    "en": "Night",
+                    "ja": "夜",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0100.mp3",
+                    "romaji": "Yoru"
+                },
+                {
+                    "en": "Midnight",
+                    "ja": "真夜中",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0101.mp3",
+                    "romaji": "Mayonaka"
+                },
+                {
+                    "en": "Noon",
+                    "ja": "正午",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0102.mp3",
+                    "romaji": "Shougo"
+                },
+                {
+                    "en": "Early",
+                    "ja": "早いです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0103.mp3",
+                    "romaji": "Hayai desu"
+                },
+                {
+                    "en": "Late",
+                    "ja": "遅いです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0104.mp3",
+                    "romaji": "Osoi desu"
+                },
+                {
+                    "en": "Now",
+                    "ja": "今です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0105.mp3",
+                    "romaji": "Ima desu"
+                },
+                {
+                    "en": "Later",
+                    "ja": "後で",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0106.mp3",
+                    "romaji": "Ato de"
+                },
+                {
+                    "en": "Soon",
+                    "ja": "すぐに",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0107.mp3",
+                    "romaji": "Sugu ni"
+                },
+                {
+                    "en": "Already",
+                    "ja": "もう",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0108.mp3",
+                    "romaji": "Mou"
+                },
+                {
+                    "en": "Weekend",
+                    "ja": "週末",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0109.mp3",
+                    "romaji": "Shuumatsu"
+                },
+                {
+                    "en": "Weekday",
+                    "ja": "平日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0110.mp3",
+                    "romaji": "Heijitsu"
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock - Phrases",
+            "words": [
+                {
+                    "en": "What time is it?",
+                    "ja": "今何時ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0111.mp3",
+                    "romaji": "Ima nanji desu ka"
+                },
+                {
+                    "en": "Is it 3 o'clock?",
+                    "ja": "3時ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0201.mp3",
+                    "romaji": "3 ji desu ka ?"
+                },
+                {
+                    "en": "Half past two.",
+                    "ja": "二時半です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0113.mp3",
+                    "romaji": "Niji han desu"
+                },
+                {
+                    "en": "Quarter to four.",
+                    "ja": "四時十五分前です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0114.mp3",
+                    "romaji": "Yoji juugofun mae desu"
+                },
+                {
+                    "en": "Five thirty.",
+                    "ja": "五時半です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0115.mp3",
+                    "romaji": "Goji han desu"
+                },
+                {
+                    "en": "Is it in the morning?",
+                    "ja": "午前中ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0202.mp3",
+                    "romaji": "Gozen chū desu ka ?"
+                },
+                {
+                    "en": "In the afternoon.",
+                    "ja": "午後に",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0117.mp3",
+                    "romaji": "Gogo ni"
+                },
+                {
+                    "en": "In the evening.",
+                    "ja": "夕方に",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0118.mp3",
+                    "romaji": "Yuugata ni"
+                },
+                {
+                    "en": "At night.",
+                    "ja": "夜に",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0119.mp3",
+                    "romaji": "Yoru ni"
+                },
+                {
+                    "en": "At midnight.",
+                    "ja": "真夜中に",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0120.mp3",
+                    "romaji": "Mayonaka ni"
+                },
+                {
+                    "en": "At noon.",
+                    "ja": "正午に",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0121.mp3",
+                    "romaji": "Shougo ni"
+                },
+                {
+                    "en": "What time?",
+                    "ja": "何時ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0122.mp3",
+                    "romaji": "Nanji desu ka"
+                },
+                {
+                    "en": "Right now.",
+                    "ja": "今すぐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0123.mp3",
+                    "romaji": "Ima sugu"
+                },
+                {
+                    "en": "Later today.",
+                    "ja": "今日の後で",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0124.mp3",
+                    "romaji": "Kyou no ato de"
+                },
+                {
+                    "en": "See you soon.",
+                    "ja": "またすぐに",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0125.mp3",
+                    "romaji": "Mata sugu ni"
+                },
+                {
+                    "en": "Am I early?",
+                    "ja": "早すぎましたか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0203.mp3",
+                    "romaji": "Haya sugi mashi ta ka ?"
+                },
+                {
+                    "en": "Am I late?",
+                    "ja": "遅れましたか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0204.mp3",
+                    "romaji": "Okure mashi ta ka ?"
+                },
+                {
+                    "en": "On time.",
+                    "ja": "時間通り",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0128.mp3",
+                    "romaji": "Jikan doori"
+                },
+                {
+                    "en": "Can you set a reminder for 4 PM?",
+                    "ja": "午後4時にリマインダーを設定できますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0127.mp3",
+                    "romaji": "Gogo 4 ji ni rimaindā o settei deki masu ka ?"
+                },
+                {
+                    "en": "Can we meet this weekend?",
+                    "ja": "今週末会えますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0205.mp3",
+                    "romaji": "Konshū matsu ae masu ka ?"
+                },
+                {
+                    "en": "Can we start around quarter past nine?",
+                    "ja": "九時十五分頃に始められますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0131.mp3",
+                    "romaji": "Kuji juugofun goro ni hajimeraremasu ka"
+                },
+                {
+                    "en": "Does the workshop run for forty minutes?",
+                    "ja": "ワークショップは40分間ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0130.mp3",
+                    "romaji": "Wākushoppu wa 40 funkan desu ka ?"
+                },
+                {
+                    "en": "Could we push it back to early evening?",
+                    "ja": "夕方早めにずらせますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0206.mp3",
+                    "romaji": "Yūgata hayame ni zurase masu ka ?"
+                },
+                {
+                    "en": "Can I join after my 2 PM appointment ends?",
+                    "ja": "午後2時の約束が終わってから参加できますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0132.mp3",
+                    "romaji": "Gogo 2 ji no yakusoku ga owatte kara sanka deki masu ka ?"
+                }
+            ]
+        },
+        {
+            "name": "Time Expressions",
+            "words": [
+                {
+                    "en": "Year",
+                    "ja": "年",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0133.mp3",
+                    "romaji": "Toshi"
+                },
+                {
+                    "en": "Month",
+                    "ja": "月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0134.mp3",
+                    "romaji": "Tsuki"
+                },
+                {
+                    "en": "Week",
+                    "ja": "週",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0135.mp3",
+                    "romaji": "Shū"
+                },
+                {
+                    "en": "Day",
+                    "ja": "日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0136.mp3",
+                    "romaji": "Hi"
+                },
+                {
+                    "en": "Today",
+                    "ja": "今日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0137.mp3",
+                    "romaji": "Kyō"
+                },
+                {
+                    "en": "Yesterday",
+                    "ja": "昨日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0138.mp3",
+                    "romaji": "Kinō"
+                },
+                {
+                    "en": "Tomorrow",
+                    "ja": "明日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0139.mp3",
+                    "romaji": "Ashita"
+                },
+                {
+                    "en": "Calendar",
+                    "ja": "カレンダー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0140.mp3",
+                    "romaji": "Karendā"
+                }
+            ]
+        },
+        {
+            "name": "Time Expressions - Phrases",
+            "words": [
+                {
+                    "en": "I'm busy today.",
+                    "ja": "今日は忙しいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0141.mp3",
+                    "romaji": "Kyō wa isogashii desu ."
+                },
+                {
+                    "en": "What are you doing tomorrow?",
+                    "ja": "明日は何をしますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0142.mp3",
+                    "romaji": "Ashita wa nani o shi masu ka ?"
+                },
+                {
+                    "en": "I saw him yesterday.",
+                    "ja": "昨日彼に会いました。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0143.mp3",
+                    "romaji": "Kinō kare ni ai mashi ta ."
+                },
+                {
+                    "en": "What day is it today?",
+                    "ja": "今日は何曜日ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0144.mp3",
+                    "romaji": "Kyō wa nani yōbi desu ka ?"
+                },
+                {
+                    "en": "I'll call you next week.",
+                    "ja": "来週電話します。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0145.mp3",
+                    "romaji": "Raishū denwa shi masu ."
+                },
+                {
+                    "en": "How was your day?",
+                    "ja": "今日はどうでしたか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0146.mp3",
+                    "romaji": "Kyō wa dō deshi ta ka ?"
+                },
+                {
+                    "en": "We're leaving this month.",
+                    "ja": "私たちは今月出発します。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0147.mp3",
+                    "romaji": "Watashi tachi wa kongetsu shuppatsu shi masu ."
+                },
+                {
+                    "en": "Did you go there last year?",
+                    "ja": "昨年そこに行きましたか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0148.mp3",
+                    "romaji": "Sakunen soko ni iki mashi ta ka ?"
+                }
+            ]
+        },
+        {
+            "name": "Days and Seasons",
+            "words": [
+                {
+                    "en": "Monday",
+                    "ja": "月曜日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0149.mp3",
+                    "romaji": "Getsuyōbi"
+                },
+                {
+                    "en": "Tuesday",
+                    "ja": "火曜日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0150.mp3",
+                    "romaji": "Kayōbi"
+                },
+                {
+                    "en": "Wednesday",
+                    "ja": "水曜日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0151.mp3",
+                    "romaji": "Suiyōbi"
+                },
+                {
+                    "en": "Thursday",
+                    "ja": "木曜日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0152.mp3",
+                    "romaji": "Mokuyōbi"
+                },
+                {
+                    "en": "Friday",
+                    "ja": "金曜日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0153.mp3",
+                    "romaji": "Kin'yōbi"
+                },
+                {
+                    "en": "Saturday",
+                    "ja": "土曜日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0154.mp3",
+                    "romaji": "Doyōbi"
+                },
+                {
+                    "en": "Sunday",
+                    "ja": "日曜日",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0155.mp3",
+                    "romaji": "Nichiyōbi"
+                },
+                {
+                    "en": "January",
+                    "ja": "1月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0156.mp3",
+                    "romaji": "1 tsuki"
+                },
+                {
+                    "en": "February",
+                    "ja": "2月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0157.mp3",
+                    "romaji": "2 tsuki"
+                },
+                {
+                    "en": "March",
+                    "ja": "3月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0158.mp3",
+                    "romaji": "3 tsuki"
+                },
+                {
+                    "en": "April",
+                    "ja": "4月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0159.mp3",
+                    "romaji": "4 tsuki"
+                },
+                {
+                    "en": "May",
+                    "ja": "5月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0160.mp3",
+                    "romaji": "5 tsuki"
+                },
+                {
+                    "en": "June",
+                    "ja": "6月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0161.mp3",
+                    "romaji": "6 tsuki"
+                },
+                {
+                    "en": "July",
+                    "ja": "7月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0162.mp3",
+                    "romaji": "7 tsuki"
+                },
+                {
+                    "en": "August",
+                    "ja": "8月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0163.mp3",
+                    "romaji": "8 tsuki"
+                },
+                {
+                    "en": "September",
+                    "ja": "9月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0164.mp3",
+                    "romaji": "9 tsuki"
+                },
+                {
+                    "en": "October",
+                    "ja": "10月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0165.mp3",
+                    "romaji": "10 tsuki"
+                },
+                {
+                    "en": "November",
+                    "ja": "11月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0166.mp3",
+                    "romaji": "11 tsuki"
+                },
+                {
+                    "en": "December",
+                    "ja": "12月",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0167.mp3",
+                    "romaji": "12 tsuki"
+                },
+                {
+                    "en": "Spring",
+                    "ja": "春",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0168.mp3",
+                    "romaji": "Haru"
+                },
+                {
+                    "en": "Summer",
+                    "ja": "夏",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0169.mp3",
+                    "romaji": "Natsu"
+                },
+                {
+                    "en": "Autumn",
+                    "ja": "秋",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0170.mp3",
+                    "romaji": "Aki"
+                },
+                {
+                    "en": "Winter",
+                    "ja": "冬",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0171.mp3",
+                    "romaji": "Fuyu"
+                },
+                {
+                    "en": "Season",
+                    "ja": "季節",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0172.mp3",
+                    "romaji": "Kisetsu"
+                }
+            ]
+        },
+        {
+            "name": "Days and Seasons - Phrases",
+            "words": [
+                {
+                    "en": "I work on Monday.",
+                    "ja": "月曜日は仕事です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0173.mp3",
+                    "romaji": "Getsuyōbi wa shigoto desu ."
+                },
+                {
+                    "en": "What are you doing on Saturday?",
+                    "ja": "土曜日は何をしますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0174.mp3",
+                    "romaji": "Doyōbi wa nani o shi masu ka ?"
+                },
+                {
+                    "en": "Friday is my favorite day.",
+                    "ja": "金曜日は私のお気に入りの日です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0175.mp3",
+                    "romaji": "Kin'yōbi wa watashi no okiniiri no hi desu ."
+                },
+                {
+                    "en": "Are you free on Sunday?",
+                    "ja": "日曜日は空いていますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0176.mp3",
+                    "romaji": "Nichiyōbi wa ai te i masu ka ?"
+                },
+                {
+                    "en": "My birthday is in March.",
+                    "ja": "私の誕生日は3月です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0177.mp3",
+                    "romaji": "Watashi no tanjō bi wa 3 tsuki desu ."
+                },
+                {
+                    "en": "When does summer start?",
+                    "ja": "夏はいつ始まりますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0178.mp3",
+                    "romaji": "Natsu wa i tsu hajimari masu ka ?"
+                },
+                {
+                    "en": "I love spring.",
+                    "ja": "春が大好きです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0179.mp3",
+                    "romaji": "Haru ga daisuki desu ."
+                },
+                {
+                    "en": "Is it cold in winter?",
+                    "ja": "冬は寒いですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0180.mp3",
+                    "romaji": "Fuyu wa samui desu ka ?"
+                },
+                {
+                    "en": "We met in January.",
+                    "ja": "私たちは1月に出会いました。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0181.mp3",
+                    "romaji": "Watashi tachi wa 1 tsuki ni deai mashi ta ."
+                },
+                {
+                    "en": "What's your favorite season?",
+                    "ja": "好きな季節は何ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0182.mp3",
+                    "romaji": "Suki na kisetsu wa nani desu ka ?"
+                },
+                {
+                    "en": "December is always busy.",
+                    "ja": "12月はいつも忙しいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0183.mp3",
+                    "romaji": "12 tsuki wa itsumo isogashii desu ."
+                },
+                {
+                    "en": "Do you like autumn?",
+                    "ja": "秋は好きですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0184.mp3",
+                    "romaji": "Aki wa suki desu ka ?"
+                }
+            ]
+        }
+    ]
+}

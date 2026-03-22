@@ -1,0 +1,9 @@
+{
+  "appId": "com.zentalist.app",
+  "appName": "Zentalist",
+  "webDir": "public",
+  "server": {
+    "url": "http://192.168.0.88:5002/learn",
+    "cleartext": true
+  }
+}

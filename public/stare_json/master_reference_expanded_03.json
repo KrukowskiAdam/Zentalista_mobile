@@ -1,0 +1,473 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 03 - Food & Restaurants",
+    "categories": [
+        {
+            "name": "Food & Drinks",
+            "words": [
+                {
+                    "en": "Rice"
+                },
+                {
+                    "en": "Bread"
+                },
+                {
+                    "en": "Meat"
+                },
+                {
+                    "en": "Fish"
+                },
+                {
+                    "en": "Vegetables"
+                },
+                {
+                    "en": "Fruit"
+                },
+                {
+                    "en": "Egg"
+                },
+                {
+                    "en": "Milk"
+                },
+                {
+                    "en": "Water"
+                },
+                {
+                    "en": "Coffee"
+                },
+                {
+                    "en": "Tea"
+                },
+                {
+                    "en": "Juice"
+                },
+                {
+                    "en": "Beer"
+                },
+                {
+                    "en": "Wine"
+                },
+                {
+                    "en": "Soup"
+                },
+                {
+                    "en": "Salad"
+                },
+                {
+                    "en": "Noodles"
+                },
+                {
+                    "en": "Apple"
+                },
+                {
+                    "en": "Appetizer"
+                },
+                {
+                    "en": "Main course"
+                },
+                {
+                    "en": "Side dish"
+                },
+                {
+                    "en": "Dessert menu"
+                },
+                {
+                    "en": "Leftovers"
+                },
+                {
+                    "en": "Takeaway box"
+                },
+                {
+                    "en": "Food allergy"
+                },
+                {
+                    "en": "Gluten-free"
+                },
+                {
+                    "en": "Vegan"
+                },
+                {
+                    "en": "Spicy"
+                },
+                {
+                    "en": "Mild"
+                },
+                {
+                    "en": "Savory"
+                },
+                {
+                    "en": "Sweet tooth"
+                },
+                {
+                    "en": "Portion"
+                },
+                {
+                    "en": "Chef"
+                },
+                {
+                    "en": "Wait time"
+                },
+                {
+                    "en": "Reservation list"
+                },
+                {
+                    "en": "Split bill"
+                },
+                {
+                    "en": "Street food"
+                }
+            ]
+        },
+        {
+            "name": "Food & Drinks - Phrases",
+            "words": [
+                {
+                    "en": "What do you want to eat?"
+                },
+                {
+                    "en": "I'm hungry."
+                },
+                {
+                    "en": "I'm full."
+                },
+                {
+                    "en": "It's delicious."
+                },
+                {
+                    "en": "It's not good."
+                },
+                {
+                    "en": "Is it spicy?"
+                },
+                {
+                    "en": "Too spicy."
+                },
+                {
+                    "en": "A bit salty."
+                },
+                {
+                    "en": "What do you want to drink?"
+                },
+                {
+                    "en": "Water please."
+                },
+                {
+                    "en": "Want some coffee?"
+                },
+                {
+                    "en": "I drink tea."
+                },
+                {
+                    "en": "Do you like beer?"
+                },
+                {
+                    "en": "Can't drink alcohol?"
+                },
+                {
+                    "en": "Want more?"
+                },
+                {
+                    "en": "Thank you for the food."
+                },
+                {
+                    "en": "I ate well."
+                },
+                {
+                    "en": "Cheers!"
+                },
+                {
+                    "en": "Could we start with an appetizer?"
+                },
+                {
+                    "en": "Do you have vegan options?"
+                },
+                {
+                    "en": "Please make it mild."
+                },
+                {
+                    "en": "Can we get a takeaway box?"
+                },
+                {
+                    "en": "How long is the wait?"
+                },
+                {
+                    "en": "Our name is on the reservation list."
+                },
+                {
+                    "en": "Shall we split the bill?"
+                },
+                {
+                    "en": "Is the tip included?"
+                },
+                {
+                    "en": "Do you accept cash only?"
+                },
+                {
+                    "en": "I love the street food here."
+                },
+                {
+                    "en": "Could you recommend a local specialty?"
+                },
+                {
+                    "en": "Is there a seasonal menu today?"
+                },
+                {
+                    "en": "Do you have anything for food allergies?"
+                },
+                {
+                    "en": "We would like to share a couple of dishes."
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering",
+            "words": [
+                {
+                    "en": "Restaurant"
+                },
+                {
+                    "en": "Cafe"
+                },
+                {
+                    "en": "Menu"
+                },
+                {
+                    "en": "Order"
+                },
+                {
+                    "en": "Food"
+                },
+                {
+                    "en": "Dish"
+                },
+                {
+                    "en": "Reservation"
+                },
+                {
+                    "en": "Seat"
+                },
+                {
+                    "en": "Table"
+                },
+                {
+                    "en": "Waiter"
+                },
+                {
+                    "en": "Bill"
+                },
+                {
+                    "en": "Tip"
+                },
+                {
+                    "en": "Takeout"
+                },
+                {
+                    "en": "Delivery"
+                },
+                {
+                    "en": "Spoon"
+                },
+                {
+                    "en": "Chopsticks"
+                },
+                {
+                    "en": "Fork"
+                },
+                {
+                    "en": "Napkin"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering - Phrases",
+            "words": [
+                {
+                    "en": "Menu please."
+                },
+                {
+                    "en": "What's recommended?"
+                },
+                {
+                    "en": "This please."
+                },
+                {
+                    "en": "I'll order."
+                },
+                {
+                    "en": "Is this spicy?"
+                },
+                {
+                    "en": "How many people?"
+                },
+                {
+                    "en": "Party of two."
+                },
+                {
+                    "en": "Do you have seats?"
+                },
+                {
+                    "en": "I have a reservation."
+                },
+                {
+                    "en": "Can I get takeout?"
+                },
+                {
+                    "en": "Do you deliver?"
+                },
+                {
+                    "en": "Check please."
+                },
+                {
+                    "en": "Separate checks."
+                },
+                {
+                    "en": "Together please."
+                },
+                {
+                    "en": "More water please."
+                },
+                {
+                    "en": "Spoon please."
+                },
+                {
+                    "en": "Do you have a fork?"
+                },
+                {
+                    "en": "How long will it take?"
+                },
+                {
+                    "en": "Could we get separate plates for sharing?"
+                },
+                {
+                    "en": "Can you hold the order for ten minutes?"
+                },
+                {
+                    "en": "Is the service charge already included?"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance",
+            "words": [
+                {
+                    "en": "Clothes"
+                },
+                {
+                    "en": "T-shirt"
+                },
+                {
+                    "en": "Pants"
+                },
+                {
+                    "en": "Skirt"
+                },
+                {
+                    "en": "Dress"
+                },
+                {
+                    "en": "Jacket"
+                },
+                {
+                    "en": "Coat"
+                },
+                {
+                    "en": "Shoes"
+                },
+                {
+                    "en": "Hat"
+                },
+                {
+                    "en": "Glasses"
+                },
+                {
+                    "en": "Watch"
+                },
+                {
+                    "en": "Bag"
+                },
+                {
+                    "en": "Color"
+                },
+                {
+                    "en": "Size"
+                },
+                {
+                    "en": "Big"
+                },
+                {
+                    "en": "Small"
+                },
+                {
+                    "en": "Pretty"
+                },
+                {
+                    "en": "Cool"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance - Phrases",
+            "words": [
+                {
+                    "en": "What should I wear?"
+                },
+                {
+                    "en": "That's pretty."
+                },
+                {
+                    "en": "It suits you."
+                },
+                {
+                    "en": "How about this?"
+                },
+                {
+                    "en": "Can I try it on?"
+                },
+                {
+                    "en": "What size?"
+                },
+                {
+                    "en": "A bit small."
+                },
+                {
+                    "en": "A bit big."
+                },
+                {
+                    "en": "It's a perfect fit."
+                },
+                {
+                    "en": "Other colors?"
+                },
+                {
+                    "en": "Black please."
+                },
+                {
+                    "en": "White is good."
+                },
+                {
+                    "en": "Is this on sale?"
+                },
+                {
+                    "en": "Did you cut your hair?"
+                },
+                {
+                    "en": "New glasses?"
+                },
+                {
+                    "en": "You dress well."
+                },
+                {
+                    "en": "Cool shoes."
+                },
+                {
+                    "en": "Pretty bag."
+                },
+                {
+                    "en": "Could you tailor it to a smaller size?"
+                },
+                {
+                    "en": "I'm looking for something that matches this jacket."
+                }
+            ]
+        }
+    ]
+}

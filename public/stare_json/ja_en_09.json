@@ -1,0 +1,756 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 09 - Hobbies & Interests",
+    "note": "Use this file to synchronize all language files (es, de, fr, ru, zh, ja, ko)",
+    "categories": [
+        {
+            "name": "Hobbies & Interests",
+            "words": [
+                {
+                    "en": "Hobby",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0001.mp3",
+                    "ja": "趣味",
+                    "romaji": "Shumi"
+                },
+                {
+                    "en": "Interest",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0002.mp3",
+                    "ja": "興味",
+                    "romaji": "Kyoumi"
+                },
+                {
+                    "en": "Music",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0003.mp3",
+                    "ja": "音楽",
+                    "romaji": "Ongaku"
+                },
+                {
+                    "en": "Movie",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0004.mp3",
+                    "ja": "映画",
+                    "romaji": "Eiga"
+                },
+                {
+                    "en": "Book",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0005.mp3",
+                    "ja": "本",
+                    "romaji": "Hon"
+                },
+                {
+                    "en": "Game",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0006.mp3",
+                    "ja": "ゲーム",
+                    "romaji": "Geemu"
+                },
+                {
+                    "en": "Sport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0007.mp3",
+                    "ja": "スポーツ",
+                    "romaji": "Supootsu"
+                },
+                {
+                    "en": "Travel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0008.mp3",
+                    "ja": "旅行",
+                    "romaji": "Ryokou"
+                },
+                {
+                    "en": "Cooking",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0009.mp3",
+                    "ja": "料理",
+                    "romaji": "Ryouri"
+                },
+                {
+                    "en": "Photography",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0010.mp3",
+                    "ja": "写真",
+                    "romaji": "Shashin"
+                },
+                {
+                    "en": "Drawing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0011.mp3",
+                    "ja": "絵を描くこと",
+                    "romaji": "E wo kaku koto"
+                },
+                {
+                    "en": "Painting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0012.mp3",
+                    "ja": "絵画",
+                    "romaji": "Kaiga"
+                },
+                {
+                    "en": "Dance",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0013.mp3",
+                    "ja": "ダンス",
+                    "romaji": "Dansu"
+                },
+                {
+                    "en": "Singing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0014.mp3",
+                    "ja": "歌うこと",
+                    "romaji": "Utau koto"
+                },
+                {
+                    "en": "Reading",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0015.mp3",
+                    "ja": "読書",
+                    "romaji": "Dokusho"
+                },
+                {
+                    "en": "Writing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0016.mp3",
+                    "ja": "書くこと",
+                    "romaji": "Kaku koto"
+                },
+                {
+                    "en": "Gardening",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0017.mp3",
+                    "ja": "ガーデニング",
+                    "romaji": "Gaadeningu"
+                },
+                {
+                    "en": "Collecting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0018.mp3",
+                    "ja": "収集",
+                    "romaji": "Shuushuu"
+                }
+            ]
+        },
+        {
+            "name": "Hobbies & Interests - Phrases",
+            "words": [
+                {
+                    "en": "What are your hobbies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0019.mp3",
+                    "ja": "趣味は何ですか？",
+                    "romaji": "Shumi wa nan desu ka"
+                },
+                {
+                    "en": "What do you like?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0020.mp3",
+                    "ja": "何が好きですか？",
+                    "romaji": "Nani ga suki desu ka"
+                },
+                {
+                    "en": "Do you like music?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0021.mp3",
+                    "ja": "音楽は好きですか？",
+                    "romaji": "Ongaku wa suki desu ka"
+                },
+                {
+                    "en": "What music?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0022.mp3",
+                    "ja": "どんな音楽ですか？",
+                    "romaji": "Donna ongaku desu ka"
+                },
+                {
+                    "en": "Can you play guitar?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0023.mp3",
+                    "ja": "ギターは弾けますか？",
+                    "romaji": "Gitaa wa hikemasu ka"
+                },
+                {
+                    "en": "I'm learning piano",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0024.mp3",
+                    "ja": "ピアノを習っています",
+                    "romaji": "Piano wo naratteimasu"
+                },
+                {
+                    "en": "Do you like watching movies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0025.mp3",
+                    "ja": "映画を見るのは好きですか？",
+                    "romaji": "Eiga wo miru no wa suki desu ka"
+                },
+                {
+                    "en": "What movies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0026.mp3",
+                    "ja": "どんな映画ですか？",
+                    "romaji": "Donna eiga desu ka"
+                },
+                {
+                    "en": "Do you like reading?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0027.mp3",
+                    "ja": "読書は好きですか？",
+                    "romaji": "Dokusho wa suki desu ka"
+                },
+                {
+                    "en": "What are you reading?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0028.mp3",
+                    "ja": "何を読んでいますか？",
+                    "romaji": "Nani wo yondeimasu ka"
+                },
+                {
+                    "en": "Do you like traveling?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0029.mp3",
+                    "ja": "旅行は好きですか？",
+                    "romaji": "Ryokou wa suki desu ka"
+                },
+                {
+                    "en": "Where do you want to go?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0030.mp3",
+                    "ja": "どこに行きたいですか？",
+                    "romaji": "Doko ni ikitai desu ka"
+                },
+                {
+                    "en": "Can you cook?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0031.mp3",
+                    "ja": "料理はできますか？",
+                    "romaji": "Ryouri wa dekimasu ka"
+                },
+                {
+                    "en": "What dishes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0032.mp3",
+                    "ja": "どんな料理ですか？",
+                    "romaji": "Donna ryouri desu ka"
+                },
+                {
+                    "en": "Do you play games?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0033.mp3",
+                    "ja": "ゲームはしますか？",
+                    "romaji": "Geemu wa shimasu ka"
+                },
+                {
+                    "en": "Do you like photography?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0034.mp3",
+                    "ja": "写真は好きですか？",
+                    "romaji": "Shashin wa suki desu ka"
+                },
+                {
+                    "en": "Can you sing?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0035.mp3",
+                    "ja": "歌えますか？",
+                    "romaji": "Utaemasu ka"
+                },
+                {
+                    "en": "What do you do in your free time?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0036.mp3",
+                    "ja": "暇な時は何をしていますか？",
+                    "romaji": "Hima na toki wa nani wo shiteimasu ka"
+                },
+                {
+                    "en": "I'm trying to practice guitar ten minutes a day",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0037.mp3",
+                    "ja": "毎日十分ギターを練習しようとしています",
+                    "romaji": "Mainichi juppun gitaa wo renshuu shiyou to shiteimasu"
+                },
+                {
+                    "en": "Let's start a small book club together",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0038.mp3",
+                    "ja": "一緒に小さな読書会を始めましょう",
+                    "romaji": "Issho ni chiisana dokushokai wo hajimemashou"
+                },
+                {
+                    "en": "I'm getting back into painting this month",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0039.mp3",
+                    "ja": "今月から絵画を再開します",
+                    "romaji": "Kongetsu kara kaiga wo saikai shimasu"
+                },
+                {
+                    "en": "Do you want to join our weekend cooking group?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0040.mp3",
+                    "ja": "週末の料理グループに参加しませんか？",
+                    "romaji": "Shuumatsu no ryouri guruupu ni sanka shimasen ka"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise",
+            "words": [
+                {
+                    "en": "Sports",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0041.mp3",
+                    "ja": "スポーツ",
+                    "romaji": "Supootsu"
+                },
+                {
+                    "en": "Exercise",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0042.mp3",
+                    "ja": "運動",
+                    "romaji": "Undou"
+                },
+                {
+                    "en": "Soccer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0043.mp3",
+                    "ja": "サッカー",
+                    "romaji": "Sakkaa"
+                },
+                {
+                    "en": "Basketball",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0044.mp3",
+                    "ja": "バスケットボール",
+                    "romaji": "Basukettobooru"
+                },
+                {
+                    "en": "Tennis",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0045.mp3",
+                    "ja": "テニス",
+                    "romaji": "Tenisu"
+                },
+                {
+                    "en": "Swimming",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0046.mp3",
+                    "ja": "水泳",
+                    "romaji": "Suiei"
+                },
+                {
+                    "en": "Running",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0047.mp3",
+                    "ja": "ランニング",
+                    "romaji": "Ranningu"
+                },
+                {
+                    "en": "Yoga",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0048.mp3",
+                    "ja": "ヨガ",
+                    "romaji": "Yoga"
+                },
+                {
+                    "en": "Hiking",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0049.mp3",
+                    "ja": "ハイキング",
+                    "romaji": "Haikingu"
+                },
+                {
+                    "en": "Cycling",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0050.mp3",
+                    "ja": "サイクリング",
+                    "romaji": "Saikuringu"
+                },
+                {
+                    "en": "Gym",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0051.mp3",
+                    "ja": "ジム",
+                    "romaji": "Jimu"
+                },
+                {
+                    "en": "Stadium",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0052.mp3",
+                    "ja": "スタジアム",
+                    "romaji": "Sutajiamu"
+                },
+                {
+                    "en": "Team",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0053.mp3",
+                    "ja": "チーム",
+                    "romaji": "Chiimu"
+                },
+                {
+                    "en": "Player",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0054.mp3",
+                    "ja": "選手",
+                    "romaji": "Senshu"
+                },
+                {
+                    "en": "Game",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0055.mp3",
+                    "ja": "ゲーム",
+                    "romaji": "Geemu"
+                },
+                {
+                    "en": "Score",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0056.mp3",
+                    "ja": "スコア",
+                    "romaji": "Sukoa"
+                },
+                {
+                    "en": "Win",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0057.mp3",
+                    "ja": "勝ちます",
+                    "romaji": "Kachimasu"
+                },
+                {
+                    "en": "Lose",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0058.mp3",
+                    "ja": "負けます",
+                    "romaji": "Makemasu"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise - Phrases",
+            "words": [
+                {
+                    "en": "Do you play sports?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0059.mp3",
+                    "ja": "スポーツはしますか？",
+                    "romaji": "Supootsu wa shimasu ka"
+                },
+                {
+                    "en": "Do you like sports?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0060.mp3",
+                    "ja": "スポーツは好きですか？",
+                    "romaji": "Supootsu wa suki desu ka"
+                },
+                {
+                    "en": "Do you play soccer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0061.mp3",
+                    "ja": "サッカーはしますか？",
+                    "romaji": "Sakkaa wa shimasu ka"
+                },
+                {
+                    "en": "Do you play basketball?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0062.mp3",
+                    "ja": "バスケはしますか？",
+                    "romaji": "Basuke wa shimasu ka"
+                },
+                {
+                    "en": "Want to swim?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0063.mp3",
+                    "ja": "泳ぎたいですか？",
+                    "romaji": "Oyogitai desu ka"
+                },
+                {
+                    "en": "Do you run every day?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0064.mp3",
+                    "ja": "毎日走りますか？",
+                    "romaji": "Mainichi hashirimasu ka"
+                },
+                {
+                    "en": "Are you going to the gym?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0065.mp3",
+                    "ja": "ジムに行きますか？",
+                    "romaji": "Jimu ni ikimasu ka"
+                },
+                {
+                    "en": "Do you do yoga?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0066.mp3",
+                    "ja": "ヨガはしますか？",
+                    "romaji": "Yoga wa shimasu ka"
+                },
+                {
+                    "en": "Want to exercise together?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0067.mp3",
+                    "ja": "一緒に運動しませんか？",
+                    "romaji": "Issho ni undou shimasen ka"
+                },
+                {
+                    "en": "Can you ski?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0068.mp3",
+                    "ja": "スキーはできますか？",
+                    "romaji": "Sukii wa dekimasu ka"
+                },
+                {
+                    "en": "Are you going hiking today?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0069.mp3",
+                    "ja": "今日はハイキングに行きますか？",
+                    "romaji": "Kyou wa haikingu ni ikimasu ka"
+                },
+                {
+                    "en": "When's the match?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0070.mp3",
+                    "ja": "試合はいつですか？",
+                    "romaji": "Shiai wa itsu desu ka"
+                },
+                {
+                    "en": "Who won?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0071.mp3",
+                    "ja": "誰が勝ちましたか？",
+                    "romaji": "Dare ga kachimashita ka"
+                },
+                {
+                    "en": "Did our team win?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0072.mp3",
+                    "ja": "私たちのチームは勝ちましたか？",
+                    "romaji": "Watashitachi no chiimu wa kachimashita ka"
+                },
+                {
+                    "en": "Do you need to exercise?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0073.mp3",
+                    "ja": "運動する必要がありますか？",
+                    "romaji": "Undou suru hitsuyou ga arimasu ka"
+                },
+                {
+                    "en": "Are you tired?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0074.mp3",
+                    "ja": "疲れましたか？",
+                    "romaji": "Tsukaremashita ka"
+                },
+                {
+                    "en": "Is it good for health?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0075.mp3",
+                    "ja": "健康にいいですか？",
+                    "romaji": "Kenkou ni ii desu ka"
+                },
+                {
+                    "en": "How often do you play?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0076.mp3",
+                    "ja": "どれくらいの頻度でしますか？",
+                    "romaji": "Dore kurai no hindo de shimasu ka"
+                },
+                {
+                    "en": "Let's warm up with a few stretches first",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0077.mp3",
+                    "ja": "最初にストレッチで準備運動しましょう",
+                    "romaji": "Saisho ni sutoretchi de junbi undou shimashou"
+                },
+                {
+                    "en": "I'm tracking my runs with an app now",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0078.mp3",
+                    "ja": "今はアプリでランニングを記録しています",
+                    "romaji": "Ima wa apuri de ranningu wo kiroku shiteimasu"
+                },
+                {
+                    "en": "Do we need to reserve a court in advance?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0079.mp3",
+                    "ja": "事前にコートを予約する必要がありますか？",
+                    "romaji": "Jizen ni kooto wo yoyaku suru hitsuyou ga arimasu ka"
+                },
+                {
+                    "en": "I'll cheer from the sidelines if I can't play",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0080.mp3",
+                    "ja": "プレイできないならサイドラインから応援します",
+                    "romaji": "Purei dekinai nara saidorain kara ouen shimasu"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals",
+            "words": [
+                {
+                    "en": "Pet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0081.mp3",
+                    "ja": "ペット",
+                    "romaji": "Petto"
+                },
+                {
+                    "en": "Animal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0082.mp3",
+                    "ja": "動物",
+                    "romaji": "Doubutsu"
+                },
+                {
+                    "en": "Dog",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0083.mp3",
+                    "ja": "犬",
+                    "romaji": "Inu"
+                },
+                {
+                    "en": "Cat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0084.mp3",
+                    "ja": "猫",
+                    "romaji": "Neko"
+                },
+                {
+                    "en": "Bird",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0085.mp3",
+                    "ja": "鳥",
+                    "romaji": "Tori"
+                },
+                {
+                    "en": "Fish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0086.mp3",
+                    "ja": "魚",
+                    "romaji": "Sakana"
+                },
+                {
+                    "en": "Rabbit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0087.mp3",
+                    "ja": "ウサギ",
+                    "romaji": "Usagi"
+                },
+                {
+                    "en": "Hamster",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0088.mp3",
+                    "ja": "ハムスター",
+                    "romaji": "Hamusutaa"
+                },
+                {
+                    "en": "Horse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0089.mp3",
+                    "ja": "馬",
+                    "romaji": "Uma"
+                },
+                {
+                    "en": "Cow",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0090.mp3",
+                    "ja": "牛",
+                    "romaji": "Ushi"
+                },
+                {
+                    "en": "Pig",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0091.mp3",
+                    "ja": "豚",
+                    "romaji": "Buta"
+                },
+                {
+                    "en": "Sheep",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0092.mp3",
+                    "ja": "羊",
+                    "romaji": "Hitsuji"
+                },
+                {
+                    "en": "Tiger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0093.mp3",
+                    "ja": "虎",
+                    "romaji": "Tora"
+                },
+                {
+                    "en": "Lion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0094.mp3",
+                    "ja": "ライオン",
+                    "romaji": "Raion"
+                },
+                {
+                    "en": "Elephant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0095.mp3",
+                    "ja": "象",
+                    "romaji": "Zou"
+                },
+                {
+                    "en": "Monkey",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0096.mp3",
+                    "ja": "猿",
+                    "romaji": "Saru"
+                },
+                {
+                    "en": "Zoo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0097.mp3",
+                    "ja": "動物園",
+                    "romaji": "Doubutsuen"
+                },
+                {
+                    "en": "Farm",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0098.mp3",
+                    "ja": "農場",
+                    "romaji": "Noujou"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a pet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0099.mp3",
+                    "ja": "ペットを飼っていますか？",
+                    "romaji": "Petto wo katteimasu ka"
+                },
+                {
+                    "en": "Do you have a dog?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0100.mp3",
+                    "ja": "犬を飼っていますか？",
+                    "romaji": "Inu wo katteimasu ka"
+                },
+                {
+                    "en": "Do you like cats?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0101.mp3",
+                    "ja": "猫は好きですか？",
+                    "romaji": "Neko wa suki desu ka"
+                },
+                {
+                    "en": "What's its name?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0102.mp3",
+                    "ja": "名前は何ですか？",
+                    "romaji": "Namae wa nan desu ka"
+                },
+                {
+                    "en": "How old is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0103.mp3",
+                    "ja": "何歳ですか？",
+                    "romaji": "Nansai desu ka"
+                },
+                {
+                    "en": "Is it cute?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0104.mp3",
+                    "ja": "可愛いですか？",
+                    "romaji": "Kawaii desu ka"
+                },
+                {
+                    "en": "Do you have a cat?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0105.mp3",
+                    "ja": "猫を飼っていますか？",
+                    "romaji": "Neko wo katteimasu ka"
+                },
+                {
+                    "en": "Is it well-behaved?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0106.mp3",
+                    "ja": "お行儀はいいですか？",
+                    "romaji": "Ogyougi wa ii desu ka"
+                },
+                {
+                    "en": "Are you afraid of dogs?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0107.mp3",
+                    "ja": "犬は怖いですか？",
+                    "romaji": "Inu wa kowai desu ka"
+                },
+                {
+                    "en": "Do you love animals?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0108.mp3",
+                    "ja": "動物は好きですか？",
+                    "romaji": "Doubutsu wa suki desu ka"
+                },
+                {
+                    "en": "Are you going to the zoo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0109.mp3",
+                    "ja": "動物園に行きますか？",
+                    "romaji": "Doubutsuen ni ikimasu ka"
+                },
+                {
+                    "en": "Did you see a tiger?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0110.mp3",
+                    "ja": "虎を見ましたか？",
+                    "romaji": "Tora wo mimashita ka"
+                },
+                {
+                    "en": "Are elephants big?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0111.mp3",
+                    "ja": "象は大きいですか？",
+                    "romaji": "Zou wa ookii desu ka"
+                },
+                {
+                    "en": "Are monkeys smart?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0112.mp3",
+                    "ja": "猿は賢いですか？",
+                    "romaji": "Saru wa kashikoi desu ka"
+                },
+                {
+                    "en": "Should I feed it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0113.mp3",
+                    "ja": "餌をあげてもいいですか？",
+                    "romaji": "Esa wo agetemo ii desu ka"
+                },
+                {
+                    "en": "Does it need a walk?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0114.mp3",
+                    "ja": "散歩が必要ですか？",
+                    "romaji": "Sanpo ga hitsuyou desu ka"
+                },
+                {
+                    "en": "Is your dog friendly?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0115.mp3",
+                    "ja": "あなたの犬は人懐っこいですか？",
+                    "romaji": "Anata no inu wa hitonatsukkoi desu ka"
+                },
+                {
+                    "en": "Can I pet it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0116.mp3",
+                    "ja": "撫でてもいいですか？",
+                    "romaji": "Nadetemo ii desu ka"
+                },
+                {
+                    "en": "Could you watch my cat this weekend?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0117.mp3",
+                    "ja": "今週末、猫を見てもらえますか？",
+                    "romaji": "Konshuumatsu, neko wo mite moraemasu ka"
+                },
+                {
+                    "en": "Let's schedule a vet visit for the puppy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0118.mp3",
+                    "ja": "子犬の獣医の予約を入れましょう",
+                    "romaji": "Koinu no juui no yoyaku wo iremashou"
+                },
+                {
+                    "en": "Do they need any special food?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0119.mp3",
+                    "ja": "特別な餌が必要ですか？",
+                    "romaji": "Tokubetsu na esa ga hitsuyou desu ka"
+                },
+                {
+                    "en": "I'm training my dog to walk on a leash",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/09/ja_0120.mp3",
+                    "ja": "犬にリードで歩く訓練をしています",
+                    "romaji": "Inu ni riido de aruku kunren wo shiteimasu ka"
+                }
+            ]
+        }
+    ]
+}

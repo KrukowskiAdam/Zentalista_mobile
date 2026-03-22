@@ -1,0 +1,814 @@
+{
+  "categories": [
+    {
+      "name": "City Places & Buildings",
+      "words": [
+        {
+          "es": "ciudad",
+          "en": "city",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0001_ciudad.mp3"
+        },
+        {
+          "es": "pueblo",
+          "en": "town",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0002_pueblo.mp3"
+        },
+        {
+          "es": "centro",
+          "en": "downtown",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0003_centro.mp3"
+        },
+        {
+          "es": "calle",
+          "en": "street",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0004_calle.mp3"
+        },
+        {
+          "es": "avenida",
+          "en": "avenue",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0005_avenida.mp3"
+        },
+        {
+          "es": "plaza",
+          "en": "square",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0006_plaza.mp3"
+        },
+        {
+          "es": "parque",
+          "en": "park",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0007_parque.mp3"
+        },
+        {
+          "es": "edificio",
+          "en": "building",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0008_edificio.mp3"
+        },
+        {
+          "es": "hospital",
+          "en": "hospital",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0009_hospital.mp3"
+        },
+        {
+          "es": "universidad",
+          "en": "university",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0010_universidad.mp3"
+        },
+        {
+          "es": "biblioteca",
+          "en": "library",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0011_biblioteca.mp3"
+        },
+        {
+          "es": "museo",
+          "en": "museum",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0012_museo.mp3"
+        },
+        {
+          "es": "cine",
+          "en": "cinema",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0013_cine.mp3"
+        },
+        {
+          "es": "teatro",
+          "en": "theater",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0014_teatro.mp3"
+        },
+        {
+          "es": "iglesia",
+          "en": "church",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0015_iglesia.mp3"
+        },
+        {
+          "es": "estadio",
+          "en": "stadium",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0016_estadio.mp3"
+        },
+        {
+          "es": "comisaría",
+          "en": "police station",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0017_comisar%C3%ADa.mp3"
+        },
+        {
+          "es": "estación de tren",
+          "en": "train station",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0018_estaci%C3%B3n_de_tren.mp3"
+        },
+        {
+          "es": "estación de autobuses",
+          "en": "bus station",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0019_estaci%C3%B3n_de_autobuses.mp3"
+        },
+        {
+          "es": "aeropuerto",
+          "en": "airport",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0020_aeropuerto.mp3"
+        },
+        {
+          "es": "coche",
+          "en": "car",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0021_coche.mp3"
+        },
+        {
+          "es": "autobús",
+          "en": "bus",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0022_autob%C3%BAs.mp3"
+        },
+        {
+          "es": "tren",
+          "en": "train",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0023_tren.mp3"
+        },
+        {
+          "es": "metro",
+          "en": "subway",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0024_metro.mp3"
+        },
+        {
+          "es": "taxi",
+          "en": "taxi",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0025_taxi.mp3"
+        },
+        {
+          "es": "bicicleta",
+          "en": "bicycle",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0026_bicicleta.mp3"
+        },
+        {
+          "es": "avión",
+          "en": "plane",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0027_avi%C3%B3n.mp3"
+        },
+        {
+          "es": "parada",
+          "en": "stop",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0028_parada.mp3"
+        },
+        {
+          "es": "conductor",
+          "en": "driver",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0029_conductor.mp3"
+        },
+        {
+          "es": "pasajero",
+          "en": "passenger",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0030_pasajero.mp3"
+        },
+        {
+          "es": "restaurante",
+          "en": "restaurant",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0031_restaurante.mp3"
+        },
+        {
+          "es": "cafetería",
+          "en": "café",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0032_cafeter%C3%ADa.mp3"
+        },
+        {
+          "es": "hotel",
+          "en": "hotel",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0033_hotel.mp3"
+        },
+        {
+          "es": "banco",
+          "en": "bank",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0034_banco.mp3"
+        },
+        {
+          "es": "correos",
+          "en": "post office",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0035_correos.mp3"
+        },
+        {
+          "es": "farmacia",
+          "en": "pharmacy",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0036_farmacia.mp3"
+        },
+        {
+          "es": "librería",
+          "en": "bookstore",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0037_librer%C3%ADa.mp3"
+        },
+        {
+          "es": "tienda de ropa",
+          "en": "clothing store",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0038_tienda_de_ropa.mp3"
+        },
+        {
+          "es": "comprar",
+          "en": "to buy",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0039_comprar.mp3"
+        },
+        {
+          "es": "precio",
+          "en": "price",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0040_precio.mp3"
+        },
+        {
+          "es": "tarjeta de crédito",
+          "en": "credit card",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0041_tarjeta_de_cr%C3%A9dito.mp3"
+        },
+        {
+          "es": "efectivo",
+          "en": "cash",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0042_efectivo.mp3"
+        },
+        {
+          "es": "mercado",
+          "en": "market",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0043_mercado.mp3"
+        },
+        {
+          "es": "supermercado",
+          "en": "supermarket",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0044_supermercado.mp3"
+        },
+        {
+          "es": "plaza mayor",
+          "en": "main square",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0045_plaza_mayor.mp3"
+        },
+        {
+          "es": "puente",
+          "en": "bridge",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0046_puente.mp3"
+        },
+        {
+          "es": "aparcamientos",
+          "en": "parking lots",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0047_aparcamientos.mp3"
+        },
+        {
+          "es": "zona peatonal",
+          "en": "pedestrian zone",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0048_zona_peatonal.mp3"
+        }
+      ]
+    },
+    {
+      "name": "City Places & Buildings - Phrases",
+      "words": [
+        {
+          "es": "Vivo en el centro de la ciudad",
+          "en": "I live in the city center",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0001_vivo_en_el_centro_de_la_ciudad.mp3"
+        },
+        {
+          "es": "Trabajo en un edificio alto",
+          "en": "I work in a tall building",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0002_trabajo_en_un_edificio_alto.mp3"
+        },
+        {
+          "es": "Voy al trabajo en metro",
+          "en": "I go to work by subway",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0003_voy_al_trabajo_en_metro.mp3"
+        },
+        {
+          "es": "Me gusta caminar por el parque",
+          "en": "I like walking in the park",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0004_me_gusta_caminar_por_el_parque.mp3"
+        },
+        {
+          "es": "Compro en el supermercado los sábados",
+          "en": "I shop at the supermarket on Saturdays",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0005_compro_en_el_supermercado_los_s%C3%A1bados.mp3"
+        },
+        {
+          "es": "El museo está cerrado los lunes",
+          "en": "The museum is closed on Mondays",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0006_el_museo_est%C3%A1_cerrado_los_lunes.mp3"
+        },
+        {
+          "es": "Mi casa está cerca del hospital",
+          "en": "My house is near the hospital",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0007_mi_casa_est%C3%A1_cerca_del_hospital.mp3"
+        },
+        {
+          "es": "Hay mucho tráfico en esta calle",
+          "en": "There's a lot of traffic on this street",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0008_hay_mucho_tr%C3%A1fico_en_esta_calle.mp3"
+        },
+        {
+          "es": "El autobús llega tarde",
+          "en": "The bus is late",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0009_el_autob%C3%BAs_llega_tarde.mp3"
+        },
+        {
+          "es": "Esta tienda es muy cara",
+          "en": "This shop is very expensive",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0010_esta_tienda_es_muy_cara.mp3"
+        },
+        {
+          "es": "El tiempo está nublado hoy",
+          "en": "The weather is cloudy today",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0011_el_tiempo_est%C3%A1_nublado_hoy.mp3"
+        },
+        {
+          "es": "Llueve mucho en invierno",
+          "en": "It rains a lot in winter",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0012_llueve_mucho_en_invierno.mp3"
+        },
+        {
+          "es": "Me encanta ir al cine",
+          "en": "I love going to the cinema",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0013_me_encanta_ir_al_cine.mp3"
+        },
+        {
+          "es": "El teatro está lleno esta noche",
+          "en": "The theater is full tonight",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0014_el_teatro_est%C3%A1_lleno_esta_noche.mp3"
+        },
+        {
+          "es": "Necesito ir a la farmacia",
+          "en": "I need to go to the pharmacy",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0015_necesito_ir_a_la_farmacia.mp3"
+        },
+        {
+          "es": "El banco cierra a las cinco",
+          "en": "The bank closes at five",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0016_el_banco_cierra_a_las_cinco.mp3"
+        },
+        {
+          "es": "Tomo el tren todas las mañanas",
+          "en": "I take the train every morning",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0017_tomo_el_tren_todas_las_ma%C3%B1anas.mp3"
+        },
+        {
+          "es": "La biblioteca es muy tranquila",
+          "en": "The library is very quiet",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0018_la_biblioteca_es_muy_tranquila.mp3"
+        },
+        {
+          "es": "Este restaurante tiene buena comida",
+          "en": "This restaurant has good food",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0019_este_restaurante_tiene_buena_comida.mp3"
+        },
+        {
+          "es": "El hotel está en una calle pequeña",
+          "en": "The hotel is on a small street",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0020_el_hotel_est%C3%A1_en_una_calle_peque%C3%B1a.mp3"
+        },
+        {
+          "es": "Hay una iglesia en la plaza",
+          "en": "There is a church in the square",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0021_hay_una_iglesia_en_la_plaza.mp3"
+        },
+        {
+          "es": "El taxi cuesta diez euros",
+          "en": "The taxi costs ten euros",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0022_el_taxi_cuesta_diez_euros.mp3"
+        },
+        {
+          "es": "Vamos al mercado los domingos",
+          "en": "We go to the market on Sundays",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0023_vamos_al_mercado_los_domingos.mp3"
+        },
+        {
+          "es": "El aeropuerto está muy lejos",
+          "en": "The airport is very far",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0024_el_aeropuerto_est%C3%A1_muy_lejos.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Directions & Navigation",
+      "words": [
+        {
+          "es": "mapa",
+          "en": "map",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0001_mapa.mp3"
+        },
+        {
+          "es": "izquierda",
+          "en": "left",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0002_izquierda.mp3"
+        },
+        {
+          "es": "derecha",
+          "en": "right",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0003_derecha.mp3"
+        },
+        {
+          "es": "todo recto",
+          "en": "straight",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0004_recto.mp3"
+        },
+        {
+          "es": "norte",
+          "en": "north",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0005_norte.mp3"
+        },
+        {
+          "es": "sur",
+          "en": "south",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0006_sur.mp3"
+        },
+        {
+          "es": "este",
+          "en": "east",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0007_este.mp3"
+        },
+        {
+          "es": "oeste",
+          "en": "west",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0008_oeste.mp3"
+        },
+        {
+          "es": "semáforo",
+          "en": "traffic light",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0009_sem%C3%A1foro.mp3"
+        },
+        {
+          "es": "peatón",
+          "en": "pedestrian",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0010_peat%C3%B3n.mp3"
+        },
+        {
+          "es": "rotonda",
+          "en": "roundabout",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0011_rotonda.mp3"
+        },
+        {
+          "es": "cruce",
+          "en": "intersection",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0012_cruce.mp3"
+        },
+        {
+          "es": "señal",
+          "en": "sign",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0013_se%C3%B1al.mp3"
+        },
+        {
+          "es": "entrada",
+          "en": "entrance",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0014_entrada.mp3"
+        },
+        {
+          "es": "salida",
+          "en": "exit",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0015_salida.mp3"
+        },
+        {
+          "es": "camino",
+          "en": "path",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0016_camino.mp3"
+        },
+        {
+          "es": "dirección",
+          "en": "direction",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0017_direcci%C3%B3n.mp3"
+        },
+        {
+          "es": "guía",
+          "en": "guide",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0018_gu%C3%ADa.mp3"
+        },
+        {
+          "es": "girar",
+          "en": "to turn",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0019_girar.mp3"
+        },
+        {
+          "es": "cruzar",
+          "en": "to cross",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0020_cruzar.mp3"
+        },
+        {
+          "es": "esquina",
+          "en": "corner",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0021_esquina.mp3"
+        },
+        {
+          "es": "subir",
+          "en": "to go up",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0022_subir.mp3"
+        },
+        {
+          "es": "bajar",
+          "en": "to go down",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0023_bajar.mp3"
+        },
+        {
+          "es": "cerca",
+          "en": "near",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0024_cerca.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Asking for Directions",
+      "words": [
+        {
+          "es": "¿Dónde está el banco?",
+          "en": "Where is the bank",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0001_d%C3%B3nde_est%C3%A1_el_banco.mp3"
+        },
+        {
+          "es": "Está en la calle principal?",
+          "en": "It's on the main street",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0002_est%C3%A1_en_la_calle_principal.mp3"
+        },
+        {
+          "es": "¿Cómo llego al hospital?",
+          "en": "How do I get to the hospital",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0003_c%C3%B3mo_llego_al_hospital.mp3"
+        },
+        {
+          "es": "Vaya recto y gire a la derecha",
+          "en": "Go straight and turn right",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0004_vaya_recto_y_gire_a_la_derecha.mp3"
+        },
+        {
+          "es": "¿Está lejos el aeropuerto?",
+          "en": "Is the airport far",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0005_est%C3%A1_lejos_el_aeropuerto.mp3"
+        },
+        {
+          "es": "No, está muy cerca",
+          "en": "No, it's very close",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0006_no_est%C3%A1_muy_cerca.mp3"
+        },
+        {
+          "es": "¿Hay un supermercado por aquí",
+          "en": "Is there a supermarket around here",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0007_hay_un_supermercado_por_aqu%C3%AD.mp3"
+        },
+        {
+          "es": "Sí, hay uno en la plaza",
+          "en": "Yes, there's one in the square",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0008_s%C3%AD_hay_uno_en_la_plaza.mp3"
+        },
+        {
+          "es": "¿Cuánto tiempo tarda?",
+          "en": "How long does it take",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0009_cu%C3%A1nto_tiempo_tarda.mp3"
+        },
+        {
+          "es": "Unos diez minutos a pie",
+          "en": "About ten minutes on foot",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0010_unos_diez_minutos_a_pie.mp3"
+        },
+        {
+          "es": "¿Dónde puedo comprar billetes?",
+          "en": "Where can I buy tickets",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0011_d%C3%B3nde_puedo_comprar_billetes.mp3"
+        },
+        {
+          "es": "En la estación de tren",
+          "en": "At the train station",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0012_en_la_estaci%C3%B3n_de_tren.mp3"
+        },
+        {
+          "es": "¿Qué tiempo hace hoy",
+          "en": "What's the weather like today",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0013_qu%C3%A9_tiempo_hace_hoy.mp3"
+        },
+        {
+          "es": "Hace sol y calor",
+          "en": "It's sunny and hot",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0014_hace_sol_y_calor.mp3"
+        },
+        {
+          "es": "¿Cuánto cuesta este hotel?",
+          "en": "How much does this hotel cost",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0015_cu%C3%A1nto_cuesta_este_hotel.mp3"
+        },
+        {
+          "es": "Cuesta cincuenta euros la noche",
+          "en": "It costs fifty euros per night",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0016_cuesta_cincuenta_euros_la_noche.mp3"
+        },
+        {
+          "es": "¿Puedo ir caminando?",
+          "en": "Can I walk there?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0017_puedo_ir_caminando.mp3"
+        },
+        {
+          "es": "Está detrás del hotel",
+          "en": "It's behind the hotel",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0018_est%C3%A1_detr%C3%A1s_del_hotel.mp3"
+        },
+        {
+          "es": "¿Dónde está la parada de autobús?",
+          "en": "Where is the bus stop?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0019_d%C3%B3nde_est%C3%A1_la_parada_de_autob%C3%BAs.mp3"
+        },
+        {
+          "es": "¿Cuánto cuesta el billete?",
+          "en": "How much is the ticket?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0020_cu%C3%A1nto_cuesta_el_billete.mp3"
+        },
+        {
+          "es": "Está al final de la calle",
+          "en": "It's at the end of the street",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0021_est%C3%A1_al_final_de_la_calle.mp3"
+        },
+        {
+          "es": "Está en la esquina",
+          "en": "It's on the corner",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0022_est%C3%A1_en_la_esquina.mp3"
+        },
+        {
+          "es": "Cruce la calle",
+          "en": "Cross the street",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0023_cruce_la_calle.mp3"
+        },
+        {
+          "es": "Gire a la izquierda",
+          "en": "Turn left",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0024_gire_a_la_izquierda.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Weather & Seasons",
+      "words": [
+        {
+          "es": "tiempo",
+          "en": "weather",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0001_tiempo.mp3"
+        },
+        {
+          "es": "sol",
+          "en": "sun",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0002_sol.mp3"
+        },
+        {
+          "es": "lluvia",
+          "en": "rain",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0003_lluvia.mp3"
+        },
+        {
+          "es": "nieve",
+          "en": "snow",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0004_nieve.mp3"
+        },
+        {
+          "es": "calor",
+          "en": "heat",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0005_calor.mp3"
+        },
+        {
+          "es": "frío",
+          "en": "cold",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0006_fr%C3%ADo.mp3"
+        },
+        {
+          "es": "temperatura",
+          "en": "temperature",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0007_temperatura.mp3"
+        },
+        {
+          "es": "soleado",
+          "en": "sunny",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0008_soleado.mp3"
+        },
+        {
+          "es": "primavera",
+          "en": "spring",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0009_primavera.mp3"
+        },
+        {
+          "es": "verano",
+          "en": "summer",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0010_verano.mp3"
+        },
+        {
+          "es": "otoño",
+          "en": "autumn",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0011_oto%C3%B1o.mp3"
+        },
+        {
+          "es": "nublado",
+          "en": "cloudy",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0012_nublado.mp3"
+        },
+        {
+          "es": "tormenta",
+          "en": "storm",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0013_tormenta.mp3"
+        },
+        {
+          "es": "viento",
+          "en": "wind",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0014_viento.mp3"
+        },
+        {
+          "es": "invierno",
+          "en": "winter",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0015_invierno.mp3"
+        },
+        {
+          "es": "húmedo",
+          "en": "humid",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0016_h%C3%BAmedo.mp3"
+        },
+        {
+          "es": "seco",
+          "en": "dry",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0017_seco.mp3"
+        },
+        {
+          "es": "grados",
+          "en": "degrees",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0018_grados.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Functional Situations - Phrases",
+      "words": [
+        {
+          "es": "Disculpe, ¿puede ayudarme",
+          "en": "Excuse me, can you help me",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0001_disculpe_puede_ayudarme.mp3"
+        },
+        {
+          "es": "Estoy buscando la estación",
+          "en": "I'm looking for the station",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0002_estoy_buscando_la_estaci%C3%B3n.mp3"
+        },
+        {
+          "es": "¿Acepta tarjetas de crédito?",
+          "en": "Do you accept credit cards",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0003_acepta_tarjetas_de_cr%C3%A9dito.mp3"
+        },
+        {
+          "es": "Quisiera reservar una habitación",
+          "en": "I would like to book a room",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0004_quisiera_reservar_una_habitaci%C3%B3n.mp3"
+        },
+        {
+          "es": "¿A qué hora sale el próximo autobús",
+          "en": "What time does the next bus leave",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0005_a_qu%C3%A9_hora_sale_el_pr%C3%B3ximo_autob%C3%BAs.mp3"
+        },
+        {
+          "es": "Necesito un taxi, por favor",
+          "en": "I need a taxi, please",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0006_necesito_un_taxi_por_favor.mp3"
+        },
+        {
+          "es": "¿Puede llamar a un médico?",
+          "en": "Can you call a doctor",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0007_puede_llamar_a_un_m%C3%A9dico.mp3"
+        },
+        {
+          "es": "Voy a hacer turismo hoy",
+          "en": "I'm going sightseeing today",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0008_voy_a_hacer_turismo_hoy.mp3"
+        },
+        {
+          "es": "¿Dónde puedo cambiar dinero?",
+          "en": "Where can I exchange money",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0009_d%C3%B3nde_puedo_cambiar_dinero.mp3"
+        },
+        {
+          "es": "El semáforo está en rojo",
+          "en": "The traffic light is red",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0010_el_sem%C3%A1foro_est%C3%A1_en_rojo.mp3"
+        },
+        {
+          "es": "Esperamos el metro en el andén",
+          "en": "We wait for the subway on the platform",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0011_esperamos_el_metro_en_el_and%C3%A9n.mp3"
+        },
+        {
+          "es": "Hace frío, necesito un abrigo",
+          "en": "It's cold, I need a coat",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0012_hace_fr%C3%ADo_necesito_un_abrigo.mp3"
+        },
+        {
+          "es": "Vamos a visitar el museo mañana",
+          "en": "We're going to visit the museum tomorrow",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0013_vamos_a_visitar_el_museo_ma%C3%B1ana.mp3"
+        },
+        {
+          "es": "¿Hay aparcamiento cerca?",
+          "en": "Is there parking nearby",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0014_hay_aparcamiento_cerca.mp3"
+        },
+        {
+          "es": "La parada está al final de la calle",
+          "en": "The stop is at the end of the street",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0015_la_parada_est%C3%A1_al_final_de_la_calle.mp3"
+        },
+        {
+          "es": "¿Dónde está el baño?",
+          "en": "Where is the bathroom?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0016_d%C3%B3nde_est%C3%A1_el_ba%C3%B1o.mp3"
+        },
+        {
+          "es": "¿Puedo pagar en efectivo?",
+          "en": "Can I pay in cash?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0017_puedo_pagar_en_efectivo.mp3"
+        },
+        {
+          "es": "La farmacia está abierta",
+          "en": "The pharmacy is open",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/07/es_0018_la_farmacia_est%C3%A1_abierta.mp3"
+        }
+      ]
+    }
+  ]
+}

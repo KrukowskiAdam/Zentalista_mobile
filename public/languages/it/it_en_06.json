@@ -1,0 +1,835 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 06 - Family & Relationships",
+    "categories": [
+        {
+            "name": "Family",
+            "words": [
+                {
+                    "en": "Family",
+                    "it": "Famiglia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0001.mp3"
+                },
+                {
+                    "en": "Parents",
+                    "it": "Genitori",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0002.mp3"
+                },
+                {
+                    "en": "Father",
+                    "it": "Padre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0003.mp3"
+                },
+                {
+                    "en": "Mother",
+                    "it": "Madre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0004.mp3"
+                },
+                {
+                    "en": "Son",
+                    "it": "Figlio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0005.mp3"
+                },
+                {
+                    "en": "Daughter",
+                    "it": "Figlia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0006.mp3"
+                },
+                {
+                    "en": "Brother",
+                    "it": "Fratello",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0007.mp3"
+                },
+                {
+                    "en": "Sister",
+                    "it": "Sorella",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0008.mp3"
+                },
+                {
+                    "en": "Grandfather",
+                    "it": "Nonno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0009.mp3"
+                },
+                {
+                    "en": "Grandmother",
+                    "it": "Nonna",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0010.mp3"
+                },
+                {
+                    "en": "Uncle",
+                    "it": "Zio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0011.mp3"
+                },
+                {
+                    "en": "Aunt",
+                    "it": "Zia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0012.mp3"
+                },
+                {
+                    "en": "Cousin",
+                    "it": "Cugino",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0013.mp3"
+                },
+                {
+                    "en": "Husband",
+                    "it": "Marito",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0014.mp3"
+                },
+                {
+                    "en": "Wife",
+                    "it": "Moglie",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0015.mp3"
+                },
+                {
+                    "en": "Fiancé",
+                    "it": "Fidanzato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0016.mp3"
+                },
+                {
+                    "en": "Fiancée",
+                    "it": "Fidanzata",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0017.mp3"
+                },
+                {
+                    "en": "Stepfather",
+                    "it": "Patrigno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0018.mp3"
+                },
+                {
+                    "en": "Stepmother",
+                    "it": "Matrigna",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0019.mp3"
+                },
+                {
+                    "en": "Mother-in-law",
+                    "it": "Suocera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0020.mp3"
+                },
+                {
+                    "en": "Father-in-law",
+                    "it": "Suocero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0021.mp3"
+                },
+                {
+                    "en": "Child",
+                    "it": "Bambino",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0022.mp3"
+                },
+                {
+                    "en": "Grandson",
+                    "it": "Nipote",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0023.mp3"
+                },
+                {
+                    "en": "Granddaughter",
+                    "it": "Nipote",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0024.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Family - Phrases",
+            "words": [
+                {
+                    "en": "Do you have family here?",
+                    "it": "Hai famiglia qui?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0025.mp3"
+                },
+                {
+                    "en": "How many in your family?",
+                    "it": "Quanti sono nella tua famiglia?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0026.mp3"
+                },
+                {
+                    "en": "Do you have siblings?",
+                    "it": "Hai fratelli?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0027.mp3"
+                },
+                {
+                    "en": "I have one brother.",
+                    "it": "Ho un fratello.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0028.mp3"
+                },
+                {
+                    "en": "Do you have children?",
+                    "it": "Hai figli?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0029.mp3"
+                },
+                {
+                    "en": "I have two kids.",
+                    "it": "Ho due figli.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0030.mp3"
+                },
+                {
+                    "en": "Are you married?",
+                    "it": "Sei sposato?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0031.mp3"
+                },
+                {
+                    "en": "I'm single.",
+                    "it": "Sono single.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0032.mp3"
+                },
+                {
+                    "en": "This is my family.",
+                    "it": "Questa è la mia famiglia.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0033.mp3"
+                },
+                {
+                    "en": "My father works.",
+                    "it": "Mio padre lavora.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0034.mp3"
+                },
+                {
+                    "en": "My mother is at home.",
+                    "it": "Mia madre è a casa.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0035.mp3"
+                },
+                {
+                    "en": "How old are they?",
+                    "it": "Quanti anni hanno?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0036.mp3"
+                },
+                {
+                    "en": "They live far away.",
+                    "it": "Vivono lontano.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0037.mp3"
+                },
+                {
+                    "en": "I miss my family.",
+                    "it": "Mi manca la mia famiglia.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0038.mp3"
+                },
+                {
+                    "en": "Family is important.",
+                    "it": "La famiglia è importante.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0039.mp3"
+                },
+                {
+                    "en": "I love my family.",
+                    "it": "Amo la mia famiglia.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0040.mp3"
+                },
+                {
+                    "en": "Let's visit family.",
+                    "it": "Andiamo a trovare la famiglia.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0041.mp3"
+                },
+                {
+                    "en": "Family dinner tonight.",
+                    "it": "Cena in famiglia stasera.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0042.mp3"
+                },
+                {
+                    "en": "We live with my parents for now.",
+                    "it": "Per ora viviamo con i miei genitori.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0043.mp3"
+                },
+                {
+                    "en": "I'm the oldest child in the family.",
+                    "it": "Sono il figlio maggiore della famiglia.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0044.mp3"
+                },
+                {
+                    "en": "We take turns helping with childcare.",
+                    "it": "Ci alterniamo per aiutare con la cura dei bambini.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0045.mp3"
+                },
+                {
+                    "en": "Could you call my sister and invite her?",
+                    "it": "Potresti chiamare mia sorella e invitarla?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0046.mp3"
+                },
+                {
+                    "en": "Let's plan a video call with the grandparents.",
+                    "it": "Organizziamo una videochiamata con i nonni.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0047.mp3"
+                },
+                {
+                    "en": "My family is small.",
+                    "it": "La mia famiglia è piccola.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0048.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Relationships & Friends",
+            "words": [
+                {
+                    "en": "Friend",
+                    "it": "Amico",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0049.mp3"
+                },
+                {
+                    "en": "Best friend",
+                    "it": "Migliore amico",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0050.mp3"
+                },
+                {
+                    "en": "Boyfriend",
+                    "it": "Fidanzato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0051.mp3"
+                },
+                {
+                    "en": "Girlfriend",
+                    "it": "Fidanzata",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0052.mp3"
+                },
+                {
+                    "en": "Partner",
+                    "it": "Partner",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0053.mp3"
+                },
+                {
+                    "en": "Colleague",
+                    "it": "Collega",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0054.mp3"
+                },
+                {
+                    "en": "Classmate",
+                    "it": "Compagno di classe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0055.mp3"
+                },
+                {
+                    "en": "Neighbor",
+                    "it": "Vicino",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0056.mp3"
+                },
+                {
+                    "en": "Acquaintance",
+                    "it": "Conoscenze",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0057.mp3"
+                },
+                {
+                    "en": "Stranger",
+                    "it": "Stranger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0058.mp3"
+                },
+                {
+                    "en": "Relationship",
+                    "it": "Relazione",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0059.mp3"
+                },
+                {
+                    "en": "Love",
+                    "it": "Con affetto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0060.mp3"
+                },
+                {
+                    "en": "Like",
+                    "it": "Tipo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0061.mp3"
+                },
+                {
+                    "en": "Trust",
+                    "it": "Trust",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0062.mp3"
+                },
+                {
+                    "en": "Friendship",
+                    "it": "Amicizia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0063.mp3"
+                },
+                {
+                    "en": "Together",
+                    "it": "Insieme",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0064.mp3"
+                },
+                {
+                    "en": "Alone",
+                    "it": "Da solo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0065.mp3"
+                },
+                {
+                    "en": "Close",
+                    "it": "Chiudi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0066.mp3"
+                },
+                {
+                    "en": "Argument",
+                    "it": "Discussione",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0067.mp3"
+                },
+                {
+                    "en": "Support",
+                    "it": "Supporto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0068.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Relationships & Friends - Phrases",
+            "words": [
+                {
+                    "en": "Are you my friend?",
+                    "it": "Sei mio amico?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0069.mp3"
+                },
+                {
+                    "en": "You're my best friend.",
+                    "it": "Sei il mio migliore amico.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0070.mp3"
+                },
+                {
+                    "en": "Do you have a boyfriend?",
+                    "it": "Hai un fidanzato?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0071.mp3"
+                },
+                {
+                    "en": "Do you have a girlfriend?",
+                    "it": "Hai una ragazza?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0072.mp3"
+                },
+                {
+                    "en": "I have a partner.",
+                    "it": "Ho un partner.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0073.mp3"
+                },
+                {
+                    "en": "We work together.",
+                    "it": "Lavoriamo insieme.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0074.mp3"
+                },
+                {
+                    "en": "We're classmates.",
+                    "it": "Siamo compagni di classe.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0075.mp3"
+                },
+                {
+                    "en": "Do you know them?",
+                    "it": "Li conosci?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0076.mp3"
+                },
+                {
+                    "en": "I don't know them.",
+                    "it": "Non li conosco.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0077.mp3"
+                },
+                {
+                    "en": "They're strangers.",
+                    "it": "Sono degli estranei.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0078.mp3"
+                },
+                {
+                    "en": "I love you.",
+                    "it": "Ti amo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0079.mp3"
+                },
+                {
+                    "en": "I like you.",
+                    "it": "Mi piaci.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0080.mp3"
+                },
+                {
+                    "en": "I trust you.",
+                    "it": "Mi fido di te.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0081.mp3"
+                },
+                {
+                    "en": "Let's be friends.",
+                    "it": "Facciamo amici.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0082.mp3"
+                },
+                {
+                    "en": "We're very close.",
+                    "it": "Siamo molto legati.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0083.mp3"
+                },
+                {
+                    "en": "I'm alone.",
+                    "it": "Sono solo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0084.mp3"
+                },
+                {
+                    "en": "Let's hang out.",
+                    "it": "Usciamo insieme.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0085.mp3"
+                },
+                {
+                    "en": "See you soon.",
+                    "it": "A presto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0086.mp3"
+                },
+                {
+                    "en": "We met at work a few years ago.",
+                    "it": "Ci siamo conosciuti al lavoro qualche anno fa.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0087.mp3"
+                },
+                {
+                    "en": "We've stayed close since university.",
+                    "it": "Siamo rimasti uniti fin dall'università.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0088.mp3"
+                },
+                {
+                    "en": "Can we set some boundaries and expectations?",
+                    "it": "Possiamo stabilire dei limiti e delle aspettative?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0089.mp3"
+                },
+                {
+                    "en": "Thank you for supporting me this week.",
+                    "it": "Grazie per avermi sostenuto questa settimana.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0090.mp3"
+                },
+                {
+                    "en": "Let's compromise and meet halfway.",
+                    "it": "Facciamo un compromesso e troviamoci a metà strada.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0091.mp3"
+                },
+                {
+                    "en": "I respect you.",
+                    "it": "Ti rispetto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0092.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Emotions & Feelings",
+            "words": [
+                {
+                    "en": "Happy",
+                    "it": "Felice",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0093.mp3"
+                },
+                {
+                    "en": "Sad",
+                    "it": "Triste",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0094.mp3"
+                },
+                {
+                    "en": "Angry",
+                    "it": "Arrabbiato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0095.mp3"
+                },
+                {
+                    "en": "Excited",
+                    "it": "Eccitata",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0096.mp3"
+                },
+                {
+                    "en": "Nervous",
+                    "it": "Nervoso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0097.mp3"
+                },
+                {
+                    "en": "Worried",
+                    "it": "Preoccupato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0098.mp3"
+                },
+                {
+                    "en": "Scared",
+                    "it": "Spaventata",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0099.mp3"
+                },
+                {
+                    "en": "Tired",
+                    "it": "Stanco",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0100.mp3"
+                },
+                {
+                    "en": "Bored",
+                    "it": "Annoiato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0101.mp3"
+                },
+                {
+                    "en": "Surprised",
+                    "it": "Sorpreso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0102.mp3"
+                },
+                {
+                    "en": "Confused",
+                    "it": "Confuso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0103.mp3"
+                },
+                {
+                    "en": "Proud",
+                    "it": "Orgoglioso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0104.mp3"
+                },
+                {
+                    "en": "Jealous",
+                    "it": "Geloso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0105.mp3"
+                },
+                {
+                    "en": "Grateful",
+                    "it": "Grato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0106.mp3"
+                },
+                {
+                    "en": "Lonely",
+                    "it": "Solitario",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0107.mp3"
+                },
+                {
+                    "en": "Calm",
+                    "it": "Calma",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0108.mp3"
+                },
+                {
+                    "en": "Stressed",
+                    "it": "Stressato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0109.mp3"
+                },
+                {
+                    "en": "Relaxed",
+                    "it": "Rilassato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0110.mp3"
+                },
+                {
+                    "en": "Confident",
+                    "it": "Sicuro",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0111.mp3"
+                },
+                {
+                    "en": "Frustrated",
+                    "it": "Frustrato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0112.mp3"
+                },
+                {
+                    "en": "Focused",
+                    "it": "Focalizzati",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0113.mp3"
+                },
+                {
+                    "en": "Motivated",
+                    "it": "Motivato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0114.mp3"
+                },
+                {
+                    "en": "Energetic",
+                    "it": "Energetico",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0115.mp3"
+                },
+                {
+                    "en": "Hopeful",
+                    "it": "Speranzoso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0116.mp3"
+                },
+                {
+                    "en": "Curious",
+                    "it": "Curioso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0117.mp3"
+                },
+                {
+                    "en": "Patient",
+                    "it": "Paziente",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0118.mp3"
+                },
+                {
+                    "en": "Ambitious",
+                    "it": "Ambizioso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0119.mp3"
+                },
+                {
+                    "en": "Balanced",
+                    "it": "Bilanciato",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0120.mp3"
+                },
+                {
+                    "en": "Routine",
+                    "it": "Routine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0121.mp3"
+                },
+                {
+                    "en": "Habit",
+                    "it": "Abitudine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0122.mp3"
+                },
+                {
+                    "en": "Break time",
+                    "it": "Ora della pausa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0123.mp3"
+                },
+                {
+                    "en": "Weekend plan",
+                    "it": "Piano per il weekend",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0124.mp3"
+                },
+                {
+                    "en": "Overwhelmed",
+                    "it": "Sopraffatta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0125.mp3"
+                },
+                {
+                    "en": "Homesick",
+                    "it": "Nostalgia di casa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0126.mp3"
+                },
+                {
+                    "en": "Optimistic",
+                    "it": "Ottimista",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0127.mp3"
+                },
+                {
+                    "en": "Burnout",
+                    "it": "Burnout",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0128.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Emotions & Feelings - Phrases",
+            "words": [
+                {
+                    "en": "How do you feel?",
+                    "it": "Come ti senti?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0129.mp3"
+                },
+                {
+                    "en": "I'm happy.",
+                    "it": "Sono felice.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0130.mp3"
+                },
+                {
+                    "en": "I'm sad.",
+                    "it": "Sono triste.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0131.mp3"
+                },
+                {
+                    "en": "Are you okay?",
+                    "it": "Stai bene?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0132.mp3"
+                },
+                {
+                    "en": "I'm fine.",
+                    "it": "Sto bene.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0133.mp3"
+                },
+                {
+                    "en": "I'm not okay.",
+                    "it": "Non sto bene.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0134.mp3"
+                },
+                {
+                    "en": "What's wrong?",
+                    "it": "Cosa c'è che non va?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0135.mp3"
+                },
+                {
+                    "en": "I'm excited.",
+                    "it": "Sono emozionata.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0136.mp3"
+                },
+                {
+                    "en": "I'm nervous.",
+                    "it": "Sono nervoso.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0137.mp3"
+                },
+                {
+                    "en": "Don't worry.",
+                    "it": "Non preoccuparti.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0138.mp3"
+                },
+                {
+                    "en": "I'm scared.",
+                    "it": "Ho paura.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0139.mp3"
+                },
+                {
+                    "en": "Are you tired?",
+                    "it": "Sei stanco?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0140.mp3"
+                },
+                {
+                    "en": "I'm so bored.",
+                    "it": "Mi annoio così tanto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0141.mp3"
+                },
+                {
+                    "en": "What a surprise?",
+                    "it": "Che sorpresa!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0142.mp3"
+                },
+                {
+                    "en": "I'm confused.",
+                    "it": "Sono confuso.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0143.mp3"
+                },
+                {
+                    "en": "I'm proud of you.",
+                    "it": "Sono orgoglioso di te.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0144.mp3"
+                },
+                {
+                    "en": "I'm grateful.",
+                    "it": "Sono grato.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0145.mp3"
+                },
+                {
+                    "en": "Feeling better?",
+                    "it": "Ti senti meglio?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0146.mp3"
+                },
+                {
+                    "en": "I feel confident today.",
+                    "it": "Oggi mi sento sicuro.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0147.mp3"
+                },
+                {
+                    "en": "I'm a little nervous.",
+                    "it": "Sono un po' nervoso.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0148.mp3"
+                },
+                {
+                    "en": "The team is excited.",
+                    "it": "La squadra è entusiasta.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0149.mp3"
+                },
+                {
+                    "en": "This delay is frustrating.",
+                    "it": "Questo ritardo è frustrante.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0150.mp3"
+                },
+                {
+                    "en": "Let's stay relaxed.",
+                    "it": "Restiamo rilassati.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0151.mp3"
+                },
+                {
+                    "en": "I need to stay focused.",
+                    "it": "Devo restare concentrato.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0152.mp3"
+                },
+                {
+                    "en": "She is very motivated.",
+                    "it": "È molto motivata.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0153.mp3"
+                },
+                {
+                    "en": "Take a quick break time.",
+                    "it": "Fai una breve pausa.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0154.mp3"
+                },
+                {
+                    "en": "What are your weekend plans?",
+                    "it": "Quali sono i tuoi programmi per il weekend?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0155.mp3"
+                },
+                {
+                    "en": "I'm grateful for the support.",
+                    "it": "Sono grato per il supporto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0156.mp3"
+                },
+                {
+                    "en": "I feel a bit overwhelmed right now.",
+                    "it": "Mi sento un po' sopraffatta in questo momento.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0157.mp3"
+                },
+                {
+                    "en": "I'm homesick and miss everyone.",
+                    "it": "Ho nostalgia di casa e mi mancano tutti.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0158.mp3"
+                },
+                {
+                    "en": "I'm optimistic things will improve soon.",
+                    "it": "Sono ottimista che presto le cose miglioreranno.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0159.mp3"
+                },
+                {
+                    "en": "I need a quiet moment to calm down.",
+                    "it": "Ho bisogno di un momento di tranquillità per calmarmi.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/06/it_0160.mp3"
+                }
+            ]
+        }
+    ]
+}

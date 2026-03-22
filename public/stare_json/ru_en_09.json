@@ -1,0 +1,636 @@
+{
+    "info": "RUSSIAN TRANSLATION - File 09 - Hobbies & Interests",
+    "note": "Use this file to synchronize all language files (es, de, fr, ru, zh, ja, ko)",
+    "categories": [
+        {
+            "name": "Hobbies & Interests",
+            "words": [
+                {
+                    "en": "Hobby",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0001.mp3",
+                    "ru": "Хобби"
+                },
+                {
+                    "en": "Interest",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0002.mp3",
+                    "ru": "Интерес"
+                },
+                {
+                    "en": "Music",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0003.mp3",
+                    "ru": "Музыка"
+                },
+                {
+                    "en": "Movie",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0004.mp3",
+                    "ru": "Фильм"
+                },
+                {
+                    "en": "Book",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0005.mp3",
+                    "ru": "Книга"
+                },
+                {
+                    "en": "Game",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0006.mp3",
+                    "ru": "Игра"
+                },
+                {
+                    "en": "Sport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0007.mp3",
+                    "ru": "Спорт"
+                },
+                {
+                    "en": "Travel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0008.mp3",
+                    "ru": "Путешествие"
+                },
+                {
+                    "en": "Cooking",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0009.mp3",
+                    "ru": "Готовка"
+                },
+                {
+                    "en": "Photography",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0010.mp3",
+                    "ru": "Фотография"
+                },
+                {
+                    "en": "Drawing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0011.mp3",
+                    "ru": "Рисование"
+                },
+                {
+                    "en": "Painting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0012.mp3",
+                    "ru": "Живопись"
+                },
+                {
+                    "en": "Dance",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0013.mp3",
+                    "ru": "Танец"
+                },
+                {
+                    "en": "Singing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0014.mp3",
+                    "ru": "Пение"
+                },
+                {
+                    "en": "Reading",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0015.mp3",
+                    "ru": "Чтение"
+                },
+                {
+                    "en": "Writing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0016.mp3",
+                    "ru": "Письмо"
+                },
+                {
+                    "en": "Gardening",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0017.mp3",
+                    "ru": "Садоводство"
+                },
+                {
+                    "en": "Collecting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0018.mp3",
+                    "ru": "Коллекционирование"
+                }
+            ]
+        },
+        {
+            "name": "Hobbies & Interests - Phrases",
+            "words": [
+                {
+                    "en": "What are your hobbies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0019.mp3",
+                    "ru": "Какие у тебя хобби?"
+                },
+                {
+                    "en": "What do you like?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0020.mp3",
+                    "ru": "Что тебе нравится?"
+                },
+                {
+                    "en": "Do you like music?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0021.mp3",
+                    "ru": "Ты любишь музыку?"
+                },
+                {
+                    "en": "What music?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0022.mp3",
+                    "ru": "Какую музыку?"
+                },
+                {
+                    "en": "Can you play guitar?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0023.mp3",
+                    "ru": "Играешь на гитаре?"
+                },
+                {
+                    "en": "I'm learning piano",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0024.mp3",
+                    "ru": "Я учусь играть на пианино"
+                },
+                {
+                    "en": "Do you like watching movies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0025.mp3",
+                    "ru": "Любишь смотреть фильмы?"
+                },
+                {
+                    "en": "What movies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0026.mp3",
+                    "ru": "Какие фильмы?"
+                },
+                {
+                    "en": "Do you like reading?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0027.mp3",
+                    "ru": "Любишь читать?"
+                },
+                {
+                    "en": "What are you reading?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0028.mp3",
+                    "ru": "Что читаешь?"
+                },
+                {
+                    "en": "Do you like traveling?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0029.mp3",
+                    "ru": "Любишь путешествовать?"
+                },
+                {
+                    "en": "Where do you want to go?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0030.mp3",
+                    "ru": "Куда хочешь поехать?"
+                },
+                {
+                    "en": "Can you cook?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0031.mp3",
+                    "ru": "Умеешь готовить?"
+                },
+                {
+                    "en": "What dishes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0032.mp3",
+                    "ru": "Какие блюда?"
+                },
+                {
+                    "en": "Do you play games?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0033.mp3",
+                    "ru": "Играешь в игры?"
+                },
+                {
+                    "en": "Do you like photography?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0034.mp3",
+                    "ru": "Тебе нравится фотография?"
+                },
+                {
+                    "en": "Can you sing?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0035.mp3",
+                    "ru": "Умеешь петь?"
+                },
+                {
+                    "en": "What do you do in your free time?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0036.mp3",
+                    "ru": "Чем занимаешься в свободное время?"
+                },
+                {
+                    "en": "I'm trying to practice guitar ten minutes a day",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0037.mp3",
+                    "ru": "Стараюсь играть на гитаре по 10 минут"
+                },
+                {
+                    "en": "Let's start a small book club together",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0038.mp3",
+                    "ru": "Давай создадим книжный клуб"
+                },
+                {
+                    "en": "I'm getting back into painting this month",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0039.mp3",
+                    "ru": "В этом месяце снова начал рисовать"
+                },
+                {
+                    "en": "Do you want to join our weekend cooking group?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0040.mp3",
+                    "ru": "Хочешь готовить с нами на выходных?"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise",
+            "words": [
+                {
+                    "en": "Sports",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0041.mp3",
+                    "ru": "Спорт"
+                },
+                {
+                    "en": "Exercise",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0042.mp3",
+                    "ru": "Тренировка"
+                },
+                {
+                    "en": "Soccer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0043.mp3",
+                    "ru": "Футбол"
+                },
+                {
+                    "en": "Basketball",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0044.mp3",
+                    "ru": "Баскетбол"
+                },
+                {
+                    "en": "Tennis",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0045.mp3",
+                    "ru": "Теннис"
+                },
+                {
+                    "en": "Swimming",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0046.mp3",
+                    "ru": "Плавание"
+                },
+                {
+                    "en": "Running",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0047.mp3",
+                    "ru": "Бег"
+                },
+                {
+                    "en": "Yoga",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0048.mp3",
+                    "ru": "Йога"
+                },
+                {
+                    "en": "Hiking",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0049.mp3",
+                    "ru": "Поход"
+                },
+                {
+                    "en": "Cycling",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0050.mp3",
+                    "ru": "Велоспорт"
+                },
+                {
+                    "en": "Gym",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0051.mp3",
+                    "ru": "Зал"
+                },
+                {
+                    "en": "Stadium",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0052.mp3",
+                    "ru": "Стадион"
+                },
+                {
+                    "en": "Team",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0053.mp3",
+                    "ru": "Команда"
+                },
+                {
+                    "en": "Player",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0054.mp3",
+                    "ru": "Игрок"
+                },
+                {
+                    "en": "Game",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0055.mp3",
+                    "ru": "Игра"
+                },
+                {
+                    "en": "Score",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0056.mp3",
+                    "ru": "Счет"
+                },
+                {
+                    "en": "Win",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0057.mp3",
+                    "ru": "Победа"
+                },
+                {
+                    "en": "Lose",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0058.mp3",
+                    "ru": "Поражение"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise - Phrases",
+            "words": [
+                {
+                    "en": "Do you play sports?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0059.mp3",
+                    "ru": "Занимаешься спортом?"
+                },
+                {
+                    "en": "Do you like sports?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0060.mp3",
+                    "ru": "Любишь спорт?"
+                },
+                {
+                    "en": "Do you play soccer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0061.mp3",
+                    "ru": "Играешь в футбол?"
+                },
+                {
+                    "en": "Do you play basketball?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0062.mp3",
+                    "ru": "Играешь в баскетбол?"
+                },
+                {
+                    "en": "Want to swim?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0063.mp3",
+                    "ru": "Хочешь поплавать?"
+                },
+                {
+                    "en": "Do you run every day?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0064.mp3",
+                    "ru": "Бегаешь каждый день?"
+                },
+                {
+                    "en": "Are you going to the gym?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0065.mp3",
+                    "ru": "Идешь в зал?"
+                },
+                {
+                    "en": "Do you do yoga?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0066.mp3",
+                    "ru": "Занимаешься йогой?"
+                },
+                {
+                    "en": "Want to exercise together?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0067.mp3",
+                    "ru": "Потренируемся вместе?"
+                },
+                {
+                    "en": "Can you ski?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0068.mp3",
+                    "ru": "Катаешься на лыжах?"
+                },
+                {
+                    "en": "Are you going hiking today?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0069.mp3",
+                    "ru": "Идешь в поход сегодня?"
+                },
+                {
+                    "en": "When's the match?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0070.mp3",
+                    "ru": "Когда матч?"
+                },
+                {
+                    "en": "Who won?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0071.mp3",
+                    "ru": "Кто выиграл?"
+                },
+                {
+                    "en": "Did our team win?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0072.mp3",
+                    "ru": "Наша команда выиграла?"
+                },
+                {
+                    "en": "Do you need to exercise?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0073.mp3",
+                    "ru": "Тебе нужно тренироваться?"
+                },
+                {
+                    "en": "Are you tired?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0074.mp3",
+                    "ru": "Устал?"
+                },
+                {
+                    "en": "Is it good for health?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0075.mp3",
+                    "ru": "Это полезно?"
+                },
+                {
+                    "en": "How often do you play?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0076.mp3",
+                    "ru": "Как часто играешь?"
+                },
+                {
+                    "en": "Let's warm up with a few stretches first",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0077.mp3",
+                    "ru": "Давай сначала разомнемся"
+                },
+                {
+                    "en": "I'm tracking my runs with an app now",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0078.mp3",
+                    "ru": "Я отслеживаю пробежки в приложении"
+                },
+                {
+                    "en": "Do we need to reserve a court in advance?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0079.mp3",
+                    "ru": "Нужно бронировать корт заранее?"
+                },
+                {
+                    "en": "I'll cheer from the sidelines if I can't play",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0080.mp3",
+                    "ru": "Буду болеть, если не смогу играть"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals",
+            "words": [
+                {
+                    "en": "Pet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0081.mp3",
+                    "ru": "Питомец"
+                },
+                {
+                    "en": "Animal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0082.mp3",
+                    "ru": "Животное"
+                },
+                {
+                    "en": "Dog",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0083.mp3",
+                    "ru": "Собака"
+                },
+                {
+                    "en": "Cat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0084.mp3",
+                    "ru": "Кот"
+                },
+                {
+                    "en": "Bird",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0085.mp3",
+                    "ru": "Птица"
+                },
+                {
+                    "en": "Fish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0086.mp3",
+                    "ru": "Рыба"
+                },
+                {
+                    "en": "Rabbit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0087.mp3",
+                    "ru": "Кролик"
+                },
+                {
+                    "en": "Hamster",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0088.mp3",
+                    "ru": "Хомяк"
+                },
+                {
+                    "en": "Horse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0089.mp3",
+                    "ru": "Лошадь"
+                },
+                {
+                    "en": "Cow",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0090.mp3",
+                    "ru": "Корова"
+                },
+                {
+                    "en": "Pig",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0091.mp3",
+                    "ru": "Свинья"
+                },
+                {
+                    "en": "Sheep",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0092.mp3",
+                    "ru": "Овца"
+                },
+                {
+                    "en": "Tiger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0093.mp3",
+                    "ru": "Тигр"
+                },
+                {
+                    "en": "Lion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0094.mp3",
+                    "ru": "Лев"
+                },
+                {
+                    "en": "Elephant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0095.mp3",
+                    "ru": "Слон"
+                },
+                {
+                    "en": "Monkey",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0096.mp3",
+                    "ru": "Обезьяна"
+                },
+                {
+                    "en": "Zoo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0097.mp3",
+                    "ru": "Зоопарк"
+                },
+                {
+                    "en": "Farm",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0098.mp3",
+                    "ru": "Ферма"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a pet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0099.mp3",
+                    "ru": "У тебя есть питомец?"
+                },
+                {
+                    "en": "Do you have a dog?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0100.mp3",
+                    "ru": "У тебя есть собака?"
+                },
+                {
+                    "en": "Do you like cats?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0101.mp3",
+                    "ru": "Любишь кошек?"
+                },
+                {
+                    "en": "What's its name?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0102.mp3",
+                    "ru": "Как зовут?"
+                },
+                {
+                    "en": "How old is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0103.mp3",
+                    "ru": "Сколько лет?"
+                },
+                {
+                    "en": "Is it cute?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0104.mp3",
+                    "ru": "Милый?"
+                },
+                {
+                    "en": "Do you have a cat?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0105.mp3",
+                    "ru": "У тебя есть кот?"
+                },
+                {
+                    "en": "Is it well-behaved?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0106.mp3",
+                    "ru": "Послушный?"
+                },
+                {
+                    "en": "Are you afraid of dogs?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0107.mp3",
+                    "ru": "Боишься собак?"
+                },
+                {
+                    "en": "Do you love animals?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0108.mp3",
+                    "ru": "Любишь животных?"
+                },
+                {
+                    "en": "Are you going to the zoo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0109.mp3",
+                    "ru": "Идешь в зоопарк?"
+                },
+                {
+                    "en": "Did you see a tiger?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0110.mp3",
+                    "ru": "Видел тигра?"
+                },
+                {
+                    "en": "Are elephants big?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0111.mp3",
+                    "ru": "Слоны большие?"
+                },
+                {
+                    "en": "Are monkeys smart?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0112.mp3",
+                    "ru": "Обезьяны умные?"
+                },
+                {
+                    "en": "Should I feed it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0113.mp3",
+                    "ru": "Покормить его?"
+                },
+                {
+                    "en": "Does it need a walk?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0114.mp3",
+                    "ru": "Ему нужно гулять?"
+                },
+                {
+                    "en": "Is your dog friendly?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0115.mp3",
+                    "ru": "Твоя собака дружелюбная?"
+                },
+                {
+                    "en": "Can I pet it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0116.mp3",
+                    "ru": "Можно погладить?"
+                },
+                {
+                    "en": "Could you watch my cat this weekend?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0117.mp3",
+                    "ru": "Присмотришь за котом на выходных?"
+                },
+                {
+                    "en": "Let's schedule a vet visit for the puppy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0118.mp3",
+                    "ru": "Запишем щенка к ветеринару"
+                },
+                {
+                    "en": "Do they need any special food?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0119.mp3",
+                    "ru": "Им нужен особый корм?"
+                },
+                {
+                    "en": "I'm training my dog to walk on a leash",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/09/ru_0120.mp3",
+                    "ru": "Учу собаку ходить на поводке"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,403 @@
+<!-- /functions/views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en" style="background-color: #111828;">
+<%- include('partials/head') %>
+
+  <body class="m-0 p-0 bg-dark-card text-gray-200">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
+        style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Main Navigation -->
+    <%- include('partials/menu') %>
+
+      <!-- Hero -->
+      <section id="hero-section" class="w-full pt-[70px] md:pt-[90px] bg-dark-card ">
+        <div class="max-w-7xl mx-auto p-6 px-4 md:px-8 pt-20 md:pt-28 pb-16 md:pb-24">
+          <div class="flex flex-col md:flex-row items-center md:justify-center gap-12">
+            <div class="md:w-1/2">
+              <h1
+                class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[4rem] font-bold text-white mb-3 leading-[1.2] sm:leading-[1.3] lg:leading-[1.4]">
+                Learn languages faster than ever with <span class="text-level-expert">Zentalist</span>
+              </h1>
+              <p class="text-gray-300 mb-6">
+                A unique and effective flashcard system.<br>Learn vocabulary in 8 languages and compete with learners
+                worldwide.
+              </p>
+              <div class="flex flex-col sm:flex-row gap-4">
+                <button id="view-more"
+                  class="bg-level-expert hover:bg-level-expert/80 text-white font-bold py-3 px-8 rounded-md text-lg transition-colors"
+                  onclick="window.location.href='/learn'">
+                  Learn now!
+                </button>
+              </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center items-center">
+              <div class="text-center">
+                <div class="grid grid-cols-4 gap-4 mb-4">
+                  <img src="/img/svg/flag-for-flag-spain-svgrepo-com.svg" alt="Spanish"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                  <img src="/img/svg/flag-for-flag-germany-svgrepo-com.svg" alt="German"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                  <img src="/img/svg/flag-for-flag-france-svgrepo-com.svg" alt="French"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                  <img src="/img/svg/flag-for-flag-russia-svgrepo-com.svg" alt="Russian"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                  <img src="/img/svg/flag-for-flag-china-svgrepo-com.svg" alt="Chinese"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                  <img src="/img/svg/flag-for-flag-japan-svgrepo-com.svg" alt="Japanese"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                  <img src="/img/svg/flag-for-flag-south-korea-svgrepo-com.svg" alt="Korean"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                  <img src="/img/svg/flag-for-flag-italy-svgrepo-com.svg" alt="Italian"
+                    class="w-14 h-14 md:w-20 md:h-20">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Guide Section - ORIGINAL -->
+      <!-- <section id="quick-guide" class="w-full py-16 px-4 overflow-hidden bg-dark-card">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-3xl font-bold text-center text-white mb-10">
+            How the App Works
+          </h2>
+          <ol class="space-y-4 text-gray-300">
+            <li class="flex gap-4">
+              <span
+                class="flex-shrink-0 w-8 h-8 bg-level-expert text-white font-bold rounded-full flex items-center justify-center">1</span>
+              <p><strong class="text-white">9 categories of words and phrases</strong> – each language has identical 9
+                categories with a unique repetition system. Everything you need to
+                communicate, divided into individual words and dedicated phrases.</p>
+            </li>
+            <li class="flex gap-4">
+              <span
+                class="flex-shrink-0 w-8 h-8 bg-level-expert text-white font-bold rounded-full flex items-center justify-center">2</span>
+              <div>
+                <p class="mb-2"><strong class="text-white">Unique repetition system</strong></p>
+                <ul class="space-y-1 text-sm">
+                  <li>✓ Categories consist of multiple cards with 4 words each</li>
+                  <li>✓ Click words alternately and repeat them out loud to memorize</li>
+                  <li>✓ After 5 clicks the word locks</li>
+                  <li>✓ Finish entire category → get one star in your stats</li>
+                  <li>✓ After 24 hours you'll get a notification to review</li>
+                </ul>
+              </div>
+            </li>
+            <li class="flex gap-4">
+              <span
+                class="flex-shrink-0 w-8 h-8 bg-level-expert text-white font-bold rounded-full flex items-center justify-center">3</span>
+              <p><strong class="text-white">Earn stars</strong> – each completed category gives you one star for the
+                Global Leaderboard.</p>
+            </li>
+            <li class="flex gap-4">
+              <span
+                class="flex-shrink-0 w-8 h-8 bg-level-expert text-white font-bold rounded-full flex items-center justify-center">4</span>
+              <p><strong class="text-white">Take the Challenge</strong> – after finishing a category, take a quiz. Score
+                90–99% (+20 pts) or a perfect 100% on the first try (+50 pts) for the Global Leaderboard.</p>
+            </li>
+            <li class="flex gap-4">
+              <span
+                class="flex-shrink-0 w-8 h-8 bg-level-expert text-white font-bold rounded-full flex items-center justify-center">5</span>
+              <p><strong class="text-white">Remember:</strong> completing categories + finishing challenges = points on
+                the Global Leaderboard!</p>
+            </li>
+          </ol>
+        </div>
+      </section> -->
+
+      <!-- Quick Guide Section - NEW CARD VERSION -->
+      <section id="quick-guide" class="w-full pt-24 pb-16 px-4 overflow-hidden bg-dark-card">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-4xl font-bold text-center text-white mb-12">
+            How the App Works
+          </h2>
+          <div class="space-y-4">
+            <!-- Card 1 -->
+            <div
+              class="bg-dark-bg border border-dark-border rounded-xl p-6 shadow-card hover:shadow-card-hover hover:-translate-y-[2px] transition-all duration-300 ease-in-out">
+              <div class="flex gap-4 items-start">
+                <svg class="w-8 h-8 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  style="color: #ff8c02;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M12 10.4V20M12 10.4C12 8.15979 12 7.03969 11.564 6.18404C11.1805 5.43139 10.5686 4.81947 9.81596 4.43597C8.96031 4 7.84021 4 5.6 4H4.6C4.03995 4 3.75992 4 3.54601 4.10899C3.35785 4.20487 3.20487 4.35785 3.10899 4.54601C3 4.75992 3 5.03995 3 5.6V16.4C3 16.9601 3 17.2401 3.10899 17.454C3.20487 17.6422 3.35785 17.7951 3.54601 17.891C3.75992 18 4.03995 18 4.6 18H7.54668C8.08687 18 8.35696 18 8.61814 18.0466C8.84995 18.0879 9.0761 18.1563 9.29191 18.2506C9.53504 18.3567 9.75977 18.5065 10.2092 18.8062L12 20M12 10.4C12 8.15979 12 7.03969 12.436 6.18404C12.8195 5.43139 13.4314 4.81947 14.184 4.43597C15.0397 4 16.1598 4 18.4 4H19.4C19.9601 4 20.2401 4 20.454 4.10899C20.6422 4.20487 20.7951 4.35785 20.891 4.54601C21 4.75992 21 5.03995 21 5.6V16.4C21 16.9601 21 17.2401 20.891 17.454C20.7951 17.6422 20.6422 17.7951 20.454 17.891C20.2401 18 19.9601 18 19.4 18H16.4533C15.9131 18 15.643 18 15.3819 18.0466C15.15 18.0879 14.9239 18.1563 14.7081 18.2506C14.465 18.3567 14.2402 18.5065 13.7908 18.8062L12 20" />
+                </svg>
+                <div>
+                  <h3 class="font-bold text-white mb-2">9 categories of words and phrases</h3>
+                  <p class="text-gray-300 text-sm">Each language has 9 categories with a unique and effective repetition
+                    system. Learn the words and phrases you need to communicate confidently.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="bg-dark-bg border border-dark-border rounded-xl p-6 shadow-card hover:shadow-card-hover hover:-translate-y-[2px] transition-all duration-300 ease-in-out">
+              <div class="flex gap-4 items-start">
+                <svg class="w-8 h-8 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  style="color: #ff8c02;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M12 7V12L9.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" />
+                </svg>
+                <div>
+                  <h3 class="font-bold text-white mb-2">Unique repetition system</h3>
+                  <ul class="space-y-1 text-sm text-gray-300">
+                    <li>✓ Categories consist of different cards with 4 words each</li>
+                    <li>✓ Click words alternately and repeat them out loud to memorize</li>
+                    <li>✓ After 5 clicks the word locks</li>
+                    <li>✓ Finish entire category → <svg class="inline w-4 h-4" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" style="color: #ff8c02;" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                      </svg> get one star in your stats and <svg class="inline w-4 h-4" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" style="color: #ff8c02;" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                          d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
+                      </svg> unlock the challenge</li>
+                    <li>✓ After 24 hours you'll get a notification to review</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="bg-dark-bg border border-dark-border rounded-xl p-6 shadow-card hover:shadow-card-hover hover:-translate-y-[2px] transition-all duration-300 ease-in-out">
+              <div class="flex gap-4 items-start">
+                <svg class="w-8 h-8 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  style="color: #ff8c02;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" />
+                </svg>
+                <div>
+                  <h3 class="font-bold text-white mb-2">Track your progress & collect stars</h3>
+                  <p class="text-gray-300 text-sm">Check your Stats to see completed categories and collected stars.
+                    Each star counts toward your ranking!</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div
+              class="bg-dark-bg border border-dark-border rounded-xl p-6 shadow-card hover:shadow-card-hover hover:-translate-y-[2px] transition-all duration-300 ease-in-out">
+              <div class="flex gap-4 items-start">
+                <svg class="w-8 h-8 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  style="color: #ff8c02;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
+                </svg>
+                <div>
+                  <h3 class="font-bold text-white mb-2">Take the Challenge</h3>
+                  <p class="text-gray-300 text-sm">After finishing a category, take a quiz. Score 90–99% (+20 pts) or
+                    a perfect 100% on the first try (+50 pts) for the Global Leaderboard.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div
+              class="bg-dark-bg border border-dark-border rounded-xl p-6 shadow-card hover:shadow-card-hover hover:-translate-y-[2px] transition-all duration-300 ease-in-out">
+              <div class="flex gap-4 items-start">
+                <img src="/img/svg/01/globe_logo.svg" alt="Globe" class="w-8 h-8 flex-shrink-0">
+                <div>
+                  <h3 class="font-bold text-white mb-2">Compete on the Global Leaderboard!</h3>
+                  <p class="text-gray-300 text-sm">Complete categories and finish challenges to earn points and climb
+                    the ranks!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section id="pricing-plans" class="w-full pt-24 pb-16 overflow-hidden bg-dark-card">
+        <div class="max-w-5xl mx-auto px-4">
+          <div id="price-cards">
+            <h2 class="text-4xl font-bold text-center text-white mb-12">
+              Start your language journey today
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+              <!-- Free Plan -->
+              <div
+                class="bg-dark-bg border border-dark-border shadow-card hover:shadow-card-hover hover:-translate-y-[5px] transition-all duration-300 ease-in-out rounded-xl p-5 flex flex-col">
+                <h3 class="font-bold text-white mb-2">Free</h3>
+                <p class="text-level-expert text-xs mb-2">7 days full access trial!</p>
+                <p class="text-2xl text-white font-bold mb-6">$0</p>
+                <ul class="text-sm text-gray-300 mb-6 space-y-2 mt-auto">
+                  <li>✓ 1 category per language</li>
+                  <li>✓ Audio pronunciation</li>
+                  <li>✓ Category Challenge</li>
+                  <li>✓ Statistics</li>
+                  <li class="text-gray-500">✗ Limited Leaderboard</li>
+                </ul>
+                <div>
+                  <button
+                    class="bg-dark-border hover:bg-gray-600 text-white font-bold py-3 px-4 rounded-md text-base w-full"
+                    onclick="window.location.href='/learn'">
+                    Start for free
+                  </button>
+                </div>
+              </div>
+
+              <!-- Monthly Plan -->
+              <div
+                class="bg-dark-bg border border-dark-border shadow-card hover:shadow-card-hover hover:-translate-y-[5px] transition-all duration-300 ease-in-out rounded-xl p-5 flex flex-col">
+                <h3 class="font-bold text-white mb-2">Monthly</h3>
+                <p class="text-gray-400 text-xs mb-2">Flexible, cancel anytime</p>
+                <p class="text-2xl text-white font-bold mb-6">$9.99<span class="text-sm text-gray-400">/month</span></p>
+                <ul class="text-sm text-gray-300 mb-6 space-y-2 mt-auto">
+                  <li class="text-green-400">✓ All categories unlocked</li>
+                  <li>✓ Audio pronunciation</li>
+                  <li>✓ Category Challenge</li>
+                  <li>✓ Statistics</li>
+                  <li class="text-green-400">✓ Unlimited Leaderboard</li>
+                </ul>
+                <div>
+                  <button
+                    class="iap-cta touch-target bg-level-expert hover:bg-level-expert/80 text-white font-bold py-3 px-4 rounded-md text-base w-full"
+                    data-iap-package="monthly"
+                    type="button">
+                    Buy monthly in app
+                  </button>
+                </div>
+              </div>
+
+              <!-- Yearly Plan -->
+              <div
+                class="bg-dark-bg border-2 border-level-expert shadow-card hover:shadow-card-hover hover:-translate-y-[5px] transition-all duration-300 ease-in-out rounded-xl p-5 flex flex-col relative">
+                <div
+                  class="absolute top-0 right-0 bg-level-expert text-white text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-[10px]">
+                  BEST VALUE
+                </div>
+                <h3 class="font-bold text-white mb-2">Yearly</h3>
+                <p class="text-gray-400 text-xs mb-2">Best value for subscriptions</p>
+                <p class="text-2xl text-white font-bold mb-1">$59<span class="text-sm text-gray-400">/year</span></p>
+                <p class="text-level-expert text-xs mb-6">~$5/month</p>
+                <ul class="text-sm text-gray-300 mb-6 space-y-2 mt-auto">
+                  <li class="text-green-400">✓ All categories unlocked</li>
+                  <li>✓ Audio pronunciation</li>
+                  <li>✓ Category Challenge</li>
+                  <li>✓ Statistics</li>
+                  <li class="text-green-400">✓ Unlimited Leaderboard</li>
+                </ul>
+                <div>
+                  <button
+                    class="iap-cta touch-target bg-level-expert hover:bg-level-expert/80 text-white font-bold py-3 px-4 rounded-md text-base w-full"
+                    data-iap-package="annual"
+                    type="button">
+                    Buy yearly in app
+                  </button>
+                </div>
+              </div>
+
+              <!-- Lifetime Plan -->
+              <div
+                class="bg-dark-bg border border-dark-border shadow-card hover:shadow-card-hover hover:-translate-y-[5px] transition-all duration-300 ease-in-out rounded-xl p-5 flex flex-col">
+                <h3 class="font-bold text-white mb-2">Lifetime</h3>
+                <p class="text-gray-400 text-xs mb-2">One-time payment, forever access</p>
+                <p class="text-2xl text-white font-bold mb-1">$99<span class="text-sm text-gray-400"> one-time</span>
+                </p>
+                <p class="text-green-400 text-xs mb-6">Own it forever</p>
+                <ul class="text-sm text-gray-300 mb-6 space-y-2 mt-auto">
+                  <li class="text-green-400">✓ All categories unlocked</li>
+                  <li>✓ Audio pronunciation</li>
+                  <li>✓ Category Challenge</li>
+                  <li>✓ Statistics</li>
+                  <li class="text-green-400">✓ Unlimited Leaderboard</li>
+                </ul>
+                <div>
+                  <button
+                    class="iap-cta touch-target bg-level-expert hover:bg-level-expert/80 text-white font-bold py-3 px-4 rounded-md text-base w-full"
+                    data-iap-package="lifetime"
+                    type="button">
+                    Buy lifetime in app
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center mt-8 px-2">
+              <button id="iap-restore"
+                class="touch-target inline-flex items-center justify-center px-5 py-3 rounded-md border border-dark-border text-gray-200 hover:bg-dark-card"
+                type="button">
+                Restore purchases
+              </button>
+              <p id="iap-status" class="mt-3 text-sm text-gray-300" role="status" aria-live="polite"></p>
+              <p id="iap-price-note" class="hidden mt-2 text-xs text-gray-400">Final price and currency are shown by Apple App Store or Google Play at checkout.</p>
+            </div>
+          </div>
+
+          <!-- karta dla premium user -->
+          <div id="user-card" class="hidden w-full max-w-md mx-auto">
+            <div class="bg-dark-card border border-green-500/30 rounded-xl overflow-hidden">
+              <div class="p-6 text-center">
+                <div class="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg class="w-8 h-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+
+                <h2 class="text-2xl font-bold text-white mb-2">You're Premium!</h2>
+                <p class="text-gray-400 mb-6">Full access to all 8 languages and 30,000+ words</p>
+
+                <div class="bg-dark-bg rounded-lg p-4 mb-6">
+                  <p class="text-gray-300 text-sm">Thank you for supporting Zentalist. Good luck climbing the
+                    leaderboards!</p>
+                </div>
+
+                <a href="/learn"
+                  class="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg transition-colors">
+                  Start Playing
+                  <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- koniec karty dla premium user -->
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section id="section-ready" class="w-full pt-24 pb-16 overflow-hidden bg-dark-card">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+          <h2 class="text-4xl font-bold text-center text-white mb-8">
+            Ready to master a new language?
+          </h2>
+          <p class="text-lg text-gray-300 mb-8">
+            8 languages, 30,000+ words, progress tracking, and a global leaderboard. <br>
+            Pick a category and start learning
+            with our unique flashcard system.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button
+              class="bg-transparent border border-level-expert text-level-expert hover:bg-level-expert/80 hover:text-white font-bold py-3 px-8 rounded-md text-lg transition-colors"
+              onclick="window.location.href='/learn'">
+              Start learning for free
+            </button>
+            <button
+              class="bg-level-expert hover:bg-level-expert/80 text-white font-bold py-3 px-8 rounded-md text-lg transition-colors"
+              onclick="window.location.href='/premium'">
+              Explore Premium features
+            </button>
+          </div>
+        </div>
+      </section>
+
+        <%- include('partials/modals') %>
+
+          <!-- Scripts -->
+          <script defer type="module" src="/scripts/auth.js"></script>
+          <script defer type="module" src="/scripts/index.js"></script>
+          <script defer type="module" src="/scripts/main.js"></script>
+          <script defer type="module" src="/scripts/pages/premiumPaywall.js"></script>
+  </body>
+
+</html>

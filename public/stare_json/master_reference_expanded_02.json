@@ -1,0 +1,443 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 02 - Numbers & Time",
+    "categories": [
+        {
+            "name": "Numbers 0-20",
+            "words": [
+                {
+                    "en": "Zero"
+                },
+                {
+                    "en": "One"
+                },
+                {
+                    "en": "Two"
+                },
+                {
+                    "en": "Three"
+                },
+                {
+                    "en": "Four"
+                },
+                {
+                    "en": "Five"
+                },
+                {
+                    "en": "Six"
+                },
+                {
+                    "en": "Seven"
+                },
+                {
+                    "en": "Eight"
+                },
+                {
+                    "en": "Nine"
+                },
+                {
+                    "en": "Ten"
+                },
+                {
+                    "en": "Eleven"
+                },
+                {
+                    "en": "Twelve"
+                },
+                {
+                    "en": "Thirteen"
+                },
+                {
+                    "en": "Fourteen"
+                },
+                {
+                    "en": "Fifteen"
+                },
+                {
+                    "en": "Sixteen"
+                },
+                {
+                    "en": "Seventeen"
+                },
+                {
+                    "en": "Eighteen"
+                },
+                {
+                    "en": "Nineteen"
+                },
+                {
+                    "en": "Twenty"
+                }
+            ]
+        },
+        {
+            "name": "Numbers 0-20 - Phrases",
+            "words": [
+                {
+                    "en": "How many?"
+                },
+                {
+                    "en": "Just one."
+                },
+                {
+                    "en": "Two people."
+                },
+                {
+                    "en": "Three times."
+                },
+                {
+                    "en": "Four days."
+                },
+                {
+                    "en": "Five minutes."
+                },
+                {
+                    "en": "Six months."
+                },
+                {
+                    "en": "Seven years."
+                },
+                {
+                    "en": "Eight o'clock."
+                },
+                {
+                    "en": "Nine hours."
+                },
+                {
+                    "en": "Ten dollars."
+                },
+                {
+                    "en": "Eleven items."
+                },
+                {
+                    "en": "Twelve months."
+                },
+                {
+                    "en": "How old are you?"
+                },
+                {
+                    "en": "I'm 20 years old."
+                },
+                {
+                    "en": "Count to ten."
+                },
+                {
+                    "en": "Number one."
+                },
+                {
+                    "en": "First time."
+                },
+                {
+                    "en": "Add up to twenty."
+                },
+                {
+                    "en": "We only have fifteen left."
+                },
+                {
+                    "en": "Could you bring seven copies for the team?"
+                },
+                {
+                    "en": "Let's split the bill into two equal parts."
+                },
+                {
+                    "en": "We need nine volunteers altogether."
+                },
+                {
+                    "en": "Can you set aside four tickets for us?"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers",
+            "words": [
+                {
+                    "en": "Twenty"
+                },
+                {
+                    "en": "Thirty"
+                },
+                {
+                    "en": "Forty"
+                },
+                {
+                    "en": "Fifty"
+                },
+                {
+                    "en": "Sixty"
+                },
+                {
+                    "en": "Seventy"
+                },
+                {
+                    "en": "Eighty"
+                },
+                {
+                    "en": "Ninety"
+                },
+                {
+                    "en": "Hundred"
+                },
+                {
+                    "en": "Thousand"
+                },
+                {
+                    "en": "Million"
+                },
+                {
+                    "en": "Billion"
+                },
+                {
+                    "en": "Trillion"
+                },
+                {
+                    "en": "First"
+                },
+                {
+                    "en": "Second"
+                },
+                {
+                    "en": "Third"
+                },
+                {
+                    "en": "Last"
+                },
+                {
+                    "en": "Half"
+                },
+                {
+                    "en": "Quarter"
+                },
+                {
+                    "en": "Percentage"
+                },
+                {
+                    "en": "Fraction"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers - Phrases",
+            "words": [
+                {
+                    "en": "How much is it?"
+                },
+                {
+                    "en": "Twenty dollars."
+                },
+                {
+                    "en": "Fifty percent."
+                },
+                {
+                    "en": "One hundred."
+                },
+                {
+                    "en": "One thousand."
+                },
+                {
+                    "en": "Two million."
+                },
+                {
+                    "en": "First place."
+                },
+                {
+                    "en": "Second time."
+                },
+                {
+                    "en": "Third floor."
+                },
+                {
+                    "en": "Last one."
+                },
+                {
+                    "en": "Half price."
+                },
+                {
+                    "en": "Quarter past."
+                },
+                {
+                    "en": "What number?"
+                },
+                {
+                    "en": "Even number."
+                },
+                {
+                    "en": "Odd number."
+                },
+                {
+                    "en": "Round number."
+                },
+                {
+                    "en": "Phone number."
+                },
+                {
+                    "en": "Room number."
+                },
+                {
+                    "en": "That's a huge amount."
+                },
+                {
+                    "en": "It's less than half."
+                },
+                {
+                    "en": "The population is nearly three million."
+                },
+                {
+                    "en": "We negotiated a twenty percent discount overall."
+                },
+                {
+                    "en": "Their budget is just under half a million."
+                },
+                {
+                    "en": "You'll find the office on the twenty-first floor."
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock",
+            "words": [
+                {
+                    "en": "Time"
+                },
+                {
+                    "en": "Hour"
+                },
+                {
+                    "en": "Minute"
+                },
+                {
+                    "en": "Second"
+                },
+                {
+                    "en": "Clock"
+                },
+                {
+                    "en": "Watch"
+                },
+                {
+                    "en": "Morning"
+                },
+                {
+                    "en": "Afternoon"
+                },
+                {
+                    "en": "Evening"
+                },
+                {
+                    "en": "Night"
+                },
+                {
+                    "en": "Midnight"
+                },
+                {
+                    "en": "Noon"
+                },
+                {
+                    "en": "Early"
+                },
+                {
+                    "en": "Late"
+                },
+                {
+                    "en": "Now"
+                },
+                {
+                    "en": "Later"
+                },
+                {
+                    "en": "Soon"
+                },
+                {
+                    "en": "Already"
+                },
+                {
+                    "en": "Weekend"
+                },
+                {
+                    "en": "Weekday"
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock - Phrases",
+            "words": [
+                {
+                    "en": "What time is it?"
+                },
+                {
+                    "en": "It's 3 o'clock."
+                },
+                {
+                    "en": "Half past two."
+                },
+                {
+                    "en": "Quarter to four."
+                },
+                {
+                    "en": "Five thirty."
+                },
+                {
+                    "en": "In the morning."
+                },
+                {
+                    "en": "In the afternoon."
+                },
+                {
+                    "en": "In the evening."
+                },
+                {
+                    "en": "At night."
+                },
+                {
+                    "en": "At midnight."
+                },
+                {
+                    "en": "At noon."
+                },
+                {
+                    "en": "What time?"
+                },
+                {
+                    "en": "Right now."
+                },
+                {
+                    "en": "Later today."
+                },
+                {
+                    "en": "See you soon."
+                },
+                {
+                    "en": "I'm early."
+                },
+                {
+                    "en": "I'm late."
+                },
+                {
+                    "en": "On time."
+                },
+                {
+                    "en": "Set a reminder for 4 PM."
+                },
+                {
+                    "en": "Let's meet this weekend."
+                },
+                {
+                    "en": "Can we start around quarter past nine?"
+                },
+                {
+                    "en": "The workshop runs for about forty minutes."
+                },
+                {
+                    "en": "Let's push it back to early evening."
+                },
+                {
+                    "en": "I'll join after my 2 PM appointment ends."
+                },
+                {
+                    "en": "Please remind me the day before the deadline."
+                },
+                {
+                    "en": "We can check in every half hour if needed."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,815 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 05 - Daily Life & Shopping",
+    "categories": [
+        {
+            "name": "Shopping & Money",
+            "words": [
+                {
+                    "en": "Money",
+                    "ru": "Деньги",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0001.mp3"
+                },
+                {
+                    "en": "Price",
+                    "ru": "Цена",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0002.mp3"
+                },
+                {
+                    "en": "Cheap",
+                    "ru": "Дешево",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0003.mp3"
+                },
+                {
+                    "en": "Expensive",
+                    "ru": "Дорого",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0004.mp3"
+                },
+                {
+                    "en": "Cost",
+                    "ru": "Стоимость",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0005.mp3"
+                },
+                {
+                    "en": "Pay",
+                    "ru": "Платить",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0006.mp3"
+                },
+                {
+                    "en": "Buy",
+                    "ru": "Покупать",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0007.mp3"
+                },
+                {
+                    "en": "Sell",
+                    "ru": "Продавать",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0008.mp3"
+                },
+                {
+                    "en": "Cash",
+                    "ru": "Наличные",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0009.mp3"
+                },
+                {
+                    "en": "Card",
+                    "ru": "Карта",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0010.mp3"
+                },
+                {
+                    "en": "Change",
+                    "ru": "Сдача",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0011.mp3"
+                },
+                {
+                    "en": "Receipt",
+                    "ru": "Чек",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0012.mp3"
+                },
+                {
+                    "en": "Discount",
+                    "ru": "Скидка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0013.mp3"
+                },
+                {
+                    "en": "Sale",
+                    "ru": "Распродажа",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0014.mp3"
+                },
+                {
+                    "en": "Free",
+                    "ru": "Бесплатно",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0015.mp3"
+                },
+                {
+                    "en": "Total",
+                    "ru": "Итого",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0016.mp3"
+                },
+                {
+                    "en": "Tax",
+                    "ru": "Налог",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0017.mp3"
+                },
+                {
+                    "en": "Wallet",
+                    "ru": "Кошелек",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0018.mp3"
+                },
+                {
+                    "en": "Sales tax",
+                    "ru": "Налог с продаж",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0019.mp3"
+                },
+                {
+                    "en": "Refund",
+                    "ru": "Возврат",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0020.mp3"
+                },
+                {
+                    "en": "Exchange policy",
+                    "ru": "Правила обмена",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0021.mp3"
+                },
+                {
+                    "en": "Store credit",
+                    "ru": "Кредит магазина",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0022.mp3"
+                },
+                {
+                    "en": "Fitting room",
+                    "ru": "Примерочная",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0023.mp3"
+                },
+                {
+                    "en": "Size guide",
+                    "ru": "Таблица размеров",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0024.mp3"
+                },
+                {
+                    "en": "Loyalty card",
+                    "ru": "Карта лояльности",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0025.mp3"
+                },
+                {
+                    "en": "Cashier",
+                    "ru": "Кассир",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0026.mp3"
+                },
+                {
+                    "en": "Self-checkout",
+                    "ru": "Касса самообслуживания",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0027.mp3"
+                },
+                {
+                    "en": "Price tag",
+                    "ru": "Ценник",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0028.mp3"
+                },
+                {
+                    "en": "Coupon",
+                    "ru": "Купон",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0029.mp3"
+                },
+                {
+                    "en": "Gift wrap",
+                    "ru": "Подарочная упаковка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0030.mp3"
+                },
+                {
+                    "en": "Delivery option",
+                    "ru": "Доставка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0031.mp3"
+                },
+                {
+                    "en": "Installment",
+                    "ru": "Рассрочка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0032.mp3"
+                },
+                {
+                    "en": "Wire transfer",
+                    "ru": "Перевод",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0033.mp3"
+                },
+                {
+                    "en": "Bank fee",
+                    "ru": "Комиссия",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0034.mp3"
+                },
+                {
+                    "en": "Budget",
+                    "ru": "Бюджет",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0035.mp3"
+                },
+                {
+                    "en": "Spending limit",
+                    "ru": "Лимит трат",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0036.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Shopping & Money - Phrases",
+            "words": [
+                {
+                    "en": "How much is it?",
+                    "ru": "Сколько это стоит?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0037.mp3"
+                },
+                {
+                    "en": "It's too expensive.",
+                    "ru": "Это слишком дорого",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0038.mp3"
+                },
+                {
+                    "en": "Do you have something cheaper?",
+                    "ru": "Есть что-то подешевле?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0039.mp3"
+                },
+                {
+                    "en": "Can I pay by card?",
+                    "ru": "Можно картой?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0040.mp3"
+                },
+                {
+                    "en": "Cash only.",
+                    "ru": "Только наличные",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0041.mp3"
+                },
+                {
+                    "en": "Do you have change?",
+                    "ru": "У вас есть сдача?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0042.mp3"
+                },
+                {
+                    "en": "Receipt please.",
+                    "ru": "Чек, пожалуйста",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0043.mp3"
+                },
+                {
+                    "en": "Is there a discount?",
+                    "ru": "Есть скидка?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0044.mp3"
+                },
+                {
+                    "en": "Is it on sale?",
+                    "ru": "Это по акции?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0045.mp3"
+                },
+                {
+                    "en": "Is it free?",
+                    "ru": "Это бесплатно?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0046.mp3"
+                },
+                {
+                    "en": "What's the total?",
+                    "ru": "Сколько всего?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0047.mp3"
+                },
+                {
+                    "en": "Including tax?",
+                    "ru": "С налогом?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0048.mp3"
+                },
+                {
+                    "en": "I'll buy it.",
+                    "ru": "Я беру",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0049.mp3"
+                },
+                {
+                    "en": "I'm just looking.",
+                    "ru": "Я просто смотрю",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0050.mp3"
+                },
+                {
+                    "en": "Can I return it?",
+                    "ru": "Можно вернуть?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0051.mp3"
+                },
+                {
+                    "en": "Do you have a warranty?",
+                    "ru": "Есть гарантия?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0052.mp3"
+                },
+                {
+                    "en": "Where do I pay?",
+                    "ru": "Где платить?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0053.mp3"
+                },
+                {
+                    "en": "Keep the change.",
+                    "ru": "Сдачи не надо",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0054.mp3"
+                },
+                {
+                    "en": "Is the tax included?",
+                    "ru": "Налог включен?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0055.mp3"
+                },
+                {
+                    "en": "Could I get a receipt?",
+                    "ru": "Можно чек?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0056.mp3"
+                },
+                {
+                    "en": "What is your return policy?",
+                    "ru": "Какие правила возврата?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0057.mp3"
+                },
+                {
+                    "en": "Do you offer store credit?",
+                    "ru": "Даете кредит магазина?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0058.mp3"
+                },
+                {
+                    "en": "Where is the fitting room?",
+                    "ru": "Где примерочная?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0059.mp3"
+                },
+                {
+                    "en": "Do you have this in my size?",
+                    "ru": "Есть мой размер?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0060.mp3"
+                },
+                {
+                    "en": "Can I use this coupon?",
+                    "ru": "Можно использовать купон?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0061.mp3"
+                },
+                {
+                    "en": "Is delivery available?",
+                    "ru": "Есть доставка?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0062.mp3"
+                },
+                {
+                    "en": "Can I pay in installments?",
+                    "ru": "Можно в рассрочку?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0063.mp3"
+                },
+                {
+                    "en": "Please stay within our budget.",
+                    "ru": "Давайте уложимся в бюджет",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0064.mp3"
+                },
+                {
+                    "en": "Could you double-check the price at the register?",
+                    "ru": "Проверьте цену на кассе",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0065.mp3"
+                },
+                {
+                    "en": "I'm comparing a few options online before I buy.",
+                    "ru": "Я сравниваю варианты в интернете",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0066.mp3"
+                },
+                {
+                    "en": "Can you hold this item for the next two hours?",
+                    "ru": "Отложите это на пару часов?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0067.mp3"
+                },
+                {
+                    "en": "Is there a student discount available?",
+                    "ru": "Есть скидка для студентов?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0068.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Places in City",
+            "words": [
+                {
+                    "en": "City",
+                    "ru": "Город",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0070.mp3"
+                },
+                {
+                    "en": "Town",
+                    "ru": "Городок",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0071.mp3"
+                },
+                {
+                    "en": "Village",
+                    "ru": "Деревня",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0072.mp3"
+                },
+                {
+                    "en": "Street",
+                    "ru": "Улица",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0073.mp3"
+                },
+                {
+                    "en": "Building",
+                    "ru": "Здание",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0074.mp3"
+                },
+                {
+                    "en": "Store",
+                    "ru": "Магазин",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0075.mp3"
+                },
+                {
+                    "en": "Shop",
+                    "ru": "Лавка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0076.mp3"
+                },
+                {
+                    "en": "Market",
+                    "ru": "Рынок",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0077.mp3"
+                },
+                {
+                    "en": "Bank",
+                    "ru": "Банк",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0078.mp3"
+                },
+                {
+                    "en": "Post office",
+                    "ru": "Почта",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0079.mp3"
+                },
+                {
+                    "en": "Hospital",
+                    "ru": "Больница",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0080.mp3"
+                },
+                {
+                    "en": "Pharmacy",
+                    "ru": "Аптека",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0081.mp3"
+                },
+                {
+                    "en": "Library",
+                    "ru": "Библиотека",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0082.mp3"
+                },
+                {
+                    "en": "Park",
+                    "ru": "Парк",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0083.mp3"
+                },
+                {
+                    "en": "Station",
+                    "ru": "Станция",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0084.mp3"
+                },
+                {
+                    "en": "Bus stop",
+                    "ru": "Остановка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0085.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Places in City - Phrases",
+            "words": [
+                {
+                    "en": "Where's the bank?",
+                    "ru": "Где банк?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0088.mp3"
+                },
+                {
+                    "en": "Where's the post office?",
+                    "ru": "Где почта?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0089.mp3"
+                },
+                {
+                    "en": "Is there a pharmacy nearby?",
+                    "ru": "Есть аптека поблизости?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0090.mp3"
+                },
+                {
+                    "en": "How do I get to the station?",
+                    "ru": "Как пройти на станцию?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0091.mp3"
+                },
+                {
+                    "en": "Where's the nearest bus stop?",
+                    "ru": "Где ближайшая остановка?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0092.mp3"
+                },
+                {
+                    "en": "Can I walk there?",
+                    "ru": "Можно дойти пешком?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0093.mp3"
+                },
+                {
+                    "en": "Where should we eat?",
+                    "ru": "Где поесть?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0096.mp3"
+                },
+                {
+                    "en": "Are you going to the library?",
+                    "ru": "Ты в библиотеку?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0097.mp3"
+                },
+                {
+                    "en": "Let's go to the park.",
+                    "ru": "Пойдем в парк",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0098.mp3"
+                },
+                {
+                    "en": "I'm going shopping.",
+                    "ru": "Я иду по магазинам",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0099.mp3"
+                },
+                {
+                    "en": "Is the store open?",
+                    "ru": "Магазин открыт?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0100.mp3"
+                },
+                {
+                    "en": "What time does it close?",
+                    "ru": "Во сколько закрывается?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0101.mp3"
+                },
+                {
+                    "en": "Is it far?",
+                    "ru": "Это далеко?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0102.mp3"
+                },
+                {
+                    "en": "It's very close.",
+                    "ru": "Это очень близко",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0103.mp3"
+                },
+                {
+                    "en": "It's crowded today.",
+                    "ru": "Сегодня людно",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0104.mp3"
+                },
+                {
+                    "en": "Let's meet in the city.",
+                    "ru": "Встретимся в городе",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0105.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Home & Living",
+            "words": [
+                {
+                    "en": "Home",
+                    "ru": "Дом",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0106.mp3"
+                },
+                {
+                    "en": "House",
+                    "ru": "Дом",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0107.mp3"
+                },
+                {
+                    "en": "Apartment",
+                    "ru": "Квартира",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0108.mp3"
+                },
+                {
+                    "en": "Room",
+                    "ru": "Номер",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0109.mp3"
+                },
+                {
+                    "en": "Kitchen",
+                    "ru": "Кухня",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0110.mp3"
+                },
+                {
+                    "en": "Bathroom",
+                    "ru": "Ванная",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0111.mp3"
+                },
+                {
+                    "en": "Bedroom",
+                    "ru": "Спальня",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0112.mp3"
+                },
+                {
+                    "en": "Living room",
+                    "ru": "Гостиная",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0113.mp3"
+                },
+                {
+                    "en": "Dining room",
+                    "ru": "Столовая",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0157.mp3"
+                },
+                {
+                    "en": "Garage",
+                    "ru": "Гараж",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0158.mp3"
+                },
+                {
+                    "en": "Garden",
+                    "ru": "Сад",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0159.mp3"
+                },
+                {
+                    "en": "Balcony",
+                    "ru": "Балкон",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0160.mp3"
+                },
+                {
+                    "en": "Door",
+                    "ru": "Дверь",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0114.mp3"
+                },
+                {
+                    "en": "Window",
+                    "ru": "Окно",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0115.mp3"
+                },
+                {
+                    "en": "Floor",
+                    "ru": "Пол",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0116.mp3"
+                },
+                {
+                    "en": "Wall",
+                    "ru": "Стена",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0117.mp3"
+                },
+                {
+                    "en": "Furniture",
+                    "ru": "Мебель",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0119.mp3"
+                },
+                {
+                    "en": "Table",
+                    "ru": "Стол",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0120.mp3"
+                },
+                {
+                    "en": "Chair",
+                    "ru": "Стул",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0121.mp3"
+                },
+                {
+                    "en": "Bed",
+                    "ru": "Кровать",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0122.mp3"
+                },
+                {
+                    "en": "Sofa",
+                    "ru": "Диван",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0123.mp3"
+                },
+                {
+                    "en": "Desk",
+                    "ru": "Письменный стол",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0161.mp3"
+                },
+                {
+                    "en": "Shelf",
+                    "ru": "Полка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0162.mp3"
+                },
+                {
+                    "en": "Wardrobe",
+                    "ru": "Шкаф",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0124.mp3"
+                },
+                {
+                    "en": "Carpet",
+                    "ru": "Ковер",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0125.mp3"
+                },
+                {
+                    "en": "Lamp",
+                    "ru": "Лампа",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0126.mp3"
+                },
+                {
+                    "en": "Mirror",
+                    "ru": "Зеркало",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0127.mp3"
+                },
+                {
+                    "en": "Curtain",
+                    "ru": "Занавеска",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0128.mp3"
+                },
+                {
+                    "en": "Toilet",
+                    "ru": "Туалет",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0129.mp3"
+                },
+                {
+                    "en": "Shower",
+                    "ru": "Душ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0130.mp3"
+                },
+                {
+                    "en": "Bath",
+                    "ru": "Ванна",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0131.mp3"
+                },
+                {
+                    "en": "Sink",
+                    "ru": "Раковина",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0132.mp3"
+                },
+                {
+                    "en": "Fridge",
+                    "ru": "Холодильник",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0133.mp3"
+                },
+                {
+                    "en": "Washing machine",
+                    "ru": "Стиральная машина",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0134.mp3"
+                },
+                {
+                    "en": "Dishwasher",
+                    "ru": "Посудомоечная машина",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0135.mp3"
+                },
+                {
+                    "en": "Oven",
+                    "ru": "Духовка",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0136.mp3"
+                },
+                {
+                    "en": "Groceries",
+                    "ru": "Продукты",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0163.mp3"
+                },
+                {
+                    "en": "Key",
+                    "ru": "Ключ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0138.mp3"
+                },
+                {
+                    "en": "Rent",
+                    "ru": "Аренда",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0164.mp3"
+                },
+                {
+                    "en": "Landlord",
+                    "ru": "Арендодатель",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0165.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Home & Living - Phrases",
+            "words": [
+                {
+                    "en": "Do you live here?",
+                    "ru": "Вы здесь живете?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0144.mp3"
+                },
+                {
+                    "en": "I live nearby.",
+                    "ru": "Я живу рядом",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0145.mp3"
+                },
+                {
+                    "en": "Where do you live?",
+                    "ru": "Где вы живете?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0146.mp3"
+                },
+                {
+                    "en": "I live in an apartment.",
+                    "ru": "Я живу в квартире",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0147.mp3"
+                },
+                {
+                    "en": "How many rooms?",
+                    "ru": "Сколько комнат?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0149.mp3"
+                },
+                {
+                    "en": "Please come in.",
+                    "ru": "Входите",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0152.mp3"
+                },
+                {
+                    "en": "Make yourself at home.",
+                    "ru": "Чувствуйте себя как дома",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0153.mp3"
+                },
+                {
+                    "en": "Where's the bathroom?",
+                    "ru": "Где туалет?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0154.mp3"
+                },
+                {
+                    "en": "Is it clean?",
+                    "ru": "Там чисто?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0155.mp3"
+                },
+                {
+                    "en": "Please close the door.",
+                    "ru": "Пожалуйста, закройте дверь.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0150.mp3"
+                },
+                {
+                    "en": "Open the window.",
+                    "ru": "Откройте окно.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0151.mp3"
+                },
+                {
+                    "en": "Where is the toilet?",
+                    "ru": "Где туалет?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0166.mp3"
+                },
+                {
+                    "en": "I'm taking a shower.",
+                    "ru": "Я принимаю душ.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0167.mp3"
+                },
+                {
+                    "en": "Can I use the washing machine?",
+                    "ru": "Могу я воспользоваться стиральной машиной?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0168.mp3"
+                },
+                {
+                    "en": "The desk is new.",
+                    "ru": "Письменный стол новый.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0169.mp3"
+                },
+                {
+                    "en": "Is the lamp working?",
+                    "ru": "Лампа работает?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/05/ru_0156.mp3"
+                }
+            ]
+        }
+    ]
+}

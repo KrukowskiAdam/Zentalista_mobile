@@ -1,0 +1,1560 @@
+{
+    "info": "RUSSIAN TRANSLATION - File 04 - Travel & Tourism",
+    "categories": [
+        {
+            "name": "Travel & Tourism",
+            "words": [
+                {
+                    "en": "Travel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0001.mp3",
+                    "ru": "Путешествие"
+                },
+                {
+                    "en": "Tourism",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0002.mp3",
+                    "ru": "Туризм"
+                },
+                {
+                    "en": "Tourist",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0003.mp3",
+                    "ru": "Турист"
+                },
+                {
+                    "en": "Vacation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0004.mp3",
+                    "ru": "Отпуск"
+                },
+                {
+                    "en": "Airport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0005.mp3",
+                    "ru": "Аэропорт"
+                },
+                {
+                    "en": "Flight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0006.mp3",
+                    "ru": "Рейс"
+                },
+                {
+                    "en": "Passport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0007.mp3",
+                    "ru": "Паспорт"
+                },
+                {
+                    "en": "Visa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0008.mp3",
+                    "ru": "Виза"
+                },
+                {
+                    "en": "Luggage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0009.mp3",
+                    "ru": "Багаж"
+                },
+                {
+                    "en": "Suitcase",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0010.mp3",
+                    "ru": "Чемодан"
+                },
+                {
+                    "en": "Map",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0011.mp3",
+                    "ru": "Карта"
+                },
+                {
+                    "en": "Guide",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0012.mp3",
+                    "ru": "Гид"
+                },
+                {
+                    "en": "Photo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0013.mp3",
+                    "ru": "Фото"
+                },
+                {
+                    "en": "Souvenir",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0014.mp3",
+                    "ru": "Сувенир"
+                },
+                {
+                    "en": "Tour",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0015.mp3",
+                    "ru": "Экскурсия"
+                },
+                {
+                    "en": "Destination",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0016.mp3",
+                    "ru": "Направление"
+                },
+                {
+                    "en": "Museum",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0017.mp3",
+                    "ru": "Музей"
+                },
+                {
+                    "en": "Castle",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0018.mp3",
+                    "ru": "Замок"
+                },
+                {
+                    "en": "Boarding pass",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0019.mp3",
+                    "ru": "Посадочный талон"
+                },
+                {
+                    "en": "Security check",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0020.mp3",
+                    "ru": "Досмотр"
+                },
+                {
+                    "en": "Departure gate",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0021.mp3",
+                    "ru": "Выход на посадку"
+                },
+                {
+                    "en": "Arrival hall",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0022.mp3",
+                    "ru": "Зал прилета"
+                },
+                {
+                    "en": "Currency exchange",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0023.mp3",
+                    "ru": "Обмен валюты"
+                },
+                {
+                    "en": "Customs officer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0024.mp3",
+                    "ru": "Таможенник"
+                },
+                {
+                    "en": "Carry-on bag",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0025.mp3",
+                    "ru": "Ручная кладь"
+                },
+                {
+                    "en": "Seat assignment",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0026.mp3",
+                    "ru": "Место"
+                },
+                {
+                    "en": "Window seat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0027.mp3",
+                    "ru": "Место у окна"
+                },
+                {
+                    "en": "Aisle seat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0028.mp3",
+                    "ru": "Место у прохода"
+                },
+                {
+                    "en": "Flight delay",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0029.mp3",
+                    "ru": "Задержка рейса"
+                },
+                {
+                    "en": "Connecting flight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0030.mp3",
+                    "ru": "Пересадочный рейс"
+                },
+                {
+                    "en": "Travel insurance",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0031.mp3",
+                    "ru": "Страховка"
+                },
+                {
+                    "en": "Emergency exit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0032.mp3",
+                    "ru": "Аварийный выход"
+                },
+                {
+                    "en": "Entrance fee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0033.mp3",
+                    "ru": "Входная плата"
+                },
+                {
+                    "en": "Guided tour",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0034.mp3",
+                    "ru": "Экскурсия с гидом"
+                },
+                {
+                    "en": "Local guide",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0035.mp3",
+                    "ru": "Местный гид"
+                },
+                {
+                    "en": "Day trip",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0036.mp3",
+                    "ru": "Однодневная поездка"
+                },
+                {
+                    "en": "Travel adapter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0037.mp3",
+                    "ru": "Адаптер"
+                },
+                {
+                    "en": "Portable charger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0038.mp3",
+                    "ru": "Пауэрбанк"
+                }
+            ]
+        },
+        {
+            "name": "Travel & Tourism - Phrases",
+            "words": [
+                {
+                    "en": "I'm traveling",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0039.mp3",
+                    "ru": "Я путешествую"
+                },
+                {
+                    "en": "I'm on vacation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0040.mp3",
+                    "ru": "Я в отпуске"
+                },
+                {
+                    "en": "Which country are you from?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0041.mp3",
+                    "ru": "Из какой вы страны?"
+                },
+                {
+                    "en": "How long will you stay?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0042.mp3",
+                    "ru": "Как долго вы пробудете?"
+                },
+                {
+                    "en": "I'm staying 3 days",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0043.mp3",
+                    "ru": "Я останусь на 3 дня"
+                },
+                {
+                    "en": "It's my first time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0044.mp3",
+                    "ru": "Я здесь впервые"
+                },
+                {
+                    "en": "It's beautiful",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0045.mp3",
+                    "ru": "Это красиво"
+                },
+                {
+                    "en": "Please take a photo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0046.mp3",
+                    "ru": "Сфотографируйте, пожалуйста"
+                },
+                {
+                    "en": "Can I take a photo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0047.mp3",
+                    "ru": "Можно сфотографировать?"
+                },
+                {
+                    "en": "Where's the exit?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0048.mp3",
+                    "ru": "Где выход?"
+                },
+                {
+                    "en": "Where's the entrance?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0049.mp3",
+                    "ru": "Где вход?"
+                },
+                {
+                    "en": "Admission ticket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0050.mp3",
+                    "ru": "Входной билет"
+                },
+                {
+                    "en": "Do you have a brochure?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0051.mp3",
+                    "ru": "У вас есть брошюра?"
+                },
+                {
+                    "en": "Is it open?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0052.mp3",
+                    "ru": "Открыто?"
+                },
+                {
+                    "en": "It's closed",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0053.mp3",
+                    "ru": "Закрыто"
+                },
+                {
+                    "en": "What time does it close?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0054.mp3",
+                    "ru": "Во сколько закрывается?"
+                },
+                {
+                    "en": "Is there a tour?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0055.mp3",
+                    "ru": "Есть ли экскурсия?"
+                },
+                {
+                    "en": "How much is admission?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0056.mp3",
+                    "ru": "Сколько стоит вход?"
+                },
+                {
+                    "en": "Where can I check in?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0057.mp3",
+                    "ru": "Где регистрация?"
+                },
+                {
+                    "en": "This is my boarding gate",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0058.mp3",
+                    "ru": "Это мой выход на посадку"
+                },
+                {
+                    "en": "Do I need to go through customs?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0059.mp3",
+                    "ru": "Мне нужно проходить таможню?"
+                },
+                {
+                    "en": "How long is the delay?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0060.mp3",
+                    "ru": "На сколько задержка?"
+                },
+                {
+                    "en": "I have a connecting flight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0061.mp3",
+                    "ru": "У меня пересадка"
+                },
+                {
+                    "en": "Is the tour in English?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0062.mp3",
+                    "ru": "Экскурсия на английском?"
+                },
+                {
+                    "en": "Can you recommend a day trip?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0063.mp3",
+                    "ru": "Посоветуйте поездку на день"
+                },
+                {
+                    "en": "Where is the currency exchange?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0064.mp3",
+                    "ru": "Где обмен валюты?"
+                },
+                {
+                    "en": "I bought travel insurance",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0065.mp3",
+                    "ru": "Я купил страховку"
+                },
+                {
+                    "en": "Please stamp my passport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0066.mp3",
+                    "ru": "Поставьте штамп в паспорт"
+                },
+                {
+                    "en": "My gate changed at the last minute",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0067.mp3",
+                    "ru": "Выход изменили в последний момент"
+                },
+                {
+                    "en": "Could you suggest a less crowded attraction?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0068.mp3",
+                    "ru": "Посоветуйте место, где меньше людей"
+                },
+                {
+                    "en": "I'm waiting for the next boarding group",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0069.mp3",
+                    "ru": "Я жду следующую группу на посадку"
+                },
+                {
+                    "en": "Can I store my bags before check-in opens?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0070.mp3",
+                    "ru": "Можно оставить вещи до регистрации?"
+                },
+                {
+                    "en": "We plan to explore the city on our own today",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0071.mp3",
+                    "ru": "Мы хотим погулять по городу сами"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation",
+            "words": [
+                {
+                    "en": "Hotel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0072.mp3",
+                    "ru": "Отель"
+                },
+                {
+                    "en": "Reservation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0073.mp3",
+                    "ru": "Бронь"
+                },
+                {
+                    "en": "Room",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0074.mp3",
+                    "ru": "Номер"
+                },
+                {
+                    "en": "Bed",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0075.mp3",
+                    "ru": "Кровать"
+                },
+                {
+                    "en": "Key",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0076.mp3",
+                    "ru": "Ключ"
+                },
+                {
+                    "en": "Room card",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0077.mp3",
+                    "ru": "Карта от номера"
+                },
+                {
+                    "en": "Lobby",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0078.mp3",
+                    "ru": "Лобби"
+                },
+                {
+                    "en": "Elevator",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0079.mp3",
+                    "ru": "Лифт"
+                },
+                {
+                    "en": "Stairs",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0080.mp3",
+                    "ru": "Лестница"
+                },
+                {
+                    "en": "Front desk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0081.mp3",
+                    "ru": "Ресепшн"
+                },
+                {
+                    "en": "Check-in",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0082.mp3",
+                    "ru": "Заезд"
+                },
+                {
+                    "en": "Check-out",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0083.mp3",
+                    "ru": "Выезд"
+                },
+                {
+                    "en": "Breakfast",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0084.mp3",
+                    "ru": "Завтрак"
+                },
+                {
+                    "en": "Towel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0085.mp3",
+                    "ru": "Полотенце"
+                },
+                {
+                    "en": "Pillow",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0086.mp3",
+                    "ru": "Подушка"
+                },
+                {
+                    "en": "Blanket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0087.mp3",
+                    "ru": "Одеяло"
+                },
+                {
+                    "en": "AC",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0088.mp3",
+                    "ru": "Кондиционер"
+                },
+                {
+                    "en": "Room service",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0089.mp3",
+                    "ru": "Обслуживание номеров"
+                },
+                {
+                    "en": "Shared dorm",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0090.mp3",
+                    "ru": "Общий номер"
+                },
+                {
+                    "en": "Private room",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0091.mp3",
+                    "ru": "Отдельный номер"
+                },
+                {
+                    "en": "Late checkout",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0092.mp3",
+                    "ru": "Поздний выезд"
+                },
+                {
+                    "en": "Early check-in",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0093.mp3",
+                    "ru": "Ранний заезд"
+                },
+                {
+                    "en": "Baggage storage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0094.mp3",
+                    "ru": "Камера хранения"
+                },
+                {
+                    "en": "Room upgrade",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0095.mp3",
+                    "ru": "Улучшение номера"
+                },
+                {
+                    "en": "Balcony",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0096.mp3",
+                    "ru": "Балкон"
+                },
+                {
+                    "en": "City view",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0097.mp3",
+                    "ru": "Вид на город"
+                },
+                {
+                    "en": "Extra blanket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0098.mp3",
+                    "ru": "Лишнее одеяло"
+                },
+                {
+                    "en": "Space heater",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0099.mp3",
+                    "ru": "Обогреватель"
+                },
+                {
+                    "en": "Laundry service",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0100.mp3",
+                    "ru": "Прачечная"
+                },
+                {
+                    "en": "Wake-up call",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0101.mp3",
+                    "ru": "Звонок-будильник"
+                },
+                {
+                    "en": "Power outlet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0102.mp3",
+                    "ru": "Розетка"
+                },
+                {
+                    "en": "Universal adapter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0103.mp3",
+                    "ru": "Универсальный адаптер"
+                },
+                {
+                    "en": "Bath amenities",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0104.mp3",
+                    "ru": "Туалетные принадлежности"
+                },
+                {
+                    "en": "Front desk agent",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0105.mp3",
+                    "ru": "Администратор"
+                },
+                {
+                    "en": "Housekeeping",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0106.mp3",
+                    "ru": "Уборка"
+                },
+                {
+                    "en": "Safety deposit box",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0107.mp3",
+                    "ru": "Сейф"
+                },
+                {
+                    "en": "Room orientation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0108.mp3",
+                    "ru": "Ориентация номера"
+                },
+                {
+                    "en": "Maintenance request",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0109.mp3",
+                    "ru": "Заявка на ремонт"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation - Phrases",
+            "words": [
+                {
+                    "en": "I have a reservation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0110.mp3",
+                    "ru": "У меня бронь"
+                },
+                {
+                    "en": "Please show your passport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0111.mp3",
+                    "ru": "Покажите паспорт, пожалуйста"
+                },
+                {
+                    "en": "How many nights?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0112.mp3",
+                    "ru": "Сколько ночей?"
+                },
+                {
+                    "en": "Can I see the room?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0113.mp3",
+                    "ru": "Можно посмотреть номер?"
+                },
+                {
+                    "en": "How much per night?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0114.mp3",
+                    "ru": "Сколько за ночь?"
+                },
+                {
+                    "en": "It's too expensive",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0115.mp3",
+                    "ru": "Это слишком дорого"
+                },
+                {
+                    "en": "Do you have cheaper room?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0116.mp3",
+                    "ru": "Есть номер подешевле?"
+                },
+                {
+                    "en": "Does it include breakfast?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0117.mp3",
+                    "ru": "Завтрак включен?"
+                },
+                {
+                    "en": "Is there WiFi?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0118.mp3",
+                    "ru": "Есть вай-фай?"
+                },
+                {
+                    "en": "What's the WiFi password?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0119.mp3",
+                    "ru": "Какой пароль от вай-фая?"
+                },
+                {
+                    "en": "Please clean the room",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0120.mp3",
+                    "ru": "Уберите номер, пожалуйста"
+                },
+                {
+                    "en": "More towels please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0121.mp3",
+                    "ru": "Больше полотенец, пожалуйста"
+                },
+                {
+                    "en": "AC doesn't work",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0122.mp3",
+                    "ru": "Кондиционер не работает"
+                },
+                {
+                    "en": "It's too noisy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0123.mp3",
+                    "ru": "Слишком шумно"
+                },
+                {
+                    "en": "Can I change rooms?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0124.mp3",
+                    "ru": "Можно поменять номер?"
+                },
+                {
+                    "en": "Checking out tomorrow",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0125.mp3",
+                    "ru": "Выезжаю завтра"
+                },
+                {
+                    "en": "Can I leave my luggage?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0126.mp3",
+                    "ru": "Можно оставить багаж?"
+                },
+                {
+                    "en": "Thanks for the stay",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0127.mp3",
+                    "ru": "Спасибо за проживание"
+                },
+                {
+                    "en": "Can I store my luggage here?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0128.mp3",
+                    "ru": "Можно оставить здесь багаж?"
+                },
+                {
+                    "en": "Is early check-in possible?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0129.mp3",
+                    "ru": "Возможен ранний заезд?"
+                },
+                {
+                    "en": "I would like a room upgrade",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0130.mp3",
+                    "ru": "Я хотел бы улучшить номер"
+                },
+                {
+                    "en": "Could I have extra blankets?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0131.mp3",
+                    "ru": "Можно дополнительные одеяла?"
+                },
+                {
+                    "en": "The heater is not working",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0132.mp3",
+                    "ru": "Обогреватель не работает"
+                },
+                {
+                    "en": "Can housekeeping clean later?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0133.mp3",
+                    "ru": "Можно убраться попозже?"
+                },
+                {
+                    "en": "Where can I do laundry?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0134.mp3",
+                    "ru": "Где можно постирать?"
+                },
+                {
+                    "en": "Please schedule a wake-up call",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0135.mp3",
+                    "ru": "Разбудите меня звонком, пожалуйста"
+                },
+                {
+                    "en": "Is the safe included?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0136.mp3",
+                    "ru": "Сейф включен?"
+                },
+                {
+                    "en": "Who can help with maintenance?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0137.mp3",
+                    "ru": "Кто может помочь с ремонтом?"
+                },
+                {
+                    "en": "Could you hold my room? I'm arriving late tonight?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0138.mp3",
+                    "ru": "Придержите номер, я приеду поздно"
+                },
+                {
+                    "en": "Is there a quieter floor available?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0139.mp3",
+                    "ru": "Есть этаж потише?"
+                },
+                {
+                    "en": "Could you confirm the total with all taxes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0140.mp3",
+                    "ru": "Подтвердите сумму с налогами"
+                },
+                {
+                    "en": "Can you send someone to check the shower?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0141.mp3",
+                    "ru": "Пришлите кого-нибудь проверить душ"
+                },
+                {
+                    "en": "I'd like to extend my stay by one more night",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0142.mp3",
+                    "ru": "Я хочу продлить на одну ночь"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations",
+            "words": [
+                {
+                    "en": "Direction",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0143.mp3",
+                    "ru": "Направление"
+                },
+                {
+                    "en": "Location",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0144.mp3",
+                    "ru": "Местоположение"
+                },
+                {
+                    "en": "Address",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0145.mp3",
+                    "ru": "Адрес"
+                },
+                {
+                    "en": "North",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0146.mp3",
+                    "ru": "Север"
+                },
+                {
+                    "en": "South",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0147.mp3",
+                    "ru": "Юг"
+                },
+                {
+                    "en": "East",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0148.mp3",
+                    "ru": "Восток"
+                },
+                {
+                    "en": "West",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0149.mp3",
+                    "ru": "Запад"
+                },
+                {
+                    "en": "Left",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0150.mp3",
+                    "ru": "Лево"
+                },
+                {
+                    "en": "Right",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0151.mp3",
+                    "ru": "Право"
+                },
+                {
+                    "en": "Straight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0152.mp3",
+                    "ru": "Прямо"
+                },
+                {
+                    "en": "Across",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0153.mp3",
+                    "ru": "Напротив"
+                },
+                {
+                    "en": "Next to",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0154.mp3",
+                    "ru": "Рядом с"
+                },
+                {
+                    "en": "Near",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0155.mp3",
+                    "ru": "Близко"
+                },
+                {
+                    "en": "Far",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0156.mp3",
+                    "ru": "Далеко"
+                },
+                {
+                    "en": "Here",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0157.mp3",
+                    "ru": "Здесь"
+                },
+                {
+                    "en": "There",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0158.mp3",
+                    "ru": "Там"
+                },
+                {
+                    "en": "Corner",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0159.mp3",
+                    "ru": "Угол"
+                },
+                {
+                    "en": "Street",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0160.mp3",
+                    "ru": "Улица"
+                },
+                {
+                    "en": "Ticket booth",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0161.mp3",
+                    "ru": "Касса"
+                },
+                {
+                    "en": "Platform",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0162.mp3",
+                    "ru": "Платформа"
+                },
+                {
+                    "en": "Transfer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0163.mp3",
+                    "ru": "Пересадка"
+                },
+                {
+                    "en": "Ride-share",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0164.mp3",
+                    "ru": "Такси (приложение)"
+                },
+                {
+                    "en": "Shuttle",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0165.mp3",
+                    "ru": "Шаттл"
+                },
+                {
+                    "en": "Express train",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0166.mp3",
+                    "ru": "Экспресс"
+                },
+                {
+                    "en": "Local bus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0167.mp3",
+                    "ru": "Местный автобус"
+                },
+                {
+                    "en": "Bus pass",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0168.mp3",
+                    "ru": "Проездной"
+                },
+                {
+                    "en": "Fare",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0169.mp3",
+                    "ru": "Тариф"
+                },
+                {
+                    "en": "Turnstile",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0170.mp3",
+                    "ru": "Турникет"
+                },
+                {
+                    "en": "Intersection",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0171.mp3",
+                    "ru": "Перекресток"
+                },
+                {
+                    "en": "Roundabout",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0172.mp3",
+                    "ru": "Круговое движение"
+                },
+                {
+                    "en": "Pedestrian crossing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0173.mp3",
+                    "ru": "Пешеходный переход"
+                },
+                {
+                    "en": "Bike lane",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0174.mp3",
+                    "ru": "Велодорожка"
+                },
+                {
+                    "en": "Car rental",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0175.mp3",
+                    "ru": "Аренда авто"
+                },
+                {
+                    "en": "Fuel station",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0176.mp3",
+                    "ru": "Заправка"
+                },
+                {
+                    "en": "Traffic jam",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0177.mp3",
+                    "ru": "Пробка"
+                },
+                {
+                    "en": "Shortcut",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0178.mp3",
+                    "ru": "Короткий путь"
+                },
+                {
+                    "en": "Detour",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0179.mp3",
+                    "ru": "Объезд"
+                },
+                {
+                    "en": "Landmark",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0180.mp3",
+                    "ru": "Ориентир"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations - Phrases",
+            "words": [
+                {
+                    "en": "Where is...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0181.mp3",
+                    "ru": "Где...?"
+                },
+                {
+                    "en": "How do I get there?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0182.mp3",
+                    "ru": "Как туда добраться?"
+                },
+                {
+                    "en": "Please turn left",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0183.mp3",
+                    "ru": "Поверните налево"
+                },
+                {
+                    "en": "Please turn right",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0184.mp3",
+                    "ru": "Поверните направо"
+                },
+                {
+                    "en": "Go straight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0185.mp3",
+                    "ru": "Идите прямо"
+                },
+                {
+                    "en": "Please show me on the map",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0186.mp3",
+                    "ru": "Покажите на карте"
+                },
+                {
+                    "en": "I'm lost",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0187.mp3",
+                    "ru": "Я заблудился"
+                },
+                {
+                    "en": "Where are we?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0188.mp3",
+                    "ru": "Где мы?"
+                },
+                {
+                    "en": "It's near here",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0189.mp3",
+                    "ru": "Это рядом"
+                },
+                {
+                    "en": "Walk or drive?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0190.mp3",
+                    "ru": "Пешком или на машине?"
+                },
+                {
+                    "en": "How many minutes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0191.mp3",
+                    "ru": "Сколько минут?"
+                },
+                {
+                    "en": "Let's go",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0192.mp3",
+                    "ru": "Пойдемте"
+                },
+                {
+                    "en": "Please follow me",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0193.mp3",
+                    "ru": "Следуйте за мной"
+                },
+                {
+                    "en": "It's here",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0194.mp3",
+                    "ru": "Это здесь"
+                },
+                {
+                    "en": "We're here",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0195.mp3",
+                    "ru": "Мы пришли"
+                },
+                {
+                    "en": "You passed it",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0196.mp3",
+                    "ru": "Вы проехали"
+                },
+                {
+                    "en": "Please turn around",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0197.mp3",
+                    "ru": "Развернитесь"
+                },
+                {
+                    "en": "It's crowded",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0198.mp3",
+                    "ru": "Много людей"
+                },
+                {
+                    "en": "Where do I buy a ticket?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0199.mp3",
+                    "ru": "Где купить билет?"
+                },
+                {
+                    "en": "Which platform is correct?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0200.mp3",
+                    "ru": "Какая платформа правильная?"
+                },
+                {
+                    "en": "Is this the express train?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0201.mp3",
+                    "ru": "Это экспресс?"
+                },
+                {
+                    "en": "How many stops until downtown?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0202.mp3",
+                    "ru": "Сколько остановок до центра?"
+                },
+                {
+                    "en": "Please call a ride-share",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0203.mp3",
+                    "ru": "Вызовите такси"
+                },
+                {
+                    "en": "Does this shuttle go to the airport?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0204.mp3",
+                    "ru": "Этот шаттл идет в аэропорт?"
+                },
+                {
+                    "en": "Can I use a bus pass here?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0205.mp3",
+                    "ru": "Здесь действует проездной?"
+                },
+                {
+                    "en": "Show me the landmark on the map",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0206.mp3",
+                    "ru": "Покажите ориентир на карте"
+                },
+                {
+                    "en": "Is there a faster route?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0207.mp3",
+                    "ru": "Есть путь быстрее?"
+                },
+                {
+                    "en": "We hit a traffic jam",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0208.mp3",
+                    "ru": "Мы в пробке"
+                },
+                {
+                    "en": "Should I transfer at the central station?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0209.mp3",
+                    "ru": "Мне пересаживаться на центральной?"
+                },
+                {
+                    "en": "How long does it take by taxi during rush hour?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0210.mp3",
+                    "ru": "Сколько на такси в час пик?"
+                },
+                {
+                    "en": "Could you drop me near the corner bakery?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0211.mp3",
+                    "ru": "Высадите меня у пекарни на углу"
+                },
+                {
+                    "en": "Is this lane reserved for buses only?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0212.mp3",
+                    "ru": "Эта полоса только для автобусов?"
+                },
+                {
+                    "en": "Text me when you're close to the landmark",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0213.mp3",
+                    "ru": "Напиши, когда будешь у ориентира"
+                }
+            ]
+        },
+        {
+            "name": "Transportation & Tickets",
+            "words": [
+                {
+                    "en": "Train station",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0214.mp3",
+                    "ru": "Вокзал"
+                },
+                {
+                    "en": "Bus terminal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0215.mp3",
+                    "ru": "Автовокзал"
+                },
+                {
+                    "en": "Ferry port",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0216.mp3",
+                    "ru": "Порт"
+                },
+                {
+                    "en": "Ticket office",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0217.mp3",
+                    "ru": "Билетная касса"
+                },
+                {
+                    "en": "Ticket machine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0218.mp3",
+                    "ru": "Автомат"
+                },
+                {
+                    "en": "Platform number",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0219.mp3",
+                    "ru": "Номер платформы"
+                },
+                {
+                    "en": "Departure board",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0220.mp3",
+                    "ru": "Табло вылета"
+                },
+                {
+                    "en": "Arrival board",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0221.mp3",
+                    "ru": "Табло прилета"
+                },
+                {
+                    "en": "Day pass",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0222.mp3",
+                    "ru": "Дневной проездной"
+                },
+                {
+                    "en": "Round-trip ticket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0223.mp3",
+                    "ru": "Билет туда-обратно"
+                },
+                {
+                    "en": "One-way ticket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0224.mp3",
+                    "ru": "Билет в одну сторону"
+                },
+                {
+                    "en": "Seat reservation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0225.mp3",
+                    "ru": "Бронь места"
+                },
+                {
+                    "en": "Sleeper cabin",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0226.mp3",
+                    "ru": "Спальное купе"
+                },
+                {
+                    "en": "Luggage locker",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0227.mp3",
+                    "ru": "Камера хранения"
+                },
+                {
+                    "en": "Contactless payment",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0228.mp3",
+                    "ru": "Бесконтактная оплата"
+                },
+                {
+                    "en": "Ticket inspector",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0229.mp3",
+                    "ru": "Контролер"
+                },
+                {
+                    "en": "Platform change",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0230.mp3",
+                    "ru": "Смена платформы"
+                },
+                {
+                    "en": "Last train",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0231.mp3",
+                    "ru": "Последний поезд"
+                },
+                {
+                    "en": "Night bus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0232.mp3",
+                    "ru": "Ночной автобус"
+                },
+                {
+                    "en": "Rideshare pickup",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0233.mp3",
+                    "ru": "Место посадки такси"
+                },
+                {
+                    "en": "Shuttle pass",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0234.mp3",
+                    "ru": "Билет на шаттл"
+                },
+                {
+                    "en": "Bicycle rental",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0235.mp3",
+                    "ru": "Прокат велосипедов"
+                },
+                {
+                    "en": "Car-hire desk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0236.mp3",
+                    "ru": "Стойка аренды авто"
+                },
+                {
+                    "en": "Fuel surcharge",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0237.mp3",
+                    "ru": "Топливный сбор"
+                }
+            ]
+        },
+        {
+            "name": "Transportation & Tickets - Phrases",
+            "words": [
+                {
+                    "en": "I'd like a ticket to downtown",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0238.mp3",
+                    "ru": "Билет до центра, пожалуйста"
+                },
+                {
+                    "en": "Is this a one-way or round-trip fare?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0239.mp3",
+                    "ru": "Это в одну сторону или туда-обратно?"
+                },
+                {
+                    "en": "What time does the next train leave?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0240.mp3",
+                    "ru": "Во сколько следующий поезд?"
+                },
+                {
+                    "en": "Which platform should I go to?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0241.mp3",
+                    "ru": "На какую платформу мне идти?"
+                },
+                {
+                    "en": "Do I need a seat reservation?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0242.mp3",
+                    "ru": "Нужна бронь места?"
+                },
+                {
+                    "en": "Can I pay with a card?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0243.mp3",
+                    "ru": "Можно картой?"
+                },
+                {
+                    "en": "Does this pass include the airport shuttle?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0244.mp3",
+                    "ru": "Проездной включает шаттл в аэропорт?"
+                },
+                {
+                    "en": "Where can I validate my ticket?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0245.mp3",
+                    "ru": "Где прокомпостировать билет?"
+                },
+                {
+                    "en": "Is the sleeper cabin available tonight?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0246.mp3",
+                    "ru": "Есть свободное купе на сегодня?"
+                },
+                {
+                    "en": "How long is the night bus ride?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0247.mp3",
+                    "ru": "Сколько едет ночной автобус?"
+                },
+                {
+                    "en": "Can I store my luggage in a locker?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0248.mp3",
+                    "ru": "Можно оставить багаж в ячейке?"
+                },
+                {
+                    "en": "My platform changed. Where do I go now?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0249.mp3",
+                    "ru": "Платформу сменили. Куда мне?"
+                },
+                {
+                    "en": "Is this the last train?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0250.mp3",
+                    "ru": "Это последний поезд?"
+                },
+                {
+                    "en": "Do I tap my card before boarding?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0251.mp3",
+                    "ru": "Прикладывать карту перед посадкой?"
+                },
+                {
+                    "en": "Could you print the ticket for me?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0252.mp3",
+                    "ru": "Распечатайте билет, пожалуйста"
+                },
+                {
+                    "en": "Where is the rideshare pickup zone?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0253.mp3",
+                    "ru": "Где зона посадки такси?"
+                },
+                {
+                    "en": "Does the shuttle stop at this hotel?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0254.mp3",
+                    "ru": "Шаттл останавливается у этого отеля?"
+                },
+                {
+                    "en": "How much is the bicycle rental per hour?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0255.mp3",
+                    "ru": "Сколько стоит прокат велосипеда в час?"
+                },
+                {
+                    "en": "Is fuel included with the car hire?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0256.mp3",
+                    "ru": "Бензин включен в аренду?"
+                },
+                {
+                    "en": "Who checks tickets on board?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0257.mp3",
+                    "ru": "Кто проверяет билеты?"
+                }
+            ]
+        },
+        {
+            "name": "Travel Problems & Assistance",
+            "words": [
+                {
+                    "en": "Lost passport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0258.mp3",
+                    "ru": "Потерянный паспорт"
+                },
+                {
+                    "en": "Missed flight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0259.mp3",
+                    "ru": "Пропущенный рейс"
+                },
+                {
+                    "en": "Rebooking desk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0260.mp3",
+                    "ru": "Стойка перебронирования"
+                },
+                {
+                    "en": "Travel voucher",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0261.mp3",
+                    "ru": "Ваучер"
+                },
+                {
+                    "en": "Overbooked hotel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0262.mp3",
+                    "ru": "Овербукинг в отеле"
+                },
+                {
+                    "en": "Emergency contact",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0263.mp3",
+                    "ru": "Экстренный контакт"
+                },
+                {
+                    "en": "Travel clinic",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0264.mp3",
+                    "ru": "Медпункт"
+                },
+                {
+                    "en": "Pharmacy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0265.mp3",
+                    "ru": "Аптека"
+                },
+                {
+                    "en": "Urgent care",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0266.mp3",
+                    "ru": "Неотложная помощь"
+                },
+                {
+                    "en": "Travel warning",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0267.mp3",
+                    "ru": "Предупреждение"
+                },
+                {
+                    "en": "Travel advisory",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0268.mp3",
+                    "ru": "Рекомендация"
+                },
+                {
+                    "en": "Health declaration",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0269.mp3",
+                    "ru": "Декларация здоровья"
+                },
+                {
+                    "en": "Embassy appointment",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0270.mp3",
+                    "ru": "Запись в посольство"
+                },
+                {
+                    "en": "Consulate",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0271.mp3",
+                    "ru": "Консульство"
+                },
+                {
+                    "en": "Insurance hotline",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0272.mp3",
+                    "ru": "Горячая линия страховой"
+                },
+                {
+                    "en": "Language barrier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0273.mp3",
+                    "ru": "Языковой барьер"
+                },
+                {
+                    "en": "Translation app",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0274.mp3",
+                    "ru": "Переводчик (приложение)"
+                },
+                {
+                    "en": "Lost property",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0275.mp3",
+                    "ru": "Бюро находок"
+                },
+                {
+                    "en": "Delayed luggage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0276.mp3",
+                    "ru": "Задержка багажа"
+                },
+                {
+                    "en": "Refund request",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0277.mp3",
+                    "ru": "Запрос возврата"
+                },
+                {
+                    "en": "Complaint form",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0278.mp3",
+                    "ru": "Жалоба"
+                },
+                {
+                    "en": "Customer support",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0279.mp3",
+                    "ru": "Поддержка"
+                },
+                {
+                    "en": "Emergency fund",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0280.mp3",
+                    "ru": "Резервный фонд"
+                },
+                {
+                    "en": "Backup card",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0281.mp3",
+                    "ru": "Запасная карта"
+                }
+            ]
+        },
+        {
+            "name": "Travel Problems & Assistance - Phrases",
+            "words": [
+                {
+                    "en": "I lost my passport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0282.mp3",
+                    "ru": "Я потерял паспорт"
+                },
+                {
+                    "en": "Where is the nearest embassy?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0283.mp3",
+                    "ru": "Где ближайшее посольство?"
+                },
+                {
+                    "en": "I missed my flight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0284.mp3",
+                    "ru": "Я опоздал на рейс"
+                },
+                {
+                    "en": "Can you help me rebook?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0285.mp3",
+                    "ru": "Помогите перебронировать"
+                },
+                {
+                    "en": "Is the hotel overbooked tonight?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0286.mp3",
+                    "ru": "В отеле нет мест?"
+                },
+                {
+                    "en": "Can I get a travel voucher?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0287.mp3",
+                    "ru": "Можно получить ваучер?"
+                },
+                {
+                    "en": "Who do I contact for insurance?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0288.mp3",
+                    "ru": "Кому звонить по страховке?"
+                },
+                {
+                    "en": "I need a doctor who speaks English",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0289.mp3",
+                    "ru": "Мне нужен врач, говорящий по-английски"
+                },
+                {
+                    "en": "Where can I buy medicine nearby?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0290.mp3",
+                    "ru": "Где купить лекарства поблизости?"
+                },
+                {
+                    "en": "Is there a travel advisory today?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0291.mp3",
+                    "ru": "Есть предупреждения для туристов?"
+                },
+                {
+                    "en": "Do I need to fill out a health declaration?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0292.mp3",
+                    "ru": "Нужно заполнять декларацию здоровья?"
+                },
+                {
+                    "en": "How do I report delayed luggage?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0293.mp3",
+                    "ru": "Как заявить о задержке багажа?"
+                },
+                {
+                    "en": "Can someone translate this for me?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0294.mp3",
+                    "ru": "Кто-нибудь может перевести?"
+                },
+                {
+                    "en": "My bag is missing. Is there a lost property desk?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0295.mp3",
+                    "ru": "Моя сумка пропала. Где бюро находок?"
+                },
+                {
+                    "en": "I need an embassy appointment as soon as possible",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0296.mp3",
+                    "ru": "Мне срочно нужно в посольство"
+                },
+                {
+                    "en": "Can I file a complaint form online?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0297.mp3",
+                    "ru": "Можно подать жалобу онлайн?"
+                },
+                {
+                    "en": "Is a refund possible in this situation?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0298.mp3",
+                    "ru": "Возможен ли возврат?"
+                },
+                {
+                    "en": "Please call the emergency contact on my card",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0299.mp3",
+                    "ru": "Позвоните по экстренному номеру"
+                },
+                {
+                    "en": "Do you accept a backup card for payment?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0300.mp3",
+                    "ru": "Примете другую карту?"
+                },
+                {
+                    "en": "Who can help me contact customer support?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/04/ru_0301.mp3",
+                    "ru": "Кто поможет связаться с поддержкой?"
+                }
+            ]
+        }
+    ]
+}

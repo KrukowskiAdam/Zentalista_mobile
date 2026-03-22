@@ -1,0 +1,49 @@
+name: Deploy to Firebase Hosting and Functions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies for functions
+        run: |
+          cd functions
+          npm install --engine-strict
+
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools@latest
+
+      - name: Set up Google Cloud credentials
+        run: |
+          echo '${{ secrets.GOOGLE_CREDENTIALS }}' > ${{ github.workspace }}/service-account.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=${{ github.workspace }}/service-account.json" >> $GITHUB_ENV
+
+      - name: Show Firebase CLI info (debugging)
+        run: |
+          set -x
+          firebase --version
+          firebase projects:list
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/service-account.json
+
+      - name: Deploy to Firebase with logs
+        run: |
+          set -x
+          firebase deploy --project=costam-3f612 --only hosting,functions --debug
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/service-account.json
+          DEBUG: firebase:*

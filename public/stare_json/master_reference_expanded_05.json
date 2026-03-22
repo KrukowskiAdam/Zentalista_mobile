@@ -1,0 +1,563 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 05 - Daily Life & Shopping",
+    "categories": [
+        {
+            "name": "Shopping & Money",
+            "words": [
+                {
+                    "en": "Money"
+                },
+                {
+                    "en": "Price"
+                },
+                {
+                    "en": "Cheap"
+                },
+                {
+                    "en": "Expensive"
+                },
+                {
+                    "en": "Cost"
+                },
+                {
+                    "en": "Pay"
+                },
+                {
+                    "en": "Buy"
+                },
+                {
+                    "en": "Sell"
+                },
+                {
+                    "en": "Cash"
+                },
+                {
+                    "en": "Card"
+                },
+                {
+                    "en": "Change"
+                },
+                {
+                    "en": "Receipt"
+                },
+                {
+                    "en": "Discount"
+                },
+                {
+                    "en": "Sale"
+                },
+                {
+                    "en": "Free"
+                },
+                {
+                    "en": "Total"
+                },
+                {
+                    "en": "Tax"
+                },
+                {
+                    "en": "Wallet"
+                },
+                {
+                    "en": "Sales tax"
+                },
+                {
+                    "en": "Refund"
+                },
+                {
+                    "en": "Exchange policy"
+                },
+                {
+                    "en": "Store credit"
+                },
+                {
+                    "en": "Fitting room"
+                },
+                {
+                    "en": "Size guide"
+                },
+                {
+                    "en": "Loyalty card"
+                },
+                {
+                    "en": "Cashier"
+                },
+                {
+                    "en": "Self-checkout"
+                },
+                {
+                    "en": "Price tag"
+                },
+                {
+                    "en": "Coupon"
+                },
+                {
+                    "en": "Gift wrap"
+                },
+                {
+                    "en": "Delivery option"
+                },
+                {
+                    "en": "Installment"
+                },
+                {
+                    "en": "Wire transfer"
+                },
+                {
+                    "en": "Bank fee"
+                },
+                {
+                    "en": "Budget"
+                },
+                {
+                    "en": "Spending limit"
+                }
+            ]
+        },
+        {
+            "name": "Shopping & Money - Phrases",
+            "words": [
+                {
+                    "en": "How much is it?"
+                },
+                {
+                    "en": "It's too expensive."
+                },
+                {
+                    "en": "Do you have something cheaper?"
+                },
+                {
+                    "en": "Can I pay by card?"
+                },
+                {
+                    "en": "Cash only."
+                },
+                {
+                    "en": "Do you have change?"
+                },
+                {
+                    "en": "Receipt please."
+                },
+                {
+                    "en": "Is there a discount?"
+                },
+                {
+                    "en": "Is it on sale?"
+                },
+                {
+                    "en": "Is it free?"
+                },
+                {
+                    "en": "What's the total?"
+                },
+                {
+                    "en": "Including tax?"
+                },
+                {
+                    "en": "I'll buy it."
+                },
+                {
+                    "en": "I'm just looking."
+                },
+                {
+                    "en": "Can I return it?"
+                },
+                {
+                    "en": "Do you have a warranty?"
+                },
+                {
+                    "en": "Where do I pay?"
+                },
+                {
+                    "en": "Keep the change."
+                },
+                {
+                    "en": "Is the tax included?"
+                },
+                {
+                    "en": "Could I get a receipt?"
+                },
+                {
+                    "en": "What is your return policy?"
+                },
+                {
+                    "en": "Do you offer store credit?"
+                },
+                {
+                    "en": "Where is the fitting room?"
+                },
+                {
+                    "en": "Do you have this in my size?"
+                },
+                {
+                    "en": "Can I use this coupon?"
+                },
+                {
+                    "en": "Is delivery available?"
+                },
+                {
+                    "en": "Can I pay in installments?"
+                },
+                {
+                    "en": "Please stay within our budget."
+                },
+                {
+                    "en": "Could you double-check the price at the register?"
+                },
+                {
+                    "en": "I'm comparing a few options online before I buy."
+                },
+                {
+                    "en": "Can you hold this item for the next two hours?"
+                },
+                {
+                    "en": "Is there a student discount available?"
+                },
+                {
+                    "en": "Could you email me the receipt as well?"
+                }
+            ]
+        },
+        {
+            "name": "Places in City",
+            "words": [
+                {
+                    "en": "City"
+                },
+                {
+                    "en": "Town"
+                },
+                {
+                    "en": "Village"
+                },
+                {
+                    "en": "Street"
+                },
+                {
+                    "en": "Building"
+                },
+                {
+                    "en": "Store"
+                },
+                {
+                    "en": "Shop"
+                },
+                {
+                    "en": "Market"
+                },
+                {
+                    "en": "Bank"
+                },
+                {
+                    "en": "Post office"
+                },
+                {
+                    "en": "Hospital"
+                },
+                {
+                    "en": "Pharmacy"
+                },
+                {
+                    "en": "Library"
+                },
+                {
+                    "en": "Park"
+                },
+                {
+                    "en": "Station"
+                },
+                {
+                    "en": "Bus stop"
+                },
+                {
+                    "en": "Taxi"
+                },
+                {
+                    "en": "Metro"
+                }
+            ]
+        },
+        {
+            "name": "Places in City - Phrases",
+            "words": [
+                {
+                    "en": "Where's the bank?"
+                },
+                {
+                    "en": "Where's the post office?"
+                },
+                {
+                    "en": "Is there a pharmacy nearby?"
+                },
+                {
+                    "en": "How do I get to the station?"
+                },
+                {
+                    "en": "Where's the nearest bus stop?"
+                },
+                {
+                    "en": "Can I walk there?"
+                },
+                {
+                    "en": "Do I need a taxi?"
+                },
+                {
+                    "en": "Is there a metro?"
+                },
+                {
+                    "en": "Where should we eat?"
+                },
+                {
+                    "en": "Are you going to the library?"
+                },
+                {
+                    "en": "Let's go to the park."
+                },
+                {
+                    "en": "I'm going shopping."
+                },
+                {
+                    "en": "Is the store open?"
+                },
+                {
+                    "en": "What time does it close?"
+                },
+                {
+                    "en": "Is it far?"
+                },
+                {
+                    "en": "It's very close."
+                },
+                {
+                    "en": "It's crowded today."
+                },
+                {
+                    "en": "Let's meet in the city."
+                }
+            ]
+        },
+        {
+            "name": "Home & Living",
+            "words": [
+                {
+                    "en": "Home"
+                },
+                {
+                    "en": "House"
+                },
+                {
+                    "en": "Apartment"
+                },
+                {
+                    "en": "Room"
+                },
+                {
+                    "en": "Kitchen"
+                },
+                {
+                    "en": "Bathroom"
+                },
+                {
+                    "en": "Bedroom"
+                },
+                {
+                    "en": "Living room"
+                },
+                {
+                    "en": "Door"
+                },
+                {
+                    "en": "Window"
+                },
+                {
+                    "en": "Floor"
+                },
+                {
+                    "en": "Wall"
+                },
+                {
+                    "en": "Roof"
+                },
+                {
+                    "en": "Furniture"
+                },
+                {
+                    "en": "Table"
+                },
+                {
+                    "en": "Chair"
+                },
+                {
+                    "en": "Bed"
+                },
+                {
+                    "en": "Sofa"
+                },
+                {
+                    "en": "Groceries"
+                },
+                {
+                    "en": "Errand"
+                },
+                {
+                    "en": "Appointment"
+                },
+                {
+                    "en": "Queue"
+                },
+                {
+                    "en": "Package"
+                },
+                {
+                    "en": "Delivery slot"
+                },
+                {
+                    "en": "Subscription"
+                },
+                {
+                    "en": "Utility bill"
+                },
+                {
+                    "en": "Due date"
+                },
+                {
+                    "en": "Budget sheet"
+                },
+                {
+                    "en": "Rent"
+                },
+                {
+                    "en": "Lease"
+                },
+                {
+                    "en": "Landlord"
+                },
+                {
+                    "en": "Roommate"
+                },
+                {
+                    "en": "Repair request"
+                },
+                {
+                    "en": "Meter reading"
+                },
+                {
+                    "en": "Recycling bin"
+                },
+                {
+                    "en": "Trash pickup"
+                },
+                {
+                    "en": "Public service"
+                },
+                {
+                    "en": "Community center"
+                }
+            ]
+        },
+        {
+            "name": "Home & Living - Phrases",
+            "words": [
+                {
+                    "en": "Do you live here?"
+                },
+                {
+                    "en": "I live nearby."
+                },
+                {
+                    "en": "Where do you live?"
+                },
+                {
+                    "en": "I live in an apartment."
+                },
+                {
+                    "en": "Do you have a house?"
+                },
+                {
+                    "en": "How many rooms?"
+                },
+                {
+                    "en": "It's a nice place."
+                },
+                {
+                    "en": "Can I come in?"
+                },
+                {
+                    "en": "Please come in."
+                },
+                {
+                    "en": "Make yourself at home."
+                },
+                {
+                    "en": "Where's the bathroom?"
+                },
+                {
+                    "en": "Is it clean?"
+                },
+                {
+                    "en": "I need to clean."
+                },
+                {
+                    "en": "It's messy."
+                },
+                {
+                    "en": "It's very tidy."
+                },
+                {
+                    "en": "I'm at home."
+                },
+                {
+                    "en": "I'm going home."
+                },
+                {
+                    "en": "Welcome to my home."
+                },
+                {
+                    "en": "I have to run a few errands."
+                },
+                {
+                    "en": "Can you sign for this package?"
+                },
+                {
+                    "en": "The bill is due tomorrow."
+                },
+                {
+                    "en": "Let's split the utilities."
+                },
+                {
+                    "en": "Please remind me about the appointment."
+                },
+                {
+                    "en": "I left a note for the landlord."
+                },
+                {
+                    "en": "When is trash pickup?"
+                },
+                {
+                    "en": "We need to recycle these bottles."
+                },
+                {
+                    "en": "Is the community center open?"
+                },
+                {
+                    "en": "Can you help me with the meter reading?"
+                },
+                {
+                    "en": "Can you water the plants while I'm away?"
+                },
+                {
+                    "en": "Let's set up a cleaning schedule for the week."
+                },
+                {
+                    "en": "Please remind me to pay the rent on Friday."
+                },
+                {
+                    "en": "Can we share the cost of new furniture?"
+                },
+                {
+                    "en": "I'll message you when I'm almost home."
+                }
+            ]
+        }
+    ]
+}

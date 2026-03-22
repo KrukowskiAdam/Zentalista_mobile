@@ -1,0 +1,1174 @@
+{
+  "categories": [
+    {
+      "name": "Hobbies & Entertainment",
+      "words": [
+        {
+          "es": "leer",
+          "en": "reading",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_leer.mp3"
+        },
+        {
+          "es": "dibujar",
+          "en": "drawing",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_dibujar.mp3"
+        },
+        {
+          "es": "bailar",
+          "en": "dancing",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_bailar.mp3"
+        },
+        {
+          "es": "videojuegos",
+          "en": "video games",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_videojuegos.mp3"
+        },
+        {
+          "es": "ajedrez",
+          "en": "chess",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_ajedrez.mp3"
+        },
+        {
+          "es": "tejer",
+          "en": "knitting",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_tejer.mp3"
+        },
+        {
+          "es": "viajar",
+          "en": "traveling",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_viajar.mp3"
+        },
+        {
+          "es": "parque de atracciones",
+          "en": "amusement park",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_parque_de_atracciones.mp3"
+        },
+        {
+          "es": "concierto",
+          "en": "concert",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_concierto.mp3"
+        },
+        {
+          "es": "ver películas",
+          "en": "watching movies",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_ver_pel%C3%ADculas.mp3"
+        },
+        {
+          "es": "tocar un instrumento",
+          "en": "playing an instrument",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_tocar_un_instrumento.mp3"
+        },
+        {
+          "es": "fotografía",
+          "en": "photography",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_fotograf%C3%ADa.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Hobbies & Entertainment - Phrases",
+      "words": [
+        {
+          "es": "¿Cuál es tu pasatiempo favorito?",
+          "en": "What's your favorite hobby?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_cu%C3%A1l_es_tu_pasatiempo_favorito.mp3"
+        },
+        {
+          "es": "Me gusta leer novelas",
+          "en": "I like reading novels",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_me_gusta_leer_novelas.mp3"
+        },
+        {
+          "es": "¿Te gusta ver la televisión?",
+          "en": "Do you like watching TV?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_te_gusta_ver_la_televisi%C3%B3n.mp3"
+        },
+        {
+          "es": "Prefiero los videojuegos",
+          "en": "I prefer video games",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_prefiero_los_videojuegos.mp3"
+        },
+        {
+          "es": "Voy a un concierto esta noche",
+          "en": "I'm going to a concert tonight",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_voy_a_un_concierto_esta_noche.mp3"
+        },
+        {
+          "es": "Mi hermana sabe tejer muy bien",
+          "en": "My sister knows how to knit very well",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_mi_hermana_sabe_tejer_muy_bien.mp3"
+        },
+        {
+          "es": "Los fines de semana me gusta dibujar",
+          "en": "On weekends I like to draw",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_los_fines_de_semana_me_gusta_dibujar.mp3"
+        },
+        {
+          "es": "¿Sabes jugar al ajedrez?",
+          "en": "Do you know how to play chess?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_sabes_jugar_al_ajedrez.mp3"
+        },
+        {
+          "es": "Me encanta ver películas los fines de semana",
+          "en": "I love watching movies on weekends",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_me_encanta_ver_pel%C3%ADculas_los_fines_de_semana.mp3"
+        },
+        {
+          "es": "Estoy aprendiendo a tocar la guitarra",
+          "en": "I'm learning to play the guitar",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_estoy_aprendiendo_a_tocar_la_guitarra.mp3"
+        },
+        {
+          "es": "La fotografía es un hobby muy creativo",
+          "en": "Photography is a very creative hobby",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_la_fotograf%C3%ADa_es_un_hobby_muy_creativo.mp3"
+        },
+        {
+          "es": "¿Qué haces en tu tiempo libre?",
+          "en": "What do you do in your free time?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_qu%C3%A9_haces_en_tu_tiempo_libre.mp3"
+        },
+        {
+          "es": "Me gusta tocar el piano",
+          "en": "I like playing the piano",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_me_gusta_tocar_el_piano.mp3"
+        },
+        {
+          "es": "¿Quieres venir al cine?",
+          "en": "Do you want to come to the movies?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_quieres_venir_al_cine.mp3"
+        },
+        {
+          "es": "Disfruto de la música en vivo",
+          "en": "I enjoy live music",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_disfruto_de_la_m%C3%BAsica_en_vivo.mp3"
+        },
+        {
+          "es": "Vamos al parque de atracciones",
+          "en": "Let's go to the amusement park",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_vamos_al_parque_de_atracciones.mp3"
+        },
+        {
+          "es": "Me relajo leyendo libros",
+          "en": "I relax by reading books",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_me_relajo_leyendo_libros.mp3"
+        },
+        {
+          "es": "¿Te interesa la fotografía?",
+          "en": "Are you interested in photography?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_te_interesa_la_fotograf%C3%ADa.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Sports & Fitness",
+      "words": [
+        {
+          "es": "fútbol",
+          "en": "soccer",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_f%C3%BAtbol.mp3"
+        },
+        {
+          "es": "baloncesto",
+          "en": "basketball",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_baloncesto.mp3"
+        },
+        {
+          "es": "tenis",
+          "en": "tennis",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_tenis.mp3"
+        },
+        {
+          "es": "ciclismo",
+          "en": "cycling",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_ciclismo.mp3"
+        },
+        {
+          "es": "gimnasio",
+          "en": "gym",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_gimnasio.mp3"
+        },
+        {
+          "es": "yoga",
+          "en": "yoga",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_yoga.mp3"
+        },
+        {
+          "es": "ejercicio",
+          "en": "exercise",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_ejercicio.mp3"
+        },
+        {
+          "es": "voleibol",
+          "en": "volleyball",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_voleibol.mp3"
+        },
+        {
+          "es": "béisbol",
+          "en": "baseball",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_b%C3%A9isbol.mp3"
+        },
+        {
+          "es": "golf",
+          "en": "golf",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_golf.mp3"
+        },
+        {
+          "es": "boxeo",
+          "en": "boxing",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_boxeo.mp3"
+        },
+        {
+          "es": "esquí",
+          "en": "skiing",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_esqu%C3%AD.mp3"
+        },
+        {
+          "es": "competición",
+          "en": "competition",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_competici%C3%B3n.mp3"
+        },
+        {
+          "es": "trofeo",
+          "en": "trophy",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_trofeo.mp3"
+        },
+        {
+          "es": "medalla",
+          "en": "medal",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_medalla.mp3"
+        },
+        {
+          "es": "natación",
+          "en": "swimming",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_nataci%C3%B3n.mp3"
+        },
+        {
+          "es": "entrenamiento",
+          "en": "training",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_entrenamiento.mp3"
+        },
+        {
+          "es": "deporte",
+          "en": "sport",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_deporte.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Sports & Fitness - Phrases",
+      "words": [
+        {
+          "es": "¿Cuál es tu deporte favorito?",
+          "en": "What's your favorite sport?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_cu%C3%A1l_es_tu_deporte_favorito.mp3"
+        },
+        {
+          "es": "Mi deporte favorito es el fútbol",
+          "en": "My favorite sport is soccer",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_mi_deporte_favorito_es_el_f%C3%BAtbol.mp3"
+        },
+        {
+          "es": "Voy al gimnasio tres veces por semana",
+          "en": "I go to the gym three times a week",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_voy_al_gimnasio_tres_veces_por_semana.mp3"
+        },
+        {
+          "es": "¿Haces ejercicio regularmente?",
+          "en": "Do you exercise regularly?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_haces_ejercicio_regularmente.mp3"
+        },
+        {
+          "es": "Me gusta correr por las mañanas",
+          "en": "I like running in the mornings",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_me_gusta_correr_por_las_ma%C3%B1anas.mp3"
+        },
+        {
+          "es": "Mi equipo ganó el partido",
+          "en": "My team won the match",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_mi_equipo_gan%C3%B3_el_partido.mp3"
+        },
+        {
+          "es": "¿Sabes nadar?",
+          "en": "Do you know how to swim?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_sabes_nadar.mp3"
+        },
+        {
+          "es": "Practico yoga para relajarme",
+          "en": "I practice yoga to relax",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_practico_yoga_para_relajarme.mp3"
+        },
+        {
+          "es": "La natación es mi deporte favorito",
+          "en": "Swimming is my favorite sport",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_la_nataci%C3%B3n_es_mi_deporte_favorito.mp3"
+        },
+        {
+          "es": "Entreno con mi equipo los martes",
+          "en": "I train with my team on Tuesdays",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_entreno_con_mi_equipo_los_martes.mp3"
+        },
+        {
+          "es": "¿Practicas algún deporte?",
+          "en": "Do you play any sports?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_practicas_alg%C3%BAn_deporte.mp3"
+        },
+        {
+          "es": "Es importante hacer ejercicio para la salud",
+          "en": "It's important to exercise for your health",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_es_importante_hacer_ejercicio_para_la_salud.mp3"
+        },
+        {
+          "es": "¿Quieres jugar al fútbol conmigo?",
+          "en": "Do you want to play soccer with me?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_quieres_jugar_al_f%C3%BAtbol_conmigo.mp3"
+        },
+        {
+          "es": "Me gusta ver partidos en la televisión",
+          "en": "I like watching matches on TV",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_me_gusta_ver_partidos_en_la_televisi%C3%B3n.mp3"
+        },
+        {
+          "es": "Practico deporte todos los días",
+          "en": "I practice sports every day",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_practico_deporte_todos_los_d%C3%ADas.mp3"
+        },
+        {
+          "es": "El yoga me ayuda a relajarme",
+          "en": "Yoga helps me relax",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_el_yoga_me_ayuda_a_relajarme.mp3"
+        },
+        {
+          "es": "¿A qué hora es el entrenamiento?",
+          "en": "What time is the training?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_a_qu%C3%A9_hora_es_el_entrenamiento.mp3"
+        },
+        {
+          "es": "Necesito comprar ropa deportiva",
+          "en": "I need to buy sportswear",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_necesito_comprar_ropa_deportiva.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Pets & Animals",
+      "words": [
+        {
+          "es": "animal",
+          "en": "animal",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_animal.mp3"
+        },
+        {
+          "es": "mascota",
+          "en": "pet",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_mascota.mp3"
+        },
+        {
+          "es": "perro",
+          "en": "dog",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_perro.mp3"
+        },
+        {
+          "es": "gato",
+          "en": "cat",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_gato.mp3"
+        },
+        {
+          "es": "pájaro",
+          "en": "bird",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_p%C3%A1jaro.mp3"
+        },
+        {
+          "es": "pez",
+          "en": "fish",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_pez.mp3"
+        },
+        {
+          "es": "hámster",
+          "en": "hamster",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_h%C3%A1mster.mp3"
+        },
+        {
+          "es": "conejo",
+          "en": "rabbit",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_conejo.mp3"
+        },
+        {
+          "es": "tortuga",
+          "en": "turtle",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_tortuga.mp3"
+        },
+        {
+          "es": "caballo",
+          "en": "horse",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_caballo.mp3"
+        },
+        {
+          "es": "vaca",
+          "en": "cow",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_vaca.mp3"
+        },
+        {
+          "es": "cerdo",
+          "en": "pig",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_cerdo.mp3"
+        },
+        {
+          "es": "oveja",
+          "en": "sheep",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_oveja.mp3"
+        },
+        {
+          "es": "gallina",
+          "en": "chicken",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_gallina.mp3"
+        },
+        {
+          "es": "ratón",
+          "en": "mouse",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_rat%C3%B3n.mp3"
+        },
+        {
+          "es": "león",
+          "en": "lion",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_le%C3%B3n.mp3"
+        },
+        {
+          "es": "tigre",
+          "en": "tiger",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_tigre.mp3"
+        },
+        {
+          "es": "oso",
+          "en": "bear",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_oso.mp3"
+        },
+        {
+          "es": "elefante",
+          "en": "elephant",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0019_elefante.mp3"
+        },
+        {
+          "es": "mono",
+          "en": "monkey",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0020_mono.mp3"
+        },
+        {
+          "es": "zorro",
+          "en": "fox",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0021_zorro.mp3"
+        },
+        {
+          "es": "delfín",
+          "en": "dolphin",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0022_delf%C3%ADn.mp3"
+        },
+        {
+          "es": "pato",
+          "en": "duck",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0023_pato.mp3"
+        },
+        {
+          "es": "jirafa",
+          "en": "giraffe",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0024_jirafa.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Pets & Animals - Phrases",
+      "words": [
+        {
+          "es": "¿Tienes mascotas?",
+          "en": "Do you have pets?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_tienes_mascotas.mp3"
+        },
+        {
+          "es": "Tengo un perro y un gato",
+          "en": "I have a dog and a cat",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_tengo_un_perro_y_un_gato.mp3"
+        },
+        {
+          "es": "Mi perro se llama Max",
+          "en": "My dog's name is Max",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_mi_perro_se_llama_max.mp3"
+        },
+        {
+          "es": "¿Te gustan los animales?",
+          "en": "Do you like animals?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_te_gustan_los_animales.mp3"
+        },
+        {
+          "es": "Los gatos son muy independientes",
+          "en": "Cats are very independent",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_los_gatos_son_muy_independientes.mp3"
+        },
+        {
+          "es": "Mi pájaro canta todas las mañanas",
+          "en": "My bird sings every morning",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_mi_p%C3%A1jaro_canta_todas_las_ma%C3%B1anas.mp3"
+        },
+        {
+          "es": "Vamos al zoológico este fin de semana",
+          "en": "We're going to the zoo this weekend",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_vamos_al_zool%C3%B3gico_este_fin_de_semana.mp3"
+        },
+        {
+          "es": "Los elefantes son animales muy inteligentes",
+          "en": "Elephants are very intelligent animals",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_los_elefantes_son_animales_muy_inteligentes.mp3"
+        },
+        {
+          "es": "Mis mascotas son parte de mi familia",
+          "en": "My pets are part of my family",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_mis_mascotas_son_parte_de_mi_familia.mp3"
+        },
+        {
+          "es": "Mi gato duerme todo el día",
+          "en": "My cat sleeps all day",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_mi_gato_duerme_todo_el_d%C3%ADa.mp3"
+        },
+        {
+          "es": "Los perros son muy fieles",
+          "en": "Dogs are very loyal",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_los_perros_son_muy_fieles.mp3"
+        },
+        {
+          "es": "¿Cómo se llama tu mascota?",
+          "en": "What is your pet's name?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_c%C3%B3mo_se_llama_tu_mascota.mp3"
+        },
+        {
+          "es": "¿Quieres adoptar un animal?",
+          "en": "Do you want to adopt an animal?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_quieres_adoptar_un_animal.mp3"
+        },
+        {
+          "es": "Me gusta cuidar a mis mascotas",
+          "en": "I like taking care of my pets",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_me_gusta_cuidar_a_mis_mascotas.mp3"
+        },
+        {
+          "es": "El veterinario cuida a los animales",
+          "en": "The vet takes care of animals",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_el_veterinario_cuida_a_los_animales.mp3"
+        },
+        {
+          "es": "Mi conejo es muy tranquilo",
+          "en": "My rabbit is very calm",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_mi_conejo_es_muy_tranquilo.mp3"
+        },
+        {
+          "es": "¿Dónde compraste tu mascota?",
+          "en": "Where did you buy your pet?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_d%C3%B3nde_compraste_tu_mascota.mp3"
+        },
+        {
+          "es": "Las tortugas viven muchos años",
+          "en": "Turtles live many years",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_las_tortugas_viven_muchos_a%C3%B1os.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Nature & Places",
+      "words": [
+        {
+          "es": "montaña",
+          "en": "mountain",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_monta%C3%B1a.mp3"
+        },
+        {
+          "es": "valle",
+          "en": "valley",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_valle.mp3"
+        },
+        {
+          "es": "río",
+          "en": "river",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_r%C3%ADo.mp3"
+        },
+        {
+          "es": "lago",
+          "en": "lake",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_lago.mp3"
+        },
+        {
+          "es": "mar",
+          "en": "sea",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_mar.mp3"
+        },
+        {
+          "es": "océano",
+          "en": "ocean",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_oc%C3%A9ano.mp3"
+        },
+        {
+          "es": "playa",
+          "en": "beach",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_playa.mp3"
+        },
+        {
+          "es": "bosque",
+          "en": "forest",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_bosque.mp3"
+        },
+        {
+          "es": "campo",
+          "en": "countryside",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_campo.mp3"
+        },
+        {
+          "es": "prado",
+          "en": "meadow",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_prado.mp3"
+        },
+        {
+          "es": "cascada",
+          "en": "waterfall",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_cascada.mp3"
+        },
+        {
+          "es": "isla",
+          "en": "island",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_isla.mp3"
+        },
+        {
+          "es": "árbol",
+          "en": "tree",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_%C3%A1rbol.mp3"
+        },
+        {
+          "es": "flor",
+          "en": "flower",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_flor.mp3"
+        },
+        {
+          "es": "hierba",
+          "en": "grass",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_hierba.mp3"
+        },
+        {
+          "es": "hoja",
+          "en": "leaf",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_hoja.mp3"
+        },
+        {
+          "es": "planta",
+          "en": "plant",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_planta.mp3"
+        },
+        {
+          "es": "rosa",
+          "en": "rose",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_rosa.mp3"
+        },
+        {
+          "es": "jardín",
+          "en": "garden",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0019_jard%C3%ADn.mp3"
+        },
+        {
+          "es": "parque",
+          "en": "park",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0020_parque.mp3"
+        },
+        {
+          "es": "desierto",
+          "en": "desert",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0021_desierto.mp3"
+        },
+        {
+          "es": "volcán",
+          "en": "volcano",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0022_volc%C3%A1n.mp3"
+        },
+        {
+          "es": "cueva",
+          "en": "cave",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0023_cueva.mp3"
+        },
+        {
+          "es": "acantilado",
+          "en": "cliff",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0024_acantilado.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Nature & Places - Phrases",
+      "words": [
+        {
+          "es": "Me encanta la naturaleza",
+          "en": "I love nature",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_me_encanta_la_naturaleza.mp3"
+        },
+        {
+          "es": "¿Te gusta ir a la playa?",
+          "en": "Do you like going to the beach?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_te_gusta_ir_a_la_playa.mp3"
+        },
+        {
+          "es": "Las montañas son muy hermosas",
+          "en": "The mountains are very beautiful",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_las_monta%C3%B1as_son_muy_hermosas.mp3"
+        },
+        {
+          "es": "Vamos a caminar por el bosque",
+          "en": "Let's walk through the forest",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_vamos_a_caminar_por_el_bosque.mp3"
+        },
+        {
+          "es": "Mi jardín tiene muchas flores",
+          "en": "My garden has many flowers",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_mi_jard%C3%ADn_tiene_muchas_flores.mp3"
+        },
+        {
+          "es": "El lago está muy tranquilo hoy",
+          "en": "The lake is very calm today",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_el_lago_est%C3%A1_muy_tranquilo_hoy.mp3"
+        },
+        {
+          "es": "¿Has visto alguna vez una cascada?",
+          "en": "Have you ever seen a waterfall?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_has_visto_alguna_vez_una_cascada.mp3"
+        },
+        {
+          "es": "Me gusta pasear por el parque",
+          "en": "I like walking in the park",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_me_gusta_pasear_por_el_parque.mp3"
+        },
+        {
+          "es": "El desierto es muy caluroso durante el día",
+          "en": "The desert is very hot during the day",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_el_desierto_es_muy_caluroso_durante_el_d%C3%ADa.mp3"
+        },
+        {
+          "es": "Hay una cueva cerca del lago",
+          "en": "There is a cave near the lake",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_hay_una_cueva_cerca_del_lago.mp3"
+        },
+        {
+          "es": "Los volcanes son impresionantes",
+          "en": "Volcanoes are impressive",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_los_volcanes_son_impresionantes.mp3"
+        },
+        {
+          "es": "¿Te gusta explorar la naturaleza?",
+          "en": "Do you like exploring nature?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_te_gusta_explorar_la_naturaleza.mp3"
+        },
+        {
+          "es": "El bosque tiene muchos árboles",
+          "en": "The forest has many trees",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_el_bosque_tiene_muchos_%C3%A1rboles.mp3"
+        },
+        {
+          "es": "Vamos de excursión a la montaña",
+          "en": "Let's go hiking in the mountains",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_vamos_de_excursi%C3%B3n_a_la_monta%C3%B1a.mp3"
+        },
+        {
+          "es": "El mar es muy profundo",
+          "en": "The sea is very deep",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_el_mar_es_muy_profundo.mp3"
+        },
+        {
+          "es": "Hay flores de muchos colores",
+          "en": "There are flowers of many colors",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_hay_flores_de_muchos_colores.mp3"
+        },
+        {
+          "es": "El parque está cerca de mi casa",
+          "en": "The park is near my house",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_el_parque_est%C3%A1_cerca_de_mi_casa.mp3"
+        },
+        {
+          "es": "Me gusta visitar islas pequeñas",
+          "en": "I like visiting small islands",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_me_gusta_visitar_islas_peque%C3%B1as.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Art & Culture",
+      "words": [
+        {
+          "es": "arte",
+          "en": "art",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_arte.mp3"
+        },
+        {
+          "es": "escultura",
+          "en": "sculpture",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_escultura.mp3"
+        },
+        {
+          "es": "poesía",
+          "en": "poetry",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_poes%C3%ADa.mp3"
+        },
+        {
+          "es": "novela",
+          "en": "novel",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_novela.mp3"
+        },
+        {
+          "es": "teatro",
+          "en": "theater",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_teatro.mp3"
+        },
+        {
+          "es": "danza",
+          "en": "dance",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_danza.mp3"
+        },
+        {
+          "es": "ópera",
+          "en": "opera",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_%C3%B3pera.mp3"
+        },
+        {
+          "es": "cine",
+          "en": "cinema",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_cine.mp3"
+        },
+        {
+          "es": "actor",
+          "en": "actor",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_actor.mp3"
+        },
+        {
+          "es": "actriz",
+          "en": "actress",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_actriz.mp3"
+        },
+        {
+          "es": "museo",
+          "en": "museum",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_museo.mp3"
+        },
+        {
+          "es": "galería",
+          "en": "gallery",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_galer%C3%ADa.mp3"
+        },
+        {
+          "es": "pintor",
+          "en": "painter",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_pintor.mp3"
+        },
+        {
+          "es": "escritor",
+          "en": "writer",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_escritor.mp3"
+        },
+        {
+          "es": "ballet",
+          "en": "ballet",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_ballet.mp3"
+        },
+        {
+          "es": "cuento",
+          "en": "short story",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_cuento.mp3"
+        },
+        {
+          "es": "literatura",
+          "en": "literature",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_literatura.mp3"
+        },
+        {
+          "es": "música clásica",
+          "en": "classical music",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_m%C3%BAsica_cl%C3%A1sica.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Art & Culture - Phrases",
+      "words": [
+        {
+          "es": "¿Te gusta el arte moderno?",
+          "en": "Do you like modern art?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_te_gusta_el_arte_moderno.mp3"
+        },
+        {
+          "es": "Vamos al museo este sábado",
+          "en": "We're going to the museum this Saturday",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_vamos_al_museo_este_s%C3%A1bado.mp3"
+        },
+        {
+          "es": "Esta exposición es muy interesante",
+          "en": "This exhibition is very interesting",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_esta_exposici%C3%B3n_es_muy_interesante.mp3"
+        },
+        {
+          "es": "Mi hermana pinta acuarelas",
+          "en": "My sister paints watercolors",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_mi_hermana_pinta_acuarelas.mp3"
+        },
+        {
+          "es": "¿Has leído esta novela?",
+          "en": "Have you read this novel?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_has_le%C3%ADdo_esta_novela.mp3"
+        },
+        {
+          "es": "Me gusta ir al teatro",
+          "en": "I like going to the theater",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_me_gusta_ir_al_teatro.mp3"
+        },
+        {
+          "es": "¿Qué tipo de películas prefieres?",
+          "en": "What type of movies do you prefer?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_qu%C3%A9_tipo_de_pel%C3%ADculas_prefieres.mp3"
+        },
+        {
+          "es": "Este artista es muy famoso",
+          "en": "This artist is very famous",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_este_artista_es_muy_famoso.mp3"
+        },
+        {
+          "es": "Me interesa la historia del arte",
+          "en": "I'm interested in art history",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_me_interesa_la_historia_del_arte.mp3"
+        },
+        {
+          "es": "Disfruto leyendo literatura clásica",
+          "en": "I enjoy reading classic literature",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_disfruto_leyendo_literatura_cl%C3%A1sica.mp3"
+        },
+        {
+          "es": "El ballet requiere mucha disciplina",
+          "en": "Ballet requires a lot of discipline",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_el_ballet_requiere_mucha_disciplina.mp3"
+        },
+        {
+          "es": "¿Te gusta la música clásica?",
+          "en": "Do you like classical music?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_te_gusta_la_m%C3%BAsica_cl%C3%A1sica.mp3"
+        },
+        {
+          "es": "¿Te gusta la escultura?",
+          "en": "Do you like sculpture?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_te_gusta_la_escultura.mp3"
+        },
+        {
+          "es": "Visité una galería de arte ayer",
+          "en": "I visited an art gallery yesterday",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_visit%C3%A9_una_galer%C3%ADa_de_arte_ayer.mp3"
+        },
+        {
+          "es": "La ópera es muy emocionante",
+          "en": "Opera is very exciting",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_la_%C3%B3pera_es_muy_emocionante.mp3"
+        },
+        {
+          "es": "Prefiero la literatura moderna",
+          "en": "I prefer modern literature",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_prefiero_la_literatura_moderna.mp3"
+        },
+        {
+          "es": "El teatro está en el centro",
+          "en": "The theater is downtown",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_el_teatro_est%C3%A1_en_el_centro.mp3"
+        },
+        {
+          "es": "¿Conoces a algún escritor famoso?",
+          "en": "Do you know any famous writer?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_conoces_a_alg%C3%BAn_escritor_famoso.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Countries & Cultures",
+      "words": [
+        {
+          "es": "país",
+          "en": "country",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_pa%C3%ADs.mp3"
+        },
+        {
+          "es": "España",
+          "en": "Spain",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_espa%C3%B1a.mp3"
+        },
+        {
+          "es": "México",
+          "en": "Mexico",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_m%C3%A9xico.mp3"
+        },
+        {
+          "es": "Colombia",
+          "en": "Colombia",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_colombia.mp3"
+        },
+        {
+          "es": "Estados Unidos",
+          "en": "United States",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_estados_unidos.mp3"
+        },
+        {
+          "es": "Italia",
+          "en": "Italy",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_italia.mp3"
+        },
+        {
+          "es": "idioma",
+          "en": "language",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_idioma.mp3"
+        },
+        {
+          "es": "inglés",
+          "en": "English",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_ingl%C3%A9s.mp3"
+        },
+        {
+          "es": "costumbre",
+          "en": "custom",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_costumbre.mp3"
+        },
+        {
+          "es": "festival",
+          "en": "festival",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_festival.mp3"
+        },
+        {
+          "es": "historia",
+          "en": "history",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_historia.mp3"
+        },
+        {
+          "es": "sociedad",
+          "en": "society",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_sociedad.mp3"
+        },
+        {
+          "es": "comunidad",
+          "en": "community",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_comunidad.mp3"
+        },
+        {
+          "es": "tradición",
+          "en": "tradition",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_tradici%C3%B3n.mp3"
+        },
+        {
+          "es": "religión",
+          "en": "religion",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_religi%C3%B3n.mp3"
+        },
+        {
+          "es": "turismo",
+          "en": "tourism",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_turismo.mp3"
+        },
+        {
+          "es": "moneda",
+          "en": "currency",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_moneda.mp3"
+        },
+        {
+          "es": "nacionalidad",
+          "en": "nationality",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_nacionalidad.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Countries & Cultures - Phrases",
+      "words": [
+        {
+          "es": "¿De qué país eres?",
+          "en": "What country are you from?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0001_de_qu%C3%A9_pa%C3%ADs_eres.mp3"
+        },
+        {
+          "es": "Soy de España",
+          "en": "I'm from Spain",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0002_soy_de_espa%C3%B1a.mp3"
+        },
+        {
+          "es": "¿Qué idiomas hablas?",
+          "en": "What languages do you speak?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0003_qu%C3%A9_idiomas_hablas.mp3"
+        },
+        {
+          "es": "Hablo español e inglés",
+          "en": "I speak Spanish and English",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0004_hablo_espa%C3%B1ol_e_ingl%C3%A9s.mp3"
+        },
+        {
+          "es": "Me gusta conocer otras culturas",
+          "en": "I like learning about other cultures",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0005_me_gusta_conocer_otras_culturas.mp3"
+        },
+        {
+          "es": "Esta tradición es muy antigua",
+          "en": "This tradition is very old",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0006_esta_tradici%C3%B3n_es_muy_antigua.mp3"
+        },
+        {
+          "es": "¿Has viajado a otros países?",
+          "en": "Have you traveled to other countries?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0007_has_viajado_a_otros_pa%C3%ADses.mp3"
+        },
+        {
+          "es": "La gastronomía mexicana es deliciosa",
+          "en": "Mexican cuisine is delicious",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0008_la_gastronom%C3%ADa_mexicana_es_deliciosa.mp3"
+        },
+        {
+          "es": "Las tradiciones varían entre culturas",
+          "en": "Traditions vary between cultures",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0009_las_tradiciones_var%C3%ADan_entre_culturas.mp3"
+        },
+        {
+          "es": "El turismo es importante para muchos países",
+          "en": "Tourism is important for many countries",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0010_el_turismo_es_importante_para_muchos_pa%C3%ADses.mp3"
+        },
+        {
+          "es": "¿Cuál es tu nacionalidad?",
+          "en": "What is your nationality?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0011_cu%C3%A1l_es_tu_nacionalidad.mp3"
+        },
+        {
+          "es": "Me encanta aprender sobre otras religiones",
+          "en": "I love learning about other religions",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0012_me_encanta_aprender_sobre_otras_religiones.mp3"
+        },
+        {
+          "es": "Quiero viajar por el mundo",
+          "en": "I want to travel around the world",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0013_quiero_viajar_por_el_mundo.mp3"
+        },
+        {
+          "es": "¿Qué costumbres tienen allí?",
+          "en": "What customs do they have there?",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0014_qu%C3%A9_costumbres_tienen_all%C3%AD.mp3"
+        },
+        {
+          "es": "Me interesa la historia de España",
+          "en": "I'm interested in Spain's history",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0015_me_interesa_la_historia_de_espa%C3%B1a.mp3"
+        },
+        {
+          "es": "Aprendo sobre diferentes sociedades",
+          "en": "I learn about different societies",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0016_aprendo_sobre_diferentes_sociedades.mp3"
+        },
+        {
+          "es": "La comunidad es muy unida",
+          "en": "The community is very close-knit",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0017_la_comunidad_es_muy_unida.mp3"
+        },
+        {
+          "es": "Celebramos muchas tradiciones",
+          "en": "We celebrate many traditions",
+          "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/09/es_0018_celebramos_muchas_tradiciones.mp3"
+        }
+      ]
+    }
+  ]
+}

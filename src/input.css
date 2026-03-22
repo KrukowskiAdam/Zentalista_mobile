@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Main palette */
+    --dark-bg: #030712;
+    --dark-card: #111828;
+    --dark-border: #1e2938;
+    
+    /* Status colors */
+    --level-expert: #ff8c02;
+    --level-learning: #0ea5e9;
+    --level-mastered: #02bf33;
+    
+    /* Text colors */
+    --text-primary: #ffffff;      /* White */
+    --text-secondary: #d1d5db;    /* Gray-300 */
+    --text-tertiary: #9ca3af;     /* Gray-400 */
+    
+    /* Disable DaisyUI button animation */
+    --animation-btn: 0;
+    --btn-focus-scale: 1;
+  }
+  
+  /* Flex layout for sticky footer */
+  html, body {
+    min-height: 100vh;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Prevent layout shift from scrollbar appearing/disappearing */
+  html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+  }
+  
+  /* Hide auth elements until ready to prevent flash */
+  .auth-logged-in,
+  .auth-logged-out {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
+  /* Show when auth state is known */
+  .auth-ready .auth-logged-in,
+  .auth-ready .auth-logged-out {
+    opacity: 1;
+  }
+}
+
+@layer components {
+  /* Logo text outline effect - add 'logo-outline' class to enable */
+  .logo-outline {
+    text-shadow: 
+      -1px -1px 0 #fff,
+       1px -1px 0 #fff,
+      -1px  1px 0 #fff,
+       1px  1px 0 #fff;
+  }
+  
+  /* Thicker outline variant */
+  .logo-outline-thick {
+    text-shadow: 
+      -2px -2px 0 #fff,
+       2px -2px 0 #fff,
+      -2px  2px 0 #fff,
+       2px  2px 0 #fff,
+      -2px  0px 0 #fff,
+       2px  0px 0 #fff,
+       0px -2px 0 #fff,
+       0px  2px 0 #fff;
+  }
+}
+
+@layer utilities {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .safe-top {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+
+  .safe-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  .safe-left {
+    padding-left: max(1rem, env(safe-area-inset-left));
+  }
+
+  .safe-right {
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+}
+

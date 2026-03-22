@@ -1,0 +1,975 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 02 - Numbers & Time",
+    "categories": [
+        {
+            "name": "Numbers 0-20",
+            "words": [
+                {
+                    "en": "Zero",
+                    "es": "Cero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0001.mp3"
+                },
+                {
+                    "en": "One",
+                    "es": "Uno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0002.mp3"
+                },
+                {
+                    "en": "Two",
+                    "es": "Dos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0003.mp3"
+                },
+                {
+                    "en": "Three",
+                    "es": "Tres",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0004.mp3"
+                },
+                {
+                    "en": "Four",
+                    "es": "Cuatro",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0005.mp3"
+                },
+                {
+                    "en": "Five",
+                    "es": "Cinco",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0006.mp3"
+                },
+                {
+                    "en": "Six",
+                    "es": "Seis",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0007.mp3"
+                },
+                {
+                    "en": "Seven",
+                    "es": "Siete",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0008.mp3"
+                },
+                {
+                    "en": "Eight",
+                    "es": "Ocho",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0009.mp3"
+                },
+                {
+                    "en": "Nine",
+                    "es": "Nueve",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0010.mp3"
+                },
+                {
+                    "en": "Ten",
+                    "es": "Diez",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0011.mp3"
+                },
+                {
+                    "en": "Eleven",
+                    "es": "Once",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0012.mp3"
+                },
+                {
+                    "en": "Twelve",
+                    "es": "Doce",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0013.mp3"
+                },
+                {
+                    "en": "Thirteen",
+                    "es": "Trece",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0014.mp3"
+                },
+                {
+                    "en": "Fourteen",
+                    "es": "Catorce",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0015.mp3"
+                },
+                {
+                    "en": "Fifteen",
+                    "es": "Quince",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0016.mp3"
+                },
+                {
+                    "en": "Sixteen",
+                    "es": "Dieciséis",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0017.mp3"
+                },
+                {
+                    "en": "Seventeen",
+                    "es": "Diecisiete",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0018.mp3"
+                },
+                {
+                    "en": "Eighteen",
+                    "es": "Dieciocho",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0019.mp3"
+                },
+                {
+                    "en": "Nineteen",
+                    "es": "Diecinueve",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0020.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Numbers 0-20 - Phrases",
+            "words": [
+                {
+                    "en": "How many?",
+                    "es": "¿Cuántos?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0022.mp3"
+                },
+                {
+                    "en": "Is there just one?",
+                    "es": "¿Hay solo uno?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0185.mp3"
+                },
+                {
+                    "en": "Are there two people?",
+                    "es": "¿Hay dos personas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0023.mp3"
+                },
+                {
+                    "en": "Three times.",
+                    "es": "Tres veces",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0025.mp3"
+                },
+                {
+                    "en": "Four days.",
+                    "es": "Cuatro días",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0026.mp3"
+                },
+                {
+                    "en": "Do we have five minutes?",
+                    "es": "¿Tenemos cinco minutos?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0186.mp3"
+                },
+                {
+                    "en": "Six months.",
+                    "es": "Seis meses",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0028.mp3"
+                },
+                {
+                    "en": "Seven years.",
+                    "es": "Siete años",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0029.mp3"
+                },
+                {
+                    "en": "Is it eight o'clock?",
+                    "es": "¿Son las ocho?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0187.mp3"
+                },
+                {
+                    "en": "Nine hours.",
+                    "es": "Nueve horas",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0031.mp3"
+                },
+                {
+                    "en": "Does it cost ten dollars?",
+                    "es": "¿Cuesta diez dólares?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0188.mp3"
+                },
+                {
+                    "en": "Eleven items.",
+                    "es": "Once artículos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0033.mp3"
+                },
+                {
+                    "en": "Twelve months.",
+                    "es": "Doce meses",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0034.mp3"
+                },
+                {
+                    "en": "How old are you?",
+                    "es": "¿Cuántos años tienes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0035.mp3"
+                },
+                {
+                    "en": "Are you 20 years old?",
+                    "es": "¿Tienes 20 años?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0189.mp3"
+                },
+                {
+                    "en": "Can you count to ten?",
+                    "es": "¿Puedes contar hasta diez?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0036.mp3"
+                },
+                {
+                    "en": "Number one.",
+                    "es": "Número uno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0038.mp3"
+                },
+                {
+                    "en": "First time.",
+                    "es": "Primera vez",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0039.mp3"
+                },
+                {
+                    "en": "Add up to twenty.",
+                    "es": "Suma hasta veinte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0040.mp3"
+                },
+                {
+                    "en": "Do we only have fifteen left?",
+                    "es": "¿Solo nos quedan quince?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0190.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers",
+            "words": [
+                {
+                    "en": "Twenty",
+                    "es": "Veinte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0046.mp3"
+                },
+                {
+                    "en": "Thirty",
+                    "es": "Treinta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0047.mp3"
+                },
+                {
+                    "en": "Forty",
+                    "es": "Cuarenta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0048.mp3"
+                },
+                {
+                    "en": "Fifty",
+                    "es": "Cincuenta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0049.mp3"
+                },
+                {
+                    "en": "Sixty",
+                    "es": "Sesenta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0050.mp3"
+                },
+                {
+                    "en": "Seventy",
+                    "es": "Setenta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0051.mp3"
+                },
+                {
+                    "en": "Eighty",
+                    "es": "Ochenta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0052.mp3"
+                },
+                {
+                    "en": "Ninety",
+                    "es": "Noventa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0053.mp3"
+                },
+                {
+                    "en": "Hundred",
+                    "es": "Cien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0054.mp3"
+                },
+                {
+                    "en": "Thousand",
+                    "es": "Mil",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0055.mp3"
+                },
+                {
+                    "en": "Million",
+                    "es": "Millón",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0056.mp3"
+                },
+                {
+                    "en": "Billion",
+                    "es": "Mil millones",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0057.mp3"
+                },
+                {
+                    "en": "Trillion",
+                    "es": "Billón",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0058.mp3"
+                },
+                {
+                    "en": "First",
+                    "es": "Primero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0059.mp3"
+                },
+                {
+                    "en": "Second",
+                    "es": "Segundo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0094.mp3"
+                },
+                {
+                    "en": "Third",
+                    "es": "Tercero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0061.mp3"
+                },
+                {
+                    "en": "Last",
+                    "es": "Último",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0062.mp3"
+                },
+                {
+                    "en": "Half",
+                    "es": "Mitad",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0063.mp3"
+                },
+                {
+                    "en": "Quarter",
+                    "es": "Cuarto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0064.mp3"
+                },
+                {
+                    "en": "Percentage",
+                    "es": "Porcentaje",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0065.mp3"
+                },
+                {
+                    "en": "Fraction",
+                    "es": "Fracción",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0066.mp3"
+                },
+                {
+                    "en": "Plus",
+                    "es": "Más",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0191.mp3"
+                },
+                {
+                    "en": "Minus",
+                    "es": "Menos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0192.mp3"
+                },
+                {
+                    "en": "Equals",
+                    "es": "Igual a",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0193.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers - Phrases",
+            "words": [
+                {
+                    "en": "How much is it?",
+                    "es": "¿Cuánto cuesta?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0067.mp3"
+                },
+                {
+                    "en": "Is it twenty dollars?",
+                    "es": "¿Son veinte dólares?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0194.mp3"
+                },
+                {
+                    "en": "Is it fifty percent?",
+                    "es": "¿Es el cincuenta por ciento?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0195.mp3"
+                },
+                {
+                    "en": "One hundred.",
+                    "es": "Cien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0070.mp3"
+                },
+                {
+                    "en": "One thousand.",
+                    "es": "Mil",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0071.mp3"
+                },
+                {
+                    "en": "Two million.",
+                    "es": "Dos millones",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0072.mp3"
+                },
+                {
+                    "en": "Who is in first place?",
+                    "es": "¿Quién está en primer lugar?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0196.mp3"
+                },
+                {
+                    "en": "Second time.",
+                    "es": "Segunda vez",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0074.mp3"
+                },
+                {
+                    "en": "Is it on the third floor?",
+                    "es": "¿Está en el tercer piso?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0073.mp3"
+                },
+                {
+                    "en": "Is this the last one?",
+                    "es": "¿Es este el último?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0197.mp3"
+                },
+                {
+                    "en": "Is it half price?",
+                    "es": "¿Es a mitad de precio?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0075.mp3"
+                },
+                {
+                    "en": "Quarter past.",
+                    "es": "Y cuarto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0078.mp3"
+                },
+                {
+                    "en": "What number?",
+                    "es": "¿Qué número?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0079.mp3"
+                },
+                {
+                    "en": "Even number.",
+                    "es": "Número par",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0080.mp3"
+                },
+                {
+                    "en": "Odd number.",
+                    "es": "Número impar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0081.mp3"
+                },
+                {
+                    "en": "Round number.",
+                    "es": "Número redondo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0082.mp3"
+                },
+                {
+                    "en": "What is your phone number?",
+                    "es": "¿Cuál es tu número de teléfono?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0198.mp3"
+                },
+                {
+                    "en": "Room number.",
+                    "es": "Número de habitación",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0084.mp3"
+                },
+                {
+                    "en": "Is that a huge amount?",
+                    "es": "¿Es una cantidad enorme?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0083.mp3"
+                },
+                {
+                    "en": "Is it less than half?",
+                    "es": "¿Es menos de la mitad?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0199.mp3"
+                },
+                {
+                    "en": "Is the population nearly three million?",
+                    "es": "¿La población es de casi tres millones?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0085.mp3"
+                },
+                {
+                    "en": "We negotiated a twenty percent discount overall.",
+                    "es": "Negociamos un descuento del veinte por ciento en total",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0088.mp3"
+                },
+                {
+                    "en": "Their budget is just under half a million.",
+                    "es": "Su presupuesto es de poco menos de medio millón",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0089.mp3"
+                },
+                {
+                    "en": "You'll find the office on the twenty-first floor.",
+                    "es": "Encontrarás la oficina en el piso veintiuno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0090.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock",
+            "words": [
+                {
+                    "en": "Time",
+                    "es": "Tiempo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0091.mp3"
+                },
+                {
+                    "en": "Hour",
+                    "es": "Hora",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0092.mp3"
+                },
+                {
+                    "en": "Minute",
+                    "es": "Minuto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0093.mp3"
+                },
+                {
+                    "en": "Second",
+                    "es": "Segundo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0200.mp3"
+                },
+                {
+                    "en": "Clock",
+                    "es": "Reloj",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0095.mp3"
+                },
+                {
+                    "en": "Watch",
+                    "es": "Reloj de pulsera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0096.mp3"
+                },
+                {
+                    "en": "Morning",
+                    "es": "Mañana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0097.mp3"
+                },
+                {
+                    "en": "Afternoon",
+                    "es": "Tarde",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0098.mp3"
+                },
+                {
+                    "en": "Evening",
+                    "es": "Noche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0099.mp3"
+                },
+                {
+                    "en": "Night",
+                    "es": "Noche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0100.mp3"
+                },
+                {
+                    "en": "Midnight",
+                    "es": "Medianoche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0101.mp3"
+                },
+                {
+                    "en": "Noon",
+                    "es": "Mediodía",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0102.mp3"
+                },
+                {
+                    "en": "Early",
+                    "es": "Temprano",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0103.mp3"
+                },
+                {
+                    "en": "Late",
+                    "es": "Tarde",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0104.mp3"
+                },
+                {
+                    "en": "Now",
+                    "es": "Ahora",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0105.mp3"
+                },
+                {
+                    "en": "Later",
+                    "es": "Más tarde",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0106.mp3"
+                },
+                {
+                    "en": "Soon",
+                    "es": "Pronto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0107.mp3"
+                },
+                {
+                    "en": "Already",
+                    "es": "Ya",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0108.mp3"
+                },
+                {
+                    "en": "Weekend",
+                    "es": "Fin de semana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0109.mp3"
+                },
+                {
+                    "en": "Weekday",
+                    "es": "Día de semana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0110.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock - Phrases",
+            "words": [
+                {
+                    "en": "What time is it?",
+                    "es": "¿Qué hora es?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0111.mp3"
+                },
+                {
+                    "en": "Is it 3 o'clock?",
+                    "es": "¿Son las 3 en punto?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0201.mp3"
+                },
+                {
+                    "en": "Half past two.",
+                    "es": "Dos y media",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0113.mp3"
+                },
+                {
+                    "en": "Quarter to four.",
+                    "es": "Cuatro menos cuarto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0114.mp3"
+                },
+                {
+                    "en": "Five thirty.",
+                    "es": "Cinco y media",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0115.mp3"
+                },
+                {
+                    "en": "Is it in the morning?",
+                    "es": "¿Es por la mañana?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0202.mp3"
+                },
+                {
+                    "en": "In the afternoon.",
+                    "es": "Por la tarde",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0117.mp3"
+                },
+                {
+                    "en": "In the evening.",
+                    "es": "Por la noche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0118.mp3"
+                },
+                {
+                    "en": "At night.",
+                    "es": "De noche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0119.mp3"
+                },
+                {
+                    "en": "At midnight.",
+                    "es": "A medianoche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0120.mp3"
+                },
+                {
+                    "en": "At noon.",
+                    "es": "Al mediodía",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0121.mp3"
+                },
+                {
+                    "en": "What time?",
+                    "es": "¿A qué hora?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0122.mp3"
+                },
+                {
+                    "en": "Right now.",
+                    "es": "Ahora mismo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0123.mp3"
+                },
+                {
+                    "en": "Later today.",
+                    "es": "Más tarde hoy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0124.mp3"
+                },
+                {
+                    "en": "See you soon.",
+                    "es": "Hasta pronto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0125.mp3"
+                },
+                {
+                    "en": "Am I early?",
+                    "es": "¿He llegado temprano?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0203.mp3"
+                },
+                {
+                    "en": "Am I late?",
+                    "es": "¿Llego tarde?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0204.mp3"
+                },
+                {
+                    "en": "On time.",
+                    "es": "A tiempo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0128.mp3"
+                },
+                {
+                    "en": "Can you set a reminder for 4 PM?",
+                    "es": "¿Puedes poner un recordatorio para las 4 PM?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0127.mp3"
+                },
+                {
+                    "en": "Can we meet this weekend?",
+                    "es": "¿Podemos vernos este fin de semana?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0205.mp3"
+                },
+                {
+                    "en": "Can we start around quarter past nine?",
+                    "es": "¿Podemos empezar alrededor de las nueve y cuarto?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0131.mp3"
+                },
+                {
+                    "en": "Does the workshop run for forty minutes?",
+                    "es": "¿El taller dura cuarenta minutos?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0130.mp3"
+                },
+                {
+                    "en": "Could we push it back to early evening?",
+                    "es": "¿Podríamos retrasarlo para el principio de la tarde?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0206.mp3"
+                },
+                {
+                    "en": "Can I join after my 2 PM appointment ends?",
+                    "es": "¿Puedo unirme cuando termine mi cita de las 2 PM?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0132.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Time Expressions",
+            "words": [
+                {
+                    "en": "Year",
+                    "es": "Año",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0133.mp3"
+                },
+                {
+                    "en": "Month",
+                    "es": "Mes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0134.mp3"
+                },
+                {
+                    "en": "Week",
+                    "es": "Semana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0135.mp3"
+                },
+                {
+                    "en": "Day",
+                    "es": "Día",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0136.mp3"
+                },
+                {
+                    "en": "Today",
+                    "es": "Hoy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0137.mp3"
+                },
+                {
+                    "en": "Yesterday",
+                    "es": "Ayer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0138.mp3"
+                },
+                {
+                    "en": "Tomorrow",
+                    "es": "Mañana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0139.mp3"
+                },
+                {
+                    "en": "Calendar",
+                    "es": "Calendario",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0140.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Time Expressions - Phrases",
+            "words": [
+                {
+                    "en": "I'm busy today.",
+                    "es": "Estoy ocupado hoy.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0141.mp3"
+                },
+                {
+                    "en": "What are you doing tomorrow?",
+                    "es": "¿Qué haces mañana?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0142.mp3"
+                },
+                {
+                    "en": "I saw him yesterday.",
+                    "es": "Le vi ayer.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0143.mp3"
+                },
+                {
+                    "en": "What day is it today?",
+                    "es": "¿Qué día es hoy?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0144.mp3"
+                },
+                {
+                    "en": "I'll call you next week.",
+                    "es": "Te llamaré la semana que viene.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0145.mp3"
+                },
+                {
+                    "en": "How was your day?",
+                    "es": "¿Qué tal tu día?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0146.mp3"
+                },
+                {
+                    "en": "We're leaving this month.",
+                    "es": "Nos vamos este mes.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0147.mp3"
+                },
+                {
+                    "en": "Did you go there last year?",
+                    "es": "¿Fuiste allí el año pasado?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0148.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Days and Seasons",
+            "words": [
+                {
+                    "en": "Monday",
+                    "es": "Lunes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0149.mp3"
+                },
+                {
+                    "en": "Tuesday",
+                    "es": "Martes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0150.mp3"
+                },
+                {
+                    "en": "Wednesday",
+                    "es": "Miércoles",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0151.mp3"
+                },
+                {
+                    "en": "Thursday",
+                    "es": "Jueves",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0152.mp3"
+                },
+                {
+                    "en": "Friday",
+                    "es": "Viernes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0153.mp3"
+                },
+                {
+                    "en": "Saturday",
+                    "es": "Sábado",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0154.mp3"
+                },
+                {
+                    "en": "Sunday",
+                    "es": "Domingo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0155.mp3"
+                },
+                {
+                    "en": "January",
+                    "es": "Enero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0156.mp3"
+                },
+                {
+                    "en": "February",
+                    "es": "Febrero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0157.mp3"
+                },
+                {
+                    "en": "March",
+                    "es": "Marzo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0158.mp3"
+                },
+                {
+                    "en": "April",
+                    "es": "Abril",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0159.mp3"
+                },
+                {
+                    "en": "May",
+                    "es": "Mayo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0160.mp3"
+                },
+                {
+                    "en": "June",
+                    "es": "Junio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0161.mp3"
+                },
+                {
+                    "en": "July",
+                    "es": "Julio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0162.mp3"
+                },
+                {
+                    "en": "August",
+                    "es": "Agosto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0163.mp3"
+                },
+                {
+                    "en": "September",
+                    "es": "Septiembre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0164.mp3"
+                },
+                {
+                    "en": "October",
+                    "es": "Octubre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0165.mp3"
+                },
+                {
+                    "en": "November",
+                    "es": "Noviembre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0166.mp3"
+                },
+                {
+                    "en": "December",
+                    "es": "Diciembre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0167.mp3"
+                },
+                {
+                    "en": "Spring",
+                    "es": "Primavera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0168.mp3"
+                },
+                {
+                    "en": "Summer",
+                    "es": "Verano",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0169.mp3"
+                },
+                {
+                    "en": "Autumn",
+                    "es": "Otoño",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0170.mp3"
+                },
+                {
+                    "en": "Winter",
+                    "es": "Invierno",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0171.mp3"
+                },
+                {
+                    "en": "Season",
+                    "es": "Estación",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0172.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Days and Seasons - Phrases",
+            "words": [
+                {
+                    "en": "I work on Monday.",
+                    "es": "Trabajo el lunes.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0173.mp3"
+                },
+                {
+                    "en": "What are you doing on Saturday?",
+                    "es": "¿Qué haces el sábado?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0174.mp3"
+                },
+                {
+                    "en": "Friday is my favorite day.",
+                    "es": "El viernes es mi día favorito.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0175.mp3"
+                },
+                {
+                    "en": "Are you free on Sunday?",
+                    "es": "¿Estás libre el domingo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0176.mp3"
+                },
+                {
+                    "en": "My birthday is in March.",
+                    "es": "Mi cumpleaños es en marzo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0177.mp3"
+                },
+                {
+                    "en": "When does summer start?",
+                    "es": "¿Cuándo empieza el verano?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0178.mp3"
+                },
+                {
+                    "en": "I love spring.",
+                    "es": "Me encanta la primavera.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0179.mp3"
+                },
+                {
+                    "en": "Is it cold in winter?",
+                    "es": "¿Hace frío en invierno?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0180.mp3"
+                },
+                {
+                    "en": "We met in January.",
+                    "es": "Nos conocimos en enero.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0181.mp3"
+                },
+                {
+                    "en": "What's your favorite season?",
+                    "es": "¿Cuál es tu estación favorita?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0182.mp3"
+                },
+                {
+                    "en": "December is always busy.",
+                    "es": "Diciembre siempre es ajetreado.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0183.mp3"
+                },
+                {
+                    "en": "Do you like autumn?",
+                    "es": "¿Te gusta el otoño?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/02/es_0184.mp3"
+                }
+            ]
+        }
+    ]
+}

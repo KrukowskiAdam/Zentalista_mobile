@@ -1,0 +1,745 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 07 - Health & Body",
+    "categories": [
+        {
+            "name": "Body Parts",
+            "words": [
+                {
+                    "en": "Head",
+                    "it": "Testa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0001.mp3"
+                },
+                {
+                    "en": "Hair",
+                    "it": "Capelli",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0002.mp3"
+                },
+                {
+                    "en": "Face",
+                    "it": "Volto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0003.mp3"
+                },
+                {
+                    "en": "Eye",
+                    "it": "Occhio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0004.mp3"
+                },
+                {
+                    "en": "Nose",
+                    "it": "Naso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0005.mp3"
+                },
+                {
+                    "en": "Ear",
+                    "it": "Orecchio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0006.mp3"
+                },
+                {
+                    "en": "Mouth",
+                    "it": "Bocca",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0007.mp3"
+                },
+                {
+                    "en": "Tooth",
+                    "it": "Dente",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0008.mp3"
+                },
+                {
+                    "en": "Neck",
+                    "it": "Manico",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0009.mp3"
+                },
+                {
+                    "en": "Shoulder",
+                    "it": "Spalla",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0010.mp3"
+                },
+                {
+                    "en": "Arm",
+                    "it": "Braccio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0011.mp3"
+                },
+                {
+                    "en": "Hand",
+                    "it": "Mano",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0012.mp3"
+                },
+                {
+                    "en": "Finger",
+                    "it": "Dito",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0013.mp3"
+                },
+                {
+                    "en": "Leg",
+                    "it": "Gamba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0014.mp3"
+                },
+                {
+                    "en": "Knee",
+                    "it": "Ginocchio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0015.mp3"
+                },
+                {
+                    "en": "Foot",
+                    "it": "Piede",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0016.mp3"
+                },
+                {
+                    "en": "Back",
+                    "it": "Indietro",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0017.mp3"
+                },
+                {
+                    "en": "Stomach",
+                    "it": "Stomaco",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0018.mp3"
+                },
+                {
+                    "en": "Body",
+                    "it": "Carrozzeria",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0019.mp3"
+                },
+                {
+                    "en": "Skin",
+                    "it": "Pelle",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0020.mp3"
+                },
+                {
+                    "en": "Blood",
+                    "it": "Sangue",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0021.mp3"
+                },
+                {
+                    "en": "Voice",
+                    "it": "Voce",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0022.mp3"
+                },
+                {
+                    "en": "Heart",
+                    "it": "Cuore",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0023.mp3"
+                },
+                {
+                    "en": "Brain",
+                    "it": "Cervello",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0024.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Body Parts - Phrases",
+            "words": [
+                {
+                    "en": "My head hurts.",
+                    "it": "Mi fa male la testa.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0025.mp3"
+                },
+                {
+                    "en": "I cut my hair.",
+                    "it": "Mi sono tagliato i capelli.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0026.mp3"
+                },
+                {
+                    "en": "Wash your face.",
+                    "it": "Lavati il viso.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0027.mp3"
+                },
+                {
+                    "en": "Close your eyes.",
+                    "it": "Chiudi gli occhi.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0028.mp3"
+                },
+                {
+                    "en": "Open your mouth.",
+                    "it": "Apri la bocca.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0029.mp3"
+                },
+                {
+                    "en": "Brush your teeth.",
+                    "it": "Lavati i denti.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0030.mp3"
+                },
+                {
+                    "en": "My neck hurts.",
+                    "it": "Mi fa male il collo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0031.mp3"
+                },
+                {
+                    "en": "Relax your shoulders.",
+                    "it": "Rilassa le spalle.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0032.mp3"
+                },
+                {
+                    "en": "Raise your arms.",
+                    "it": "Alza le braccia.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0033.mp3"
+                },
+                {
+                    "en": "Hold my hand.",
+                    "it": "Tienimi la mano.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0034.mp3"
+                },
+                {
+                    "en": "Cross your legs.",
+                    "it": "Incrocia le gambe.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0035.mp3"
+                },
+                {
+                    "en": "My knee hurts.",
+                    "it": "Mi fa male il ginocchio.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0036.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine",
+            "words": [
+                {
+                    "en": "Health",
+                    "it": "Salute",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0037.mp3"
+                },
+                {
+                    "en": "Doctor",
+                    "it": "Dottore",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0038.mp3"
+                },
+                {
+                    "en": "Hospital",
+                    "it": "Ospedale",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0039.mp3"
+                },
+                {
+                    "en": "Pharmacy",
+                    "it": "Farmacia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0040.mp3"
+                },
+                {
+                    "en": "Medicine",
+                    "it": "Medicina",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0041.mp3"
+                },
+                {
+                    "en": "Pill",
+                    "it": "Pillola",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0042.mp3"
+                },
+                {
+                    "en": "Injection",
+                    "it": "Iniezione",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0043.mp3"
+                },
+                {
+                    "en": "Bandage",
+                    "it": "Benda",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0044.mp3"
+                },
+                {
+                    "en": "Sick",
+                    "it": "Malata",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0045.mp3"
+                },
+                {
+                    "en": "Pain",
+                    "it": "Dolore",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0046.mp3"
+                },
+                {
+                    "en": "Fever",
+                    "it": "Febbre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0047.mp3"
+                },
+                {
+                    "en": "Cold",
+                    "it": "Freddo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0048.mp3"
+                },
+                {
+                    "en": "Cough",
+                    "it": "Tosse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0049.mp3"
+                },
+                {
+                    "en": "Headache",
+                    "it": "Mal di testa",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0050.mp3"
+                },
+                {
+                    "en": "Allergy",
+                    "it": "Allergia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0051.mp3"
+                },
+                {
+                    "en": "Injury",
+                    "it": "Ferita",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0052.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine - Phrases",
+            "words": [
+                {
+                    "en": "How's your health?",
+                    "it": "Come va la tua salute?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0053.mp3"
+                },
+                {
+                    "en": "Where's the hospital?",
+                    "it": "Dov'è l'ospedale?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0054.mp3"
+                },
+                {
+                    "en": "Is there a pharmacy nearby?",
+                    "it": "C'è una farmacia qui vicino?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0055.mp3"
+                },
+                {
+                    "en": "I need medicine.",
+                    "it": "Ho bisogno di medicine.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0056.mp3"
+                },
+                {
+                    "en": "Take this pill.",
+                    "it": "Prendi questa pillola.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0057.mp3"
+                },
+                {
+                    "en": "I need an injection.",
+                    "it": "Ho bisogno di un'iniezione.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0058.mp3"
+                },
+                {
+                    "en": "Put on a bandage.",
+                    "it": "Metti una fasciatura.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0059.mp3"
+                },
+                {
+                    "en": "I'm sick.",
+                    "it": "Sono ammalato.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0060.mp3"
+                },
+                {
+                    "en": "Are you in pain?",
+                    "it": "Hai dolore?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0061.mp3"
+                },
+                {
+                    "en": "I have a fever.",
+                    "it": "Ho la febbre.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0062.mp3"
+                },
+                {
+                    "en": "I have a cold.",
+                    "it": "Ho il raffreddore.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0063.mp3"
+                },
+                {
+                    "en": "I'm coughing.",
+                    "it": "Sto tossendo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0064.mp3"
+                },
+                {
+                    "en": "I have a headache.",
+                    "it": "Ho mal di testa.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0065.mp3"
+                },
+                {
+                    "en": "Do you have allergies?",
+                    "it": "Hai allergie?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0066.mp3"
+                },
+                {
+                    "en": "I'm injured.",
+                    "it": "Sono ferito.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0067.mp3"
+                },
+                {
+                    "en": "It's an emergency!",
+                    "it": "È un'emergenza!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0068.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities",
+            "words": [
+                {
+                    "en": "Exercise",
+                    "it": "Esercizio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0069.mp3"
+                },
+                {
+                    "en": "Sleep",
+                    "it": "Dormi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0070.mp3"
+                },
+                {
+                    "en": "Rest",
+                    "it": "Riposo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0071.mp3"
+                },
+                {
+                    "en": "Diet",
+                    "it": "Dieta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0072.mp3"
+                },
+                {
+                    "en": "Energy",
+                    "it": "Energia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0073.mp3"
+                },
+                {
+                    "en": "Strong",
+                    "it": "Forte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0074.mp3"
+                },
+                {
+                    "en": "Weak",
+                    "it": "Debole",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0075.mp3"
+                },
+                {
+                    "en": "Healthy",
+                    "it": "Salutare",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0076.mp3"
+                },
+                {
+                    "en": "Fit",
+                    "it": "Adatto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0077.mp3"
+                },
+                {
+                    "en": "Walk",
+                    "it": "Cammina",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0078.mp3"
+                },
+                {
+                    "en": "Run",
+                    "it": "Correre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0079.mp3"
+                },
+                {
+                    "en": "Stretch",
+                    "it": "Stretch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0080.mp3"
+                },
+                {
+                    "en": "Breathe",
+                    "it": "Respira",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0081.mp3"
+                },
+                {
+                    "en": "Relax",
+                    "it": "Rilassati",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0082.mp3"
+                },
+                {
+                    "en": "Wellness",
+                    "it": "Benessere",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0083.mp3"
+                },
+                {
+                    "en": "Recovery",
+                    "it": "Recupero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0084.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities - Phrases",
+            "words": [
+                {
+                    "en": "Do you exercise?",
+                    "it": "Fai esercizio?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0085.mp3"
+                },
+                {
+                    "en": "Did you sleep well?",
+                    "it": "Hai dormito bene?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0086.mp3"
+                },
+                {
+                    "en": "Get some rest.",
+                    "it": "Riposa un po'.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0087.mp3"
+                },
+                {
+                    "en": "I'm on a diet.",
+                    "it": "Sono a dieta.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0088.mp3"
+                },
+                {
+                    "en": "Drink more water.",
+                    "it": "Bevi più acqua.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0089.mp3"
+                },
+                {
+                    "en": "I have no energy.",
+                    "it": "Non ho energie.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0090.mp3"
+                },
+                {
+                    "en": "You're strong.",
+                    "it": "Sei forte.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0091.mp3"
+                },
+                {
+                    "en": "I feel weak.",
+                    "it": "Mi sento debole.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0092.mp3"
+                },
+                {
+                    "en": "Stay healthy.",
+                    "it": "Resta in salute.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0093.mp3"
+                },
+                {
+                    "en": "Are you fit?",
+                    "it": "Sei in forma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0094.mp3"
+                },
+                {
+                    "en": "Let's go for a walk.",
+                    "it": "Andiamo a fare una passeggiata.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0095.mp3"
+                },
+                {
+                    "en": "I'm going running.",
+                    "it": "Vado a correre.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0096.mp3"
+                },
+                {
+                    "en": "Let's stretch.",
+                    "it": "Facciamo stretching.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0097.mp3"
+                },
+                {
+                    "en": "Breathe deeply.",
+                    "it": "Respira profondamente.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0098.mp3"
+                },
+                {
+                    "en": "Just relax.",
+                    "it": "Rilassati.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0099.mp3"
+                },
+                {
+                    "en": "I'm so stressed.",
+                    "it": "Sono così stressata.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0100.mp3"
+                },
+                {
+                    "en": "Focus on wellness.",
+                    "it": "Concentrati sul benessere.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0101.mp3"
+                },
+                {
+                    "en": "Full recovery.",
+                    "it": "Recupero completo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0102.mp3"
+                },
+                {
+                    "en": "Let's track our sleep for a week.",
+                    "it": "Registriamo il nostro sonno per una settimana.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0103.mp3"
+                },
+                {
+                    "en": "I'm trying to cut back on sugar.",
+                    "it": "Sto cercando di ridurre lo zucchero.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0104.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies",
+            "words": [
+                {
+                    "en": "Clinic",
+                    "it": "Clinica",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0105.mp3"
+                },
+                {
+                    "en": "Appointment card",
+                    "it": "Scheda di appuntamento",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0106.mp3"
+                },
+                {
+                    "en": "Emergency room",
+                    "it": "Pronto soccorso",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0107.mp3"
+                },
+                {
+                    "en": "Sprain",
+                    "it": "Distorsione",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0108.mp3"
+                },
+                {
+                    "en": "Fracture",
+                    "it": "Frattura",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0109.mp3"
+                },
+                {
+                    "en": "Painkiller",
+                    "it": "Antidolorifico",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0110.mp3"
+                },
+                {
+                    "en": "Thermometer",
+                    "it": "Termometro",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0111.mp3"
+                },
+                {
+                    "en": "Rash",
+                    "it": "Eruzione cutanea",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0112.mp3"
+                },
+                {
+                    "en": "Ambulance",
+                    "it": "Ambulanza",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0113.mp3"
+                },
+                {
+                    "en": "Paramedic",
+                    "it": "Paramedico",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0114.mp3"
+                },
+                {
+                    "en": "Insurance card",
+                    "it": "Tessera sanitaria",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0115.mp3"
+                },
+                {
+                    "en": "Prescription refill",
+                    "it": "Rinnovo della prescrizione",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0116.mp3"
+                },
+                {
+                    "en": "Blood pressure",
+                    "it": "Pressione sanguigna",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0117.mp3"
+                },
+                {
+                    "en": "Breathing",
+                    "it": "Respirazione",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0118.mp3"
+                },
+                {
+                    "en": "Vaccination",
+                    "it": "Vaccinazione",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0119.mp3"
+                },
+                {
+                    "en": "Injury report",
+                    "it": "Rapporto infortuni",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0120.mp3"
+                },
+                {
+                    "en": "Recovery plan",
+                    "it": "Piano di recupero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0121.mp3"
+                },
+                {
+                    "en": "Follow-up visit",
+                    "it": "Visita di follow-up",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0122.mp3"
+                },
+                {
+                    "en": "Triage",
+                    "it": "Triage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0123.mp3"
+                },
+                {
+                    "en": "Stitches",
+                    "it": "Punti",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0124.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies - Phrases",
+            "words": [
+                {
+                    "en": "I need to see a doctor.",
+                    "it": "Devo vedere un dottore.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0125.mp3"
+                },
+                {
+                    "en": "Where is the nearest clinic?",
+                    "it": "Dov'è la clinica più vicina?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0126.mp3"
+                },
+                {
+                    "en": "Please call an ambulance.",
+                    "it": "Per favore, chiamate un'ambulanza.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0127.mp3"
+                },
+                {
+                    "en": "I think I sprained my ankle.",
+                    "it": "Credo di essermi slogato la caviglia.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0128.mp3"
+                },
+                {
+                    "en": "I'm allergic to this medicine.",
+                    "it": "Sono allergico a questa medicina.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0129.mp3"
+                },
+                {
+                    "en": "Can I get a prescription refill?",
+                    "it": "Posso avere una prescrizione per rinnovare?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0130.mp3"
+                },
+                {
+                    "en": "My insurance card is here.",
+                    "it": "La mia tessera assicurativa è qui.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0131.mp3"
+                },
+                {
+                    "en": "Check my blood pressure, please.",
+                    "it": "Controlla la mia pressione, per favore.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0132.mp3"
+                },
+                {
+                    "en": "He is having trouble breathing.",
+                    "it": "Ha difficoltà a respirare.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0133.mp3"
+                },
+                {
+                    "en": "When is the next vaccination?",
+                    "it": "Quando sarà la prossima vaccinazione?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0134.mp3"
+                },
+                {
+                    "en": "Please stay with me until help arrives.",
+                    "it": "Per favore, restate con me finché non arriva aiuto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0135.mp3"
+                },
+                {
+                    "en": "Can you call the emergency number for me?",
+                    "it": "Puoi chiamare il numero di emergenza per me?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0136.mp3"
+                },
+                {
+                    "en": "I need directions to the emergency room.",
+                    "it": "Ho bisogno di indicazioni per il pronto soccorso.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0137.mp3"
+                },
+                {
+                    "en": "Please let my family know where I am.",
+                    "it": "Per favore, fate sapere alla mia famiglia dove mi trovo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0138.mp3"
+                },
+                {
+                    "en": "Is it broken?",
+                    "it": "È rotto?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0139.mp3"
+                },
+                {
+                    "en": "Stay calm.",
+                    "it": "Stai calmo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/it/07/it_0140.mp3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,605 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 08 - Education & Work",
+    "categories": [
+        {
+            "name": "School & Education",
+            "words": [
+                {
+                    "en": "School"
+                },
+                {
+                    "en": "University"
+                },
+                {
+                    "en": "Student"
+                },
+                {
+                    "en": "Teacher"
+                },
+                {
+                    "en": "Professor"
+                },
+                {
+                    "en": "Class"
+                },
+                {
+                    "en": "Lesson"
+                },
+                {
+                    "en": "Homework"
+                },
+                {
+                    "en": "Test"
+                },
+                {
+                    "en": "Exam"
+                },
+                {
+                    "en": "Grade"
+                },
+                {
+                    "en": "Degree"
+                },
+                {
+                    "en": "Study"
+                },
+                {
+                    "en": "Learn"
+                },
+                {
+                    "en": "Teach"
+                },
+                {
+                    "en": "Book"
+                },
+                {
+                    "en": "Notebook"
+                },
+                {
+                    "en": "Library"
+                },
+                {
+                    "en": "Lecture"
+                },
+                {
+                    "en": "Seminar"
+                },
+                {
+                    "en": "Workshop"
+                },
+                {
+                    "en": "Study group"
+                },
+                {
+                    "en": "Syllabus"
+                },
+                {
+                    "en": "Curriculum"
+                },
+                {
+                    "en": "Presentation"
+                },
+                {
+                    "en": "Deadline extension"
+                },
+                {
+                    "en": "Academic advisor"
+                },
+                {
+                    "en": "Scholarship"
+                },
+                {
+                    "en": "Tuition"
+                },
+                {
+                    "en": "Campus"
+                }
+            ]
+        },
+        {
+            "name": "School & Education - Phrases",
+            "words": [
+                {
+                    "en": "Where's your school?"
+                },
+                {
+                    "en": "Do you go to university?"
+                },
+                {
+                    "en": "I'm a student."
+                },
+                {
+                    "en": "Who's your teacher?"
+                },
+                {
+                    "en": "I have a professor."
+                },
+                {
+                    "en": "What class are you in?"
+                },
+                {
+                    "en": "I have a lesson."
+                },
+                {
+                    "en": "Did you do your homework?"
+                },
+                {
+                    "en": "I have a test."
+                },
+                {
+                    "en": "When's the exam?"
+                },
+                {
+                    "en": "What's your grade?"
+                },
+                {
+                    "en": "I got my degree."
+                },
+                {
+                    "en": "I'm studying."
+                },
+                {
+                    "en": "What are you learning?"
+                },
+                {
+                    "en": "Can you teach me?"
+                },
+                {
+                    "en": "I need a book."
+                },
+                {
+                    "en": "Where's your notebook?"
+                },
+                {
+                    "en": "Let's go to the library."
+                },
+                {
+                    "en": "Today's lecture was helpful."
+                },
+                {
+                    "en": "We discussed it in the seminar."
+                },
+                {
+                    "en": "Join our study group."
+                },
+                {
+                    "en": "I need to update my notes."
+                },
+                {
+                    "en": "The syllabus is online."
+                },
+                {
+                    "en": "When is the next exam?"
+                },
+                {
+                    "en": "Can we get a deadline extension?"
+                },
+                {
+                    "en": "Ask the academic advisor."
+                },
+                {
+                    "en": "How much is the tuition?"
+                },
+                {
+                    "en": "Let's meet on campus."
+                },
+                {
+                    "en": "Could you share the slides after class?"
+                },
+                {
+                    "en": "I'm catching up on last week's lecture."
+                },
+                {
+                    "en": "Can we form a study pair for the exam?"
+                },
+                {
+                    "en": "I'll email the professor with our questions."
+                }
+            ]
+        },
+        {
+            "name": "Work & Career",
+            "words": [
+                {
+                    "en": "Work"
+                },
+                {
+                    "en": "Job"
+                },
+                {
+                    "en": "Career"
+                },
+                {
+                    "en": "Office"
+                },
+                {
+                    "en": "Company"
+                },
+                {
+                    "en": "Boss"
+                },
+                {
+                    "en": "Colleague"
+                },
+                {
+                    "en": "Employee"
+                },
+                {
+                    "en": "Salary"
+                },
+                {
+                    "en": "Meeting"
+                },
+                {
+                    "en": "Project"
+                },
+                {
+                    "en": "Task"
+                },
+                {
+                    "en": "Deadline"
+                },
+                {
+                    "en": "Promotion"
+                },
+                {
+                    "en": "Experience"
+                },
+                {
+                    "en": "Skills"
+                },
+                {
+                    "en": "Resume"
+                },
+                {
+                    "en": "Interview"
+                },
+                {
+                    "en": "Coworker"
+                },
+                {
+                    "en": "Supervisor"
+                },
+                {
+                    "en": "Assignment"
+                },
+                {
+                    "en": "Shift"
+                },
+                {
+                    "en": "Overtime"
+                },
+                {
+                    "en": "Meeting agenda"
+                },
+                {
+                    "en": "Meeting minutes"
+                },
+                {
+                    "en": "Training"
+                },
+                {
+                    "en": "Reference"
+                },
+                {
+                    "en": "Contract"
+                },
+                {
+                    "en": "Full-time"
+                },
+                {
+                    "en": "Part-time"
+                },
+                {
+                    "en": "Remote work"
+                },
+                {
+                    "en": "Flex schedule"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career - Phrases",
+            "words": [
+                {
+                    "en": "Where do you work?"
+                },
+                {
+                    "en": "What's your job?"
+                },
+                {
+                    "en": "I love my career."
+                },
+                {
+                    "en": "I'm going to the office."
+                },
+                {
+                    "en": "Which company?"
+                },
+                {
+                    "en": "Who's your boss?"
+                },
+                {
+                    "en": "We're colleagues."
+                },
+                {
+                    "en": "I'm an employee."
+                },
+                {
+                    "en": "What's your salary?"
+                },
+                {
+                    "en": "I have a meeting."
+                },
+                {
+                    "en": "I'm working on a project."
+                },
+                {
+                    "en": "I have many tasks."
+                },
+                {
+                    "en": "What's the deadline?"
+                },
+                {
+                    "en": "I got a promotion!"
+                },
+                {
+                    "en": "Do you have experience?"
+                },
+                {
+                    "en": "What are your skills?"
+                },
+                {
+                    "en": "Send your resume."
+                },
+                {
+                    "en": "I have an interview."
+                },
+                {
+                    "en": "I coordinate with my coworkers."
+                },
+                {
+                    "en": "Could you approve this task?"
+                },
+                {
+                    "en": "The deadline is next week."
+                },
+                {
+                    "en": "Let's review the meeting agenda."
+                },
+                {
+                    "en": "I'll write the minutes."
+                },
+                {
+                    "en": "She received a promotion."
+                },
+                {
+                    "en": "This training builds new skills."
+                },
+                {
+                    "en": "I updated my work experience."
+                },
+                {
+                    "en": "Can you sign the contract?"
+                },
+                {
+                    "en": "We allow flexible schedules."
+                },
+                {
+                    "en": "Let's align on priorities before the meeting."
+                },
+                {
+                    "en": "Can you cover my shift on Friday afternoon?"
+                },
+                {
+                    "en": "I'll send a recap after the call."
+                },
+                {
+                    "en": "Could you loop me in on that thread?"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices",
+            "words": [
+                {
+                    "en": "Computer"
+                },
+                {
+                    "en": "Laptop"
+                },
+                {
+                    "en": "Phone"
+                },
+                {
+                    "en": "Tablet"
+                },
+                {
+                    "en": "Screen"
+                },
+                {
+                    "en": "Keyboard"
+                },
+                {
+                    "en": "Mouse"
+                },
+                {
+                    "en": "Internet"
+                },
+                {
+                    "en": "Wifi"
+                },
+                {
+                    "en": "Email"
+                },
+                {
+                    "en": "Password"
+                },
+                {
+                    "en": "Website"
+                },
+                {
+                    "en": "App"
+                },
+                {
+                    "en": "Software"
+                },
+                {
+                    "en": "Battery"
+                },
+                {
+                    "en": "Charger"
+                },
+                {
+                    "en": "Camera"
+                },
+                {
+                    "en": "Headphones"
+                },
+                {
+                    "en": "Smartphone"
+                },
+                {
+                    "en": "Hotspot"
+                },
+                {
+                    "en": "Cloud storage"
+                },
+                {
+                    "en": "File share"
+                },
+                {
+                    "en": "Screenshot"
+                },
+                {
+                    "en": "Software update"
+                },
+                {
+                    "en": "Download"
+                },
+                {
+                    "en": "Upload"
+                },
+                {
+                    "en": "Notification"
+                },
+                {
+                    "en": "Username"
+                },
+                {
+                    "en": "Two-factor login"
+                },
+                {
+                    "en": "Browser"
+                },
+                {
+                    "en": "Tab"
+                },
+                {
+                    "en": "Bookmark"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a computer?"
+                },
+                {
+                    "en": "I need my laptop."
+                },
+                {
+                    "en": "Where's my phone?"
+                },
+                {
+                    "en": "Can I use your tablet?"
+                },
+                {
+                    "en": "Look at the screen."
+                },
+                {
+                    "en": "I need a keyboard."
+                },
+                {
+                    "en": "Where's the mouse?"
+                },
+                {
+                    "en": "Is there internet?"
+                },
+                {
+                    "en": "What's the wifi password?"
+                },
+                {
+                    "en": "Check your email."
+                },
+                {
+                    "en": "I forgot my password."
+                },
+                {
+                    "en": "Go to the website."
+                },
+                {
+                    "en": "Download the app."
+                },
+                {
+                    "en": "Install the software."
+                },
+                {
+                    "en": "The battery is dead."
+                },
+                {
+                    "en": "I need a charger."
+                },
+                {
+                    "en": "Use the camera."
+                },
+                {
+                    "en": "Where are my headphones?"
+                },
+                {
+                    "en": "My battery life is low."
+                },
+                {
+                    "en": "Can I use your charger?"
+                },
+                {
+                    "en": "The wifi signal is weak."
+                },
+                {
+                    "en": "Turn on the hotspot."
+                },
+                {
+                    "en": "I'll upload it to cloud storage."
+                },
+                {
+                    "en": "Please share the file."
+                },
+                {
+                    "en": "Send me a screenshot."
+                },
+                {
+                    "en": "Did you get the notification?"
+                },
+                {
+                    "en": "I forgot my password."
+                },
+                {
+                    "en": "Open a new browser tab."
+                },
+                {
+                    "en": "Could you mute when you're not speaking?"
+                },
+                {
+                    "en": "Let's test the microphone before we start."
+                },
+                {
+                    "en": "I'll share the link in the chat."
+                },
+                {
+                    "en": "Please back up the file to cloud storage."
+                }
+            ]
+        }
+    ]
+}

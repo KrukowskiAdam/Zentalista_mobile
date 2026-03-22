@@ -1,0 +1,1175 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 08 - Education & Work",
+    "categories": [
+        {
+            "name": "School & Education",
+            "words": [
+                {
+                    "en": "School",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0001.mp3",
+                    "ja": "学校",
+                    "romaji": "Gakkou"
+                },
+                {
+                    "en": "University",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0002.mp3",
+                    "ja": "大学",
+                    "romaji": "Daigaku"
+                },
+                {
+                    "en": "Student",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0003.mp3",
+                    "ja": "学生",
+                    "romaji": "Gakusei"
+                },
+                {
+                    "en": "Teacher",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0004.mp3",
+                    "ja": "先生",
+                    "romaji": "Sensei"
+                },
+                {
+                    "en": "Professor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0005.mp3",
+                    "ja": "教授",
+                    "romaji": "Kyouju"
+                },
+                {
+                    "en": "Class",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0006.mp3",
+                    "ja": "授業",
+                    "romaji": "Jugyou"
+                },
+                {
+                    "en": "Lesson",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0007.mp3",
+                    "ja": "レッスン",
+                    "romaji": "Ressun"
+                },
+                {
+                    "en": "Homework",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0008.mp3",
+                    "ja": "宿題",
+                    "romaji": "Shukudai"
+                },
+                {
+                    "en": "Test",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0009.mp3",
+                    "ja": "テスト",
+                    "romaji": "Tesuto"
+                },
+                {
+                    "en": "Exam",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0010.mp3",
+                    "ja": "試験",
+                    "romaji": "Shiken"
+                },
+                {
+                    "en": "Grade",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0011.mp3",
+                    "ja": "成績",
+                    "romaji": "Seiseki"
+                },
+                {
+                    "en": "Degree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0012.mp3",
+                    "ja": "学位",
+                    "romaji": "Gakui"
+                },
+                {
+                    "en": "Study",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0013.mp3",
+                    "ja": "勉強します",
+                    "romaji": "Benkyou shimasu"
+                },
+                {
+                    "en": "Learn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0014.mp3",
+                    "ja": "学びます",
+                    "romaji": "Manabimasu"
+                },
+                {
+                    "en": "Teach",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0015.mp3",
+                    "ja": "教えます",
+                    "romaji": "Oshiemasu"
+                },
+                {
+                    "en": "Book",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0016.mp3",
+                    "ja": "本",
+                    "romaji": "Hon"
+                },
+                {
+                    "en": "Notebook",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0017.mp3",
+                    "ja": "ノート",
+                    "romaji": "Nooto"
+                },
+                {
+                    "en": "Library",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0018.mp3",
+                    "ja": "図書館",
+                    "romaji": "Toshokan"
+                },
+                {
+                    "en": "Lecture",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0019.mp3",
+                    "ja": "講義",
+                    "romaji": "Kougi"
+                },
+                {
+                    "en": "Seminar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0020.mp3",
+                    "ja": "ゼミ",
+                    "romaji": "Zemi"
+                },
+                {
+                    "en": "Workshop",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0021.mp3",
+                    "ja": "ワークショップ",
+                    "romaji": "Waakushoppu"
+                },
+                {
+                    "en": "Study group",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0022.mp3",
+                    "ja": "勉強会",
+                    "romaji": "Benkyoukai"
+                },
+                {
+                    "en": "Syllabus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0023.mp3",
+                    "ja": "シラバス",
+                    "romaji": "Shirabasu"
+                },
+                {
+                    "en": "Curriculum",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0024.mp3",
+                    "ja": "カリキュラム",
+                    "romaji": "Karikyuramu"
+                },
+                {
+                    "en": "Presentation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0025.mp3",
+                    "ja": "プレゼンテーション",
+                    "romaji": "Purezenteeshon"
+                },
+                {
+                    "en": "Deadline extension",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0026.mp3",
+                    "ja": "締め切りの延長",
+                    "romaji": "Shimekiri no enchou"
+                },
+                {
+                    "en": "Academic advisor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0027.mp3",
+                    "ja": "指導教官",
+                    "romaji": "Shidou kyoukan"
+                },
+                {
+                    "en": "Scholarship",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0028.mp3",
+                    "ja": "奨学金",
+                    "romaji": "Shougakukin"
+                },
+                {
+                    "en": "Tuition",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0029.mp3",
+                    "ja": "授業料",
+                    "romaji": "Jugyouryou"
+                },
+                {
+                    "en": "Campus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0030.mp3",
+                    "ja": "キャンパス",
+                    "romaji": "Kyanpasu"
+                }
+            ]
+        },
+        {
+            "name": "School & Education - Phrases",
+            "words": [
+                {
+                    "en": "Where's your school?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0031.mp3",
+                    "ja": "学校はどこですか？",
+                    "romaji": "Gakkou wa doko desu ka"
+                },
+                {
+                    "en": "Do you go to university?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0032.mp3",
+                    "ja": "大学に行っていますか？",
+                    "romaji": "Daigaku ni itteimasu ka"
+                },
+                {
+                    "en": "I'm a student",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0033.mp3",
+                    "ja": "私は学生です",
+                    "romaji": "Watashi wa gakusei desu"
+                },
+                {
+                    "en": "Who's your teacher?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0034.mp3",
+                    "ja": "先生は誰ですか？",
+                    "romaji": "Sensei wa dare desu ka"
+                },
+                {
+                    "en": "I have a professor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0035.mp3",
+                    "ja": "教授がいます",
+                    "romaji": "Kyouju ga imasu"
+                },
+                {
+                    "en": "What class are you in?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0036.mp3",
+                    "ja": "どのクラスですか？",
+                    "romaji": "Dono kurasu desu ka"
+                },
+                {
+                    "en": "I have a lesson",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0037.mp3",
+                    "ja": "レッスンがあります",
+                    "romaji": "Ressun ga arimasu"
+                },
+                {
+                    "en": "Did you do your homework?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0038.mp3",
+                    "ja": "宿題はやりましたか？",
+                    "romaji": "Shukudai wa yarimashita ka"
+                },
+                {
+                    "en": "I have a test",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0039.mp3",
+                    "ja": "テストがあります",
+                    "romaji": "Tesuto ga arimasu"
+                },
+                {
+                    "en": "When's the exam?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0040.mp3",
+                    "ja": "試験はいつですか？",
+                    "romaji": "Shiken wa itsu desu ka"
+                },
+                {
+                    "en": "What's your grade?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0041.mp3",
+                    "ja": "成績はどうでしたか？",
+                    "romaji": "Seiseki wa dou deshita ka"
+                },
+                {
+                    "en": "I got my degree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0042.mp3",
+                    "ja": "学位を取りました",
+                    "romaji": "Gakui wo torimashita"
+                },
+                {
+                    "en": "I'm studying",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0043.mp3",
+                    "ja": "勉強しています",
+                    "romaji": "Benkyou shiteimasu"
+                },
+                {
+                    "en": "What are you learning?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0044.mp3",
+                    "ja": "何を学んでいますか？",
+                    "romaji": "Nani wo manandeimasu ka"
+                },
+                {
+                    "en": "Can you teach me?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0045.mp3",
+                    "ja": "教えてもらえますか？",
+                    "romaji": "Oshiete moraemasu ka"
+                },
+                {
+                    "en": "I need a book",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0046.mp3",
+                    "ja": "本が必要です",
+                    "romaji": "Hon ga hitsuyou desu"
+                },
+                {
+                    "en": "Where's your notebook?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0047.mp3",
+                    "ja": "ノートはどこですか？",
+                    "romaji": "Nooto wa doko desu ka"
+                },
+                {
+                    "en": "Let's go to the library",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0048.mp3",
+                    "ja": "図書館に行きましょう",
+                    "romaji": "Toshokan ni ikimashou"
+                },
+                {
+                    "en": "Today's lecture was helpful",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0049.mp3",
+                    "ja": "今日の講義は役に立ちました",
+                    "romaji": "Kyou no kougi wa yaku ni tachimashita"
+                },
+                {
+                    "en": "We discussed it in the seminar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0050.mp3",
+                    "ja": "ゼミで議論しました",
+                    "romaji": "Zemi de giron shimashita"
+                },
+                {
+                    "en": "Join our study group",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0051.mp3",
+                    "ja": "勉強会に参加してください",
+                    "romaji": "Benkyoukai ni sanka shite kudasai"
+                },
+                {
+                    "en": "I need to update my notes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0052.mp3",
+                    "ja": "ノートを更新する必要があります",
+                    "romaji": "Nooto wo koushin suru hitsuyou ga arimasu"
+                },
+                {
+                    "en": "The syllabus is online",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0053.mp3",
+                    "ja": "シラバスはオンラインにあります",
+                    "romaji": "Shirabasu wa onrain ni arimasu"
+                },
+                {
+                    "en": "When is the next exam?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0054.mp3",
+                    "ja": "次の試験はいつですか？",
+                    "romaji": "Tsugi no shiken wa itsu desu ka"
+                },
+                {
+                    "en": "Can we get a deadline extension?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0055.mp3",
+                    "ja": "締め切りを延長してもらえますか？",
+                    "romaji": "Shimekiri wo enchou shite moraemasu ka"
+                },
+                {
+                    "en": "Ask the academic advisor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0056.mp3",
+                    "ja": "指導教官に聞いてください",
+                    "romaji": "Shidou kyoukan ni kiite kudasai"
+                },
+                {
+                    "en": "How much is the tuition?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0057.mp3",
+                    "ja": "授業料はいくらですか？",
+                    "romaji": "Jugyouryou wa ikura desu ka"
+                },
+                {
+                    "en": "Let's meet on campus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0058.mp3",
+                    "ja": "キャンパスで会いましょう",
+                    "romaji": "Kyanpasu de aimashou"
+                },
+                {
+                    "en": "Could you share the slides after class?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0059.mp3",
+                    "ja": "授業後にスライドを共有してもらえますか？",
+                    "romaji": "Jugyou go ni suraido wo kyouyuu shite moraemasu ka"
+                },
+                {
+                    "en": "I'm catching up on last week's lecture",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0060.mp3",
+                    "ja": "先週の講義の遅れを取り戻しています",
+                    "romaji": "Senshuu no kougi no okure wo torimodoshiteimasu"
+                },
+                {
+                    "en": "Can we form a study pair for the exam?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0061.mp3",
+                    "ja": "試験のために勉強ペアを組みませんか？",
+                    "romaji": "Shiken no tame ni benkyou pea wo kumimasen ka"
+                },
+                {
+                    "en": "I'll email the professor with our questions",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0062.mp3",
+                    "ja": "質問を教授にメールします",
+                    "romaji": "Shitsumon wo kyouju ni meeru shimasu"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career",
+            "words": [
+                {
+                    "en": "Work",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0063.mp3",
+                    "ja": "仕事",
+                    "romaji": "Shigoto"
+                },
+                {
+                    "en": "Job",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0064.mp3",
+                    "ja": "仕事",
+                    "romaji": "Shigoto"
+                },
+                {
+                    "en": "Career",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0065.mp3",
+                    "ja": "経歴",
+                    "romaji": "Keireki"
+                },
+                {
+                    "en": "Office",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0066.mp3",
+                    "ja": "オフィス",
+                    "romaji": "Ofisu"
+                },
+                {
+                    "en": "Company",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0067.mp3",
+                    "ja": "会社",
+                    "romaji": "Kaisha"
+                },
+                {
+                    "en": "Boss",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0068.mp3",
+                    "ja": "上司",
+                    "romaji": "Joushi"
+                },
+                {
+                    "en": "Colleague",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0069.mp3",
+                    "ja": "同僚",
+                    "romaji": "Douryou"
+                },
+                {
+                    "en": "Employee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0070.mp3",
+                    "ja": "従業員",
+                    "romaji": "Juugyouin"
+                },
+                {
+                    "en": "Salary",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0071.mp3",
+                    "ja": "給料",
+                    "romaji": "Kyuuryou"
+                },
+                {
+                    "en": "Meeting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0072.mp3",
+                    "ja": "会議",
+                    "romaji": "Kaigi"
+                },
+                {
+                    "en": "Project",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0073.mp3",
+                    "ja": "プロジェクト",
+                    "romaji": "Purojekuto"
+                },
+                {
+                    "en": "Task",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0074.mp3",
+                    "ja": "タスク",
+                    "romaji": "Tasuku"
+                },
+                {
+                    "en": "Deadline",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0075.mp3",
+                    "ja": "締め切り",
+                    "romaji": "Shimekiri"
+                },
+                {
+                    "en": "Promotion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0076.mp3",
+                    "ja": "昇進",
+                    "romaji": "Shoushin"
+                },
+                {
+                    "en": "Experience",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0077.mp3",
+                    "ja": "経験",
+                    "romaji": "Keiken"
+                },
+                {
+                    "en": "Skills",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0078.mp3",
+                    "ja": "スキル",
+                    "romaji": "Sukiru"
+                },
+                {
+                    "en": "Resume",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0079.mp3",
+                    "ja": "履歴書",
+                    "romaji": "Rirekisho"
+                },
+                {
+                    "en": "Interview",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0080.mp3",
+                    "ja": "面接",
+                    "romaji": "Mensetsu"
+                },
+                {
+                    "en": "Coworker",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0081.mp3",
+                    "ja": "同僚",
+                    "romaji": "Douryou"
+                },
+                {
+                    "en": "Supervisor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0082.mp3",
+                    "ja": "監督者",
+                    "romaji": "Kantokusha"
+                },
+                {
+                    "en": "Assignment",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0083.mp3",
+                    "ja": "課題",
+                    "romaji": "Kadai"
+                },
+                {
+                    "en": "Shift",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0084.mp3",
+                    "ja": "シフト",
+                    "romaji": "Shifuto"
+                },
+                {
+                    "en": "Overtime",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0085.mp3",
+                    "ja": "残業",
+                    "romaji": "Zangyou"
+                },
+                {
+                    "en": "Meeting agenda",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0086.mp3",
+                    "ja": "会議の議題",
+                    "romaji": "Kaigi no gidai"
+                },
+                {
+                    "en": "Meeting minutes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0087.mp3",
+                    "ja": "議事録",
+                    "romaji": "Gijiroku"
+                },
+                {
+                    "en": "Training",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0088.mp3",
+                    "ja": "研修",
+                    "romaji": "Kenshuu"
+                },
+                {
+                    "en": "Reference",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0089.mp3",
+                    "ja": "推薦",
+                    "romaji": "Suisen"
+                },
+                {
+                    "en": "Contract",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0090.mp3",
+                    "ja": "契約",
+                    "romaji": "Keiyaku"
+                },
+                {
+                    "en": "Full-time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0091.mp3",
+                    "ja": "フルタイム",
+                    "romaji": "Furutaimu"
+                },
+                {
+                    "en": "Part-time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0092.mp3",
+                    "ja": "パートタイム",
+                    "romaji": "Paatotaimu"
+                },
+                {
+                    "en": "Remote work",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0093.mp3",
+                    "ja": "リモートワーク",
+                    "romaji": "Rimooto waaku"
+                },
+                {
+                    "en": "Flex schedule",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0094.mp3",
+                    "ja": "フレックス制",
+                    "romaji": "Furekkusu sei"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career - Phrases",
+            "words": [
+                {
+                    "en": "Where do you work?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0095.mp3",
+                    "ja": "どこで働いていますか？",
+                    "romaji": "Doko de hataraiteimasu ka"
+                },
+                {
+                    "en": "What's your job?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0096.mp3",
+                    "ja": "仕事は何ですか？",
+                    "romaji": "Shigoto wa nan desu ka"
+                },
+                {
+                    "en": "I love my career",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0097.mp3",
+                    "ja": "自分のキャリアが好きです",
+                    "romaji": "Jibun no kyaria ga suki desu"
+                },
+                {
+                    "en": "I'm going to the office",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0098.mp3",
+                    "ja": "オフィスに行きます",
+                    "romaji": "Ofisu ni ikimasu"
+                },
+                {
+                    "en": "Which company?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0099.mp3",
+                    "ja": "どこの会社ですか？",
+                    "romaji": "Doko no kaisha desu ka"
+                },
+                {
+                    "en": "Who's your boss?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0100.mp3",
+                    "ja": "上司は誰ですか？",
+                    "romaji": "Joushi wa dare desu ka"
+                },
+                {
+                    "en": "We're colleagues",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0101.mp3",
+                    "ja": "私たちは同僚です",
+                    "romaji": "Watashitachi wa douryou desu"
+                },
+                {
+                    "en": "I'm an employee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0102.mp3",
+                    "ja": "私は従業員です",
+                    "romaji": "Watashi wa juugyouin desu"
+                },
+                {
+                    "en": "What's your salary?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0103.mp3",
+                    "ja": "給料はいくらですか？",
+                    "romaji": "Kyuuryou wa ikura desu ka"
+                },
+                {
+                    "en": "I have a meeting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0104.mp3",
+                    "ja": "会議があります",
+                    "romaji": "Kaigi ga arimasu"
+                },
+                {
+                    "en": "I'm working on a project",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0105.mp3",
+                    "ja": "プロジェクトに取り組んでいます",
+                    "romaji": "Purojekuto ni torikundeimasu"
+                },
+                {
+                    "en": "I have many tasks",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0106.mp3",
+                    "ja": "タスクがたくさんあります",
+                    "romaji": "Tasuku ga takusan arimasu"
+                },
+                {
+                    "en": "What's the deadline?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0107.mp3",
+                    "ja": "締め切りはいつですか？",
+                    "romaji": "Shimekiri wa itsu desu ka"
+                },
+                {
+                    "en": "I got a promotion!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0108.mp3",
+                    "ja": "昇進しました！",
+                    "romaji": "Shoushin shimashita!"
+                },
+                {
+                    "en": "Do you have experience?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0109.mp3",
+                    "ja": "経験はありますか？",
+                    "romaji": "Keiken wa arimasu ka"
+                },
+                {
+                    "en": "What are your skills?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0110.mp3",
+                    "ja": "スキルは何ですか？",
+                    "romaji": "Sukiru wa nan desu ka"
+                },
+                {
+                    "en": "Send your resume",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0111.mp3",
+                    "ja": "履歴書を送ってください",
+                    "romaji": "Rirekisho wo okutte kudasai"
+                },
+                {
+                    "en": "I have an interview",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0112.mp3",
+                    "ja": "面接があります",
+                    "romaji": "Mensetsu ga arimasu"
+                },
+                {
+                    "en": "I coordinate with my coworkers",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0113.mp3",
+                    "ja": "同僚と調整します",
+                    "romaji": "Douryou to chousei shimasu"
+                },
+                {
+                    "en": "Could you approve this task?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0114.mp3",
+                    "ja": "このタスクを承認してもらえますか？",
+                    "romaji": "Kono tasuku wo shounin shite moraemasu ka"
+                },
+                {
+                    "en": "The deadline is next week",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0115.mp3",
+                    "ja": "締め切りは来週です",
+                    "romaji": "Shimekiri wa raishuu desu"
+                },
+                {
+                    "en": "Let's review the meeting agenda",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0116.mp3",
+                    "ja": "会議の議題を確認しましょう",
+                    "romaji": "Kaigi no gidai wo kakunin shimashou"
+                },
+                {
+                    "en": "I'll write the minutes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0117.mp3",
+                    "ja": "私が議事録を書きます",
+                    "romaji": "Watashi ga gijiroku wo kakimasu"
+                },
+                {
+                    "en": "She received a promotion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0118.mp3",
+                    "ja": "彼女は昇進しました",
+                    "romaji": "Kanojo wa shoushin shimashita"
+                },
+                {
+                    "en": "This training builds new skills",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0119.mp3",
+                    "ja": "この研修で新しいスキルが身につきます",
+                    "romaji": "Kono kenshuu de atarashii sukiru ga minitsukimasu"
+                },
+                {
+                    "en": "I updated my work experience",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0120.mp3",
+                    "ja": "職務経歴を更新しました",
+                    "romaji": "Shokumu keireki wo koushin shimashita"
+                },
+                {
+                    "en": "Can you sign the contract?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0121.mp3",
+                    "ja": "契約書にサインしてもらえますか？",
+                    "romaji": "Keiyakusho ni sain shite moraemasu ka"
+                },
+                {
+                    "en": "We allow flexible schedules",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0122.mp3",
+                    "ja": "フレックス制を導入しています",
+                    "romaji": "Furekkusu sei wo dounyuu shiteimasu"
+                },
+                {
+                    "en": "Let's align on priorities before the meeting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0123.mp3",
+                    "ja": "会議の前に優先順位を合わせましょう",
+                    "romaji": "Kaigi no mae ni yuusen jun'i wo awasemashou"
+                },
+                {
+                    "en": "Can you cover my shift on Friday afternoon?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0124.mp3",
+                    "ja": "金曜日の午後のシフトを代わってもらえますか？",
+                    "romaji": "Kinyoubi no gogo no shifuto wo kawatte moraemasu ka"
+                },
+                {
+                    "en": "I'll send a recap after the call",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0125.mp3",
+                    "ja": "電話の後にまとめを送ります",
+                    "romaji": "Denwa no ato ni matome wo okurimasu"
+                },
+                {
+                    "en": "Could you loop me in on that thread?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0126.mp3",
+                    "ja": "そのスレッドに私を入れてもらえますか？",
+                    "romaji": "Sono sureddo ni watashi wo irete moraemasu ka"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices",
+            "words": [
+                {
+                    "en": "Computer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0127.mp3",
+                    "ja": "コンピュータ",
+                    "romaji": "Konpyuuta"
+                },
+                {
+                    "en": "Laptop",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0128.mp3",
+                    "ja": "ノートパソコン",
+                    "romaji": "Nooto pasokon"
+                },
+                {
+                    "en": "Phone",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0129.mp3",
+                    "ja": "電話",
+                    "romaji": "Denwa"
+                },
+                {
+                    "en": "Tablet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0130.mp3",
+                    "ja": "タブレット",
+                    "romaji": "Taburetto"
+                },
+                {
+                    "en": "Screen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0131.mp3",
+                    "ja": "画面",
+                    "romaji": "Gamen"
+                },
+                {
+                    "en": "Keyboard",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0132.mp3",
+                    "ja": "キーボード",
+                    "romaji": "Kiiboodo"
+                },
+                {
+                    "en": "Mouse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0133.mp3",
+                    "ja": "マウス",
+                    "romaji": "Mausu"
+                },
+                {
+                    "en": "Internet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0134.mp3",
+                    "ja": "インターネット",
+                    "romaji": "Intaanetto"
+                },
+                {
+                    "en": "Wifi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0135.mp3",
+                    "ja": "Wi-Fi",
+                    "romaji": "Waifai"
+                },
+                {
+                    "en": "Email",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0136.mp3",
+                    "ja": "メール",
+                    "romaji": "Meeru"
+                },
+                {
+                    "en": "Password",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0137.mp3",
+                    "ja": "パスワード",
+                    "romaji": "Pasuwaado"
+                },
+                {
+                    "en": "Website",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0138.mp3",
+                    "ja": "ウェブサイト",
+                    "romaji": "Webusaito"
+                },
+                {
+                    "en": "App",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0139.mp3",
+                    "ja": "アプリ",
+                    "romaji": "Apuri"
+                },
+                {
+                    "en": "Software",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0140.mp3",
+                    "ja": "ソフトウェア",
+                    "romaji": "Sofutowea"
+                },
+                {
+                    "en": "Battery",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0141.mp3",
+                    "ja": "バッテリー",
+                    "romaji": "Batterii"
+                },
+                {
+                    "en": "Charger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0142.mp3",
+                    "ja": "充電器",
+                    "romaji": "Juudenki"
+                },
+                {
+                    "en": "Camera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0143.mp3",
+                    "ja": "カメラ",
+                    "romaji": "Kamera"
+                },
+                {
+                    "en": "Headphones",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0144.mp3",
+                    "ja": "ヘッドフォン",
+                    "romaji": "Heddofon"
+                },
+                {
+                    "en": "Smartphone",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0145.mp3",
+                    "ja": "スマートフォン",
+                    "romaji": "Sumaatofon"
+                },
+                {
+                    "en": "Hotspot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0146.mp3",
+                    "ja": "ホットスポット",
+                    "romaji": "Hottosupotto"
+                },
+                {
+                    "en": "Cloud storage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0147.mp3",
+                    "ja": "クラウドストレージ",
+                    "romaji": "Kuraudo sutoreeji"
+                },
+                {
+                    "en": "File share",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0148.mp3",
+                    "ja": "ファイル共有",
+                    "romaji": "Fairu kyouyuu"
+                },
+                {
+                    "en": "Screenshot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0149.mp3",
+                    "ja": "スクリーンショット",
+                    "romaji": "Sukuriinshotto"
+                },
+                {
+                    "en": "Software update",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0150.mp3",
+                    "ja": "ソフトウェア更新",
+                    "romaji": "Sofutowea koushin"
+                },
+                {
+                    "en": "Download",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0151.mp3",
+                    "ja": "ダウンロード",
+                    "romaji": "Daunroodo"
+                },
+                {
+                    "en": "Upload",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0152.mp3",
+                    "ja": "アップロード",
+                    "romaji": "Appuroodo"
+                },
+                {
+                    "en": "Notification",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0153.mp3",
+                    "ja": "通知",
+                    "romaji": "Tsuuchi"
+                },
+                {
+                    "en": "Username",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0154.mp3",
+                    "ja": "ユーザー名",
+                    "romaji": "Yuuzaamei"
+                },
+                {
+                    "en": "Two-factor login",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0155.mp3",
+                    "ja": "二段階認証",
+                    "romaji": "Nidankai ninshou"
+                },
+                {
+                    "en": "Browser",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0156.mp3",
+                    "ja": "ブラウザ",
+                    "romaji": "Burauza"
+                },
+                {
+                    "en": "Tab",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0157.mp3",
+                    "ja": "タブ",
+                    "romaji": "Tabu"
+                },
+                {
+                    "en": "Bookmark",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0158.mp3",
+                    "ja": "ブックマーク",
+                    "romaji": "Bukkumaaku"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a computer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0159.mp3",
+                    "ja": "コンピュータを持っていますか？",
+                    "romaji": "Konpyuuta wo motteimasu ka"
+                },
+                {
+                    "en": "I need my laptop",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0160.mp3",
+                    "ja": "ノートパソコンが必要です",
+                    "romaji": "Nooto pasokon ga hitsuyou desu"
+                },
+                {
+                    "en": "Where's my phone?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0161.mp3",
+                    "ja": "私の電話はどこですか？",
+                    "romaji": "Watashi no denwa wa doko desu ka"
+                },
+                {
+                    "en": "Can I use your tablet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0162.mp3",
+                    "ja": "タブレットを使ってもいいですか？",
+                    "romaji": "Taburetto wo tsukattemo ii desu ka"
+                },
+                {
+                    "en": "Look at the screen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0163.mp3",
+                    "ja": "画面を見てください",
+                    "romaji": "Gamen wo mite kudasai"
+                },
+                {
+                    "en": "I need a keyboard",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0164.mp3",
+                    "ja": "キーボードが必要です",
+                    "romaji": "Kiiboodo ga hitsuyou desu"
+                },
+                {
+                    "en": "Where's the mouse?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0165.mp3",
+                    "ja": "マウスはどこですか？",
+                    "romaji": "Mausu wa doko desu ka"
+                },
+                {
+                    "en": "Is there internet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0166.mp3",
+                    "ja": "インターネットはありますか？",
+                    "romaji": "Intaanetto wa arimasu ka"
+                },
+                {
+                    "en": "What's the wifi password?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0167.mp3",
+                    "ja": "Wi-Fiのパスワードは何ですか？",
+                    "romaji": "Waifai no pasuwaado wa nan desu ka"
+                },
+                {
+                    "en": "Check your email",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0168.mp3",
+                    "ja": "メールを確認してください",
+                    "romaji": "Meeru wo kakunin shite kudasai"
+                },
+                {
+                    "en": "I forgot my password",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0169.mp3",
+                    "ja": "パスワードを忘れました",
+                    "romaji": "Pasuwaado wo wasuremashita"
+                },
+                {
+                    "en": "Go to the website",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0170.mp3",
+                    "ja": "ウェブサイトに行ってください",
+                    "romaji": "Webusaito ni itte kudasai"
+                },
+                {
+                    "en": "Download the app",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0171.mp3",
+                    "ja": "アプリをダウンロードしてください",
+                    "romaji": "Apuri wo daunroodo shite kudasai"
+                },
+                {
+                    "en": "Install the software",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0172.mp3",
+                    "ja": "ソフトウェアをインストールしてください",
+                    "romaji": "Sofutowea wo insutooru shite kudasai"
+                },
+                {
+                    "en": "The battery is dead",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0173.mp3",
+                    "ja": "バッテリーが切れました",
+                    "romaji": "Batterii ga kiremashita"
+                },
+                {
+                    "en": "I need a charger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0174.mp3",
+                    "ja": "充電器が必要です",
+                    "romaji": "Juudenki ga hitsuyou desu"
+                },
+                {
+                    "en": "Use the camera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0175.mp3",
+                    "ja": "カメラを使ってください",
+                    "romaji": "Kamera wo tsukatte kudasai"
+                },
+                {
+                    "en": "Where are my headphones?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0176.mp3",
+                    "ja": "ヘッドフォンはどこですか？",
+                    "romaji": "Heddofon wa doko desu ka"
+                },
+                {
+                    "en": "My battery life is low",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0177.mp3",
+                    "ja": "バッテリー残量が少ないです",
+                    "romaji": "Batterii zanryou ga sukunai desu"
+                },
+                {
+                    "en": "Can I use your charger?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0178.mp3",
+                    "ja": "充電器を使ってもいいですか？",
+                    "romaji": "Juudenki wo tsukattemo ii desu ka"
+                },
+                {
+                    "en": "The wifi signal is weak",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0179.mp3",
+                    "ja": "Wi-Fiの信号が弱いです",
+                    "romaji": "Waifai no shingou ga yowai desu"
+                },
+                {
+                    "en": "Turn on the hotspot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0180.mp3",
+                    "ja": "ホットスポットをオンにしてください",
+                    "romaji": "Hottosupotto wo on ni shite kudasai"
+                },
+                {
+                    "en": "I'll upload it to cloud storage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0181.mp3",
+                    "ja": "クラウドストレージにアップロードします",
+                    "romaji": "Kuraudo sutoreeji ni appuroodo shimasu"
+                },
+                {
+                    "en": "Please share the file",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0182.mp3",
+                    "ja": "ファイルを共有してください",
+                    "romaji": "Fairu wo kyouyuu shite kudasai"
+                },
+                {
+                    "en": "Send me a screenshot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0183.mp3",
+                    "ja": "スクリーンショットを送ってください",
+                    "romaji": "Sukuriinshotto wo okutte kudasai"
+                },
+                {
+                    "en": "Did you get the notification?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0184.mp3",
+                    "ja": "通知は来ましたか？",
+                    "romaji": "Tsuuchi wa kimashita ka"
+                },
+                {
+                    "en": "I forgot my password",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0185.mp3",
+                    "ja": "パスワードを忘れました",
+                    "romaji": "Pasuwaado wo wasuremashita"
+                },
+                {
+                    "en": "Open a new browser tab",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0186.mp3",
+                    "ja": "新しいブラウザタブを開いてください",
+                    "romaji": "Atarashii burauza tabu wo hiraite kudasai"
+                },
+                {
+                    "en": "Could you mute when you're not speaking?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0187.mp3",
+                    "ja": "話していない時はミュートにしてもらえますか？",
+                    "romaji": "Hanashiteinai toki wa myuuto ni shite moraemasu ka"
+                },
+                {
+                    "en": "Let's test the microphone before we start",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0188.mp3",
+                    "ja": "始める前にマイクをテストしましょう",
+                    "romaji": "Hajimeru mae ni maiku wo tesuto shimashou"
+                },
+                {
+                    "en": "I'll share the link in the chat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0189.mp3",
+                    "ja": "チャットでリンクを共有します",
+                    "romaji": "Chatto de rinku wo kyouyuu shimasu"
+                },
+                {
+                    "en": "Please back up the file to cloud storage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0190.mp3",
+                    "ja": "ファイルをクラウドストレージにバックアップしてください",
+                    "romaji": "Fairu wo kuraudo sutoreeji ni bakkuappu shite kudasai"
+                }
+            ]
+        }
+    ]
+}
