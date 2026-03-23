@@ -1,210 +1,210 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #030712;">
+<html lang="en" class="bg-learning-app-design-3">
 <%- include('partials/head') %>
 
-  <body class="m-0 p-0 bg-dark-bg text-gray-200" style="padding-top: 80px;">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+ <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
+ style="display:none;visibility:hidden"></iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
 
-    <%- include('partials/menu') %>
+ <%- include('partials/menu') %>
 
-      <div class="container mx-auto px-4 py-8 max-w-2xl safe-bottom">
-        <div id="profile-page-status" class="hidden"></div>
+ <div class="container mx-auto px-4 py-8 max-w-2xl safe-bottom">
+ <div id="profile-page-status" class="hidden"></div>
 
-        <!-- Loading State -->
-        <div id="profile-loading" class="text-center py-16 space-y-4">
-          <span class="loading loading-spinner loading-lg text-gray-500"></span>
-          <p class="text-sm text-gray-400">Loading your profile settings...</p>
-        </div>
+ <!-- Loading State -->
+ <div id="profile-loading" class="text-center py-16 space-y-4">
+ <span class="loading loading-spinner loading-lg"></span>
+ <p class="text-sm">Loading your profile settings...</p>
+ </div>
 
-        <!-- Login Required -->
-        <div id="login-required" class="hidden">
-          <div class="text-center py-16">
-            <div class="mb-6">
-              <svg class="w-20 h-20 mx-auto text-gray-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-              </svg>
-            </div>
-            <h2 class="text-2xl font-bold text-gray-100 mb-3">Sign in to view your profile</h2>
-            <p class="text-gray-400 mb-6">Manage your account settings and customize your avatar.</p>
-            <label for="modal-login"
-              class="btn touch-target bg-blue-600 hover:bg-blue-700 text-white border-none px-8 cursor-pointer">
-              Sign In
-            </label>
-          </div>
-        </div>
+ <!-- Login Required -->
+ <div id="login-required" class="hidden">
+ <div class="text-center py-16">
+ <div class="mb-6">
+ <svg class="w-20 h-20 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+ stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+ </svg>
+ </div>
+ <h2 class="text-2xl font-bold mb-3">Sign in to view your profile</h2>
+ <p class="mb-6">Manage your account settings and customize your avatar.</p>
+ <label for="modal-login"
+ class="btn touch-target bg-level-learning hover:bg-level-learning px-8 cursor-pointer">
+ Sign In
+ </label>
+ </div>
+ </div>
 
-        <!-- Profile Content -->
-        <div id="profile-content" class="hidden space-y-5 sm:space-y-6">
-          <!-- Header -->
-          <div class="text-center mb-7 sm:mb-8 px-1">
-            <h1 class="text-2xl sm:text-3xl font-bold text-gray-100">Your Profile</h1>
-            <p class="text-gray-400 mt-2">Customize your account</p>
-          </div>
+ <!-- Profile Content -->
+ <div id="profile-content" class="hidden space-y-5 sm:space-y-6">
+ <!-- Header -->
+ <div class="text-center mb-7 sm:mb-8 px-1">
+ <h1 class="text-2xl sm:text-3xl font-bold">Your Profile</h1>
+ <p class="mt-2">Customize your account</p>
+ </div>
 
-          <!-- Avatar Section -->
-          <div class="bg-dark-card rounded-xl p-5 sm:p-6 border border-dark-border">
-            <h2 class="text-xl font-semibold text-gray-100 mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-              </svg>
-              Avatar
-            </h2>
+ <!-- Avatar Section -->
+ <div class="bg-learning-app-design-1 rounded-xl p-5 sm:p-6 shadow-card">
+ <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
+ <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+ stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+ </svg>
+ Avatar
+ </h2>
 
-            <div class="flex flex-col sm:flex-row items-center gap-6">
-              <!-- Current Avatar Preview -->
-              <div class="flex-shrink-0">
-                <div id="avatar-preview"
-                  class="w-32 h-32 rounded-full bg-dark-bg border-4 border-dark-border overflow-hidden">
-                  <img id="current-avatar" src="" alt="Avatar" class="w-full h-full object-cover">
-                </div>
-              </div>
+ <div class="flex flex-col sm:flex-row items-center gap-6">
+ <!-- Current Avatar Preview -->
+ <div class="flex-shrink-0">
+ <div id="avatar-preview"
+ class="w-32 h-32 rounded-full bg-learning-app-design-3 overflow-hidden">
+ <img id="current-avatar" src="" alt="Avatar" class="w-full h-full object-cover">
+ </div>
+ </div>
 
-              <!-- Avatar Controls -->
-              <div class="flex-1 w-full space-y-4">
-                <!-- Style Selector -->
-                <div>
-                  <label class="block text-sm font-medium text-gray-300 mb-2">Avatar Style</label>
-                  <select id="avatar-style"
-                    class="select select-bordered w-full bg-dark-bg border-dark-border text-gray-200">
-                    <option value="adventurer">Adventurer</option>
-                    <option value="adventurer-neutral">Adventurer Neutral</option>
-                    <option value="avataaars">Avataaars</option>
-                    <option value="big-ears">Big Ears</option>
-                    <option value="big-smile">Big Smile</option>
-                    <option value="bottts">Robots</option>
-                    <option value="croodles">Croodles</option>
-                    <option value="fun-emoji">Fun Emoji</option>
-                    <option value="icons">Icons</option>
-                    <option value="identicon">Identicon</option>
-                    <option value="initials">Initials</option>
-                    <option value="lorelei">Lorelei</option>
-                    <option value="micah">Micah</option>
-                    <option value="miniavs">Miniavs</option>
-                    <option value="notionists">Notionists</option>
-                    <option value="open-peeps">Open Peeps</option>
-                    <option value="personas">Personas</option>
-                    <option value="pixel-art">Pixel Art</option>
-                    <option value="shapes">Shapes</option>
-                    <option value="thumbs">Thumbs</option>
-                  </select>
-                </div>
+ <!-- Avatar Controls -->
+ <div class="flex-1 w-full space-y-4">
+ <!-- Style Selector -->
+ <div>
+ <label class="block text-sm font-medium mb-2">Avatar Style</label>
+ <select id="avatar-style"
+ class="select select-bordered w-full bg-learning-app-design-3">
+ <option value="adventurer">Adventurer</option>
+ <option value="adventurer-neutral">Adventurer Neutral</option>
+ <option value="avataaars">Avataaars</option>
+ <option value="big-ears">Big Ears</option>
+ <option value="big-smile">Big Smile</option>
+ <option value="bottts">Robots</option>
+ <option value="croodles">Croodles</option>
+ <option value="fun-emoji">Fun Emoji</option>
+ <option value="icons">Icons</option>
+ <option value="identicon">Identicon</option>
+ <option value="initials">Initials</option>
+ <option value="lorelei">Lorelei</option>
+ <option value="micah">Micah</option>
+ <option value="miniavs">Miniavs</option>
+ <option value="notionists">Notionists</option>
+ <option value="open-peeps">Open Peeps</option>
+ <option value="personas">Personas</option>
+ <option value="pixel-art">Pixel Art</option>
+ <option value="shapes">Shapes</option>
+ <option value="thumbs">Thumbs</option>
+ </select>
+ </div>
 
-                <!-- Generate Button -->
-                <div class="flex gap-2">
-                  <button id="generate-avatar-btn" class="btn btn-outline touch-target flex-1">
-                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
-                    </svg>
-                    Generate Random
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+ <!-- Generate Button -->
+ <div class="flex gap-2">
+ <button id="generate-avatar-btn" class="btn btn touch-target flex-1">
+ <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+ </svg>
+ Generate Random
+ </button>
+ </div>
+ </div>
+ </div>
+ </div>
 
-          <!-- Display Name Section -->
-          <div class="bg-dark-card rounded-xl p-5 sm:p-6 border border-dark-border">
-            <h2 class="text-xl font-semibold text-gray-100 mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
-              </svg>
-              Display Name
-            </h2>
+ <!-- Display Name Section -->
+ <div class="bg-learning-app-design-1 rounded-xl p-5 sm:p-6 shadow-card">
+ <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
+ <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+ stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+ </svg>
+ Display Name
+ </h2>
 
-            <div class="space-y-4">
-              <div>
-                <label class="block text-sm font-medium text-gray-300 mb-2">Your name (visible on leaderboard)</label>
-                <input type="text" id="display-name-input"
-                  class="input input-bordered touch-target w-full bg-dark-bg border-dark-border text-gray-200"
-                  placeholder="Enter your display name" maxlength="20">
-                <p class="text-xs text-gray-500 mt-1">Max 20 characters. Letters, numbers, and spaces only.</p>
-              </div>
-            </div>
-          </div>
+ <div class="space-y-4">
+ <div>
+ <label class="block text-sm font-medium mb-2">Your name (visible on leaderboard)</label>
+ <input type="text" id="display-name-input"
+ class="input input-bordered touch-target w-full bg-learning-app-design-3"
+ placeholder="Enter your display name" maxlength="20">
+ <p class="text-xs mt-1">Max 20 characters. Letters, numbers, and spaces only.</p>
+ </div>
+ </div>
+ </div>
 
-          <!-- Account Info Section -->
-          <div class="bg-dark-card rounded-xl p-5 sm:p-6 border border-dark-border">
-            <h2 class="text-xl font-semibold text-gray-100 mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
-              </svg>
-              Account Info
-            </h2>
+ <!-- Account Info Section -->
+ <div class="bg-learning-app-design-1 rounded-xl p-5 sm:p-6 shadow-card">
+ <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
+ <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+ stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+ </svg>
+ Account Info
+ </h2>
 
-            <div class="space-y-3">
-              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2 border-b border-dark-border">
-                <span class="text-gray-400">Email</span>
-                <span id="user-email" class="text-gray-200 font-medium"></span>
-              </div>
-              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2 border-b border-dark-border">
-                <span class="text-gray-400">Account Type</span>
-                <span id="account-type" class="font-medium"></span>
-              </div>
-              <div id="trial-info-row"
-                class="hidden flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2 border-b border-dark-border">
-                <span class="text-gray-400">Free Trial</span>
-                <span id="trial-status" class="font-medium"></span>
-              </div>
-              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2">
-                <span class="text-gray-400">Member Since</span>
-                <span id="member-since" class="text-gray-200 font-medium"></span>
-              </div>
-            </div>
-          </div>
+ <div class="space-y-3">
+ <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2">
+ <span class="">Email</span>
+ <span id="user-email" class="font-medium"></span>
+ </div>
+ <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2">
+ <span class="">Account Type</span>
+ <span id="account-type" class="font-medium"></span>
+ </div>
+ <div id="trial-info-row"
+ class="hidden flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2">
+ <span class="">Free Trial</span>
+ <span id="trial-status" class="font-medium"></span>
+ </div>
+ <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 py-2">
+ <span class="">Member Since</span>
+ <span id="member-since" class="font-medium"></span>
+ </div>
+ </div>
+ </div>
 
-          <!-- Save Button -->
-          <div class="flex flex-col sm:flex-row gap-3">
-            <button id="save-profile-btn" class="btn touch-target bg-blue-600 hover:bg-blue-700 text-white border-none flex-1">
-              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-              </svg>
-              Save Changes
-            </button>
-            <a href="/learn" class="btn btn-outline touch-target">
-              Back to Learning
-            </a>
-          </div>
+ <!-- Save Button -->
+ <div class="flex flex-col sm:flex-row gap-3">
+ <button id="save-profile-btn" class="btn touch-target bg-level-learning hover:bg-level-learning flex-1">
+ <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+ </svg>
+ Save Changes
+ </button>
+ <a href="/learn" class="btn btn touch-target">
+ Back to Learning
+ </a>
+ </div>
 
-          <!-- Success/Error Messages -->
-          <div id="save-success" class="hidden alert alert-success">
-            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none"
-              viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <span>Profile saved successfully!</span>
-          </div>
-          <div id="save-error" class="hidden alert alert-error">
-            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none"
-              viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <span id="error-message">Error saving profile. Please try again.</span>
-          </div>
-        </div>
-      </div>
+ <!-- Success/Error Messages -->
+ <div id="save-success" class="hidden alert alert-success">
+ <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none"
+ viewBox="0 0 24 24">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+ d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+ </svg>
+ <span>Profile saved successfully!</span>
+ </div>
+ <div id="save-error" class="hidden alert alert-error">
+ <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none"
+ viewBox="0 0 24 24">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+ d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+ </svg>
+ <span id="error-message">Error saving profile. Please try again.</span>
+ </div>
+ </div>
+ </div>
 
-        <!-- Modale -->
-        <%- include('partials/modals') %>
+ <!-- Modale -->
+ <%- include('partials/modals') %>
 
-          <script defer type="module" src="/scripts/auth.js"></script>
-          <script defer type="module" src="/scripts/index.js"></script>
-          <script defer type="module" src="/scripts/services/premiumService.js"></script>
-          <script defer type="module" src="/scripts/services/syncService.js"></script>
-          <script defer type="module" src="/scripts/pages/profile.js"></script>
-  </body>
+ <script defer type="module" src="/scripts/auth.js"></script>
+ <script defer type="module" src="/scripts/index.js"></script>
+ <script defer type="module" src="/scripts/services/premiumService.js"></script>
+ <script defer type="module" src="/scripts/services/syncService.js"></script>
+ <script defer type="module" src="/scripts/pages/profile.js"></script>
+ </body>
 
 </html>

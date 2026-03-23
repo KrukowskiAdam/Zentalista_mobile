@@ -1,141 +1,151 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #030712;">
+<html lang="en">
 <%- include('partials/head') %>
 
-  <body class="m-0 p-0 bg-dark-bg text-gray-200 safe-bottom">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <%- include('partials/menu') %>
+ <body class="m-0 p-0 bg-learning-app-design-2 safe-bottom" data-app-mode="<%= isAppHome ? 'home' : 'learn' %>">
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
+ style="display:none;visibility:hidden"></iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
+ <%- include('partials/menu') %>
 
-      <!-- Mobile sidebar toggle button -->
-      <button id="sidebar-toggle"
-        class="fixed z-40 btn btn-circle touch-target bg-level-expert hover:bg-level-expert-dark text-white shadow-lg lg:hidden"
-        style="right: max(1rem, constant(safe-area-inset-right)); right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, constant(safe-area-inset-bottom)); bottom: max(1rem, env(safe-area-inset-bottom));">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
+ <!-- Mobile sidebar toggle button -->
+ <button id="sidebar-toggle"
+ class="fixed z-40 btn btn-circle touch-target bg-level-expert hover:bg-level-expert-dark shadow-lg lg:hidden <%= isAppHome ? 'hidden' : '' %>"
+ style="right: max(1rem, constant(safe-area-inset-right)); right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, constant(safe-area-inset-bottom)); bottom: max(1rem, env(safe-area-inset-bottom));">
+ <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+ </svg>
+ </button>
 
-      <div id="main-container">
-        <!-- Sidebar with responsive behavior -->
-        <aside id="sidebar"
-          class="pl-0 transition-all duration-300 lg:block bg-dark-bg text-white border border-dark-border rounded-xl">
-          <h2 id="categories"
-            class="text-xl bg-dark-card border-b border-dark-border font-semibold px-4 py-3 text-gray-100">
-            Categories
-          </h2>
-          <div id="slider">
-            <div id="category-sidebar-menu">
-              <!-- Kategorie będą dodawane dynamicznie jako DaisyUI accordions z join -->
-            </div>
-          </div>
-        </aside>
+ <div id="main-container">
+ <!-- Sidebar with responsive behavior -->
+ <aside id="sidebar"
+ class="pl-0 transition-all duration-300 lg:block bg-learning-app-design-3 rounded-xl <%= isAppHome ? 'hidden lg:hidden' : '' %>">
+ <h2 id="categories"
+ class="text-xl bg-learning-app-design-1 font-semibold px-4 py-3">
+ Categories
+ </h2>
+ <div id="slider">
+ <div id="category-sidebar-menu">
+ <!-- Kategorie będą dodawane dynamicznie jako DaisyUI accordions z join -->
+ </div>
+ </div>
+ </aside>
 
-        <div id="main-content" class="">
-          <!-- Content goes here -->
-        </div>
-      </div>
+ <div id="main-content" class="">
+ <!-- Content goes here -->
+ </div>
+ </div>
 
-        <%- include('partials/modals') %>
+ <%- include('partials/modals') %>
 
-          <!-- Skrypty -->
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie_light.min.js" defer></script>
-          <script defer type="module" src="/scripts/auth.js"></script>
-          <script defer type="module" src="/scripts/index.js"></script>
-          <script defer type="module" src="/scripts/main.js"></script>
-          <script>
-            document.addEventListener("DOMContentLoaded", () => {
-              // Inicjuj aplikację po załadowaniu strony
-              if (window.initApp && typeof window.initApp === 'function') {
-                window.initApp();
-              }
+ <!-- Skrypty -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie_light.min.js" defer></script>
+ <script defer type="module" src="/scripts/auth.js"></script>
+ <script defer type="module" src="/scripts/index.js"></script>
+ <script defer type="module" src="/scripts/main.js"></script>
+ <script>
+ document.addEventListener("DOMContentLoaded", () => {
+ const isHomeMode = document.body?.dataset?.appMode === 'home';
 
-              // Setup mobile sidebar toggle
-              const sidebarToggle = document.getElementById('sidebar-toggle');
-              const sidebar = document.getElementById('sidebar');
-              const mainContainer = document.getElementById('main-container');
+ // Inicjuj aplikację po załadowaniu strony
+ if (window.initApp && typeof window.initApp === 'function') {
+ window.initApp();
+ }
 
-              // Hide sidebar by default on mobile
-              if (window.innerWidth < 1024) {
-                sidebar.classList.add('hidden');
-                mainContainer.classList.add('sidebar-hidden');
-              }
+ if (isHomeMode) {
+ return;
+ }
 
-              sidebarToggle.addEventListener('click', () => {
-                sidebar.classList.toggle('hidden');
-                mainContainer.classList.toggle('sidebar-hidden');
-              });
+ // Setup mobile sidebar toggle
+ const sidebarToggle = document.getElementById('sidebar-toggle');
+ const sidebar = document.getElementById('sidebar');
+ const mainContainer = document.getElementById('main-container');
 
-              // Close sidebar when clicking on a category on mobile
-              const categoryItems = document.querySelectorAll('#category-sidebar-menu a');
-              categoryItems.forEach(item => {
-                item.addEventListener('click', () => {
-                  if (window.innerWidth < 1024) {
-                    sidebar.classList.add('hidden');
-                    mainContainer.classList.add('sidebar-hidden');
-                  }
-                });
-              });
+ if (!sidebarToggle || !sidebar || !mainContainer) {
+ return;
+ }
 
-              // Handle window resize
-              window.addEventListener('resize', () => {
-                if (window.innerWidth >= 1024) {
-                  sidebar.classList.remove('hidden');
-                  mainContainer.classList.remove('sidebar-hidden');
-                } else if (!sidebar.classList.contains('hidden')) {
-                  sidebar.classList.add('hidden');
-                  mainContainer.classList.add('sidebar-hidden');
-                }
-              });
-            });
-          </script>
+ // Hide sidebar by default on mobile
+ if (window.innerWidth < 1024) {
+ sidebar.classList.add('hidden');
+ mainContainer.classList.add('sidebar-hidden');
+ }
 
-          <!-- Add necessary styles -->
-          <style>
-            /* Mobile styles */
-            @media (max-width: 1023px) {
-              #main-container {
-                display: flex;
-                flex-direction: column;
-              }
+ sidebarToggle.addEventListener('click', () => {
+ sidebar.classList.toggle('hidden');
+ mainContainer.classList.toggle('sidebar-hidden');
+ });
 
-              #sidebar {
-                position: fixed;
-                left: 0;
-                top: calc(60px + constant(safe-area-inset-top));
-                top: calc(60px + env(safe-area-inset-top, 0px));
-                /* Match fixed header height + status bar safe area */
-                bottom: 0;
-                width: 100%;
-                /* Full-width sidebar on mobile */
-                margin-left: 0px;
-                margin-top: 0px;
-                background: #030712;
-                z-index: 30;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-                overflow-y: auto;
-              }
+ // Close sidebar when clicking on a category on mobile
+ const categoryItems = document.querySelectorAll('#category-sidebar-menu a');
+ categoryItems.forEach(item => {
+ item.addEventListener('click', () => {
+ if (window.innerWidth < 1024) {
+ sidebar.classList.add('hidden');
+ mainContainer.classList.add('sidebar-hidden');
+ }
+ });
+ });
 
-              #main-content {
-                width: 100%;
-                transition: margin-left 0.3s ease;
-              }
+ // Handle window resize
+ window.addEventListener('resize', () => {
+ if (window.innerWidth >= 1024) {
+ sidebar.classList.remove('hidden');
+ mainContainer.classList.remove('sidebar-hidden');
+ } else if (!sidebar.classList.contains('hidden')) {
+ sidebar.classList.add('hidden');
+ mainContainer.classList.add('sidebar-hidden');
+ }
+ });
+ });
+ </script>
 
-              .sidebar-hidden #main-content {
-                margin-left: 0;
-              }
-            }
+ <!-- Add necessary styles -->
+ <style>
+ /* Mobile styles */
+ @media (max-width: 1023px) {
+ #main-container {
+ display: flex;
+ flex-direction: column;
+ }
 
-            /* Desktop styles */
-            @media (min-width: 1024px) {
-              #main-container {
-                display: flex;
-                flex-direction: row;
-              }
-            }
-          </style>
-  </body>
+ #sidebar {
+ position: fixed;
+ left: 0;
+ top: calc(60px + constant(safe-area-inset-top));
+ top: calc(60px + env(safe-area-inset-top, 0px));
+ /* Match fixed header height + status bar safe area */
+ bottom: 0;
+ width: 100%;
+ /* Full-width sidebar on mobile */
+ margin-left: 0px;
+ margin-top: 0px;
+ background: #030712;
+ z-index: 30;
+ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+ overflow-y: auto;
+ }
+
+ #main-content {
+ width: 100%;
+ transition: margin-left 0.3s ease;
+ }
+
+ .sidebar-hidden #main-content {
+ margin-left: 0;
+ }
+ }
+
+ /* Desktop styles */
+ @media (min-width: 1024px) {
+ #main-container {
+ display: flex;
+ flex-direction: row;
+ }
+ }
+ </style>
+ </body>
 
 </html>

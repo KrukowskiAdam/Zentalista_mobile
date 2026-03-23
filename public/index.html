@@ -1,34 +1,41 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zentalist Mobile Shell</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      display: grid;
-      place-items: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 24px;
-    }
-    .card {
-      max-width: 420px;
-      border: 1px solid #334155;
-      border-radius: 12px;
-      padding: 20px;
-      background: #111827;
-    }
-  </style>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Zentalist Mobile Shell</title>
+ <script>
+ // In browser/hosting mode, always route root to the real app entry.
+ if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+ window.location.replace("/home");
+ }
+ </script>
+ <style>
+ body {
+ margin: 0;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+ background: #0f172a;
+	color: var(--app-font-color);
+ display: grid;
+ place-items: center;
+ min-height: 100vh;
+ text-align: center;
+ padding: 24px;
+ }
+ .card {
+ max-width: 420px;
+ : 1px solid #334155;
+ 12px;
+ padding: 20px;
+ background: #111827;
+ }
+ </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Zentalist</h1>
-    <p>Mobile shell is configured. Next step is setting remote app URL in Capacitor.</p>
-  </div>
+ <div class="card">
+ <h1>Zentalist</h1>
+ <p>Mobile shell is configured. Next step is setting remote app URL in Capacitor.</p>
+	<p><a href="/home" style="color: var(--app-font-color);">Open app</a></p>
+ </div>
 </body>
 </html>

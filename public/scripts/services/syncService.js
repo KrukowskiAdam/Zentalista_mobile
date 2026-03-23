@@ -242,6 +242,7 @@ class SyncService {
     if (window.AppState) {
       window.AppState.buttonStates = {};
       window.AppState.repeatCounts = {};
+      window.AppState.categoryCompletionDates = {};
       window.AppState.categoryCompleted = {};
       window.AppState.lastClickedPerCategory = {};
     }

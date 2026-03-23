@@ -167,7 +167,11 @@ class MainApp {
       }
 
       // If app is not initialized yet and we're on /learn page, trigger init
-      if (!this.isAppInitialized && window.location.pathname === "/learn") {
+      if (
+        !this.isAppInitialized &&
+        (window.location.pathname === "/learn" ||
+          window.location.pathname === "/home")
+      ) {
         // console.log('🔍 Triggering app init after auth state change');
         setTimeout(() => this.initApp(), 100);
       }
@@ -229,7 +233,10 @@ mainApp.setupEventListeners();
 
 // Initialize when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
-  if (window.location.pathname === "/learn") {
+  if (
+    window.location.pathname === "/learn" ||
+    window.location.pathname === "/home"
+  ) {
     // Don't init immediately, wait for auth state
     // console.log('🔍 DOM ready, waiting for auth state...');
   }

@@ -1,360 +1,364 @@
 <header id="main-navbar"
-  class="navbar fixed left-0 right-0 top-0 z-50 min-h-[60px] md:min-h-[80px] px-4 md:px-12 lg:px-16 bg-dark-card"
-  style="padding-top: constant(safe-area-inset-top); padding-top: env(safe-area-inset-top, 0px); min-height: calc(60px + constant(safe-area-inset-top)); min-height: calc(60px + env(safe-area-inset-top, 0px));">
-  <div class="flex items-center w-full">
-    <!-- Mobile menu drawer (visible only on mobile) -->
-    <div class="lg:hidden">
-      <label for="menu-drawer" class="btn btn-ghost btn-square text-white touch-target">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </label>
-    </div>
+ class="navbar fixed left-0 right-0 top-0 z-50 min-h-[60px] md:min-h-[80px] px-4 md:px-12 lg:px-16 bg-learning-app-design-4"
+ style="padding-top: constant(safe-area-inset-top); padding-top: env(safe-area-inset-top, 0px); min-height: calc(60px + constant(safe-area-inset-top)); min-height: calc(60px + env(safe-area-inset-top, 0px));">
+ <div class="relative flex items-center w-full">
+ <!-- Mobile menu drawer (visible only on mobile) -->
+ <div class="lg:hidden">
+ <label for="menu-drawer" class="btn btn-ghost btn-square touch-target">
+ <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+ </svg>
+ </label>
+ </div>
 
-    <!-- LEFT SIDE: Logo + Navigation -->
-    <div class="flex items-center">
-      <!-- Logo -->
-      <a href="/" class="logo text-white text-[28px] md:text-[35px] font-bold leading-none mx-auto lg:mx-0">
-        <span class="text-level-expert font-fredoka font-bold  logo-outline-thick">Zentalist</span>
-      </a>
+ <!-- LEFT SIDE: Logo + Navigation -->
+ <div class="flex items-center">
+ <!-- Logo -->
+ <a href="/home" class="logo absolute left-1/2 -translate-x-1/2 text-[28px] md:text-[35px] font-bold leading-none">
+ <span class="font-bold">Zentalist</span>
+ </a>
 
-      <!-- Desktop navigation (hidden on mobile) -->
-      <nav class="hidden lg:flex items-center gap-1 ml-8" aria-label="Primary">
-        <a href="/learn"
-          class="px-4 py-2 text-base text-white bg-level-expert hover:bg-level-expert/80 rounded-lg transition-colors">
-          Learn now
-        </a>
-        <a href="/stats" class="px-3 py-2 text-base text-white hover:text-gray-300 flex items-center">
-          <svg class="w-5 h-5 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="color: #ff8c02;"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-          </svg>
-          My Stats
-        </a>
-        <a href="/challenge" class="px-3 py-2 text-base text-white hover:text-gray-300 flex items-center">
-          <svg class="w-5 h-5 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="color: #ff8c02;"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path
-              d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
-          </svg>
-          Challenge
-        </a>
-        <a href="/leaderboard" class="px-3 py-2 text-base text-white hover:text-gray-300 flex items-center">
-          <img src="/img/svg/01/globe_logo.svg" alt="Globe" class="w-5 h-5 mr-1">
-          Global Leaderboard
-        </a>
-      </nav>
-    </div>
+ <!-- Desktop navigation (hidden on mobile) -->
+ <nav class="hidden lg:flex items-center gap-1 ml-8" aria-label="Primary">
+ <a href="/home" class="px-3 py-2 text-base">
+ Home
+ </a>
+ <a href="/learn"
+ class="px-4 py-2 text-base bg-level-expert hover:bg-level-expert rounded-lg transition-colors">
+ Learn now
+ </a>
+ <a href="/stats" class="px-3 py-2 text-base flex items-center">
+		  <svg class="w-5 h-5 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="color: var(--app-font-color);"
+ stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+ </svg>
+ My Stats
+ </a>
+ <a href="/challenge" class="px-3 py-2 text-base flex items-center">
+		  <svg class="w-5 h-5 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="color: var(--app-font-color);"
+ stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path
+ d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
+ </svg>
+ Challenge
+ </a>
+ <a href="/leaderboard" class="px-3 py-2 text-base flex items-center">
+ <img src="/img/svg/01/globe_logo.svg" alt="Globe" class="w-5 h-5 mr-1">
+ Global Leaderboard
+ </a>
+ </nav>
+ </div>
 
-    <!-- Spacer -->
-    <div class="flex-1"></div>
+ <!-- Spacer -->
+ <div class="flex-1"></div>
 
-    <!-- Premium link (desktop only) - standalone -->
-    <a href="/premium"
-      class="hidden lg:inline-flex items-center justify-center touch-target px-4 py-2 mr-4 text-base text-white bg-level-expert hover:bg-level-expert/80 rounded-lg transition-colors">
-      Premium
-    </a>
+ <!-- Premium link (desktop only) - standalone -->
+ <a href="/premium"
+ class="hidden lg:inline-flex items-center justify-center touch-target px-4 py-2 mr-4 text-base bg-level-expert hover:bg-level-expert rounded-lg transition-colors">
+ Premium
+ </a>
 
-    <!-- RIGHT SIDE: Language + User menu -->
-    <div class="flex items-center gap-2 md:gap-3">
-      <!-- Language selector (desktop only, hidden on mobile/tablet) -->
-      <details class="dropdown dropdown-end">
-        <summary class="flex items-center cursor-pointer px-2 py-1 text-white hover:text-gray-300 gap-1"
-          aria-haspopup="menu" aria-expanded="false">
-          <span id="current-flag"
-            class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-            <!-- Flag will be set by inline script -->
-          </span>
-          <span id="current-lang-code" class="hidden md:inline"></span>
-        </summary>
-        <script>
-          // Immediately set language flag from localStorage to prevent flicker
-          (function () {
-            const langMap = {
-              es: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="32" fill="#c60b1e"/><rect y="11" x="0" height="10" width="32" fill="#ffc400"/></svg>', code: 'ES' },
-              de: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="11" width="32" fill="#000000"/><rect y="11" x="0" height="11" width="32" fill="#dd0000"/><rect y="22" x="0" height="10" width="32" fill="#ffce00"/></svg>', code: 'DE' },
-              fr: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#002395"/><rect y="0" x="11" height="32" width="11" fill="#ffffff"/><rect y="0" x="22" height="32" width="10" fill="#ed2939"/></svg>', code: 'FR' },
-              ru: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="11" width="32" fill="#ffffff"/><rect y="11" x="0" height="11" width="32" fill="#0039a6"/><rect y="22" x="0" height="10" width="32" fill="#d52b1e"/></svg>', code: 'RU' },
-              zh: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#de2910" height="32" width="32" y="0" x="0"/><polygon fill="#ffde00" points="8,6 9.5,10 14,10 10.5,12.5 12,17 8,14 4,17 5.5,12.5 2,10 6.5,10"/></svg>', code: 'ZH' },
-              ja: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#ffffff" height="32" width="32" y="0" x="0"/><circle fill="#bc002d" cx="16" cy="16" r="6"/></svg>', code: 'JA' },
-              ko: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#ffffff" height="32" width="32" y="0" x="0"/><circle fill="none" stroke="#c60c30" stroke-width="2" cx="16" cy="16" r="6"/><path fill="#003478" d="M 16 10 A 6 6 0 0 1 16 22 Z"/><path fill="#c60c30" d="M 16 10 A 6 6 0 0 0 16 22 Z"/></svg>', code: 'KO' },
-              it: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#009246"/><rect y="0" x="11" height="32" width="11" fill="#eeeeee"/><rect y="0" x="22" height="32" width="10" fill="#ce2b36"/></svg>', code: 'IT' }
-            };
-            const lang = localStorage.getItem('selectedLanguage') || 'es';
-            const langData = langMap[lang] || langMap.es;
-            document.getElementById('current-flag').innerHTML = langData.flag;
-            document.getElementById('current-lang-code').textContent = langData.code;
-          })();
-        </script>
-        <ul
-          class="dropdown-content menu p-2 shadow rounded-box w-48 mt-2 bg-dark-card border border-dark-border text-base-content">
-          <li>
-            <a data-language="es" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect y="0" x="0" height="32" width="32" fill="#c60b1e" />
-                  <rect y="11" x="0" height="10" width="32" fill="#ffc400" />
-                </svg>
-              </span>
-              <span>Spanish</span>
-            </a>
-          </li>
-          <li>
-            <a data-language="de" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect y="0" x="0" height="11" width="32" fill="#000000" />
-                  <rect y="11" x="0" height="11" width="32" fill="#dd0000" />
-                  <rect y="22" x="0" height="10" width="32" fill="#ffce00" />
-                </svg>
-              </span>
-              <span>German</span>
-            </a>
-          </li>
-          <li>
-            <a data-language="fr" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect y="0" x="0" height="32" width="11" fill="#002395" />
-                  <rect y="0" x="11" height="32" width="11" fill="#ffffff" />
-                  <rect y="0" x="22" height="32" width="10" fill="#ed2939" />
-                </svg>
-              </span>
-              <span>French</span>
-            </a>
-          </li>
-          <li>
-            <a data-language="ru" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect y="0" x="0" height="11" width="32" fill="#ffffff" />
-                  <rect y="11" x="0" height="11" width="32" fill="#0039a6" />
-                  <rect y="22" x="0" height="10" width="32" fill="#d52b1e" />
-                </svg>
-              </span>
-              <span>Russian</span>
-            </a>
-          </li>
-          <li>
-            <a data-language="zh" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect fill="#de2910" height="32" width="32" y="0" x="0" />
-                  <polygon fill="#ffde00" points="8,6 9.5,10 14,10 10.5,12.5 12,17 8,14 4,17 5.5,12.5 2,10 6.5,10" />
-                </svg>
-              </span>
-              <span>Chinese</span>
-            </a>
-          </li>
-          <li>
-            <a data-language="ja" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect fill="#ffffff" height="32" width="32" y="0" x="0" />
-                  <circle fill="#bc002d" cx="16" cy="16" r="6" />
-                </svg>
-              </span>
-              <span>Japanese</span>
-            </a>
-          </li>
-          <li>
-            <a data-language="ko" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect fill="#ffffff" height="32" width="32" y="0" x="0" />
-                  <circle fill="none" stroke="#c60c30" stroke-width="2" cx="16" cy="16" r="6" />
-                  <path fill="#003478" d="M 16 10 A 6 6 0 0 1 16 22 Z" />
-                  <path fill="#c60c30" d="M 16 10 A 6 6 0 0 0 16 22 Z" />
-                </svg>
-              </span>
-              <span>Korean</span>
-            </a>
-          </li>
-          <li>
-            <a data-language="it" class="flex items-center gap-2">
-              <span
-                class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden border border-gray-300">
-                <svg viewBox="0 0 32 32" class="w-full h-full">
-                  <rect y="0" x="0" height="32" width="11" fill="#009246" />
-                  <rect y="0" x="11" height="32" width="11" fill="#eeeeee" />
-                  <rect y="0" x="22" height="32" width="10" fill="#ce2b36" />
-                </svg>
-              </span>
-              <span>Italian</span>
-            </a>
-          </li>
-        </ul>
-      </details>
+ <!-- RIGHT SIDE: Language + User menu -->
+ <div class="flex items-center gap-2 md:gap-3">
+ <!-- Language selector (desktop only, hidden on mobile/tablet) -->
+ <details class="dropdown dropdown-end">
+ <summary class="flex items-center cursor-pointer px-2 py-1 gap-1"
+ aria-haspopup="menu" aria-expanded="false">
+ <span id="current-flag"
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <!-- Flag will be set by inline script -->
+ </span>
+ <span id="current-lang-code" class="hidden md:inline"></span>
+ </summary>
+ <script>
+ // Immediately set language flag from localStorage to prevent flicker
+ (function () {
+ const langMap = {
+ es: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="32" fill="#c60b1e"/><rect y="11" x="0" height="10" width="32" fill="#ffc400"/></svg>', code: 'ES' },
+ de: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="11" width="32" fill="#000000"/><rect y="11" x="0" height="11" width="32" fill="#dd0000"/><rect y="22" x="0" height="10" width="32" fill="#ffce00"/></svg>', code: 'DE' },
+ fr: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#002395"/><rect y="0" x="11" height="32" width="11" fill="#ffffff"/><rect y="0" x="22" height="32" width="10" fill="#ed2939"/></svg>', code: 'FR' },
+ ru: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="11" width="32" fill="#ffffff"/><rect y="11" x="0" height="11" width="32" fill="#0039a6"/><rect y="22" x="0" height="10" width="32" fill="#d52b1e"/></svg>', code: 'RU' },
+ zh: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#de2910" height="32" width="32" y="0" x="0"/><polygon fill="#ffde00" points="8,6 9.5,10 14,10 10.5,12.5 12,17 8,14 4,17 5.5,12.5 2,10 6.5,10"/></svg>', code: 'ZH' },
+ ja: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#ffffff" height="32" width="32" y="0" x="0"/><circle fill="#bc002d" cx="16" cy="16" r="6"/></svg>', code: 'JA' },
+ ko: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#ffffff" height="32" width="32" y="0" x="0"/><circle fill="none" stroke="#c60c30" stroke-width="2" cx="16" cy="16" r="6"/><path fill="#003478" d="M 16 10 A 6 6 0 0 1 16 22 Z"/><path fill="#c60c30" d="M 16 10 A 6 6 0 0 0 16 22 Z"/></svg>', code: 'KO' },
+ it: { flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#009246"/><rect y="0" x="11" height="32" width="11" fill="#eeeeee"/><rect y="0" x="22" height="32" width="10" fill="#ce2b36"/></svg>', code: 'IT' }
+ };
+ const lang = localStorage.getItem('selectedLanguage') || 'es';
+ const langData = langMap[lang] || langMap.es;
+ document.getElementById('current-flag').innerHTML = langData.flag;
+ document.getElementById('current-lang-code').textContent = langData.code;
+ })();
+ </script>
+ <ul
+ class="dropdown-content menu p-2 shadow rounded-box w-48 mt-2 bg-learning-app-design-1 text-base-content">
+ <li>
+ <a data-language="es" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect y="0" x="0" height="32" width="32" fill="#c60b1e" />
+ <rect y="11" x="0" height="10" width="32" fill="#ffc400" />
+ </svg>
+ </span>
+ <span>Spanish</span>
+ </a>
+ </li>
+ <li>
+ <a data-language="de" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect y="0" x="0" height="11" width="32" fill="#000000" />
+ <rect y="11" x="0" height="11" width="32" fill="#dd0000" />
+ <rect y="22" x="0" height="10" width="32" fill="#ffce00" />
+ </svg>
+ </span>
+ <span>German</span>
+ </a>
+ </li>
+ <li>
+ <a data-language="fr" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect y="0" x="0" height="32" width="11" fill="#002395" />
+ <rect y="0" x="11" height="32" width="11" fill="#ffffff" />
+ <rect y="0" x="22" height="32" width="10" fill="#ed2939" />
+ </svg>
+ </span>
+ <span>French</span>
+ </a>
+ </li>
+ <li>
+ <a data-language="ru" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect y="0" x="0" height="11" width="32" fill="#ffffff" />
+ <rect y="11" x="0" height="11" width="32" fill="#0039a6" />
+ <rect y="22" x="0" height="10" width="32" fill="#d52b1e" />
+ </svg>
+ </span>
+ <span>Russian</span>
+ </a>
+ </li>
+ <li>
+ <a data-language="zh" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect fill="#de2910" height="32" width="32" y="0" x="0" />
+ <polygon fill="#ffde00" points="8,6 9.5,10 14,10 10.5,12.5 12,17 8,14 4,17 5.5,12.5 2,10 6.5,10" />
+ </svg>
+ </span>
+ <span>Chinese</span>
+ </a>
+ </li>
+ <li>
+ <a data-language="ja" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect fill="#ffffff" height="32" width="32" y="0" x="0" />
+ <circle fill="#bc002d" cx="16" cy="16" r="6" />
+ </svg>
+ </span>
+ <span>Japanese</span>
+ </a>
+ </li>
+ <li>
+ <a data-language="ko" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect fill="#ffffff" height="32" width="32" y="0" x="0" />
+ <circle fill="none" stroke="#c60c30" stroke-width="2" cx="16" cy="16" r="6" />
+ <path fill="#003478" d="M 16 10 A 6 6 0 0 1 16 22 Z" />
+ <path fill="#c60c30" d="M 16 10 A 6 6 0 0 0 16 22 Z" />
+ </svg>
+ </span>
+ <span>Korean</span>
+ </a>
+ </li>
+ <li>
+ <a data-language="it" class="flex items-center gap-2">
+ <span
+ class="inline-flex items-center justify-center w-6 h-6 rounded-full overflow-hidden">
+ <svg viewBox="0 0 32 32" class="w-full h-full">
+ <rect y="0" x="0" height="32" width="11" fill="#009246" />
+ <rect y="0" x="11" height="32" width="11" fill="#eeeeee" />
+ <rect y="0" x="22" height="32" width="10" fill="#ce2b36" />
+ </svg>
+ </span>
+ <span>Italian</span>
+ </a>
+ </li>
+ </ul>
+ </details>
 
-      <!-- Hide dropdown on mobile, show on large screens -->
-      <details class="dropdown dropdown-end lg-show-dropdown">
-        <summary class="flex items-center justify-center cursor-pointer w-9 h-9 text-white hover:text-gray-300"
-          aria-haspopup="menu" aria-expanded="false">
-          <!-- Default icon for logged out users -->
-          <svg id="menu-avatar-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 md:w-6 md:h-6" fill="none"
-            viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M5.5 20a8.38 8.38 0 0113 0M12 12a4 4 0 100-8 4 4 0 000 8z" />
-          </svg>
-          <!-- Avatar for logged in users -->
-          <img id="menu-avatar-img" src="" alt="Avatar" class="w-7 h-7 md:w-8 md:h-8 rounded-full hidden" />
-          <script>
-            // Set avatar src immediately from cache
-            if (window.__avatarCache && window.__avatarCache.avatarUrl) {
-              document.getElementById('menu-avatar-img').src = window.__avatarCache.avatarUrl;
-            }
-          </script>
-        </summary>
-        <ul
-          class="dropdown-content menu p-2 shadow rounded-box w-52 mt-2 bg-dark-card border border-dark-border text-base-content">
-          <li class="profile auth-logged-in hidden">
-            <a href="/profile">Profile</a>
-          </li>
-          <li class="auth-logged-in hidden">
-            <button id="logout" type="button" class="justify-start">
-              Log Out
-            </button>
-          </li>
-          <li class="auth-logged-out hidden">
-            <label for="modal-login" class="cursor-pointer active:bg-transparent">Log In</label>
-          </li>
-          <li class="auth-logged-out hidden">
-            <label for="modal-signup" class="cursor-pointer active:bg-transparent">Sign Up</label>
-          </li>
-        </ul>
-      </details>
-    </div>
-  </div>
+ <!-- Hide dropdown on mobile, show on large screens -->
+ <details class="dropdown dropdown-end lg-show-dropdown">
+ <summary class="flex items-center justify-center cursor-pointer w-9 h-9"
+ aria-haspopup="menu" aria-expanded="false">
+ <!-- Default icon for logged out users -->
+ <svg id="menu-avatar-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 md:w-6 md:h-6" fill="none"
+ viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+ d="M5.5 20a8.38 8.38 0 0113 0M12 12a4 4 0 100-8 4 4 0 000 8z" />
+ </svg>
+ <!-- Avatar for logged in users -->
+ <img id="menu-avatar-img" src="" alt="Avatar" class="w-7 h-7 md:w-8 md:h-8 rounded-full hidden" />
+ <script>
+ // Set avatar src immediately from cache
+ if (window.__avatarCache && window.__avatarCache.avatarUrl) {
+ document.getElementById('menu-avatar-img').src = window.__avatarCache.avatarUrl;
+ }
+ </script>
+ </summary>
+ <ul
+ class="dropdown-content menu p-2 shadow rounded-box w-52 mt-2 bg-learning-app-design-1 text-base-content">
+ <li class="profile auth-logged-in hidden">
+ <a href="/profile">Profile</a>
+ </li>
+ <li class="auth-logged-in hidden">
+ <button id="logout" type="button" class="justify-start">
+ Log Out
+ </button>
+ </li>
+ <li class="auth-logged-out hidden">
+ <label for="modal-login" class="cursor-pointer active:bg-transparent">Log In</label>
+ </li>
+ <li class="auth-logged-out hidden">
+ <label for="modal-signup" class="cursor-pointer active:bg-transparent">Sign Up</label>
+ </li>
+ </ul>
+ </details>
+ </div>
+ </div>
 </header>
 
 <!-- Mobile drawer (outside header) -->
 <div class="drawer">
-  <input id="menu-drawer" type="checkbox" class="drawer-toggle" />
-  <div class="drawer-side z-[51]"
-    style="top: calc(60px + constant(safe-area-inset-top)); top: calc(60px + env(safe-area-inset-top, 0px)); height: calc(100vh - (60px + constant(safe-area-inset-top))); height: calc(100dvh - (60px + env(safe-area-inset-top, 0px)));">
-    <label for="menu-drawer" class="drawer-overlay"></label>
-    <ul class="menu p-4 w-64 min-h-full bg-base-200 text-base-content">
-      <li><a href="/learn" class="text-base py-3">Learn now</a></li>
-      <li><a href="/stats" class="text-base py-3">My Stats</a></li>
-      <li><a href="/challenge" class="text-base py-3">Challenge</a></li>
-      <li>
-        <a href="/leaderboard" class="text-base py-3 flex items-center gap-2">
-          <svg class="w-5 h-5 text-level-expert" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
-          </svg>
-          Leaderboard
-        </a>
-      </li>
-      <li class="lg:hidden">
-        <a href="/premium" class="text-base py-3 text-level-expert font-semibold flex items-center gap-2">
-          Premium
-        </a>
-      </li>
+ <input id="menu-drawer" type="checkbox" class="drawer-toggle" />
+ <div class="drawer-side z-[51]"
+ style="top: calc(60px + constant(safe-area-inset-top)); top: calc(60px + env(safe-area-inset-top, 0px)); height: calc(100vh - (60px + constant(safe-area-inset-top))); height: calc(100dvh - (60px + env(safe-area-inset-top, 0px)));">
+ <label for="menu-drawer" class="drawer-overlay"></label>
+ <ul class="menu p-4 w-64 min-h-full bg-base-200 text-base-content">
+ <li><a href="/home" class="text-base py-3">Home</a></li>
+ <li><a href="/learn" class="text-base py-3">Learn now</a></li>
+ <li><a href="/stats" class="text-base py-3">My Stats</a></li>
+ <li><a href="/challenge" class="text-base py-3">Challenge</a></li>
+ <li>
+ <a href="/leaderboard" class="text-base py-3 flex items-center gap-2">
+ <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+ stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
+ </svg>
+ Leaderboard
+ </a>
+ </li>
+ <li class="lg:hidden">
+ <a href="/premium" class="text-base py-3 font-semibold flex items-center gap-2">
+ Premium
+ </a>
+ </li>
 
-      <!-- Language selector (mobile) -->
+ <!-- Language selector (mobile) -->
 
-      <li class="menu-title mt-4 mb-2">
-        <span class="text-lg font-medium">Account</span>
-      </li>
-      <li class="auth-logged-in hidden">
-        <a href="/profile" class="text-base py-3">Profile</a>
-      </li>
-      <li class="auth-logged-in hidden">
-        <button id="logout-mobile" type="button" class="text-base py-3 justify-start">
-          Log Out
-        </button>
-      </li>
-      <li class="auth-logged-out hidden">
-        <label for="modal-login" class="text-base py-3 cursor-pointer">Log In</label>
-      </li>
-      <li class="auth-logged-out hidden">
-        <label for="modal-signup" class="text-base py-3 cursor-pointer">Sign Up</label>
-      </li>
+ <li class="menu-title mt-4 mb-2">
+ <span class="text-lg font-medium">Account</span>
+ </li>
+ <li class="auth-logged-in hidden">
+ <a href="/profile" class="text-base py-3">Profile</a>
+ </li>
+ <li class="auth-logged-in hidden">
+ <button id="logout-mobile" type="button" class="text-base py-3 justify-start">
+ Log Out
+ </button>
+ </li>
+ <li class="auth-logged-out hidden">
+ <label for="modal-login" class="text-base py-3 cursor-pointer">Log In</label>
+ </li>
+ <li class="auth-logged-out hidden">
+ <label for="modal-signup" class="text-base py-3 cursor-pointer">Sign Up</label>
+ </li>
 
-      <li class="menu-title mt-4 mb-2">
-        <span class="text-lg font-medium">Legal</span>
-      </li>
-      <li>
-        <a href="/legals#privacy-policy" class="text-base py-3">Privacy Policy</a>
-      </li>
-      <li>
-        <a href="/legals#terms-of-service" class="text-base py-3">Terms of Service</a>
-      </li>
-      <li>
-        <a href="/legals#cookie-policy" class="text-base py-3">Cookie Policy</a>
-      </li>
-    </ul>
-  </div>
+ <li class="menu-title mt-4 mb-2">
+ <span class="text-lg font-medium">Legal</span>
+ </li>
+ <li>
+ <a href="/legals#privacy-policy" class="text-base py-3">Privacy Policy</a>
+ </li>
+ <li>
+ <a href="/legals#terms-of-service" class="text-base py-3">Terms of Service</a>
+ </li>
+ <li>
+ <a href="/legals#cookie-policy" class="text-base py-3">Cookie Policy</a>
+ </li>
+ </ul>
+ </div>
 </div>
 
 <!-- Cookie Consent Banner -->
-<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-50 bg-dark-card border-t border-dark-border p-4 hidden">
-  <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-    <div class="text-sm text-gray-300 text-center sm:text-left">
-      We use cookies to ensure the website functions properly and to improve your experience.
-      <a href="/legals#cookie-policy" class="text-level-expert hover:underline">Learn more</a>
-    </div>
-    <div class="flex gap-2">
-      <button id="cookie-accept"
-        class="px-4 py-2 bg-level-expert hover:bg-level-expert-dark text-white text-sm font-medium rounded-md">
-        Accept All
-      </button>
-      <button id="cookie-essential"
-        class="px-4 py-2 bg-dark-border hover:bg-gray-600 text-white text-sm font-medium rounded-md">
-        Essential Only
-      </button>
-    </div>
-  </div>
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-50 bg-learning-app-design-1 p-4 hidden">
+ <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+ <div class="text-sm text-center sm:text-left">
+ We use cookies to ensure the website functions properly and to improve your experience.
+ <a href="/legals#cookie-policy" class="hover:underline">Learn more</a>
+ </div>
+ <div class="flex gap-2">
+ <button id="cookie-accept"
+ class="px-4 py-2 bg-level-expert hover:bg-level-expert-dark text-sm font-medium rounded-md">
+ Accept All
+ </button>
+ <button id="cookie-essential"
+ class="px-4 py-2 bg-learning-app-design-4 hover:bg-learning-app-design-2 text-sm font-medium rounded-md">
+ Essential Only
+ </button>
+ </div>
+ </div>
 </div>
 
 <script>
-  // Cookie consent management
-  (function () {
-    const banner = document.getElementById('cookie-banner');
-    const acceptBtn = document.getElementById('cookie-accept');
-    const essentialBtn = document.getElementById('cookie-essential');
+ // Cookie consent management
+ (function () {
+ const banner = document.getElementById('cookie-banner');
+ const acceptBtn = document.getElementById('cookie-accept');
+ const essentialBtn = document.getElementById('cookie-essential');
 
-    // Check if consent already given
-    const consent = localStorage.getItem('cookieConsent');
-    if (!consent) {
-      banner.classList.remove('hidden');
-    }
+ // Check if consent already given
+ const consent = localStorage.getItem('cookieConsent');
+ if (!consent) {
+ banner.classList.remove('hidden');
+ }
 
-    acceptBtn?.addEventListener('click', () => {
-      localStorage.setItem('cookieConsent', 'all');
-      banner.classList.add('hidden');
-    });
+ acceptBtn?.addEventListener('click', () => {
+ localStorage.setItem('cookieConsent', 'all');
+ banner.classList.add('hidden');
+ });
 
-    essentialBtn?.addEventListener('click', () => {
-      localStorage.setItem('cookieConsent', 'essential');
-      banner.classList.add('hidden');
-      // Disable Google Analytics if essential only
-      window['ga-disable-G-XXXXXXX'] = true;
-    });
-  })();
+ essentialBtn?.addEventListener('click', () => {
+ localStorage.setItem('cookieConsent', 'essential');
+ banner.classList.add('hidden');
+ // Disable Google Analytics if essential only
+ window['ga-disable-G-XXXXXXX'] = true;
+ });
+ })();
 </script>
 
 <!-- W sekcji skryptów pliku head.ejs -->
 <script defer src="/scripts/dropdown-handler.js"></script>
 <script>
-  // Navbar border on scroll
-  (function () {
-    const navbar = document.getElementById('main-navbar');
-    window.addEventListener('scroll', function () {
-      if (window.scrollY > 10) {
-        navbar.style.borderBottom = '1px solid #1e2938';
-      } else {
-        navbar.style.borderBottom = 'none';
-      }
-    });
-  })();
+ // Navbar on scroll
+ (function () {
+ const navbar = document.getElementById('main-navbar');
+ window.addEventListener('scroll', function () {
+ if (window.scrollY > 10) {
+ navbar.style.borderBottom = '1px solid #1e2938';
+ } else {
+ navbar.style.borderBottom = 'none';
+ }
+ });
+ })();
 </script>

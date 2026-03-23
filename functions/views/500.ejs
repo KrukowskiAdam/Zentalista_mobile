@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #030712;">
+<html lang="en" class="bg-learning-app-design-3">
 <head>
-  <%- include('partials/head', {
-    title: "Błąd serwera",
-    description: "Wystąpił wewnętrzny błąd serwera"
-  }) %>
+ <%- include('partials/head', {
+ title: "Błąd serwera",
+ description: "Wystąpił wewnętrzny błąd serwera"
+ }) %>
 </head>
-<body class="m-0 p-0 bg-dark-bg text-gray-200">
-  <%- include('partials/menu') %>
+<body class="m-0 p-0 bg-learning-app-design-3">
+ <%- include('partials/menu') %>
 
-  <main >
-    <h1>500 - Błąd serwera</h1>
-    <p>Przepraszamy, wystąpił problem techniczny.</p>
-    <a href="/">Wróć do strony głównej</a>
-  </main>
-  <%- include('partials/modals') %>
+ <main >
+ <h1>500 - Błąd serwera</h1>
+ <p>Przepraszamy, wystąpił problem techniczny.</p>
+ <a href="/">Wróć do strony głównej</a>
+ </main>
+ <%- include('partials/modals') %>
 
-  <script defer type="module" src="/scripts/auth.js"></script>
-  <script defer type="module" src="/scripts/index.js"></script>
+ <script defer type="module" src="/scripts/auth.js"></script>
+ <script defer type="module" src="/scripts/index.js"></script>
 </body>
 </html>

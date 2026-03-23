@@ -9,6 +9,7 @@ class StateService {
     this.cardsData = [];
     this.buttonStates = {};
     this.repeatCounts = {};
+    this.categoryCompletionDates = {};
     this.categoryCompleted = {};
     this.lastCardId = null;
     this.lastButtonKey = null;
@@ -245,6 +246,10 @@ class StateService {
         JSON.stringify(this.repeatCounts || {})
       );
       localStorage.setItem(
+        `categoryCompletionDates_${currentLang}`,
+        JSON.stringify(this.categoryCompletionDates || {})
+      );
+      localStorage.setItem(
         `lastClickedPerCategory_${currentLang}`,
         JSON.stringify(this.lastClickedPerCategory || {})
       );
@@ -272,6 +277,7 @@ class StateService {
         console.warn("⚠️ loadButtonStates: Data belongs to different user, clearing...");
         this.buttonStates = {};
         this.repeatCounts = {};
+        this.categoryCompletionDates = {};
         this.lastClickedPerCategory = {};
         this.categoryCompleted = {};
         return;
@@ -282,6 +288,9 @@ class StateService {
       );
       this.repeatCounts = JSON.parse(
         localStorage.getItem(`repeatCounts_${currentLang}`) || "{}"
+      );
+      this.categoryCompletionDates = JSON.parse(
+        localStorage.getItem(`categoryCompletionDates_${currentLang}`) || "{}"
       );
       this.lastClickedPerCategory = JSON.parse(
         localStorage.getItem(`lastClickedPerCategory_${currentLang}`) || "{}"
@@ -301,6 +310,7 @@ class StateService {
       console.error("Error loading button states:", error);
       this.buttonStates = {};
       this.repeatCounts = {};
+      this.categoryCompletionDates = {};
       this.categoryCompleted = {};
     }
   }
@@ -353,11 +363,20 @@ class StateService {
     const key = `${source}::${category}`;
 
     if (!this.repeatCounts) this.repeatCounts = {};
+    if (!this.categoryCompletionDates) this.categoryCompletionDates = {};
     if (!this.categoryCompleted) this.categoryCompleted = {};
 
     if (allLocked) {
       if (!this.categoryCompleted[key]) {
+        const nowIso = new Date().toISOString();
+        const existingMeta = this.categoryCompletionDates[key] || {};
+
         this.repeatCounts[key] = (this.repeatCounts[key] || 0) + 1;
+        this.categoryCompletionDates[key] = {
+          firstCompletedAt: existingMeta.firstCompletedAt || nowIso,
+          previousCompletedAt: existingMeta.lastCompletedAt || null,
+          lastCompletedAt: nowIso,
+        };
         this.categoryCompleted[key] = true;
         this.saveButtonStates();
 

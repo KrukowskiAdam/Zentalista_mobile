@@ -1,36 +1,58 @@
 const daisyui = require("daisyui");
 
 // ============================================
-// 🎨 THEME SWITCHER - zmień activeTheme na 'one' lub 'two'
+// 🎨 THEME SWITCHER - zmień activeTheme na 'one' | 'two' | 'three'
 // ============================================
-const activeTheme = 'two';
+const activeTheme = 'one';
 
 const themes = {
-  // OPTION ONE - Current dark theme
+  // OPTION ONE - 5 base colors
   one: {
-    "dark-bg": "#030712",           // Main background
-    "dark-card": "#111828",         // Tables/cards background
-    "light-card": "#022873",        // Light mode card background
-    "dark-border": "#1e2938",       // Borders
-    "level-expert": "#ff8c02",      // Orange - logo, buttons
-    "level-expert-progress": "#ff8c02b0",
-    "level-learning": "#0ea5e9",    // Blue
-    "level-mastered": "#02bf33",    // Green
-    "button-disabled": "#acacac",
+    "learning-app-design-1": "#ffffff",
+    "learning-app-design-2": "#f0f0f0",
+    "learning-app-design-3": "#F57835",
+    "learning-app-design-4": "#0F9855",
+    "learning-app-design-5": "#4081EC",
+    "learning-app-design-6": "#D44235",
+    "learning-app-design-7": "#ECAE00",
+
+    // Individual exceptions
+    "level-expert": "#ff8c02",      // Primary CTA accent
+    "level-expert-progress": "#ffbf72",
+    "level-learning": "#0ea5e9",
+    "level-mastered": "#02bf33",
   },
-  
-  // OPTION TWO - New theme (customize here)
+
+  // OPTION TWO - 5 base colors
   two: {
-   "dark-bg": "#030712",           // Main background
-    "dark-card": "#111828",         // Tables/cards background
-    "light-card": "#056CF2",        // Light mode card background
-    "dark-border": "#1e2938",       // Borders
-     "light-border": "#c3c3c3",       // Borders
-    "level-expert": "#ff8c02",      // Orange - logo, buttons
-    "level-expert-progress": "#ff8c02b0",
-    "level-learning": "#0ea5e9",    // Blue
-    "level-mastered": "#02bf33",    // Green
-    "button-disabled": "#acacac",
+    "learning-app-design-1": "#0439D9",
+    "learning-app-design-2": "#011140",
+    "learning-app-design-3": "#5086F2",
+    "learning-app-design-4": "#758EBF",
+    "learning-app-design-5": "#F2F2F2",
+
+
+    // Individual exceptions
+   "level-expert": "#ff8c02",      // Primary CTA accent
+    "level-expert-progress": "#ffbf72",
+    "level-learning": "#0ea5e9",
+    "level-mastered": "#02bf33",
+  },
+
+  // OPTION THREE - 5 base colors
+  three: {
+    "learning-app-design-1": "#F24171",
+    "learning-app-design-2": "#03A65A",
+    "learning-app-design-3": "#F2B705",
+    "learning-app-design-4": "#F29F05",
+    "learning-app-design-5": "#F21905",
+  
+
+    // Individual exceptions
+   "level-expert": "#ff8c02",      // Primary CTA accent
+    "level-expert-progress": "#ffbf72",
+    "level-learning": "#0ea5e9",
+    "level-mastered": "#02bf33",
   },
 };
 
@@ -63,15 +85,4 @@ module.exports = {
     styled: true,
     utils: true,
   },
-  safelist: [
-    "grid-cols-2",
-    "grid-cols-3",
-    "grid-cols-4",
-    "grid-cols-5",
-    "bg-dark-card",
-    "bg-light-card",
-    "bg-level-expert",
-    "bg-level-learning",
-    "bg-level-mastered",
-  ],
 };

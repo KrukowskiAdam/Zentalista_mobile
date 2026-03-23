@@ -95,3 +95,32 @@ Warunek: aplikacja działa w trybie dev i ładuje aktualny widok z lokalnego śr
 2. Zweryfikuj, że sekrety nie są trackowane przez git.
 3. Zrób finalny build i test na fizycznym Samsungu.
 4. Sprawdź logcat pod kątem błędów krytycznych.
+
+
+
+//////
+
+
+To już działa dokładnie tak, jak powinno: workflow poprawnie zatrzymał się, bo oba sekrety są puste.
+
+Masz teraz 1 brakujący krok w GitHub:
+
+Wejdź: Repo → Settings → Secrets and variables → Actions → New repository secret.
+Dodaj jeden z nich:
+GOOGLE_CREDENTIALS: pełny JSON service account jako tekst.
+GOOGLE_CREDENTIALS_B64: base64 z tego JSON.
+Zapisz sekret i uruchom workflow jeszcze raz (Re-run jobs albo nowy push).
+Najczęstsze przyczyny, że są puste:
+
+Sekret dodany w innym repo niż main.yml:1.
+Literówka w nazwie sekretu.
+Sekret dodany jako Environment secret, ale job nie używa tego environment.
+Sekret ustawiony w forku, a workflow biegnie w repo głównym.
+Szybka rekomendacja:
+
+Użyj GOOGLE_CREDENTIALS_B64, bo mniej problemów z formatowaniem.
+Na macOS wygeneruj wartość tak:
+base64 -i service-account.json | tr -d '\n'
+Wynik wklej jako wartość sekretu GOOGLE_CREDENTIALS_B64.
+Po tym kroki z parsowaniem JSON i deploy powinny przejść dalej.
+

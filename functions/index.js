@@ -65,12 +65,20 @@ const pages = [
     customData: { isHome: true },
   },
   {
+    path: "/home",
+    template: "app",
+    title: "Zentalist | Your Learning Home",
+    description:
+      "Jump back into your learning routine, track daily progress and launch your next flashcard session.",
+    customData: { isApp: true, isAppHome: true },
+  },
+  {
     path: "/learn",
     template: "app",
     title: "Zentalist | Start Learning - Free Vocabulary Flashcards",
     description:
       "Learn Spanish, German, French, Japanese, Korean, Chinese, Russian & Italian vocabulary. Free flashcards with audio pronunciation and progress tracking.",
-    customData: { isApp: true },
+    customData: { isApp: true, isAppHome: false },
   },
   {
     path: "/premium",

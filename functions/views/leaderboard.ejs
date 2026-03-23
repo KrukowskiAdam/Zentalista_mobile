@@ -1,638 +1,610 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #030712;">
+<html lang="en" class="bg-learning-app-design-3">
 <%- include('partials/head') %>
 
-  <body class="m-0 p-0 bg-dark-bg text-gray-200" style="padding-top: 80px;">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
-        style="display: none; visibility: hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <%- include('partials/menu') %>
-
-      <style>
-        @media (max-width: 640px) {
-          #leaderboard-content .leaderboard-table {
-            display: block;
-          }
-
-          #leaderboard-content .leaderboard-table thead {
-            display: none;
-          }
-
-          #leaderboard-content .leaderboard-table tbody {
-            display: block;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr {
-            display: grid;
-            grid-template-columns: auto 1fr auto;
-            grid-template-rows: auto auto;
-            border: 1px solid #1f2937;
-            border-radius: 0.75rem;
-            padding: 0.75rem;
-            margin-bottom: 0.75rem;
-            background-color: #0f172a;
-            gap: 0.5rem;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr:last-child {
-            margin-bottom: 0;
-          }
-
-          #leaderboard-content .leaderboard-table tbody th,
-          #leaderboard-content .leaderboard-table tbody td {
-            display: block;
-            width: 100%;
-            padding: 0;
-            text-align: left;
-            white-space: normal;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr>*:nth-child(1) {
-            grid-column: 1;
-            grid-row: 1;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr>*:nth-child(2) {
-            grid-column: 2;
-            grid-row: 1;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr>*:nth-child(3) {
-            grid-column: 3;
-            grid-row: 1;
-            justify-self: end;
-            text-align: right;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr>*:nth-child(4) {
-            grid-column: 1;
-            grid-row: 2;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr>*:nth-child(5) {
-            grid-column: 2;
-            grid-row: 2;
-          }
-
-          #leaderboard-content .leaderboard-table tbody tr>*:nth-child(6) {
-            grid-column: 3;
-            grid-row: 2;
-            justify-self: end;
-            text-align: right;
-          }
-
-          #leaderboard-content .leaderboard-table tbody [data-label]::before {
-            content: attr(data-label);
-            display: block;
-            font-size: 0.65rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            color: #9ca3af;
-            margin-bottom: 0.15rem;
-          }
-
-        }
-      </style>
-
-      <div class="container mx-auto px-4 py-8 pt-12 max-w-6xl">
-        <!-- Header -->
-        <div class="text-center mb-8">
-          <h1 class="text-4xl font-bold text-gray-100 mb-2 flex items-center justify-center gap-3">
-            <img src="/img/svg/01/globe_logo.svg" alt="Globe" class="w-10 h-10">
-            Global Leaderboard
-          </h1>
-          <p class="text-gray-400 py-8 flex items-center justify-center gap-2">
-            <img src="/img/svg/01/rocket-2-svgrepo-com.svg" alt="Rocket" class="w-5 h-5">
-            We launched on Feb 1, 2026 — the leaderboard is fresh! Be one of the first to claim your spot at the top.
-          </p>
-        </div>
-
-        <!-- Leaderboard Table -->
-        <div class="bg-dark-bg border border-dark-border shadow-xl rounded-lg overflow-hidden">
-          <!-- Header Row (Flowbite-style) -->
-          <div class="border-b border-dark-border bg-dark-card flex items-center"
-            style="height: 70px; padding-left: 1rem; padding-right: 1rem;">
-            <div class="flex items-center justify-between">
-              <h2 class="text-2xl text-gray-100 font-bold" id="leaderboard-title">Global Rankings</h2>
-              <button
-                class="px-3 py-1.5 text-sm text-gray-300 hover:text-gray-200 hover:bg-dark-bg rounded-lg transition-colors border border-dark-border"
-                id="refresh-leaderboard">
-                🔄 Refresh
-              </button>
-            </div>
-          </div>
-
-          <!-- Content Area -->
-          <div class="p-6">
-
-            <!-- Loading State -->
-            <div id="loading-state" class="text-center py-12">
-              <span class="loading loading-spinner loading-lg"></span>
-              <p class="mt-4 text-gray-400">Loading rankings...</p>
-            </div>
-
-            <!-- Leaderboard Content -->
-            <div id="leaderboard-content" class="hidden">
-              <!-- Table wrapper -->
-              <div class="relative overflow-hidden bg-dark-card shadow-md sm:rounded-lg border border-dark-border">
-                <div class="overflow-x-auto">
-                  <table class="leaderboard-table w-full text-sm text-left text-gray-400">
-                    <thead class="text-xs text-gray-300 uppercase bg-dark-bg">
-                      <tr>
-                        <th scope="col" class="px-4 py-3 text-center" style="width: 80px">
-                          Rank
-                        </th>
-                        <th scope="col" class="px-4 py-3" style="width: 250px">
-                          Player
-                        </th>
-                        <th scope="col" class="px-4 py-3 text-center" style="width: 100px">
-                          <div class="flex items-center justify-center gap-1">
-                            <span>Level</span>
-                          </div>
-                        </th>
-                        <th scope="col" class="px-4 py-3 text-center" style="width: 120px">
-                          <span class="inline-flex items-center gap-1">Stars <svg class="w-4 h-4 text-yellow-400 inline"
-                              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                              stroke-linecap="round" stroke-linejoin="round">
-                              <path
-                                d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" />
-                            </svg></span>
-                        </th>
-                        <th scope="col" class="px-4 py-3 text-center" style="width: 120px">
-                          <span class="inline-flex items-center gap-1">Challenges <svg
-                              class="w-4 h-4 text-level-expert inline" viewBox="0 0 24 24" fill="none"
-                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                              <path
-                                d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
-                            </svg></span>
-                        </th>
-                        <th scope="col" class="px-4 py-3 text-center" style="width: 140px">
-                          Total Points
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody id="leaderboard-table-body">
-                      <!-- Filled by JS -->
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              <!-- Pagination -->
-              <div class="flex justify-center mt-6 gap-2">
-                <button class="btn btn-sm" id="prev-page">« Previous</button>
-                <span class="flex items-center px-4">Page
-                  <span id="current-page" class="font-bold mx-2">1</span></span>
-                <button class="btn btn-sm" id="next-page">Next »</button>
-              </div>
-            </div>
-
-            <!-- Empty State -->
-            <div id="empty-state" class="hidden text-center py-12">
-              <div class="text-6xl mb-4">📊</div>
-              <h3 class="text-xl font-bold mb-2">No rankings yet</h3>
-              <p class="text-gray-600">
-                Be the first to complete some words and climb the leaderboard!
-              </p>
-            </div>
-
-            <!-- Error State -->
-            <div id="error-state" class="hidden text-center py-12">
-              <div class="text-6xl mb-4">⚠️</div>
-              <h3 class="text-xl font-bold mb-2">Error loading leaderboard</h3>
-              <p class="text-gray-600 mb-4">Please try again later</p>
-              <button class="btn btn-primary" onclick="location.reload()">
-                Retry
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      </div>
-
-      <!-- Point System Explanation (full width with padding) -->
-      <div class="w-full px-4 pb-8">
-        <div class="w-full mt-8 bg-dark-card shadow-md rounded-lg p-6 border border-dark-border">
-          <h2 class="text-xl font-bold mb-4 text-gray-100 flex items-center gap-2">
-            <img src="/img/svg/01/bulb-on-svgrepo-com.svg" alt="Bulb" class="w-6 h-6">
-            How Leaderboard Points Work
-          </h2>
-          <div class="space-y-3 text-sm">
-            <div class="flex items-center gap-3">
-              <div class="px-3 py-1.5 text-sm font-bold bg-level-expert text-white rounded">5</div>
-              <div>
-                <span class="font-semibold text-gray-200">Category Completed:</span>
-                <span class="text-gray-400"> Complete all words in a category (earn a star)</span>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="px-3 py-1.5 text-sm font-bold bg-yellow-500 text-white rounded">+5</div>
-              <div>
-                <span class="font-semibold text-gray-200">Repeat Category:</span>
-                <span class="text-gray-400"> Complete a category again after 24h for extra stars</span>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="px-3 py-1.5 text-sm font-bold bg-level-mastered text-white rounded">50</div>
-              <div>
-                <span class="font-semibold text-gray-200">Perfect first try (100%):</span>
-                <span class="text-green-400 font-bold"> +50 points</span>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="px-3 py-1.5 text-sm font-bold bg-blue-500 text-white rounded">20</div>
-              <div>
-                <span class="font-semibold text-gray-200">Pass first try (90%-99%):</span>
-                <span class="text-gray-400"> +20 points</span>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="px-3 py-1.5 text-sm font-bold bg-cyan-500 text-white rounded">Level</div>
-              <div>
-                <span class="font-semibold text-gray-200">Levels:</span>
-                <span class="text-gray-400"> 100 points = 1 level increase</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!-- End Point System wrapper -->
-
-        <%- include('partials/modals') %>
-
-          <script defer type="module" src="/scripts/auth.js"></script>
-          <script defer type="module" src="/scripts/index.js"></script>
-          <script type="module">
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-            import {
-              getAuth,
-              onAuthStateChanged,
-            } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-            import {
-              getFirestore,
-              collection,
-              getDocs,
-              query,
-              orderBy,
-              limit,
-              doc,
-              setDoc,
-              getDoc,
-            } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
-
-            // Firebase config
-            const firebaseConfig = {
-              apiKey: "AIzaSyA5TmUWOFkanWSVj-GU3SgDiKyD86yDgoQ",
-              authDomain: "costam-3f612.firebaseapp.com",
-              databaseURL: "https://costam-3f612-default-rtdb.firebaseio.com",
-              projectId: "costam-3f612",
-              storageBucket: "costam-3f612.firebasestorage.app",
-              messagingSenderId: "767407380440",
-              appId: "1:767407380440:web:eb4a082d596a7a69c384ad",
-            };
-
-            const app = initializeApp(firebaseConfig);
-            const auth = getAuth(app);
-            const db = getFirestore(app);
-
-            let currentUser = null;
-            let currentPage = 1;
-            const ITEMS_PER_PAGE = 50;
-
-            // Points configuration
-            const POINTS = {
-              CATEGORY_COMPLETION: 5,  // 5 points per category completion (star)
-              CATEGORY_CHALLENGE_PASS: 10,
-              CATEGORY_CHALLENGE_PERFECT: 20,
-              POINTS_PER_LEVEL: 100,
-            };
-
-            // Language configuration with flags
-            const LANGUAGES = {
-              es: { name: "Spanish", flag: "🇪🇸" },
-              de: { name: "German", flag: "🇩🇪" },
-              fr: { name: "French", flag: "🇫🇷" },
-              ru: { name: "Russian", flag: "🇷🇺" },
-              zh: { name: "Chinese", flag: "🇨🇳" },
-              ja: { name: "Japanese", flag: "🇯🇵" },
-              ko: { name: "Korean", flag: "🇰🇷" },
-              it: { name: "Italian", flag: "🇮🇹" },
-            };
-
-            /**
-             * Calculate user statistics from localStorage
-             * CRITICAL: Verify data belongs to current user before using
-             */
-            function calculateUserStats() {
-              const stats = {
-                totalPoints: 0,
-                starPoints: 0,
-                challengePoints: 0,
-                wordsCompleted: 0,
-                starsEarned: 0,
-                challengesCompleted: 0,
-                languageBreakdown: {},
-              };
-
-              // CRITICAL: Verify localStorage data belongs to current user
-              const storedUserId = localStorage.getItem("mc_current_user_id");
-              if (!currentUser || storedUserId !== currentUser.uid) {
-                console.warn("⚠️ localStorage data doesn't belong to current user, returning empty stats");
-                stats.level = 1;
-                stats.levelProgress = "0.0";
-                return stats;
-              }
-
-              Object.keys(LANGUAGES).forEach((lang) => {
-                const buttonStates = JSON.parse(
-                  localStorage.getItem(`buttonStates_${lang}`) || "{}"
-                );
-                const repeatCounts = JSON.parse(
-                  localStorage.getItem(`repeatCounts_${lang}`) || "{}"
-                );
-                const completionMap = JSON.parse(
-                  localStorage.getItem(`categoryCompletionDates_${lang}`) || "{}"
-                );
-
-                // Count completed words (for display, not points)
-                let langWordsCompleted = 0;
-                Object.values(buttonStates).forEach((state) => {
-                  if (state.locked) {
-                    langWordsCompleted++;
-                  }
-                });
-
-                // Count stars (category completions) - 5 points each
-                const langStars = Object.values(repeatCounts).reduce(
-                  (sum, count) => sum + (count || 0), 0
-                );
-                const langStarPoints = langStars * POINTS.CATEGORY_COMPLETION;
-
-                // Count challenge bonus points
-                const completionEntries = Object.values(completionMap).filter(
-                  (entry) => entry && typeof entry === "object" && "totalBonusPoints" in entry
-                );
-                const langChallengesCompleted = completionEntries.length;
-                const langChallengePoints = completionEntries.reduce(
-                  (sum, entry) => sum + (entry.totalBonusPoints || entry.bonusPoints || 0),
-                  0
-                );
-
-                const langTotalPoints = langStarPoints + langChallengePoints;
-
-                stats.wordsCompleted += langWordsCompleted;
-                stats.starsEarned += langStars;
-                stats.challengesCompleted += langChallengesCompleted;
-                stats.starPoints += langStarPoints;
-                stats.challengePoints += langChallengePoints;
-                stats.languageBreakdown[lang] = {
-                  words: langWordsCompleted,
-                  stars: langStars,
-                  challenges: langChallengesCompleted,
-                  points: langTotalPoints,
-                };
-              });
-
-              stats.totalPoints = stats.starPoints + stats.challengePoints;
-              stats.level =
-                Math.floor(stats.totalPoints / POINTS.POINTS_PER_LEVEL) + 1;
-              stats.levelProgress = (
-                ((stats.totalPoints % POINTS.POINTS_PER_LEVEL) /
-                  POINTS.POINTS_PER_LEVEL) *
-                100
-              ).toFixed(1);
-
-              return stats;
-            }
-
-            /**
-             * Sync user stats to Firestore
-             */
-            async function syncStatsToFirestore(userId, stats) {
-              try {
-                const userRef = doc(db, "leaderboard", userId);
-                await setDoc(
-                  userRef,
-                  {
-                    userId: userId,
-                    displayName:
-                      currentUser.displayName ||
-                      currentUser.email?.split("@")[0] ||
-                      "Anonymous",
-                    email: currentUser.email,
-                    totalPoints: stats.totalPoints,
-                    level: stats.level,
-                    wordsCompleted: stats.wordsCompleted,
-                    starsEarned: stats.starsEarned || 0,
-                    challengesCompleted: stats.challengesCompleted || 0,
-                    starPoints: stats.starPoints || 0,
-                    challengePoints: stats.challengePoints || 0,
-                    languageBreakdown: stats.languageBreakdown || {},
-                    lastUpdated: new Date().toISOString(),
-                  },
-                  { merge: true }
-                );
-                console.log("✅ Stats synced to Firestore");
-              } catch (error) {
-                console.error("❌ Error syncing stats:", error);
-              }
-            }
-
-            /**
-             * Load and display global leaderboard
-             */
-            async function loadLeaderboard() {
-              const loadingEl = document.getElementById("loading-state");
-              const contentEl = document.getElementById("leaderboard-content");
-              const emptyEl = document.getElementById("empty-state");
-              const errorEl = document.getElementById("error-state");
-
-              loadingEl.classList.remove("hidden");
-              contentEl.classList.add("hidden");
-              emptyEl.classList.add("hidden");
-              errorEl.classList.add("hidden");
-
-              try {
-                const leaderboardRef = collection(db, "leaderboard");
-                const q = query(
-                  leaderboardRef,
-                  orderBy("totalPoints", "desc"),
-                  limit(100)
-                );
-                const snapshot = await getDocs(q);
-
-                if (snapshot.empty) {
-                  loadingEl.classList.add("hidden");
-                  emptyEl.classList.remove("hidden");
-                  return;
-                }
-
-                const leaderboardData = [];
-                snapshot.forEach((doc) => {
-                  leaderboardData.push({ id: doc.id, ...doc.data() });
-                });
-
-                displayLeaderboard(leaderboardData);
-
-                loadingEl.classList.add("hidden");
-                contentEl.classList.remove("hidden");
-              } catch (error) {
-                console.error("❌ Error loading leaderboard:", error);
-                loadingEl.classList.add("hidden");
-                errorEl.classList.remove("hidden");
-              }
-            }
-
-            /**
-             * Display leaderboard table
-             */
-            function displayLeaderboard(data) {
-              const tbody = document.getElementById("leaderboard-table-body");
-              tbody.innerHTML = "";
-
-              const start = (currentPage - 1) * ITEMS_PER_PAGE;
-              const end = start + ITEMS_PER_PAGE;
-              const pageData = data.slice(start, end);
-
-              pageData.forEach((user, index) => {
-                const globalRank = start + index + 1;
-                const row = document.createElement("tr");
-
-                // Dark mode styling - border and hover effect
-                row.className = "border-b border-dark-border hover:bg-dark-bg";
-
-                // Highlight current user with blue background
-                if (currentUser && user.userId === currentUser.uid) {
-                  row.className = "border-b border-blue-600 bg-blue-900/30 hover:bg-blue-900/40";
-                }
-
-                // Medal SVG for top 3
-                const medalSvg = (color) => `<svg class="w-6 h-6 inline" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"><path d="M15.9201 12.8959L19.2583 8.89003C19.533 8.5604 19.6704 8.39557 19.7681 8.21065C19.8548 8.0466 19.9183 7.87128 19.9567 7.68973C20 7.48508 20 7.27053 20 6.84144V6.2C20 5.07989 20 4.51984 19.782 4.09202C19.5903 3.71569 19.2843 3.40973 18.908 3.21799C18.4802 3 17.9201 3 16.8 3H7.2C6.0799 3 5.51984 3 5.09202 3.21799C4.71569 3.40973 4.40973 3.71569 4.21799 4.09202C4 4.51984 4 5.07989 4 6.2V6.84144C4 7.27053 4 7.48508 4.04328 7.68973C4.08168 7.87128 4.14515 8.0466 4.23188 8.21065C4.32964 8.39557 4.467 8.5604 4.74169 8.89003L8.07995 12.8959M13.4009 11.1989L19.3668 3.53988M10.5991 11.1989L4.6394 3.53414M6.55673 6H17.4505M17 16C17 18.7614 14.7614 21 12 21C9.23858 21 7 18.7614 7 16C7 13.2386 9.23858 11 12 11C14.7614 11 17 13.2386 17 16Z"/></svg>`;
-
-                let rankDisplay = globalRank;
-                if (globalRank === 1) rankDisplay = medalSvg('#FFD700'); // Gold
-                else if (globalRank === 2) rankDisplay = medalSvg('#C0C0C0'); // Silver
-                else if (globalRank === 3) rankDisplay = medalSvg('#CD7F32'); // Bronze
-
-                row.innerHTML = `
-            <td class="px-4 py-3 text-center" data-label="Rank">
-              <span class="font-bold text-lg text-gray-200">${rankDisplay}</span>
-            </td>
-            <th scope="row" class="px-4 py-3 font-medium text-gray-200 whitespace-nowrap" data-label="Player">
-              <div class="mobile-player-stack flex items-center gap-3">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-dark-bg border border-dark-border overflow-hidden">
-                  ${user.avatarUrl
-                    ? `<img src="${user.avatarUrl}" alt="Avatar" class="w-full h-full object-cover">`
-                    : `<span class="text-lg font-semibold text-gray-300">${user.displayName?.[0]?.toUpperCase() || "?"}</span>`
-                  }
-                </div>
-                <div>
-                  <div class="font-semibold text-gray-200">${user.displayName || "Anonymous"}</div>
-                </div>
-              </div>
-            </th>
-            <td class="px-4 py-3 text-center" data-label="Level">
-              ${(() => {
-                    const level = user.level || 1;
-                    if (level === 1) {
-                      // New - Gray
-                      return `<span class="px-3 py-1 text-xs font-medium rounded" style="background-color: #E2E8F0; color: #64748B;">Lvl 1</span>`;
-                    } else if (level === 2) {
-                      // Learning - Blue
-                      return `<span class="px-3 py-1 text-xs font-medium text-white rounded" style="background-color: #05C7F2;">Lvl 2</span>`;
-                    } else if (level === 3) {
-                      // Mastered - Green
-                      return `<span class="px-3 py-1 text-xs font-medium text-white rounded" style="background-color: #04BF33;">Lvl 3</span>`;
-                    } else if (level === 4) {
-                      // Expert - Orange
-                      return `<span class="px-3 py-1 text-xs font-medium text-white rounded" style="background-color: #FF8C02;">Lvl 4</span>`;
-                    } else {
-                      // Expert+ - Orange with level number
-                      return `<span class="px-3 py-1 text-xs font-medium text-white rounded" style="background-color: #FF8C02;">Lvl ${level}</span>`;
-                    }
-                  })()}
-            </td>
-            <td class="px-4 py-3 text-center" data-label="Stars">
-              <span class="text-gray-300 font-medium">${user.starsEarned || 0}</span>
-            </td>
-            <td class="px-4 py-3 text-center" data-label="Challenges">
-              <span class="text-gray-300 font-medium">${user.challengesCompleted || 0}</span>
-            </td>
-            <td class="px-4 py-3 text-center" data-label="Points">
-              <span class="font-bold text-lg text-gray-200">${(
-                    user.totalPoints || 0
-                  ).toLocaleString()}</span>
-            </td>
-          `;
-                tbody.appendChild(row);
-              });
-
-              // Update pagination
-              document.getElementById("current-page").textContent = currentPage;
-              document.getElementById("prev-page").disabled = currentPage === 1;
-              document.getElementById("next-page").disabled = end >= data.length;
-            }
-
-            /**
-             * Initialize page
-             */
-            async function init() {
-              // Auth state listener
-              onAuthStateChanged(auth, async (user) => {
-                currentUser = user;
-
-                if (user) {
-                  // Calculate user stats
-                  const stats = calculateUserStats();
-
-                  // Sync to Firestore
-                  await syncStatsToFirestore(user.uid, stats);
-                }
-
-                // Load leaderboard
-                await loadLeaderboard();
-              });
-
-              // Event listeners
-              document
-                .getElementById("refresh-leaderboard")
-                ?.addEventListener("click", loadLeaderboard);
-              document.getElementById("prev-page")?.addEventListener("click", () => {
-                if (currentPage > 1) {
-                  currentPage--;
-                  loadLeaderboard();
-                }
-              });
-              document.getElementById("next-page")?.addEventListener("click", () => {
-                currentPage++;
-                loadLeaderboard();
-              });
-
-              // Tab switching
-              document.querySelectorAll(".tab").forEach((tab) => {
-                tab.addEventListener("click", (e) => {
-                  document
-                    .querySelectorAll(".tab")
-                    .forEach((t) => t.classList.remove("tab-active"));
-                  e.target.classList.add("tab-active");
-
-                  const tabType = e.target.dataset.tab;
-                  document.getElementById("leaderboard-title").textContent =
-                    tabType === "global"
-                      ? "Global Rankings"
-                      : tabType === "friends"
-                        ? "Friends Rankings"
-                        : "Country Rankings";
-
-                  // TODO: Implement friends and country filtering
-                  loadLeaderboard();
-                });
-              });
-            }
-
-            init();
-          </script>
-  </body>
+ <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
+ style="display: none; visibility: hidden"></iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
+
+ <%- include('partials/menu') %>
+
+ <style>
+ @media (max-width: 640px) {
+ #leaderboard-content .leaderboard-table {
+ display: block;
+ }
+
+ #leaderboard-content .leaderboard-table thead {
+ display: none;
+ }
+
+ #leaderboard-content .leaderboard-table tbody {
+ display: block;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr {
+ display: grid;
+ grid-template-columns: auto 1fr auto;
+ grid-template-rows: auto auto;
+ 0.75rem;
+ padding: 0.75rem;
+ margin-bottom: 0.75rem;
+ gap: 0.5rem;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr:last-child {
+ margin-bottom: 0;
+ }
+
+ #leaderboard-content .leaderboard-table tbody th,
+ #leaderboard-content .leaderboard-table tbody td {
+ display: block;
+ width: 100%;
+ padding: 0;
+ text-align: left;
+ white-space: normal;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr>*:nth-child(1) {
+ grid-column: 1;
+ grid-row: 1;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr>*:nth-child(2) {
+ grid-column: 2;
+ grid-row: 1;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr>*:nth-child(3) {
+ grid-column: 3;
+ grid-row: 1;
+ justify-self: end;
+ text-align: right;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr>*:nth-child(4) {
+ grid-column: 1;
+ grid-row: 2;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr>*:nth-child(5) {
+ grid-column: 2;
+ grid-row: 2;
+ }
+
+ #leaderboard-content .leaderboard-table tbody tr>*:nth-child(6) {
+ grid-column: 3;
+ grid-row: 2;
+ justify-self: end;
+ text-align: right;
+ }
+
+ #leaderboard-content .leaderboard-table tbody [data-label]::before {
+ content: attr(data-label);
+ display: block;
+ font-size: 0.65rem;
+ letter-spacing: 0.05em;
+ text-transform: uppercase;
+			color: var(--app-font-color);
+ margin-bottom: 0.15rem;
+ }
+
+ }
+ </style>
+
+ <div class="container mx-auto px-4 py-8 pt-12 max-w-6xl">
+ <!-- Header -->
+ <div class="text-center mb-8">
+ <h1 class="text-4xl font-bold mb-2 flex items-center justify-center gap-3">
+ Global Leaderboard
+ </h1>
+ </div>
+
+ <!-- Leaderboard Table -->
+ <div class="bg-learning-app-design-1 shadow-card rounded-xl backdrop-blur-sm">
+ <!-- Content Area -->
+ <div class="p-6 bg-learning-app-design-1 shadow-card rounded-xl">
+
+ <!-- Loading State -->
+ <div id="loading-state" class="text-center py-12">
+ <span class="loading loading-spinner loading-lg"></span>
+ <p class="mt-4">Loading rankings...</p>
+ </div>
+
+ <!-- Leaderboard Content -->
+ <div id="leaderboard-content" class="hidden">
+ <div class="overflow-x-auto overflow-y-visible py-2 px-1">
+ <table class="leaderboard-table w-full text-sm text-left">
+ <thead class="text-xs uppercase bg-learning-app-design-1">
+ <tr>
+ <th scope="col" class="px-4 py-3 text-center" style="width: 80px">
+ Rank
+ </th>
+ <th scope="col" class="px-4 py-3" style="width: 250px">
+ Player
+ </th>
+ <th scope="col" class="px-4 py-3 text-center" style="width: 100px">
+ <div class="flex items-center justify-center gap-1">
+ <span>Level</span>
+ </div>
+ </th>
+ <th scope="col" class="px-4 py-3 text-center" style="width: 120px">
+ <span class="inline-flex items-center gap-1">Stars <svg class="w-4 h-4 inline"
+ viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ <path
+ d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" />
+ </svg></span>
+ </th>
+ <th scope="col" class="px-4 py-3 text-center" style="width: 120px">
+ <span class="inline-flex items-center gap-1">Challenges <svg
+ class="w-4 h-4 inline" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path
+ d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
+ </svg></span>
+ </th>
+ <th scope="col" class="px-4 py-3 text-center" style="width: 140px">
+ Total Points
+ </th>
+ </tr>
+ </thead>
+ <tbody id="leaderboard-table-body">
+ <!-- Filled by JS -->
+ </tbody>
+ </table>
+ </div>
+
+ <!-- Pagination -->
+ <div class="flex justify-center mt-6 gap-2">
+ <button class="btn btn-sm" id="prev-page">« Previous</button>
+ <span class="flex items-center px-4">Page
+ <span id="current-page" class="font-bold mx-2">1</span></span>
+ <button class="btn btn-sm" id="next-page">Next »</button>
+ </div>
+ </div>
+
+ <!-- Empty State -->
+ <div id="empty-state" class="hidden text-center py-12">
+ <div class="text-6xl mb-4">📊</div>
+ <h3 class="text-xl font-bold mb-2">No rankings yet</h3>
+ <p class="">
+ Be the first to complete some words and climb the leaderboard!
+ </p>
+ </div>
+
+ <!-- Error State -->
+ <div id="error-state" class="hidden text-center py-12">
+ <div class="text-6xl mb-4">⚠️</div>
+ <h3 class="text-xl font-bold mb-2">Error loading leaderboard</h3>
+ <p class="mb-4">Please try again later</p>
+ <button class="btn bg-level-expert hover:bg-level-expert" onclick="location.reload()">
+ Retry
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <!-- Point System Explanation (full width with padding) -->
+ <div class="w-full px-4 pb-8">
+ <div class="w-full mt-8 bg-learning-app-design-1 shadow-card rounded-xl p-6">
+ <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+ <img src="/img/svg/01/bulb-on-svgrepo-com.svg" alt="Bulb" class="w-6 h-6">
+ How Leaderboard Points Work
+ </h2>
+ <div class="space-y-3 text-sm">
+ <div class="flex items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-expert rounded">5</div>
+ <div>
+ <span class="font-semibold">Category Completed:</span>
+ <span class=""> Complete all words in a category (earn a star)</span>
+ </div>
+ </div>
+ <div class="flex items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-expert rounded">+5</div>
+ <div>
+ <span class="font-semibold">Repeat Category:</span>
+ <span class=""> Complete a category again after 24h for extra stars</span>
+ </div>
+ </div>
+ <div class="flex items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-mastered rounded">50</div>
+ <div>
+ <span class="font-semibold">Perfect first try (100%):</span>
+ <span class="font-bold"> +50 points</span>
+ </div>
+ </div>
+ <div class="flex items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-learning rounded">20</div>
+ <div>
+ <span class="font-semibold">Pass first try (90%-99%):</span>
+ <span class=""> +20 points</span>
+ </div>
+ </div>
+ <div class="flex items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-learning rounded">Level</div>
+ <div>
+ <span class="font-semibold">Levels:</span>
+ <span class=""> 100 points = 1 level increase</span>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div><!-- End Point System wrapper -->
+
+ <%- include('partials/modals') %>
+
+ <script defer type="module" src="/scripts/auth.js"></script>
+ <script defer type="module" src="/scripts/index.js"></script>
+ <script type="module">
+ import { initializeApp } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+ import {
+ getAuth,
+ onAuthStateChanged,
+ } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+ import {
+ getFirestore,
+ collection,
+ getDocs,
+ query,
+ orderBy,
+ limit,
+ doc,
+ setDoc,
+ getDoc,
+ } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+ // Firebase config
+ const firebaseConfig = {
+ apiKey:"AIzaSyA5TmUWOFkanWSVj-GU3SgDiKyD86yDgoQ",
+ authDomain:"costam-3f612.firebaseapp.com",
+ databaseURL:"https://costam-3f612-default-rtdb.firebaseio.com",
+ projectId:"costam-3f612",
+ storageBucket:"costam-3f612.firebasestorage.app",
+ messagingSenderId:"767407380440",
+ appId:"1:767407380440:web:eb4a082d596a7a69c384ad",
+ };
+
+ const app = initializeApp(firebaseConfig);
+ const auth = getAuth(app);
+ const db = getFirestore(app);
+
+ let currentUser = null;
+ let currentPage = 1;
+ const ITEMS_PER_PAGE = 50;
+
+ // Points configuration
+ const POINTS = {
+ CATEGORY_COMPLETION: 5, // 5 points per category completion (star)
+ CATEGORY_CHALLENGE_PASS: 10,
+ CATEGORY_CHALLENGE_PERFECT: 20,
+ POINTS_PER_LEVEL: 100,
+ };
+
+ // Language configuration with flags
+ const LANGUAGES = {
+ es: { name:"Spanish", flag:"🇪🇸" },
+ de: { name:"German", flag:"🇩🇪" },
+ fr: { name:"French", flag:"🇫🇷" },
+ ru: { name:"Russian", flag:"🇷🇺" },
+ zh: { name:"Chinese", flag:"🇨🇳" },
+ ja: { name:"Japanese", flag:"🇯🇵" },
+ ko: { name:"Korean", flag:"🇰🇷" },
+ it: { name:"Italian", flag:"🇮🇹" },
+ };
+
+ /**
+ * Calculate user statistics from localStorage
+ * CRITICAL: Verify data belongs to current user before using
+ */
+ function calculateUserStats() {
+ const stats = {
+ totalPoints: 0,
+ starPoints: 0,
+ challengePoints: 0,
+ wordsCompleted: 0,
+ starsEarned: 0,
+ challengesCompleted: 0,
+ languageBreakdown: {},
+ };
+
+ // CRITICAL: Verify localStorage data belongs to current user
+ const storedUserId = localStorage.getItem("mc_current_user_id");
+ if (!currentUser || storedUserId !== currentUser.uid) {
+ console.warn("⚠️ localStorage data doesn't belong to current user, returning empty stats");
+ stats.level = 1;
+ stats.levelProgress ="0.0";
+ return stats;
+ }
+
+ Object.keys(LANGUAGES).forEach((lang) => {
+ const buttonStates = JSON.parse(
+ localStorage.getItem(`buttonStates_${lang}`) ||"{}"
+ );
+ const repeatCounts = JSON.parse(
+ localStorage.getItem(`repeatCounts_${lang}`) ||"{}"
+ );
+ const completionMap = JSON.parse(
+ localStorage.getItem(`categoryCompletionDates_${lang}`) ||"{}"
+ );
+
+ // Count completed words (for display, not points)
+ let langWordsCompleted = 0;
+ Object.values(buttonStates).forEach((state) => {
+ if (state.locked) {
+ langWordsCompleted++;
+ }
+ });
+
+ // Count stars (category completions) - 5 points each
+ const langStars = Object.values(repeatCounts).reduce(
+ (sum, count) => sum + (count || 0), 0
+ );
+ const langStarPoints = langStars * POINTS.CATEGORY_COMPLETION;
+
+ // Count challenge bonus points
+ const completionEntries = Object.values(completionMap).filter(
+ (entry) => entry && typeof entry ==="object" &&"totalBonusPoints" in entry
+ );
+ const langChallengesCompleted = completionEntries.length;
+ const langChallengePoints = completionEntries.reduce(
+ (sum, entry) => sum + (entry.totalBonusPoints || entry.bonusPoints || 0),
+ 0
+ );
+
+ const langTotalPoints = langStarPoints + langChallengePoints;
+
+ stats.wordsCompleted += langWordsCompleted;
+ stats.starsEarned += langStars;
+ stats.challengesCompleted += langChallengesCompleted;
+ stats.starPoints += langStarPoints;
+ stats.challengePoints += langChallengePoints;
+ stats.languageBreakdown[lang] = {
+ words: langWordsCompleted,
+ stars: langStars,
+ challenges: langChallengesCompleted,
+ points: langTotalPoints,
+ };
+ });
+
+ stats.totalPoints = stats.starPoints + stats.challengePoints;
+ stats.level =
+ Math.floor(stats.totalPoints / POINTS.POINTS_PER_LEVEL) + 1;
+ stats.levelProgress = (
+ ((stats.totalPoints % POINTS.POINTS_PER_LEVEL) /
+ POINTS.POINTS_PER_LEVEL) *
+ 100
+ ).toFixed(1);
+
+ return stats;
+ }
+
+ /**
+ * Sync user stats to Firestore
+ */
+ async function syncStatsToFirestore(userId, stats) {
+ try {
+ const userRef = doc(db,"leaderboard", userId);
+ await setDoc(
+ userRef,
+ {
+ userId: userId,
+ displayName:
+ currentUser.displayName ||
+ currentUser.email?.split("@")[0] ||
+"Anonymous",
+ email: currentUser.email,
+ totalPoints: stats.totalPoints,
+ level: stats.level,
+ wordsCompleted: stats.wordsCompleted,
+ starsEarned: stats.starsEarned || 0,
+ challengesCompleted: stats.challengesCompleted || 0,
+ starPoints: stats.starPoints || 0,
+ challengePoints: stats.challengePoints || 0,
+ languageBreakdown: stats.languageBreakdown || {},
+ lastUpdated: new Date().toISOString(),
+ },
+ { merge: true }
+ );
+ console.log("✅ Stats synced to Firestore");
+ } catch (error) {
+ console.error("❌ Error syncing stats:", error);
+ }
+ }
+
+ /**
+ * Load and display global leaderboard
+ */
+ async function loadLeaderboard() {
+ const loadingEl = document.getElementById("loading-state");
+ const contentEl = document.getElementById("leaderboard-content");
+ const emptyEl = document.getElementById("empty-state");
+ const errorEl = document.getElementById("error-state");
+
+ loadingEl.classList.remove("hidden");
+ contentEl.classList.add("hidden");
+ emptyEl.classList.add("hidden");
+ errorEl.classList.add("hidden");
+
+ try {
+ const leaderboardRef = collection(db,"leaderboard");
+ const q = query(
+ leaderboardRef,
+ orderBy("totalPoints","desc"),
+ limit(100)
+ );
+ const snapshot = await getDocs(q);
+
+ if (snapshot.empty) {
+ loadingEl.classList.add("hidden");
+ emptyEl.classList.remove("hidden");
+ return;
+ }
+
+ const leaderboardData = [];
+ snapshot.forEach((doc) => {
+ leaderboardData.push({ id: doc.id, ...doc.data() });
+ });
+
+ displayLeaderboard(leaderboardData);
+
+ loadingEl.classList.add("hidden");
+ contentEl.classList.remove("hidden");
+ } catch (error) {
+ console.error("❌ Error loading leaderboard:", error);
+ loadingEl.classList.add("hidden");
+ errorEl.classList.remove("hidden");
+ }
+ }
+
+ /**
+ * Display leaderboard table
+ */
+ function displayLeaderboard(data) {
+ const tbody = document.getElementById("leaderboard-table-body");
+ tbody.innerHTML ="";
+
+ const start = (currentPage - 1) * ITEMS_PER_PAGE;
+ const end = start + ITEMS_PER_PAGE;
+ const pageData = data.slice(start, end);
+
+ pageData.forEach((user, index) => {
+ const globalRank = start + index + 1;
+ const row = document.createElement("tr");
+
+ // Base row look (mobile card background now comes from classes, not CSS)
+ row.className ="bg-learning-app-design-3 hover:bg-learning-app-design-4 transition-colors shadow-xl rounded-xl";
+
+ // Highlight current user with blue background
+ if (currentUser && user.userId === currentUser.uid) {
+ row.className ="bg-level-learning hover:bg-level-learning transition-colors shadow-xl rounded-xl";
+ }
+
+ // Medal SVG for top 3
+ const medalSvg = (color) => `<svg class="w-6 h-6 inline" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"><path d="M15.9201 12.8959L19.2583 8.89003C19.533 8.5604 19.6704 8.39557 19.7681 8.21065C19.8548 8.0466 19.9183 7.87128 19.9567 7.68973C20 7.48508 20 7.27053 20 6.84144V6.2C20 5.07989 20 4.51984 19.782 4.09202C19.5903 3.71569 19.2843 3.40973 18.908 3.21799C18.4802 3 17.9201 3 16.8 3H7.2C6.0799 3 5.51984 3 5.09202 3.21799C4.71569 3.40973 4.40973 3.71569 4.21799 4.09202C4 4.51984 4 5.07989 4 6.2V6.84144C4 7.27053 4 7.48508 4.04328 7.68973C4.08168 7.87128 4.14515 8.0466 4.23188 8.21065C4.32964 8.39557 4.467 8.5604 4.74169 8.89003L8.07995 12.8959M13.4009 11.1989L19.3668 3.53988M10.5991 11.1989L4.6394 3.53414M6.55673 6H17.4505M17 16C17 18.7614 14.7614 21 12 21C9.23858 21 7 18.7614 7 16C7 13.2386 9.23858 11 12 11C14.7614 11 17 13.2386 17 16Z"/></svg>`;
+
+ let rankDisplay = globalRank;
+ if (globalRank === 1) rankDisplay = medalSvg('#2BD999');
+ else if (globalRank === 2) rankDisplay = medalSvg('#4982A6');
+ else if (globalRank === 3) rankDisplay = medalSvg('#4951F2');
+
+ row.innerHTML = `
+ <td class="px-4 py-3 text-center" data-label="Rank">
+ <span class="font-bold text-lg">${rankDisplay}</span>
+ </td>
+ <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap" data-label="Player">
+ <div class="mobile-player-stack flex items-center gap-3">
+ <div class="flex items-center justify-center w-10 h-10 rounded-full bg-learning-app-design-3 overflow-hidden">
+ ${user.avatarUrl
+ ? `<img src="${user.avatarUrl}" alt="Avatar" class="w-full h-full object-cover">`
+ : `<span class="text-lg font-semibold">${user.displayName?.[0]?.toUpperCase() ||"?"}</span>`
+ }
+ </div>
+ <div>
+ <div class="font-semibold">${user.displayName ||"Anonymous"}</div>
+ </div>
+ </div>
+ </th>
+ <td class="px-4 py-3 text-center" data-label="Level">
+ ${(() => {
+ const level = user.level || 1;
+ if (level === 1) {
+ return `<span class="px-3 py-1 text-xs font-medium rounded bg-learning-app-design-4">Lvl 1</span>`;
+ } else if (level === 2) {
+ return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-learning">Lvl 2</span>`;
+ } else if (level === 3) {
+ return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-mastered">Lvl 3</span>`;
+ } else if (level === 4) {
+ return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl 4</span>`;
+ } else {
+ return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl ${level}</span>`;
+ }
+ })()}
+ </td>
+ <td class="px-4 py-3 text-center" data-label="Stars">
+ <span class="font-medium">${user.starsEarned || 0}</span>
+ </td>
+ <td class="px-4 py-3 text-center" data-label="Challenges">
+ <span class="font-medium">${user.challengesCompleted || 0}</span>
+ </td>
+ <td class="px-4 py-3 text-center" data-label="Points">
+ <span class="font-bold text-lg">${(
+ user.totalPoints || 0
+ ).toLocaleString()}</span>
+ </td>
+ `;
+ tbody.appendChild(row);
+ });
+
+ // Update pagination
+ document.getElementById("current-page").textContent = currentPage;
+ document.getElementById("prev-page").disabled = currentPage === 1;
+ document.getElementById("next-page").disabled = end >= data.length;
+ }
+
+ /**
+ * Initialize page
+ */
+ async function init() {
+ // Auth state listener
+ onAuthStateChanged(auth, async (user) => {
+ currentUser = user;
+
+ if (user) {
+ // Calculate user stats
+ const stats = calculateUserStats();
+
+ // Sync to Firestore
+ await syncStatsToFirestore(user.uid, stats);
+ }
+
+ // Load leaderboard
+ await loadLeaderboard();
+ });
+
+ // Event listeners
+ document.getElementById("prev-page")?.addEventListener("click", () => {
+ if (currentPage > 1) {
+ currentPage--;
+ loadLeaderboard();
+ }
+ });
+ document.getElementById("next-page")?.addEventListener("click", () => {
+ currentPage++;
+ loadLeaderboard();
+ });
+
+ // Tab switching
+ document.querySelectorAll(".tab").forEach((tab) => {
+ tab.addEventListener("click", (e) => {
+ document
+ .querySelectorAll(".tab")
+ .forEach((t) => t.classList.remove("tab-active"));
+ e.target.classList.add("tab-active");
+
+ const tabType = e.target.dataset.tab;
+ const leaderboardTitle = document.getElementById("leaderboard-title");
+ if (leaderboardTitle) {
+ leaderboardTitle.textContent =
+ tabType ==="global"
+ ?"Global Rankings"
+ : tabType ==="friends"
+ ?"Friends Rankings"
+ :"Country Rankings";
+ }
+
+ // TODO: Implement friends and country filtering
+ loadLeaderboard();
+ });
+ });
+ }
+
+ init();
+ </script>
+ </body>
 
 </html>
