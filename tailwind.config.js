@@ -1,7 +1,7 @@
 const daisyui = require("daisyui");
 
 // ============================================
-// 🎨 THEME SWITCHER - zmień activeTheme na 'one' | 'two' | 'three'
+// 🎨 THEME SWITCHER - zmień Theme na 'one' | 'two' | 'three'
 // ============================================
 const activeTheme = 'one';
 
