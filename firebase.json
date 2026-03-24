@@ -127,17 +127,20 @@
       }
     ]
   },
-  "functions": {
-    "source": "functions",
-    "runtime": "nodejs20",
-    "ignore": [
-      "node_modules",
-      ".git",
-      "firebase-debug.log",
-      "firebase-debug.*.log",
-      "tools"
-    ]
-  },
+  "functions": [
+    {
+      "source": "functions",
+      "runtime": "nodejs20",
+      "codebase": "mobile",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "tools"
+      ]
+    }
+  ],
   "firestore": {
     "rules": "firestore.rules"
   },

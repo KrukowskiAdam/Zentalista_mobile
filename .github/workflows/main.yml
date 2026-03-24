@@ -61,7 +61,7 @@ jobs:
       - name: Deploy to Firebase with logs
         run: |
           set -x
-          firebase deploy --project=costam-3f612 --only hosting,functions --debug --non-interactive
+          firebase deploy --project=costam-3f612 --only hosting,functions:mobile --debug --non-interactive
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/service-account.json
           DEBUG: firebase:*
