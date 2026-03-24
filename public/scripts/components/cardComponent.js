@@ -16,7 +16,7 @@ export class CardComponent {
  createTranslationElement(id, parent) {
  const translationEl = createElement("div", {
  id: id,
- className: "h-80 flex items-center justify-center font-bold bg-learning-app-design-1 rounded-[12px] mb-1 relative overflow-hidden px-4 min-w-0 w-full",
+ className: "h-72 flex items-center justify-center font-bold bg-learning-app-design-1 rounded-[12px] mb-1 relative overflow-hidden px-4 min-w-0 w-full",
  parent: parent
  });
 

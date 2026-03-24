@@ -9,7 +9,7 @@
   /* Fonts */
   --font-main: "Poppins", sans-serif;
   --font-size-base: 1.125rem;
-  --font-size-button: 1rem;
+  --font-size-button: 0.875rem;
   --font-size-small: 0.8125rem;
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -239,30 +239,13 @@ aside,
   display: block;
 }
 
-/* Add this at the end of the file */
-@media (min-width: 1024px) {
-  nav.hidden.lg\:flex {
-    display: flex !important;
-  }
-}
-
-.lg-show-dropdown {
-  display: none;
-}
-
-@media (min-width: 1024px) {
-  .lg-show-dropdown {
-    display: block !important;
-  }
-}
-
 /* Mobile styles */
 @media (max-width: 1023px) {
   .primary-lang-text {
     font-size: 2rem !important;
   }
   .fc-button {
-    font-size: 0.8rem !important;
+    font-size: 0.75rem;
   }
 }
 

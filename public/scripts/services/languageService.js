@@ -122,11 +122,7 @@ class LanguageService {
     const langDetails = this.getLanguageDetails(currentLang);
     console.log("🌍 Current language:", currentLang, langDetails);
 
-    // Update desktop dropdown
-    this.updateDropdownDisplay("desktop", langDetails);
-
-    // Update mobile menu
-    this.updateDropdownDisplay("mobile", langDetails);
+    this.updateDropdownDisplay(langDetails);
 
     // Add click handlers
     this.attachEventListeners();
@@ -136,11 +132,10 @@ class LanguageService {
   /**
    * Update dropdown display with current language
    */
-  updateDropdownDisplay(type, langDetails) {
-    const prefix = type === "mobile" ? "mobile-" : "";
-    const flagElement = document.getElementById(`${prefix}current-flag`);
-    const codeElement = document.getElementById(`${prefix}current-lang-code`);
-    const nameElement = document.getElementById(`${prefix}current-lang-name`);
+  updateDropdownDisplay(langDetails) {
+    const flagElement = document.getElementById("current-flag");
+    const codeElement = document.getElementById("current-lang-code");
+    const nameElement = document.getElementById("current-lang-name");
 
     if (flagElement) flagElement.innerHTML = langDetails.flag;
     if (codeElement) codeElement.textContent = langDetails.code.toUpperCase();
@@ -151,7 +146,6 @@ class LanguageService {
    * Attach click event listeners to language options
    */
   attachEventListeners() {
-    // Desktop language options
     const languageLinks = document.querySelectorAll("[data-language]");
     // console.log("🌍 Found", languageLinks.length, "language links");
 

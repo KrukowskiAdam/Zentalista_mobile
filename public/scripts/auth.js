@@ -423,8 +423,8 @@ if (forgotPasswordForm) {
 }
 
 const logoutBtns = [
- document.getElementById("logout"), // desktop
- document.getElementById("logout-mobile") // mobile
+ document.getElementById("logout"),
+ document.getElementById("logout-mobile")
 ].filter(Boolean);
 
 logoutBtns.forEach((btn) => {

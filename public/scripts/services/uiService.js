@@ -118,15 +118,15 @@ class UIService {
 
  overview.innerHTML = `
  <div class="mx-auto max-w-4xl space-y-3">
- <div class="rounded-xl bg-learning-app-design-2 p-4 shadow-card">
+ <div class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
  <p class="text-xs uppercase tracking-[0.14em]">Welcome back</p>
  <h1 class="mt-1 text-xl font-bold">${safeName}, keep your momentum</h1>
  <p class="mt-2 text-sm">Continue with <span class="">${stats.continueCategory}</span></p>
 
  <div class="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-3">
- <button id="continue-learning-btn" type="button" class="touch-target rounded-xl bg-level-expert px-4 py-3 text-sm font-semibold hover:bg-level-expert">Continue learning</button>
- <a href="/challenge" class="touch-target rounded-xl px-4 py-3 text-center text-sm font-semibold hover:bg-learning-app-design-3">Quick challenge</a>
- <a href="/stats" class="touch-target rounded-xl px-4 py-3 text-center text-sm font-semibold hover:bg-learning-app-design-3">View stats</a>
+ <button id="continue-learning-btn" type="button" class="touch-target rounded-xl bg-level-expert px-4 py-3 text-sm font-semibold">Continue learning</button>
+ <a href="/challenge" class="touch-target rounded-xl px-4 py-3 text-center text-sm font-semibold bg-learning-app-design-4">Take the challenge</a>
+ <a href="/stats" class="touch-target rounded-xl px-4 py-3 text-center text-sm font-semibold bg-learning-app-design-5">View stats</a>
  </div>
  </div>
 

@@ -30,19 +30,31 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Handle mobile logout button
-  const mobileLogoutBtn = document.getElementById("mobile-logout");
+  // Handle mobile drawer logout button
+  const mobileLogoutBtn = document.getElementById("logout-mobile");
   if (mobileLogoutBtn) {
     mobileLogoutBtn.addEventListener("click", () => {
-      // Trigger desktop logout button click
-      const desktopLogoutBtn = document.getElementById("logout");
-      if (desktopLogoutBtn) {
-        desktopLogoutBtn.click();
-      }
-
       // Close the drawer
       const menuDrawer = document.getElementById("menu-drawer");
       if (menuDrawer) {
+        menuDrawer.checked = false;
+      }
+    });
+  }
+
+  // Keep drawers mutually exclusive: opening one closes the other
+  const menuDrawer = document.getElementById("menu-drawer");
+  const langDrawer = document.getElementById("lang-drawer");
+
+  if (menuDrawer && langDrawer) {
+    menuDrawer.addEventListener("change", () => {
+      if (menuDrawer.checked) {
+        langDrawer.checked = false;
+      }
+    });
+
+    langDrawer.addEventListener("change", () => {
+      if (langDrawer.checked) {
         menuDrawer.checked = false;
       }
     });

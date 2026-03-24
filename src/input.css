@@ -21,8 +21,8 @@
  --font-color-dark-theme: var(--font-color-white);
 
  /* Quick switch: keep only one line active */
- --app-font-color: var(--font-color-light-theme);
- /* --app-font-color: var(--font-color-dark-theme); */
+ /* --app-font-color: var(--font-color-light-theme); */
+ --app-font-color: var(--font-color-dark-theme);
 
  /* Disable DaisyUI button animation */
  --animation-btn: 0;
@@ -46,7 +46,9 @@
 
  /* Drawer is always dark, so force white text there */
  #menu-drawer ~ .drawer-side,
- #menu-drawer ~ .drawer-side * {
+ #menu-drawer ~ .drawer-side *,
+ #lang-drawer ~ .drawer-side,
+ #lang-drawer ~ .drawer-side * {
  color: var(--font-color-white) !important;
  }
  
@@ -71,6 +73,20 @@
 }
 
 @layer utilities {
+ .safe-navbar {
+ padding-top: constant(safe-area-inset-top);
+ padding-top: env(safe-area-inset-top, 0px);
+ min-height: calc(60px + constant(safe-area-inset-top));
+ min-height: calc(60px + env(safe-area-inset-top, 0px));
+ }
+
+ .safe-drawer-side {
+ top: calc(60px + constant(safe-area-inset-top));
+ top: calc(60px + env(safe-area-inset-top, 0px));
+ height: calc(100vh - (60px + constant(safe-area-inset-top)));
+ height: calc(100dvh - (60px + env(safe-area-inset-top, 0px)));
+ }
+
  .touch-target {
  min-height: 44px;
  min-width: 44px;
