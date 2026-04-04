@@ -4066,6 +4066,10 @@ html:has(.drawer-toggle:checked) {
   margin-left: 0.75rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -4096,10 +4100,6 @@ html:has(.drawer-toggle:checked) {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
 }
 
 .block {
@@ -4564,6 +4564,10 @@ html:has(.drawer-toggle:checked) {
   border-top-right-radius: 10px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .bg-base-200 {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
@@ -4594,6 +4598,16 @@ html:has(.drawer-toggle:checked) {
   background-color: rgb(64 129 236 / var(--tw-bg-opacity));
 }
 
+.bg-learning-app-design-6 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 66 53 / var(--tw-bg-opacity));
+}
+
+.bg-learning-app-design-7 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 170 51 / var(--tw-bg-opacity));
+}
+
 .bg-level-expert {
   --tw-bg-opacity: 1;
   background-color: rgb(255 140 2 / var(--tw-bg-opacity));
@@ -4615,16 +4629,6 @@ html:has(.drawer-toggle:checked) {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-learning-app-design-6 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 66 53 / var(--tw-bg-opacity));
-}
-
-.bg-learning-app-design-7 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 170 51 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-90 {
