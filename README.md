@@ -33,7 +33,7 @@ rm -rf node_modules package-lock.json
 cd mellowcards
 git add .
 git status
-git commit -m "style"  
+git commit -m "komenatrze"  
 git push origin main
 git push --force origin main (jesli chcemy force)
 cmd + shift + F = search
