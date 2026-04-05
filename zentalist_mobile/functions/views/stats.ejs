@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" class="bg-learning-app-design-3">
+<%- include('partials/head') %>
+
+ <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
+ style="display: none; visibility: hidden"></iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
+ <!-- Nawigacja główna -->
+ <%- include('partials/menu') %>
+
+ <style>
+ #stats-container .legend-reviews-row {
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ }
+
+ #stats-container .legend-reviews-badges {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.5rem;
+ width: 100%;
+ }
+
+ #stats-container .legend-progress-note {
+ padding-left: 1.5rem;
+ }
+
+ @media (max-width: 640px) {
+ #stats-container .stats-table {
+ display: block;
+ }
+
+ #stats-container .stats-table thead {
+ display: none;
+ }
+
+ #stats-container .stats-table tbody {
+ display: block;
+ }
+
+ #stats-container .stats-table tbody tr {
+ display: block;
+ : 1px solid #4982A6;
+ 0.75rem;
+ padding: 0.875rem 1rem;
+ margin-bottom: 1rem;
+ background-color: #27368C;
+ }
+
+ #stats-container .stats-table tbody tr:last-child {
+ margin-bottom: 0;
+ }
+
+ #stats-container .stats-table tbody th,
+ #stats-container .stats-table tbody td {
+ display: block;
+ width: 100%;
+ padding: 0.625rem 0;
+ text-align: left;
+ white-space: normal;
+ }
+
+ #stats-container .stats-table tbody [data-label]::before {
+ content: attr(data-label);
+ display: block;
+ font-size: 0.7rem;
+ letter-spacing: 0.05em;
+ text-transform: uppercase;
+			color: var(--app-font-color);
+ margin-bottom: 0.1rem;
+ }
+
+ #stats-container .legend-reviews-row {
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 0.75rem;
+ }
+
+ #stats-container .legend-reviews-badges {
+ display: grid;
+ grid-template-columns: 1fr;
+ }
+
+ #stats-container .legend-progress-note {
+ padding-left: 0;
+ }
+ }
+ </style>
+
+ <div class="container mx-auto px-4 py-8 pt-12 max-w-6xl safe-bottom">
+ <!-- Loading spinner while checking auth -->
+ <div id="auth-loading" class="text-center py-16 space-y-4">
+ <span class="loading loading-spinner loading-lg"></span>
+ <p class="text-sm">Preparing your statistics and synced progress...</p>
+ </div>
+
+ <!-- Login required screen for non-logged-in users -->
+ <div id="login-required-screen" class="hidden">
+ <div class="text-center py-16">
+ <div class="mb-6">
+ <svg class="w-20 h-20 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+ stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+ </svg>
+ </div>
+ <h2 class="text-2xl font-bold mb-3">Sign in to view your statistics</h2>
+ <p class="mb-6 max-w-md mx-auto">
+ Track your learning progress, see category completion, and sync your stats across all your devices.
+ </p>
+ <label for="modal-login"
+ class="btn touch-target bg-level-learning hover:bg-level-learning px-8 w-full sm:w-auto cursor-pointer">
+ Sign In
+ </label>
+ <p class="text-sm mt-4">
+ Don't have an account?
+ <label for="modal-signup" class="cursor-pointer">Create one for
+ free</label>
+ </p>
+ </div>
+ </div>
+
+ <!-- Stats content (shown only when logged in) -->
+ <div id="stats-content" class="hidden">
+ <!-- Header -->
+ <div class="text-center mb-6 sm:mb-7 px-1">
+ <h1 class="text-3xl sm:text-4xl font-bold mb-2 flex items-center justify-center gap-2 sm:gap-3">
+ <svg class="w-8 h-8 sm:w-10 sm:h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+ stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+ </svg>
+ Learning Statistics
+ </h1>
+ <p class="py-4 sm:py-8 max-w-2xl mx-auto">Track your learning progress and see category completion across all languages.
+ </p>
+ </div>
+ <div class="flex items-center justify-center gap-2 mb-5 sm:mb-6">
+ <span id="stats-lang-flag"
+ class="inline-flex items-center justify-center w-8 h-8 rounded-full overflow-hidden">
+ <!-- Flag inserted by JS -->
+ </span>
+ <span id="stats-lang-name" class="text-base sm:text-lg font-normal"></span>
+ </div>
+ <!-- Hidden selector that will be moved to table header by JS -->
+ <select id="category-section-select" class="hidden">
+ <option disabled selected>Choose a section...</option>
+ </select>
+ <div id="stats-container" class="mt-6">
+ <div class="text-center py-8 rounded-lg">
+ Loading statistics...
+ </div>
+ </div>
+
+ <!-- All Languages Progress Table -->
+ <div class="bg-learning-app-design-3 shadow-card mt-8 rounded-xl overflow-hidden">
+ <div class="bg-learning-app-design-1 flex items-center"
+ style="height: 50px; padding-left: 1rem; padding-right: 1rem;">
+ <h2 class="text-lg sm:text-xl font-bold">All Languages Progress</h2>
+ </div>
+ <div class="overflow-x-auto">
+ <table class="w-full text-sm text-left min-w-[620px] sm:min-w-0">
+ <thead class="text-xs uppercase bg-learning-app-design-3">
+ <tr>
+ <th scope="col" class="px-3 py-2 text-center">Language</th>
+ <th scope="col" class="px-3 py-2 text-center">
+ <span class="inline-flex items-center gap-1">Stars
+ <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+ stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path
+ d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" />
+ </svg>
+ </span>
+ </th>
+ <th scope="col" class="px-3 py-2 text-center">
+ <span class="inline-flex items-center gap-1">Challenges
+ <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+ stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path
+ d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
+ </svg>
+ </span>
+ </th>
+ </tr>
+ </thead>
+ <tbody id="all-languages-progress-body">
+ <tr class="hover:bg-learning-app-design-1" data-lang="es">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-spain-svgrepo-com.svg"
+ alt="Spanish" class="w-6 h-6"><span class="font-medium">Spanish</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-es">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-es">0</td>
+ </tr>
+ <tr class="hover:bg-learning-app-design-1" data-lang="de">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-germany-svgrepo-com.svg"
+ alt="German" class="w-6 h-6"><span class="font-medium">German</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-de">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-de">0</td>
+ </tr>
+ <tr class="hover:bg-learning-app-design-1" data-lang="fr">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-france-svgrepo-com.svg"
+ alt="French" class="w-6 h-6"><span class="font-medium">French</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-fr">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-fr">0</td>
+ </tr>
+ <tr class="hover:bg-learning-app-design-1" data-lang="ru">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-russia-svgrepo-com.svg"
+ alt="Russian" class="w-6 h-6"><span class="font-medium">Russian</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-ru">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-ru">0</td>
+ </tr>
+ <tr class="hover:bg-learning-app-design-1" data-lang="zh">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-china-svgrepo-com.svg"
+ alt="Chinese" class="w-6 h-6"><span class="font-medium">Chinese</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-zh">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-zh">0</td>
+ </tr>
+ <tr class="hover:bg-learning-app-design-1" data-lang="ja">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-japan-svgrepo-com.svg"
+ alt="Japanese" class="w-6 h-6"><span class="font-medium">Japanese</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-ja">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-ja">0</td>
+ </tr>
+ <tr class="hover:bg-learning-app-design-1" data-lang="ko">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-south-korea-svgrepo-com.svg"
+ alt="Korean" class="w-6 h-6"><span class="font-medium">Korean</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-ko">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-ko">0</td>
+ </tr>
+ <tr class="hover:bg-learning-app-design-1" data-lang="it">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-italy-svgrepo-com.svg"
+ alt="Italian" class="w-6 h-6"><span class="font-medium">Italian</span></div>
+ </td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-stars-it">0</td>
+ <td class="px-3 py-2 text-center font-semibold" id="all-challenges-it">0</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <!-- Modale -->
+ <%- include('partials/modals') %>
+
+ <script defer type="module" src="/scripts/main.js"></script>
+ <script>
+ document.addEventListener("DOMContentLoaded", () => {
+ if (window.initApp) {
+ window.initApp();
+ }
+
+ // Show/hide stats based on login status
+ function updateStatsVisibility(forceShow = false) {
+ const authLoading = document.getElementById('auth-loading');
+ const loginScreen = document.getElementById('login-required-screen');
+ const statsContent = document.getElementById('stats-content');
+ if (!loginScreen || !statsContent) return;
+
+ // Check if user is logged in
+ const isLoggedIn = window.auth?.currentUser || window.currentUser;
+
+ if (isLoggedIn) {
+ if (authLoading) authLoading.classList.add('hidden');
+ loginScreen.classList.add('hidden');
+ statsContent.classList.remove('hidden');
+ } else if (forceShow) {
+ // Only show login screen after we're sure auth has loaded
+ if (authLoading) authLoading.classList.add('hidden');
+ loginScreen.classList.remove('hidden');
+ statsContent.classList.add('hidden');
+ }
+ }
+
+ // Listen for auth state changes - this is the reliable way
+ window.addEventListener('authStateChanged', (event) => {
+ updateStatsVisibility(true);
+ // Don't render stats yet - wait for cloud sync
+ });
+
+ // Listen for cloud sync complete - then render stats with fresh data
+ window.addEventListener('cloudSyncComplete', (event) => {
+ console.log('☁️ Cloud sync complete, rendering stats with fresh data');
+ if (window.auth?.currentUser || window.currentUser) {
+ setTimeout(() => {
+ if (typeof renderStats === 'function') renderStats();
+ }, 100);
+ }
+ });
+
+ // Fallback: if auth doesn't fire event within 2s, show appropriate screen
+ setTimeout(() => {
+ updateStatsVisibility(true);
+ // If still no cloudSyncComplete after 3s, render with local data as fallback
+ setTimeout(() => {
+ if (window.auth?.currentUser || window.currentUser) {
+ console.log('⚠️ Cloud sync timeout, rendering with local data');
+ if (typeof renderStats === 'function') renderStats();
+ }
+ }, 1000);
+ }, 2000);
+
+ // Also update visibility on direct onAuthStateChanged
+ if (window.auth) {
+ import('https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js').then(({ onAuthStateChanged }) => {
+ onAuthStateChanged(window.auth, (user) => {
+ updateStatsVisibility(true);
+ // Don't render stats here - wait for cloudSyncComplete event
+ });
+ }).catch(() => { });
+ }
+
+ const categorySelect = document.getElementById("category-section-select");
+ const sectionSelectClasses =
+"w-full px-2 py-1 text-xs bg-learning-app-design-1 rounded focus:outline-none";
+ const selectHome = categorySelect
+ ? {
+ parent: categorySelect.parentNode,
+ nextSibling: categorySelect.nextSibling,
+ }
+ : null;
+
+ /**
+ * Update language flag and name in stats header
+ */
+ function updateStatsLanguageDisplay() {
+ const currentLang = localStorage.getItem("selectedLanguage") ||"es";
+ const flagElement = document.getElementById("stats-lang-flag");
+ const nameElement = document.getElementById("stats-lang-name");
+
+ const languageData = {
+ es: {
+ name:"Spanish",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="32" fill="#c60b1e"/><rect y="11" x="0" height="10" width="32" fill="#ffc400"/></svg>',
+ },
+ de: {
+ name:"German",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="11" width="32" fill="#000000"/><rect y="11" x="0" height="11" width="32" fill="#dd0000"/><rect y="22" x="0" height="10" width="32" fill="#ffce00"/></svg>',
+ },
+ fr: {
+ name:"French",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#002395"/><rect y="0" x="11" height="32" width="11" fill="#ffffff"/><rect y="0" x="22" height="32" width="10" fill="#ed2939"/></svg>',
+ },
+ ru: {
+ name:"Russian",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="11" width="32" fill="#ffffff"/><rect y="11" x="0" height="11" width="32" fill="#0039a6"/><rect y="22" x="0" height="10" width="32" fill="#d52b1e"/></svg>',
+ },
+ zh: {
+ name:"Chinese",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#de2910" height="32" width="32" y="0" x="0"/><polygon fill="#ffde00" points="8,6 9.5,10 14,10 10.5,12.5 12,17 8,14 4,17 5.5,12.5 2,10 6.5,10"/></svg>',
+ },
+ ja: {
+ name:"Japanese",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#ffffff" height="32" width="32" y="0" x="0"/><circle fill="#bc002d" cx="16" cy="16" r="6"/></svg>',
+ },
+ ko: {
+ name:"Korean",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect fill="#ffffff" height="32" width="32" y="0" x="0"/><circle fill="none" stroke="#c60c30" stroke-width="2" cx="16" cy="16" r="6"/><path fill="#003478" d="M 16 10 A 6 6 0 0 1 16 22 Z"/><path fill="#c60c30" d="M 16 10 A 6 6 0 0 0 16 22 Z"/></svg>',
+ },
+ it: {
+ name:"Italian",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#009246"/><rect y="0" x="11" height="32" width="10" fill="#eeeeee"/><rect y="0" x="21" height="32" width="11" fill="#ce2b36"/></svg>',
+ },
+ };
+
+ const langInfo = languageData[currentLang] || languageData.es;
+
+ if (flagElement) {
+ flagElement.innerHTML = langInfo.flag;
+ }
+ if (nameElement) {
+ nameElement.textContent = `(${langInfo.name})`;
+ }
+ }
+
+ // Update language display on page load
+ updateStatsLanguageDisplay();
+
+ // Listen for language changes
+ window.addEventListener("languageChanged", updateStatsLanguageDisplay);
+
+ const getCurrentLanguage = () =>
+ localStorage.getItem("selectedLanguage") ||"es";
+
+ function restoreSectionSelect() {
+ if (!categorySelect || !selectHome?.parent) return;
+ categorySelect.className = sectionSelectClasses;
+ if (
+ selectHome.nextSibling &&
+ selectHome.nextSibling.parentNode === selectHome.parent
+ ) {
+ selectHome.parent.insertBefore(
+ categorySelect,
+ selectHome.nextSibling
+ );
+ } else {
+ selectHome.parent.appendChild(categorySelect);
+ }
+ }
+
+ function moveSectionSelectTo(container) {
+ if (!categorySelect) return;
+ if (container) {
+ categorySelect.className = sectionSelectClasses;
+ container.appendChild(categorySelect);
+ } else {
+ restoreSectionSelect();
+ }
+ }
+
+ const sectionSelectMediaQuery = window.matchMedia("(max-width: 640px)");
+
+ function updateSectionSelectPlacement() {
+ const selectorContainer = document.getElementById(
+"category-selector-container"
+ );
+ if (!categorySelect) return;
+ if (sectionSelectMediaQuery.matches) {
+ restoreSectionSelect();
+ } else {
+ moveSectionSelectTo(selectorContainer);
+ }
+ }
+
+ sectionSelectMediaQuery.addEventListener(
+"change",
+ updateSectionSelectPlacement
+ );
+
+ function loadCompletionDatesSnapshot() {
+ try {
+ return (
+ JSON.parse(
+ localStorage.getItem(
+ `categoryCompletionDates_${getCurrentLanguage()}`
+ ) ||"{}"
+ ) || {}
+ );
+ } catch (error) {
+ console.error("Error reading completion dates", error);
+ return {};
+ }
+ }
+
+ /**
+ * Main function to render statistics page
+ * Loads user progress, calculates category stats, and renders tables
+ */
+ function renderStats() {
+ if (!window.AppState || !window.DataService) {
+ setTimeout(renderStats, 300);
+ return;
+ }
+
+ // CRITICAL: Verify localStorage data belongs to current user
+ const storedUserId = localStorage.getItem("mc_current_user_id");
+ const currentUserId = window.auth?.currentUser?.uid || window.currentUser?.uid;
+
+ if (!currentUserId) {
+ console.warn("⚠️ No current user, cannot render stats");
+ return;
+ }
+
+ if (storedUserId && storedUserId !== currentUserId) {
+ console.warn("⚠️ localStorage data belongs to different user, clearing and reloading...");
+ // Clear old data and wait for cloud sync
+ if (window.syncService?.clearLocalUserData) {
+ window.syncService.clearLocalUserData();
+ }
+ localStorage.setItem("mc_current_user_id", currentUserId);
+ // Wait for fresh data from cloud
+ setTimeout(renderStats, 500);
+ return;
+ }
+
+ const buttonStates = window.AppState.buttonStates || {};
+ const userIsPremium = window.isPremiumUser || false;
+ const allWords = window.DataService.allWords || [];
+
+ // Fixed clicks to complete - always 5 for fair and consistent tracking
+ const userClicksToComplete = 5;
+
+ const categorySections = [
+ {
+ title:"Greetings & Introductions",
+ source:"free",
+ isPremium: false,
+ },
+ {
+ title:"Numbers & Time",
+ source:"premium1",
+ isPremium: true,
+ },
+ { title:"Food & Dining", source:"premium2", isPremium: true },
+ { title:"Travel & Tourism", source:"premium3", isPremium: true },
+ {
+ title:"Daily Life & Shopping",
+ source:"premium4",
+ isPremium: true,
+ },
+ {
+ title:"Family & Relationships",
+ source:"premium5",
+ isPremium: true,
+ },
+ { title:"Health & Body", source:"premium6", isPremium: true },
+ { title:"Education & Work", source:"premium7", isPremium: true },
+ { title:"Hobbies & Interests", source:"premium8", isPremium: true },
+ ];
+
+ const categoryStats = {};
+ categorySections.forEach((section) => {
+ categoryStats[section.source] = {
+ title: section.title,
+ isPremium: section.isPremium,
+ categories: {},
+ };
+ });
+
+ /**
+ * Initialize the section selector dropdown
+ */
+ function initSectionSelector() {
+ const select = document.getElementById("category-section-select");
+ if (!select) return;
+
+ // Clear existing options except the first one
+ select.innerHTML =
+"<option disabled selected>Choose a section...</option>";
+
+ // Add sections to dropdown
+ categorySections.forEach((section, index) => {
+ const option = document.createElement("option");
+ option.value = section.source;
+ option.textContent = section.title;
+
+ // Add premium indicator and disable if user is not premium
+ if (section.isPremium) {
+ if (!userIsPremium) {
+ option.textContent +=" [LOCKED]";
+ option.disabled = true;
+ option.className ="";
+ } else {
+ option.textContent +=" [PREMIUM]";
+ }
+ }
+
+ select.appendChild(option);
+ });
+
+ // Add event listener for section selection (replace instead of stacking listeners)
+ select.onchange = function () {
+ const selectedSource = this.value;
+ const selectedSection = categorySections.find(
+ (s) => s.source === selectedSource
+ );
+ if (selectedSection) {
+ renderSelectedSection(selectedSection);
+ }
+ };
+
+ // Auto-select first available section
+ const firstAvailableSection = categorySections.find(
+ (s) => !s.isPremium || userIsPremium
+ );
+ if (firstAvailableSection) {
+ select.value = firstAvailableSection.source;
+ renderSelectedSection(firstAvailableSection);
+ }
+ }
+
+ /**
+ * Fill totalWords count for each category from DataService
+ */
+ function fillTotalWords() {
+ categorySections.forEach((section) => {
+ const wordsInSection = allWords.filter(
+ (word) => word.source === section.source
+ );
+ wordsInSection.forEach((word) => {
+ const cat = word.category ||"Unknown";
+ if (!categoryStats[section.source].categories[cat]) {
+ categoryStats[section.source].categories[cat] = {
+ total: 0,
+ locked: 0,
+ totalWords: 0,
+ lastLockedDate: null,
+ };
+ }
+ categoryStats[section.source].categories[cat].totalWords += 1;
+ });
+ });
+ }
+
+ /**
+ * Process user progress and update category completion tracking
+ * Optimized single-pass algorithm to reduce computation
+ */
+ function fillUserProgress() {
+ // Initialize completion dates storage
+ let savedCompletionDates = {};
+ try {
+ const currentLang = getCurrentLanguage();
+ savedCompletionDates = JSON.parse(
+ localStorage.getItem(
+ `categoryCompletionDates_${currentLang}`
+ ) ||"{}"
+ );
+ } catch (e) {
+ console.error("Error loading saved completion dates", e);
+ }
+
+ let datesUpdated = false;
+ const categoryProgress = {};
+
+ // Single pass - collect data and update stats
+ Object.values(buttonStates).forEach((state) => {
+ if (!state || !state.category) return;
+ const source = state.source ||"free";
+ const cat = state.category;
+ const key = `${source}::${cat}`;
+
+ // Initialize progress tracking
+ if (!categoryProgress[key]) {
+ categoryProgress[key] = { total: 0, locked: 0, inProgress: 0, totalClicks: 0 };
+ }
+
+ // Initialize category stats
+ if (!categoryStats[source]) return;
+ if (!categoryStats[source].categories[cat]) {
+ categoryStats[source].categories[cat] = {
+ total: 0,
+ locked: 0,
+ inProgress: 0,
+ totalWords: 0,
+ lastLockedDate: null,
+ totalClicks: 0,
+ };
+ }
+
+ // Count ANY click progress (count > 0, even if not locked)
+ const hasBeenStarted =
+ state.count > 0 ||
+ (Array.isArray(state.clicks) && state.clicks.length > 0) ||
+ state.locked;
+
+ // Always count total for progress calculation
+ categoryProgress[key].total += 1;
+
+ if (state.locked) {
+ categoryProgress[key].locked += 1;
+ // Cap clicks contribution to user's clicksToComplete setting to avoid progress > 100%
+ categoryProgress[key].totalClicks += Math.min(state.count || 0, userClicksToComplete);
+ } else if (hasBeenStarted) {
+ // Count in-progress (started but not locked)
+ categoryProgress[key].inProgress += 1;
+ // Cap clicks contribution to user's clicksToComplete setting to avoid progress > 100%
+ categoryProgress[key].totalClicks += Math.min(state.count || 0, userClicksToComplete);
+ }
+
+ if (state.locked) {
+ // Check for category completion
+ const lastClick =
+ Array.isArray(state.clicks) && state.clicks.length > 0
+ ? state.clicks[state.clicks.length - 1].timestamp
+ : null;
+
+ // Check if this is a fully completed category
+ const totalWordsInCategory =
+ categoryStats[source].categories[cat].totalWords || 0;
+ const isFullyComplete =
+ totalWordsInCategory > 0 &&
+ categoryProgress[key].locked === totalWordsInCategory;
+
+ // Only update lastLockedDate and saved dates for fully completed categories
+ if (isFullyComplete && lastClick) {
+ // Only update if this is the latest timestamp for category completion
+ if (
+ !categoryStats[source].categories[cat].lastLockedDate ||
+ lastClick >
+ categoryStats[source].categories[cat].lastLockedDate
+ ) {
+ categoryStats[source].categories[cat].lastLockedDate =
+ lastClick;
+
+ // IMPORTANT: Don't overwrite challenge data objects with timestamp!
+ // Only set timestamp if there's no existing challenge data
+ const existingData = savedCompletionDates[key];
+ if (!existingData || typeof existingData !== 'object' || !('totalBonusPoints' in existingData)) {
+ savedCompletionDates[key] = lastClick;
+ datesUpdated = true;
+ }
+ delete savedCompletionDates[`${key}:inProgress`];
+ }
+ }
+ }
+ });
+
+ // Update final stats and check for in-progress categories
+ Object.keys(categoryProgress).forEach((key) => {
+ const [source, cat] = key.split("::");
+ if (
+ categoryStats[source] &&
+ categoryStats[source].categories[cat]
+ ) {
+ categoryStats[source].categories[cat].total =
+ categoryProgress[key].total;
+ categoryStats[source].categories[cat].locked =
+ categoryProgress[key].locked;
+ categoryStats[source].categories[cat].inProgress =
+ categoryProgress[key].inProgress;
+ categoryStats[source].categories[cat].totalClicks =
+ categoryProgress[key].totalClicks;
+
+ // Check if category is in progress but not complete
+ const totalWordsInCategory =
+ categoryStats[source].categories[cat].totalWords || 0;
+ if (
+ categoryProgress[key].locked > 0 &&
+ categoryProgress[key].locked < totalWordsInCategory
+ ) {
+ savedCompletionDates[`${key}:inProgress`] = true;
+ datesUpdated = true;
+ }
+ }
+ });
+
+ // Save updated completion dates back to localStorage if anything changed
+ if (datesUpdated) {
+ try {
+ const currentLang = getCurrentLanguage();
+ localStorage.setItem(
+ `categoryCompletionDates_${currentLang}`,
+ JSON.stringify(savedCompletionDates)
+ );
+ } catch (e) {
+ console.error("Error saving completion dates", e);
+ }
+ }
+ }
+
+ /**
+ * Fill All Languages Progress table with stats from all languages
+ * CRITICAL: Only show data if it belongs to the current user
+ */
+ function fillAllLanguagesProgress() {
+ const LANGUAGES = ['es', 'de', 'fr', 'ru', 'zh', 'ja', 'ko', 'it'];
+
+ // Verify data ownership
+ const storedUserId = localStorage.getItem("mc_current_user_id");
+ const currentUserId = window.auth?.currentUser?.uid || window.currentUser?.uid;
+
+ if (!currentUserId || (storedUserId && storedUserId !== currentUserId)) {
+ console.warn("⚠️ fillAllLanguagesProgress: Data doesn't belong to current user, showing zeros");
+ LANGUAGES.forEach((lang) => {
+ const starsEl = document.getElementById(`all-stars-${lang}`);
+ const challengesEl = document.getElementById(`all-challenges-${lang}`);
+ if (starsEl) starsEl.textContent = 0;
+ if (challengesEl) challengesEl.textContent = 0;
+ });
+ return;
+ }
+
+ LANGUAGES.forEach((lang) => {
+ const repeatCounts = JSON.parse(
+ localStorage.getItem(`repeatCounts_${lang}`) ||"{}"
+ );
+ const completionMap = JSON.parse(
+ localStorage.getItem(`categoryCompletionDates_${lang}`) ||"{}"
+ );
+
+ // Count stars (category completions)
+ const langStars = Object.values(repeatCounts).reduce(
+ (sum, count) => sum + (count || 0), 0
+ );
+
+ // Count challenge completions
+ const completionEntries = Object.values(completionMap).filter(
+ (entry) => entry && typeof entry ==="object" &&"totalBonusPoints" in entry
+ );
+ const langChallenges = completionEntries.length;
+
+ // Update DOM elements
+ const starsEl = document.getElementById(`all-stars-${lang}`);
+ const challengesEl = document.getElementById(`all-challenges-${lang}`);
+
+ if (starsEl) starsEl.textContent = langStars;
+ if (challengesEl) challengesEl.textContent = langChallenges;
+ });
+ }
+
+ /**
+ * Render a single selected section instead of all sections
+ */
+ function renderSelectedSection(section) {
+ const statsContainer = document.getElementById("stats-container");
+ if (!statsContainer) return;
+
+ const completionDates = loadCompletionDatesSnapshot();
+
+ // Clear previous content
+ const starPathD =
+"M11.48 3.499a.562.562 0 011.04 0l1.132 3.486a.563.563 0 00.53.39l3.662.053c.499.007.705.64.305.94l-2.965 2.215a.563.563 0 00-.198.59l.93 3.457c.123.457-.388.82-.79.593L12 13.875l-3.126 1.848c-.403.227-.914-.136-.79-.593l.93-3.457a.563.563 0 00-.198-.59L5.85 8.368c-.4-.3-.194-.933.305-.94l3.662-.053a.563.563 0 00.53-.39l1.132-3.486z";
+
+ const renderStarIcons = (filledCount = 0, totalStars = 2) => {
+ const stars = [];
+ for (let i = 0; i < totalStars; i++) {
+ const isFilled = i < filledCount;
+ if (isFilled) {
+ stars.push(`
+ <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+ <path d="${starPathD}"></path>
+ </svg>
+ `);
+ } else {
+ stars.push(`
+ <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+ <path d="${starPathD}" stroke-linecap="round" stroke-linejoin="round"></path>
+ </svg>
+ `);
+ }
+ }
+ return `<span class="flex items-center gap-0.5">${stars.join("")}</span>`;
+ };
+
+ const renderLegendStars = (count = 1) => {
+ const filledStar = `
+ <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+ <path d="${starPathD}"></path>
+ </svg>
+ `;
+ return `<span class="flex items-center gap-0.5">${filledStar.repeat(count)}</span>`;
+ };
+
+ const renderLevelBadge = (repeatCount = 0) => {
+ // Simple 5-star system: each category completion fills one star
+ const totalStars = 5;
+ const filledStars = Math.min(repeatCount, totalStars);
+ const extraRepeats = repeatCount > 5 ? repeatCount - 5 : 0;
+
+ const starPathD ="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z";
+
+ let starsHtml = '';
+ for (let i = 0; i < totalStars; i++) {
+ if (i < filledStars) {
+ starsHtml += `<svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="${starPathD}"></path></svg>`;
+ } else {
+ starsHtml += `<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="${starPathD}"></path></svg>`;
+ }
+ }
+
+ // Show extra repeats counter if more than 5
+ const extraHtml = extraRepeats > 0 ? `<span class="text-xs ml-1">(+${extraRepeats})</span>` : '';
+
+ return `<span class="flex items-center gap-0.5">${starsHtml}${extraHtml}</span>`;
+ };
+
+ statsContainer.innerHTML ="";
+
+ const sectionData = categoryStats[section.source];
+ const categories = Object.keys(sectionData.categories);
+ const inferredGroupSize =
+ window.AppState?.cardsData?.[0]?.words?.length || 4;
+
+ const getCategoryCardProgress = (categoryName) => {
+ const categoryWords = allWords.filter(
+ (word) =>
+ word.source === section.source &&
+ word.category === categoryName
+ );
+
+ if (categoryWords.length === 0) {
+ return { totalCards: 0, completedCards: 0, startedCards: 0 };
+ }
+
+ const totalCards = Math.ceil(
+ categoryWords.length / inferredGroupSize
+ );
+ let completedCards = 0;
+ let startedCards = 0;
+
+ for (let i = 0; i < categoryWords.length; i += inferredGroupSize) {
+ const cardWords = categoryWords.slice(i, i + inferredGroupSize);
+ let lockedCount = 0;
+ let hasProgress = false;
+
+ cardWords.forEach((word) => {
+ const key = `word-${word.globalIndex}-${word.source}`;
+ const state = window.AppState.getButtonState
+ ? window.AppState.getButtonState(key)
+ : null;
+ const count = state?.count || 0;
+ const clicksCount = Array.isArray(state?.clicks)
+ ? state.clicks.length
+ : 0;
+
+ if (state?.locked) {
+ lockedCount += 1;
+ }
+
+ if (!hasProgress && (count > 0 || clicksCount > 0 || state?.locked)) {
+ hasProgress = true;
+ }
+ });
+
+ if (cardWords.length > 0 && lockedCount === cardWords.length) {
+ completedCards += 1;
+ }
+
+ if (hasProgress) {
+ startedCards += 1;
+ }
+ }
+
+ return { totalCards, completedCards, startedCards };
+ };
+
+ if (categories.length > 0) {
+ // Create outer wrapper with (like leaderboard)
+ const outerWrapper = document.createElement("div");
+ outerWrapper.className ="bg-learning-app-design-3 shadow-card rounded-xl overflow-hidden mb-6";
+
+ // Create header row (Flowbite-style with on top)
+ const headerRow = document.createElement("div");
+ headerRow.className =" bg-learning-app-design-1 flex items-center";
+ headerRow.style.height ="70px";
+ headerRow.style.paddingLeft ="1rem";
+ headerRow.style.paddingRight ="1rem";
+
+ // Create title header
+ const tableTitle = document.createElement("h2");
+ tableTitle.className ="text-2xl font-bold";
+ tableTitle.textContent ="Category Progress";
+ headerRow.appendChild(tableTitle);
+ outerWrapper.appendChild(headerRow);
+
+ // Create inner padding container for content
+ const innerContainer = document.createElement("div");
+ innerContainer.className ="p-6";
+
+ // Create legend inside the (before table)
+ const legendAboveTable = document.createElement("div");
+ legendAboveTable.className ="mb-4 bg-learning-app-design-1 shadow-card rounded-xl p-6";
+ legendAboveTable.innerHTML = `
+ <div class="space-y-3 text-sm">
+ <!-- Row 1: Progress -->
+ <div class="flex items-center gap-2">
+ <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M21 3L14 9L10 5L3 11M4.5 21C3.67157 21 3 20.3284 3 19.5V17.5C3 16.6716 3.67157 16 4.5 16C5.32843 16 6 16.6716 6 17.5V19.5C6 20.3284 5.32843 21 4.5 21ZM11.5 21C10.6716 21 10 20.3284 10 19.5V14.5C10 13.6716 10.6716 13 11.5 13C12.3284 13 13 13.6716 13 14.5V19.5C13 20.3284 12.3284 21 11.5 21ZM18.5 21C17.6716 21 17 20.3284 17 19.5V16.5C17 15.6716 17.6716 15 18.5 15C19.3284 15 20 15.6716 20 16.5V19.5C20 20.3284 19.3284 21 18.5 21Z"/>
+ </svg>
+ <span class=""><strong>Progress:</strong> Completed Cards vs Total Cards</span>
+ </div>
+ <!-- Row 2: Stars -->
+ <div class="flex items-center gap-2">
+ <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z"/>
+ </svg>
+ <span class=""><strong>Stars:</strong> Each category completion fills one star (max 5)</span>
+ </div>
+ <!-- Row 3: Cooldown Info -->
+ <div class="flex items-center gap-2">
+ <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M12 7V12L9.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/>
+ </svg>
+ <span class=""><strong>Review Cooldown:</strong> 24 hours after completing a category</span>
+ </div>
+ </div>
+ `;
+ innerContainer.appendChild(legendAboveTable);
+
+ // Create table wrapper
+ const tableWrapper = document.createElement("div");
+ tableWrapper.className =
+"relative overflow-hidden bg-learning-app-design-1 shadow-card sm:rounded-xl";
+
+ const tableContainer = document.createElement("div");
+ tableContainer.className ="overflow-x-auto";
+
+ const table = document.createElement("table");
+ table.className ="w-full text-sm text-left stats-table";
+ table.innerHTML = `
+ <thead class="text-xs uppercase bg-learning-app-design-3">
+ <tr class="h-[70px]">
+ <th scope="col" class="px-4 py-3" style="width: 220px; max-width: 220px;">
+ <div id="category-selector-container"></div>
+ </th>
+ <th scope="col" class="px-4 py-3" style="width: 120px;">
+ <div class="flex items-center gap-1">
+ <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M21 3L14 9L10 5L3 11M4.5 21C3.67157 21 3 20.3284 3 19.5V17.5C3 16.6716 3.67157 16 4.5 16C5.32843 16 6 16.6716 6 17.5V19.5C6 20.3284 5.32843 21 4.5 21ZM11.5 21C10.6716 21 10 20.3284 10 19.5V14.5C10 13.6716 10.6716 13 11.5 13C12.3284 13 13 13.6716 13 14.5V19.5C13 20.3284 12.3284 21 11.5 21ZM18.5 21C17.6716 21 17 20.3284 17 19.5V16.5C17 15.6716 17.6716 15 18.5 15C19.3284 15 20 15.6716 20 16.5V19.5C20 20.3284 19.3284 21 18.5 21Z"/>
+ </svg>
+ <span>Progress</span>
+ </div>
+ </th>
+ <th scope="col" class="px-4 py-3" style="width: 120px;">
+ <div class="flex items-center gap-1">
+ <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z"/>
+ </svg>
+ <span>Stars</span>
+ </div>
+ </th>
+ <th scope="col" class="px-4 py-3" style="width: 160px;">
+ <div class="flex items-center gap-1">
+ <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M12 7V12L9.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/>
+ </svg>
+ <span>When to Review</span>
+ </div>
+ </th>
+ </tr>
+ </thead>
+ <tbody>
+ ${categories
+ .map((categoryName) => {
+ const stats = sectionData.categories[categoryName];
+ const key = `${section.source}::${categoryName}`;
+ const repeatCount = window.AppState.repeatCounts
+ ? window.AppState.repeatCounts[key] || 0
+ : 0;
+ const isCurrentlyComplete =
+ stats.locked === stats.totalWords && stats.totalWords > 0;
+
+ const { totalCards, completedCards, startedCards } =
+ getCategoryCardProgress(categoryName);
+
+ // Calculate progress based on completed cards (not clicks)
+ const progressPercentage = totalCards > 0
+ ? Math.round((completedCards / totalCards) * 100)
+ : 0;
+
+ // Get the saved completion date from localStorage directly
+ const completionEntry = completionDates[key];
+ let completionDate = null;
+
+ if (typeof completionEntry ==="number") {
+ completionDate = completionEntry;
+ } else if (typeof completionEntry ==="string") {
+ const parsed = Date.parse(completionEntry);
+ completionDate = Number.isFinite(parsed) ? parsed : null;
+ } else if (completionEntry && typeof completionEntry ==="object") {
+ // Challenge data object - use completion timestamp if available
+ if (completionEntry.lastLockedDate) {
+ completionDate = completionEntry.lastLockedDate;
+ } else if (completionEntry.completedAt) {
+ const parsed = Date.parse(completionEntry.completedAt);
+ completionDate = Number.isFinite(parsed) ? parsed : null;
+ }
+ }
+
+ if (!completionDate && stats.lastLockedDate) {
+ completionDate = stats.lastLockedDate;
+ }
+
+ if (completionDate && typeof completionDate !=="number") {
+ const parsed = Date.parse(completionDate);
+ completionDate = Number.isFinite(parsed) ? parsed : null;
+ }
+
+ // Fixed 24-hour cooldown (in milliseconds)
+ const COOLDOWN_HOURS = 24;
+ const COOLDOWN_MS = COOLDOWN_HOURS * 60 * 60 * 1000;
+
+ // Show relative time and countdown to next review
+ let lastLockedDate ="Never";
+ let nextReviewText ="";
+ let nextReviewBadgeClass ="bg-learning-app-design-4";
+ let isReviewReady = false;
+
+ if (completionDate) {
+ // TEST MODE: Add ?testHours=X to URL to simulate X hours passing
+ const urlParams = new URLSearchParams(window.location.search);
+ const testHours = parseInt(urlParams.get('testHours')) || 0;
+ const now = Date.now() + (testHours * 60 * 60 * 1000);
+
+ const timeDiff = now - completionDate;
+ const hoursDiff = Math.floor(timeDiff / (1000 * 60 * 60));
+ const minutesDiff = Math.floor(timeDiff / (1000 * 60));
+
+ // Format"last completed" text
+ if (hoursDiff >= 24) {
+ const daysDiff = Math.floor(hoursDiff / 24);
+ lastLockedDate = daysDiff === 1 ?"1 day ago" : `${daysDiff} days ago`;
+ } else if (hoursDiff > 0) {
+ lastLockedDate = hoursDiff === 1 ?"1 hour ago" : `${hoursDiff} hours ago`;
+ } else if (minutesDiff > 0) {
+ lastLockedDate = minutesDiff === 1 ?"1 minute ago" : `${minutesDiff} minutes ago`;
+ } else {
+ lastLockedDate ="Just now";
+ }
+
+ // Calculate hours until next review (24h cooldown)
+ const hoursUntilReview = COOLDOWN_HOURS - hoursDiff;
+
+ if (hoursUntilReview > 0) {
+ // Still in cooldown - show hours remaining
+ nextReviewText = `Review in ${hoursUntilReview}h`;
+ nextReviewBadgeClass ="text-xs";
+ isReviewReady = false;
+ } else {
+ // Cooldown complete - ready to review!
+ nextReviewText = `Review now`;
+ nextReviewBadgeClass ="text-xs";
+ isReviewReady = true;
+ }
+ }
+
+ return `
+ <tr class="hover:bg-learning-app-design-3">
+ <th scope="row" class="px-4 py-4 font-medium whitespace-nowrap">${categoryName}</th>
+ <td class="px-4 py-4" data-label="Progress">
+ <div class="flex flex-col gap-1">
+ <span class="font-medium" style="font-size: .75rem; line-height: 1rem;">${progressPercentage}%</span>
+ <div class="w-full bg-learning-app-design-3 rounded-full" style="height: .375rem;">
+ <div class="rounded-full transition-all duration-300 bg-level-learning" style="width: ${progressPercentage}%; height: .375rem;"></div>
+ </div>
+ </div>
+ </td>
+ <td class="px-4 py-4" data-label="Levels">
+ ${renderLevelBadge(repeatCount)}
+ </td>
+ <td class="px-4 py-4" data-label="When to review">
+ ${(() => {
+ // Category is NOT complete (progress < 100%)
+ // Show Continue or Start based on whether user has started
+ if (progressPercentage < 100) {
+ if (startedCards > 0) {
+ return `<button class="continue-btn btn btn text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Continue</button>`;
+ }
+ return `<button class="start-btn btn btn text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Start</button>`;
+ }
+
+ // Category is 100% complete
+ // Check if cooldown has passed
+ if (completionDate) {
+ return isReviewReady
+ ? `<button class="restart-btn btn btn hover:bg-learning-app-design-5 text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Review Now</button>`
+ : `<span class="${nextReviewBadgeClass}">${nextReviewText}</span>`;
+ }
+
+ // 100% complete but no completion date (edge case - shouldn't happen)
+ return `<button class="restart-btn btn btn hover:bg-learning-app-design-5 text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Review Now</button>`;
+ })()}
+ </td>
+ </tr>
+ `;
+ })
+ .join("")}
+ </tbody>
+ `;
+
+ tableContainer.appendChild(table);
+ tableWrapper.appendChild(tableContainer);
+
+ // Append table to inner container
+ innerContainer.appendChild(tableWrapper);
+
+ // Append inner container to outer wrapper
+ outerWrapper.appendChild(innerContainer);
+
+ // Append complete structure to stats container
+ statsContainer.appendChild(outerWrapper);
+
+ } else if (sectionData.isPremium) {
+ if (userIsPremium) {
+ const noDataDiv = document.createElement("div");
+ noDataDiv.className ="alert alert-info alert-sm";
+ noDataDiv.innerHTML = `
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+ <span class="text-sm">No data yet - start learning to see your progress!</span>
+ `;
+ statsContainer.appendChild(noDataDiv);
+ } else {
+ const premiumAlert = document.createElement("div");
+ premiumAlert.className ="alert alert-warning alert-sm";
+ premiumAlert.innerHTML = `
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16c-.77.833.192 2.5 1.732 2.5z"></path></svg>
+ <div>
+ <h3 class="font-bold text-sm">Premium Content</h3>
+ <div class="text-xs">[LOCKED] Unlock premium to access these categories and track your progress!</div>
+ </div>
+ `;
+
+ const upgradeButton = document.createElement("button");
+ upgradeButton.className ="btn btn-xs mt-2 bg-level-expert hover:bg-level-expert";
+ upgradeButton.innerHTML ="Upgrade to Premium";
+ upgradeButton.onclick = () => {
+ window.location.href ="/premium";
+ };
+
+ premiumAlert.appendChild(upgradeButton);
+ statsContainer.appendChild(premiumAlert);
+ }
+ }
+
+ // Setup event handlers for this section
+ setupRestartHandlers();
+
+ // Ensure the section selector is always reachable
+ updateSectionSelectPlacement();
+ }
+
+ // Helper function to update localStorage safely
+ // IMPORTANT: Preserves challenge data objects, only updates simple timestamps
+ function updateLocalStorage(updates) {
+ try {
+ const currentLang = getCurrentLanguage();
+ const savedDates = JSON.parse(
+ localStorage.getItem(
+ `categoryCompletionDates_${currentLang}`
+ ) ||"{}"
+ );
+
+ // Don't overwrite challenge data objects with simple timestamps
+ Object.entries(updates).forEach(([key, value]) => {
+ const existing = savedDates[key];
+ // If existing data is a challenge object (has totalBonusPoints), don't overwrite with timestamp
+ if (existing && typeof existing === 'object' && 'totalBonusPoints' in existing) {
+ // Only allow resetting metadata keys like :reset, :inProgress
+ if (!key.includes(':')) {
+ return; // Skip - don't overwrite challenge data
+ }
+ }
+ savedDates[key] = value;
+ });
+
+ localStorage.setItem(
+ `categoryCompletionDates_${currentLang}`,
+ JSON.stringify(savedDates)
+ );
+ } catch (e) {
+ console.error("Error updating localStorage:", e);
+ }
+ }
+
+ // Logika obsługi przycisków w kolumnie Actions
+ function setupRestartHandlers() {
+ // Handle"Repeat" buttons - reset category and navigate
+ document.querySelectorAll(".restart-btn").forEach((btn) => {
+ btn.onclick = function () {
+ const source = btn.getAttribute("data-source");
+ const category = btn.getAttribute("data-category");
+ const key = `${source}::${category}`;
+
+ console.log('🔄 Review button clicked:', { source, category });
+
+ // Find the actual completion date to preserve it
+ let completionDate = null;
+ if (
+ categoryStats[source] &&
+ categoryStats[source].categories[category]
+ ) {
+ completionDate =
+ categoryStats[source].categories[category].lastLockedDate;
+ }
+
+ // Reset directly in localStorage
+ try {
+ const currentLang = getCurrentLanguage();
+ const buttonStatesKey = `buttonStates_${currentLang}`;
+ let buttonStates = JSON.parse(localStorage.getItem(buttonStatesKey) || '{}');
+
+ console.log('📦 Before reset:', Object.keys(buttonStates).length, 'buttons');
+
+ // Reset all buttons in this category
+ let resetCount = 0;
+ Object.entries(buttonStates).forEach(([key, state]) => {
+ if (state?.source === source && state?.category === category) {
+ state.locked = false;
+ state.count = 0;
+ state.clicks = [];
+ state.lastClicked = null;
+ state.wasReset = true;
+ state.resetTime = Date.now();
+ resetCount++;
+ }
+ });
+
+ console.log('✅ Reset', resetCount, 'buttons in category');
+
+ // Save back to localStorage
+ localStorage.setItem(buttonStatesKey, JSON.stringify(buttonStates));
+
+ } catch (error) {
+ console.error('❌ Error resetting category in localStorage:', error);
+ }
+
+ // Update localStorage with all needed changes
+ const updates = {
+ [`${key}:reset`]: Date.now(),
+ };
+
+ // Keep completion date for display if it exists
+ if (completionDate) {
+ updates[key] = completionDate;
+ }
+
+ updateLocalStorage(updates);
+
+ // Clear progress flags separately
+ try {
+ const currentLang = getCurrentLanguage();
+ const savedDates = JSON.parse(
+ localStorage.getItem(
+ `categoryCompletionDates_${currentLang}`
+ ) ||"{}"
+ );
+ delete savedDates[`${key}:inProgress`];
+ localStorage.setItem(
+ `categoryCompletionDates_${currentLang}`,
+ JSON.stringify(savedDates)
+ );
+ } catch (e) {
+ console.error("Error clearing progress flags", e);
+ }
+
+ // Save target category to localStorage for learn page navigation
+ try {
+ localStorage.setItem(
+"openCategory",
+ JSON.stringify({
+ source: source,
+ category: category,
+ timestamp: Date.now(),
+ })
+ );
+ } catch (e) {
+ console.error("Error saving target category", e);
+ }
+
+ // Force sync to cloud immediately after reset
+ if (window.syncService && typeof window.syncService.syncToCloud === 'function') {
+ console.log('☁️ Forcing sync to cloud after reset...');
+ window.syncService.syncToCloud().then(() => {
+ console.log('✅ Cloud sync complete');
+ // Redirect after sync completes
+ window.location.href ="/learn";
+ }).catch((err) => {
+ console.error('❌ Cloud sync failed:', err);
+ // Redirect anyway
+ window.location.href ="/learn";
+ });
+ } else {
+ console.log('🚀 Redirecting to /learn (no sync service)...');
+ // Redirect to learn page
+ window.location.href ="/learn";
+ }
+ };
+ });
+
+ // Handle"Continue" buttons - just navigate without reset
+ document.querySelectorAll(".continue-btn").forEach((btn) => {
+ btn.onclick = function () {
+ const source = btn.getAttribute("data-source");
+ const category = btn.getAttribute("data-category");
+
+ // Save target category to localStorage for learn page navigation
+ try {
+ localStorage.setItem(
+"openCategory",
+ JSON.stringify({
+ source: source,
+ category: category,
+ timestamp: Date.now(),
+ })
+ );
+ } catch (e) {
+ console.error("Error saving target category", e);
+ }
+
+ // Redirect to learn page to continue learning
+ window.location.href ="/learn";
+ };
+ });
+
+ // Handle"Start" buttons - navigate to begin learning new category
+ document.querySelectorAll(".start-btn").forEach((btn) => {
+ btn.onclick = function () {
+ const source = btn.getAttribute("data-source");
+ const category = btn.getAttribute("data-category");
+
+ // Save target category to localStorage for learn page navigation
+ try {
+ localStorage.setItem(
+"openCategory",
+ JSON.stringify({
+ source: source,
+ category: category,
+ timestamp: Date.now(),
+ })
+ );
+ } catch (e) {
+ console.error("Error saving target category", e);
+ }
+
+ // Redirect to learn page to start learning
+ window.location.href ="/learn";
+ };
+ });
+ }
+
+ fillTotalWords();
+ fillUserProgress();
+
+ // Fill All Languages Progress table
+ fillAllLanguagesProgress();
+
+ // Initialize the section selector and render the first available section
+ initSectionSelector();
+
+ const statsContainer = document.getElementById("stats-container");
+ if (statsContainer.children.length === 0) {
+ const noDataDiv = document.createElement("div");
+ noDataDiv.className ="text-center py-8 rounded-lg bg-learning-app-design-1";
+ noDataDiv.innerHTML = `
+ <p class="text-sm">No statistics yet.</p>
+ <p class="text-xs mt-1">Start learning categories to populate your progress overview.</p>
+ `;
+ statsContainer.appendChild(noDataDiv);
+ return;
+ }
+ }
+
+ setTimeout(renderStats, 2000);
+
+ setTimeout(() => {
+ if (window.AppState) {
+ if (typeof window.AppState.on ==="function") {
+ window.AppState.on("stateChanged", renderStats);
+ } else {
+ let previousStateJSON = JSON.stringify(
+ window.AppState.buttonStates || {}
+ );
+ const stateMonitor = setInterval(() => {
+ if (!window.AppState || !window.AppState.buttonStates) {
+ clearInterval(stateMonitor);
+ return;
+ }
+ const currentStateJSON = JSON.stringify(
+ window.AppState.buttonStates || {}
+ );
+ if (currentStateJSON !== previousStateJSON) {
+ previousStateJSON = currentStateJSON;
+ renderStats();
+ }
+ }, 2000);
+ window.addEventListener("beforeunload", () => {
+ clearInterval(stateMonitor);
+ });
+ }
+ }
+ }, 2500);
+ });
+ </script>
+ </body>
+
+</html>

@@ -1,0 +1,780 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 09 - Hobbies & Interests",
+    "note": "Use this file to synchronize all language files (es, de, fr, ru, zh, ja, ko)",
+    "categories": [
+        {
+            "name": "Hobbies & Interests",
+            "words": [
+                {
+                    "en": "Hobby",
+                    "zh": "爱好。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0001.mp3",
+                    "pinyin": "Àihào"
+                },
+                {
+                    "en": "Interest",
+                    "zh": "兴趣。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0002.mp3",
+                    "pinyin": "Xìngqù"
+                },
+                {
+                    "en": "Music",
+                    "zh": "音乐。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0003.mp3",
+                    "pinyin": "Yīnyuè"
+                },
+                {
+                    "en": "Movie",
+                    "zh": "电影。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0004.mp3",
+                    "pinyin": "Diànyǐng"
+                },
+                {
+                    "en": "Book",
+                    "zh": "书。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0005.mp3",
+                    "pinyin": "Shū"
+                },
+                {
+                    "en": "Game",
+                    "zh": "比赛。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0055.mp3",
+                    "pinyin": "Bǐsài"
+                },
+                {
+                    "en": "Sport",
+                    "zh": "运动。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0007.mp3",
+                    "pinyin": "Yùndòng"
+                },
+                {
+                    "en": "Travel",
+                    "zh": "旅行。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0008.mp3",
+                    "pinyin": "Lǚxíng"
+                },
+                {
+                    "en": "Cooking",
+                    "zh": "烹饪。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0009.mp3",
+                    "pinyin": "Pēngrèn"
+                },
+                {
+                    "en": "Photography",
+                    "zh": "摄影。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0010.mp3",
+                    "pinyin": "Shèyǐng"
+                },
+                {
+                    "en": "Dance",
+                    "zh": "跳舞。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0013.mp3",
+                    "pinyin": "Tiàowǔ"
+                },
+                {
+                    "en": "Singing",
+                    "zh": "唱歌。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0014.mp3",
+                    "pinyin": "Chànggē"
+                },
+                {
+                    "en": "Reading",
+                    "zh": "阅读。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0015.mp3",
+                    "pinyin": "Yuèdú"
+                },
+                {
+                    "en": "Writing",
+                    "zh": "写作。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0016.mp3",
+                    "pinyin": "Xiězuò"
+                },
+                {
+                    "en": "Gardening",
+                    "zh": "园艺。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0017.mp3",
+                    "pinyin": "Yuányì"
+                },
+                {
+                    "en": "Collecting",
+                    "zh": "收藏。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0018.mp3",
+                    "pinyin": "Shōucáng"
+                }
+            ]
+        },
+        {
+            "name": "Hobbies & Interests - Phrases",
+            "words": [
+                {
+                    "en": "What are your hobbies?",
+                    "zh": "您有什么爱好？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0019.mp3",
+                    "pinyin": "Nín yǒu shénme àihào?"
+                },
+                {
+                    "en": "What do you like?",
+                    "zh": "您喜欢什么？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0020.mp3",
+                    "pinyin": "Nín xǐhuan shénme?"
+                },
+                {
+                    "en": "Do you like music?",
+                    "zh": "您喜欢音乐吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0021.mp3",
+                    "pinyin": "Nín xǐhuan yīnyuè ma?"
+                },
+                {
+                    "en": "What music?",
+                    "zh": "什么音乐？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0022.mp3",
+                    "pinyin": "Shénme yīnyuè?"
+                },
+                {
+                    "en": "Can you play guitar?",
+                    "zh": "您会弹吉他吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0023.mp3",
+                    "pinyin": "Nín huì tán jítā ma?"
+                },
+                {
+                    "en": "I'm learning piano.",
+                    "zh": "我在学钢琴。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0024.mp3",
+                    "pinyin": "Wǒ zài xué gāngqín"
+                },
+                {
+                    "en": "Do you like watching movies?",
+                    "zh": "您喜欢看电影吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0025.mp3",
+                    "pinyin": "Nín xǐhuan kàn diànyǐng ma?"
+                },
+                {
+                    "en": "What movies?",
+                    "zh": "什么电影？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0026.mp3",
+                    "pinyin": "Shénme diànyǐng?"
+                },
+                {
+                    "en": "Do you like reading?",
+                    "zh": "您喜欢读书吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0027.mp3",
+                    "pinyin": "Nín xǐhuan dúshū ma?"
+                },
+                {
+                    "en": "What are you reading?",
+                    "zh": "您在读什么？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0028.mp3",
+                    "pinyin": "Nín zài dú shénme?"
+                },
+                {
+                    "en": "Do you like traveling?",
+                    "zh": "您喜欢旅行吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0029.mp3",
+                    "pinyin": "Nín xǐhuan lǚxíng ma?"
+                },
+                {
+                    "en": "Where do you want to go?",
+                    "zh": "您想去哪里？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0030.mp3",
+                    "pinyin": "Nín xiǎng qù nǎlǐ?"
+                },
+                {
+                    "en": "Can you cook?",
+                    "zh": "您会做饭吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0031.mp3",
+                    "pinyin": "Nín huì zuòfàn ma?"
+                },
+                {
+                    "en": "What dishes?",
+                    "zh": "什么菜？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0032.mp3",
+                    "pinyin": "Shénme cài?"
+                },
+                {
+                    "en": "Do you play games?",
+                    "zh": "您玩游戏吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0033.mp3",
+                    "pinyin": "Nín wán yóuxì ma?"
+                },
+                {
+                    "en": "Do you like photography?",
+                    "zh": "您喜欢摄影吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0034.mp3",
+                    "pinyin": "Nín xǐhuan shèyǐng ma?"
+                },
+                {
+                    "en": "Can you sing?",
+                    "zh": "您会唱歌吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0035.mp3",
+                    "pinyin": "Nín huì chànggē ma?"
+                },
+                {
+                    "en": "What do you do in your free time?",
+                    "zh": "您空闲时间做什么？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0036.mp3",
+                    "pinyin": "Nín kòngxián shíjiān zuò shénme?"
+                },
+                {
+                    "en": "I'm trying to practice guitar ten minutes a day.",
+                    "zh": "我试着每天练习十分钟吉他。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0037.mp3",
+                    "pinyin": "Wǒ shìzhe měitiān liànxí shífēnzhōng jítā"
+                },
+                {
+                    "en": "Let's start a small book club together.",
+                    "zh": "我们一起办个小型读书会吧。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0038.mp3",
+                    "pinyin": "Wǒmen yìqǐ bàn gè xiǎoxíng dúshūhuì ba"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise",
+            "words": [
+                {
+                    "en": "Sports",
+                    "zh": "运动。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0041.mp3",
+                    "pinyin": "Yùndòng"
+                },
+                {
+                    "en": "Football",
+                    "zh": "足球",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0119.mp3",
+                    "pinyin": "Zú qiú"
+                },
+                {
+                    "en": "Skiing",
+                    "zh": "滑雪",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0039.mp3",
+                    "pinyin": "Huá xuě"
+                },
+                {
+                    "en": "Skating",
+                    "zh": "滑冰",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0040.mp3",
+                    "pinyin": "Huá bīng"
+                },
+                {
+                    "en": "Champion",
+                    "zh": "冠军",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0120.mp3",
+                    "pinyin": "Guàn jūn"
+                },
+                {
+                    "en": "Match",
+                    "zh": "比赛",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0042.mp3",
+                    "pinyin": "Bǐ sài"
+                },
+                {
+                    "en": "Exercise",
+                    "zh": "锻炼。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0121.mp3",
+                    "pinyin": "Duànliàn"
+                },
+                {
+                    "en": "Soccer",
+                    "zh": "足球。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0043.mp3",
+                    "pinyin": "Zúqiú"
+                },
+                {
+                    "en": "Basketball",
+                    "zh": "篮球。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0044.mp3",
+                    "pinyin": "Lánqiú"
+                },
+                {
+                    "en": "Tennis",
+                    "zh": "网球。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0045.mp3",
+                    "pinyin": "Wǎngqiú"
+                },
+                {
+                    "en": "Swimming",
+                    "zh": "游泳。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0046.mp3",
+                    "pinyin": "Yóuyǒng"
+                },
+                {
+                    "en": "Running",
+                    "zh": "跑步。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0047.mp3",
+                    "pinyin": "Pǎobù"
+                },
+                {
+                    "en": "Yoga",
+                    "zh": "瑜伽。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0048.mp3",
+                    "pinyin": "Yújiā"
+                },
+                {
+                    "en": "Hiking",
+                    "zh": "徒步。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0049.mp3",
+                    "pinyin": "Túbù"
+                },
+                {
+                    "en": "Cycling",
+                    "zh": "骑行。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0050.mp3",
+                    "pinyin": "Qíxíng"
+                },
+                {
+                    "en": "Gym",
+                    "zh": "健身房。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0051.mp3",
+                    "pinyin": "Jiànshēnfáng"
+                },
+                {
+                    "en": "Stadium",
+                    "zh": "体育场。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0052.mp3",
+                    "pinyin": "Tǐyùchǎng"
+                },
+                {
+                    "en": "Team",
+                    "zh": "队伍。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0053.mp3",
+                    "pinyin": "Duìwu"
+                },
+                {
+                    "en": "Player",
+                    "zh": "运动员。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0054.mp3",
+                    "pinyin": "Yùndòngyuán"
+                },
+                {
+                    "en": "Game",
+                    "zh": "比赛。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0122.mp3",
+                    "pinyin": "Bǐsài"
+                },
+                {
+                    "en": "Score",
+                    "zh": "比分。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0056.mp3",
+                    "pinyin": "Bǐfēn"
+                },
+                {
+                    "en": "Win",
+                    "zh": "赢。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0057.mp3",
+                    "pinyin": "Yíng"
+                },
+                {
+                    "en": "Lose",
+                    "zh": "输。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0058.mp3",
+                    "pinyin": "Shū"
+                },
+                {
+                    "en": "Race",
+                    "zh": "赛跑",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0060.mp3",
+                    "pinyin": "Sài pǎo"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise - Phrases",
+            "words": [
+                {
+                    "en": "Do you play sports?",
+                    "zh": "您做运动吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0059.mp3",
+                    "pinyin": "Nín zuò yùndòng ma?"
+                },
+                {
+                    "en": "Do you like sports?",
+                    "zh": "您喜欢运动吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0123.mp3",
+                    "pinyin": "Nín xǐhuan yùndòng ma?"
+                },
+                {
+                    "en": "Do you play soccer?",
+                    "zh": "您踢足球吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0061.mp3",
+                    "pinyin": "Nín tī zúqiú ma?"
+                },
+                {
+                    "en": "Do you play basketball?",
+                    "zh": "您打篮球吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0062.mp3",
+                    "pinyin": "Nín dǎ lánqiú ma?"
+                },
+                {
+                    "en": "Want to swim?",
+                    "zh": "想游泳吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0063.mp3",
+                    "pinyin": "Xiǎng yóuyǒng ma?"
+                },
+                {
+                    "en": "Do you run every day?",
+                    "zh": "您每天跑步吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0064.mp3",
+                    "pinyin": "Nín měitiān pǎobù ma?"
+                },
+                {
+                    "en": "Are you going to the gym?",
+                    "zh": "您要去健身房吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0065.mp3",
+                    "pinyin": "Nín yào qù jiànshēnfáng ma?"
+                },
+                {
+                    "en": "Do you do yoga?",
+                    "zh": "您练瑜伽吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0066.mp3",
+                    "pinyin": "Nín liàn yújiā ma?"
+                },
+                {
+                    "en": "Want to exercise together?",
+                    "zh": "想一起锻炼吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0067.mp3",
+                    "pinyin": "Xiǎng yìqǐ duànliàn ma?"
+                },
+                {
+                    "en": "Can you ski?",
+                    "zh": "您会滑雪吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0068.mp3",
+                    "pinyin": "Nín huì huáxuě ma?"
+                },
+                {
+                    "en": "Are you going hiking today?",
+                    "zh": "您今天要去徒步吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0069.mp3",
+                    "pinyin": "Nín jīntiān yào qù túbù ma?"
+                },
+                {
+                    "en": "When's the match?",
+                    "zh": "比赛什么时候开始？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0070.mp3",
+                    "pinyin": "Bǐsài shénme shíhou kāishǐ?"
+                },
+                {
+                    "en": "Who won?",
+                    "zh": "谁赢了？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0071.mp3",
+                    "pinyin": "Shéi yíng le?"
+                },
+                {
+                    "en": "Did our team win?",
+                    "zh": "我们队赢了吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0072.mp3",
+                    "pinyin": "Wǒmen duì yíng le ma?"
+                },
+                {
+                    "en": "Do you need to exercise?",
+                    "zh": "您需要锻炼吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0073.mp3",
+                    "pinyin": "Nín xūyào duànliàn ma?"
+                },
+                {
+                    "en": "Are you tired?",
+                    "zh": "您累了吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0074.mp3",
+                    "pinyin": "Nín lèi le ma?"
+                },
+                {
+                    "en": "Is it good for health?",
+                    "zh": "这对健康好吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0075.mp3",
+                    "pinyin": "Zhè duì jiànkāng hǎo ma?"
+                },
+                {
+                    "en": "How often do you play?",
+                    "zh": "您多久玩一次？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0076.mp3",
+                    "pinyin": "Nín duōjiǔ wán yí cì?"
+                },
+                {
+                    "en": "Let's warm up with a few stretches first.",
+                    "zh": "我们先做几个伸展动作热身。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0077.mp3",
+                    "pinyin": "Wǒmen xiān zuò jǐ gè shēnzhǎn dòngzuò rèshēn"
+                },
+                {
+                    "en": "I'll cheer from the sidelines if I can't play.",
+                    "zh": "如果我不能上场，我就在场边加油。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0080.mp3",
+                    "pinyin": "Rúguǒ wǒ bùnéng shàngchǎng, wǒ jiù zài chǎngbiān jiāyóu"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals",
+            "words": [
+                {
+                    "en": "Pet",
+                    "zh": "宠物。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0081.mp3",
+                    "pinyin": "Chǒngwù"
+                },
+                {
+                    "en": "Animal",
+                    "zh": "动物。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0082.mp3",
+                    "pinyin": "Dòngwù"
+                },
+                {
+                    "en": "Dog",
+                    "zh": "狗。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0083.mp3",
+                    "pinyin": "Gǒu"
+                },
+                {
+                    "en": "Cat",
+                    "zh": "猫。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0084.mp3",
+                    "pinyin": "Māo"
+                },
+                {
+                    "en": "Bird",
+                    "zh": "鸟。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0085.mp3",
+                    "pinyin": "Niǎo"
+                },
+                {
+                    "en": "Fish",
+                    "zh": "鱼。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0086.mp3",
+                    "pinyin": "Yú"
+                },
+                {
+                    "en": "Rabbit",
+                    "zh": "兔子。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0087.mp3",
+                    "pinyin": "Tùzi"
+                },
+                {
+                    "en": "Hamster",
+                    "zh": "仓鼠。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0088.mp3",
+                    "pinyin": "Cāngshǔ"
+                },
+                {
+                    "en": "Horse",
+                    "zh": "马。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0089.mp3",
+                    "pinyin": "Mǎ"
+                },
+                {
+                    "en": "Cow",
+                    "zh": "牛。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0090.mp3",
+                    "pinyin": "Niú"
+                },
+                {
+                    "en": "Chicken",
+                    "zh": "鸡",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0091.mp3",
+                    "pinyin": "Jī"
+                },
+                {
+                    "en": "Duck",
+                    "zh": "鸭子",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0092.mp3",
+                    "pinyin": "Yā zi"
+                },
+                {
+                    "en": "Bear",
+                    "zh": "熊",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0093.mp3",
+                    "pinyin": "Xióng"
+                },
+                {
+                    "en": "Snake",
+                    "zh": "蛇",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0094.mp3",
+                    "pinyin": "Shé"
+                },
+                {
+                    "en": "Spider",
+                    "zh": "蜘蛛",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0095.mp3",
+                    "pinyin": "Zhī zhū"
+                },
+                {
+                    "en": "Pig",
+                    "zh": "猪。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0124.mp3",
+                    "pinyin": "Zhū"
+                },
+                {
+                    "en": "Sheep",
+                    "zh": "羊。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0125.mp3",
+                    "pinyin": "Yáng"
+                },
+                {
+                    "en": "Tiger",
+                    "zh": "老虎。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0126.mp3",
+                    "pinyin": "Lǎohǔ"
+                },
+                {
+                    "en": "Lion",
+                    "zh": "狮子。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0127.mp3",
+                    "pinyin": "Shīzi"
+                },
+                {
+                    "en": "Elephant",
+                    "zh": "大象。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0128.mp3",
+                    "pinyin": "Dàxiàng"
+                },
+                {
+                    "en": "Monkey",
+                    "zh": "猴子。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0096.mp3",
+                    "pinyin": "Hóuzi"
+                },
+                {
+                    "en": "Zoo",
+                    "zh": "动物园。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0097.mp3",
+                    "pinyin": "Dòngwùyuán"
+                },
+                {
+                    "en": "Farm",
+                    "zh": "农场。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0098.mp3",
+                    "pinyin": "Nóngchǎng"
+                },
+                {
+                    "en": "Insect",
+                    "zh": "昆虫",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0104.mp3",
+                    "pinyin": "Kūn chóng"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a pet?",
+                    "zh": "您有宠物吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0099.mp3",
+                    "pinyin": "Nín yǒu chǒngwù ma?"
+                },
+                {
+                    "en": "Do you have a dog?",
+                    "zh": "您有狗吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0100.mp3",
+                    "pinyin": "Nín yǒu gǒu ma?"
+                },
+                {
+                    "en": "Do you like cats?",
+                    "zh": "您喜欢猫吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0101.mp3",
+                    "pinyin": "Nín xǐhuan māo ma?"
+                },
+                {
+                    "en": "What's its name?",
+                    "zh": "它叫什么名字？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0102.mp3",
+                    "pinyin": "Tā jiào shénme míngzi?"
+                },
+                {
+                    "en": "How old is it?",
+                    "zh": "它多大了？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0103.mp3",
+                    "pinyin": "Tā duōdà le?"
+                },
+                {
+                    "en": "Is it cute?",
+                    "zh": "它可爱吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0129.mp3",
+                    "pinyin": "Tā kě'ài ma?"
+                },
+                {
+                    "en": "Do you have a cat?",
+                    "zh": "您有猫吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0105.mp3",
+                    "pinyin": "Nín yǒu māo ma?"
+                },
+                {
+                    "en": "Is it well-behaved?",
+                    "zh": "它听话吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0106.mp3",
+                    "pinyin": "Tā tīnghuà ma?"
+                },
+                {
+                    "en": "Are you afraid of dogs?",
+                    "zh": "您怕狗吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0107.mp3",
+                    "pinyin": "Nín pà gǒu ma?"
+                },
+                {
+                    "en": "Do you love animals?",
+                    "zh": "您爱动物吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0108.mp3",
+                    "pinyin": "Nín ài dòngwù ma?"
+                },
+                {
+                    "en": "Are you going to the zoo?",
+                    "zh": "您要去动物园吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0109.mp3",
+                    "pinyin": "Nín yào qù dòngwùyuán ma?"
+                },
+                {
+                    "en": "Did you see a tiger?",
+                    "zh": "您看到老虎了吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0110.mp3",
+                    "pinyin": "Nín kàndào lǎohǔ le ma?"
+                },
+                {
+                    "en": "Are elephants big?",
+                    "zh": "大象大吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0111.mp3",
+                    "pinyin": "Dàxiàng dà ma?"
+                },
+                {
+                    "en": "Are monkeys smart?",
+                    "zh": "猴子聪明吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0112.mp3",
+                    "pinyin": "Hóuzi cōngmíng ma?"
+                },
+                {
+                    "en": "Should I feed it?",
+                    "zh": "我应该喂它吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0113.mp3",
+                    "pinyin": "Wǒ yīnggāi wèi tā ma?"
+                },
+                {
+                    "en": "Does it need a walk?",
+                    "zh": "它需要遛吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0114.mp3",
+                    "pinyin": "Tā xūyào liù ma?"
+                },
+                {
+                    "en": "Is your dog friendly?",
+                    "zh": "您的狗友善吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0115.mp3",
+                    "pinyin": "Nín de gǒu yǒushàn ma?"
+                },
+                {
+                    "en": "Can I pet it?",
+                    "zh": "我可以摸它吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0116.mp3",
+                    "pinyin": "Wǒ kěyǐ mō tā ma?"
+                },
+                {
+                    "en": "Could you watch my cat this weekend?",
+                    "zh": "这周末您能帮我照看猫吗？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0117.mp3",
+                    "pinyin": "Zhè zhōumò nín néng bāng wǒ zhàokàn māo ma?"
+                },
+                {
+                    "en": "Let's schedule a vet visit for the puppy.",
+                    "zh": "我们给小狗预约兽医吧。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/09/zh_0118.mp3",
+                    "pinyin": "Wǒmen gěi xiǎogǒu yùyuē shòuyī ba"
+                }
+            ]
+        }
+    ]
+}

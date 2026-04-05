@@ -1,0 +1,755 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 08 - Education & Work",
+    "categories": [
+        {
+            "name": "School & Education",
+            "words": [
+                {
+                    "en": "School",
+                    "ko": "학교",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0001.mp3",
+                    "romaja": "Hakgyo"
+                },
+                {
+                    "en": "University",
+                    "ko": "대학교",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0002.mp3",
+                    "romaja": "Daehakgyo"
+                },
+                {
+                    "en": "Student",
+                    "ko": "학생",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0003.mp3",
+                    "romaja": "Haksaeng"
+                },
+                {
+                    "en": "Teacher",
+                    "ko": "선생님",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0004.mp3",
+                    "romaja": "Seonsaengnim"
+                },
+                {
+                    "en": "Professor",
+                    "ko": "교수님",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0005.mp3",
+                    "romaja": "Gyosunim"
+                },
+                {
+                    "en": "Class",
+                    "ko": "수업",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0006.mp3",
+                    "romaja": "Sueop"
+                },
+                {
+                    "en": "Lesson",
+                    "ko": "레슨",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0007.mp3",
+                    "romaja": "Reseun"
+                },
+                {
+                    "en": "Homework",
+                    "ko": "숙제",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0008.mp3",
+                    "romaja": "Sukje"
+                },
+                {
+                    "en": "Test",
+                    "ko": "시험",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0009.mp3",
+                    "romaja": "Siheom"
+                },
+                {
+                    "en": "Exam",
+                    "ko": "고사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0010.mp3",
+                    "romaja": "Gosa"
+                },
+                {
+                    "en": "Grade",
+                    "ko": "성적",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0011.mp3",
+                    "romaja": "Seongjeok"
+                },
+                {
+                    "en": "Degree",
+                    "ko": "학위",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0012.mp3",
+                    "romaja": "Hagwi"
+                },
+                {
+                    "en": "Study",
+                    "ko": "공부하다",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0013.mp3",
+                    "romaja": "Gongbuhada"
+                },
+                {
+                    "en": "Learn",
+                    "ko": "배우다",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0014.mp3",
+                    "romaja": "Baeuda"
+                },
+                {
+                    "en": "Teach",
+                    "ko": "가르치다",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0015.mp3",
+                    "romaja": "Gareuchida"
+                },
+                {
+                    "en": "Book",
+                    "ko": "책",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0016.mp3",
+                    "romaja": "Chaek"
+                },
+                {
+                    "en": "Notebook",
+                    "ko": "공책",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0017.mp3",
+                    "romaja": "Gongchaek"
+                },
+                {
+                    "en": "Library",
+                    "ko": "도서관",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0018.mp3",
+                    "romaja": "Doseogwan"
+                },
+                {
+                    "en": "Lecture",
+                    "ko": "강의",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0019.mp3",
+                    "romaja": "Gangui"
+                },
+                {
+                    "en": "Study group",
+                    "ko": "스터디 그룹",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0022.mp3",
+                    "romaja": "Seuteodi geurup"
+                },
+                {
+                    "en": "Syllabus",
+                    "ko": "강의 계획서",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0023.mp3",
+                    "romaja": "Gangui gyehoekseo"
+                },
+                {
+                    "en": "Curriculum",
+                    "ko": "커리큘럼",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0024.mp3",
+                    "romaja": "Keorikyulleom"
+                },
+                {
+                    "en": "Presentation",
+                    "ko": "발표",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0025.mp3",
+                    "romaja": "Balpyo"
+                },
+                {
+                    "en": "Deadline extension",
+                    "ko": "마감 기한 연장",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0026.mp3",
+                    "romaja": "Magam gihan yeonjang"
+                },
+                {
+                    "en": "Academic advisor",
+                    "ko": "지도 교수",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0027.mp3",
+                    "romaja": "Jido gyosu"
+                },
+                {
+                    "en": "Scholarship",
+                    "ko": "장학금",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0028.mp3",
+                    "romaja": "Janghakgeum"
+                },
+                {
+                    "en": "Tuition",
+                    "ko": "등록금",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0029.mp3",
+                    "romaja": "Deungnokgeum"
+                },
+                {
+                    "en": "Campus",
+                    "ko": "캠퍼스",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0030.mp3",
+                    "romaja": "Kaempeoseu"
+                },
+                {
+                    "en": "Course",
+                    "ko": "코스",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0186.mp3",
+                    "romaja": "Koseu"
+                },
+                {
+                    "en": "Science",
+                    "ko": "과학",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0187.mp3",
+                    "romaja": "Gwahak"
+                },
+                {
+                    "en": "Math",
+                    "ko": "수학",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0031.mp3",
+                    "romaja": "Suhak"
+                },
+                {
+                    "en": "Language",
+                    "ko": "언어",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0032.mp3",
+                    "romaja": "Eoneo"
+                }
+            ]
+        },
+        {
+            "name": "School & Education - Phrases",
+            "words": [
+                {
+                    "en": "Where's your school?",
+                    "ko": "학교가 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0188.mp3",
+                    "romaja": "Hakgyoga eodiyeyo?"
+                },
+                {
+                    "en": "Do you go to university?",
+                    "ko": "대학교에 다니세요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0189.mp3",
+                    "romaja": "Daehakgyoe daniseyo?"
+                },
+                {
+                    "en": "I'm a student.",
+                    "ko": "저는 학생이에요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0033.mp3",
+                    "romaja": "Jeoneun haksaengieyo"
+                },
+                {
+                    "en": "Who's your teacher?",
+                    "ko": "선생님이 누구세요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0034.mp3",
+                    "romaja": "Seonsaengnimi nuguseyo?"
+                },
+                {
+                    "en": "I have a lesson.",
+                    "ko": "레슨이 있어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0037.mp3",
+                    "romaja": "Reseuni isseoyo"
+                },
+                {
+                    "en": "Did you do your homework?",
+                    "ko": "숙제 다 했어요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0038.mp3",
+                    "romaja": "Sukje da haesseoyo?"
+                },
+                {
+                    "en": "I have a test.",
+                    "ko": "시험이 있어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0039.mp3",
+                    "romaja": "Siheomi isseoyo"
+                },
+                {
+                    "en": "When's the exam?",
+                    "ko": "시험이 언제예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0040.mp3",
+                    "romaja": "Siheomi eonjeyeyo?"
+                },
+                {
+                    "en": "I'm studying.",
+                    "ko": "공부하고 있어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0043.mp3",
+                    "romaja": "Gongbuhago isseoyo"
+                },
+                {
+                    "en": "What are you learning?",
+                    "ko": "뭘 배우고 있어요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0044.mp3",
+                    "romaja": "Mwol baeugo isseoyo?"
+                },
+                {
+                    "en": "I need a book.",
+                    "ko": "책이 필요해요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0046.mp3",
+                    "romaja": "Chaegi piryohaeyo"
+                },
+                {
+                    "en": "Let's go to the library.",
+                    "ko": "도서관에 가요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0048.mp3",
+                    "romaja": "Doseogwane gayo"
+                },
+                {
+                    "en": "I like math class.",
+                    "ko": "저는 수학 시간을 좋아해요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0045.mp3",
+                    "romaja": "Jeoneun suhak siganeul jotahaeyo."
+                },
+                {
+                    "en": "The language course is full.",
+                    "ko": "그 어학 코스는 꽉 찼어요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0190.mp3",
+                    "romaja": "Geu eohak koseuneun kkwak chateoyo."
+                },
+                {
+                    "en": "How do you pronounce this word?",
+                    "ko": "이 단어 어떻게 발음해요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0047.mp3",
+                    "romaja": "I daneo eotteotge baleumhaeyo?"
+                },
+                {
+                    "en": "Is my grammar correct?",
+                    "ko": "제 문법이 맞나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0191.mp3",
+                    "romaja": "Je munbeopi matnayo?"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career",
+            "words": [
+                {
+                    "en": "Work",
+                    "ko": "일",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0063.mp3",
+                    "romaja": "Il"
+                },
+                {
+                    "en": "Job",
+                    "ko": "직업",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0064.mp3",
+                    "romaja": "Jigeop"
+                },
+                {
+                    "en": "Career",
+                    "ko": "경력",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0065.mp3",
+                    "romaja": "Gyeongnyeok"
+                },
+                {
+                    "en": "Office",
+                    "ko": "사무실",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0066.mp3",
+                    "romaja": "Samusil"
+                },
+                {
+                    "en": "Company",
+                    "ko": "회사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0067.mp3",
+                    "romaja": "Hoesa"
+                },
+                {
+                    "en": "Boss",
+                    "ko": "상사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0068.mp3",
+                    "romaja": "Sangsa"
+                },
+                {
+                    "en": "Colleague",
+                    "ko": "동료",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0069.mp3",
+                    "romaja": "Dongnyo"
+                },
+                {
+                    "en": "Employee",
+                    "ko": "직원",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0070.mp3",
+                    "romaja": "Jigwon"
+                },
+                {
+                    "en": "Salary",
+                    "ko": "월급",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0071.mp3",
+                    "romaja": "Wolgeup"
+                },
+                {
+                    "en": "Meeting",
+                    "ko": "회의",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0072.mp3",
+                    "romaja": "Hoeui"
+                },
+                {
+                    "en": "Project",
+                    "ko": "프로젝트",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0073.mp3",
+                    "romaja": "Peurojekteu"
+                },
+                {
+                    "en": "Task",
+                    "ko": "업무",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0074.mp3",
+                    "romaja": "Eommu"
+                },
+                {
+                    "en": "Deadline",
+                    "ko": "마감일",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0075.mp3",
+                    "romaja": "Magamil"
+                },
+                {
+                    "en": "Promotion",
+                    "ko": "승진",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0076.mp3",
+                    "romaja": "Seungjin"
+                },
+                {
+                    "en": "Experience",
+                    "ko": "경력",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0077.mp3",
+                    "romaja": "Gyeongnyeok"
+                },
+                {
+                    "en": "Skills",
+                    "ko": "기술",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0078.mp3",
+                    "romaja": "Gisul"
+                },
+                {
+                    "en": "Resume",
+                    "ko": "이력서",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0079.mp3",
+                    "romaja": "Iryeokseo"
+                },
+                {
+                    "en": "Interview",
+                    "ko": "면접",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0080.mp3",
+                    "romaja": "Myeonjeop"
+                },
+                {
+                    "en": "Coworker",
+                    "ko": "동료",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0081.mp3",
+                    "romaja": "Dongnyo"
+                },
+                {
+                    "en": "Nurse",
+                    "ko": "간호사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0192.mp3",
+                    "romaja": "Ganhosa"
+                },
+                {
+                    "en": "Police officer",
+                    "ko": "경찰관",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0193.mp3",
+                    "romaja": "Gyeongchalgwan"
+                },
+                {
+                    "en": "Driver",
+                    "ko": "운전기사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0194.mp3",
+                    "romaja": "Unjeongisa"
+                },
+                {
+                    "en": "Manager",
+                    "ko": "매니저",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0195.mp3",
+                    "romaja": "Maenijeo"
+                },
+                {
+                    "en": "Engineer",
+                    "ko": "엔지니어",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0196.mp3",
+                    "romaja": "Enjinieo"
+                },
+                {
+                    "en": "Worker",
+                    "ko": "노동자",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0197.mp3",
+                    "romaja": "Nodongja"
+                },
+                {
+                    "en": "Lawyer",
+                    "ko": "변호사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0198.mp3",
+                    "romaja": "Byeonhosa"
+                },
+                {
+                    "en": "Artist",
+                    "ko": "예술가",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0199.mp3",
+                    "romaja": "Yesulga"
+                },
+                {
+                    "en": "Chef",
+                    "ko": "요리사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0200.mp3",
+                    "romaja": "Yorisa"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career - Phrases",
+            "words": [
+                {
+                    "en": "Where do you work?",
+                    "ko": "어디서 일하세요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0095.mp3",
+                    "romaja": "Eodiseo ilhaseyo?"
+                },
+                {
+                    "en": "What's your job?",
+                    "ko": "직업이 뭐예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0096.mp3",
+                    "romaja": "Jigeobi mwoyeyo?"
+                },
+                {
+                    "en": "I'm going to the office.",
+                    "ko": "사무실에 가요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0098.mp3",
+                    "romaja": "Samusire gayo"
+                },
+                {
+                    "en": "Who's your boss?",
+                    "ko": "상사가 누구세요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0100.mp3",
+                    "romaja": "Sangsaga nuguseyo?"
+                },
+                {
+                    "en": "We're colleagues.",
+                    "ko": "우리는 동료예요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0101.mp3",
+                    "romaja": "Urineun dongnyoyeyo"
+                },
+                {
+                    "en": "What's your salary?",
+                    "ko": "월급이 얼마예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0103.mp3",
+                    "romaja": "Wolgeubi eolmayeyo?"
+                },
+                {
+                    "en": "I have a meeting.",
+                    "ko": "회의가 있어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0104.mp3",
+                    "romaja": "Hoeuiga isseoyo"
+                },
+                {
+                    "en": "I'm working on a project.",
+                    "ko": "프로젝트를 진행 중이에요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0105.mp3",
+                    "romaja": "Peurojekteureul jinhaeng jungieyo"
+                },
+                {
+                    "en": "What's the deadline?",
+                    "ko": "마감일이 언제예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0107.mp3",
+                    "romaja": "Magamiri eonjeyeyo?"
+                },
+                {
+                    "en": "Send your resume.",
+                    "ko": "이력서를 보내세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0111.mp3",
+                    "romaja": "Iryeokseoreul bonaeseyo"
+                },
+                {
+                    "en": "I have an interview.",
+                    "ko": "면접이 있어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0112.mp3",
+                    "romaja": "Myeonjeobi isseoyo"
+                },
+                {
+                    "en": "She works as a nurse.",
+                    "ko": "그녀는 간호사로 일해요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0088.mp3",
+                    "romaja": "Geunyeoneun ganhosaro ilhaeyo."
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices",
+            "words": [
+                {
+                    "en": "Computer",
+                    "ko": "컴퓨터",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0127.mp3",
+                    "romaja": "Keompyuteo"
+                },
+                {
+                    "en": "Laptop",
+                    "ko": "노트북",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0128.mp3",
+                    "romaja": "Noteubuk"
+                },
+                {
+                    "en": "Phone",
+                    "ko": "전화기",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0129.mp3",
+                    "romaja": "Jeonhwagi"
+                },
+                {
+                    "en": "Tablet",
+                    "ko": "태블릿",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0130.mp3",
+                    "romaja": "Taebeullit"
+                },
+                {
+                    "en": "Screen",
+                    "ko": "화면",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0131.mp3",
+                    "romaja": "Hwamyeon"
+                },
+                {
+                    "en": "Keyboard",
+                    "ko": "키보드",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0132.mp3",
+                    "romaja": "Kibodeu"
+                },
+                {
+                    "en": "Mouse",
+                    "ko": "마우스",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0133.mp3",
+                    "romaja": "Mauseu"
+                },
+                {
+                    "en": "Internet",
+                    "ko": "인터넷",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0134.mp3",
+                    "romaja": "Inteonet"
+                },
+                {
+                    "en": "Wifi",
+                    "ko": "와이파이",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0135.mp3",
+                    "romaja": "Waipai"
+                },
+                {
+                    "en": "Email",
+                    "ko": "이메일",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0136.mp3",
+                    "romaja": "Imeil"
+                },
+                {
+                    "en": "Password",
+                    "ko": "비밀번호",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0137.mp3",
+                    "romaja": "Bimilbeonho"
+                },
+                {
+                    "en": "Website",
+                    "ko": "웹사이트",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0138.mp3",
+                    "romaja": "Wepsaitu"
+                },
+                {
+                    "en": "App",
+                    "ko": "앱",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0139.mp3",
+                    "romaja": "Aep"
+                },
+                {
+                    "en": "Software",
+                    "ko": "소프트웨어",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0140.mp3",
+                    "romaja": "Sopeuteuweeo"
+                },
+                {
+                    "en": "Battery",
+                    "ko": "배터리",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0141.mp3",
+                    "romaja": "Baeteori"
+                },
+                {
+                    "en": "Charger",
+                    "ko": "충전기",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0142.mp3",
+                    "romaja": "Chungjeongi"
+                },
+                {
+                    "en": "Camera",
+                    "ko": "카메라",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0143.mp3",
+                    "romaja": "Kamera"
+                },
+                {
+                    "en": "Headphones",
+                    "ko": "헤드폰",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0144.mp3",
+                    "romaja": "Hedeupon"
+                },
+                {
+                    "en": "File",
+                    "ko": "파일",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0201.mp3",
+                    "romaja": "Pail"
+                },
+                {
+                    "en": "Folder",
+                    "ko": "폴더",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0108.mp3",
+                    "romaja": "Poldeo"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a computer?",
+                    "ko": "컴퓨터 있어요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0159.mp3",
+                    "romaja": "Keompyuteo isseoyo?"
+                },
+                {
+                    "en": "I need my laptop.",
+                    "ko": "노트북이 필요해요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0160.mp3",
+                    "romaja": "Noteubugi piryohaeyo"
+                },
+                {
+                    "en": "Where's my phone?",
+                    "ko": "제 전화기 어디 있어요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0161.mp3",
+                    "romaja": "Je jeonhwagi eodi isseoyo?"
+                },
+                {
+                    "en": "Look at the screen.",
+                    "ko": "화면을 보세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0163.mp3",
+                    "romaja": "Hwamyeoneul boseyo"
+                },
+                {
+                    "en": "Is there internet?",
+                    "ko": "인터넷 되나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0166.mp3",
+                    "romaja": "Inteonet doenayo?"
+                },
+                {
+                    "en": "What's the wifi password?",
+                    "ko": "와이파이 비밀번호가 뭐예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0167.mp3",
+                    "romaja": "Waipai bimilbeonhoga mwoyeyo?"
+                },
+                {
+                    "en": "Check your email.",
+                    "ko": "이메일 확인해 보세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0168.mp3",
+                    "romaja": "Imeil hwaginhae boseyo"
+                },
+                {
+                    "en": "I forgot my password.",
+                    "ko": "비밀번호를 잊어버렸어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0185.mp3",
+                    "romaja": "Bimilbeonhoreul ireobeoryeosseoyo"
+                },
+                {
+                    "en": "The battery is dead.",
+                    "ko": "배터리가 다 됐어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0173.mp3",
+                    "romaja": "Baeteoriga da dwaesseoyo"
+                },
+                {
+                    "en": "I need a charger.",
+                    "ko": "충전기가 필요해요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0174.mp3",
+                    "romaja": "Chungjeongiga piryohaeyo"
+                },
+                {
+                    "en": "Use the camera.",
+                    "ko": "카메라를 사용하세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0175.mp3",
+                    "romaja": "Kamerareul sayonghaseyo"
+                },
+                {
+                    "en": "The printer is out of paper.",
+                    "ko": "프린터에 종이가 없어요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/08/ko_0120.mp3",
+                    "romaja": "Peurinteoe jongiga eopseoyo."
+                }
+            ]
+        }
+    ]
+}

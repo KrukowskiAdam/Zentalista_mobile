@@ -1,0 +1,396 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 09 - Hobbies & Interests",
+    "note": "Use this file to synchronize all language files (es, de, fr, ru, zh, ja, ko)",
+    "categories": [
+        {
+            "name": "Hobbies & Interests",
+            "words": [
+                {
+                    "en": "Hobby"
+                },
+                {
+                    "en": "Interest"
+                },
+                {
+                    "en": "Music"
+                },
+                {
+                    "en": "Movie"
+                },
+                {
+                    "en": "Book"
+                },
+                {
+                    "en": "Game"
+                },
+                {
+                    "en": "Sport"
+                },
+                {
+                    "en": "Travel"
+                },
+                {
+                    "en": "Cooking"
+                },
+                {
+                    "en": "Photography"
+                },
+                {
+                    "en": "Drawing"
+                },
+                {
+                    "en": "Painting"
+                },
+                {
+                    "en": "Dance"
+                },
+                {
+                    "en": "Singing"
+                },
+                {
+                    "en": "Reading"
+                },
+                {
+                    "en": "Writing"
+                },
+                {
+                    "en": "Gardening"
+                },
+                {
+                    "en": "Collecting"
+                }
+            ]
+        },
+        {
+            "name": "Hobbies & Interests - Phrases",
+            "words": [
+                {
+                    "en": "What are your hobbies?"
+                },
+                {
+                    "en": "What do you like?"
+                },
+                {
+                    "en": "Do you like music?"
+                },
+                {
+                    "en": "What music?"
+                },
+                {
+                    "en": "Can you play guitar?"
+                },
+                {
+                    "en": "I'm learning piano."
+                },
+                {
+                    "en": "Do you like watching movies?"
+                },
+                {
+                    "en": "What movies?"
+                },
+                {
+                    "en": "Do you like reading?"
+                },
+                {
+                    "en": "What are you reading?"
+                },
+                {
+                    "en": "Do you like traveling?"
+                },
+                {
+                    "en": "Where do you want to go?"
+                },
+                {
+                    "en": "Can you cook?"
+                },
+                {
+                    "en": "What dishes?"
+                },
+                {
+                    "en": "Do you play games?"
+                },
+                {
+                    "en": "Do you like photography?"
+                },
+                {
+                    "en": "Can you sing?"
+                },
+                {
+                    "en": "What do you do in your free time?"
+                },
+                {
+                    "en": "I'm trying to practice guitar ten minutes a day."
+                },
+                {
+                    "en": "Let's start a small book club together."
+                },
+                {
+                    "en": "I'm getting back into painting this month."
+                },
+                {
+                    "en": "Do you want to join our weekend cooking group?"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise",
+            "words": [
+                {
+                    "en": "Sports"
+                },
+                {
+                    "en": "Exercise"
+                },
+                {
+                    "en": "Soccer"
+                },
+                {
+                    "en": "Basketball"
+                },
+                {
+                    "en": "Tennis"
+                },
+                {
+                    "en": "Swimming"
+                },
+                {
+                    "en": "Running"
+                },
+                {
+                    "en": "Yoga"
+                },
+                {
+                    "en": "Hiking"
+                },
+                {
+                    "en": "Cycling"
+                },
+                {
+                    "en": "Gym"
+                },
+                {
+                    "en": "Stadium"
+                },
+                {
+                    "en": "Team"
+                },
+                {
+                    "en": "Player"
+                },
+                {
+                    "en": "Game"
+                },
+                {
+                    "en": "Score"
+                },
+                {
+                    "en": "Win"
+                },
+                {
+                    "en": "Lose"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise - Phrases",
+            "words": [
+                {
+                    "en": "Do you play sports?"
+                },
+                {
+                    "en": "Do you like sports?"
+                },
+                {
+                    "en": "Do you play soccer?"
+                },
+                {
+                    "en": "Do you play basketball?"
+                },
+                {
+                    "en": "Want to swim?"
+                },
+                {
+                    "en": "Do you run every day?"
+                },
+                {
+                    "en": "Are you going to the gym?"
+                },
+                {
+                    "en": "Do you do yoga?"
+                },
+                {
+                    "en": "Want to exercise together?"
+                },
+                {
+                    "en": "Can you ski?"
+                },
+                {
+                    "en": "Are you going hiking today?"
+                },
+                {
+                    "en": "When's the match?"
+                },
+                {
+                    "en": "Who won?"
+                },
+                {
+                    "en": "Did our team win?"
+                },
+                {
+                    "en": "Do you need to exercise?"
+                },
+                {
+                    "en": "Are you tired?"
+                },
+                {
+                    "en": "Is it good for health?"
+                },
+                {
+                    "en": "How often do you play?"
+                },
+                {
+                    "en": "Let's warm up with a few stretches first."
+                },
+                {
+                    "en": "I'm tracking my runs with an app now."
+                },
+                {
+                    "en": "Do we need to reserve a court in advance?"
+                },
+                {
+                    "en": "I'll cheer from the sidelines if I can't play."
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals",
+            "words": [
+                {
+                    "en": "Pet"
+                },
+                {
+                    "en": "Animal"
+                },
+                {
+                    "en": "Dog"
+                },
+                {
+                    "en": "Cat"
+                },
+                {
+                    "en": "Bird"
+                },
+                {
+                    "en": "Fish"
+                },
+                {
+                    "en": "Rabbit"
+                },
+                {
+                    "en": "Hamster"
+                },
+                {
+                    "en": "Horse"
+                },
+                {
+                    "en": "Cow"
+                },
+                {
+                    "en": "Pig"
+                },
+                {
+                    "en": "Sheep"
+                },
+                {
+                    "en": "Tiger"
+                },
+                {
+                    "en": "Lion"
+                },
+                {
+                    "en": "Elephant"
+                },
+                {
+                    "en": "Monkey"
+                },
+                {
+                    "en": "Zoo"
+                },
+                {
+                    "en": "Farm"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a pet?"
+                },
+                {
+                    "en": "Do you have a dog?"
+                },
+                {
+                    "en": "Do you like cats?"
+                },
+                {
+                    "en": "What's its name?"
+                },
+                {
+                    "en": "How old is it?"
+                },
+                {
+                    "en": "Is it cute?"
+                },
+                {
+                    "en": "Do you have a cat?"
+                },
+                {
+                    "en": "Is it well-behaved?"
+                },
+                {
+                    "en": "Are you afraid of dogs?"
+                },
+                {
+                    "en": "Do you love animals?"
+                },
+                {
+                    "en": "Are you going to the zoo?"
+                },
+                {
+                    "en": "Did you see a tiger?"
+                },
+                {
+                    "en": "Are elephants big?"
+                },
+                {
+                    "en": "Are monkeys smart?"
+                },
+                {
+                    "en": "Should I feed it?"
+                },
+                {
+                    "en": "Does it need a walk?"
+                },
+                {
+                    "en": "Is your dog friendly?"
+                },
+                {
+                    "en": "Can I pet it?"
+                },
+                {
+                    "en": "Could you watch my cat this weekend?"
+                },
+                {
+                    "en": "Let's schedule a vet visit for the puppy."
+                },
+                {
+                    "en": "Do they need any special food?"
+                },
+                {
+                    "en": "I'm training my dog to walk on a leash."
+                }
+            ]
+        }
+    ]
+}

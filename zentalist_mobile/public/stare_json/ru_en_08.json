@@ -1,0 +1,985 @@
+{
+    "info": "RUSSIAN TRANSLATION - File 08 - Education & Work",
+    "categories": [
+        {
+            "name": "School & Education",
+            "words": [
+                {
+                    "en": "School",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0001.mp3",
+                    "ru": "Школа"
+                },
+                {
+                    "en": "University",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0002.mp3",
+                    "ru": "Университет"
+                },
+                {
+                    "en": "Student",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0003.mp3",
+                    "ru": "Студент"
+                },
+                {
+                    "en": "Teacher",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0004.mp3",
+                    "ru": "Учитель"
+                },
+                {
+                    "en": "Professor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0005.mp3",
+                    "ru": "Профессор"
+                },
+                {
+                    "en": "Class",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0006.mp3",
+                    "ru": "Класс"
+                },
+                {
+                    "en": "Lesson",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0007.mp3",
+                    "ru": "Урок"
+                },
+                {
+                    "en": "Homework",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0008.mp3",
+                    "ru": "Домашнее задание"
+                },
+                {
+                    "en": "Test",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0009.mp3",
+                    "ru": "Тест"
+                },
+                {
+                    "en": "Exam",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0010.mp3",
+                    "ru": "Экзамен"
+                },
+                {
+                    "en": "Grade",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0011.mp3",
+                    "ru": "Оценка"
+                },
+                {
+                    "en": "Degree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0012.mp3",
+                    "ru": "Степень"
+                },
+                {
+                    "en": "Study",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0013.mp3",
+                    "ru": "Учеба"
+                },
+                {
+                    "en": "Learn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0014.mp3",
+                    "ru": "Учить"
+                },
+                {
+                    "en": "Teach",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0015.mp3",
+                    "ru": "Преподавать"
+                },
+                {
+                    "en": "Book",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0016.mp3",
+                    "ru": "Книга"
+                },
+                {
+                    "en": "Notebook",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0017.mp3",
+                    "ru": "Тетрадь"
+                },
+                {
+                    "en": "Library",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0018.mp3",
+                    "ru": "Библиотека"
+                },
+                {
+                    "en": "Lecture",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0019.mp3",
+                    "ru": "Лекция"
+                },
+                {
+                    "en": "Seminar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0020.mp3",
+                    "ru": "Семинар"
+                },
+                {
+                    "en": "Workshop",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0021.mp3",
+                    "ru": "Мастер-класс"
+                },
+                {
+                    "en": "Study group",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0022.mp3",
+                    "ru": "Учебная группа"
+                },
+                {
+                    "en": "Syllabus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0023.mp3",
+                    "ru": "Учебный план"
+                },
+                {
+                    "en": "Curriculum",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0024.mp3",
+                    "ru": "Программа"
+                },
+                {
+                    "en": "Presentation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0025.mp3",
+                    "ru": "Презентация"
+                },
+                {
+                    "en": "Deadline extension",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0026.mp3",
+                    "ru": "Продление срока"
+                },
+                {
+                    "en": "Academic advisor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0027.mp3",
+                    "ru": "Научный руководитель"
+                },
+                {
+                    "en": "Scholarship",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0028.mp3",
+                    "ru": "Стипендия"
+                },
+                {
+                    "en": "Tuition",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0029.mp3",
+                    "ru": "Плата за обучение"
+                },
+                {
+                    "en": "Campus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0030.mp3",
+                    "ru": "Кампус"
+                }
+            ]
+        },
+        {
+            "name": "School & Education - Phrases",
+            "words": [
+                {
+                    "en": "Where's your school?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0031.mp3",
+                    "ru": "Где твоя школа?"
+                },
+                {
+                    "en": "Do you go to university?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0032.mp3",
+                    "ru": "Ты учишься в университете?"
+                },
+                {
+                    "en": "I'm a student",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0033.mp3",
+                    "ru": "Я студент"
+                },
+                {
+                    "en": "Who's your teacher?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0034.mp3",
+                    "ru": "Кто твой учитель?"
+                },
+                {
+                    "en": "I have a professor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0035.mp3",
+                    "ru": "У меня есть профессор"
+                },
+                {
+                    "en": "What class are you in?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0036.mp3",
+                    "ru": "В каком ты классе?"
+                },
+                {
+                    "en": "I have a lesson",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0037.mp3",
+                    "ru": "У меня урок"
+                },
+                {
+                    "en": "Did you do your homework?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0038.mp3",
+                    "ru": "Ты сделал домашку?"
+                },
+                {
+                    "en": "I have a test",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0039.mp3",
+                    "ru": "У меня тест"
+                },
+                {
+                    "en": "When's the exam?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0040.mp3",
+                    "ru": "Когда экзамен?"
+                },
+                {
+                    "en": "What's your grade?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0041.mp3",
+                    "ru": "Какая у тебя оценка?"
+                },
+                {
+                    "en": "I got my degree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0042.mp3",
+                    "ru": "Я получил диплом"
+                },
+                {
+                    "en": "I'm studying",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0043.mp3",
+                    "ru": "Я учусь"
+                },
+                {
+                    "en": "What are you learning?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0044.mp3",
+                    "ru": "Что ты учишь?"
+                },
+                {
+                    "en": "Can you teach me?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0045.mp3",
+                    "ru": "Научишь меня?"
+                },
+                {
+                    "en": "I need a book",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0046.mp3",
+                    "ru": "Мне нужна книга"
+                },
+                {
+                    "en": "Where's your notebook?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0047.mp3",
+                    "ru": "Где твоя тетрадь?"
+                },
+                {
+                    "en": "Let's go to the library",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0048.mp3",
+                    "ru": "Пойдем в библиотеку"
+                },
+                {
+                    "en": "Today's lecture was helpful",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0049.mp3",
+                    "ru": "Лекция была полезной"
+                },
+                {
+                    "en": "We discussed it in the seminar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0050.mp3",
+                    "ru": "Мы обсуждали это на семинаре"
+                },
+                {
+                    "en": "Join our study group",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0051.mp3",
+                    "ru": "Вступай в нашу группу"
+                },
+                {
+                    "en": "I need to update my notes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0052.mp3",
+                    "ru": "Надо обновить конспекты"
+                },
+                {
+                    "en": "The syllabus is online",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0053.mp3",
+                    "ru": "План есть в интернете"
+                },
+                {
+                    "en": "When is the next exam?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0054.mp3",
+                    "ru": "Когда следующий экзамен?"
+                },
+                {
+                    "en": "Can we get a deadline extension?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0055.mp3",
+                    "ru": "Можно продлить дедлайн?"
+                },
+                {
+                    "en": "Ask the academic advisor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0056.mp3",
+                    "ru": "Спроси у руководителя"
+                },
+                {
+                    "en": "How much is the tuition?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0057.mp3",
+                    "ru": "Сколько стоит обучение?"
+                },
+                {
+                    "en": "Let's meet on campus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0058.mp3",
+                    "ru": "Встретимся в кампусе"
+                },
+                {
+                    "en": "Could you share the slides after class?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0059.mp3",
+                    "ru": "Скинь слайды после пары"
+                },
+                {
+                    "en": "I'm catching up on last week's lecture",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0060.mp3",
+                    "ru": "Я догоняю прошлую лекцию"
+                },
+                {
+                    "en": "Can we form a study pair for the exam?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0061.mp3",
+                    "ru": "Будем готовиться вместе?"
+                },
+                {
+                    "en": "I'll email the professor with our questions",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0062.mp3",
+                    "ru": "Я напишу профессору наши вопросы"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career",
+            "words": [
+                {
+                    "en": "Work",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0063.mp3",
+                    "ru": "Работа"
+                },
+                {
+                    "en": "Job",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0064.mp3",
+                    "ru": "Должность"
+                },
+                {
+                    "en": "Career",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0065.mp3",
+                    "ru": "Карьера"
+                },
+                {
+                    "en": "Office",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0066.mp3",
+                    "ru": "Офис"
+                },
+                {
+                    "en": "Company",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0067.mp3",
+                    "ru": "Компания"
+                },
+                {
+                    "en": "Boss",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0068.mp3",
+                    "ru": "Босс"
+                },
+                {
+                    "en": "Colleague",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0069.mp3",
+                    "ru": "Коллега"
+                },
+                {
+                    "en": "Employee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0070.mp3",
+                    "ru": "Сотрудник"
+                },
+                {
+                    "en": "Salary",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0071.mp3",
+                    "ru": "Зарплата"
+                },
+                {
+                    "en": "Meeting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0072.mp3",
+                    "ru": "Встреча"
+                },
+                {
+                    "en": "Project",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0073.mp3",
+                    "ru": "Проект"
+                },
+                {
+                    "en": "Task",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0074.mp3",
+                    "ru": "Задача"
+                },
+                {
+                    "en": "Deadline",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0075.mp3",
+                    "ru": "Дедлайн"
+                },
+                {
+                    "en": "Promotion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0076.mp3",
+                    "ru": "Повышение"
+                },
+                {
+                    "en": "Experience",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0077.mp3",
+                    "ru": "Опыт"
+                },
+                {
+                    "en": "Skills",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0078.mp3",
+                    "ru": "Навыки"
+                },
+                {
+                    "en": "Resume",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0079.mp3",
+                    "ru": "Резюме"
+                },
+                {
+                    "en": "Interview",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0080.mp3",
+                    "ru": "Собеседование"
+                },
+                {
+                    "en": "Coworker",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0081.mp3",
+                    "ru": "Сослуживец"
+                },
+                {
+                    "en": "Supervisor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0082.mp3",
+                    "ru": "Руководитель"
+                },
+                {
+                    "en": "Assignment",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0083.mp3",
+                    "ru": "Поручение"
+                },
+                {
+                    "en": "Shift",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0084.mp3",
+                    "ru": "Смена"
+                },
+                {
+                    "en": "Overtime",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0085.mp3",
+                    "ru": "Переработка"
+                },
+                {
+                    "en": "Meeting agenda",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0086.mp3",
+                    "ru": "Повестка дня"
+                },
+                {
+                    "en": "Meeting minutes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0087.mp3",
+                    "ru": "Протокол"
+                },
+                {
+                    "en": "Training",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0088.mp3",
+                    "ru": "Тренинг"
+                },
+                {
+                    "en": "Reference",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0089.mp3",
+                    "ru": "Рекомендация"
+                },
+                {
+                    "en": "Contract",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0090.mp3",
+                    "ru": "Контракт"
+                },
+                {
+                    "en": "Full-time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0091.mp3",
+                    "ru": "Полная занятость"
+                },
+                {
+                    "en": "Part-time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0092.mp3",
+                    "ru": "Частичная занятость"
+                },
+                {
+                    "en": "Remote work",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0093.mp3",
+                    "ru": "Удаленка"
+                },
+                {
+                    "en": "Flex schedule",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0094.mp3",
+                    "ru": "Гибкий график"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career - Phrases",
+            "words": [
+                {
+                    "en": "Where do you work?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0095.mp3",
+                    "ru": "Где вы работаете?"
+                },
+                {
+                    "en": "What's your job?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0096.mp3",
+                    "ru": "Кем вы работаете?"
+                },
+                {
+                    "en": "I love my career",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0097.mp3",
+                    "ru": "Я люблю свою карьеру"
+                },
+                {
+                    "en": "I'm going to the office",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0098.mp3",
+                    "ru": "Я иду в офис"
+                },
+                {
+                    "en": "Which company?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0099.mp3",
+                    "ru": "Какая компания?"
+                },
+                {
+                    "en": "Who's your boss?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0100.mp3",
+                    "ru": "Кто твой босс?"
+                },
+                {
+                    "en": "We're colleagues",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0101.mp3",
+                    "ru": "Мы коллеги"
+                },
+                {
+                    "en": "I'm an employee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0102.mp3",
+                    "ru": "Я сотрудник"
+                },
+                {
+                    "en": "What's your salary?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0103.mp3",
+                    "ru": "Какая зарплата?"
+                },
+                {
+                    "en": "I have a meeting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0104.mp3",
+                    "ru": "У меня совещание"
+                },
+                {
+                    "en": "I'm working on a project",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0105.mp3",
+                    "ru": "Я работаю над проектом"
+                },
+                {
+                    "en": "I have many tasks",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0106.mp3",
+                    "ru": "У меня много задач"
+                },
+                {
+                    "en": "What's the deadline?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0107.mp3",
+                    "ru": "Когда дедлайн?"
+                },
+                {
+                    "en": "I got a promotion!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0108.mp3",
+                    "ru": "Меня повысили!"
+                },
+                {
+                    "en": "Do you have experience?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0109.mp3",
+                    "ru": "У вас есть опыт?"
+                },
+                {
+                    "en": "What are your skills?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0110.mp3",
+                    "ru": "Какие у вас навыки?"
+                },
+                {
+                    "en": "Send your resume",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0111.mp3",
+                    "ru": "Пришлите резюме"
+                },
+                {
+                    "en": "I have an interview",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0112.mp3",
+                    "ru": "У меня собеседование"
+                },
+                {
+                    "en": "I coordinate with my coworkers",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0113.mp3",
+                    "ru": "Я координирую с коллегами"
+                },
+                {
+                    "en": "Could you approve this task?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0114.mp3",
+                    "ru": "Одобрите задачу?"
+                },
+                {
+                    "en": "The deadline is next week",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0115.mp3",
+                    "ru": "Срок на следующей неделе"
+                },
+                {
+                    "en": "Let's review the meeting agenda",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0116.mp3",
+                    "ru": "Посмотрим повестку"
+                },
+                {
+                    "en": "I'll write the minutes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0117.mp3",
+                    "ru": "Я запишу протокол"
+                },
+                {
+                    "en": "She received a promotion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0118.mp3",
+                    "ru": "Она получила повышение"
+                },
+                {
+                    "en": "This training builds new skills",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0119.mp3",
+                    "ru": "Тренинг развивает навыки"
+                },
+                {
+                    "en": "I updated my work experience",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0120.mp3",
+                    "ru": "Я обновил опыт работы"
+                },
+                {
+                    "en": "Can you sign the contract?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0121.mp3",
+                    "ru": "Подпишите контракт?"
+                },
+                {
+                    "en": "We allow flexible schedules",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0122.mp3",
+                    "ru": "У нас гибкий график"
+                },
+                {
+                    "en": "Let's align on priorities before the meeting",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0123.mp3",
+                    "ru": "Согласуем приоритеты"
+                },
+                {
+                    "en": "Can you cover my shift on Friday afternoon?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0124.mp3",
+                    "ru": "Подменишь меня в пятницу?"
+                },
+                {
+                    "en": "I'll send a recap after the call",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0125.mp3",
+                    "ru": "Пришлю итоги после звонка"
+                },
+                {
+                    "en": "Could you loop me in on that thread?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0126.mp3",
+                    "ru": "Добавьте меня в переписку"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices",
+            "words": [
+                {
+                    "en": "Computer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0127.mp3",
+                    "ru": "Компьютер"
+                },
+                {
+                    "en": "Laptop",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0128.mp3",
+                    "ru": "Ноутбук"
+                },
+                {
+                    "en": "Phone",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0129.mp3",
+                    "ru": "Телефон"
+                },
+                {
+                    "en": "Tablet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0130.mp3",
+                    "ru": "Планшет"
+                },
+                {
+                    "en": "Screen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0131.mp3",
+                    "ru": "Экран"
+                },
+                {
+                    "en": "Keyboard",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0132.mp3",
+                    "ru": "Клавиатура"
+                },
+                {
+                    "en": "Mouse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0133.mp3",
+                    "ru": "Мышь"
+                },
+                {
+                    "en": "Internet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0134.mp3",
+                    "ru": "Интернет"
+                },
+                {
+                    "en": "Wifi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0135.mp3",
+                    "ru": "Вай-фай"
+                },
+                {
+                    "en": "Email",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0136.mp3",
+                    "ru": "Почта"
+                },
+                {
+                    "en": "Password",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0137.mp3",
+                    "ru": "Пароль"
+                },
+                {
+                    "en": "Website",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0138.mp3",
+                    "ru": "Сайт"
+                },
+                {
+                    "en": "App",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0139.mp3",
+                    "ru": "Приложение"
+                },
+                {
+                    "en": "Software",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0140.mp3",
+                    "ru": "Софт"
+                },
+                {
+                    "en": "Battery",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0141.mp3",
+                    "ru": "Батарея"
+                },
+                {
+                    "en": "Charger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0142.mp3",
+                    "ru": "Зарядка"
+                },
+                {
+                    "en": "Camera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0143.mp3",
+                    "ru": "Камера"
+                },
+                {
+                    "en": "Headphones",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0144.mp3",
+                    "ru": "Наушники"
+                },
+                {
+                    "en": "Smartphone",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0145.mp3",
+                    "ru": "Смартфон"
+                },
+                {
+                    "en": "Hotspot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0146.mp3",
+                    "ru": "Точка доступа"
+                },
+                {
+                    "en": "Cloud storage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0147.mp3",
+                    "ru": "Облако"
+                },
+                {
+                    "en": "File share",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0148.mp3",
+                    "ru": "Обмен файлами"
+                },
+                {
+                    "en": "Screenshot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0149.mp3",
+                    "ru": "Скриншот"
+                },
+                {
+                    "en": "Software update",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0150.mp3",
+                    "ru": "Обновление"
+                },
+                {
+                    "en": "Download",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0151.mp3",
+                    "ru": "Скачать"
+                },
+                {
+                    "en": "Upload",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0152.mp3",
+                    "ru": "Загрузить"
+                },
+                {
+                    "en": "Notification",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0153.mp3",
+                    "ru": "Уведомление"
+                },
+                {
+                    "en": "Username",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0154.mp3",
+                    "ru": "Имя пользователя"
+                },
+                {
+                    "en": "Two-factor login",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0155.mp3",
+                    "ru": "Двухфакторный вход"
+                },
+                {
+                    "en": "Browser",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0156.mp3",
+                    "ru": "Браузер"
+                },
+                {
+                    "en": "Tab",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0157.mp3",
+                    "ru": "Вкладка"
+                },
+                {
+                    "en": "Bookmark",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0158.mp3",
+                    "ru": "Закладка"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a computer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0159.mp3",
+                    "ru": "У тебя есть компьютер?"
+                },
+                {
+                    "en": "I need my laptop",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0160.mp3",
+                    "ru": "Мне нужен ноутбук"
+                },
+                {
+                    "en": "Where's my phone?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0161.mp3",
+                    "ru": "Где мой телефон?"
+                },
+                {
+                    "en": "Can I use your tablet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0162.mp3",
+                    "ru": "Можно взять планшет?"
+                },
+                {
+                    "en": "Look at the screen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0163.mp3",
+                    "ru": "Посмотри на экран"
+                },
+                {
+                    "en": "I need a keyboard",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0164.mp3",
+                    "ru": "Мне нужна клавиатура"
+                },
+                {
+                    "en": "Where's the mouse?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0165.mp3",
+                    "ru": "Где мышка?"
+                },
+                {
+                    "en": "Is there internet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0166.mp3",
+                    "ru": "Есть интернет?"
+                },
+                {
+                    "en": "What's the wifi password?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0167.mp3",
+                    "ru": "Какой пароль от вай-фая?"
+                },
+                {
+                    "en": "Check your email",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0168.mp3",
+                    "ru": "Проверь почту"
+                },
+                {
+                    "en": "I forgot my password",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0169.mp3",
+                    "ru": "Я забыл пароль"
+                },
+                {
+                    "en": "Go to the website",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0170.mp3",
+                    "ru": "Зайди на сайт"
+                },
+                {
+                    "en": "Download the app",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0171.mp3",
+                    "ru": "Скачай приложение"
+                },
+                {
+                    "en": "Install the software",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0172.mp3",
+                    "ru": "Установи программу"
+                },
+                {
+                    "en": "The battery is dead",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0173.mp3",
+                    "ru": "Батарея села"
+                },
+                {
+                    "en": "I need a charger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0174.mp3",
+                    "ru": "Мне нужна зарядка"
+                },
+                {
+                    "en": "Use the camera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0175.mp3",
+                    "ru": "Используй камеру"
+                },
+                {
+                    "en": "Where are my headphones?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0176.mp3",
+                    "ru": "Где мои наушники?"
+                },
+                {
+                    "en": "My battery life is low",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0177.mp3",
+                    "ru": "Заряд на исходе"
+                },
+                {
+                    "en": "Can I use your charger?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0178.mp3",
+                    "ru": "Можно взять зарядку?"
+                },
+                {
+                    "en": "The wifi signal is weak",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0179.mp3",
+                    "ru": "Сигнал слабый"
+                },
+                {
+                    "en": "Turn on the hotspot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0180.mp3",
+                    "ru": "Включи точку доступа"
+                },
+                {
+                    "en": "I'll upload it to cloud storage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0181.mp3",
+                    "ru": "Залью в облако"
+                },
+                {
+                    "en": "Please share the file",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0182.mp3",
+                    "ru": "Поделись файлом"
+                },
+                {
+                    "en": "Send me a screenshot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0183.mp3",
+                    "ru": "Пришли скриншот"
+                },
+                {
+                    "en": "Did you get the notification?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0184.mp3",
+                    "ru": "Пришло уведомление?"
+                },
+                {
+                    "en": "I forgot my password",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0185.mp3",
+                    "ru": "Я забыл пароль"
+                },
+                {
+                    "en": "Open a new browser tab",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0186.mp3",
+                    "ru": "Открой новую вкладку"
+                },
+                {
+                    "en": "Could you mute when you're not speaking?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0187.mp3",
+                    "ru": "Выключи микрофон, если молчишь"
+                },
+                {
+                    "en": "Let's test the microphone before we start",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0188.mp3",
+                    "ru": "Проверим микрофон"
+                },
+                {
+                    "en": "I'll share the link in the chat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0189.mp3",
+                    "ru": "Скину ссылку в чат"
+                },
+                {
+                    "en": "Please back up the file to cloud storage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/08/ru_0190.mp3",
+                    "ru": "Сделай бэкап в облако"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,715 @@
+{
+    "info": "RUSSIAN TRANSLATION - File 02 - Numbers & Time",
+    "categories": [
+        {
+            "name": "Numbers 0-20",
+            "words": [
+                {
+                    "en": "Zero",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0001.mp3",
+                    "ru": "Ноль"
+                },
+                {
+                    "en": "One",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0002.mp3",
+                    "ru": "Один"
+                },
+                {
+                    "en": "Two",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0003.mp3",
+                    "ru": "Два"
+                },
+                {
+                    "en": "Three",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0004.mp3",
+                    "ru": "Три"
+                },
+                {
+                    "en": "Four",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0005.mp3",
+                    "ru": "Четыре"
+                },
+                {
+                    "en": "Five",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0006.mp3",
+                    "ru": "Пять"
+                },
+                {
+                    "en": "Six",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0007.mp3",
+                    "ru": "Шесть"
+                },
+                {
+                    "en": "Seven",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0008.mp3",
+                    "ru": "Семь"
+                },
+                {
+                    "en": "Eight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0009.mp3",
+                    "ru": "Восемь"
+                },
+                {
+                    "en": "Nine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0010.mp3",
+                    "ru": "Девять"
+                },
+                {
+                    "en": "Ten",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0011.mp3",
+                    "ru": "Десять"
+                },
+                {
+                    "en": "Eleven",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0012.mp3",
+                    "ru": "Одиннадцать"
+                },
+                {
+                    "en": "Twelve",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0013.mp3",
+                    "ru": "Двенадцать"
+                },
+                {
+                    "en": "Thirteen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0014.mp3",
+                    "ru": "Тринадцать"
+                },
+                {
+                    "en": "Fourteen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0015.mp3",
+                    "ru": "Четырнадцать"
+                },
+                {
+                    "en": "Fifteen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0016.mp3",
+                    "ru": "Пятнадцать"
+                },
+                {
+                    "en": "Sixteen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0017.mp3",
+                    "ru": "Шестнадцать"
+                },
+                {
+                    "en": "Seventeen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0018.mp3",
+                    "ru": "Семнадцать"
+                },
+                {
+                    "en": "Eighteen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0019.mp3",
+                    "ru": "Восемнадцать"
+                },
+                {
+                    "en": "Nineteen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0020.mp3",
+                    "ru": "Девятнадцать"
+                },
+                {
+                    "en": "Twenty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0021.mp3",
+                    "ru": "Двадцать"
+                }
+            ]
+        },
+        {
+            "name": "Numbers 0-20 - Phrases",
+            "words": [
+                {
+                    "en": "How many?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0022.mp3",
+                    "ru": "Сколько?"
+                },
+                {
+                    "en": "Just one",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0023.mp3",
+                    "ru": "Только один"
+                },
+                {
+                    "en": "Two people",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0024.mp3",
+                    "ru": "Два человека"
+                },
+                {
+                    "en": "Three times",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0025.mp3",
+                    "ru": "Три раза"
+                },
+                {
+                    "en": "Four days",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0026.mp3",
+                    "ru": "Четыре дня"
+                },
+                {
+                    "en": "Five minutes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0027.mp3",
+                    "ru": "Пять минут"
+                },
+                {
+                    "en": "Six months",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0028.mp3",
+                    "ru": "Шесть месяцев"
+                },
+                {
+                    "en": "Seven years",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0029.mp3",
+                    "ru": "Семь лет"
+                },
+                {
+                    "en": "Eight o'clock",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0030.mp3",
+                    "ru": "Восемь часов"
+                },
+                {
+                    "en": "Nine hours",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0031.mp3",
+                    "ru": "Девять часов"
+                },
+                {
+                    "en": "Ten dollars",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0032.mp3",
+                    "ru": "Десять долларов"
+                },
+                {
+                    "en": "Eleven items",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0033.mp3",
+                    "ru": "Одиннадцать предметов"
+                },
+                {
+                    "en": "Twelve months",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0034.mp3",
+                    "ru": "Двенадцать месяцев"
+                },
+                {
+                    "en": "How old are you?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0035.mp3",
+                    "ru": "Сколько вам лет?"
+                },
+                {
+                    "en": "I'm 20 years old",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0036.mp3",
+                    "ru": "Мне 20 лет"
+                },
+                {
+                    "en": "Count to ten",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0037.mp3",
+                    "ru": "Посчитай до десяти"
+                },
+                {
+                    "en": "Number one",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0038.mp3",
+                    "ru": "Номер один"
+                },
+                {
+                    "en": "First time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0039.mp3",
+                    "ru": "Первый раз"
+                },
+                {
+                    "en": "Add up to twenty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0040.mp3",
+                    "ru": "Сложите до двадцати"
+                },
+                {
+                    "en": "We only have fifteen left",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0041.mp3",
+                    "ru": "У нас осталось только пятнадцать"
+                },
+                {
+                    "en": "Could you bring seven copies for the team?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0042.mp3",
+                    "ru": "Не могли бы вы принести семь копий для команды?"
+                },
+                {
+                    "en": "Let's split the bill into two equal parts",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0043.mp3",
+                    "ru": "Давайте разделим счет на две равные части"
+                },
+                {
+                    "en": "We need nine volunteers altogether",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0044.mp3",
+                    "ru": "Нам нужно всего девять добровольцев"
+                },
+                {
+                    "en": "Can you set aside four tickets for us?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0045.mp3",
+                    "ru": "Можете отложить для нас четыре билета?"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers",
+            "words": [
+                {
+                    "en": "Twenty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0046.mp3",
+                    "ru": "Двадцать"
+                },
+                {
+                    "en": "Thirty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0047.mp3",
+                    "ru": "Тридцать"
+                },
+                {
+                    "en": "Forty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0048.mp3",
+                    "ru": "Сорок"
+                },
+                {
+                    "en": "Fifty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0049.mp3",
+                    "ru": "Пятьдесят"
+                },
+                {
+                    "en": "Sixty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0050.mp3",
+                    "ru": "Шестьдесят"
+                },
+                {
+                    "en": "Seventy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0051.mp3",
+                    "ru": "Семьдесят"
+                },
+                {
+                    "en": "Eighty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0052.mp3",
+                    "ru": "Восемьдесят"
+                },
+                {
+                    "en": "Ninety",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0053.mp3",
+                    "ru": "Девяносто"
+                },
+                {
+                    "en": "Hundred",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0054.mp3",
+                    "ru": "Сто"
+                },
+                {
+                    "en": "Thousand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0055.mp3",
+                    "ru": "Тысяча"
+                },
+                {
+                    "en": "Million",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0056.mp3",
+                    "ru": "Миллион"
+                },
+                {
+                    "en": "Billion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0057.mp3",
+                    "ru": "Миллиард"
+                },
+                {
+                    "en": "Trillion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0058.mp3",
+                    "ru": "Триллион"
+                },
+                {
+                    "en": "First",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0059.mp3",
+                    "ru": "Первый"
+                },
+                {
+                    "en": "Second",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0060.mp3",
+                    "ru": "Секунда"
+                },
+                {
+                    "en": "Third",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0061.mp3",
+                    "ru": "Третий"
+                },
+                {
+                    "en": "Last",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0062.mp3",
+                    "ru": "Последний"
+                },
+                {
+                    "en": "Half",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0063.mp3",
+                    "ru": "Половина"
+                },
+                {
+                    "en": "Quarter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0064.mp3",
+                    "ru": "Четверть"
+                },
+                {
+                    "en": "Percentage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0065.mp3",
+                    "ru": "Процент"
+                },
+                {
+                    "en": "Fraction",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0066.mp3",
+                    "ru": "Дробь"
+                }
+            ]
+        },
+        {
+            "name": "Large Numbers - Phrases",
+            "words": [
+                {
+                    "en": "How much is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0067.mp3",
+                    "ru": "Сколько это стоит?"
+                },
+                {
+                    "en": "Twenty dollars",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0068.mp3",
+                    "ru": "Двадцать долларов"
+                },
+                {
+                    "en": "Fifty percent",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0069.mp3",
+                    "ru": "Пятьдесят процентов"
+                },
+                {
+                    "en": "One hundred",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0070.mp3",
+                    "ru": "Сто"
+                },
+                {
+                    "en": "One thousand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0071.mp3",
+                    "ru": "Тысяча"
+                },
+                {
+                    "en": "Two million",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0072.mp3",
+                    "ru": "Два миллиона"
+                },
+                {
+                    "en": "First place",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0073.mp3",
+                    "ru": "Первое место"
+                },
+                {
+                    "en": "Second time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0074.mp3",
+                    "ru": "Второй раз"
+                },
+                {
+                    "en": "Third floor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0075.mp3",
+                    "ru": "Третий этаж"
+                },
+                {
+                    "en": "Last one",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0076.mp3",
+                    "ru": "Последний"
+                },
+                {
+                    "en": "Half price",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0077.mp3",
+                    "ru": "Полцены"
+                },
+                {
+                    "en": "Quarter past",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0078.mp3",
+                    "ru": "Четверть"
+                },
+                {
+                    "en": "What number?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0079.mp3",
+                    "ru": "Какой номер?"
+                },
+                {
+                    "en": "Even number",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0080.mp3",
+                    "ru": "Четное число"
+                },
+                {
+                    "en": "Odd number",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0081.mp3",
+                    "ru": "Нечетное число"
+                },
+                {
+                    "en": "Round number",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0082.mp3",
+                    "ru": "Круглое число"
+                },
+                {
+                    "en": "Phone number",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0083.mp3",
+                    "ru": "Номер телефона"
+                },
+                {
+                    "en": "Room number",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0084.mp3",
+                    "ru": "Номер комнаты"
+                },
+                {
+                    "en": "That's a huge amount",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0085.mp3",
+                    "ru": "Это огромная сумма"
+                },
+                {
+                    "en": "It's less than half",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0086.mp3",
+                    "ru": "Это меньше половины"
+                },
+                {
+                    "en": "The population is nearly three million",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0087.mp3",
+                    "ru": "Население почти три миллиона"
+                },
+                {
+                    "en": "We negotiated a twenty percent discount overall",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0088.mp3",
+                    "ru": "Мы договорились о скидке в двадцать процентов"
+                },
+                {
+                    "en": "Their budget is just under half a million",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0089.mp3",
+                    "ru": "Их бюджет чуть меньше полумиллиона"
+                },
+                {
+                    "en": "You'll find the office on the twenty-first floor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0090.mp3",
+                    "ru": "Вы найдете офис на двадцать первом этаже"
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock",
+            "words": [
+                {
+                    "en": "Time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0091.mp3",
+                    "ru": "Время"
+                },
+                {
+                    "en": "Hour",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0092.mp3",
+                    "ru": "Час"
+                },
+                {
+                    "en": "Minute",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0093.mp3",
+                    "ru": "Минута"
+                },
+                {
+                    "en": "Second",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0094.mp3",
+                    "ru": "Секунда"
+                },
+                {
+                    "en": "Clock",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0095.mp3",
+                    "ru": "Часы"
+                },
+                {
+                    "en": "Watch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0096.mp3",
+                    "ru": "Наручные часы"
+                },
+                {
+                    "en": "Morning",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0097.mp3",
+                    "ru": "Утро"
+                },
+                {
+                    "en": "Afternoon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0098.mp3",
+                    "ru": "День"
+                },
+                {
+                    "en": "Evening",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0099.mp3",
+                    "ru": "Вечер"
+                },
+                {
+                    "en": "Night",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0100.mp3",
+                    "ru": "Ночь"
+                },
+                {
+                    "en": "Midnight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0101.mp3",
+                    "ru": "Полночь"
+                },
+                {
+                    "en": "Noon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0102.mp3",
+                    "ru": "Полдень"
+                },
+                {
+                    "en": "Early",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0103.mp3",
+                    "ru": "Рано"
+                },
+                {
+                    "en": "Late",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0104.mp3",
+                    "ru": "Поздно"
+                },
+                {
+                    "en": "Now",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0105.mp3",
+                    "ru": "Сейчас"
+                },
+                {
+                    "en": "Later",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0106.mp3",
+                    "ru": "Позже"
+                },
+                {
+                    "en": "Soon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0107.mp3",
+                    "ru": "Скоро"
+                },
+                {
+                    "en": "Already",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0108.mp3",
+                    "ru": "Уже"
+                },
+                {
+                    "en": "Weekend",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0109.mp3",
+                    "ru": "Выходные"
+                },
+                {
+                    "en": "Weekday",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0110.mp3",
+                    "ru": "Будний день"
+                }
+            ]
+        },
+        {
+            "name": "Time & Clock - Phrases",
+            "words": [
+                {
+                    "en": "What time is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0111.mp3",
+                    "ru": "Сколько времени?"
+                },
+                {
+                    "en": "It's 3 o'clock",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0112.mp3",
+                    "ru": "Сейчас 3 часа"
+                },
+                {
+                    "en": "Half past two",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0113.mp3",
+                    "ru": "Половина третьего"
+                },
+                {
+                    "en": "Quarter to four",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0114.mp3",
+                    "ru": "Без четверти четыре"
+                },
+                {
+                    "en": "Five thirty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0115.mp3",
+                    "ru": "Пять тридцать"
+                },
+                {
+                    "en": "In the morning",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0116.mp3",
+                    "ru": "Утром"
+                },
+                {
+                    "en": "In the afternoon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0117.mp3",
+                    "ru": "Днем"
+                },
+                {
+                    "en": "In the evening",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0118.mp3",
+                    "ru": "Вечером"
+                },
+                {
+                    "en": "At night",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0119.mp3",
+                    "ru": "Ночью"
+                },
+                {
+                    "en": "At midnight",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0120.mp3",
+                    "ru": "В полночь"
+                },
+                {
+                    "en": "At noon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0121.mp3",
+                    "ru": "В полдень"
+                },
+                {
+                    "en": "What time?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0122.mp3",
+                    "ru": "Во сколько?"
+                },
+                {
+                    "en": "Right now",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0123.mp3",
+                    "ru": "Прямо сейчас"
+                },
+                {
+                    "en": "Later today",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0124.mp3",
+                    "ru": "Позже сегодня"
+                },
+                {
+                    "en": "See you soon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0125.mp3",
+                    "ru": "До скорого"
+                },
+                {
+                    "en": "I'm early",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0126.mp3",
+                    "ru": "Я рано"
+                },
+                {
+                    "en": "I'm late",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0127.mp3",
+                    "ru": "Я опаздываю"
+                },
+                {
+                    "en": "On time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0128.mp3",
+                    "ru": "Вовремя"
+                },
+                {
+                    "en": "Set a reminder for 4 PM",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0129.mp3",
+                    "ru": "Поставь напоминание на 16:00"
+                },
+                {
+                    "en": "Let's meet this weekend",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0130.mp3",
+                    "ru": "Давай встретимся в эти выходные"
+                },
+                {
+                    "en": "Can we start around quarter past nine?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0131.mp3",
+                    "ru": "Можем начать около четверти десятого?"
+                },
+                {
+                    "en": "The workshop runs for about forty minutes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0132.mp3",
+                    "ru": "Семинар длится около сорока минут"
+                },
+                {
+                    "en": "Let's push it back to early evening",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0133.mp3",
+                    "ru": "Давай перенесем на ранний вечер"
+                },
+                {
+                    "en": "I'll join after my 2 PM appointment ends",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0134.mp3",
+                    "ru": "Я присоединюсь после встречи в 14:00"
+                },
+                {
+                    "en": "Please remind me the day before the deadline",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0135.mp3",
+                    "ru": "Напомни мне за день до дедлайна"
+                },
+                {
+                    "en": "We can check in every half hour if needed",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/02/ru_0136.mp3",
+                    "ru": "Мы можем связываться каждые полчаса, если нужно"
+                }
+            ]
+        }
+    ]
+}

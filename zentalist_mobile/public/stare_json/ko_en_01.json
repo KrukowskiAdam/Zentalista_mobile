@@ -1,0 +1,1231 @@
+{
+    "info": "Korean Translation - File 01",
+    "categories": [
+        {
+            "name": "Greetings & Polite Expressions",
+            "words": [
+                {
+                    "ko": "안녕하세요!",
+                    "romaja": "Annyeonghaseyo!",
+                    "en": "Hello!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0001.mp3"
+                },
+                {
+                    "ko": "감사합니다",
+                    "romaja": "Gamsahamnida",
+                    "en": "Thank you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0002.mp3"
+                },
+                {
+                    "ko": "부탁합니다",
+                    "romaja": "Butakamnida",
+                    "en": "Please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0003.mp3"
+                },
+                {
+                    "ko": "죄송합니다",
+                    "romaja": "Joesonghamnida",
+                    "en": "Sorry",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0004.mp3"
+                },
+                {
+                    "ko": "실례합니다",
+                    "romaja": "Sillyehamnida",
+                    "en": "Excuse me",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0005.mp3"
+                },
+                {
+                    "ko": "천만에요",
+                    "romaja": "Cheonmaneyo",
+                    "en": "You're welcome",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0006.mp3"
+                },
+                {
+                    "ko": "안녕히 가세요!",
+                    "romaja": "Annyeonghi gaseyo!",
+                    "en": "Goodbye!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0007.mp3"
+                },
+                {
+                    "ko": "나중에 봐요",
+                    "romaja": "Najunge bwayo",
+                    "en": "See you later",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0008.mp3"
+                },
+                {
+                    "ko": "좋은 아침입니다",
+                    "romaja": "Joeun achimimnida",
+                    "en": "Good morning",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0009.mp3"
+                },
+                {
+                    "ko": "좋은 오후입니다",
+                    "romaja": "Joeun ohuimnida",
+                    "en": "Good afternoon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0010.mp3"
+                },
+                {
+                    "ko": "좋은 저녁입니다",
+                    "romaja": "Joeun jeonyeogimnida",
+                    "en": "Good evening",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0011.mp3"
+                },
+                {
+                    "ko": "환영합니다!",
+                    "romaja": "Hwanyeonghamnida!",
+                    "en": "Welcome!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0012.mp3"
+                },
+                {
+                    "ko": "반갑습니다",
+                    "romaja": "Bangapseumnida",
+                    "en": "Nice to meet you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0013.mp3"
+                },
+                {
+                    "ko": "만나서 반갑습니다",
+                    "romaja": "Mannaseo bangapseumnida",
+                    "en": "Pleased to meet you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0014.mp3"
+                },
+                {
+                    "ko": "미안합니다",
+                    "romaja": "Mianhamnida",
+                    "en": "I'm sorry",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0015.mp3"
+                },
+                {
+                    "ko": "건강하세요!",
+                    "romaja": "Geonganghaseyo!",
+                    "en": "Bless you!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0016.mp3"
+                },
+                {
+                    "ko": "축하합니다!",
+                    "romaja": "Chukahamnida!",
+                    "en": "Congratulations!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0017.mp3"
+                },
+                {
+                    "ko": "여행 잘 다녀오세요",
+                    "romaja": "Yeohaeng jal danyeooseyo",
+                    "en": "Safe travels",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0018.mp3"
+                },
+                {
+                    "ko": "조심하세요",
+                    "romaja": "Josimhaseyo",
+                    "en": "Take care",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0019.mp3"
+                },
+                {
+                    "ko": "만나서 반가워요",
+                    "romaja": "Mannaseo bangawoyo",
+                    "en": "Great to see you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0020.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Greetings & Polite Expressions - Phrases",
+            "words": [
+                {
+                    "ko": "어떻게 지내세요?",
+                    "romaja": "Eotteoke jinaeseyo?",
+                    "en": "How are you?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0021.mp3"
+                },
+                {
+                    "ko": "저는 잘 지내요",
+                    "romaja": "Jeoneun jal jinaeyo",
+                    "en": "I'm fine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0022.mp3"
+                },
+                {
+                    "ko": "이름이 뭐예요?",
+                    "romaja": "Ireumi mwoyeyo?",
+                    "en": "What's your name?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0023.mp3"
+                },
+                {
+                    "ko": "제 이름은 ...입니다",
+                    "romaja": "Je ireumeun ...imnida",
+                    "en": "My name is..",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0024.mp3"
+                },
+                {
+                    "ko": "드디어 직접 만나서 반가워요",
+                    "romaja": "Deudieo jikjeop mannaseo bangawoyo",
+                    "en": "It's great finally meeting you in person",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0025.mp3"
+                },
+                {
+                    "ko": "어디서 오셨어요?",
+                    "romaja": "Eodiseo osyeosseoyo?",
+                    "en": "Where are you from?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0026.mp3"
+                },
+                {
+                    "ko": "저는 ...에서 왔어요",
+                    "romaja": "Jeoneun ...eseo wasseoyo",
+                    "en": "I'm from..",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0027.mp3"
+                },
+                {
+                    "ko": "몇 살이세요?",
+                    "romaja": "Myeot sariseyo?",
+                    "en": "How old are you?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0028.mp3"
+                },
+                {
+                    "ko": "저는 ...살입니다",
+                    "romaja": "Jeoneun ...sarimnida",
+                    "en": "I'm... years old",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0029.mp3"
+                },
+                {
+                    "ko": "영어를 할 수 있으세요?",
+                    "romaja": "Yeongeoreul hal su isseuseyo?",
+                    "en": "Do you speak English?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0030.mp3"
+                },
+                {
+                    "ko": "조금 할 수 있어요",
+                    "romaja": "Jogeum hal su isseoyo",
+                    "en": "I speak a little",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0031.mp3"
+                },
+                {
+                    "ko": "이해가 안 돼요",
+                    "romaja": "Ihaega an dwaeyo",
+                    "en": "I don't understand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0032.mp3"
+                },
+                {
+                    "ko": "다시 말씀해 주시겠어요?",
+                    "romaja": "Dasi malsseumhae jusigesseoyo?",
+                    "en": "Can you repeat?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0033.mp3"
+                },
+                {
+                    "ko": "천천히 말씀해 주세요",
+                    "romaja": "Cheoncheonhi malsseumhae juseyo",
+                    "en": "Please speak slowly",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0034.mp3"
+                },
+                {
+                    "ko": "이게 무슨 뜻이에요?",
+                    "romaja": "Ige museun tteusieyo?",
+                    "en": "What does this mean?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0035.mp3"
+                },
+                {
+                    "ko": "...는 어떻게 말해요?",
+                    "romaja": "...neun eotteoke malhaeyo?",
+                    "en": "How do you say...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0036.mp3"
+                },
+                {
+                    "ko": "좋은 하루 보내세요?",
+                    "romaja": "Joeun haru bonaeseyo?",
+                    "en": "Have a good day?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0037.mp3"
+                },
+                {
+                    "ko": "내일 봐요",
+                    "romaja": "Naeil bwayo",
+                    "en": "See you tomorrow",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0038.mp3"
+                },
+                {
+                    "ko": "다시 만나서 반가워요",
+                    "romaja": "Dasi mannaseo bangawoyo",
+                    "en": "It's nice seeing you again",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0039.mp3"
+                },
+                {
+                    "ko": "연락하고 지내요",
+                    "romaja": "Yeollakhago jinaeyo",
+                    "en": "Let's stay in touch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0040.mp3"
+                },
+                {
+                    "ko": "요즘 어떻게 지내셨어요?",
+                    "romaja": "Yojeum eotteoke jinaesyeosseoyo?",
+                    "en": "How have you been lately?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0041.mp3"
+                },
+                {
+                    "ko": "오랜만이네요",
+                    "romaja": "Oraenmanineyo",
+                    "en": "It's been a while since we talked",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0042.mp3"
+                },
+                {
+                    "ko": "연락 주셔서 감사합니다",
+                    "romaja": "Yeollak jusyeoseo gamsahamnida",
+                    "en": "Thanks for following up with me",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0043.mp3"
+                },
+                {
+                    "ko": "자기소개 좀 부탁드려요?",
+                    "romaja": "Jagisogae jom butakdeuryeoyo?",
+                    "en": "Could you introduce yourself?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0044.mp3"
+                },
+                {
+                    "ko": "제 소개를 제대로 할게요",
+                    "romaja": "Je sogaereul jedaero halgeyo",
+                    "en": "Let me introduce myself properly",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0045.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Basic Questions",
+            "words": [
+                {
+                    "ko": "뭐요?",
+                    "romaja": "Mwoyo?",
+                    "en": "What?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0046.mp3"
+                },
+                {
+                    "ko": "어디요?",
+                    "romaja": "Eodiyo?",
+                    "en": "Where?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0047.mp3"
+                },
+                {
+                    "ko": "언제요?",
+                    "romaja": "Eonjeyo?",
+                    "en": "When?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0048.mp3"
+                },
+                {
+                    "ko": "누구요?",
+                    "romaja": "Nuguyo?",
+                    "en": "Who?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0049.mp3"
+                },
+                {
+                    "ko": "왜요?",
+                    "romaja": "Waeyo?",
+                    "en": "Why?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0050.mp3"
+                },
+                {
+                    "ko": "어떻게요?",
+                    "romaja": "Eotteokeyo?",
+                    "en": "How?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0051.mp3"
+                },
+                {
+                    "ko": "어느 거요?",
+                    "romaja": "Eoneu geoyo?",
+                    "en": "Which?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0052.mp3"
+                },
+                {
+                    "ko": "얼마예요?",
+                    "romaja": "Eolmayeyo?",
+                    "en": "How much?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0053.mp3"
+                },
+                {
+                    "ko": "몇 개요?",
+                    "romaja": "Myeot gaeyo?",
+                    "en": "How many?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0054.mp3"
+                },
+                {
+                    "ko": "몇 시요?",
+                    "romaja": "Myeot siyo?",
+                    "en": "What time?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0055.mp3"
+                },
+                {
+                    "ko": "할 수 있어요?",
+                    "romaja": "Hal su isseoyo?",
+                    "en": "Can?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0056.mp3"
+                },
+                {
+                    "ko": "해 주실 수 있어요?",
+                    "romaja": "Hae jusil su isseoyo?",
+                    "en": "Could?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0057.mp3"
+                },
+                {
+                    "ko": "해야 해요?",
+                    "romaja": "Haeya haeyo?",
+                    "en": "Should?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0058.mp3"
+                },
+                {
+                    "ko": "하시겠어요?",
+                    "romaja": "Hasigesseoyo?",
+                    "en": "Would?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0059.mp3"
+                },
+                {
+                    "ko": "이에요?",
+                    "romaja": "Ieyo?",
+                    "en": "Is?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0060.mp3"
+                },
+                {
+                    "ko": "이세요?",
+                    "romaja": "Iseyo?",
+                    "en": "Are?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0061.mp3"
+                },
+                {
+                    "ko": "해요?",
+                    "romaja": "Haeyo?",
+                    "en": "Do?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0062.mp3"
+                },
+                {
+                    "ko": "하나요?",
+                    "romaja": "Hanayo?",
+                    "en": "Does?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0063.mp3"
+                },
+                {
+                    "ko": "할 거예요?",
+                    "romaja": "Hal geoyeyo?",
+                    "en": "Will?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0064.mp3"
+                },
+                {
+                    "ko": "할지도 몰라요?",
+                    "romaja": "Haljido mollayo?",
+                    "en": "Might?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0065.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Basic Questions - Phrases",
+            "words": [
+                {
+                    "ko": "이게 뭐예요?",
+                    "romaja": "Ige mwoyeyo?",
+                    "en": "What is this?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0066.mp3"
+                },
+                {
+                    "ko": "어디에 있어요?",
+                    "romaja": "Eodie isseoyo?",
+                    "en": "Where is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0067.mp3"
+                },
+                {
+                    "ko": "언제예요?",
+                    "romaja": "Eonjeyeyo?",
+                    "en": "When is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0068.mp3"
+                },
+                {
+                    "ko": "누구예요?",
+                    "romaja": "Nuguyeyo?",
+                    "en": "Who is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0069.mp3"
+                },
+                {
+                    "ko": "왜 그래요?",
+                    "romaja": "Wae geuraeyo?",
+                    "en": "Why is that?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0070.mp3"
+                },
+                {
+                    "ko": "어때요?",
+                    "romaja": "Eottaeyo?",
+                    "en": "How is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0071.mp3"
+                },
+                {
+                    "ko": "어느 것이요?",
+                    "romaja": "Eoneu geosiyo?",
+                    "en": "Which one?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0072.mp3"
+                },
+                {
+                    "ko": "얼마예요?",
+                    "romaja": "Eolmayeyo?",
+                    "en": "How much is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0073.mp3"
+                },
+                {
+                    "ko": "몇 개 있어요?",
+                    "romaja": "Myeot gae isseoyo?",
+                    "en": "How many are there?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0074.mp3"
+                },
+                {
+                    "ko": "몇 시예요?",
+                    "romaja": "Myeot siyeyo?",
+                    "en": "What time is it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0075.mp3"
+                },
+                {
+                    "ko": "제가 ...해도 될까요?",
+                    "romaja": "Jega ...haedo doelkkayo?",
+                    "en": "Can I...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0076.mp3"
+                },
+                {
+                    "ko": "...해 주시겠어요?",
+                    "romaja": "...hae jusigesseoyo?",
+                    "en": "Could you...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0077.mp3"
+                },
+                {
+                    "ko": "제가 ...해야 하나요?",
+                    "romaja": "Jega ...haeya hanayo?",
+                    "en": "Should I...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0078.mp3"
+                },
+                {
+                    "ko": "...하시겠어요?",
+                    "romaja": "...hasigesseoyo?",
+                    "en": "Would you like...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0079.mp3"
+                },
+                {
+                    "ko": "그게 ...인가요?",
+                    "romaja": "Geuge ...ingayo?",
+                    "en": "Is it...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0080.mp3"
+                },
+                {
+                    "ko": "당신은 ...인가요?",
+                    "romaja": "Dangsineun ...ingayo?",
+                    "en": "Are you...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0081.mp3"
+                },
+                {
+                    "ko": "당신은 ...하나요?",
+                    "romaja": "Dangsineun ...hanayo?",
+                    "en": "Do you...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0082.mp3"
+                },
+                {
+                    "ko": "그것은 ...하나요?",
+                    "romaja": "Geugeoseun ...hanayo?",
+                    "en": "Does it...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0083.mp3"
+                },
+                {
+                    "ko": "언제가 좋으세요?",
+                    "romaja": "Eonjega joeuseyo?",
+                    "en": "When would work for you?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0084.mp3"
+                },
+                {
+                    "ko": "설명해 주시겠어요?",
+                    "romaja": "Seolmyeonghae jusigesseoyo?",
+                    "en": "Could you explain that?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0085.mp3"
+                },
+                {
+                    "ko": "질문 하나 해도 될까요?",
+                    "romaja": "Jilmun hana haedo doelkkayo?",
+                    "en": "Would you mind if I ask a question?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0086.mp3"
+                },
+                {
+                    "ko": "그것에 대해 더 말씀해 주시겠어요?",
+                    "romaja": "Geugeose daehae deo malsseumhae jusigesseoyo?",
+                    "en": "Could you tell me more about that?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0087.mp3"
+                },
+                {
+                    "ko": "혹시 답을 아세요?",
+                    "romaja": "Hoksi dabeul aseyo?",
+                    "en": "Do you happen to know the answer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0088.mp3"
+                },
+                {
+                    "ko": "이것은 다른 것과 어떻게 다른가요?",
+                    "romaja": "Igeoseun dareun geotgwa eotteoke dareungayo?",
+                    "en": "How does this compare to the other option?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0089.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Yes & No Responses",
+            "words": [
+                {
+                    "ko": "네",
+                    "romaja": "Ne",
+                    "en": "Yes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0090.mp3"
+                },
+                {
+                    "ko": "아니요",
+                    "romaja": "Aniyo",
+                    "en": "No",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0091.mp3"
+                },
+                {
+                    "ko": "아마도",
+                    "romaja": "Amado",
+                    "en": "Maybe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0092.mp3"
+                },
+                {
+                    "ko": "알겠습니다",
+                    "romaja": "Algesseumnida",
+                    "en": "Ok",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0093.mp3"
+                },
+                {
+                    "ko": "물론이죠",
+                    "romaja": "Mullonijyo",
+                    "en": "Sure",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0094.mp3"
+                },
+                {
+                    "ko": "당연하죠",
+                    "romaja": "Dangyeonhajyo",
+                    "en": "Of course",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0095.mp3"
+                },
+                {
+                    "ko": "정확해요",
+                    "romaja": "Jeonghwakhaeyo",
+                    "en": "Exactly",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0096.mp3"
+                },
+                {
+                    "ko": "오른쪽",
+                    "romaja": "Oreunjjok",
+                    "en": "Right",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0097.mp3"
+                },
+                {
+                    "ko": "틀려요",
+                    "romaja": "Teullyeoyo",
+                    "en": "Wrong",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0098.mp3"
+                },
+                {
+                    "ko": "사실이에요",
+                    "romaja": "Sasirieyo",
+                    "en": "True",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0099.mp3"
+                },
+                {
+                    "ko": "거짓이에요",
+                    "romaja": "Geojisieyo",
+                    "en": "False",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0100.mp3"
+                },
+                {
+                    "ko": "정답이에요",
+                    "romaja": "Jeongdabieyo",
+                    "en": "Correct",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0101.mp3"
+                },
+                {
+                    "ko": "오답이에요",
+                    "romaja": "Odabieyo",
+                    "en": "Incorrect",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0102.mp3"
+                },
+                {
+                    "ko": "가능해요",
+                    "romaja": "Ganeunghaeyo",
+                    "en": "Possible",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0103.mp3"
+                },
+                {
+                    "ko": "불가능해요",
+                    "romaja": "Bulganeunghaeyo",
+                    "en": "Impossible",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0104.mp3"
+                },
+                {
+                    "ko": "동의해요",
+                    "romaja": "Donguihaeyo",
+                    "en": "Agree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0105.mp3"
+                },
+                {
+                    "ko": "반대해요",
+                    "romaja": "Bandaehaeyo",
+                    "en": "Disagree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0106.mp3"
+                },
+                {
+                    "ko": "이해해요",
+                    "romaja": "Ihaehaeyo",
+                    "en": "Understand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0107.mp3"
+                },
+                {
+                    "ko": "상황에 따라 달라요",
+                    "romaja": "Sanghwange ttara dallayo",
+                    "en": "Depends",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0108.mp3"
+                },
+                {
+                    "ko": "절대적으로요",
+                    "romaja": "Jeoldaejeogeuroyo",
+                    "en": "Absolutely",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0109.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Yes & No Responses - Phrases",
+            "words": [
+                {
+                    "ko": "네, 부탁합니다",
+                    "romaja": "Ne, butakamnida",
+                    "en": "Yes, please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0110.mp3"
+                },
+                {
+                    "ko": "아니요, 괜찮습니다",
+                    "romaja": "Aniyo, gwaenchanseumnida",
+                    "en": "No, thank you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0111.mp3"
+                },
+                {
+                    "ko": "나중에요",
+                    "romaja": "Najungeyo",
+                    "en": "Maybe later",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0112.mp3"
+                },
+                {
+                    "ko": "맞습니다",
+                    "romaja": "Matseumnida",
+                    "en": "That's right",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0113.mp3"
+                },
+                {
+                    "ko": "틀렸습니다",
+                    "romaja": "Teullyeosseumnida",
+                    "en": "That's wrong",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0114.mp3"
+                },
+                {
+                    "ko": "동의합니다",
+                    "romaja": "Donguihamnida",
+                    "en": "I agree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0115.mp3"
+                },
+                {
+                    "ko": "반대합니다",
+                    "romaja": "Bandaehamnida",
+                    "en": "I disagree",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0116.mp3"
+                },
+                {
+                    "ko": "이해합니다",
+                    "romaja": "Ihaehamnida",
+                    "en": "I understand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0117.mp3"
+                },
+                {
+                    "ko": "이해가 안 돼요",
+                    "romaja": "Ihaega an dwaeyo",
+                    "en": "I don't understand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0118.mp3"
+                },
+                {
+                    "ko": "당연하죠",
+                    "romaja": "Dangyeonhajyo",
+                    "en": "Of course",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0119.mp3"
+                },
+                {
+                    "ko": "문제없습니다",
+                    "romaja": "Munjeeopseumnida",
+                    "en": "No problem",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0120.mp3"
+                },
+                {
+                    "ko": "물론이죠, 왜 안 되겠어요",
+                    "romaja": "Mullonijyo, wae an doegesseoyo",
+                    "en": "Sure, why not",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0121.mp3"
+                },
+                {
+                    "ko": "모르겠습니다",
+                    "romaja": "Moreugesseumnida",
+                    "en": "I don't know",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0122.mp3"
+                },
+                {
+                    "ko": "확실하지 않습니다",
+                    "romaja": "Hwaksilhaji anseumnida",
+                    "en": "I'm not sure",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0123.mp3"
+                },
+                {
+                    "ko": "정답입니다",
+                    "romaja": "Jeongdabimnida",
+                    "en": "That's correct",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0124.mp3"
+                },
+                {
+                    "ko": "오답입니다",
+                    "romaja": "Odabimnida",
+                    "en": "That's incorrect",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0125.mp3"
+                },
+                {
+                    "ko": "그게 가능한가요?",
+                    "romaja": "Geuge ganeunghangayo?",
+                    "en": "Is that possible?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0126.mp3"
+                },
+                {
+                    "ko": "그건 불가능합니다",
+                    "romaja": "Geugeon bulganeunghamnida",
+                    "en": "That's impossible",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0127.mp3"
+                },
+                {
+                    "ko": "저는 괜찮습니다",
+                    "romaja": "Jeoneun gwaenchanseumnida",
+                    "en": "I'm open to it",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0128.mp3"
+                },
+                {
+                    "ko": "사양하겠습니다",
+                    "romaja": "Sayanghagesseumnida",
+                    "en": "I'd rather not",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0129.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Communication & Social",
+            "words": [
+                {
+                    "ko": "초대",
+                    "romaja": "Chodae",
+                    "en": "Invitation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0130.mp3"
+                },
+                {
+                    "ko": "밀린 이야기 하기",
+                    "romaja": "Millin iyagi hagi",
+                    "en": "Catch up",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0131.mp3"
+                },
+                {
+                    "ko": "계획",
+                    "romaja": "Gyehoek",
+                    "en": "Plan",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0132.mp3"
+                },
+                {
+                    "ko": "일정",
+                    "romaja": "Iljeong",
+                    "en": "Schedule",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0133.mp3"
+                },
+                {
+                    "ko": "알림",
+                    "romaja": "Allim",
+                    "en": "Reminder",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0134.mp3"
+                },
+                {
+                    "ko": "업데이트",
+                    "romaja": "Eopdeiteu",
+                    "en": "Update",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0135.mp3"
+                },
+                {
+                    "ko": "피드백",
+                    "romaja": "Pideubaek",
+                    "en": "Feedback",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0136.mp3"
+                },
+                {
+                    "ko": "의견",
+                    "romaja": "Uigyeon",
+                    "en": "Opinion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0137.mp3"
+                },
+                {
+                    "ko": "제안",
+                    "romaja": "Jean",
+                    "en": "Suggestion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0138.mp3"
+                },
+                {
+                    "ko": "동의",
+                    "romaja": "Dongui",
+                    "en": "Agreement",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0139.mp3"
+                },
+                {
+                    "ko": "반대",
+                    "romaja": "Bandae",
+                    "en": "Disagreement",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0140.mp3"
+                },
+                {
+                    "ko": "예의 바른",
+                    "romaja": "Yei bareun",
+                    "en": "Polite",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0141.mp3"
+                },
+                {
+                    "ko": "격식 있는",
+                    "romaja": "Gyeoksik inneun",
+                    "en": "Formal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0142.mp3"
+                },
+                {
+                    "ko": "격식 없는",
+                    "romaja": "Gyeoksik eomneun",
+                    "en": "Informal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0143.mp3"
+                },
+                {
+                    "ko": "제스처",
+                    "romaja": "Jeseucheo",
+                    "en": "Gesture",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0144.mp3"
+                },
+                {
+                    "ko": "잡담",
+                    "romaja": "Japdam",
+                    "en": "Small talk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0145.mp3"
+                },
+                {
+                    "ko": "주제",
+                    "romaja": "Juje",
+                    "en": "Topic",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0146.mp3"
+                },
+                {
+                    "ko": "전환",
+                    "romaja": "Jeonhwan",
+                    "en": "Transition",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0147.mp3"
+                },
+                {
+                    "ko": "설명",
+                    "romaja": "Seolmyeong",
+                    "en": "Clarification",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0148.mp3"
+                },
+                {
+                    "ko": "후속 조치",
+                    "romaja": "Husok jochi",
+                    "en": "Follow-up",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0149.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Communication & Social - Phrases",
+            "words": [
+                {
+                    "ko": "조만간 만나요",
+                    "romaja": "Jomangan mannayo",
+                    "en": "Let's catch up soon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0150.mp3"
+                },
+                {
+                    "ko": "초대장을 보내드릴게요",
+                    "romaja": "Chodaejangeul bonaedeurilgeyo",
+                    "en": "I'll send you the invitation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0151.mp3"
+                },
+                {
+                    "ko": "통화 일정을 잡을 수 있을까요?",
+                    "romaja": "Tonghwa iljeongeul jabeul su isseulkkayo?",
+                    "en": "Can we schedule a call?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0152.mp3"
+                },
+                {
+                    "ko": "간단한 업데이트입니다",
+                    "romaja": "Gandanhan eopdeiteuimnida",
+                    "en": "Here is a quick update",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0153.mp3"
+                },
+                {
+                    "ko": "피드백 감사합니다",
+                    "romaja": "Pideubaek gamsahamnida",
+                    "en": "I appreciate your feedback",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0154.mp3"
+                },
+                {
+                    "ko": "제 생각에는 공평합니다",
+                    "romaja": "Je saenggageneun gongpyeonghamnida",
+                    "en": "In my opinion, that's fair",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0155.mp3"
+                },
+                {
+                    "ko": "제안이 있으신가요?",
+                    "romaja": "Jeani isseusingayo?",
+                    "en": "Do you have a suggestion?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0156.mp3"
+                },
+                {
+                    "ko": "예의를 지킵시다",
+                    "romaja": "Yeireul jikipsida",
+                    "en": "Let's keep the tone polite",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0157.mp3"
+                },
+                {
+                    "ko": "그 점을 명확히 해도 될까요?",
+                    "romaja": "Geu jeomeul myeonghwakhi haedo doelkkayo?",
+                    "en": "May I clarify that point?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0158.mp3"
+                },
+                {
+                    "ko": "내일 다시 연락드릴게요",
+                    "romaja": "Naeil dasi yeollakdeurilgeyo",
+                    "en": "I'll follow up tomorrow",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0159.mp3"
+                },
+                {
+                    "ko": "업데이트 감사합니다, 곧 연락드릴게요",
+                    "romaja": "Eopdeiteu gamsahamnida, got yeollakdeurilgeyo",
+                    "en": "Thanks for the update, I'll get back to you soon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0160.mp3"
+                },
+                {
+                    "ko": "다음 단계에 대해 합의합시다",
+                    "romaja": "Daeum dangyee daehae habuihapsida",
+                    "en": "Let's agree on the next steps together",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0161.mp3"
+                },
+                {
+                    "ko": "변경 사항이 있으면 알려주세요",
+                    "romaja": "Byeongyeong sahangi isseumyeon allyeojuseyo",
+                    "en": "Please keep me posted if anything changes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0162.mp3"
+                },
+                {
+                    "ko": "언제든지 연락 주세요",
+                    "romaja": "Eonjedeunji yeollak juseyo",
+                    "en": "Feel free to reach out anytime",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0163.mp3"
+                },
+                {
+                    "ko": "나중에 간단한 요약을 공유해 주시겠어요?",
+                    "romaja": "Najunge gandanhan yoyageul gongyuhae jusigesseoyo?",
+                    "en": "Could you share a quick summary afterward?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0164.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Meeting New People",
+            "words": [
+                {
+                    "ko": "지인",
+                    "romaja": "Jiin",
+                    "en": "Acquaintance",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0165.mp3"
+                },
+                {
+                    "ko": "소개",
+                    "romaja": "Sogae",
+                    "en": "Introduction",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0166.mp3"
+                },
+                {
+                    "ko": "악수",
+                    "romaja": "Aksu",
+                    "en": "Handshake",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0167.mp3"
+                },
+                {
+                    "ko": "대화",
+                    "romaja": "Daehwa",
+                    "en": "Conversation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0168.mp3"
+                },
+                {
+                    "ko": "배경",
+                    "romaja": "Baegyeong",
+                    "en": "Background",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0169.mp3"
+                },
+                {
+                    "ko": "고향",
+                    "romaja": "Gohyang",
+                    "en": "Hometown",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0170.mp3"
+                },
+                {
+                    "ko": "관심사",
+                    "romaja": "Gwansimsa",
+                    "en": "Interest",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0171.mp3"
+                },
+                {
+                    "ko": "취미",
+                    "romaja": "Chwimi",
+                    "en": "Hobby",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0172.mp3"
+                },
+                {
+                    "ko": "경력",
+                    "romaja": "Gyeongnyeok",
+                    "en": "Career",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0173.mp3"
+                },
+                {
+                    "ko": "네트워킹 행사",
+                    "romaja": "Neteuwoking haengsa",
+                    "en": "Networking event",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0174.mp3"
+                },
+                {
+                    "ko": "아이스브레이킹",
+                    "romaja": "Aiseubeureiking",
+                    "en": "Icebreaker",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0175.mp3"
+                },
+                {
+                    "ko": "잡담",
+                    "romaja": "Japdam",
+                    "en": "Small talk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0176.mp3"
+                },
+                {
+                    "ko": "공통점",
+                    "romaja": "Gongtongjeom",
+                    "en": "Common ground",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0177.mp3"
+                },
+                {
+                    "ko": "초대",
+                    "romaja": "Chodae",
+                    "en": "Invitation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0178.mp3"
+                },
+                {
+                    "ko": "후속 메시지",
+                    "romaja": "Husok mesiji",
+                    "en": "Follow-up message",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0179.mp3"
+                },
+                {
+                    "ko": "연락처",
+                    "romaja": "Yeollakcheo",
+                    "en": "Contact info",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0180.mp3"
+                },
+                {
+                    "ko": "전화번호",
+                    "romaja": "Jeonhwabeonho",
+                    "en": "Phone number",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0181.mp3"
+                },
+                {
+                    "ko": "소셜 미디어",
+                    "romaja": "Sosyeol midieo",
+                    "en": "Social media",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0182.mp3"
+                },
+                {
+                    "ko": "모임",
+                    "romaja": "Moim",
+                    "en": "Meetup",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0183.mp3"
+                },
+                {
+                    "ko": "문화 교류",
+                    "romaja": "Munhwa gyoryu",
+                    "en": "Cultural exchange",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0184.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Meeting New People - Phrases",
+            "words": [
+                {
+                    "ko": "반갑습니다, 여기는 무슨 일로 오셨나요?",
+                    "romaja": "Bangapseumnida, yeogineun museun illo osyeonnayo?",
+                    "en": "Nice to meet you, what brings you here?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0185.mp3"
+                },
+                {
+                    "ko": "이 행사는 처음이신가요?",
+                    "romaja": "I haengsaneun cheoeumisingayo?",
+                    "en": "Is this your first time at this event?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0186.mp3"
+                },
+                {
+                    "ko": "주최자와는 어떻게 아세요?",
+                    "romaja": "Juchoejawaneun eotteoke aseyo?",
+                    "en": "How do you know the host?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0187.mp3"
+                },
+                {
+                    "ko": "어디서 자라셨나요?",
+                    "romaja": "Eodiseo jarasyeonnayo?",
+                    "en": "Where did you grow up?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0188.mp3"
+                },
+                {
+                    "ko": "무슨 일을 하세요?",
+                    "romaja": "Museun ireul haseyo?",
+                    "en": "What do you do for work?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0189.mp3"
+                },
+                {
+                    "ko": "요즘 어떤 취미를 즐기세요?",
+                    "romaja": "Yojeum eotteon chwimireul jeulgiseyo?",
+                    "en": "What hobbies are you into lately?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0190.mp3"
+                },
+                {
+                    "ko": "언제 커피 한잔하실래요?",
+                    "romaja": "Eonje keopi hanjanhasillaeyo?",
+                    "en": "Would you like to grab coffee sometime?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0191.mp3"
+                },
+                {
+                    "ko": "소셜 미디어 친구 추가해도 될까요?",
+                    "romaja": "Sosyeol midieo chingu chugahaedo doelkkayo?",
+                    "en": "Can I add you on social media?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0192.mp3"
+                },
+                {
+                    "ko": "제 연락처를 보내드릴게요",
+                    "romaja": "Je yeollakcheoreul bonaedeurilgeyo",
+                    "en": "Let me send you my contact info",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0193.mp3"
+                },
+                {
+                    "ko": "여행 후에도 연락하고 지내요",
+                    "romaja": "Yeohaeng huedo yeollakhago jinaeyo",
+                    "en": "Let's keep in touch after this trip",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0194.mp3"
+                },
+                {
+                    "ko": "남은 하루 잘 보내세요",
+                    "romaja": "Nameun haru jal bonaeseyo",
+                    "en": "Enjoy the rest of your day",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0195.mp3"
+                },
+                {
+                    "ko": "대화 즐거웠습니다",
+                    "romaja": "Daehwa jeulgeowosseumnida",
+                    "en": "It was great chatting with you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/01/ko_0196.mp3"
+                }
+            ]
+        }
+    ]
+}

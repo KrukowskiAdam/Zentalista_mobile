@@ -1,0 +1,945 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 07 - Health & Body",
+    "categories": [
+        {
+            "name": "Body Parts",
+            "words": [
+                {
+                    "en": "Head",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0001.mp3",
+                    "ja": "頭",
+                    "romaji": "Atama"
+                },
+                {
+                    "en": "Hair",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0002.mp3",
+                    "ja": "髪",
+                    "romaji": "Kami"
+                },
+                {
+                    "en": "Face",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0003.mp3",
+                    "ja": "顔",
+                    "romaji": "Kao"
+                },
+                {
+                    "en": "Eye",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0004.mp3",
+                    "ja": "目",
+                    "romaji": "Me"
+                },
+                {
+                    "en": "Nose",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0005.mp3",
+                    "ja": "鼻",
+                    "romaji": "Hana"
+                },
+                {
+                    "en": "Ear",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0006.mp3",
+                    "ja": "耳",
+                    "romaji": "Mimi"
+                },
+                {
+                    "en": "Mouth",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0007.mp3",
+                    "ja": "口",
+                    "romaji": "Kuchi"
+                },
+                {
+                    "en": "Tooth",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0008.mp3",
+                    "ja": "歯",
+                    "romaji": "Ha"
+                },
+                {
+                    "en": "Neck",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0009.mp3",
+                    "ja": "首",
+                    "romaji": "Kubi"
+                },
+                {
+                    "en": "Shoulder",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0010.mp3",
+                    "ja": "肩",
+                    "romaji": "Kata"
+                },
+                {
+                    "en": "Arm",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0011.mp3",
+                    "ja": "腕",
+                    "romaji": "Ude"
+                },
+                {
+                    "en": "Hand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0012.mp3",
+                    "ja": "手",
+                    "romaji": "Te"
+                },
+                {
+                    "en": "Finger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0013.mp3",
+                    "ja": "指",
+                    "romaji": "Yubi"
+                },
+                {
+                    "en": "Leg",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0014.mp3",
+                    "ja": "脚",
+                    "romaji": "Ashi"
+                },
+                {
+                    "en": "Knee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0015.mp3",
+                    "ja": "膝",
+                    "romaji": "Hiza"
+                },
+                {
+                    "en": "Foot",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0016.mp3",
+                    "ja": "足",
+                    "romaji": "Ashi"
+                },
+                {
+                    "en": "Back",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0017.mp3",
+                    "ja": "背中",
+                    "romaji": "Senaka"
+                },
+                {
+                    "en": "Stomach",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0018.mp3",
+                    "ja": "お腹",
+                    "romaji": "Onaka"
+                }
+            ]
+        },
+        {
+            "name": "Body Parts - Phrases",
+            "words": [
+                {
+                    "en": "My head hurts",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0019.mp3",
+                    "ja": "頭が痛いです",
+                    "romaji": "Atama ga itai desu"
+                },
+                {
+                    "en": "I cut my hair",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0020.mp3",
+                    "ja": "髪を切りました",
+                    "romaji": "Kami wo kirimashita"
+                },
+                {
+                    "en": "Wash your face",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0021.mp3",
+                    "ja": "顔を洗ってください",
+                    "romaji": "Kao wo aratte kudasai"
+                },
+                {
+                    "en": "Close your eyes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0022.mp3",
+                    "ja": "目を閉じてください",
+                    "romaji": "Me wo tojite kudasai"
+                },
+                {
+                    "en": "Can you smell it?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0023.mp3",
+                    "ja": "匂いがしますか？",
+                    "romaji": "Nioi ga shimasu ka"
+                },
+                {
+                    "en": "Can you hear me?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0024.mp3",
+                    "ja": "聞こえますか？",
+                    "romaji": "Kikoemasu ka"
+                },
+                {
+                    "en": "Open your mouth",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0025.mp3",
+                    "ja": "口を開けてください",
+                    "romaji": "Kuchi wo akete kudasai"
+                },
+                {
+                    "en": "Brush your teeth",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0026.mp3",
+                    "ja": "歯を磨いてください",
+                    "romaji": "Ha wo migaite kudasai"
+                },
+                {
+                    "en": "My neck hurts",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0027.mp3",
+                    "ja": "首が痛いです",
+                    "romaji": "Kubi ga itai desu"
+                },
+                {
+                    "en": "Relax your shoulders",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0028.mp3",
+                    "ja": "肩の力を抜いてください",
+                    "romaji": "Kata no chikara wo nuite kudasai"
+                },
+                {
+                    "en": "Raise your arms",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0029.mp3",
+                    "ja": "腕を上げてください",
+                    "romaji": "Ude wo agete kudasai"
+                },
+                {
+                    "en": "Hold my hand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0030.mp3",
+                    "ja": "手を繋いでください",
+                    "romaji": "Te wo tsunaide kudasai"
+                },
+                {
+                    "en": "Count on your fingers",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0031.mp3",
+                    "ja": "指で数えてください",
+                    "romaji": "Yubi de kazoete kudasai"
+                },
+                {
+                    "en": "Cross your legs",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0032.mp3",
+                    "ja": "足を組んでください",
+                    "romaji": "Ashi wo kunde kudasai"
+                },
+                {
+                    "en": "My knee hurts",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0033.mp3",
+                    "ja": "膝が痛いです",
+                    "romaji": "Hiza ga itai desu"
+                },
+                {
+                    "en": "My feet hurt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0034.mp3",
+                    "ja": "足が痛いです",
+                    "romaji": "Ashi ga itai desu"
+                },
+                {
+                    "en": "My back hurts",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0035.mp3",
+                    "ja": "背中が痛いです",
+                    "romaji": "Senaka ga itai desu"
+                },
+                {
+                    "en": "I have a stomachache",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0036.mp3",
+                    "ja": "お腹が痛いです",
+                    "romaji": "Onaka ga itai desu"
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine",
+            "words": [
+                {
+                    "en": "Health",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0037.mp3",
+                    "ja": "健康",
+                    "romaji": "Kenkou"
+                },
+                {
+                    "en": "Doctor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0038.mp3",
+                    "ja": "医者",
+                    "romaji": "Isha"
+                },
+                {
+                    "en": "Hospital",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0039.mp3",
+                    "ja": "病院",
+                    "romaji": "Byouin"
+                },
+                {
+                    "en": "Pharmacy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0040.mp3",
+                    "ja": "薬局",
+                    "romaji": "Yakkyoku"
+                },
+                {
+                    "en": "Medicine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0041.mp3",
+                    "ja": "薬",
+                    "romaji": "Kusuri"
+                },
+                {
+                    "en": "Pill",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0042.mp3",
+                    "ja": "錠剤",
+                    "romaji": "Jouzai"
+                },
+                {
+                    "en": "Injection",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0043.mp3",
+                    "ja": "注射",
+                    "romaji": "Chuusha"
+                },
+                {
+                    "en": "Bandage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0044.mp3",
+                    "ja": "包帯",
+                    "romaji": "Houtai"
+                },
+                {
+                    "en": "Sick",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0045.mp3",
+                    "ja": "病気",
+                    "romaji": "Byouki"
+                },
+                {
+                    "en": "Pain",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0046.mp3",
+                    "ja": "痛み",
+                    "romaji": "Itami"
+                },
+                {
+                    "en": "Fever",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0047.mp3",
+                    "ja": "熱",
+                    "romaji": "Netsu"
+                },
+                {
+                    "en": "Cold",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0048.mp3",
+                    "ja": "風邪",
+                    "romaji": "Kaze"
+                },
+                {
+                    "en": "Cough",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0049.mp3",
+                    "ja": "咳",
+                    "romaji": "Seki"
+                },
+                {
+                    "en": "Headache",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0050.mp3",
+                    "ja": "頭痛",
+                    "romaji": "Zutsuu"
+                },
+                {
+                    "en": "Allergy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0051.mp3",
+                    "ja": "アレルギー",
+                    "romaji": "Arerugii"
+                },
+                {
+                    "en": "Injury",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0052.mp3",
+                    "ja": "怪我",
+                    "romaji": "Kega"
+                },
+                {
+                    "en": "Emergency",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0053.mp3",
+                    "ja": "緊急",
+                    "romaji": "Kinkyuu"
+                },
+                {
+                    "en": "Appointment",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0054.mp3",
+                    "ja": "約束",
+                    "romaji": "Yakusoku"
+                }
+            ]
+        },
+        {
+            "name": "Health & Medicine - Phrases",
+            "words": [
+                {
+                    "en": "How's your health?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0055.mp3",
+                    "ja": "健康状態はどうですか？",
+                    "romaji": "Kenkou joutai wa dou desu ka"
+                },
+                {
+                    "en": "I need a doctor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0056.mp3",
+                    "ja": "医者が必要です",
+                    "romaji": "Isha ga hitsuyou desu"
+                },
+                {
+                    "en": "Where's the hospital?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0057.mp3",
+                    "ja": "病院はどこですか？",
+                    "romaji": "Byouin wa doko desu ka"
+                },
+                {
+                    "en": "Is there a pharmacy nearby?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0058.mp3",
+                    "ja": "近くに薬局はありますか？",
+                    "romaji": "Chikaku ni yakkyoku wa arimasu ka"
+                },
+                {
+                    "en": "I need medicine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0059.mp3",
+                    "ja": "薬が必要です",
+                    "romaji": "Kusuri ga hitsuyou desu"
+                },
+                {
+                    "en": "Take this pill",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0060.mp3",
+                    "ja": "この薬を飲んでください",
+                    "romaji": "Kono kusuri wo nonde kudasai"
+                },
+                {
+                    "en": "I need an injection",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0061.mp3",
+                    "ja": "注射が必要です",
+                    "romaji": "Chuusha ga hitsuyou desu"
+                },
+                {
+                    "en": "Put on a bandage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0062.mp3",
+                    "ja": "包帯を巻いてください",
+                    "romaji": "Houtai wo maite kudasai"
+                },
+                {
+                    "en": "I'm sick",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0063.mp3",
+                    "ja": "病気です",
+                    "romaji": "Byouki desu"
+                },
+                {
+                    "en": "Are you in pain?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0064.mp3",
+                    "ja": "痛いですか？",
+                    "romaji": "Itai desu ka"
+                },
+                {
+                    "en": "I have a fever",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0065.mp3",
+                    "ja": "熱があります",
+                    "romaji": "Netsu ga arimasu"
+                },
+                {
+                    "en": "I have a cold",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0066.mp3",
+                    "ja": "風邪をひきました",
+                    "romaji": "Kaze wo hikimashita"
+                },
+                {
+                    "en": "I'm coughing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0067.mp3",
+                    "ja": "咳が出ます",
+                    "romaji": "Seki ga demasu"
+                },
+                {
+                    "en": "I have a headache",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0068.mp3",
+                    "ja": "頭痛がします",
+                    "romaji": "Zutsuu ga shimasu"
+                },
+                {
+                    "en": "Do you have allergies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0069.mp3",
+                    "ja": "アレルギーはありますか？",
+                    "romaji": "Arerugii wa arimasu ka"
+                },
+                {
+                    "en": "I'm injured",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0070.mp3",
+                    "ja": "怪我をしました",
+                    "romaji": "Kega wo shimashita"
+                },
+                {
+                    "en": "It's an emergency!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0071.mp3",
+                    "ja": "緊急事態です！",
+                    "romaji": "Kinkyuu jitai desu!"
+                },
+                {
+                    "en": "I have an appointment",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0072.mp3",
+                    "ja": "予約があります",
+                    "romaji": "Yoyaku ga arimasu"
+                },
+                {
+                    "en": "Could you explain the treatment plan?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0073.mp3",
+                    "ja": "治療計画を説明してもらえますか？",
+                    "romaji": "Chiryou keikaku wo setsumei shite moraemasu ka"
+                },
+                {
+                    "en": "I need a note for work, please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0074.mp3",
+                    "ja": "仕事用の診断書をお願いします",
+                    "romaji": "Shigoto you no shindansho wo onegaishimasu"
+                },
+                {
+                    "en": "Can you call me when the prescription is ready?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0075.mp3",
+                    "ja": "処方箋ができたら電話してもらえますか？",
+                    "romaji": "Shohousen ga dekitara denwa shite moraemasu ka"
+                },
+                {
+                    "en": "Is there a clinic open on weekends?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0076.mp3",
+                    "ja": "週末に開いているクリニックはありますか？",
+                    "romaji": "Shuumatsu ni aiteiru kurinikku wa arimasu ka"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities",
+            "words": [
+                {
+                    "en": "Exercise",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0077.mp3",
+                    "ja": "運動",
+                    "romaji": "Undou"
+                },
+                {
+                    "en": "Sleep",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0078.mp3",
+                    "ja": "睡眠",
+                    "romaji": "Suimin"
+                },
+                {
+                    "en": "Rest",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0079.mp3",
+                    "ja": "休息",
+                    "romaji": "Kyuusoku"
+                },
+                {
+                    "en": "Diet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0080.mp3",
+                    "ja": "食事制限",
+                    "romaji": "Shokuji seigen"
+                },
+                {
+                    "en": "Water",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0081.mp3",
+                    "ja": "水",
+                    "romaji": "Mizu"
+                },
+                {
+                    "en": "Energy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0082.mp3",
+                    "ja": "エネルギー",
+                    "romaji": "Enerugii"
+                },
+                {
+                    "en": "Strong",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0083.mp3",
+                    "ja": "強いです",
+                    "romaji": "Tsuyoi desu"
+                },
+                {
+                    "en": "Weak",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0084.mp3",
+                    "ja": "弱いです",
+                    "romaji": "Yowai desu"
+                },
+                {
+                    "en": "Healthy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0085.mp3",
+                    "ja": "健康的です",
+                    "romaji": "Kenkouteki desu"
+                },
+                {
+                    "en": "Fit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0086.mp3",
+                    "ja": "健康です",
+                    "romaji": "Kenkou desu"
+                },
+                {
+                    "en": "Walk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0087.mp3",
+                    "ja": "歩きます",
+                    "romaji": "Arukimasu"
+                },
+                {
+                    "en": "Run",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0088.mp3",
+                    "ja": "走ります",
+                    "romaji": "Hashirimasu"
+                },
+                {
+                    "en": "Stretch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0089.mp3",
+                    "ja": "ストレッチします",
+                    "romaji": "Sutoretchi shimasu"
+                },
+                {
+                    "en": "Breathe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0090.mp3",
+                    "ja": "呼吸します",
+                    "romaji": "Kokyuu shimasu"
+                },
+                {
+                    "en": "Relax",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0091.mp3",
+                    "ja": "リラックスします",
+                    "romaji": "Rirakkusu shimasu"
+                },
+                {
+                    "en": "Stress",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0092.mp3",
+                    "ja": "ストレス",
+                    "romaji": "Sutoresu"
+                },
+                {
+                    "en": "Wellness",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0093.mp3",
+                    "ja": "ウェルネス",
+                    "romaji": "Werunesu"
+                },
+                {
+                    "en": "Recovery",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0094.mp3",
+                    "ja": "回復",
+                    "romaji": "Kaifuku"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Activities - Phrases",
+            "words": [
+                {
+                    "en": "Do you exercise?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0095.mp3",
+                    "ja": "運動しますか？",
+                    "romaji": "Undou shimasu ka"
+                },
+                {
+                    "en": "Did you sleep well?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0096.mp3",
+                    "ja": "よく眠れましたか？",
+                    "romaji": "Yoku nemuremashita ka"
+                },
+                {
+                    "en": "Get some rest",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0097.mp3",
+                    "ja": "休んでください",
+                    "romaji": "Yasunde kudasai"
+                },
+                {
+                    "en": "I'm on a diet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0098.mp3",
+                    "ja": "ダイエット中です",
+                    "romaji": "Daietto chuu desu"
+                },
+                {
+                    "en": "Drink more water",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0099.mp3",
+                    "ja": "もっと水を飲んでください",
+                    "romaji": "Motto mizu wo nonde kudasai"
+                },
+                {
+                    "en": "I have no energy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0100.mp3",
+                    "ja": "元気がありません",
+                    "romaji": "Genki ga arimasen"
+                },
+                {
+                    "en": "You're strong",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0101.mp3",
+                    "ja": "あなたは強いです",
+                    "romaji": "Anata wa tsuyoi desu"
+                },
+                {
+                    "en": "I feel weak",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0102.mp3",
+                    "ja": "体が弱っています",
+                    "romaji": "Karada ga yowatteimasu"
+                },
+                {
+                    "en": "Stay healthy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0103.mp3",
+                    "ja": "健康でいてください",
+                    "romaji": "Kenkou de ite kudasai"
+                },
+                {
+                    "en": "Are you fit?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0104.mp3",
+                    "ja": "健康ですか？",
+                    "romaji": "Kenkou desu ka"
+                },
+                {
+                    "en": "Let's go for a walk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0105.mp3",
+                    "ja": "散歩に行きましょう",
+                    "romaji": "Sanpo ni ikimashou"
+                },
+                {
+                    "en": "I'm going running",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0106.mp3",
+                    "ja": "走りに行きます",
+                    "romaji": "Hashiri ni ikimasu"
+                },
+                {
+                    "en": "Let's stretch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0107.mp3",
+                    "ja": "ストレッチしましょう",
+                    "romaji": "Sutoretchi shimashou"
+                },
+                {
+                    "en": "Breathe deeply",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0108.mp3",
+                    "ja": "深呼吸してください",
+                    "romaji": "Shinkokyuu shite kudasai"
+                },
+                {
+                    "en": "Just relax",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0109.mp3",
+                    "ja": "リラックスしてください",
+                    "romaji": "Rirakkusu shite kudasai"
+                },
+                {
+                    "en": "I'm so stressed",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0110.mp3",
+                    "ja": "とてもストレスが溜まっています",
+                    "romaji": "Totemo sutoresu ga tamatteimasu"
+                },
+                {
+                    "en": "Focus on wellness",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0111.mp3",
+                    "ja": "健康に気を使いましょう",
+                    "romaji": "Kenkou ni ki wo tsukaimashou"
+                },
+                {
+                    "en": "Full recovery",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0112.mp3",
+                    "ja": "全快",
+                    "romaji": "Zenkai"
+                },
+                {
+                    "en": "Set a reminder to stretch during breaks",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0113.mp3",
+                    "ja": "休憩中にストレッチするようリマインダーを設定して",
+                    "romaji": "Kyuukei chuu ni sutoretchi suru you rimaindaa wo settei shite"
+                },
+                {
+                    "en": "Let's track our sleep for a week",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0114.mp3",
+                    "ja": "一週間睡眠を記録しましょう",
+                    "romaji": "Isshuukan suimin wo kiroku shimashou"
+                },
+                {
+                    "en": "I'm trying to cut back on sugar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0115.mp3",
+                    "ja": "砂糖を控えようとしています",
+                    "romaji": "Satou wo hikaeyou to shiteimasu"
+                },
+                {
+                    "en": "Can we cool down with a short walk?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0116.mp3",
+                    "ja": "短い散歩でクールダウンしましょうか？",
+                    "romaji": "Mijikai sanpo de kuurudaun shimashou ka"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies",
+            "words": [
+                {
+                    "en": "Clinic",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0117.mp3",
+                    "ja": "クリニック",
+                    "romaji": "Kurinikku"
+                },
+                {
+                    "en": "Appointment card",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0118.mp3",
+                    "ja": "診察券",
+                    "romaji": "Shinsatsuken"
+                },
+                {
+                    "en": "Emergency room",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0119.mp3",
+                    "ja": "救急治療室",
+                    "romaji": "Kyuukyuu chiryoushitsu"
+                },
+                {
+                    "en": "Sprain",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0120.mp3",
+                    "ja": "捻挫",
+                    "romaji": "Nenza"
+                },
+                {
+                    "en": "Fracture",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0121.mp3",
+                    "ja": "骨折",
+                    "romaji": "Kossetsu"
+                },
+                {
+                    "en": "Painkiller",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0122.mp3",
+                    "ja": "鎮痛剤",
+                    "romaji": "Chintsuuzai"
+                },
+                {
+                    "en": "Thermometer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0123.mp3",
+                    "ja": "体温計",
+                    "romaji": "Taionkei"
+                },
+                {
+                    "en": "Rash",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0124.mp3",
+                    "ja": "発疹",
+                    "romaji": "Hosshin"
+                },
+                {
+                    "en": "Ambulance",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0125.mp3",
+                    "ja": "救急車",
+                    "romaji": "Kyuukyuusha"
+                },
+                {
+                    "en": "Paramedic",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0126.mp3",
+                    "ja": "救急隊員",
+                    "romaji": "Kyuukyuu taiin"
+                },
+                {
+                    "en": "Insurance card",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0127.mp3",
+                    "ja": "保険証",
+                    "romaji": "Hokenshou"
+                },
+                {
+                    "en": "Prescription refill",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0128.mp3",
+                    "ja": "処方箋の補充",
+                    "romaji": "Shohousen no hojuu"
+                },
+                {
+                    "en": "Blood pressure",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0129.mp3",
+                    "ja": "血圧",
+                    "romaji": "Ketsuatsu"
+                },
+                {
+                    "en": "Breathing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0130.mp3",
+                    "ja": "呼吸",
+                    "romaji": "Kokyuu"
+                },
+                {
+                    "en": "Vaccination",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0131.mp3",
+                    "ja": "予防接種",
+                    "romaji": "Yobou sesshu"
+                },
+                {
+                    "en": "Injury report",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0132.mp3",
+                    "ja": "怪我の報告書",
+                    "romaji": "Kega no houkokusho"
+                },
+                {
+                    "en": "Recovery plan",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0133.mp3",
+                    "ja": "回復計画",
+                    "romaji": "Kaifuku keikaku"
+                },
+                {
+                    "en": "Follow-up visit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0134.mp3",
+                    "ja": "再診",
+                    "romaji": "Saishin"
+                },
+                {
+                    "en": "Triage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0135.mp3",
+                    "ja": "トリアージ",
+                    "romaji": "Toriaaji"
+                },
+                {
+                    "en": "Stitches",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0136.mp3",
+                    "ja": "縫合",
+                    "romaji": "Hougou"
+                }
+            ]
+        },
+        {
+            "name": "Health & Emergencies - Phrases",
+            "words": [
+                {
+                    "en": "I need to see a doctor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0137.mp3",
+                    "ja": "医者に診てもらいたいです",
+                    "romaji": "Isha ni mite moraitai desu"
+                },
+                {
+                    "en": "Where is the nearest clinic?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0138.mp3",
+                    "ja": "一番近いクリニックはどこですか？",
+                    "romaji": "Ichiban chikai kurinikku wa doko desu ka"
+                },
+                {
+                    "en": "Please call an ambulance",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0139.mp3",
+                    "ja": "救急車を呼んでください",
+                    "romaji": "Kyuukyuusha wo yonde kudasai"
+                },
+                {
+                    "en": "I think I sprained my ankle",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0140.mp3",
+                    "ja": "足首を捻挫したと思います",
+                    "romaji": "Ashikubi wo nenza shita to omoimasu"
+                },
+                {
+                    "en": "I'm allergic to this medicine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0141.mp3",
+                    "ja": "この薬にアレルギーがあります",
+                    "romaji": "Kono kusuri ni arerugii ga arimasu"
+                },
+                {
+                    "en": "Can I get a prescription refill?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0142.mp3",
+                    "ja": "処方箋を補充できますか？",
+                    "romaji": "Shohousen wo hojuu dekimasu ka"
+                },
+                {
+                    "en": "My insurance card is here",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0143.mp3",
+                    "ja": "保険証はここにあります",
+                    "romaji": "Hokenshou wa koko ni arimasu"
+                },
+                {
+                    "en": "Check my blood pressure, please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0144.mp3",
+                    "ja": "血圧を測ってください",
+                    "romaji": "Ketsuatsu wo hakatte kudasai"
+                },
+                {
+                    "en": "He is having trouble breathing",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0145.mp3",
+                    "ja": "彼は呼吸困難です",
+                    "romaji": "Kare wa kokyuu konnan desu"
+                },
+                {
+                    "en": "When is the next vaccination?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0146.mp3",
+                    "ja": "次の予防接種はいつですか？",
+                    "romaji": "Tsugi no yobou sesshu wa itsu desu ka"
+                },
+                {
+                    "en": "Please stay with me until help arrives",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0147.mp3",
+                    "ja": "助けが来るまで一緒にいてください",
+                    "romaji": "Tasuke ga kuru made issho ni ite kudasai"
+                },
+                {
+                    "en": "Can you call the emergency number for me?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0148.mp3",
+                    "ja": "緊急番号に電話してもらえますか？",
+                    "romaji": "Kinkyuu bangou ni denwa shite moraemasu ka"
+                },
+                {
+                    "en": "I need directions to the emergency room",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0149.mp3",
+                    "ja": "救急治療室への行き方を教えてください",
+                    "romaji": "Kyuukyuu chiryoushitsu e no ikikata wo oshiete kudasai"
+                },
+                {
+                    "en": "Please let my family know where I am",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/07/ja_0150.mp3",
+                    "ja": "家族に私の居場所を知らせてください",
+                    "romaji": "Kazoku ni watashi no ibasho wo shirasete kudasai"
+                }
+            ]
+        }
+    ]
+}

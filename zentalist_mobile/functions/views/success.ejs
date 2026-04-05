@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-learning-app-design-3">
+ <%- include('partials/head') %>
+
+ <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP"
+ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
+ 
+ <%- include('partials/menu') %>
+
+ <div class="container mx-auto px-4 py-8 max-w-4xl text-center">
+ <h1 class="text-3xl font-bold mb-4">Payment Successful! 🎉</h1>
+ <p class="text-lg mb-6">Thank you for upgrading to Premium!</p>
+ <a href="/" class="px-4 py-2 bg-level-expert hover:bg-level-expert rounded-lg transition-colors inline-block">Go to Homepage</a>
+ </div>
+ <%- include('partials/modals') %>
+
+
+ <script defer type="module" src="/scripts/auth.js"></script>
+ <script defer type="module" src="/scripts/index.js"></script>
+</body>
+</html>

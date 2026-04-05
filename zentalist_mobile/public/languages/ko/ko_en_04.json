@@ -1,0 +1,1077 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 04 - Travel & Tourism",
+    "categories": [
+        {
+            "name": "Travel & Tourism",
+            "words": [
+                {
+                    "en": "Travel",
+                    "ko": "여행",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0001.mp3",
+                    "romaja": "Yeohaeng"
+                },
+                {
+                    "en": "Tourism",
+                    "ko": "관광",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0002.mp3",
+                    "romaja": "Gwangwang"
+                },
+                {
+                    "en": "Tourist",
+                    "ko": "관광객",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0003.mp3",
+                    "romaja": "Gwangwanggaek"
+                },
+                {
+                    "en": "Vacation",
+                    "ko": "휴가",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0004.mp3",
+                    "romaja": "Hyuga"
+                },
+                {
+                    "en": "Airport",
+                    "ko": "공항",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0005.mp3",
+                    "romaja": "Gonghang"
+                },
+                {
+                    "en": "Flight",
+                    "ko": "비행기",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0006.mp3",
+                    "romaja": "Bihaenggi"
+                },
+                {
+                    "en": "Passport",
+                    "ko": "여권",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0007.mp3",
+                    "romaja": "Yeogwon"
+                },
+                {
+                    "en": "Visa",
+                    "ko": "비자",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0008.mp3",
+                    "romaja": "Bija"
+                },
+                {
+                    "en": "Luggage",
+                    "ko": "짐",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0009.mp3",
+                    "romaja": "Jim"
+                },
+                {
+                    "en": "Suitcase",
+                    "ko": "여행 가방",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0010.mp3",
+                    "romaja": "Yeohaeng gabang"
+                },
+                {
+                    "en": "Guide",
+                    "ko": "가이드",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0012.mp3",
+                    "romaja": "Gaideu"
+                },
+                {
+                    "en": "Photo",
+                    "ko": "사진",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0013.mp3",
+                    "romaja": "Sajin"
+                },
+                {
+                    "en": "Tour",
+                    "ko": "투어",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0015.mp3",
+                    "romaja": "Tueo"
+                },
+                {
+                    "en": "Destination",
+                    "ko": "목적지",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0016.mp3",
+                    "romaja": "Mokjeokji"
+                },
+                {
+                    "en": "Museum",
+                    "ko": "박물관",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0017.mp3",
+                    "romaja": "Bangmulgwan"
+                },
+                {
+                    "en": "Boarding pass",
+                    "ko": "탑승권",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0019.mp3",
+                    "romaja": "Tapseunggwon"
+                },
+                {
+                    "en": "Security check",
+                    "ko": "보안 검색",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0020.mp3",
+                    "romaja": "Boan geomsaek"
+                },
+                {
+                    "en": "Gate",
+                    "ko": "게이트",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0018.mp3",
+                    "romaja": "Geiteu"
+                },
+                {
+                    "en": "Customs",
+                    "ko": "세관",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0291.mp3",
+                    "romaja": "Segwan"
+                },
+                {
+                    "en": "Seat",
+                    "ko": "좌석",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0292.mp3",
+                    "romaja": "Jwaseok"
+                },
+                {
+                    "en": "Delay",
+                    "ko": "지연",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0021.mp3",
+                    "romaja": "Jiyeon"
+                },
+                {
+                    "en": "Emergency exit",
+                    "ko": "비상구",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0032.mp3",
+                    "romaja": "Bisanggu"
+                },
+                {
+                    "en": "Entrance fee",
+                    "ko": "입장료",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0033.mp3",
+                    "romaja": "Ipjangnyo"
+                },
+                {
+                    "en": "Guided tour",
+                    "ko": "가이드 투어",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0034.mp3",
+                    "romaja": "Gaideu tueo"
+                },
+                {
+                    "en": "Local guide",
+                    "ko": "현지 가이드",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0035.mp3",
+                    "romaja": "Hyeonji gaideu"
+                },
+                {
+                    "en": "Day trip",
+                    "ko": "당일치기 여행",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0036.mp3",
+                    "romaja": "Dangilchigi yeohaeng"
+                },
+                {
+                    "en": "Travel adapter",
+                    "ko": "여행용 어댑터",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0037.mp3",
+                    "romaja": "Yeohaengyong eodaepteo"
+                },
+                {
+                    "en": "Portable charger",
+                    "ko": "보조 배터리",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0038.mp3",
+                    "romaja": "Bojo baeteori"
+                },
+                {
+                    "en": "Supermarket",
+                    "ko": "슈퍼마켓",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0029.mp3",
+                    "romaja": "Syupeomaket"
+                },
+                {
+                    "en": "Bookstore",
+                    "ko": "서점",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0030.mp3",
+                    "romaja": "Seojeom"
+                },
+                {
+                    "en": "Theatre",
+                    "ko": "극장",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0031.mp3",
+                    "romaja": "Geukjang"
+                },
+                {
+                    "en": "Church",
+                    "ko": "교회",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0293.mp3",
+                    "romaja": "Gyohoe"
+                },
+                {
+                    "en": "Bar",
+                    "ko": "바",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0294.mp3",
+                    "romaja": "Ba"
+                },
+                {
+                    "en": "Cinema",
+                    "ko": "영화관",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0295.mp3",
+                    "romaja": "Yeonghwagwan"
+                },
+                {
+                    "en": "Police station",
+                    "ko": "경찰서",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0296.mp3",
+                    "romaja": "Gyeongchalseo"
+                },
+                {
+                    "en": "Petrol station",
+                    "ko": "주유소",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0297.mp3",
+                    "romaja": "Juyuso"
+                },
+                {
+                    "en": "Weather",
+                    "ko": "날씨",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0298.mp3",
+                    "romaja": "Nalssi"
+                },
+                {
+                    "en": "Wind",
+                    "ko": "바람",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0299.mp3",
+                    "romaja": "Baram"
+                },
+                {
+                    "en": "Hot",
+                    "ko": "더운",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0039.mp3",
+                    "romaja": "Deoun"
+                },
+                {
+                    "en": "Warm",
+                    "ko": "따뜻한",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0040.mp3",
+                    "romaja": "Ttatteuthan"
+                },
+                {
+                    "en": "Snow",
+                    "ko": "눈",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0041.mp3",
+                    "romaja": "Nun"
+                },
+                {
+                    "en": "Rain",
+                    "ko": "비",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0042.mp3",
+                    "romaja": "Bi"
+                },
+                {
+                    "en": "Cloud",
+                    "ko": "구름",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0043.mp3",
+                    "romaja": "Gureum"
+                },
+                {
+                    "en": "Sun",
+                    "ko": "태양",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0044.mp3",
+                    "romaja": "Taeyang"
+                },
+                {
+                    "en": "Ice",
+                    "ko": "얼음",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0045.mp3",
+                    "romaja": "Eoleum"
+                },
+                {
+                    "en": "Cloudy",
+                    "ko": "흐린",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0046.mp3",
+                    "romaja": "Heurin"
+                },
+                {
+                    "en": "Thunder",
+                    "ko": "천둥",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0047.mp3",
+                    "romaja": "Cheondung"
+                },
+                {
+                    "en": "Fog",
+                    "ko": "안개",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0048.mp3",
+                    "romaja": "Angae"
+                },
+                {
+                    "en": "Lightning",
+                    "ko": "번개",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0049.mp3",
+                    "romaja": "Beongae"
+                },
+                {
+                    "en": "Air conditioner",
+                    "ko": "에어컨",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0050.mp3",
+                    "romaja": "Eeokeon"
+                },
+                {
+                    "en": "Umbrella",
+                    "ko": "우산",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0051.mp3",
+                    "romaja": "Usan"
+                },
+                {
+                    "en": "Storm",
+                    "ko": "폭풍",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0052.mp3",
+                    "romaja": "Pokpung"
+                }
+            ]
+        },
+        {
+            "name": "Travel & Tourism - Phrases",
+            "words": [
+                {
+                    "en": "I'm traveling.",
+                    "ko": "여행 중이에요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0300.mp3",
+                    "romaja": "Yeohaeng jungieyo"
+                },
+                {
+                    "en": "I'm on vacation.",
+                    "ko": "휴가 중이에요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0301.mp3",
+                    "romaja": "Hyuga jungieyo"
+                },
+                {
+                    "en": "How long will you stay?",
+                    "ko": "얼마나 머무르실 거예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0302.mp3",
+                    "romaja": "Eolmana meomureusil geoyeyo?"
+                },
+                {
+                    "en": "I'm staying 3 days.",
+                    "ko": "삼 일 동안 머물 거예요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0303.mp3",
+                    "romaja": "Sam il dongan meomul geoyeyo"
+                },
+                {
+                    "en": "It's my first time.",
+                    "ko": "처음이에요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0304.mp3",
+                    "romaja": "Cheoeumieyo"
+                },
+                {
+                    "en": "It's beautiful.",
+                    "ko": "아름답네요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0305.mp3",
+                    "romaja": "Areumdapneyo"
+                },
+                {
+                    "en": "Can I take a photo?",
+                    "ko": "사진 찍어도 되나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0306.mp3",
+                    "romaja": "Sajin jjigeodo doenayo?"
+                },
+                {
+                    "en": "Where's the exit?",
+                    "ko": "출구가 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0307.mp3",
+                    "romaja": "Chulguga eodiyeyo?"
+                },
+                {
+                    "en": "Where's the entrance?",
+                    "ko": "입구가 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0308.mp3",
+                    "romaja": "Ipguga eodiyeyo?"
+                },
+                {
+                    "en": "Is it open?",
+                    "ko": "열었나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0309.mp3",
+                    "romaja": "Yeoreonnayo?"
+                },
+                {
+                    "en": "It's closed.",
+                    "ko": "닫았어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0053.mp3",
+                    "romaja": "Dadasseoyo"
+                },
+                {
+                    "en": "How much is admission?",
+                    "ko": "입장료가 얼마예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0056.mp3",
+                    "romaja": "Ipjangnyoga eolmayeyo?"
+                },
+                {
+                    "en": "Where can I check in?",
+                    "ko": "체크인은 어디서 해요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0057.mp3",
+                    "romaja": "Chekeuineun eodiseo haeyo?"
+                },
+                {
+                    "en": "Do I need to go through customs?",
+                    "ko": "세관을 통과해야 하나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0059.mp3",
+                    "romaja": "Segwaneul tonggwahaeya hanayo?"
+                },
+                {
+                    "en": "Where is the currency exchange?",
+                    "ko": "환전소가 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0064.mp3",
+                    "romaja": "Hwanjeonsoga eodiyeyo?"
+                },
+                {
+                    "en": "Please stamp my passport.",
+                    "ko": "여권에 도장 찍어주세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0066.mp3",
+                    "romaja": "Yeogwone dojang jjigeojuseyo"
+                },
+                {
+                    "en": "I'm going to the supermarket.",
+                    "ko": "슈퍼마켓에 가요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0069.mp3",
+                    "romaja": "Syupeomakete gayo."
+                },
+                {
+                    "en": "Where is the police station?",
+                    "ko": "경찰서가 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0070.mp3",
+                    "romaja": "Gyeongchalseoga eodiyeyo?"
+                },
+                {
+                    "en": "Let's meet at the cinema.",
+                    "ko": "영화관에서 만나요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0071.mp3",
+                    "romaja": "Yeonghwagwaneseo mannayo."
+                },
+                {
+                    "en": "Is the bookstore open?",
+                    "ko": "서점 문 열었나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0072.mp3",
+                    "romaja": "Seojeom mun yeoleotnayo?"
+                },
+                {
+                    "en": "The church is very old.",
+                    "ko": "그 교회는 아주 오래됐어요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0073.mp3",
+                    "romaja": "Geu gyohoeneun aju oraedwaeteoyo."
+                },
+                {
+                    "en": "Do you want to go to a bar?",
+                    "ko": "바에 갈래요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0074.mp3",
+                    "romaja": "Bae galraeyo?"
+                },
+                {
+                    "en": "We need to find a petrol station.",
+                    "ko": "주유소를 찾아야 해요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0075.mp3",
+                    "romaja": "Juyusoreul chataya haeyo."
+                },
+                {
+                    "en": "Is there a theatre nearby?",
+                    "ko": "근처에 극장이 있나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0076.mp3",
+                    "romaja": "Geuncheoe geukjangi itnayo?"
+                },
+                {
+                    "en": "The weather is nice today.",
+                    "ko": "오늘 날씨가 좋네요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0077.mp3",
+                    "romaja": "Oneul nalssiga jotneyo."
+                },
+                {
+                    "en": "Is it going to rain?",
+                    "ko": "비가 올까요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0078.mp3",
+                    "romaja": "Biga olkkayo?"
+                },
+                {
+                    "en": "It's very hot outside.",
+                    "ko": "밖에 너무 더워요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0079.mp3",
+                    "romaja": "Bake neomu deowoyo."
+                },
+                {
+                    "en": "Do you have an umbrella?",
+                    "ko": "우산 있어요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0080.mp3",
+                    "romaja": "Usan iteoyo?"
+                },
+                {
+                    "en": "I saw lightning in the sky.",
+                    "ko": "하늘에서 번개를 봤어요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0081.mp3",
+                    "romaja": "Haneuleseo beongaereul bwateoyo."
+                },
+                {
+                    "en": "Is the air conditioner on?",
+                    "ko": "에어컨 켜져 있나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0082.mp3",
+                    "romaja": "Eeokeon kyeojyeo itnayo?"
+                },
+                {
+                    "en": "The forecast says snow.",
+                    "ko": "일기 예보에 눈이 온대요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0083.mp3",
+                    "romaja": "Ilgi yeboe nuni ondaeyo."
+                },
+                {
+                    "en": "Why is it so cloudy?",
+                    "ko": "왜 이렇게 흐리죠?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0084.mp3",
+                    "romaja": "Wae ireotge heurijyo?"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation",
+            "words": [
+                {
+                    "en": "Hotel",
+                    "ko": "호텔",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0310.mp3",
+                    "romaja": "Hotel"
+                },
+                {
+                    "en": "Reservation",
+                    "ko": "예약",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0311.mp3",
+                    "romaja": "Yeyak"
+                },
+                {
+                    "en": "Room",
+                    "ko": "방",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0312.mp3",
+                    "romaja": "Bang"
+                },
+                {
+                    "en": "Bed",
+                    "ko": "침대",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0313.mp3",
+                    "romaja": "Chimdae"
+                },
+                {
+                    "en": "Key",
+                    "ko": "열쇠",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0314.mp3",
+                    "romaja": "Yeolsoe"
+                },
+                {
+                    "en": "Lobby",
+                    "ko": "로비",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0315.mp3",
+                    "romaja": "Robi"
+                },
+                {
+                    "en": "Elevator",
+                    "ko": "엘리베이터",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0316.mp3",
+                    "romaja": "Ellibeiteo"
+                },
+                {
+                    "en": "Stairs",
+                    "ko": "계단",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0317.mp3",
+                    "romaja": "Gyedan"
+                },
+                {
+                    "en": "Front desk",
+                    "ko": "프런트 데스크",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0318.mp3",
+                    "romaja": "Peureonteu deseukeu"
+                },
+                {
+                    "en": "Check-in",
+                    "ko": "체크인",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0319.mp3",
+                    "romaja": "Chekeuin"
+                },
+                {
+                    "en": "Check-out",
+                    "ko": "체크아웃",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0320.mp3",
+                    "romaja": "Chekeuaut"
+                },
+                {
+                    "en": "Breakfast",
+                    "ko": "아침 식사",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0321.mp3",
+                    "romaja": "Achim siksa"
+                },
+                {
+                    "en": "Towel",
+                    "ko": "수건",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0085.mp3",
+                    "romaja": "Sugeon"
+                },
+                {
+                    "en": "AC",
+                    "ko": "에어컨",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0088.mp3",
+                    "romaja": "Eeokeon"
+                },
+                {
+                    "en": "Room service",
+                    "ko": "룸서비스",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0089.mp3",
+                    "romaja": "Rumseobiseu"
+                },
+                {
+                    "en": "Review",
+                    "ko": "리뷰",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0100.mp3",
+                    "romaja": "Ribyu"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation - Phrases",
+            "words": [
+                {
+                    "en": "I have a reservation.",
+                    "ko": "예약했습니다",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0110.mp3",
+                    "romaja": "Yeyakhaesseumnida"
+                },
+                {
+                    "en": "Please show your passport.",
+                    "ko": "여권을 보여주세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0111.mp3",
+                    "romaja": "Yeogwoneul boyeojuseyo"
+                },
+                {
+                    "en": "How many nights?",
+                    "ko": "몇 박이요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0112.mp3",
+                    "romaja": "Myeot bagiyo?"
+                },
+                {
+                    "en": "Can I see the room?",
+                    "ko": "방을 볼 수 있나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0113.mp3",
+                    "romaja": "Bangeul bol su innayo?"
+                },
+                {
+                    "en": "How much per night?",
+                    "ko": "일 박에 얼마예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0114.mp3",
+                    "romaja": "Il bage eolmayeyo?"
+                },
+                {
+                    "en": "It's too expensive.",
+                    "ko": "너무 비싸요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0115.mp3",
+                    "romaja": "Neomu bissayo"
+                },
+                {
+                    "en": "Does it include breakfast?",
+                    "ko": "조식 포함인가요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0117.mp3",
+                    "romaja": "Josik pohamingayo?"
+                },
+                {
+                    "en": "Is there WiFi?",
+                    "ko": "와이파이 있나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0118.mp3",
+                    "romaja": "Waipai innayo?"
+                },
+                {
+                    "en": "What's the WiFi password?",
+                    "ko": "와이파이 비밀번호가 뭐예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0119.mp3",
+                    "romaja": "Waipai bimilbeonhoga mwoyeyo?"
+                },
+                {
+                    "en": "Please clean the room.",
+                    "ko": "방 청소 좀 해주세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0120.mp3",
+                    "romaja": "Bang cheongso jom haejuseyo"
+                },
+                {
+                    "en": "AC doesn't work.",
+                    "ko": "에어컨이 안 돼요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0122.mp3",
+                    "romaja": "Eeokeoni an dwaeyo"
+                },
+                {
+                    "en": "It's too noisy.",
+                    "ko": "너무 시끄러워요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0123.mp3",
+                    "romaja": "Neomu sikkeureowoyo"
+                },
+                {
+                    "en": "Can I change rooms?",
+                    "ko": "방을 바꿀 수 있나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0124.mp3",
+                    "romaja": "Bangeul bakkul su innayo?"
+                },
+                {
+                    "en": "Checking out tomorrow.",
+                    "ko": "내일 체크아웃해요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0125.mp3",
+                    "romaja": "Naeil chekeuauthaeyo"
+                },
+                {
+                    "en": "Can I leave my luggage?",
+                    "ko": "짐을 맡길 수 있나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0126.mp3",
+                    "romaja": "Jimeul matgil su innayo?"
+                },
+                {
+                    "en": "Thanks for the stay.",
+                    "ko": "잘 머물다 갑니다",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0127.mp3",
+                    "romaja": "Jal meomulda gamnida"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations",
+            "words": [
+                {
+                    "en": "Direction",
+                    "ko": "방향",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0143.mp3",
+                    "romaja": "Banghyang"
+                },
+                {
+                    "en": "Location",
+                    "ko": "위치",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0144.mp3",
+                    "romaja": "Wichi"
+                },
+                {
+                    "en": "Map",
+                    "ko": "지도",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0011.mp3",
+                    "romaja": "Jido"
+                },
+                {
+                    "en": "Address",
+                    "ko": "주소",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0145.mp3",
+                    "romaja": "Juso"
+                },
+                {
+                    "en": "North",
+                    "ko": "북쪽",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0146.mp3",
+                    "romaja": "Bukjjok"
+                },
+                {
+                    "en": "South",
+                    "ko": "남쪽",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0147.mp3",
+                    "romaja": "Namjjok"
+                },
+                {
+                    "en": "East",
+                    "ko": "동쪽",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0148.mp3",
+                    "romaja": "Dongjjok"
+                },
+                {
+                    "en": "West",
+                    "ko": "서쪽",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0149.mp3",
+                    "romaja": "Seojjok"
+                },
+                {
+                    "en": "Left",
+                    "ko": "왼쪽",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0150.mp3",
+                    "romaja": "Oenjjok"
+                },
+                {
+                    "en": "Right",
+                    "ko": "오른쪽",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0151.mp3",
+                    "romaja": "Oreunjjok"
+                },
+                {
+                    "en": "Straight",
+                    "ko": "직진",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0152.mp3",
+                    "romaja": "Jikjin"
+                },
+                {
+                    "en": "Near",
+                    "ko": "근처에",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0155.mp3",
+                    "romaja": "Geuncheoe"
+                },
+                {
+                    "en": "Far",
+                    "ko": "멀리",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0156.mp3",
+                    "romaja": "Meolli"
+                },
+                {
+                    "en": "Here",
+                    "ko": "여기",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0157.mp3",
+                    "romaja": "Yeogi"
+                },
+                {
+                    "en": "There",
+                    "ko": "저기",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0158.mp3",
+                    "romaja": "Jeogi"
+                },
+                {
+                    "en": "Corner",
+                    "ko": "모퉁이",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0159.mp3",
+                    "romaja": "Motungi"
+                },
+                {
+                    "en": "Street",
+                    "ko": "거리",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0160.mp3",
+                    "romaja": "Geori"
+                },
+                {
+                    "en": "Inside",
+                    "ko": "안",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0134.mp3",
+                    "romaja": "An"
+                },
+                {
+                    "en": "Outside",
+                    "ko": "밖",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0135.mp3",
+                    "romaja": "Bak"
+                },
+                {
+                    "en": "Front",
+                    "ko": "앞",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0136.mp3",
+                    "romaja": "Ap"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations - Phrases",
+            "words": [
+                {
+                    "en": "Where is...?",
+                    "ko": "...가 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0181.mp3",
+                    "romaja": "...ga eodiyeyo?"
+                },
+                {
+                    "en": "How do I get there?",
+                    "ko": "거기 어떻게 가요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0182.mp3",
+                    "romaja": "Geogi eotteoke gayo?"
+                },
+                {
+                    "en": "Please turn left.",
+                    "ko": "왼쪽으로 도세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0183.mp3",
+                    "romaja": "Oenjjogeuro doseyo"
+                },
+                {
+                    "en": "Please turn right.",
+                    "ko": "오른쪽으로 도세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0184.mp3",
+                    "romaja": "Oreunjjogeuro doseyo"
+                },
+                {
+                    "en": "Go straight.",
+                    "ko": "직진하세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0185.mp3",
+                    "romaja": "Jikjinhaseyo"
+                },
+                {
+                    "en": "Please show me on the map.",
+                    "ko": "지도에서 보여주세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0186.mp3",
+                    "romaja": "Jidoeseo boyeojuseyo"
+                },
+                {
+                    "en": "I'm lost.",
+                    "ko": "길을 잃었어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0187.mp3",
+                    "romaja": "Gireul ireosseoyo"
+                },
+                {
+                    "en": "Where are we?",
+                    "ko": "여기가 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0188.mp3",
+                    "romaja": "Yeogiga eodiyeyo?"
+                },
+                {
+                    "en": "It's near here.",
+                    "ko": "여기 근처예요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0189.mp3",
+                    "romaja": "Yeogi geuncheoyeyo"
+                },
+                {
+                    "en": "Walk or drive?",
+                    "ko": "걸어가요, 아니면 차로 가요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0190.mp3",
+                    "romaja": "Georeogayo, animyeon charo gayo?"
+                },
+                {
+                    "en": "How many minutes?",
+                    "ko": "몇 분 걸려요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0191.mp3",
+                    "romaja": "Myeot bun geollyeoyo?"
+                },
+                {
+                    "en": "It's here.",
+                    "ko": "여기예요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0194.mp3",
+                    "romaja": "Yeogiyeyo"
+                }
+            ]
+        },
+        {
+            "name": "Transportation",
+            "words": [
+                {
+                    "en": "Transport",
+                    "ko": "교통",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0322.mp3",
+                    "romaja": "Gyotong"
+                },
+                {
+                    "en": "Car",
+                    "ko": "자동차",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0323.mp3",
+                    "romaja": "Jadongcha"
+                },
+                {
+                    "en": "Bus",
+                    "ko": "버스",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0324.mp3",
+                    "romaja": "Beoseu"
+                },
+                {
+                    "en": "Train",
+                    "ko": "기차",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0325.mp3",
+                    "romaja": "Gicha"
+                },
+                {
+                    "en": "Subway",
+                    "ko": "지하철",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0153.mp3",
+                    "romaja": "Jihacheol"
+                },
+                {
+                    "en": "Plane",
+                    "ko": "비행기",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0154.mp3",
+                    "romaja": "Bihaenggi"
+                },
+                {
+                    "en": "Taxi",
+                    "ko": "택시",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0326.mp3",
+                    "romaja": "Taeksi"
+                },
+                {
+                    "en": "Bicycle",
+                    "ko": "자전거",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0327.mp3",
+                    "romaja": "Jajeongeo"
+                },
+                {
+                    "en": "Ticket",
+                    "ko": "표",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0328.mp3",
+                    "romaja": "Pyo"
+                },
+                {
+                    "en": "Train station",
+                    "ko": "기차역",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0214.mp3",
+                    "romaja": "Gichayeok"
+                },
+                {
+                    "en": "Bus stop",
+                    "ko": "버스 정류장",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0329.mp3",
+                    "romaja": "Beoseu jeongnyujang"
+                },
+                {
+                    "en": "Ticket office",
+                    "ko": "매표소",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0217.mp3",
+                    "romaja": "Maepyoso"
+                }
+            ]
+        },
+        {
+            "name": "Transportation - Phrases",
+            "words": [
+                {
+                    "en": "I'd like a ticket to downtown.",
+                    "ko": "시내 가는 표 주세요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0238.mp3",
+                    "romaja": "Sinae ganeun pyo juseyo"
+                },
+                {
+                    "en": "Do you have a ticket?",
+                    "ko": "표 가지고 계세요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0162.mp3",
+                    "romaja": "Pyo gajigo gyeseyo?"
+                },
+                {
+                    "en": "What time does the next train leave?",
+                    "ko": "다음 기차는 몇 시에 출발해요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0240.mp3",
+                    "romaja": "Daeum gichaneun myeot sie chulbalhaeyo?"
+                },
+                {
+                    "en": "Which platform?",
+                    "ko": "몇 번 승강장인가요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0164.mp3",
+                    "romaja": "Myeot beon seunggangjangingayo?"
+                },
+                {
+                    "en": "Where is the subway station?",
+                    "ko": "지하철 역이 어디예요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0165.mp3",
+                    "romaja": "Jihacheol yeoki eodiyeyo?"
+                },
+                {
+                    "en": "We are going by car.",
+                    "ko": "우리는 차로 가요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0166.mp3",
+                    "romaja": "Urineun charo gayo."
+                },
+                {
+                    "en": "Please fasten your seat belt.",
+                    "ko": "안전벨트를 매 주세요.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0167.mp3",
+                    "romaja": "Anjeonbelteureul mae juseyo."
+                },
+                {
+                    "en": "Where can I validate my ticket?",
+                    "ko": "표 개찰은 어디서 해요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0245.mp3",
+                    "romaja": "Pyo gaechareun eodiseo haeyo?"
+                },
+                {
+                    "en": "I lost my passport.",
+                    "ko": "여권을 잃어버렸어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0282.mp3",
+                    "romaja": "Yeogwoneul ireobeoryeosseoyo"
+                },
+                {
+                    "en": "I missed my flight.",
+                    "ko": "비행기를 놓쳤어요",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0284.mp3",
+                    "romaja": "Bihaenggireul nochyeosseoyo"
+                },
+                {
+                    "en": "Can you help me rebook?",
+                    "ko": "재예약을 도와주시겠어요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0285.mp3",
+                    "romaja": "Jaeyeyageul dowajusigesseoyo?"
+                },
+                {
+                    "en": "Where can I buy medicine nearby?",
+                    "ko": "근처 어디서 약을 살 수 있나요?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ko/04/ko_0290.mp3",
+                    "romaja": "Geuncheo eodiseo yageul sal su innayo?"
+                }
+            ]
+        }
+    ]
+}

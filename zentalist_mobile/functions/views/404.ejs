@@ -1,0 +1,183 @@
+<!-- functions/views/404.ejs -->
+<!DOCTYPE html>
+<html lang="en" class="bg-learning-app-design-3">
+
+<head>
+ <%- include('partials/head') %>
+</head>
+
+<body class="m-0 p-0 bg-learning-app-design-3">
+ <%- include('partials/menu') %>
+
+ <h1>404 - Strona nie istnieje</h1>
+ <a href="/">Wróć do strony głównej</a>
+ <%- include('partials/modals') %>
+
+ <!-- karta -->
+ <div class="max-w-5xl mx-auto px-4 py-8">
+ <!-- Hero Section -->
+ <section class="bg-gradient-to-br from-light-card/20 to-light-card/30 rounded-lg p-6 mb-8 shadow-md">
+ <div class="flex flex-col items-center gap-6">
+ <div class="w-full">
+ <h2 class="text-2xl font-bold mb-3">Master Spanish for Your Next Adventure</h2>
+ <p class="text-base mb-4">Learn essential Spanish vocabulary and phrases specifically
+ designed for travelers.</p>
+ <div class="flex gap-3">
+ <button
+ class="bg-level-expert hover:bg-level-expert font-bold py-2 px-4 rounded-md text-sm">Start
+ Learning Free</button>
+ <button
+ class="bg-learning-app-design-3 hover:bg-learning-app-design-4 font-semibold py-2 px-4 rounded-md text-sm">View
+ Premium</button>
+ </div>
+ </div>
+ <div class="w-full flex justify-center">
+ <div
+ class="relative w-56 h-56 bg-learning-app-design-2 rounded-lg shadow p-4 transform rotate-3 hover:rotate-0 transition-all">
+ <h3 class="text-2xl font-bold text-center mb-2">adiós</h3>
+ <div class="flex justify-center my-3">
+ <button class="">
+ <i class="fas fa-volume-up text-xl"></i>
+ </button>
+ </div>
+ <div class="grid grid-cols-2 gap-2 mt-3">
+ <div class="bg-learning-app-design-2 p-2 rounded text-center text-sm">hellooooooo</div>
+ <div class="bg-learning-app-design-2 p-2 rounded text-center text-sm">goodbye</div>
+ <div class="bg-learning-app-design-2 p-2 rounded text-center text-sm">please</div>
+ <div class="bg-learning-app-design-2 p-2 rounded text-center text-sm">thank you</div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- Main Features Section -->
+ <section class="mb-8">
+ <div class="grid grid-cols-1 gap-4">
+ <!-- Why Choose Zentalist Card -->
+ <div class="bg-learning-app-design-3 rounded-lg shadow overflow-hidden hover:shadow-md transition-all">
+ <div class="bg-gradient-to-r from-status-warning-bg to-light-card/30 px-4 py-3">
+ <h2 class="text-lg font-bold">Why Choose Zentalist?</h2>
+ </div>
+
+ </div>
+
+ <!-- How Zentalist Works Card -->
+ <div class="bg-learning-app-design-3 rounded-lg shadow overflow-hidden hover:shadow-md transition-all">
+ <div class="bg-gradient-to-r from-status-success-bg to-level-learning px-4 py-3">
+ <h2 class="text-lg font-bold">How Zentalist Works</h2>
+ </div>
+ <div class="p-4">
+ <div class="mb-4 text-center">
+ <div class="bg-learning-app-design-2 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-2">
+ <span class="text-lg font-bold">1</span>
+ </div>
+ <h3 class="font-bold text-sm mb-1">Choose a Category</h3>
+ <p class="text-xs">Browse through 6 main categories of Spanish vocabulary and phrases.
+ </p>
+ </div>
+
+ <div class="mb-4 text-center">
+ <div class="bg-learning-app-design-2 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-2">
+ <span class="text-lg font-bold">2</span>
+ </div>
+ <h3 class="font-bold text-sm mb-1">Learn with Flashcards</h3>
+ <p class="text-xs">Each card contains 6 related words to help you learn in context.</p>
+ </div>
+
+ <div class="mb-4 text-center">
+ <div class="bg-learning-app-design-2 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-2">
+ <span class="text-lg font-bold">3</span>
+ </div>
+ <h3 class="font-bold text-sm mb-1">Track Repetitions</h3>
+ <p class="text-xs">Buttons fill up after 20 repetitions. Reset with right-click.</p>
+ </div>
+
+ <div class="text-center">
+ <div class="bg-learning-app-design-2 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-2">
+ <span class="text-lg font-bold">4</span>
+ </div>
+ <h3 class="font-bold text-sm mb-1">Master Spanish</h3>
+ <p class="text-xs">Learn at your own pace without pressure or complicated analytics.</p>
+ </div>
+ </div>
+ </div>
+
+ <!-- Explore Categories Card -->
+ <div class="bg-learning-app-design-3 rounded-lg shadow overflow-hidden hover:shadow-md transition-all">
+ <div class="bg-gradient-to-r from-level-learning to-status-warning-bg px-4 py-3">
+ <h2 class="text-lg font-bold">Explore Our Categories</h2>
+ </div>
+ <div class="p-4">
+ <div class="mb-3 pl-3">
+ <div class="flex justify-between items-center mb-1">
+ <h3 class="font-bold text-sm">Basic Communication</h3>
+ <span class="bg-learning-app-design-5 text-xs px-2 py-0.5 rounded-full">Free</span>
+ </div>
+ <p class="text-xs mb-1">Essential words and phrases to start communicating in Spanish.
+ </p>
+ <ul class="text-xs list-disc ml-3 mb-1">
+ <li>Greetings and farewells</li>
+ <li>Common phrases and questions</li>
+ </ul>
+ </div>
+
+ <div class="mb-3 pl-3 opacity-75">
+ <div class="flex justify-between items-center mb-1">
+ <h3 class="font-bold text-sm">Travel & Transportation</h3>
+ <span class="bg-level-expert text-xs px-2 py-0.5 rounded-full">Premium</span>
+ </div>
+ <p class="text-xs mb-1">Words and phrases for getting around during your travels.</p>
+ </div>
+
+ <div class="mb-3 pl-3 opacity-75">
+ <div class="flex justify-between items-center mb-1">
+ <h3 class="font-bold text-sm">Food & Dining</h3>
+ <span class="bg-level-expert text-xs px-2 py-0.5 rounded-full">Premium</span>
+ </div>
+ <p class="text-xs mb-1">Learn how to order food and discuss cuisine in Spanish.</p>
+ </div>
+
+ <div class="mb-3 pl-3 opacity-75">
+ <div class="flex justify-between items-center mb-1">
+ <h3 class="font-bold text-sm">Regional Specialties</h3>
+ <span class="bg-level-expert text-xs px-2 py-0.5 rounded-full">Premium</span>
+ </div>
+ <p class="text-xs mb-1">Country-specific vocabulary for Spain, Mexico, and more.</p>
+ </div>
+
+ <div class="text-center mt-4">
+ <button
+ class="bg-gradient-to-r from-level-expert to-level-learning hover:from-level-expert hover:to-level-learning font-bold py-1.5 px-4 rounded text-xs">
+ Get Premium - $10/month
+ </button>
+ <p class="mt-1 text-xs">Unlock all 6 categories</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- CTA Section -->
+ <section class="bg-gradient-to-r from-level-expert to-level-learning rounded-lg p-5 text-center shadow-md">
+ <h2 class="text-xl font-bold mb-2">Ready to Start Your Spanish Journey?</h2>
+ <p class="text-sm mb-4 max-w-lg mx-auto">Begin with our free Basic Communication category today, or unlock all
+ premium features for just $10/month.</p>
+ <div class="flex flex-col sm:flex-row gap-3 justify-center">
+ <button class="bg-learning-app-design-3 hover:bg-learning-app-design-4 font-bold py-2 px-4 rounded text-sm">
+ Start Free
+ </button>
+ <button
+ class="bg-level-expert hover:bg-level-expert font-bold py-2 px-4 rounded text-sm">
+ Get Premium - $10/month
+ </button>
+ </div>
+ <p class="mt-2 text-xs">No commitment. Cancel anytime.</p>
+ </section>
+ </div>
+
+ <script defer type="module" src="/scripts/auth.js"></script>
+ <script defer type="module" src="/scripts/index.js"></script>
+</body>
+
+</html>

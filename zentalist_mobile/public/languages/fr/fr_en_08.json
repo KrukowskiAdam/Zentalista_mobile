@@ -1,0 +1,635 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 08 - Education & Work",
+    "categories": [
+        {
+            "name": "School & Education",
+            "words": [
+                {
+                    "en": "School",
+                    "fr": "École",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0001.mp3"
+                },
+                {
+                    "en": "University",
+                    "fr": "Université",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0002.mp3"
+                },
+                {
+                    "en": "Student",
+                    "fr": "Étudiant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0003.mp3"
+                },
+                {
+                    "en": "Teacher",
+                    "fr": "Enseignant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0004.mp3"
+                },
+                {
+                    "en": "Professor",
+                    "fr": "Professeur",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0005.mp3"
+                },
+                {
+                    "en": "Class",
+                    "fr": "Classe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0006.mp3"
+                },
+                {
+                    "en": "Lesson",
+                    "fr": "Leçon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0007.mp3"
+                },
+                {
+                    "en": "Homework",
+                    "fr": "Devoirs",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0008.mp3"
+                },
+                {
+                    "en": "Test",
+                    "fr": "Test",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0009.mp3"
+                },
+                {
+                    "en": "Exam",
+                    "fr": "Examen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0010.mp3"
+                },
+                {
+                    "en": "Grade",
+                    "fr": "Note",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0011.mp3"
+                },
+                {
+                    "en": "Degree",
+                    "fr": "Diplôme",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0012.mp3"
+                },
+                {
+                    "en": "Study",
+                    "fr": "Étudier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0013.mp3"
+                },
+                {
+                    "en": "Learn",
+                    "fr": "Apprendre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0014.mp3"
+                },
+                {
+                    "en": "Teach",
+                    "fr": "Enseigner",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0015.mp3"
+                },
+                {
+                    "en": "Book",
+                    "fr": "Livre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0016.mp3"
+                },
+                {
+                    "en": "Notebook",
+                    "fr": "Cahier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0017.mp3"
+                },
+                {
+                    "en": "Library",
+                    "fr": "Bibliothèque",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0018.mp3"
+                },
+                {
+                    "en": "Lecture",
+                    "fr": "Conférence",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0019.mp3"
+                },
+                {
+                    "en": "Study group",
+                    "fr": "Groupe d'étude",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0022.mp3"
+                },
+                {
+                    "en": "Syllabus",
+                    "fr": "Programme",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0023.mp3"
+                },
+                {
+                    "en": "Curriculum",
+                    "fr": "Cursus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0024.mp3"
+                },
+                {
+                    "en": "Presentation",
+                    "fr": "Présentation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0025.mp3"
+                },
+                {
+                    "en": "Deadline extension",
+                    "fr": "Prolongation de délai",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0026.mp3"
+                },
+                {
+                    "en": "Academic advisor",
+                    "fr": "Conseiller pédagogique",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0027.mp3"
+                },
+                {
+                    "en": "Scholarship",
+                    "fr": "Bourse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0028.mp3"
+                },
+                {
+                    "en": "Tuition",
+                    "fr": "Frais de scolarité",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0029.mp3"
+                },
+                {
+                    "en": "Campus",
+                    "fr": "Campus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0030.mp3"
+                },
+                {
+                    "en": "Course",
+                    "fr": "Cours",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0186.mp3"
+                },
+                {
+                    "en": "Science",
+                    "fr": "Science",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0187.mp3"
+                },
+                {
+                    "en": "Math",
+                    "fr": "Maths",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0031.mp3"
+                },
+                {
+                    "en": "Language",
+                    "fr": "Langue",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0032.mp3"
+                }
+            ]
+        },
+        {
+            "name": "School & Education - Phrases",
+            "words": [
+                {
+                    "en": "Where's your school?",
+                    "fr": "Où est ton école ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0188.mp3"
+                },
+                {
+                    "en": "Do you go to university?",
+                    "fr": "Vas-tu à l'université ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0189.mp3"
+                },
+                {
+                    "en": "I'm a student.",
+                    "fr": "Je suis étudiant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0033.mp3"
+                },
+                {
+                    "en": "Who's your teacher?",
+                    "fr": "Qui est ton professeur ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0034.mp3"
+                },
+                {
+                    "en": "I have a lesson.",
+                    "fr": "J'ai une leçon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0037.mp3"
+                },
+                {
+                    "en": "Did you do your homework?",
+                    "fr": "As-tu fait tes devoirs ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0038.mp3"
+                },
+                {
+                    "en": "I have a test.",
+                    "fr": "J'ai un test",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0039.mp3"
+                },
+                {
+                    "en": "When's the exam?",
+                    "fr": "Quand est l'examen ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0040.mp3"
+                },
+                {
+                    "en": "I'm studying.",
+                    "fr": "J'étudie",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0043.mp3"
+                },
+                {
+                    "en": "What are you learning?",
+                    "fr": "Qu'apprends-tu ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0044.mp3"
+                },
+                {
+                    "en": "I need a book.",
+                    "fr": "J'ai besoin d'un livre",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0046.mp3"
+                },
+                {
+                    "en": "Let's go to the library.",
+                    "fr": "Allons à la bibliothèque",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0048.mp3"
+                },
+                {
+                    "en": "I like math class.",
+                    "fr": "J'aime le cours de maths.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0045.mp3"
+                },
+                {
+                    "en": "The language course is full.",
+                    "fr": "Le cours de langue est complet.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0190.mp3"
+                },
+                {
+                    "en": "How do you pronounce this word?",
+                    "fr": "Comment prononcez-vous ce mot ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0047.mp3"
+                },
+                {
+                    "en": "Is my grammar correct?",
+                    "fr": "Ma grammaire est-elle correcte ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0191.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career",
+            "words": [
+                {
+                    "en": "Work",
+                    "fr": "Travail",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0063.mp3"
+                },
+                {
+                    "en": "Job",
+                    "fr": "Emploi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0064.mp3"
+                },
+                {
+                    "en": "Career",
+                    "fr": "Carrière",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0065.mp3"
+                },
+                {
+                    "en": "Office",
+                    "fr": "Bureau",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0066.mp3"
+                },
+                {
+                    "en": "Company",
+                    "fr": "Entreprise",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0067.mp3"
+                },
+                {
+                    "en": "Boss",
+                    "fr": "Patron",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0068.mp3"
+                },
+                {
+                    "en": "Colleague",
+                    "fr": "Collègue",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0069.mp3"
+                },
+                {
+                    "en": "Employee",
+                    "fr": "Employé",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0070.mp3"
+                },
+                {
+                    "en": "Salary",
+                    "fr": "Salaire",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0071.mp3"
+                },
+                {
+                    "en": "Meeting",
+                    "fr": "Réunion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0072.mp3"
+                },
+                {
+                    "en": "Project",
+                    "fr": "Projet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0073.mp3"
+                },
+                {
+                    "en": "Task",
+                    "fr": "Tâche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0074.mp3"
+                },
+                {
+                    "en": "Deadline",
+                    "fr": "Date limite",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0075.mp3"
+                },
+                {
+                    "en": "Promotion",
+                    "fr": "Promotion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0076.mp3"
+                },
+                {
+                    "en": "Experience",
+                    "fr": "Expérience",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0077.mp3"
+                },
+                {
+                    "en": "Skills",
+                    "fr": "Compétences",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0078.mp3"
+                },
+                {
+                    "en": "Resume",
+                    "fr": "CV",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0079.mp3"
+                },
+                {
+                    "en": "Interview",
+                    "fr": "Entretien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0080.mp3"
+                },
+                {
+                    "en": "Coworker",
+                    "fr": "Collègue",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0081.mp3"
+                },
+                {
+                    "en": "Nurse",
+                    "fr": "Infirmier/Infirmière",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0192.mp3"
+                },
+                {
+                    "en": "Police officer",
+                    "fr": "Policier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0193.mp3"
+                },
+                {
+                    "en": "Driver",
+                    "fr": "Conducteur",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0194.mp3"
+                },
+                {
+                    "en": "Manager",
+                    "fr": "Manager",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0195.mp3"
+                },
+                {
+                    "en": "Engineer",
+                    "fr": "Ingénieur",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0196.mp3"
+                },
+                {
+                    "en": "Worker",
+                    "fr": "Ouvrier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0197.mp3"
+                },
+                {
+                    "en": "Lawyer",
+                    "fr": "Avocat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0198.mp3"
+                },
+                {
+                    "en": "Artist",
+                    "fr": "Artiste",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0199.mp3"
+                },
+                {
+                    "en": "Chef",
+                    "fr": "Chef cuisinier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0200.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career - Phrases",
+            "words": [
+                {
+                    "en": "Where do you work?",
+                    "fr": "Où travaillez-vous ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0095.mp3"
+                },
+                {
+                    "en": "What's your job?",
+                    "fr": "Quel est votre travail ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0096.mp3"
+                },
+                {
+                    "en": "I'm going to the office.",
+                    "fr": "Je vais au bureau",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0098.mp3"
+                },
+                {
+                    "en": "Who's your boss?",
+                    "fr": "Qui est votre patron ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0100.mp3"
+                },
+                {
+                    "en": "We're colleagues.",
+                    "fr": "Nous sommes collègues",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0101.mp3"
+                },
+                {
+                    "en": "What's your salary?",
+                    "fr": "Quel est votre salaire ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0103.mp3"
+                },
+                {
+                    "en": "I have a meeting.",
+                    "fr": "J'ai une réunion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0104.mp3"
+                },
+                {
+                    "en": "I'm working on a project.",
+                    "fr": "Je travaille sur un projet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0105.mp3"
+                },
+                {
+                    "en": "What's the deadline?",
+                    "fr": "Quelle est la date limite ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0107.mp3"
+                },
+                {
+                    "en": "Send your resume.",
+                    "fr": "Envoyez votre CV",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0111.mp3"
+                },
+                {
+                    "en": "I have an interview.",
+                    "fr": "J'ai un entretien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0112.mp3"
+                },
+                {
+                    "en": "She works as a nurse.",
+                    "fr": "Elle travaille comme infirmière.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0088.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices",
+            "words": [
+                {
+                    "en": "Computer",
+                    "fr": "Ordinateur",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0127.mp3"
+                },
+                {
+                    "en": "Laptop",
+                    "fr": "Ordinateur portable",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0128.mp3"
+                },
+                {
+                    "en": "Phone",
+                    "fr": "Téléphone",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0129.mp3"
+                },
+                {
+                    "en": "Tablet",
+                    "fr": "Tablette",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0130.mp3"
+                },
+                {
+                    "en": "Screen",
+                    "fr": "Écran",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0131.mp3"
+                },
+                {
+                    "en": "Keyboard",
+                    "fr": "Clavier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0132.mp3"
+                },
+                {
+                    "en": "Mouse",
+                    "fr": "Souris",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0133.mp3"
+                },
+                {
+                    "en": "Internet",
+                    "fr": "Internet",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0134.mp3"
+                },
+                {
+                    "en": "Wifi",
+                    "fr": "Wifi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0135.mp3"
+                },
+                {
+                    "en": "Email",
+                    "fr": "E-mail",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0136.mp3"
+                },
+                {
+                    "en": "Password",
+                    "fr": "Mot de passe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0137.mp3"
+                },
+                {
+                    "en": "Website",
+                    "fr": "Site web",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0138.mp3"
+                },
+                {
+                    "en": "App",
+                    "fr": "Application",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0139.mp3"
+                },
+                {
+                    "en": "Software",
+                    "fr": "Logiciel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0140.mp3"
+                },
+                {
+                    "en": "Battery",
+                    "fr": "Batterie",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0141.mp3"
+                },
+                {
+                    "en": "Charger",
+                    "fr": "Chargeur",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0142.mp3"
+                },
+                {
+                    "en": "Camera",
+                    "fr": "Appareil photo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0143.mp3"
+                },
+                {
+                    "en": "Headphones",
+                    "fr": "Écouteurs",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0144.mp3"
+                },
+                {
+                    "en": "File",
+                    "fr": "Fichier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0201.mp3"
+                },
+                {
+                    "en": "Folder",
+                    "fr": "Dossier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0108.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a computer?",
+                    "fr": "Avez-vous un ordinateur ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0159.mp3"
+                },
+                {
+                    "en": "I need my laptop.",
+                    "fr": "J'ai besoin de mon ordinateur portable",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0160.mp3"
+                },
+                {
+                    "en": "Where's my phone?",
+                    "fr": "Où est mon téléphone ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0161.mp3"
+                },
+                {
+                    "en": "Look at the screen.",
+                    "fr": "Regardez l'écran",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0163.mp3"
+                },
+                {
+                    "en": "Is there internet?",
+                    "fr": "Y a-t-il internet ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0166.mp3"
+                },
+                {
+                    "en": "What's the wifi password?",
+                    "fr": "Quel est le mot de passe wifi ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0167.mp3"
+                },
+                {
+                    "en": "Check your email.",
+                    "fr": "Vérifiez vos e-mails",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0168.mp3"
+                },
+                {
+                    "en": "I forgot my password.",
+                    "fr": "J'ai oublié mon mot de passe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0185.mp3"
+                },
+                {
+                    "en": "The battery is dead.",
+                    "fr": "La batterie est morte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0173.mp3"
+                },
+                {
+                    "en": "I need a charger.",
+                    "fr": "J'ai besoin d'un chargeur",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0174.mp3"
+                },
+                {
+                    "en": "Use the camera.",
+                    "fr": "Utilisez l'appareil photo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0175.mp3"
+                },
+                {
+                    "en": "The printer is out of paper.",
+                    "fr": "L'imprimante n'a plus de papier.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/fr/08/fr_0120.mp3"
+                }
+            ]
+        }
+    ]
+}

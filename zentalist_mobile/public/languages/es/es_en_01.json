@@ -1,0 +1,1070 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 01 - Basic Greetings & Introductions",
+    "categories": [
+        {
+            "name": "Greetings & Polite Expressions",
+            "words": [
+                {
+                    "en": "Hello!",
+                    "es": "¡Hola!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0001.mp3"
+                },
+                {
+                    "en": "Thank you.",
+                    "es": "Gracias",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0002.mp3"
+                },
+                {
+                    "en": "Please.",
+                    "es": "Por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0003.mp3"
+                },
+                {
+                    "en": "Sorry.",
+                    "es": "Lo siento",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0004.mp3"
+                },
+                {
+                    "en": "Excuse me.",
+                    "es": "Disculpe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0005.mp3"
+                },
+                {
+                    "en": "You're welcome.",
+                    "es": "De nada",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0006.mp3"
+                },
+                {
+                    "en": "Goodbye!",
+                    "es": "¡Adiós!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0007.mp3"
+                },
+                {
+                    "en": "See you later.",
+                    "es": "Hasta luego",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0008.mp3"
+                },
+                {
+                    "en": "Good morning.",
+                    "es": "Buenos días",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0009.mp3"
+                },
+                {
+                    "en": "Good afternoon.",
+                    "es": "Buenas tardes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0010.mp3"
+                },
+                {
+                    "en": "Good evening.",
+                    "es": "Buenas noches",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0011.mp3"
+                },
+                {
+                    "en": "Welcome!",
+                    "es": "¡Bienvenido!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0012.mp3"
+                },
+                {
+                    "en": "Nice to meet you.",
+                    "es": "Encantado de conocerte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0013.mp3"
+                },
+                {
+                    "en": "Hope you're doing well.",
+                    "es": "Espero que estés bien.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0014.mp3"
+                },
+                {
+                    "en": "I'm sorry. (formal)",
+                    "es": "Lo siento",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0015.mp3"
+                },
+                {
+                    "en": "Cheers!",
+                    "es": "¡Bien!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0016.mp3"
+                },
+                {
+                    "en": "Congratulations!",
+                    "es": "¡Felicidades!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0017.mp3"
+                },
+                {
+                    "en": "Safe travels.",
+                    "es": "Buen viaje",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0018.mp3"
+                },
+                {
+                    "en": "Take care.",
+                    "es": "Cuídate",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0019.mp3"
+                },
+                {
+                    "en": "Great to see you.",
+                    "es": "Qué bueno verte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0020.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Greetings & Polite Expressions - Phrases",
+            "words": [
+                {
+                    "en": "How are you?",
+                    "es": "¿Cómo estás?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0021.mp3"
+                },
+                {
+                    "en": "I'm fine.",
+                    "es": "Estoy bien",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0022.mp3"
+                },
+                {
+                    "en": "What's your name?",
+                    "es": "¿Cómo te llamas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0023.mp3"
+                },
+                {
+                    "en": "My name is...",
+                    "es": "Me llamo..",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0024.mp3"
+                },
+                {
+                    "en": "Where are you from?",
+                    "es": "¿De dónde eres?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0026.mp3"
+                },
+                {
+                    "en": "I'm from...",
+                    "es": "Soy de..",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0027.mp3"
+                },
+                {
+                    "en": "How old are you?",
+                    "es": "¿Cuántos años tienes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0028.mp3"
+                },
+                {
+                    "en": "I'm... years old.",
+                    "es": "Tengo... años",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0029.mp3"
+                },
+                {
+                    "en": "Do you speak English?",
+                    "es": "¿Hablas inglés?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0030.mp3"
+                },
+                {
+                    "en": "I speak a little.",
+                    "es": "Hablo un poco",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0031.mp3"
+                },
+                {
+                    "en": "I don't understand.",
+                    "es": "No entiendo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0118.mp3"
+                },
+                {
+                    "en": "Can you repeat?",
+                    "es": "¿Puedes repetir?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0033.mp3"
+                },
+                {
+                    "en": "Please speak slowly.",
+                    "es": "Por favor, habla despacio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0034.mp3"
+                },
+                {
+                    "en": "What does this mean?",
+                    "es": "¿Qué significa esto?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0035.mp3"
+                },
+                {
+                    "en": "How do you say...?",
+                    "es": "¿Cómo se dice...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0036.mp3"
+                },
+                {
+                    "en": "Have a good day?",
+                    "es": "Que tengas un buen día",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0037.mp3"
+                },
+                {
+                    "en": "See you tomorrow.",
+                    "es": "Hasta mañana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0038.mp3"
+                },
+                {
+                    "en": "It's nice seeing you again.",
+                    "es": "Es bueno verte de nuevo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0039.mp3"
+                },
+                {
+                    "en": "Let's stay in touch.",
+                    "es": "Mantengamos el contacto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0040.mp3"
+                },
+                {
+                    "en": "How have you been lately?",
+                    "es": "¿Cómo has estado últimamente?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0041.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Basic Questions",
+            "words": [
+                {
+                    "en": "What is this?",
+                    "es": "¿Qué es esto?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0066.mp3"
+                },
+                {
+                    "en": "Where is it?",
+                    "es": "¿Dónde está?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0067.mp3"
+                },
+                {
+                    "en": "When is it?",
+                    "es": "¿Cuándo es?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0068.mp3"
+                },
+                {
+                    "en": "Who is it?",
+                    "es": "¿Quién es?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0069.mp3"
+                },
+                {
+                    "en": "Why is that?",
+                    "es": "¿Por qué es eso?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0070.mp3"
+                },
+                {
+                    "en": "How is it?",
+                    "es": "¿Cómo es?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0071.mp3"
+                },
+                {
+                    "en": "Which one?",
+                    "es": "¿Cuál?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0072.mp3"
+                },
+                {
+                    "en": "How much is it?",
+                    "es": "¿Cuánto cuesta?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0073.mp3"
+                },
+                {
+                    "en": "How many are there?",
+                    "es": "¿Cuántos hay?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0074.mp3"
+                },
+                {
+                    "en": "What time is it?",
+                    "es": "¿Qué hora es?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0075.mp3"
+                },
+                {
+                    "en": "Can I...?",
+                    "es": "¿Puedo...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0076.mp3"
+                },
+                {
+                    "en": "Could you...?",
+                    "es": "¿Podría usted...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0077.mp3"
+                },
+                {
+                    "en": "Should I...?",
+                    "es": "¿Debería yo...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0078.mp3"
+                },
+                {
+                    "en": "Would you like...?",
+                    "es": "¿Le gustaría...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0079.mp3"
+                },
+                {
+                    "en": "Is it...?",
+                    "es": "¿Es...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0080.mp3"
+                },
+                {
+                    "en": "Are you...?",
+                    "es": "¿Estás...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0081.mp3"
+                },
+                {
+                    "en": "Do you...?",
+                    "es": "¿Haces...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0082.mp3"
+                },
+                {
+                    "en": "Does it...?",
+                    "es": "¿Hace...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0083.mp3"
+                },
+                {
+                    "en": "When would work for you?",
+                    "es": "¿Cuándo te vendría bien?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0084.mp3"
+                },
+                {
+                    "en": "Could you explain that?",
+                    "es": "¿Podrías explicar eso?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0085.mp3"
+                },
+                {
+                    "en": "Would you mind if I ask a question?",
+                    "es": "¿Te importaría si hago una pregunta?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0086.mp3"
+                },
+                {
+                    "en": "Could you tell me more about that?",
+                    "es": "¿Podrías contarme más sobre eso?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0087.mp3"
+                },
+                {
+                    "en": "Do you happen to know the answer?",
+                    "es": "¿Sabes la respuesta por casualidad?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0088.mp3"
+                },
+                {
+                    "en": "How does this compare to the other option?",
+                    "es": "¿Cómo se compara esto con la otra opción?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0089.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Yes & No Responses",
+            "words": [
+                {
+                    "en": "Yes",
+                    "es": "Sí.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0085.mp3"
+                },
+                {
+                    "en": "No",
+                    "es": "No.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0086.mp3"
+                },
+                {
+                    "en": "Maybe",
+                    "es": "Tal vez.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0087.mp3"
+                },
+                {
+                    "en": "Ok",
+                    "es": "Ok.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0088.mp3"
+                },
+                {
+                    "en": "Sure",
+                    "es": "Seguro.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0089.mp3"
+                },
+                {
+                    "en": "Always",
+                    "es": "Siempre.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0090.mp3"
+                },
+                {
+                    "en": "Exactly",
+                    "es": "Exactamente.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0091.mp3"
+                },
+                {
+                    "en": "Right",
+                    "es": "Correcto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0092.mp3"
+                },
+                {
+                    "en": "Wrong",
+                    "es": "Incorrecto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0093.mp3"
+                },
+                {
+                    "en": "True",
+                    "es": "Verdadero.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0094.mp3"
+                },
+                {
+                    "en": "False",
+                    "es": "Falso.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0095.mp3"
+                },
+                {
+                    "en": "Correct",
+                    "es": "Correcto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0096.mp3"
+                },
+                {
+                    "en": "Incorrect",
+                    "es": "Incorrecto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0097.mp3"
+                },
+                {
+                    "en": "Possible",
+                    "es": "Posible.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0098.mp3"
+                },
+                {
+                    "en": "Impossible",
+                    "es": "Imposible.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0099.mp3"
+                },
+                {
+                    "en": "Agree",
+                    "es": "De acuerdo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0100.mp3"
+                },
+                {
+                    "en": "Disagree",
+                    "es": "En desacuerdo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0101.mp3"
+                },
+                {
+                    "en": "Understand",
+                    "es": "Entiendo.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0102.mp3"
+                },
+                {
+                    "en": "Depends",
+                    "es": "Depende.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0103.mp3"
+                },
+                {
+                    "en": "Absolutely",
+                    "es": "Absolutamente.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0104.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Yes & No Responses - Phrases",
+            "words": [
+                {
+                    "en": "Yes, please.",
+                    "es": "Sí, por favor",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0110.mp3"
+                },
+                {
+                    "en": "No, thank you.",
+                    "es": "No, gracias",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0111.mp3"
+                },
+                {
+                    "en": "Maybe later.",
+                    "es": "Tal vez más tarde",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0112.mp3"
+                },
+                {
+                    "en": "That's right.",
+                    "es": "Es correcto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0226.mp3"
+                },
+                {
+                    "en": "That's wrong.",
+                    "es": "Eso está mal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0114.mp3"
+                },
+                {
+                    "en": "I agree.",
+                    "es": "Estoy de acuerdo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0115.mp3"
+                },
+                {
+                    "en": "I disagree.",
+                    "es": "No estoy de acuerdo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0116.mp3"
+                },
+                {
+                    "en": "I understand.",
+                    "es": "Entiendo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0117.mp3"
+                },
+                {
+                    "en": "Let me think.",
+                    "es": "Déjame pensar.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0113.mp3"
+                },
+                {
+                    "en": "Always.",
+                    "es": "Siempre.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0227.mp3"
+                },
+                {
+                    "en": "No problem.",
+                    "es": "No hay problema",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0120.mp3"
+                },
+                {
+                    "en": "Sure, why not.",
+                    "es": "Seguro, por qué no",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0121.mp3"
+                },
+                {
+                    "en": "I don't know.",
+                    "es": "No lo sé",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0122.mp3"
+                },
+                {
+                    "en": "I'm not sure.",
+                    "es": "No estoy seguro",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0123.mp3"
+                },
+                {
+                    "en": "That's correct.",
+                    "es": "Es correcto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0119.mp3"
+                },
+                {
+                    "en": "That's incorrect.",
+                    "es": "Es incorrecto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0125.mp3"
+                },
+                {
+                    "en": "Is that possible?",
+                    "es": "¿Es eso posible?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0126.mp3"
+                },
+                {
+                    "en": "That's impossible.",
+                    "es": "Eso es imposible",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0127.mp3"
+                },
+                {
+                    "en": "I'm open to it.",
+                    "es": "Estoy abierto a ello",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0128.mp3"
+                },
+                {
+                    "en": "I'd rather not.",
+                    "es": "Preferiría que no",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0129.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Communication & Social",
+            "words": [
+                {
+                    "en": "Invitation",
+                    "es": "Invitación",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0178.mp3"
+                },
+                {
+                    "en": "Catch up",
+                    "es": "Ponerse al día",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0131.mp3"
+                },
+                {
+                    "en": "Plan",
+                    "es": "Plan",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0132.mp3"
+                },
+                {
+                    "en": "Schedule",
+                    "es": "Horario",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0133.mp3"
+                },
+                {
+                    "en": "Reminder",
+                    "es": "Recordatorio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0134.mp3"
+                },
+                {
+                    "en": "Update",
+                    "es": "Actualización",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0135.mp3"
+                },
+                {
+                    "en": "Feedback",
+                    "es": "Comentarios",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0136.mp3"
+                },
+                {
+                    "en": "Opinion",
+                    "es": "Opinión",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0137.mp3"
+                },
+                {
+                    "en": "Suggestion",
+                    "es": "Sugerencia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0138.mp3"
+                },
+                {
+                    "en": "Agreement",
+                    "es": "Acuerdo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0139.mp3"
+                },
+                {
+                    "en": "Disagreement",
+                    "es": "Desacuerdo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0140.mp3"
+                },
+                {
+                    "en": "Polite",
+                    "es": "Educado",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0141.mp3"
+                },
+                {
+                    "en": "Formal",
+                    "es": "Formal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0142.mp3"
+                },
+                {
+                    "en": "Informal",
+                    "es": "Informal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0143.mp3"
+                },
+                {
+                    "en": "Gesture",
+                    "es": "Gesto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0144.mp3"
+                },
+                {
+                    "en": "Small talk",
+                    "es": "Charla",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0176.mp3"
+                },
+                {
+                    "en": "Topic",
+                    "es": "Tema",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0146.mp3"
+                },
+                {
+                    "en": "Transition",
+                    "es": "Transición",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0147.mp3"
+                },
+                {
+                    "en": "Clarification",
+                    "es": "Aclaración",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0148.mp3"
+                },
+                {
+                    "en": "Follow-up",
+                    "es": "Seguimiento",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0149.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Communication & Social - Phrases",
+            "words": [
+                {
+                    "en": "Let's catch up soon.",
+                    "es": "Hablemos pronto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0150.mp3"
+                },
+                {
+                    "en": "I'll send you the invitation.",
+                    "es": "Te enviaré la invitación",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0151.mp3"
+                },
+                {
+                    "en": "Can we schedule a call?",
+                    "es": "¿Podemos programar una llamada?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0152.mp3"
+                },
+                {
+                    "en": "Here is a quick update.",
+                    "es": "Aquí hay una actualización rápida",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0153.mp3"
+                },
+                {
+                    "en": "I appreciate your feedback.",
+                    "es": "Aprecio tus comentarios",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0154.mp3"
+                },
+                {
+                    "en": "In my opinion, that's fair.",
+                    "es": "En mi opinión, es justo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0155.mp3"
+                },
+                {
+                    "en": "Do you have a suggestion?",
+                    "es": "¿Tienes alguna sugerencia?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0156.mp3"
+                },
+                {
+                    "en": "Let's keep the tone polite.",
+                    "es": "Mantengamos el tono educado",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0157.mp3"
+                },
+                {
+                    "en": "May I clarify that point?",
+                    "es": "¿Puedo aclarar ese punto?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0158.mp3"
+                },
+                {
+                    "en": "I'll follow up tomorrow.",
+                    "es": "Haré un seguimiento mañana",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0159.mp3"
+                },
+                {
+                    "en": "Thanks for the update, I'll get back to you soon.",
+                    "es": "Gracias por la actualización, te responderé pronto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0160.mp3"
+                },
+                {
+                    "en": "Let's agree on the next steps together.",
+                    "es": "Acordemos los próximos pasos juntos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0161.mp3"
+                },
+                {
+                    "en": "Please keep me posted if anything changes.",
+                    "es": "Por favor, mantenme informado si algo cambia",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0162.mp3"
+                },
+                {
+                    "en": "Feel free to reach out anytime.",
+                    "es": "No dudes en contactarme en cualquier momento",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0163.mp3"
+                },
+                {
+                    "en": "Could you share a quick summary afterward?",
+                    "es": "¿Podrías compartir un resumen rápido después?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0164.mp3"
+                },
+                {
+                    "en": "Let's discuss this later.",
+                    "es": "Discutamos esto más tarde.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0228.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Meeting New People",
+            "words": [
+                {
+                    "en": "Friend",
+                    "es": "Amigo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0229.mp3"
+                },
+                {
+                    "en": "Handshake",
+                    "es": "Apretón de manos",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0230.mp3"
+                },
+                {
+                    "en": "Conversation",
+                    "es": "Conversación",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0231.mp3"
+                },
+                {
+                    "en": "Background",
+                    "es": "Trasfondo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0232.mp3"
+                },
+                {
+                    "en": "Hometown",
+                    "es": "Ciudad natal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0165.mp3"
+                },
+                {
+                    "en": "Interest",
+                    "es": "Interés",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0166.mp3"
+                },
+                {
+                    "en": "Hobby",
+                    "es": "Pasatiempo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0167.mp3"
+                },
+                {
+                    "en": "Career",
+                    "es": "Carrera",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0168.mp3"
+                },
+                {
+                    "en": "Event",
+                    "es": "Evento",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0169.mp3"
+                },
+                {
+                    "en": "Neighbor",
+                    "es": "Vecino",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0170.mp3"
+                },
+                {
+                    "en": "City",
+                    "es": "Ciudad",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0171.mp3"
+                },
+                {
+                    "en": "Message",
+                    "es": "Mensaje",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0172.mp3"
+                },
+                {
+                    "en": "Contact",
+                    "es": "Contacto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0173.mp3"
+                },
+                {
+                    "en": "Phone number",
+                    "es": "Número de teléfono",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0174.mp3"
+                },
+                {
+                    "en": "Social media",
+                    "es": "Redes sociales",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0175.mp3"
+                },
+                {
+                    "en": "Party",
+                    "es": "Fiesta",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0233.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Meeting New People - Phrases",
+            "words": [
+                {
+                    "en": "It's a pleasure.",
+                    "es": "Es un placer.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0177.mp3"
+                },
+                {
+                    "en": "What brings you here?",
+                    "es": "¿Qué te trae por aquí?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0234.mp3"
+                },
+                {
+                    "en": "How's your day going?",
+                    "es": "¿Qué tal tu día?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0179.mp3"
+                },
+                {
+                    "en": "What do you do?",
+                    "es": "¿A qué te dedicas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0180.mp3"
+                },
+                {
+                    "en": "Do you live here?",
+                    "es": "¿Vives aquí?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0181.mp3"
+                },
+                {
+                    "en": "What are your hobbies?",
+                    "es": "¿Cuáles son tus pasatiempos?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0182.mp3"
+                },
+                {
+                    "en": "Do you have any plans for the weekend?",
+                    "es": "¿Tienes planes para el fin de semana?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0183.mp3"
+                },
+                {
+                    "en": "Do you come here often?",
+                    "es": "¿Vienes aquí a menudo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0184.mp3"
+                },
+                {
+                    "en": "What are you drinking?",
+                    "es": "¿Qué estás bebiendo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0185.mp3"
+                },
+                {
+                    "en": "Do you like this music?",
+                    "es": "¿Te gusta esta música?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0186.mp3"
+                },
+                {
+                    "en": "Do you like this place?",
+                    "es": "¿Te gusta este lugar?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0187.mp3"
+                },
+                {
+                    "en": "Have we met before?",
+                    "es": "¿Nos hemos visto antes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0188.mp3"
+                },
+                {
+                    "en": "I like your shirt.",
+                    "es": "Me gusta tu camisa.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0189.mp3"
+                },
+                {
+                    "en": "I like your outfit.",
+                    "es": "Me gusta tu ropa.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0190.mp3"
+                },
+                {
+                    "en": "Is this seat taken?",
+                    "es": "¿Está ocupado este asiento?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0191.mp3"
+                },
+                {
+                    "en": "It was great to meet you.",
+                    "es": "Fue un placer conocerte.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0192.mp3"
+                },
+                {
+                    "en": "Can I get your number?",
+                    "es": "¿Me das tu número?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0193.mp3"
+                },
+                {
+                    "en": "Can I get your Instagram?",
+                    "es": "¿Me das tu Instagram?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0194.mp3"
+                },
+                {
+                    "en": "We should do this again sometime.",
+                    "es": "Deberíamos repetir esto algún día.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0195.mp3"
+                },
+                {
+                    "en": "Enjoy the rest of your evening.",
+                    "es": "Disfruta el resto de la noche.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0196.mp3"
+                },
+                {
+                    "en": "Enjoy the rest of your day.",
+                    "es": "Disfruta el resto de tu día",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0197.mp3"
+                },
+                {
+                    "en": "Let's keep in touch.",
+                    "es": "Sigamos en contacto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0198.mp3"
+                },
+                {
+                    "en": "Are you here with friends?",
+                    "es": "¿Estás aquí con amigos?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0199.mp3"
+                },
+                {
+                    "en": "So, what's your story?",
+                    "es": "Y bien, ¿cuál es tu historia?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0200.mp3"
+                },
+                {
+                    "en": "What do you like to do for fun?",
+                    "es": "¿Qué te gusta hacer para divertirte?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0201.mp3"
+                },
+                {
+                    "en": "Have you seen any good movies lately?",
+                    "es": "¿Has visto alguna buena película últimamente?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0202.mp3"
+                },
+                {
+                    "en": "Are you from around here?",
+                    "es": "¿Eres de por aquí?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0203.mp3"
+                },
+                {
+                    "en": "This is a cool place, isn't it?",
+                    "es": "Es un lugar genial, ¿verdad?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0204.mp3"
+                },
+                {
+                    "en": "What kind of music are you into?",
+                    "es": "¿Qué tipo de música te gusta?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0205.mp3"
+                },
+                {
+                    "en": "Do you have any pets?",
+                    "es": "¿Tienes mascotas?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0206.mp3"
+                },
+                {
+                    "en": "Are you a student?",
+                    "es": "¿Eres estudiante?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0207.mp3"
+                },
+                {
+                    "en": "It was a pleasure meeting you.",
+                    "es": "Fue un placer conocerte.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0208.mp3"
+                },
+                {
+                    "en": "Let me introduce you to my friends.",
+                    "es": "Déjame presentarte a mis amigos.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0209.mp3"
+                },
+                {
+                    "en": "Who are you here with?",
+                    "es": "¿Con quién estás aquí?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0210.mp3"
+                },
+                {
+                    "en": "Are you hungry?",
+                    "es": "¿Tienes hambre?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0211.mp3"
+                },
+                {
+                    "en": "Do you want to grab something to eat?",
+                    "es": "¿Quieres ir a comer algo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0212.mp3"
+                },
+                {
+                    "en": "Where could we go to eat?",
+                    "es": "¿Dónde podríamos ir a comer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0213.mp3"
+                },
+                {
+                    "en": "Do you want to get a coffee?",
+                    "es": "¿Quieres tomar un café?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0214.mp3"
+                },
+                {
+                    "en": "Shall we take a break?",
+                    "es": "¿Hacemos un descanso?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0215.mp3"
+                },
+                {
+                    "en": "Do you want to go for a walk?",
+                    "es": "¿Quieres ir a dar un paseo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0216.mp3"
+                },
+                {
+                    "en": "How much time do you have?",
+                    "es": "¿Cuánto tiempo tienes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0217.mp3"
+                },
+                {
+                    "en": "When do you have to go?",
+                    "es": "¿Cuándo tienes que irte?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0218.mp3"
+                },
+                {
+                    "en": "I'm on vacation here.",
+                    "es": "Estoy aquí de vacaciones.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0219.mp3"
+                },
+                {
+                    "en": "I'm just learning the language.",
+                    "es": "Apenas estoy aprendiendo el idioma.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0220.mp3"
+                },
+                {
+                    "en": "Are you in a hurry?",
+                    "es": "¿Tienes prisa?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0221.mp3"
+                },
+                {
+                    "en": "Are you free tomorrow?",
+                    "es": "¿Estás libre mañana?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0222.mp3"
+                },
+                {
+                    "en": "Would you like to meet up tonight?",
+                    "es": "¿Te gustaría quedar esta noche?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0223.mp3"
+                },
+                {
+                    "en": "Would you like to meet up in the evening?",
+                    "es": "¿Te gustaría quedar por la tarde-noche?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/es/01/es_0224.mp3"
+                }
+            ]
+        }
+    ]
+}

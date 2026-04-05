@@ -1,0 +1,1861 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 04 - Travel & Tourism",
+    "categories": [
+        {
+            "name": "Travel & Tourism",
+            "words": [
+                {
+                    "en": "Travel",
+                    "zh": "旅行。",
+                    "pinyin": "Lǚxíng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0001.mp3"
+                },
+                {
+                    "en": "Tourism",
+                    "zh": "旅游。",
+                    "pinyin": "lǚyóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0002.mp3"
+                },
+                {
+                    "en": "Tourist",
+                    "zh": "游客。",
+                    "pinyin": "yóukè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0003.mp3"
+                },
+                {
+                    "en": "Vacation",
+                    "zh": "假期。",
+                    "pinyin": "jiàqī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0004.mp3"
+                },
+                {
+                    "en": "Airport",
+                    "zh": "机场。",
+                    "pinyin": "Jīchǎng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0005.mp3"
+                },
+                {
+                    "en": "Flight",
+                    "zh": "航班。",
+                    "pinyin": "hángbān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0006.mp3"
+                },
+                {
+                    "en": "Passport",
+                    "zh": "护照。",
+                    "pinyin": "Hùzhào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0007.mp3"
+                },
+                {
+                    "en": "Visa",
+                    "zh": "签证。",
+                    "pinyin": "qiānzhèng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0008.mp3"
+                },
+                {
+                    "en": "Luggage",
+                    "zh": "行李。",
+                    "pinyin": "xíngli",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0009.mp3"
+                },
+                {
+                    "en": "Suitcase",
+                    "zh": "手提箱。",
+                    "pinyin": "shǒutíxiāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0010.mp3"
+                },
+                {
+                    "en": "Map",
+                    "zh": "地图。",
+                    "pinyin": "Dìtú",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0011.mp3"
+                },
+                {
+                    "en": "Guide",
+                    "zh": "导游。",
+                    "pinyin": "dǎoyóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0012.mp3"
+                },
+                {
+                    "en": "Photo",
+                    "zh": "照片。",
+                    "pinyin": "zhàopiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0013.mp3"
+                },
+                {
+                    "en": "Souvenir",
+                    "zh": "纪念品。",
+                    "pinyin": "jìniànpǐn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0014.mp3"
+                },
+                {
+                    "en": "Tour",
+                    "zh": "游览。",
+                    "pinyin": "yóulǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0015.mp3"
+                },
+                {
+                    "en": "Destination",
+                    "zh": "目的地。",
+                    "pinyin": "mùdìdì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0016.mp3"
+                },
+                {
+                    "en": "Museum",
+                    "zh": "博物馆。",
+                    "pinyin": "bówùguǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0017.mp3"
+                },
+                {
+                    "en": "Castle",
+                    "zh": "城堡。",
+                    "pinyin": "chéngbǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0018.mp3"
+                },
+                {
+                    "en": "Boarding pass",
+                    "zh": "登机牌。",
+                    "pinyin": "dēngjīpái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0019.mp3"
+                },
+                {
+                    "en": "Security check",
+                    "zh": "安检。",
+                    "pinyin": "ānjiǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0020.mp3"
+                },
+                {
+                    "en": "Departure gate",
+                    "zh": "登机口。",
+                    "pinyin": "dēngjīkǒu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0021.mp3"
+                },
+                {
+                    "en": "Arrival hall",
+                    "zh": "到达大厅。",
+                    "pinyin": "dàodá dàtīng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0022.mp3"
+                },
+                {
+                    "en": "Currency exchange",
+                    "zh": "货币兑换。",
+                    "pinyin": "huòbì duìhuàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0023.mp3"
+                },
+                {
+                    "en": "Customs officer",
+                    "zh": "海关官员。",
+                    "pinyin": "hǎiguān guānyuán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0024.mp3"
+                },
+                {
+                    "en": "Carry-on bag",
+                    "zh": "随身行李。",
+                    "pinyin": "suíshēn xíngli",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0025.mp3"
+                },
+                {
+                    "en": "Seat assignment",
+                    "zh": "座位分配。",
+                    "pinyin": "zuòwèi fēnpèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0026.mp3"
+                },
+                {
+                    "en": "Window seat",
+                    "zh": "靠窗座位。",
+                    "pinyin": "kàochuāng zuòwèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0027.mp3"
+                },
+                {
+                    "en": "Aisle seat",
+                    "zh": "靠过道座位。",
+                    "pinyin": "kào guòdào zuòwèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0028.mp3"
+                },
+                {
+                    "en": "Flight delay",
+                    "zh": "航班延误。",
+                    "pinyin": "hángbān yánwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0029.mp3"
+                },
+                {
+                    "en": "Connecting flight",
+                    "zh": "转机航班。",
+                    "pinyin": "zhuǎnjī hángbān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0030.mp3"
+                },
+                {
+                    "en": "Travel insurance",
+                    "zh": "旅游保险。",
+                    "pinyin": "lǚyóu bǎoxiǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0031.mp3"
+                },
+                {
+                    "en": "Emergency exit",
+                    "zh": "紧急出口。",
+                    "pinyin": "jǐnjí chūkǒu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0032.mp3"
+                },
+                {
+                    "en": "Entrance fee",
+                    "zh": "门票费。",
+                    "pinyin": "ménpiào fèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0033.mp3"
+                },
+                {
+                    "en": "Guided tour",
+                    "zh": "导游陪同游览。",
+                    "pinyin": "dǎoyóu péitóng yóulǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0034.mp3"
+                },
+                {
+                    "en": "Local guide",
+                    "zh": "当地导游。",
+                    "pinyin": "dāngdì dǎoyóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0035.mp3"
+                },
+                {
+                    "en": "Day trip",
+                    "zh": "一日游。",
+                    "pinyin": "yīrìyóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0036.mp3"
+                },
+                {
+                    "en": "Travel adapter",
+                    "zh": "旅行转换插头。",
+                    "pinyin": "lǚxíng zhuǎnhuàn chātóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0037.mp3"
+                },
+                {
+                    "en": "Portable charger",
+                    "zh": "充电宝。",
+                    "pinyin": "chōngdiànbǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0038.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Travel & Tourism - Phrases",
+            "words": [
+                {
+                    "en": "I'm traveling",
+                    "zh": "我在旅行。",
+                    "pinyin": "Wǒ zài lǚxíng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0039.mp3"
+                },
+                {
+                    "en": "I'm on vacation",
+                    "zh": "我在度假。",
+                    "pinyin": "Wǒ zài dùjià",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0040.mp3"
+                },
+                {
+                    "en": "Which country are you from?",
+                    "zh": "你来自哪个国家？",
+                    "pinyin": "Nǐ láizì nǎge guójiā?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0041.mp3"
+                },
+                {
+                    "en": "How long will you stay?",
+                    "zh": "你会待多久？",
+                    "pinyin": "Nǐ huì dāi duōjiǔ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0042.mp3"
+                },
+                {
+                    "en": "I'm staying 3 days",
+                    "zh": "我待三天。",
+                    "pinyin": "Wǒ dāi sān tiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0043.mp3"
+                },
+                {
+                    "en": "It's my first time",
+                    "zh": "这是我第一次来。",
+                    "pinyin": "Zhè shì wǒ dì yī cì lái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0044.mp3"
+                },
+                {
+                    "en": "It's beautiful",
+                    "zh": "很美。",
+                    "pinyin": "Hěn měi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0045.mp3"
+                },
+                {
+                    "en": "Please take a photo",
+                    "zh": "请帮我拍张照。",
+                    "pinyin": "Qǐng bāng wǒ pāi zhāng zhào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0046.mp3"
+                },
+                {
+                    "en": "Can I take a photo?",
+                    "zh": "我可以拍照吗？",
+                    "pinyin": "Wǒ kěyǐ pāizhào ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0047.mp3"
+                },
+                {
+                    "en": "Where's the exit?",
+                    "zh": "出口在哪里？",
+                    "pinyin": "Chūkǒu zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0048.mp3"
+                },
+                {
+                    "en": "Where's the entrance?",
+                    "zh": "入口在哪里？",
+                    "pinyin": "Rùkǒu zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0049.mp3"
+                },
+                {
+                    "en": "Admission ticket",
+                    "zh": "门票。",
+                    "pinyin": "Ménpiào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0050.mp3"
+                },
+                {
+                    "en": "Do you have a brochure?",
+                    "zh": "你有宣传册吗？",
+                    "pinyin": "Nǐ yǒu xuānchuáncè ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0051.mp3"
+                },
+                {
+                    "en": "Is it open?",
+                    "zh": "开门了吗？",
+                    "pinyin": "Kāimén le ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0052.mp3"
+                },
+                {
+                    "en": "It's closed",
+                    "zh": "关门了。",
+                    "pinyin": "Guānmén le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0053.mp3"
+                },
+                {
+                    "en": "What time does it close?",
+                    "zh": "几点关门？",
+                    "pinyin": "Jǐdiǎn guānmén?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0054.mp3"
+                },
+                {
+                    "en": "Is there a tour?",
+                    "zh": "有导览吗？",
+                    "pinyin": "Yǒu dǎolǎn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0055.mp3"
+                },
+                {
+                    "en": "How much is admission?",
+                    "zh": "门票多少钱？",
+                    "pinyin": "Ménpiào duōshǎo qián?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0056.mp3"
+                },
+                {
+                    "en": "Where can I check in?",
+                    "zh": "在哪里办理登机手续？",
+                    "pinyin": "Zài nǎlǐ bànlǐ dēngjī shǒuxù?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0057.mp3"
+                },
+                {
+                    "en": "This is my boarding gate",
+                    "zh": "这是我的登机口。",
+                    "pinyin": "Zhè shì wǒ de dēngjīkǒu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0058.mp3"
+                },
+                {
+                    "en": "Do I need to go through customs?",
+                    "zh": "我需要过海关吗？",
+                    "pinyin": "Wǒ xūyào guò hǎiguān ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0059.mp3"
+                },
+                {
+                    "en": "How long is the delay?",
+                    "zh": "延误多久？",
+                    "pinyin": "Yánwù duōjiǔ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0060.mp3"
+                },
+                {
+                    "en": "I have a connecting flight",
+                    "zh": "我有转机航班。",
+                    "pinyin": "Wǒ yǒu zhuǎnjī hángbān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0061.mp3"
+                },
+                {
+                    "en": "Is the tour in English?",
+                    "zh": "导览是英语的吗？",
+                    "pinyin": "Dǎolǎn shì Yīngyǔ de ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0062.mp3"
+                },
+                {
+                    "en": "Can you recommend a day trip?",
+                    "zh": "你能推荐一个一日游吗？",
+                    "pinyin": "Nǐ néng tuījiàn yīgè yīrìyóu ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0063.mp3"
+                },
+                {
+                    "en": "Where is the currency exchange?",
+                    "zh": "货币兑换处在哪里？",
+                    "pinyin": "Huòbì duìhuàn chù zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0064.mp3"
+                },
+                {
+                    "en": "I bought travel insurance",
+                    "zh": "我买了旅游保险。",
+                    "pinyin": "Wǒ mǎile lǚyóu bǎoxiǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0065.mp3"
+                },
+                {
+                    "en": "Please stamp my passport",
+                    "zh": "请在我的护照上盖章。",
+                    "pinyin": "Qǐng zài wǒ de hùzhào shàng gàizhāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0066.mp3"
+                },
+                {
+                    "en": "My gate changed at the last minute",
+                    "zh": "我的登机口临时变了。",
+                    "pinyin": "Wǒ de dēngjīkǒu línshí biàn le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0067.mp3"
+                },
+                {
+                    "en": "Could you suggest a less crowded attraction?",
+                    "zh": "你能推荐一个不那么拥挤的景点吗？",
+                    "pinyin": "Nǐ néng tuījiàn yīgè bù nàme yōngjǐ de jǐngdiǎn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0068.mp3"
+                },
+                {
+                    "en": "I'm waiting for the next boarding group",
+                    "zh": "我在等下一组登机。",
+                    "pinyin": "Wǒ zài děng xià yī zǔ dēngjī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0069.mp3"
+                },
+                {
+                    "en": "Can I store my bags before check-in opens?",
+                    "zh": "办理入住前我可以寄存行李吗？",
+                    "pinyin": "Bànlǐ rùzhù qián wǒ kěyǐ jìcún xíngli ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0070.mp3"
+                },
+                {
+                    "en": "We plan to explore the city on our own today",
+                    "zh": "我们今天计划自己探索这座城市。",
+                    "pinyin": "Wǒmen jīntiān jìhuà zìjǐ tànsuǒ zhè zuò chéngshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0071.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation",
+            "words": [
+                {
+                    "en": "Hotel",
+                    "zh": "酒店。",
+                    "pinyin": "Jiǔdiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0072.mp3"
+                },
+                {
+                    "en": "Reservation",
+                    "zh": "预订。",
+                    "pinyin": "yùdìng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0073.mp3"
+                },
+                {
+                    "en": "Room",
+                    "zh": "房间。",
+                    "pinyin": "Fángjiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0074.mp3"
+                },
+                {
+                    "en": "Bed",
+                    "zh": "床。",
+                    "pinyin": "Chuáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0075.mp3"
+                },
+                {
+                    "en": "Key",
+                    "zh": "钥匙。",
+                    "pinyin": "yàoshi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0076.mp3"
+                },
+                {
+                    "en": "Room card",
+                    "zh": "房卡。",
+                    "pinyin": "fángkǎ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0077.mp3"
+                },
+                {
+                    "en": "Lobby",
+                    "zh": "大堂。",
+                    "pinyin": "dàtáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0078.mp3"
+                },
+                {
+                    "en": "Elevator",
+                    "zh": "电梯。",
+                    "pinyin": "diàntī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0079.mp3"
+                },
+                {
+                    "en": "Stairs",
+                    "zh": "楼梯。",
+                    "pinyin": "lóutī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0080.mp3"
+                },
+                {
+                    "en": "Front desk",
+                    "zh": "前台。",
+                    "pinyin": "qiántái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0081.mp3"
+                },
+                {
+                    "en": "Check-in",
+                    "zh": "入住。",
+                    "pinyin": "rùzhù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0082.mp3"
+                },
+                {
+                    "en": "Check-out",
+                    "zh": "退房。",
+                    "pinyin": "tuìfáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0083.mp3"
+                },
+                {
+                    "en": "Breakfast",
+                    "zh": "早餐。",
+                    "pinyin": "zǎocān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0084.mp3"
+                },
+                {
+                    "en": "Towel",
+                    "zh": "毛巾。",
+                    "pinyin": "máojīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0085.mp3"
+                },
+                {
+                    "en": "Pillow",
+                    "zh": "枕头。",
+                    "pinyin": "zhěntou",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0086.mp3"
+                },
+                {
+                    "en": "Blanket",
+                    "zh": "毯子。",
+                    "pinyin": "tǎnzi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0087.mp3"
+                },
+                {
+                    "en": "AC",
+                    "zh": "空调。",
+                    "pinyin": "kōngtiáo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0088.mp3"
+                },
+                {
+                    "en": "Room service",
+                    "zh": "客房服务。",
+                    "pinyin": "kèfáng fúwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0089.mp3"
+                },
+                {
+                    "en": "Shared dorm",
+                    "zh": "多人宿舍。",
+                    "pinyin": "duōrén sùshè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0090.mp3"
+                },
+                {
+                    "en": "Private room",
+                    "zh": "私人房间。",
+                    "pinyin": "sīrén fángjiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0091.mp3"
+                },
+                {
+                    "en": "Late checkout",
+                    "zh": "延迟退房。",
+                    "pinyin": "yánchí tuìfáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0092.mp3"
+                },
+                {
+                    "en": "Early check-in",
+                    "zh": "提前入住。",
+                    "pinyin": "tíqián rùzhù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0093.mp3"
+                },
+                {
+                    "en": "Baggage storage",
+                    "zh": "行李寄存。",
+                    "pinyin": "xíngli jìcún",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0094.mp3"
+                },
+                {
+                    "en": "Room upgrade",
+                    "zh": "房间升级。",
+                    "pinyin": "fángjiān shēngjí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0095.mp3"
+                },
+                {
+                    "en": "Balcony",
+                    "zh": "阳台。",
+                    "pinyin": "yángtái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0096.mp3"
+                },
+                {
+                    "en": "City view",
+                    "zh": "城市景观。",
+                    "pinyin": "chéngshì jǐngguān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0097.mp3"
+                },
+                {
+                    "en": "Extra blanket",
+                    "zh": "额外的毯子。",
+                    "pinyin": "éwài de tǎnzi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0098.mp3"
+                },
+                {
+                    "en": "Space heater",
+                    "zh": "取暖器。",
+                    "pinyin": "qǔnuǎnqì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0099.mp3"
+                },
+                {
+                    "en": "Laundry service",
+                    "zh": "洗衣服务。",
+                    "pinyin": "xǐyī fúwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0100.mp3"
+                },
+                {
+                    "en": "Wake-up call",
+                    "zh": "叫醒服务。",
+                    "pinyin": "jiàoxǐng fúwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0101.mp3"
+                },
+                {
+                    "en": "Power outlet",
+                    "zh": "电源插座。",
+                    "pinyin": "diànyuán chāzuò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0102.mp3"
+                },
+                {
+                    "en": "Universal adapter",
+                    "zh": "通用转换插头。",
+                    "pinyin": "tōngyòng zhuǎnhuàn chātóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0103.mp3"
+                },
+                {
+                    "en": "Bath amenities",
+                    "zh": "沐浴用品。",
+                    "pinyin": "mùyù yòngpǐn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0104.mp3"
+                },
+                {
+                    "en": "Front desk agent",
+                    "zh": "前台接待员。",
+                    "pinyin": "qiántái jiēdàiyuán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0105.mp3"
+                },
+                {
+                    "en": "Housekeeping",
+                    "zh": "客房清洁。",
+                    "pinyin": "kèfáng qīngjié",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0106.mp3"
+                },
+                {
+                    "en": "Safety deposit box",
+                    "zh": "保险箱。",
+                    "pinyin": "bǎoxiǎnxiāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0107.mp3"
+                },
+                {
+                    "en": "Room orientation",
+                    "zh": "房间朝向。",
+                    "pinyin": "fángjiān cháoxiàng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0108.mp3"
+                },
+                {
+                    "en": "Maintenance request",
+                    "zh": "维修请求。",
+                    "pinyin": "wéixiū qǐngqiú",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0109.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation - Phrases",
+            "words": [
+                {
+                    "en": "I have a reservation",
+                    "zh": "我有预订。",
+                    "pinyin": "Wǒ yǒu yùdìng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0110.mp3"
+                },
+                {
+                    "en": "Please show your passport",
+                    "zh": "请出示您的护照。",
+                    "pinyin": "Qǐng chūshì nín de hùzhào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0111.mp3"
+                },
+                {
+                    "en": "How many nights?",
+                    "zh": "住几晚？",
+                    "pinyin": "Zhù jǐ wǎn?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0112.mp3"
+                },
+                {
+                    "en": "Can I see the room?",
+                    "zh": "我可以看下房间吗？",
+                    "pinyin": "Wǒ kěyǐ kàn xià fángjiān ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0113.mp3"
+                },
+                {
+                    "en": "How much per night?",
+                    "zh": "每晚多少钱？",
+                    "pinyin": "Měi wǎn duōshǎo qián?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0114.mp3"
+                },
+                {
+                    "en": "It's too expensive",
+                    "zh": "太贵了。",
+                    "pinyin": "Tài guì le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0115.mp3"
+                },
+                {
+                    "en": "Do you have cheaper room?",
+                    "zh": "有便宜点的房间吗？",
+                    "pinyin": "Yǒu piányi diǎn de fángjiān ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0116.mp3"
+                },
+                {
+                    "en": "Does it include breakfast?",
+                    "zh": "含早餐吗？",
+                    "pinyin": "Hán zǎocān ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0117.mp3"
+                },
+                {
+                    "en": "Is there WiFi?",
+                    "zh": "有无线网络吗？",
+                    "pinyin": "Yǒu wúxiàn wǎngluò ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0118.mp3"
+                },
+                {
+                    "en": "What's the WiFi password?",
+                    "zh": "无线网密码是多少？",
+                    "pinyin": "Wúxiànwǎng mìmǎ shì duōshǎo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0119.mp3"
+                },
+                {
+                    "en": "Please clean the room",
+                    "zh": "请打扫房间。",
+                    "pinyin": "Qǐng dǎsǎo fángjiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0120.mp3"
+                },
+                {
+                    "en": "More towels please",
+                    "zh": "请多给点毛巾。",
+                    "pinyin": "Qǐng duō gěi diǎn máojīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0121.mp3"
+                },
+                {
+                    "en": "AC doesn't work",
+                    "zh": "空调坏了。",
+                    "pinyin": "Kōngtiáo huài le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0122.mp3"
+                },
+                {
+                    "en": "It's too noisy",
+                    "zh": "太吵了。",
+                    "pinyin": "Tài chǎo le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0123.mp3"
+                },
+                {
+                    "en": "Can I change rooms?",
+                    "zh": "我可以换房间吗？",
+                    "pinyin": "Wǒ kěyǐ huàn fángjiān ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0124.mp3"
+                },
+                {
+                    "en": "Checking out tomorrow",
+                    "zh": "明天退房。",
+                    "pinyin": "Míngtiān tuìfáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0125.mp3"
+                },
+                {
+                    "en": "Can I leave my luggage?",
+                    "zh": "我可以寄存行李吗？",
+                    "pinyin": "Wǒ kěyǐ jìcún xíngli ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0126.mp3"
+                },
+                {
+                    "en": "Thanks for the stay",
+                    "zh": "谢谢招待。",
+                    "pinyin": "Xièxie zhāodài",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0127.mp3"
+                },
+                {
+                    "en": "Can I store my luggage here?",
+                    "zh": "我可以把行李存在这里吗？",
+                    "pinyin": "Wǒ kěyǐ bǎ xíngli cún zài zhèlǐ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0128.mp3"
+                },
+                {
+                    "en": "Is early check-in possible?",
+                    "zh": "可以提前入住吗？",
+                    "pinyin": "Kěyǐ tíqián rùzhù ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0129.mp3"
+                },
+                {
+                    "en": "I would like a room upgrade",
+                    "zh": "我想要升级房间。",
+                    "pinyin": "Wǒ xiǎngyào shēngjí fángjiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0130.mp3"
+                },
+                {
+                    "en": "Could I have extra blankets?",
+                    "zh": "可以多给我几条毯子吗？",
+                    "pinyin": "Kěyǐ duō gěi wǒ jǐ tiáo tǎnzi ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0131.mp3"
+                },
+                {
+                    "en": "The heater is not working",
+                    "zh": "取暖器坏了。",
+                    "pinyin": "Qǔnuǎnqì huài le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0132.mp3"
+                },
+                {
+                    "en": "Can housekeeping clean later?",
+                    "zh": "客房清洁可以晚点来吗？",
+                    "pinyin": "Kèfáng qīngjié kěyǐ wǎndiǎn lái ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0133.mp3"
+                },
+                {
+                    "en": "Where can I do laundry?",
+                    "zh": "哪里可以洗衣服？",
+                    "pinyin": "Nǎlǐ kěyǐ xǐ yīfu?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0134.mp3"
+                },
+                {
+                    "en": "Please schedule a wake-up call",
+                    "zh": "请安排叫醒服务。",
+                    "pinyin": "Qǐng ānpái jiàoxǐng fúwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0135.mp3"
+                },
+                {
+                    "en": "Is the safe included?",
+                    "zh": "保险箱是免费的吗？",
+                    "pinyin": "Bǎoxiǎnxiāng shì miǎnfèi de ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0136.mp3"
+                },
+                {
+                    "en": "Who can help with maintenance?",
+                    "zh": "谁能帮忙维修？",
+                    "pinyin": "Shéi néng bāngmáng wéixiū?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0137.mp3"
+                },
+                {
+                    "en": "Could you hold my room? I'm arriving late tonight?",
+                    "zh": "可以帮我保留房间吗？我今晚晚点到。",
+                    "pinyin": "Kěyǐ bāng wǒ bǎoliú fángjiān ma? Wǒ jīnwǎn wǎndiǎn dào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0138.mp3"
+                },
+                {
+                    "en": "Is there a quieter floor available?",
+                    "zh": "有更安静的楼层吗？",
+                    "pinyin": "Yǒu gèng ānjìng de lóucéng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0139.mp3"
+                },
+                {
+                    "en": "Could you confirm the total with all taxes?",
+                    "zh": "请确认含税总价。",
+                    "pinyin": "Qǐng quèrèn hánshuì zǒngjià",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0140.mp3"
+                },
+                {
+                    "en": "Can you send someone to check the shower?",
+                    "zh": "能派人来看看淋浴吗？",
+                    "pinyin": "Néng pài rén lái kànkan línyù ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0141.mp3"
+                },
+                {
+                    "en": "I'd like to extend my stay by one more night",
+                    "zh": "我想续住一晚。",
+                    "pinyin": "Wǒ xiǎng xùzhù yī wǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0142.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations",
+            "words": [
+                {
+                    "en": "Direction",
+                    "zh": "方向。",
+                    "pinyin": "fāngxiàng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0143.mp3"
+                },
+                {
+                    "en": "Location",
+                    "zh": "位置。",
+                    "pinyin": "wèizhì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0144.mp3"
+                },
+                {
+                    "en": "Address",
+                    "zh": "地址。",
+                    "pinyin": "dìzhǐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0145.mp3"
+                },
+                {
+                    "en": "North",
+                    "zh": "北。",
+                    "pinyin": "běi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0146.mp3"
+                },
+                {
+                    "en": "South",
+                    "zh": "南。",
+                    "pinyin": "nán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0147.mp3"
+                },
+                {
+                    "en": "East",
+                    "zh": "东。",
+                    "pinyin": "dōng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0148.mp3"
+                },
+                {
+                    "en": "West",
+                    "zh": "西。",
+                    "pinyin": "xī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0149.mp3"
+                },
+                {
+                    "en": "Left",
+                    "zh": "左。",
+                    "pinyin": "zuǒ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0150.mp3"
+                },
+                {
+                    "en": "Right",
+                    "zh": "对。",
+                    "pinyin": "Duì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0151.mp3"
+                },
+                {
+                    "en": "Straight",
+                    "zh": "直。",
+                    "pinyin": "zhí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0152.mp3"
+                },
+                {
+                    "en": "Across",
+                    "zh": "对面。",
+                    "pinyin": "duìmiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0153.mp3"
+                },
+                {
+                    "en": "Next to",
+                    "zh": "旁边。",
+                    "pinyin": "pángbiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0154.mp3"
+                },
+                {
+                    "en": "Near",
+                    "zh": "附近。",
+                    "pinyin": "fùjìn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0155.mp3"
+                },
+                {
+                    "en": "Far",
+                    "zh": "远。",
+                    "pinyin": "yuǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0156.mp3"
+                },
+                {
+                    "en": "Here",
+                    "zh": "这里。",
+                    "pinyin": "zhèlǐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0157.mp3"
+                },
+                {
+                    "en": "There",
+                    "zh": "那里。",
+                    "pinyin": "nàlǐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0158.mp3"
+                },
+                {
+                    "en": "Corner",
+                    "zh": "拐角。",
+                    "pinyin": "guǎijiǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0159.mp3"
+                },
+                {
+                    "en": "Street",
+                    "zh": "街道。",
+                    "pinyin": "jiēdào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0160.mp3"
+                },
+                {
+                    "en": "Ticket booth",
+                    "zh": "售票亭。",
+                    "pinyin": "shòupiào tíng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0161.mp3"
+                },
+                {
+                    "en": "Platform",
+                    "zh": "站台。",
+                    "pinyin": "zhàntái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0162.mp3"
+                },
+                {
+                    "en": "Transfer",
+                    "zh": "换乘。",
+                    "pinyin": "huànchéng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0163.mp3"
+                },
+                {
+                    "en": "Ride-share",
+                    "zh": "网约车。",
+                    "pinyin": "wǎngyuēchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0164.mp3"
+                },
+                {
+                    "en": "Shuttle",
+                    "zh": "班车。",
+                    "pinyin": "bānchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0165.mp3"
+                },
+                {
+                    "en": "Express train",
+                    "zh": "特快列车。",
+                    "pinyin": "tèkuài lièchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0166.mp3"
+                },
+                {
+                    "en": "Local bus",
+                    "zh": "当地公交车。",
+                    "pinyin": "dāngdì gōngjiāochē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0167.mp3"
+                },
+                {
+                    "en": "Bus pass",
+                    "zh": "公交卡。",
+                    "pinyin": "gōngjiāokǎ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0168.mp3"
+                },
+                {
+                    "en": "Fare",
+                    "zh": "车费。",
+                    "pinyin": "chēfèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0169.mp3"
+                },
+                {
+                    "en": "Turnstile",
+                    "zh": "检票闸机。",
+                    "pinyin": "jiǎnpiào zhájī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0170.mp3"
+                },
+                {
+                    "en": "Intersection",
+                    "zh": "十字路口。",
+                    "pinyin": "shízì lùkǒu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0171.mp3"
+                },
+                {
+                    "en": "Roundabout",
+                    "zh": "环岛。",
+                    "pinyin": "huándǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0172.mp3"
+                },
+                {
+                    "en": "Pedestrian crossing",
+                    "zh": "人行横道。",
+                    "pinyin": "rénxíng héngdào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0173.mp3"
+                },
+                {
+                    "en": "Bike lane",
+                    "zh": "自行车道。",
+                    "pinyin": "zìxíngchē dào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0174.mp3"
+                },
+                {
+                    "en": "Car rental",
+                    "zh": "租车。",
+                    "pinyin": "zūchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0175.mp3"
+                },
+                {
+                    "en": "Fuel station",
+                    "zh": "加油站。",
+                    "pinyin": "jiāyóu zhàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0176.mp3"
+                },
+                {
+                    "en": "Traffic jam",
+                    "zh": "堵车。",
+                    "pinyin": "dǔchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0177.mp3"
+                },
+                {
+                    "en": "Shortcut",
+                    "zh": "捷径。",
+                    "pinyin": "jiéjìng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0178.mp3"
+                },
+                {
+                    "en": "Detour",
+                    "zh": "绕路。",
+                    "pinyin": "ràolù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0179.mp3"
+                },
+                {
+                    "en": "Landmark",
+                    "zh": "地标。",
+                    "pinyin": "dìbiāo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0180.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations - Phrases",
+            "words": [
+                {
+                    "en": "Where is...?",
+                    "zh": "...在哪里？",
+                    "pinyin": "...zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0181.mp3"
+                },
+                {
+                    "en": "How do I get there?",
+                    "zh": "怎么去那里？",
+                    "pinyin": "Zěnme qù nàlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0182.mp3"
+                },
+                {
+                    "en": "Please turn left",
+                    "zh": "请左转。",
+                    "pinyin": "Qǐng zuǒzhuǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0183.mp3"
+                },
+                {
+                    "en": "Please turn right",
+                    "zh": "请右转。",
+                    "pinyin": "Qǐng yòuzhuǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0184.mp3"
+                },
+                {
+                    "en": "Go straight",
+                    "zh": "直走。",
+                    "pinyin": "Zhí zǒu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0185.mp3"
+                },
+                {
+                    "en": "Please show me on the map",
+                    "zh": "请在地图上指给我看。",
+                    "pinyin": "Qǐng zài dìtú shàng zhǐ gěi wǒ kàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0186.mp3"
+                },
+                {
+                    "en": "I'm lost",
+                    "zh": "我迷路了。",
+                    "pinyin": "Wǒ mílù le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0187.mp3"
+                },
+                {
+                    "en": "Where are we?",
+                    "zh": "我们在哪里？",
+                    "pinyin": "Wǒmen zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0188.mp3"
+                },
+                {
+                    "en": "It's near here",
+                    "zh": "离这里很近。",
+                    "pinyin": "Lí zhèlǐ hěn jìn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0189.mp3"
+                },
+                {
+                    "en": "Walk or drive?",
+                    "zh": "走路还是开车？",
+                    "pinyin": "Zǒulù háishì kāichē?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0190.mp3"
+                },
+                {
+                    "en": "How many minutes?",
+                    "zh": "几分钟？",
+                    "pinyin": "Jǐ fēnzhōng?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0191.mp3"
+                },
+                {
+                    "en": "Let's go",
+                    "zh": "我们走吧。",
+                    "pinyin": "Wǒmen zǒu ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0192.mp3"
+                },
+                {
+                    "en": "Please follow me",
+                    "zh": "请跟我来。",
+                    "pinyin": "Qǐng gēn wǒ lái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0193.mp3"
+                },
+                {
+                    "en": "It's here",
+                    "zh": "就在这里。",
+                    "pinyin": "Jiù zài zhèlǐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0194.mp3"
+                },
+                {
+                    "en": "We're here",
+                    "zh": "我们到了。",
+                    "pinyin": "Wǒmen dào le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0195.mp3"
+                },
+                {
+                    "en": "You passed it",
+                    "zh": "你走过了。",
+                    "pinyin": "Nǐ zǒu guò le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0196.mp3"
+                },
+                {
+                    "en": "Please turn around",
+                    "zh": "请掉头。",
+                    "pinyin": "Qǐng diàotóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0197.mp3"
+                },
+                {
+                    "en": "It's crowded",
+                    "zh": "很拥挤。",
+                    "pinyin": "Hěn yōngjǐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0198.mp3"
+                },
+                {
+                    "en": "Where do I buy a ticket?",
+                    "zh": "在哪里买票？",
+                    "pinyin": "Zài nǎlǐ mǎipiào?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0199.mp3"
+                },
+                {
+                    "en": "Which platform is correct?",
+                    "zh": "哪个站台是对的？",
+                    "pinyin": "Nǎge zhàntái shì duì de?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0200.mp3"
+                },
+                {
+                    "en": "Is this the express train?",
+                    "zh": "这是特快列车吗？",
+                    "pinyin": "Zhè shì tèkuài lièchē ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0201.mp3"
+                },
+                {
+                    "en": "How many stops until downtown?",
+                    "zh": "到市中心还有几站？",
+                    "pinyin": "Dào shìzhōngxīn háiyǒu jǐ zhàn?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0202.mp3"
+                },
+                {
+                    "en": "Please call a ride-share",
+                    "zh": "请叫一辆网约车。",
+                    "pinyin": "Qǐng jiào yī liàng wǎngyuēchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0203.mp3"
+                },
+                {
+                    "en": "Does this shuttle go to the airport?",
+                    "zh": "这辆班车去机场吗？",
+                    "pinyin": "Zhè liàng bānchē qù jīchǎng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0204.mp3"
+                },
+                {
+                    "en": "Can I use a bus pass here?",
+                    "zh": "这里可以用公交卡吗？",
+                    "pinyin": "Zhèlǐ kěyǐ yòng gōngjiāokǎ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0205.mp3"
+                },
+                {
+                    "en": "Show me the landmark on the map",
+                    "zh": "请在地图上指出地标。",
+                    "pinyin": "Qǐng zài dìtú shàng zhǐchū dìbiāo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0206.mp3"
+                },
+                {
+                    "en": "Is there a faster route?",
+                    "zh": "有更快的路线吗？",
+                    "pinyin": "Yǒu gèng kuài de lùxiàn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0207.mp3"
+                },
+                {
+                    "en": "We hit a traffic jam",
+                    "zh": "我们遇到堵车了。",
+                    "pinyin": "Wǒmen yùdào dǔchē le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0208.mp3"
+                },
+                {
+                    "en": "Should I transfer at the central station?",
+                    "zh": "我应该在中央车站换乘吗？",
+                    "pinyin": "Wǒ yīnggāi zài Zhōngyāng Chēzhàn huànchéng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0209.mp3"
+                },
+                {
+                    "en": "How long does it take by taxi during rush hour?",
+                    "zh": "高峰期坐出租车要多久？",
+                    "pinyin": "Gāofēngqī zuò chūzūchē yào duōjiǔ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0210.mp3"
+                },
+                {
+                    "en": "Could you drop me near the corner bakery?",
+                    "zh": "能在街角面包店附近放我下来吗？",
+                    "pinyin": "Néng zài jiējiǎo miànbāodiàn fùjìn fàng wǒ xiàlai ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0211.mp3"
+                },
+                {
+                    "en": "Is this lane reserved for buses only?",
+                    "zh": "这条车道是公交专用的吗？",
+                    "pinyin": "Zhè tiáo chēdào shì gōngjiāo zhuānyòng de ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0212.mp3"
+                },
+                {
+                    "en": "Text me when you're close to the landmark",
+                    "zh": "快到地标时发短信给我。",
+                    "pinyin": "Kuài dào dìbiāo shí fā duǎnxìn gěi wǒ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0213.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Transportation & Tickets",
+            "words": [
+                {
+                    "en": "Train station",
+                    "zh": "火车站。",
+                    "pinyin": "huǒchēzhàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0214.mp3"
+                },
+                {
+                    "en": "Bus terminal",
+                    "zh": "公交总站。",
+                    "pinyin": "gōngjiāo zǒngzhàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0215.mp3"
+                },
+                {
+                    "en": "Ferry port",
+                    "zh": "轮渡码头。",
+                    "pinyin": "lúndù mǎtóu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0216.mp3"
+                },
+                {
+                    "en": "Ticket office",
+                    "zh": "售票处。",
+                    "pinyin": "shòupiào chù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0217.mp3"
+                },
+                {
+                    "en": "Ticket machine",
+                    "zh": "自动售票机。",
+                    "pinyin": "zìdòng shòupiàojī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0218.mp3"
+                },
+                {
+                    "en": "Platform number",
+                    "zh": "站台号。",
+                    "pinyin": "zhàntái hào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0219.mp3"
+                },
+                {
+                    "en": "Departure board",
+                    "zh": "出发时刻表。",
+                    "pinyin": "chūfā shíkèbiǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0220.mp3"
+                },
+                {
+                    "en": "Arrival board",
+                    "zh": "到达时刻表。",
+                    "pinyin": "dàodá shíkèbiǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0221.mp3"
+                },
+                {
+                    "en": "Day pass",
+                    "zh": "一日通票。",
+                    "pinyin": "yīrì tōngpiào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0222.mp3"
+                },
+                {
+                    "en": "Round-trip ticket",
+                    "zh": "往返票。",
+                    "pinyin": "wǎngfǎn piào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0223.mp3"
+                },
+                {
+                    "en": "One-way ticket",
+                    "zh": "单程票。",
+                    "pinyin": "dānchéng piào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0224.mp3"
+                },
+                {
+                    "en": "Seat reservation",
+                    "zh": "座位预订。",
+                    "pinyin": "zuòwèi yùdìng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0225.mp3"
+                },
+                {
+                    "en": "Sleeper cabin",
+                    "zh": "卧铺车厢。",
+                    "pinyin": "wòpù chēxiāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0226.mp3"
+                },
+                {
+                    "en": "Luggage locker",
+                    "zh": "行李寄存柜。",
+                    "pinyin": "xíngli jìcún guì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0227.mp3"
+                },
+                {
+                    "en": "Contactless payment",
+                    "zh": "非接触式支付。",
+                    "pinyin": "fēi jiēchù shì zhīfù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0228.mp3"
+                },
+                {
+                    "en": "Ticket inspector",
+                    "zh": "检票员。",
+                    "pinyin": "jiǎnpiàoyuán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0229.mp3"
+                },
+                {
+                    "en": "Platform change",
+                    "zh": "站台变更。",
+                    "pinyin": "zhàntái biàngēng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0230.mp3"
+                },
+                {
+                    "en": "Last train",
+                    "zh": "末班车。",
+                    "pinyin": "mòbānchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0231.mp3"
+                },
+                {
+                    "en": "Night bus",
+                    "zh": "夜班车。",
+                    "pinyin": "yèbānchē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0232.mp3"
+                },
+                {
+                    "en": "Rideshare pickup",
+                    "zh": "网约车上车点。",
+                    "pinyin": "wǎngyuēchē shàngchē diǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0233.mp3"
+                },
+                {
+                    "en": "Shuttle pass",
+                    "zh": "班车通行证。",
+                    "pinyin": "bānchē tōngxíngzhèng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0234.mp3"
+                },
+                {
+                    "en": "Bicycle rental",
+                    "zh": "自行车租赁。",
+                    "pinyin": "zìxíngchē zūlìn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0235.mp3"
+                },
+                {
+                    "en": "Car-hire desk",
+                    "zh": "租车柜台。",
+                    "pinyin": "zūchē guìtái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0236.mp3"
+                },
+                {
+                    "en": "Fuel surcharge",
+                    "zh": "燃油附加费。",
+                    "pinyin": "rányóu fùjiāfèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0237.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Transportation & Tickets - Phrases",
+            "words": [
+                {
+                    "en": "I'd like a ticket to downtown",
+                    "zh": "我想要一张去市中心的票。",
+                    "pinyin": "Wǒ xiǎngyào yī zhāng qù shìzhōngxīn de piào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0238.mp3"
+                },
+                {
+                    "en": "Is this a one-way or round-trip fare?",
+                    "zh": "这是单程票价还是往返票价？",
+                    "pinyin": "Zhè shì dānchéng piàojià háishì wǎngfǎn piàojià?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0239.mp3"
+                },
+                {
+                    "en": "What time does the next train leave?",
+                    "zh": "下一班火车几点开？",
+                    "pinyin": "Xià yī bān huǒchē jǐ diǎn kāi?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0240.mp3"
+                },
+                {
+                    "en": "Which platform should I go to?",
+                    "zh": "我应该去哪个站台？",
+                    "pinyin": "Wǒ yīnggāi qù nǎge zhàntái?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0241.mp3"
+                },
+                {
+                    "en": "Do I need a seat reservation?",
+                    "zh": "我需要预订座位吗？",
+                    "pinyin": "Wǒ xūyào yùdìng zuòwèi ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0242.mp3"
+                },
+                {
+                    "en": "Can I pay with a card?",
+                    "zh": "我可以用卡支付吗？",
+                    "pinyin": "Wǒ kěyǐ yòng kǎ zhīfù ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0243.mp3"
+                },
+                {
+                    "en": "Does this pass include the airport shuttle?",
+                    "zh": "这张通票包含机场班车吗？",
+                    "pinyin": "Zhè zhāng tōngpiào bāohán jīchǎng bānchē ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0244.mp3"
+                },
+                {
+                    "en": "Where can I validate my ticket?",
+                    "zh": "在哪里可以检票？",
+                    "pinyin": "Zài nǎlǐ kěyǐ jiǎnpiào?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0245.mp3"
+                },
+                {
+                    "en": "Is the sleeper cabin available tonight?",
+                    "zh": "今晚有卧铺车厢吗？",
+                    "pinyin": "Jīnwǎn yǒu wòpù chēxiāng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0246.mp3"
+                },
+                {
+                    "en": "How long is the night bus ride?",
+                    "zh": "夜班车要坐多久？",
+                    "pinyin": "Yèbānchē yào zuò duōjiǔ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0247.mp3"
+                },
+                {
+                    "en": "Can I store my luggage in a locker?",
+                    "zh": "我可以把行李存在寄存柜里吗？",
+                    "pinyin": "Wǒ kěyǐ bǎ xíngli cún zài jìcún guì lǐ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0248.mp3"
+                },
+                {
+                    "en": "My platform changed. Where do I go now?",
+                    "zh": "我的站台变了。我现在去哪里？",
+                    "pinyin": "Wǒ de zhàntái biàn le. Wǒ xiànzài qù nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0249.mp3"
+                },
+                {
+                    "en": "Is this the last train?",
+                    "zh": "这是末班车吗？",
+                    "pinyin": "Zhè shì mòbānchē ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0250.mp3"
+                },
+                {
+                    "en": "Do I tap my card before boarding?",
+                    "zh": "上车前要刷卡吗？",
+                    "pinyin": "Shàngchē qián yào shuākǎ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0251.mp3"
+                },
+                {
+                    "en": "Could you print the ticket for me?",
+                    "zh": "可以帮我打印车票吗？",
+                    "pinyin": "Kěyǐ bāng wǒ dǎyìn chēpiào ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0252.mp3"
+                },
+                {
+                    "en": "Where is the rideshare pickup zone?",
+                    "zh": "网约车上车区在哪里？",
+                    "pinyin": "Wǎngyuēchē shàngchē qū zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0253.mp3"
+                },
+                {
+                    "en": "Does the shuttle stop at this hotel?",
+                    "zh": "班车在这家酒店停吗？",
+                    "pinyin": "Bānchē zài zhè jiā jiǔdiàn tíng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0254.mp3"
+                },
+                {
+                    "en": "How much is the bicycle rental per hour?",
+                    "zh": "自行车租赁每小时多少钱？",
+                    "pinyin": "Zìxíngchē zūlìn měi xiǎoshí duōshǎo qián?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0255.mp3"
+                },
+                {
+                    "en": "Is fuel included with the car hire?",
+                    "zh": "租车费包含油费吗？",
+                    "pinyin": "Zūchē fèi bāohán yóufèi ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0256.mp3"
+                },
+                {
+                    "en": "Who checks tickets on board?",
+                    "zh": "车上谁查票？",
+                    "pinyin": "Chē shàng shéi chápiào?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0257.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Travel Problems & Assistance",
+            "words": [
+                {
+                    "en": "Lost passport",
+                    "zh": "护照丢失。",
+                    "pinyin": "hùzhào diūshī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0258.mp3"
+                },
+                {
+                    "en": "Missed flight",
+                    "zh": "误机。",
+                    "pinyin": "wùjī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0259.mp3"
+                },
+                {
+                    "en": "Rebooking desk",
+                    "zh": "改签柜台。",
+                    "pinyin": "gǎiqiān guìtái",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0260.mp3"
+                },
+                {
+                    "en": "Travel voucher",
+                    "zh": "旅游代金券。",
+                    "pinyin": "lǚyóu dàijīnquàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0261.mp3"
+                },
+                {
+                    "en": "Overbooked hotel",
+                    "zh": "酒店超售。",
+                    "pinyin": "jiǔdiàn chāoshòu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0262.mp3"
+                },
+                {
+                    "en": "Emergency contact",
+                    "zh": "紧急联系人。",
+                    "pinyin": "jǐnjí liánxìrén",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0263.mp3"
+                },
+                {
+                    "en": "Travel clinic",
+                    "zh": "旅游诊所。",
+                    "pinyin": "lǚyóu zhěnsuǒ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0264.mp3"
+                },
+                {
+                    "en": "Pharmacy",
+                    "zh": "药房。",
+                    "pinyin": "Yàofáng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0265.mp3"
+                },
+                {
+                    "en": "Urgent care",
+                    "zh": "急诊。",
+                    "pinyin": "jízhěn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0266.mp3"
+                },
+                {
+                    "en": "Travel warning",
+                    "zh": "旅游警告。",
+                    "pinyin": "lǚyóu jǐnggào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0267.mp3"
+                },
+                {
+                    "en": "Travel advisory",
+                    "zh": "旅游建议。",
+                    "pinyin": "lǚyóu jiànyì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0268.mp3"
+                },
+                {
+                    "en": "Health declaration",
+                    "zh": "健康申报。",
+                    "pinyin": "jiànkāng shēnbào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0269.mp3"
+                },
+                {
+                    "en": "Embassy appointment",
+                    "zh": "大使馆预约。",
+                    "pinyin": "dàshǐguǎn yùyuē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0270.mp3"
+                },
+                {
+                    "en": "Consulate",
+                    "zh": "领事馆。",
+                    "pinyin": "lǐngshìguǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0271.mp3"
+                },
+                {
+                    "en": "Insurance hotline",
+                    "zh": "保险热线。",
+                    "pinyin": "bǎoxiǎn rèxiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0272.mp3"
+                },
+                {
+                    "en": "Language barrier",
+                    "zh": "语言障碍。",
+                    "pinyin": "yǔyán zhàng'ài",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0273.mp3"
+                },
+                {
+                    "en": "Translation app",
+                    "zh": "翻译软件。",
+                    "pinyin": "fānyì ruǎnjiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0274.mp3"
+                },
+                {
+                    "en": "Lost property",
+                    "zh": "失物招领。",
+                    "pinyin": "shīwù zhāolǐng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0275.mp3"
+                },
+                {
+                    "en": "Delayed luggage",
+                    "zh": "行李延误。",
+                    "pinyin": "xíngli yánwù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0276.mp3"
+                },
+                {
+                    "en": "Refund request",
+                    "zh": "退款申请。",
+                    "pinyin": "tuìkuǎn shēnqǐng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0277.mp3"
+                },
+                {
+                    "en": "Complaint form",
+                    "zh": "投诉表。",
+                    "pinyin": "tóusù biǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0278.mp3"
+                },
+                {
+                    "en": "Customer support",
+                    "zh": "客户支持。",
+                    "pinyin": "kèhù zhīchí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0279.mp3"
+                },
+                {
+                    "en": "Emergency fund",
+                    "zh": "应急资金。",
+                    "pinyin": "yìngjí zījīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0280.mp3"
+                },
+                {
+                    "en": "Backup card",
+                    "zh": "备用卡。",
+                    "pinyin": "bèiyòng kǎ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0281.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Travel Problems & Assistance - Phrases",
+            "words": [
+                {
+                    "en": "I lost my passport",
+                    "zh": "我丢了护照。",
+                    "pinyin": "Wǒ diū le hùzhào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0282.mp3"
+                },
+                {
+                    "en": "Where is the nearest embassy?",
+                    "zh": "最近的大使馆在哪里？",
+                    "pinyin": "Zuìjìn de dàshǐguǎn zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0283.mp3"
+                },
+                {
+                    "en": "I missed my flight",
+                    "zh": "我误机了。",
+                    "pinyin": "Wǒ wùjī le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0284.mp3"
+                },
+                {
+                    "en": "Can you help me rebook?",
+                    "zh": "能帮我改签吗？",
+                    "pinyin": "Néng bāng wǒ gǎiqiān ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0285.mp3"
+                },
+                {
+                    "en": "Is the hotel overbooked tonight?",
+                    "zh": "今晚酒店超售了吗？",
+                    "pinyin": "Jīnwǎn jiǔdiàn chāoshòu le ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0286.mp3"
+                },
+                {
+                    "en": "Can I get a travel voucher?",
+                    "zh": "我可以拿旅游代金券吗？",
+                    "pinyin": "Wǒ kěyǐ ná lǚyóu dàijīnquàn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0287.mp3"
+                },
+                {
+                    "en": "Who do I contact for insurance?",
+                    "zh": "我该联系谁报保险？",
+                    "pinyin": "Wǒ gāi liánxì shéi bào bǎoxiǎn?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0288.mp3"
+                },
+                {
+                    "en": "I need a doctor who speaks English",
+                    "zh": "我需要一位会说英语的医生。",
+                    "pinyin": "Wǒ xūyào yī wèi huì shuō Yīngyǔ de yīshēng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0289.mp3"
+                },
+                {
+                    "en": "Where can I buy medicine nearby?",
+                    "zh": "附近哪里可以买药？",
+                    "pinyin": "Fùjìn nǎlǐ kěyǐ mǎiyào?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0290.mp3"
+                },
+                {
+                    "en": "Is there a travel advisory today?",
+                    "zh": "今天有旅游建议吗？",
+                    "pinyin": "Jīntiān yǒu lǚyóu jiànyì ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0291.mp3"
+                },
+                {
+                    "en": "Do I need to fill out a health declaration?",
+                    "zh": "我需要填写健康申报吗？",
+                    "pinyin": "Wǒ xūyào tiánxiě jiànkāng shēnbào ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0292.mp3"
+                },
+                {
+                    "en": "How do I report delayed luggage?",
+                    "zh": "我该如何报告行李延误？",
+                    "pinyin": "Wǒ gāi rúhé bàogào xíngli yánwù?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0293.mp3"
+                },
+                {
+                    "en": "Can someone translate this for me?",
+                    "zh": "有人能帮我翻译这个吗？",
+                    "pinyin": "Yǒurén néng bāng wǒ fānyì zhège ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0294.mp3"
+                },
+                {
+                    "en": "My bag is missing. Is there a lost property desk?",
+                    "zh": "我的包不见了。有失物招领处吗？",
+                    "pinyin": "Wǒ de bāo bùjiàn le. Yǒu shīwù zhāolǐng chù ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0295.mp3"
+                },
+                {
+                    "en": "I need an embassy appointment as soon as possible",
+                    "zh": "我需要尽快预约大使馆。",
+                    "pinyin": "Wǒ xūyào jǐnkuài yùyuē dàshǐguǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0296.mp3"
+                },
+                {
+                    "en": "Can I file a complaint form online?",
+                    "zh": "我可以在线提交投诉表吗？",
+                    "pinyin": "Wǒ kěyǐ zàixiàn tíjiāo tóusù biǎo ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0297.mp3"
+                },
+                {
+                    "en": "Is a refund possible in this situation?",
+                    "zh": "这种情况可以退款吗？",
+                    "pinyin": "Zhè zhǒng qíngkuàng kěyǐ tuìkuǎn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0298.mp3"
+                },
+                {
+                    "en": "Please call the emergency contact on my card",
+                    "zh": "请拨打我卡上的紧急联系人电话。",
+                    "pinyin": "Qǐng bōdǎ wǒ kǎ shàng de jǐnjí liánxìrén diànhuà",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0299.mp3"
+                },
+                {
+                    "en": "Do you accept a backup card for payment?",
+                    "zh": "你们接受备用卡付款吗？",
+                    "pinyin": "Nǐmen jiēshòu bèiyòng kǎ fùkuǎn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0300.mp3"
+                },
+                {
+                    "en": "Who can help me contact customer support?",
+                    "zh": "谁能帮我联系客服？",
+                    "pinyin": "Shéi néng bāng wǒ liánxì kèfú?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/04/zh_0301.mp3"
+                }
+            ]
+        }
+    ]
+}

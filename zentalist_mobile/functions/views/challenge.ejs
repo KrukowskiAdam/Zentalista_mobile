@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %>
+
+ <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
+ style="display: none; visibility: hidden"></iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
+
+ <!-- Nawigacja główna -->
+ <%- include('partials/menu') %>
+
+ <div id="challenge-page" class="container mx-auto px-4 py-8 pt-12 max-w-4xl safe-bottom">
+ <!-- Loading spinner while checking auth -->
+ <div id="auth-loading" class="text-center py-16 space-y-4">
+ <span class="loading loading-spinner loading-lg"></span>
+ <p class="text-sm">Checking your account and challenge progress...</p>
+ </div>
+
+ <!-- Login required screen for non-logged-in users -->
+ <div id="login-required-screen" class="hidden">
+ <div class="text-center py-16">
+ <div class="mb-6">
+ <svg class="w-20 h-20 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+ stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+ </svg>
+ </div>
+ <h2 class="text-2xl font-bold mb-3">Sign in to take challenges</h2>
+ <p class="mb-6 max-w-md mx-auto">
+ Complete challenges to lock your categories, earn bonus points, and compete on the global leaderboard.
+ </p>
+ <label for="modal-login"
+ class="btn touch-target bg-level-learning hover:bg-level-learning px-8 w-full sm:w-auto cursor-pointer">
+ Sign In
+ </label>
+ <p class="text-sm mt-4">
+ Don't have an account?
+ <label for="modal-signup" class="cursor-pointer">Create one for
+ free</label>
+ </p>
+ </div>
+ </div>
+
+ <!-- Challenge content (shown only when logged in) -->
+ <div id="challenge-content" class="hidden">
+ <!-- Header -->
+ <div class="text-center mb-7 sm:mb-8 px-1">
+ <h1 class="text-3xl sm:text-4xl font-bold mb-2 flex items-center justify-center gap-2 sm:gap-3">
+ <svg class="w-8 h-8 sm:w-10 sm:h-10" viewBox="0 0 24 24" fill="none" stroke="#ff8c02"
+ stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path
+ d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
+ </svg>
+ Category Challenge
+ </h1>
+ <p class="py-4 sm:py-8 max-w-xl mx-auto">Test your knowledge and lock categories to earn bonus points!</p>
+ </div>
+
+ <!-- Category Selection View -->
+ <div id="category-selection-view" class="space-y-4">
+ <!-- Outer wrapper with (like leaderboard/stats) -->
+ <div class="bg-learning-app-design-3 shadow-card rounded-xl overflow-hidden">
+ <!-- Header Row (Flowbite-style) -->
+ <div class="p-4 bg-learning-app-design-1">
+ <h2 class="text-2xl font-bold">Available Challenges</h2>
+ </div>
+
+ <!-- Content Area -->
+ <div class="p-4 sm:p-6">
+
+ <!-- Categories will be loaded here by JS -->
+ <div id="categories-list" class="space-y-3">
+ <div class="text-center py-8">
+ Loading categories...
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <!-- Challenge Quiz View (hidden initially) -->
+ <div id="challenge-quiz-view" class="hidden">
+ <!-- Progress Header -->
+ <div class="bg-learning-app-design-1 shadow-card rounded-xl p-4 mb-6">
+ <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
+ <h2 id="quiz-category-name" class="text-xl font-semibold"></h2>
+ <span id="quiz-progress" class="text-sm font-medium">0/0</span>
+ </div>
+ <div class="w-full bg-learning-app-design-3 rounded-full h-2">
+ <div id="quiz-progress-bar" class="bg-level-learning h-2 rounded-full transition-all duration-300"
+ style="width: 0%"></div>
+ </div>
+ </div>
+
+ <!-- Question Card -->
+ <div class="bg-learning-app-design-1 shadow-card rounded-xl p-5 sm:p-8 mb-6">
+ <div class="text-center mb-6 sm:mb-8">
+ <p class="text-sm mb-2">Translate this word:</p>
+ <div class="flex items-center justify-center gap-4 flex-wrap">
+ <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold"></h3>
+ <button id="quiz-audio-btn" type="button"
+ class="hidden inline-flex items-center justify-center w-12 h-12 rounded-full bg-learning-app-design-3 hover:bg-learning-app-design-1 transition"
+ aria-label="Play pronunciation">
+ <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+ stroke="currentColor" stroke-width="1.5">
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.868v4.264a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+ <path stroke-linecap="round" stroke-linejoin="round"
+ d="M19.428 15.341A8 8 0 0019.428 8.66M4.5 9.75v4.5a1 1 0 001 1h1.379a1 1 0 01.832.445l1.516 2.273a1 1 0 001.773-.64V6.672a1 1 0 00-1.773-.64L7.711 8.305a1 1 0 01-.832.445H5.5a1 1 0 00-1 1z" />
+ </svg>
+ </button>
+ </div>
+ <p id="quiz-question-romanization" class="text-xl mt-2 hidden"></p>
+ </div>
+
+ <!-- Answer Buttons -->
+ <div id="quiz-answers" class="grid grid-cols-1 gap-2 sm:gap-3">
+ <!-- Buttons will be generated by JS -->
+ </div>
+ </div>
+
+ <!-- Exit Button -->
+ <div class="text-center">
+ <button id="exit-quiz-btn"
+ class="touch-target px-3 py-1.5 text-sm hover:bg-learning-app-design-1 rounded-lg transition-colors">
+ Exit Challenge
+ </button>
+ </div>
+ </div>
+
+ <!-- Results View (hidden initially) -->
+ <div id="challenge-results-view" class="hidden">
+ <div class="bg-learning-app-design-1 shadow-card rounded-xl p-8 text-center">
+ <div id="results-icon" class="mb-4">
+ <!-- Icon will be inserted by JS -->
+ </div>
+ <h2 id="results-title" class="text-2xl font-bold mb-2"></h2>
+ <p id="results-score" class="text-lg mb-6"></p>
+ <div id="results-message" class="mb-6"></div>
+ <div class="flex flex-col sm:flex-row gap-3 justify-center">
+ <a href="/stats"
+ class="touch-target px-4 py-2 bg-level-expert hover:bg-level-expert/80 rounded-lg transition-colors inline-block">View
+ Stats</a>
+ <a href="/challenge"
+ class="touch-target px-4 py-2 hover:bg-learning-app-design-1 rounded-lg transition-colors inline-block">Back
+ to Challenges</a>
+ </div>
+ </div>
+ </div>
+ </div><!-- End challenge-content -->
+ </div><!-- End challenge-page max-w-4xl container -->
+
+ <!-- How It Works Section (full width) -->
+ <div id="how-it-works-section" class="hidden w-full px-4 pb-8">
+ <div class="w-full mt-8 bg-learning-app-design-1 shadow-card rounded-xl p-6">
+ <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+ <img src="/img/svg/01/bulb-on-svgrepo-com.svg" alt="Bulb" class="w-6 h-6">
+ How Challenge Points Work
+ </h2>
+ <div class="space-y-3 text-sm">
+ <div class="flex items-start sm:items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-mastered rounded min-w-[60px] text-center">
+ 50</div>
+ <div>
+ <span class="font-semibold">Perfect first try (100%):</span>
+ <span class="font-bold"> +50 points</span>
+ </div>
+ </div>
+ <div class="flex items-start sm:items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-learning rounded min-w-[60px] text-center">20
+ </div>
+ <div>
+ <span class="font-semibold">Pass first try (90%-99%):</span>
+ <span class=""> +20 points</span>
+ </div>
+ </div>
+ <div class="flex items-start sm:items-center gap-3">
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-expert rounded min-w-[60px] text-center">TIP
+ </div>
+ <div>
+ <span class="">Points are awarded only once per category. Replays are just for
+ practice.</span>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <!-- Modale -->
+ <%- include('partials/modals') %>
+
+ <script defer type="module" src="/scripts/main.js"></script>
+ <script type="module">
+ import { initChallengePageNew } from '/scripts/pages/challengePage.js';
+
+ document.addEventListener('DOMContentLoaded', () => {
+ const authLoading = document.getElementById('auth-loading');
+ const loginScreen = document.getElementById('login-required-screen');
+ const challengeContent = document.getElementById('challenge-content');
+ const howItWorksSection = document.getElementById('how-it-works-section');
+ let initialized = false;
+
+ function onAuthReady(user) {
+ if (user) {
+ authLoading?.classList.add('hidden');
+ loginScreen?.classList.add('hidden');
+ challengeContent?.classList.remove('hidden');
+ howItWorksSection?.classList.remove('hidden');
+ if (!initialized) {
+ initialized = true;
+ initChallengePageNew();
+ }
+ } else {
+ authLoading?.classList.add('hidden');
+ loginScreen?.classList.remove('hidden');
+ challengeContent?.classList.add('hidden');
+ howItWorksSection?.classList.add('hidden');
+ }
+ }
+
+ // Primary: custom event fired by auth.js
+ window.addEventListener('authStateChanged', (e) => onAuthReady(e.detail?.user));
+
+ // Fallback: direct Firebase listener when window.auth is available
+ if (window.auth) {
+ import('https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js')
+ .then(({ onAuthStateChanged }) => onAuthStateChanged(window.auth, onAuthReady))
+ .catch(() => {});
+ }
+ });
+ </script>
+ </body>
+
+</html>

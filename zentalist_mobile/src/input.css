@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ :root {
+ /* Status colors */
+ --level-expert: #ff8c02;
+ --level-learning: #0ea5e9;
+ --level-mastered: #02bf33;
+ 
+ /* Global app font colors */
+ --font-color-black: #000000;
+ --font-color-white: #ffffff;
+
+ /* Global font switch presets */
+ 
+ /* light theme text -> black */
+ --font-color-light-theme: var(--font-color-black);
+ /* dark theme text -> white */
+ --font-color-dark-theme: var(--font-color-white);
+
+ /* Quick switch: keep only one line active */
+ /* --app-font-color: var(--font-color-light-theme); */
+ --app-font-color: var(--font-color-dark-theme);
+
+ /* Disable DaisyUI button animation */
+ --animation-btn: 0;
+ --btn-focus-scale: 1;
+ }
+ 
+ /* Flex layout for sticky footer */
+ html, body {
+ min-height: 100vh;
+ }
+ 
+ body {
+ display: flex;
+ flex-direction: column;
+ color: var(--app-font-color);
+ }
+
+ body * {
+ color: var(--app-font-color);
+ }
+
+ /* Drawer is always dark, so force white text there */
+ #menu-drawer ~ .drawer-side,
+ #menu-drawer ~ .drawer-side *,
+ #lang-drawer ~ .drawer-side,
+ #lang-drawer ~ .drawer-side * {
+ color: var(--font-color-white) !important;
+ }
+ 
+ /* Prevent layout shift from scrollbar appearing/disappearing */
+ html {
+ overflow-y: scroll;
+ scrollbar-gutter: stable;
+ }
+ 
+ /* Hide auth elements until ready to prevent flash */
+ .auth-logged-in,
+ .auth-logged-out {
+ opacity: 0;
+ transition: opacity 0.1s ease-in-out;
+ }
+ 
+ /* Show when auth state is known */
+ .auth-ready .auth-logged-in,
+ .auth-ready .auth-logged-out {
+ opacity: 1;
+ }
+}
+
+@layer utilities {
+ .safe-navbar {
+ padding-top: constant(safe-area-inset-top);
+ padding-top: env(safe-area-inset-top, 0px);
+ min-height: calc(60px + constant(safe-area-inset-top));
+ min-height: calc(60px + env(safe-area-inset-top, 0px));
+ }
+
+ .safe-drawer-side {
+ top: calc(60px + constant(safe-area-inset-top));
+ top: calc(60px + env(safe-area-inset-top, 0px));
+ height: calc(100vh - (60px + constant(safe-area-inset-top)));
+ height: calc(100dvh - (60px + env(safe-area-inset-top, 0px)));
+ }
+
+ .touch-target {
+ min-height: 44px;
+ min-width: 44px;
+ }
+
+ .safe-top {
+ padding-top: max(1rem, env(safe-area-inset-top));
+ }
+
+ .safe-bottom {
+ padding-bottom: max(1rem, env(safe-area-inset-bottom));
+ }
+
+ .safe-left {
+ padding-left: max(1rem, env(safe-area-inset-left));
+ }
+
+ .safe-right {
+ padding-right: max(1rem, env(safe-area-inset-right));
+ }
+}
+

@@ -1,0 +1,643 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 01 - Basic Greetings & Introductions",
+    "categories": [
+        {
+            "name": "Greetings & Polite Expressions",
+            "words": [
+                {
+                    "en": "Hello!"
+                },
+                {
+                    "en": "Thank you."
+                },
+                {
+                    "en": "Please."
+                },
+                {
+                    "en": "Sorry."
+                },
+                {
+                    "en": "Excuse me."
+                },
+                {
+                    "en": "You're welcome."
+                },
+                {
+                    "en": "Goodbye!"
+                },
+                {
+                    "en": "See you later."
+                },
+                {
+                    "en": "Good morning."
+                },
+                {
+                    "en": "Good afternoon."
+                },
+                {
+                    "en": "Good evening."
+                },
+                {
+                    "en": "Welcome!"
+                },
+                {
+                    "en": "Nice to meet you."
+                },
+                {
+                    "en": "Pleased to meet you."
+                },
+                {
+                    "en": "I'm sorry."
+                },
+                {
+                    "en": "Bless you!"
+                },
+                {
+                    "en": "Congratulations!"
+                },
+                {
+                    "en": "Safe travels."
+                },
+                {
+                    "en": "Take care."
+                },
+                {
+                    "en": "Great to see you."
+                }
+            ]
+        },
+        {
+            "name": "Greetings & Polite Expressions - Phrases",
+            "words": [
+                {
+                    "en": "How are you?"
+                },
+                {
+                    "en": "I'm fine."
+                },
+                {
+                    "en": "What's your name?"
+                },
+                {
+                    "en": "My name is..."
+                },
+                {
+                    "en": "It's great finally meeting you in person."
+                },
+                {
+                    "en": "Where are you from?"
+                },
+                {
+                    "en": "I'm from..."
+                },
+                {
+                    "en": "How old are you?"
+                },
+                {
+                    "en": "I'm... years old."
+                },
+                {
+                    "en": "Do you speak English?"
+                },
+                {
+                    "en": "I speak a little."
+                },
+                {
+                    "en": "I don't understand."
+                },
+                {
+                    "en": "Can you repeat?"
+                },
+                {
+                    "en": "Please speak slowly."
+                },
+                {
+                    "en": "What does this mean?"
+                },
+                {
+                    "en": "How do you say...?"
+                },
+                {
+                    "en": "Have a good day?"
+                },
+                {
+                    "en": "See you tomorrow."
+                },
+                {
+                    "en": "It's nice seeing you again."
+                },
+                {
+                    "en": "Let's stay in touch."
+                },
+                {
+                    "en": "How have you been lately?"
+                },
+                {
+                    "en": "It's been a while since we talked."
+                },
+                {
+                    "en": "Thanks for following up with me."
+                },
+                {
+                    "en": "Could you introduce yourself?"
+                },
+                {
+                    "en": "Let me introduce myself properly."
+                }
+            ]
+        },
+        {
+            "name": "Basic Questions",
+            "words": [
+                {
+                    "en": "What?"
+                },
+                {
+                    "en": "Where?"
+                },
+                {
+                    "en": "When?"
+                },
+                {
+                    "en": "Who?"
+                },
+                {
+                    "en": "Why?"
+                },
+                {
+                    "en": "How?"
+                },
+                {
+                    "en": "Which?"
+                },
+                {
+                    "en": "How much?"
+                },
+                {
+                    "en": "How many?"
+                },
+                {
+                    "en": "What time?"
+                },
+                {
+                    "en": "Can?"
+                },
+                {
+                    "en": "Could?"
+                },
+                {
+                    "en": "Should?"
+                },
+                {
+                    "en": "Would?"
+                },
+                {
+                    "en": "Is?"
+                },
+                {
+                    "en": "Are?"
+                },
+                {
+                    "en": "Do?"
+                },
+                {
+                    "en": "Does?"
+                },
+                {
+                    "en": "Will?"
+                },
+                {
+                    "en": "Might?"
+                }
+            ]
+        },
+        {
+            "name": "Basic Questions - Phrases",
+            "words": [
+                {
+                    "en": "What is this?"
+                },
+                {
+                    "en": "Where is it?"
+                },
+                {
+                    "en": "When is it?"
+                },
+                {
+                    "en": "Who is it?"
+                },
+                {
+                    "en": "Why is that?"
+                },
+                {
+                    "en": "How is it?"
+                },
+                {
+                    "en": "Which one?"
+                },
+                {
+                    "en": "How much is it?"
+                },
+                {
+                    "en": "How many are there?"
+                },
+                {
+                    "en": "What time is it?"
+                },
+                {
+                    "en": "Can I...?"
+                },
+                {
+                    "en": "Could you...?"
+                },
+                {
+                    "en": "Should I...?"
+                },
+                {
+                    "en": "Would you like...?"
+                },
+                {
+                    "en": "Is it...?"
+                },
+                {
+                    "en": "Are you...?"
+                },
+                {
+                    "en": "Do you...?"
+                },
+                {
+                    "en": "Does it...?"
+                },
+                {
+                    "en": "When would work for you?"
+                },
+                {
+                    "en": "Could you explain that?"
+                },
+                {
+                    "en": "Would you mind if I ask a question?"
+                },
+                {
+                    "en": "Could you tell me more about that?"
+                },
+                {
+                    "en": "Do you happen to know the answer?"
+                },
+                {
+                    "en": "How does this compare to the other option?"
+                }
+            ]
+        },
+        {
+            "name": "Yes & No Responses",
+            "words": [
+                {
+                    "en": "Yes"
+                },
+                {
+                    "en": "No"
+                },
+                {
+                    "en": "Maybe"
+                },
+                {
+                    "en": "Ok"
+                },
+                {
+                    "en": "Sure"
+                },
+                {
+                    "en": "Of course"
+                },
+                {
+                    "en": "Exactly"
+                },
+                {
+                    "en": "Right"
+                },
+                {
+                    "en": "Wrong"
+                },
+                {
+                    "en": "True"
+                },
+                {
+                    "en": "False"
+                },
+                {
+                    "en": "Correct"
+                },
+                {
+                    "en": "Incorrect"
+                },
+                {
+                    "en": "Possible"
+                },
+                {
+                    "en": "Impossible"
+                },
+                {
+                    "en": "Agree"
+                },
+                {
+                    "en": "Disagree"
+                },
+                {
+                    "en": "Understand"
+                },
+                {
+                    "en": "Depends"
+                },
+                {
+                    "en": "Absolutely"
+                }
+            ]
+        },
+        {
+            "name": "Yes & No Responses - Phrases",
+            "words": [
+                {
+                    "en": "Yes, please."
+                },
+                {
+                    "en": "No, thank you."
+                },
+                {
+                    "en": "Maybe later."
+                },
+                {
+                    "en": "That's right."
+                },
+                {
+                    "en": "That's wrong."
+                },
+                {
+                    "en": "I agree."
+                },
+                {
+                    "en": "I disagree."
+                },
+                {
+                    "en": "I understand."
+                },
+                {
+                    "en": "I don't understand."
+                },
+                {
+                    "en": "Of course."
+                },
+                {
+                    "en": "No problem."
+                },
+                {
+                    "en": "Sure, why not."
+                },
+                {
+                    "en": "I don't know."
+                },
+                {
+                    "en": "I'm not sure."
+                },
+                {
+                    "en": "That's correct."
+                },
+                {
+                    "en": "That's incorrect."
+                },
+                {
+                    "en": "Is that possible?"
+                },
+                {
+                    "en": "That's impossible."
+                },
+                {
+                    "en": "I'm open to it."
+                },
+                {
+                    "en": "I'd rather not."
+                }
+            ]
+        },
+        {
+            "name": "Communication & Social",
+            "words": [
+                {
+                    "en": "Invitation"
+                },
+                {
+                    "en": "Catch up"
+                },
+                {
+                    "en": "Plan"
+                },
+                {
+                    "en": "Schedule"
+                },
+                {
+                    "en": "Reminder"
+                },
+                {
+                    "en": "Update"
+                },
+                {
+                    "en": "Feedback"
+                },
+                {
+                    "en": "Opinion"
+                },
+                {
+                    "en": "Suggestion"
+                },
+                {
+                    "en": "Agreement"
+                },
+                {
+                    "en": "Disagreement"
+                },
+                {
+                    "en": "Polite"
+                },
+                {
+                    "en": "Formal"
+                },
+                {
+                    "en": "Informal"
+                },
+                {
+                    "en": "Gesture"
+                },
+                {
+                    "en": "Small talk"
+                },
+                {
+                    "en": "Topic"
+                },
+                {
+                    "en": "Transition"
+                },
+                {
+                    "en": "Clarification"
+                },
+                {
+                    "en": "Follow-up"
+                }
+            ]
+        },
+        {
+            "name": "Communication & Social - Phrases",
+            "words": [
+                {
+                    "en": "Let's catch up soon."
+                },
+                {
+                    "en": "I'll send you the invitation."
+                },
+                {
+                    "en": "Can we schedule a call?"
+                },
+                {
+                    "en": "Here is a quick update."
+                },
+                {
+                    "en": "I appreciate your feedback."
+                },
+                {
+                    "en": "In my opinion, that's fair."
+                },
+                {
+                    "en": "Do you have a suggestion?"
+                },
+                {
+                    "en": "Let's keep the tone polite."
+                },
+                {
+                    "en": "May I clarify that point?"
+                },
+                {
+                    "en": "I'll follow up tomorrow."
+                },
+                {
+                    "en": "Thanks for the update, I'll get back to you soon."
+                },
+                {
+                    "en": "Let's agree on the next steps together."
+                },
+                {
+                    "en": "Please keep me posted if anything changes."
+                },
+                {
+                    "en": "Feel free to reach out anytime."
+                },
+                {
+                    "en": "Could you share a quick summary afterward?"
+                }
+            ]
+        },
+        {
+            "name": "Meeting New People",
+            "words": [
+                {
+                    "en": "Acquaintance"
+                },
+                {
+                    "en": "Introduction"
+                },
+                {
+                    "en": "Handshake"
+                },
+                {
+                    "en": "Conversation"
+                },
+                {
+                    "en": "Background"
+                },
+                {
+                    "en": "Hometown"
+                },
+                {
+                    "en": "Interest"
+                },
+                {
+                    "en": "Hobby"
+                },
+                {
+                    "en": "Career"
+                },
+                {
+                    "en": "Networking event"
+                },
+                {
+                    "en": "Icebreaker"
+                },
+                {
+                    "en": "Small talk"
+                },
+                {
+                    "en": "Common ground"
+                },
+                {
+                    "en": "Invitation"
+                },
+                {
+                    "en": "Follow-up message"
+                },
+                {
+                    "en": "Contact info"
+                },
+                {
+                    "en": "Phone number"
+                },
+                {
+                    "en": "Social media"
+                },
+                {
+                    "en": "Meetup"
+                },
+                {
+                    "en": "Cultural exchange"
+                }
+            ]
+        },
+        {
+            "name": "Meeting New People - Phrases",
+            "words": [
+                {
+                    "en": "Nice to meet you, what brings you here?"
+                },
+                {
+                    "en": "Is this your first time at this event?"
+                },
+                {
+                    "en": "How do you know the host?"
+                },
+                {
+                    "en": "Where did you grow up?"
+                },
+                {
+                    "en": "What do you do for work?"
+                },
+                {
+                    "en": "What hobbies are you into lately?"
+                },
+                {
+                    "en": "Would you like to grab coffee sometime?"
+                },
+                {
+                    "en": "Can I add you on social media?"
+                },
+                {
+                    "en": "Let me send you my contact info."
+                },
+                {
+                    "en": "Let's keep in touch after this trip."
+                },
+                {
+                    "en": "Enjoy the rest of your day."
+                },
+                {
+                    "en": "It was great chatting with you."
+                }
+            ]
+        }
+    ]
+}

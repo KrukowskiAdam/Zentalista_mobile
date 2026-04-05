@@ -1,0 +1,765 @@
+{
+    "info": "RUSSIAN TRANSLATION - File 03 - Food & Restaurants",
+    "categories": [
+        {
+            "name": "Food & Drinks",
+            "words": [
+                {
+                    "en": "Rice",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0001.mp3",
+                    "ru": "Рис"
+                },
+                {
+                    "en": "Bread",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0002.mp3",
+                    "ru": "Хлеб"
+                },
+                {
+                    "en": "Meat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0003.mp3",
+                    "ru": "Мясо"
+                },
+                {
+                    "en": "Fish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0004.mp3",
+                    "ru": "Рыба"
+                },
+                {
+                    "en": "Vegetables",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0005.mp3",
+                    "ru": "Овощи"
+                },
+                {
+                    "en": "Fruit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0006.mp3",
+                    "ru": "Фрукты"
+                },
+                {
+                    "en": "Egg",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0007.mp3",
+                    "ru": "Яйцо"
+                },
+                {
+                    "en": "Milk",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0008.mp3",
+                    "ru": "Молоко"
+                },
+                {
+                    "en": "Water",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0009.mp3",
+                    "ru": "Вода"
+                },
+                {
+                    "en": "Coffee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0010.mp3",
+                    "ru": "Кофе"
+                },
+                {
+                    "en": "Tea",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0011.mp3",
+                    "ru": "Чай"
+                },
+                {
+                    "en": "Juice",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0012.mp3",
+                    "ru": "Сок"
+                },
+                {
+                    "en": "Beer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0013.mp3",
+                    "ru": "Пиво"
+                },
+                {
+                    "en": "Wine",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0014.mp3",
+                    "ru": "Вино"
+                },
+                {
+                    "en": "Soup",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0015.mp3",
+                    "ru": "Суп"
+                },
+                {
+                    "en": "Salad",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0016.mp3",
+                    "ru": "Салат"
+                },
+                {
+                    "en": "Noodles",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0017.mp3",
+                    "ru": "Лапша"
+                },
+                {
+                    "en": "Apple",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0018.mp3",
+                    "ru": "Яблоко"
+                },
+                {
+                    "en": "Appetizer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0019.mp3",
+                    "ru": "Закуска"
+                },
+                {
+                    "en": "Main course",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0020.mp3",
+                    "ru": "Основное блюдо"
+                },
+                {
+                    "en": "Side dish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0021.mp3",
+                    "ru": "Гарнир"
+                },
+                {
+                    "en": "Dessert menu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0022.mp3",
+                    "ru": "Десертное меню"
+                },
+                {
+                    "en": "Leftovers",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0023.mp3",
+                    "ru": "Остатки"
+                },
+                {
+                    "en": "Takeaway box",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0024.mp3",
+                    "ru": "Контейнер с собой"
+                },
+                {
+                    "en": "Food allergy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0025.mp3",
+                    "ru": "Пищевая аллергия"
+                },
+                {
+                    "en": "Gluten-free",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0026.mp3",
+                    "ru": "Без глютена"
+                },
+                {
+                    "en": "Vegan",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0027.mp3",
+                    "ru": "Веганский"
+                },
+                {
+                    "en": "Spicy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0028.mp3",
+                    "ru": "Острый"
+                },
+                {
+                    "en": "Mild",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0029.mp3",
+                    "ru": "Неострый"
+                },
+                {
+                    "en": "Savory",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0030.mp3",
+                    "ru": "Пикантный"
+                },
+                {
+                    "en": "Sweet tooth",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0031.mp3",
+                    "ru": "Сладкоежка"
+                },
+                {
+                    "en": "Portion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0032.mp3",
+                    "ru": "Порция"
+                },
+                {
+                    "en": "Chef",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0033.mp3",
+                    "ru": "Шеф-повар"
+                },
+                {
+                    "en": "Wait time",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0034.mp3",
+                    "ru": "Время ожидания"
+                },
+                {
+                    "en": "Reservation list",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0035.mp3",
+                    "ru": "Список бронирования"
+                },
+                {
+                    "en": "Split bill",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0036.mp3",
+                    "ru": "Раздельный счет"
+                },
+                {
+                    "en": "Street food",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0037.mp3",
+                    "ru": "Уличная еда"
+                }
+            ]
+        },
+        {
+            "name": "Food & Drinks - Phrases",
+            "words": [
+                {
+                    "en": "What do you want to eat?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0038.mp3",
+                    "ru": "Что вы хотите поесть?"
+                },
+                {
+                    "en": "I'm hungry",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0039.mp3",
+                    "ru": "Я голоден"
+                },
+                {
+                    "en": "I'm full",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0040.mp3",
+                    "ru": "Я сыт"
+                },
+                {
+                    "en": "It's delicious",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0041.mp3",
+                    "ru": "Это вкусно"
+                },
+                {
+                    "en": "It's not good",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0042.mp3",
+                    "ru": "Это невкусно"
+                },
+                {
+                    "en": "Is it spicy?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0043.mp3",
+                    "ru": "Это остро?"
+                },
+                {
+                    "en": "Too spicy",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0044.mp3",
+                    "ru": "Слишком остро"
+                },
+                {
+                    "en": "A bit salty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0045.mp3",
+                    "ru": "Немного солено"
+                },
+                {
+                    "en": "What do you want to drink?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0046.mp3",
+                    "ru": "Что вы хотите выпить?"
+                },
+                {
+                    "en": "Water please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0047.mp3",
+                    "ru": "Воды, пожалуйста"
+                },
+                {
+                    "en": "Want some coffee?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0048.mp3",
+                    "ru": "Хотите кофе?"
+                },
+                {
+                    "en": "I drink tea",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0049.mp3",
+                    "ru": "Я пью чай"
+                },
+                {
+                    "en": "Do you like beer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0050.mp3",
+                    "ru": "Вы любите пиво?"
+                },
+                {
+                    "en": "Can't drink alcohol?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0051.mp3",
+                    "ru": "Не пьете алкоголь?"
+                },
+                {
+                    "en": "Want more?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0052.mp3",
+                    "ru": "Хотите еще?"
+                },
+                {
+                    "en": "Thank you for the food",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0053.mp3",
+                    "ru": "Спасибо за еду"
+                },
+                {
+                    "en": "I ate well",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0054.mp3",
+                    "ru": "Я хорошо поел"
+                },
+                {
+                    "en": "Cheers!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0055.mp3",
+                    "ru": "Ваше здоровье!"
+                },
+                {
+                    "en": "Could we start with an appetizer?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0056.mp3",
+                    "ru": "Можем начать с закуски?"
+                },
+                {
+                    "en": "Do you have vegan options?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0057.mp3",
+                    "ru": "У вас есть веганские блюда?"
+                },
+                {
+                    "en": "Please make it mild",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0058.mp3",
+                    "ru": "Пожалуйста, сделайте неострым"
+                },
+                {
+                    "en": "Can we get a takeaway box?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0059.mp3",
+                    "ru": "Можно контейнер с собой?"
+                },
+                {
+                    "en": "How long is the wait?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0060.mp3",
+                    "ru": "Сколько ждать?"
+                },
+                {
+                    "en": "Our name is on the reservation list",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0061.mp3",
+                    "ru": "Наше имя в списке бронирования"
+                },
+                {
+                    "en": "Shall we split the bill?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0062.mp3",
+                    "ru": "Разделим счет?"
+                },
+                {
+                    "en": "Is the tip included?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0063.mp3",
+                    "ru": "Чаевые включены?"
+                },
+                {
+                    "en": "Do you accept cash only?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0064.mp3",
+                    "ru": "Вы принимаете только наличные?"
+                },
+                {
+                    "en": "I love the street food here",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0065.mp3",
+                    "ru": "Я обожаю здешнюю уличную еду"
+                },
+                {
+                    "en": "Could you recommend a local specialty?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0066.mp3",
+                    "ru": "Можете порекомендовать местное блюдо?"
+                },
+                {
+                    "en": "Is there a seasonal menu today?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0067.mp3",
+                    "ru": "Есть ли сегодня сезонное меню?"
+                },
+                {
+                    "en": "Do you have anything for food allergies?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0068.mp3",
+                    "ru": "У вас есть что-то для аллергиков?"
+                },
+                {
+                    "en": "We would like to share a couple of dishes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0069.mp3",
+                    "ru": "Мы хотели бы разделить пару блюд"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering",
+            "words": [
+                {
+                    "en": "Restaurant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0070.mp3",
+                    "ru": "Ресторан"
+                },
+                {
+                    "en": "Cafe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0071.mp3",
+                    "ru": "Кафе"
+                },
+                {
+                    "en": "Menu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0072.mp3",
+                    "ru": "Меню"
+                },
+                {
+                    "en": "Order",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0073.mp3",
+                    "ru": "Заказ"
+                },
+                {
+                    "en": "Food",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0074.mp3",
+                    "ru": "Еда"
+                },
+                {
+                    "en": "Dish",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0075.mp3",
+                    "ru": "Блюдо"
+                },
+                {
+                    "en": "Reservation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0076.mp3",
+                    "ru": "Бронирование"
+                },
+                {
+                    "en": "Seat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0077.mp3",
+                    "ru": "Место"
+                },
+                {
+                    "en": "Table",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0078.mp3",
+                    "ru": "Стол"
+                },
+                {
+                    "en": "Waiter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0079.mp3",
+                    "ru": "Официант"
+                },
+                {
+                    "en": "Bill",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0080.mp3",
+                    "ru": "Счет"
+                },
+                {
+                    "en": "Tip",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0081.mp3",
+                    "ru": "Чаевые"
+                },
+                {
+                    "en": "Takeout",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0082.mp3",
+                    "ru": "Еда на вынос"
+                },
+                {
+                    "en": "Delivery",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0083.mp3",
+                    "ru": "Доставка"
+                },
+                {
+                    "en": "Spoon",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0084.mp3",
+                    "ru": "Ложка"
+                },
+                {
+                    "en": "Chopsticks",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0085.mp3",
+                    "ru": "Палочки"
+                },
+                {
+                    "en": "Fork",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0086.mp3",
+                    "ru": "Вилка"
+                },
+                {
+                    "en": "Napkin",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0087.mp3",
+                    "ru": "Салфетка"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering - Phrases",
+            "words": [
+                {
+                    "en": "Menu please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0088.mp3",
+                    "ru": "Меню, пожалуйста"
+                },
+                {
+                    "en": "What's recommended?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0089.mp3",
+                    "ru": "Что порекомендуете?"
+                },
+                {
+                    "en": "This please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0090.mp3",
+                    "ru": "Это, пожалуйста"
+                },
+                {
+                    "en": "I'll order",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0091.mp3",
+                    "ru": "Я закажу"
+                },
+                {
+                    "en": "Is this spicy?",
+                    "audio": "",
+                    "ru": ""
+                },
+                {
+                    "en": "How many people?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0093.mp3",
+                    "ru": "Сколько человек?"
+                },
+                {
+                    "en": "Party of two",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0094.mp3",
+                    "ru": "Столик на двоих"
+                },
+                {
+                    "en": "Do you have seats?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0095.mp3",
+                    "ru": "У вас есть места?"
+                },
+                {
+                    "en": "I have a reservation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0096.mp3",
+                    "ru": "У меня забронировано"
+                },
+                {
+                    "en": "Can I get takeout?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0097.mp3",
+                    "ru": "Можно на вынос?"
+                },
+                {
+                    "en": "Do you deliver?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0098.mp3",
+                    "ru": "У вас есть доставка?"
+                },
+                {
+                    "en": "Check please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0099.mp3",
+                    "ru": "Счет, пожалуйста"
+                },
+                {
+                    "en": "Separate checks",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0100.mp3",
+                    "ru": "Раздельные счета"
+                },
+                {
+                    "en": "Together please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0101.mp3",
+                    "ru": "Вместе, пожалуйста"
+                },
+                {
+                    "en": "More water please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0102.mp3",
+                    "ru": "Еще воды, пожалуйста"
+                },
+                {
+                    "en": "Spoon please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0103.mp3",
+                    "ru": "Ложку, пожалуйста"
+                },
+                {
+                    "en": "Do you have a fork?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0104.mp3",
+                    "ru": "У вас есть вилка?"
+                },
+                {
+                    "en": "How long will it take?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0105.mp3",
+                    "ru": "Сколько это займет времени?"
+                },
+                {
+                    "en": "Could we get separate plates for sharing?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0106.mp3",
+                    "ru": "Можно нам отдельные тарелки?"
+                },
+                {
+                    "en": "Can you hold the order for ten minutes?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0107.mp3",
+                    "ru": "Можете придержать заказ на десять минут?"
+                },
+                {
+                    "en": "Is the service charge already included?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0108.mp3",
+                    "ru": "Сервисный сбор уже включен?"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance",
+            "words": [
+                {
+                    "en": "Clothes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0109.mp3",
+                    "ru": "Одежда"
+                },
+                {
+                    "en": "T-shirt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0110.mp3",
+                    "ru": "Футболка"
+                },
+                {
+                    "en": "Pants",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0111.mp3",
+                    "ru": "Брюки"
+                },
+                {
+                    "en": "Skirt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0112.mp3",
+                    "ru": "Юбка"
+                },
+                {
+                    "en": "Dress",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0113.mp3",
+                    "ru": "Платье"
+                },
+                {
+                    "en": "Jacket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0114.mp3",
+                    "ru": "Куртка"
+                },
+                {
+                    "en": "Coat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0115.mp3",
+                    "ru": "Пальто"
+                },
+                {
+                    "en": "Shoes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0116.mp3",
+                    "ru": "Обувь"
+                },
+                {
+                    "en": "Hat",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0117.mp3",
+                    "ru": "Шляпа"
+                },
+                {
+                    "en": "Glasses",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0118.mp3",
+                    "ru": "Очки"
+                },
+                {
+                    "en": "Watch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0119.mp3",
+                    "ru": "Часы"
+                },
+                {
+                    "en": "Bag",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0120.mp3",
+                    "ru": "Сумка"
+                },
+                {
+                    "en": "Color",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0121.mp3",
+                    "ru": "Цвет"
+                },
+                {
+                    "en": "Size",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0122.mp3",
+                    "ru": "Размер"
+                },
+                {
+                    "en": "Big",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0123.mp3",
+                    "ru": "Большой"
+                },
+                {
+                    "en": "Small",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0124.mp3",
+                    "ru": "Маленький"
+                },
+                {
+                    "en": "Pretty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0125.mp3",
+                    "ru": "Красивый"
+                },
+                {
+                    "en": "Cool",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0126.mp3",
+                    "ru": "Крутой"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance - Phrases",
+            "words": [
+                {
+                    "en": "What should I wear?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0127.mp3",
+                    "ru": "Что мне надеть?"
+                },
+                {
+                    "en": "That's pretty",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0128.mp3",
+                    "ru": "Это красиво"
+                },
+                {
+                    "en": "It suits you",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0129.mp3",
+                    "ru": "Тебе идет"
+                },
+                {
+                    "en": "How about this?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0130.mp3",
+                    "ru": "Как насчет этого?"
+                },
+                {
+                    "en": "Can I try it on?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0131.mp3",
+                    "ru": "Можно примерить?"
+                },
+                {
+                    "en": "What size?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0132.mp3",
+                    "ru": "Какой размер?"
+                },
+                {
+                    "en": "A bit small",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0133.mp3",
+                    "ru": "Немного маловато"
+                },
+                {
+                    "en": "A bit big",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0134.mp3",
+                    "ru": "Немного велико"
+                },
+                {
+                    "en": "It's a perfect fit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0135.mp3",
+                    "ru": "Сидит идеально"
+                },
+                {
+                    "en": "Other colors?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0136.mp3",
+                    "ru": "Другие цвета?"
+                },
+                {
+                    "en": "Black please",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0137.mp3",
+                    "ru": "Черный, пожалуйста"
+                },
+                {
+                    "en": "White is good",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0138.mp3",
+                    "ru": "Белый - хорошо"
+                },
+                {
+                    "en": "Is this on sale?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0139.mp3",
+                    "ru": "Это на распродаже?"
+                },
+                {
+                    "en": "Did you cut your hair?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0140.mp3",
+                    "ru": "Ты подстригся?"
+                },
+                {
+                    "en": "New glasses?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0141.mp3",
+                    "ru": "Новые очки?"
+                },
+                {
+                    "en": "You dress well",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0142.mp3",
+                    "ru": "Ты хорошо одеваешься"
+                },
+                {
+                    "en": "Cool shoes",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0143.mp3",
+                    "ru": "Крутая обувь"
+                },
+                {
+                    "en": "Pretty bag",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0144.mp3",
+                    "ru": "Красивая сумка"
+                },
+                {
+                    "en": "Could you tailor it to a smaller size?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0145.mp3",
+                    "ru": "Можете ушить на размер меньше?"
+                },
+                {
+                    "en": "I'm looking for something that matches this jacket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ru/03/ru_0146.mp3",
+                    "ru": "Я ищу что-то под эту куртку"
+                }
+            ]
+        }
+    ]
+}

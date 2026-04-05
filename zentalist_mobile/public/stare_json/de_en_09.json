@@ -1,0 +1,636 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 09 - Hobbies & Interests",
+    "note": "Use this file to synchronize all language files (es, de, fr, ru, zh, ja, ko)",
+    "categories": [
+        {
+            "name": "Hobbies & Interests",
+            "words": [
+                {
+                    "en": "Hobby",
+                    "de": "Hobby",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0001.mp3"
+                },
+                {
+                    "en": "Interest",
+                    "de": "Interesse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0002.mp3"
+                },
+                {
+                    "en": "Music",
+                    "de": "Musik",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0003.mp3"
+                },
+                {
+                    "en": "Movie",
+                    "de": "Film",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0004.mp3"
+                },
+                {
+                    "en": "Book",
+                    "de": "Buch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0005.mp3"
+                },
+                {
+                    "en": "Game",
+                    "de": "Spiel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0006.mp3"
+                },
+                {
+                    "en": "Sport",
+                    "de": "Sport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0007.mp3"
+                },
+                {
+                    "en": "Travel",
+                    "de": "Reisen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0008.mp3"
+                },
+                {
+                    "en": "Cooking",
+                    "de": "Kochen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0009.mp3"
+                },
+                {
+                    "en": "Photography",
+                    "de": "Fotografie",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0010.mp3"
+                },
+                {
+                    "en": "Drawing",
+                    "de": "Zeichnen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0011.mp3"
+                },
+                {
+                    "en": "Painting",
+                    "de": "Malen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0012.mp3"
+                },
+                {
+                    "en": "Dance",
+                    "de": "Tanz",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0013.mp3"
+                },
+                {
+                    "en": "Singing",
+                    "de": "Singen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0014.mp3"
+                },
+                {
+                    "en": "Reading",
+                    "de": "Lesen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0015.mp3"
+                },
+                {
+                    "en": "Writing",
+                    "de": "Schreiben",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0016.mp3"
+                },
+                {
+                    "en": "Gardening",
+                    "de": "Gärtnern",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0017.mp3"
+                },
+                {
+                    "en": "Collecting",
+                    "de": "Sammeln",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0018.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Hobbies & Interests - Phrases",
+            "words": [
+                {
+                    "en": "What are your hobbies?",
+                    "de": "Was sind deine Hobbys?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0019.mp3"
+                },
+                {
+                    "en": "What do you like?",
+                    "de": "Was magst du?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0020.mp3"
+                },
+                {
+                    "en": "Do you like music?",
+                    "de": "Magst du Musik?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0021.mp3"
+                },
+                {
+                    "en": "What music?",
+                    "de": "Welche Musik?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0022.mp3"
+                },
+                {
+                    "en": "Can you play guitar?",
+                    "de": "Kannst du Gitarre spielen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0023.mp3"
+                },
+                {
+                    "en": "I'm learning piano",
+                    "de": "Ich lerne Klavier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0024.mp3"
+                },
+                {
+                    "en": "Do you like watching movies?",
+                    "de": "Magst du Filme schauen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0025.mp3"
+                },
+                {
+                    "en": "What movies?",
+                    "de": "Welche Filme?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0026.mp3"
+                },
+                {
+                    "en": "Do you like reading?",
+                    "de": "Magst du Lesen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0027.mp3"
+                },
+                {
+                    "en": "What are you reading?",
+                    "de": "Was liest du?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0028.mp3"
+                },
+                {
+                    "en": "Do you like traveling?",
+                    "de": "Magst du Reisen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0029.mp3"
+                },
+                {
+                    "en": "Where do you want to go?",
+                    "de": "Wo willst du hin?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0030.mp3"
+                },
+                {
+                    "en": "Can you cook?",
+                    "de": "Kannst du kochen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0031.mp3"
+                },
+                {
+                    "en": "What dishes?",
+                    "de": "Welche Gerichte?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0032.mp3"
+                },
+                {
+                    "en": "Do you play games?",
+                    "de": "Spielst du Spiele?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0033.mp3"
+                },
+                {
+                    "en": "Do you like photography?",
+                    "de": "Magst du Fotografie?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0034.mp3"
+                },
+                {
+                    "en": "Can you sing?",
+                    "de": "Kannst du singen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0035.mp3"
+                },
+                {
+                    "en": "What do you do in your free time?",
+                    "de": "Was machst du in deiner Freizeit?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0036.mp3"
+                },
+                {
+                    "en": "I'm trying to practice guitar ten minutes a day",
+                    "de": "Ich versuche, zehn Minuten am Tag Gitarre zu üben",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0037.mp3"
+                },
+                {
+                    "en": "Let's start a small book club together",
+                    "de": "Lass uns zusammen einen kleinen Buchclub gründen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0038.mp3"
+                },
+                {
+                    "en": "I'm getting back into painting this month",
+                    "de": "Ich fange diesen Monat wieder an zu malen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0039.mp3"
+                },
+                {
+                    "en": "Do you want to join our weekend cooking group?",
+                    "de": "Willst du unserer Wochenend-Kochgruppe beitreten?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0040.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise",
+            "words": [
+                {
+                    "en": "Sports",
+                    "de": "Sport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0041.mp3"
+                },
+                {
+                    "en": "Exercise",
+                    "de": "Übung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0042.mp3"
+                },
+                {
+                    "en": "Soccer",
+                    "de": "Fußball",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0043.mp3"
+                },
+                {
+                    "en": "Basketball",
+                    "de": "Basketball",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0044.mp3"
+                },
+                {
+                    "en": "Tennis",
+                    "de": "Tennis",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0045.mp3"
+                },
+                {
+                    "en": "Swimming",
+                    "de": "Schwimmen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0046.mp3"
+                },
+                {
+                    "en": "Running",
+                    "de": "Laufen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0047.mp3"
+                },
+                {
+                    "en": "Yoga",
+                    "de": "Yoga",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0048.mp3"
+                },
+                {
+                    "en": "Hiking",
+                    "de": "Wandern",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0049.mp3"
+                },
+                {
+                    "en": "Cycling",
+                    "de": "Radfahren",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0050.mp3"
+                },
+                {
+                    "en": "Gym",
+                    "de": "Fitnessstudio",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0051.mp3"
+                },
+                {
+                    "en": "Stadium",
+                    "de": "Stadion",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0052.mp3"
+                },
+                {
+                    "en": "Team",
+                    "de": "Team",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0053.mp3"
+                },
+                {
+                    "en": "Player",
+                    "de": "Spieler",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0054.mp3"
+                },
+                {
+                    "en": "Game",
+                    "de": "Spiel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0055.mp3"
+                },
+                {
+                    "en": "Score",
+                    "de": "Spielstand",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0056.mp3"
+                },
+                {
+                    "en": "Win",
+                    "de": "Gewinnen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0057.mp3"
+                },
+                {
+                    "en": "Lose",
+                    "de": "Verlieren",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0058.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Exercise - Phrases",
+            "words": [
+                {
+                    "en": "Do you play sports?",
+                    "de": "Treibst du Sport?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0059.mp3"
+                },
+                {
+                    "en": "Do you like sports?",
+                    "de": "Magst du Sport?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0060.mp3"
+                },
+                {
+                    "en": "Do you play soccer?",
+                    "de": "Spielst du Fußball?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0061.mp3"
+                },
+                {
+                    "en": "Do you play basketball?",
+                    "de": "Spielst du Basketball?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0062.mp3"
+                },
+                {
+                    "en": "Want to swim?",
+                    "de": "Willst du schwimmen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0063.mp3"
+                },
+                {
+                    "en": "Do you run every day?",
+                    "de": "Läufst du jeden Tag?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0064.mp3"
+                },
+                {
+                    "en": "Are you going to the gym?",
+                    "de": "Gehst du ins Fitnessstudio?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0065.mp3"
+                },
+                {
+                    "en": "Do you do yoga?",
+                    "de": "Machst du Yoga?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0066.mp3"
+                },
+                {
+                    "en": "Want to exercise together?",
+                    "de": "Wollen wir zusammen trainieren?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0067.mp3"
+                },
+                {
+                    "en": "Can you ski?",
+                    "de": "Kannst du Ski fahren?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0068.mp3"
+                },
+                {
+                    "en": "Are you going hiking today?",
+                    "de": "Gehst du heute wandern?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0069.mp3"
+                },
+                {
+                    "en": "When's the match?",
+                    "de": "Wann ist das Spiel?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0070.mp3"
+                },
+                {
+                    "en": "Who won?",
+                    "de": "Wer hat gewonnen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0071.mp3"
+                },
+                {
+                    "en": "Did our team win?",
+                    "de": "Hat unser Team gewonnen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0072.mp3"
+                },
+                {
+                    "en": "Do you need to exercise?",
+                    "de": "Musst du trainieren?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0073.mp3"
+                },
+                {
+                    "en": "Are you tired?",
+                    "de": "Bist du müde?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0074.mp3"
+                },
+                {
+                    "en": "Is it good for health?",
+                    "de": "Ist es gut für die Gesundheit?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0075.mp3"
+                },
+                {
+                    "en": "How often do you play?",
+                    "de": "Wie oft spielst du?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0076.mp3"
+                },
+                {
+                    "en": "Let's warm up with a few stretches first",
+                    "de": "Lass uns zuerst mit ein paar Dehnübungen aufwärmen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0077.mp3"
+                },
+                {
+                    "en": "I'm tracking my runs with an app now",
+                    "de": "Ich verfolge meine Läufe jetzt mit einer App",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0078.mp3"
+                },
+                {
+                    "en": "Do we need to reserve a court in advance?",
+                    "de": "Müssen wir einen Platz im Voraus reservieren?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0079.mp3"
+                },
+                {
+                    "en": "I'll cheer from the sidelines if I can't play",
+                    "de": "Ich werde von der Seitenlinie anfeuern, wenn ich nicht spielen kann",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0080.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals",
+            "words": [
+                {
+                    "en": "Pet",
+                    "de": "Haustier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0081.mp3"
+                },
+                {
+                    "en": "Animal",
+                    "de": "Tier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0082.mp3"
+                },
+                {
+                    "en": "Dog",
+                    "de": "Hund",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0083.mp3"
+                },
+                {
+                    "en": "Cat",
+                    "de": "Katze",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0084.mp3"
+                },
+                {
+                    "en": "Bird",
+                    "de": "Vogel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0085.mp3"
+                },
+                {
+                    "en": "Fish",
+                    "de": "Fisch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0086.mp3"
+                },
+                {
+                    "en": "Rabbit",
+                    "de": "Kaninchen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0087.mp3"
+                },
+                {
+                    "en": "Hamster",
+                    "de": "Hamster",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0088.mp3"
+                },
+                {
+                    "en": "Horse",
+                    "de": "Pferd",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0089.mp3"
+                },
+                {
+                    "en": "Cow",
+                    "de": "Kuh",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0090.mp3"
+                },
+                {
+                    "en": "Pig",
+                    "de": "Schwein",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0091.mp3"
+                },
+                {
+                    "en": "Sheep",
+                    "de": "Schaf",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0092.mp3"
+                },
+                {
+                    "en": "Tiger",
+                    "de": "Tiger",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0093.mp3"
+                },
+                {
+                    "en": "Lion",
+                    "de": "Löwe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0094.mp3"
+                },
+                {
+                    "en": "Elephant",
+                    "de": "Elefant",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0095.mp3"
+                },
+                {
+                    "en": "Monkey",
+                    "de": "Affe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0096.mp3"
+                },
+                {
+                    "en": "Zoo",
+                    "de": "Zoo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0097.mp3"
+                },
+                {
+                    "en": "Farm",
+                    "de": "Bauernhof",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0098.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a pet?",
+                    "de": "Hast du ein Haustier?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0099.mp3"
+                },
+                {
+                    "en": "Do you have a dog?",
+                    "de": "Hast du einen Hund?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0100.mp3"
+                },
+                {
+                    "en": "Do you like cats?",
+                    "de": "Magst du Katzen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0101.mp3"
+                },
+                {
+                    "en": "What's its name?",
+                    "de": "Wie heißt es?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0102.mp3"
+                },
+                {
+                    "en": "How old is it?",
+                    "de": "Wie alt ist es?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0103.mp3"
+                },
+                {
+                    "en": "Is it cute?",
+                    "de": "Ist es süß?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0104.mp3"
+                },
+                {
+                    "en": "Do you have a cat?",
+                    "de": "Hast du eine Katze?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0105.mp3"
+                },
+                {
+                    "en": "Is it well-behaved?",
+                    "de": "Ist es brav?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0106.mp3"
+                },
+                {
+                    "en": "Are you afraid of dogs?",
+                    "de": "Hast du Angst vor Hunden?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0107.mp3"
+                },
+                {
+                    "en": "Do you love animals?",
+                    "de": "Liebst du Tiere?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0108.mp3"
+                },
+                {
+                    "en": "Are you going to the zoo?",
+                    "de": "Gehst du in den Zoo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0109.mp3"
+                },
+                {
+                    "en": "Did you see a tiger?",
+                    "de": "Hast du einen Tiger gesehen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0110.mp3"
+                },
+                {
+                    "en": "Are elephants big?",
+                    "de": "Sind Elefanten groß?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0111.mp3"
+                },
+                {
+                    "en": "Are monkeys smart?",
+                    "de": "Sind Affen schlau?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0112.mp3"
+                },
+                {
+                    "en": "Should I feed it?",
+                    "de": "Soll ich es füttern?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0113.mp3"
+                },
+                {
+                    "en": "Does it need a walk?",
+                    "de": "Braucht es einen Spaziergang?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0114.mp3"
+                },
+                {
+                    "en": "Is your dog friendly?",
+                    "de": "Ist dein Hund freundlich?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0115.mp3"
+                },
+                {
+                    "en": "Can I pet it?",
+                    "de": "Kann ich es streicheln?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0116.mp3"
+                },
+                {
+                    "en": "Could you watch my cat this weekend?",
+                    "de": "Könntest du dieses Wochenende auf meine Katze aufpassen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0117.mp3"
+                },
+                {
+                    "en": "Let's schedule a vet visit for the puppy",
+                    "de": "Lass uns einen Tierarzttermin für den Welpen vereinbaren",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0118.mp3"
+                },
+                {
+                    "en": "Do they need any special food?",
+                    "de": "Brauchen sie spezielles Futter?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0119.mp3"
+                },
+                {
+                    "en": "I'm training my dog to walk on a leash",
+                    "de": "Ich trainiere meinen Hund, an der Leine zu gehen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/09/de_0120.mp3"
+                }
+            ]
+        }
+    ]
+}

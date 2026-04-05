@@ -1,0 +1,88 @@
+<head>
+  <!-- Instant auth state restore to prevent flash -->
+  <script>
+    (function () {
+      try {
+        var authState = localStorage.getItem('mc_auth_state');
+        var avatarCache = localStorage.getItem('mc_menu_avatar');
+        // Add CSS to document to hide/show auth elements before DOM loads
+        var style = document.createElement('style');
+        if (authState === 'logged-in') {
+          style.textContent = '.auth-logged-out{display:none!important}.auth-logged-in{display:flex!important;opacity:1!important}';
+        } else if (authState === 'logged-out') {
+          style.textContent = '.auth-logged-in{display:none!important}.auth-logged-out{display:flex!important;opacity:1!important}';
+        }
+        if (avatarCache) {
+          var avatar = JSON.parse(avatarCache);
+          if (avatar.avatarUrl) {
+            style.textContent += '#menu-avatar-icon{display:none!important}#menu-avatar-img{display:block!important}';
+          }
+        }
+        document.head.appendChild(style);
+        // Store for later use
+        window.__authStateCache = authState;
+        window.__avatarCache = avatarCache ? JSON.parse(avatarCache) : null;
+        // Add auth-ready class to html immediately if we have cached state
+        if (authState) {
+          document.documentElement.classList.add('auth-ready');
+        }
+      } catch (e) { }
+    })();
+  </script>
+  <script>
+    (function () {
+      try {
+        var ua = (navigator.userAgent || '').toLowerCase();
+        var hasCapacitorUA = ua.indexOf('capacitor') !== -1;
+        var hasNativeBridge = !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+        var isNative = hasCapacitorUA || hasNativeBridge;
+
+        window.__MOBILE_APP__ = isNative;
+        window.__MOBILE_PLATFORM__ = window.Capacitor && window.Capacitor.getPlatform
+          ? window.Capacitor.getPlatform()
+          : (isNative ? 'unknown' : 'web');
+      } catch (error) {
+        window.__MOBILE_APP__ = false;
+        window.__MOBILE_PLATFORM__ = 'web';
+      }
+    })();
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5L47BNJP');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J3YFRT92XD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-J3YFRT92XD');
+  </script>
+  <!-- End Google tag -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <base href="/" />
+  <link rel="icon" type="image/svg+xml" href="/img/svg/01/globe_logo.svg" />
+  <!-- Preload fonts to prevent FOUT (Flash of Unstyled Text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="<%= mainCss %>" />
+  <link rel="stylesheet" href="<%= cardCss %>" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&family=Fredoka:wght@400;500;600;700&family=Lexend:wght@300;400;700&family=Montserrat:wght@100;900&family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <title>
+    <%= title || 'Zentalist | Smart Flashcards for Vocabulary Learning' %>
+  </title>
+  <meta name="description" content="<%= description || 'Zentalist is the best way to learn vocabulary!' %>" />
+  <script defer src="/scripts/dropdown-handler.js"></script>
+  <script defer type="module" src="/scripts/services/languageService.js"></script>
+</head>

@@ -1,0 +1,905 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 04 - Travel & Tourism",
+    "categories": [
+        {
+            "name": "Travel & Tourism",
+            "words": [
+                {
+                    "en": "Travel",
+                    "de": "Reisen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0001.mp3"
+                },
+                {
+                    "en": "Tourism",
+                    "de": "Tourismus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0002.mp3"
+                },
+                {
+                    "en": "Tourist",
+                    "de": "Tourist",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0003.mp3"
+                },
+                {
+                    "en": "Vacation",
+                    "de": "Urlaub",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0004.mp3"
+                },
+                {
+                    "en": "Airport",
+                    "de": "Flughafen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0005.mp3"
+                },
+                {
+                    "en": "Flight",
+                    "de": "Flug",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0006.mp3"
+                },
+                {
+                    "en": "Passport",
+                    "de": "Reisepass",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0007.mp3"
+                },
+                {
+                    "en": "Visa",
+                    "de": "Visum",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0008.mp3"
+                },
+                {
+                    "en": "Luggage",
+                    "de": "Gepäck",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0009.mp3"
+                },
+                {
+                    "en": "Suitcase",
+                    "de": "Koffer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0010.mp3"
+                },
+                {
+                    "en": "Guide",
+                    "de": "Reiseführer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0012.mp3"
+                },
+                {
+                    "en": "Photo",
+                    "de": "Foto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0013.mp3"
+                },
+                {
+                    "en": "Tour",
+                    "de": "Tour",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0015.mp3"
+                },
+                {
+                    "en": "Destination",
+                    "de": "Reiseziel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0016.mp3"
+                },
+                {
+                    "en": "Museum",
+                    "de": "Museum",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0017.mp3"
+                },
+                {
+                    "en": "Boarding pass",
+                    "de": "Bordkarte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0019.mp3"
+                },
+                {
+                    "en": "Security check",
+                    "de": "Sicherheitskontrolle",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0020.mp3"
+                },
+                {
+                    "en": "Gate",
+                    "de": "Gate",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0018.mp3"
+                },
+                {
+                    "en": "Customs",
+                    "de": "Zoll",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0291.mp3"
+                },
+                {
+                    "en": "Seat",
+                    "de": "Sitzplatz",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0292.mp3"
+                },
+                {
+                    "en": "Delay",
+                    "de": "Verspätung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0021.mp3"
+                },
+                {
+                    "en": "Emergency exit",
+                    "de": "Notausgang",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0032.mp3"
+                },
+                {
+                    "en": "Entrance fee",
+                    "de": "Eintrittspreis",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0033.mp3"
+                },
+                {
+                    "en": "Guided tour",
+                    "de": "Führung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0034.mp3"
+                },
+                {
+                    "en": "Local guide",
+                    "de": "Lokaler Führer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0035.mp3"
+                },
+                {
+                    "en": "Day trip",
+                    "de": "Tagesausflug",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0036.mp3"
+                },
+                {
+                    "en": "Travel adapter",
+                    "de": "Reiseadapter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0037.mp3"
+                },
+                {
+                    "en": "Portable charger",
+                    "de": "Tragbares Ladegerät",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0038.mp3"
+                },
+                {
+                    "en": "Supermarket",
+                    "de": "Supermarkt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0029.mp3"
+                },
+                {
+                    "en": "Bookstore",
+                    "de": "Buchhandlung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0030.mp3"
+                },
+                {
+                    "en": "Theatre",
+                    "de": "Theater",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0031.mp3"
+                },
+                {
+                    "en": "Church",
+                    "de": "Kirche",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0293.mp3"
+                },
+                {
+                    "en": "Bar",
+                    "de": "Bar",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0294.mp3"
+                },
+                {
+                    "en": "Cinema",
+                    "de": "Kino",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0295.mp3"
+                },
+                {
+                    "en": "Police station",
+                    "de": "Polizeistation",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0296.mp3"
+                },
+                {
+                    "en": "Petrol station",
+                    "de": "Tankstelle",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0297.mp3"
+                },
+                {
+                    "en": "Weather",
+                    "de": "Wetter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0298.mp3"
+                },
+                {
+                    "en": "Wind",
+                    "de": "Wind",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0299.mp3"
+                },
+                {
+                    "en": "Hot",
+                    "de": "Heiß",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0039.mp3"
+                },
+                {
+                    "en": "Warm",
+                    "de": "Warm",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0040.mp3"
+                },
+                {
+                    "en": "Snow",
+                    "de": "Schnee",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0041.mp3"
+                },
+                {
+                    "en": "Rain",
+                    "de": "Regen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0042.mp3"
+                },
+                {
+                    "en": "Cloud",
+                    "de": "Wolke",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0043.mp3"
+                },
+                {
+                    "en": "Sun",
+                    "de": "Sonne",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0044.mp3"
+                },
+                {
+                    "en": "Ice",
+                    "de": "Eis",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0045.mp3"
+                },
+                {
+                    "en": "Cloudy",
+                    "de": "Bewölkt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0046.mp3"
+                },
+                {
+                    "en": "Thunder",
+                    "de": "Donner",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0047.mp3"
+                },
+                {
+                    "en": "Fog",
+                    "de": "Nebel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0048.mp3"
+                },
+                {
+                    "en": "Lightning",
+                    "de": "Blitz",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0049.mp3"
+                },
+                {
+                    "en": "Air conditioner",
+                    "de": "Klimaanlage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0050.mp3"
+                },
+                {
+                    "en": "Umbrella",
+                    "de": "Regenschirm",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0051.mp3"
+                },
+                {
+                    "en": "Storm",
+                    "de": "Sturm",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0052.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Travel & Tourism - Phrases",
+            "words": [
+                {
+                    "en": "I'm traveling.",
+                    "de": "Ich reise",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0300.mp3"
+                },
+                {
+                    "en": "I'm on vacation.",
+                    "de": "Ich bin im Urlaub",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0301.mp3"
+                },
+                {
+                    "en": "How long will you stay?",
+                    "de": "Wie lange bleiben Sie?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0302.mp3"
+                },
+                {
+                    "en": "I'm staying 3 days.",
+                    "de": "Ich bleibe 3 Tage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0303.mp3"
+                },
+                {
+                    "en": "It's my first time.",
+                    "de": "Es ist mein erstes Mal",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0304.mp3"
+                },
+                {
+                    "en": "It's beautiful.",
+                    "de": "Es ist wunderschön",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0305.mp3"
+                },
+                {
+                    "en": "Can I take a photo?",
+                    "de": "Kann ich ein Foto machen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0306.mp3"
+                },
+                {
+                    "en": "Where's the exit?",
+                    "de": "Wo ist der Ausgang?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0307.mp3"
+                },
+                {
+                    "en": "Where's the entrance?",
+                    "de": "Wo ist der Eingang?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0308.mp3"
+                },
+                {
+                    "en": "Is it open?",
+                    "de": "Ist es geöffnet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0309.mp3"
+                },
+                {
+                    "en": "It's closed.",
+                    "de": "Es ist geschlossen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0053.mp3"
+                },
+                {
+                    "en": "How much is admission?",
+                    "de": "Wie viel kostet der Eintritt?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0056.mp3"
+                },
+                {
+                    "en": "Where can I check in?",
+                    "de": "Wo kann ich einchecken?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0057.mp3"
+                },
+                {
+                    "en": "Do I need to go through customs?",
+                    "de": "Muss ich durch den Zoll?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0059.mp3"
+                },
+                {
+                    "en": "Where is the currency exchange?",
+                    "de": "Wo ist die Wechselstube?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0064.mp3"
+                },
+                {
+                    "en": "Please stamp my passport.",
+                    "de": "Bitte stempeln Sie meinen Reisepass",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0066.mp3"
+                },
+                {
+                    "en": "I'm going to the supermarket.",
+                    "de": "Ich gehe zum Supermarkt.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0069.mp3"
+                },
+                {
+                    "en": "Where is the police station?",
+                    "de": "Wo ist die Polizeistation?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0070.mp3"
+                },
+                {
+                    "en": "Let's meet at the cinema.",
+                    "de": "Treffen wir uns im Kino.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0071.mp3"
+                },
+                {
+                    "en": "Is the bookstore open?",
+                    "de": "Hat die Buchhandlung geöffnet?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0072.mp3"
+                },
+                {
+                    "en": "The church is very old.",
+                    "de": "Die Kirche ist sehr alt.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0073.mp3"
+                },
+                {
+                    "en": "Do you want to go to a bar?",
+                    "de": "Möchten Sie in eine Bar gehen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0074.mp3"
+                },
+                {
+                    "en": "We need to find a petrol station.",
+                    "de": "Wir müssen eine Tankstelle finden.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0075.mp3"
+                },
+                {
+                    "en": "Is there a theatre nearby?",
+                    "de": "Gibt es ein Theater in der Nähe?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0076.mp3"
+                },
+                {
+                    "en": "The weather is nice today.",
+                    "de": "Das Wetter ist heute schön.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0077.mp3"
+                },
+                {
+                    "en": "Is it going to rain?",
+                    "de": "Wird es regnen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0078.mp3"
+                },
+                {
+                    "en": "It's very hot outside.",
+                    "de": "Es ist sehr heiß draußen.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0079.mp3"
+                },
+                {
+                    "en": "Do you have an umbrella?",
+                    "de": "Haben Sie einen Regenschirm?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0080.mp3"
+                },
+                {
+                    "en": "I saw lightning in the sky.",
+                    "de": "Ich habe einen Blitz am Himmel gesehen.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0081.mp3"
+                },
+                {
+                    "en": "Is the air conditioner on?",
+                    "de": "Ist die Klimaanlage an?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0082.mp3"
+                },
+                {
+                    "en": "The forecast says snow.",
+                    "de": "Die Vorhersage sagt Schnee.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0083.mp3"
+                },
+                {
+                    "en": "Why is it so cloudy?",
+                    "de": "Warum ist es so bewölkt?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0084.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation",
+            "words": [
+                {
+                    "en": "Hotel",
+                    "de": "Hotel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0310.mp3"
+                },
+                {
+                    "en": "Reservation",
+                    "de": "Reservierung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0311.mp3"
+                },
+                {
+                    "en": "Room",
+                    "de": "Zimmer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0312.mp3"
+                },
+                {
+                    "en": "Bed",
+                    "de": "Bett",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0313.mp3"
+                },
+                {
+                    "en": "Key",
+                    "de": "Schlüssel",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0314.mp3"
+                },
+                {
+                    "en": "Lobby",
+                    "de": "Lobby",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0315.mp3"
+                },
+                {
+                    "en": "Elevator",
+                    "de": "Aufzug",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0316.mp3"
+                },
+                {
+                    "en": "Stairs",
+                    "de": "Treppe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0317.mp3"
+                },
+                {
+                    "en": "Front desk",
+                    "de": "Rezeption",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0318.mp3"
+                },
+                {
+                    "en": "Check-in",
+                    "de": "Check-in",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0319.mp3"
+                },
+                {
+                    "en": "Check-out",
+                    "de": "Check-out",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0320.mp3"
+                },
+                {
+                    "en": "Breakfast",
+                    "de": "Frühstück",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0321.mp3"
+                },
+                {
+                    "en": "Towel",
+                    "de": "Handtuch",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0085.mp3"
+                },
+                {
+                    "en": "AC",
+                    "de": "Klimaanlage",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0088.mp3"
+                },
+                {
+                    "en": "Room service",
+                    "de": "Zimmerservice",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0089.mp3"
+                },
+                {
+                    "en": "Review",
+                    "de": "Bewertung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0100.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Hotels & Accommodation - Phrases",
+            "words": [
+                {
+                    "en": "I have a reservation.",
+                    "de": "Ich habe eine Reservierung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0110.mp3"
+                },
+                {
+                    "en": "Please show your passport.",
+                    "de": "Bitte zeigen Sie Ihren Reisepass",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0111.mp3"
+                },
+                {
+                    "en": "How many nights?",
+                    "de": "Wie viele Nächte?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0112.mp3"
+                },
+                {
+                    "en": "Can I see the room?",
+                    "de": "Kann ich das Zimmer sehen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0113.mp3"
+                },
+                {
+                    "en": "How much per night?",
+                    "de": "Wie viel pro Nacht?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0114.mp3"
+                },
+                {
+                    "en": "It's too expensive.",
+                    "de": "Es ist zu teuer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0115.mp3"
+                },
+                {
+                    "en": "Does it include breakfast?",
+                    "de": "Ist das Frühstück inbegriffen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0117.mp3"
+                },
+                {
+                    "en": "Is there WiFi?",
+                    "de": "Gibt es WLAN?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0118.mp3"
+                },
+                {
+                    "en": "What's the WiFi password?",
+                    "de": "Wie lautet das WLAN-Passwort?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0119.mp3"
+                },
+                {
+                    "en": "Please clean the room.",
+                    "de": "Bitte reinigen Sie das Zimmer",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0120.mp3"
+                },
+                {
+                    "en": "AC doesn't work.",
+                    "de": "Die Klimaanlage funktioniert nicht",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0122.mp3"
+                },
+                {
+                    "en": "It's too noisy.",
+                    "de": "Es ist zu laut",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0123.mp3"
+                },
+                {
+                    "en": "Can I change rooms?",
+                    "de": "Kann ich das Zimmer wechseln?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0124.mp3"
+                },
+                {
+                    "en": "Checking out tomorrow.",
+                    "de": "Ich checke morgen aus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0125.mp3"
+                },
+                {
+                    "en": "Can I leave my luggage?",
+                    "de": "Kann ich mein Gepäck hier lassen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0126.mp3"
+                },
+                {
+                    "en": "Thanks for the stay.",
+                    "de": "Danke für den Aufenthalt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0127.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations",
+            "words": [
+                {
+                    "en": "Direction",
+                    "de": "Richtung",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0143.mp3"
+                },
+                {
+                    "en": "Location",
+                    "de": "Ort",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0144.mp3"
+                },
+                {
+                    "en": "Map",
+                    "de": "Karte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0011.mp3"
+                },
+                {
+                    "en": "Address",
+                    "de": "Adresse",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0145.mp3"
+                },
+                {
+                    "en": "North",
+                    "de": "Norden",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0146.mp3"
+                },
+                {
+                    "en": "South",
+                    "de": "Süden",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0147.mp3"
+                },
+                {
+                    "en": "East",
+                    "de": "Osten",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0148.mp3"
+                },
+                {
+                    "en": "West",
+                    "de": "Westen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0149.mp3"
+                },
+                {
+                    "en": "Left",
+                    "de": "Links",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0150.mp3"
+                },
+                {
+                    "en": "Right",
+                    "de": "Rechts",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0151.mp3"
+                },
+                {
+                    "en": "Straight",
+                    "de": "Geradeaus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0152.mp3"
+                },
+                {
+                    "en": "Near",
+                    "de": "In der Nähe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0155.mp3"
+                },
+                {
+                    "en": "Far",
+                    "de": "Weit",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0156.mp3"
+                },
+                {
+                    "en": "Here",
+                    "de": "Hier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0157.mp3"
+                },
+                {
+                    "en": "There",
+                    "de": "Dort",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0158.mp3"
+                },
+                {
+                    "en": "Corner",
+                    "de": "Ecke",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0159.mp3"
+                },
+                {
+                    "en": "Street",
+                    "de": "Straße",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0160.mp3"
+                },
+                {
+                    "en": "Inside",
+                    "de": "Drinnen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0134.mp3"
+                },
+                {
+                    "en": "Outside",
+                    "de": "Draußen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0135.mp3"
+                },
+                {
+                    "en": "Front",
+                    "de": "Vorderseite",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0136.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Directions & Locations - Phrases",
+            "words": [
+                {
+                    "en": "Where is...?",
+                    "de": "Wo ist...?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0181.mp3"
+                },
+                {
+                    "en": "How do I get there?",
+                    "de": "Wie komme ich dorthin?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0182.mp3"
+                },
+                {
+                    "en": "Please turn left.",
+                    "de": "Bitte biegen Sie links ab",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0183.mp3"
+                },
+                {
+                    "en": "Please turn right.",
+                    "de": "Bitte biegen Sie rechts ab",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0184.mp3"
+                },
+                {
+                    "en": "Go straight.",
+                    "de": "Gehen Sie geradeaus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0185.mp3"
+                },
+                {
+                    "en": "Please show me on the map.",
+                    "de": "Bitte zeigen Sie es mir auf der Karte",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0186.mp3"
+                },
+                {
+                    "en": "I'm lost.",
+                    "de": "Ich habe mich verlaufen",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0187.mp3"
+                },
+                {
+                    "en": "Where are we?",
+                    "de": "Wo sind wir?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0188.mp3"
+                },
+                {
+                    "en": "It's near here.",
+                    "de": "Es ist hier in der Nähe",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0189.mp3"
+                },
+                {
+                    "en": "Walk or drive?",
+                    "de": "Zu Fuß oder fahren?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0190.mp3"
+                },
+                {
+                    "en": "How many minutes?",
+                    "de": "Wie viele Minuten?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0191.mp3"
+                },
+                {
+                    "en": "It's here.",
+                    "de": "Es ist hier",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0194.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Transportation",
+            "words": [
+                {
+                    "en": "Transport",
+                    "de": "Transport",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0322.mp3"
+                },
+                {
+                    "en": "Car",
+                    "de": "Auto",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0323.mp3"
+                },
+                {
+                    "en": "Bus",
+                    "de": "Bus",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0324.mp3"
+                },
+                {
+                    "en": "Train",
+                    "de": "Zug",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0325.mp3"
+                },
+                {
+                    "en": "Subway",
+                    "de": "U-Bahn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0153.mp3"
+                },
+                {
+                    "en": "Plane",
+                    "de": "Flugzeug",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0154.mp3"
+                },
+                {
+                    "en": "Taxi",
+                    "de": "Taxi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0326.mp3"
+                },
+                {
+                    "en": "Bicycle",
+                    "de": "Fahrrad",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0327.mp3"
+                },
+                {
+                    "en": "Ticket",
+                    "de": "Ticket",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0328.mp3"
+                },
+                {
+                    "en": "Train station",
+                    "de": "Bahnhof",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0214.mp3"
+                },
+                {
+                    "en": "Bus stop",
+                    "de": "Bushaltestelle",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0329.mp3"
+                },
+                {
+                    "en": "Ticket office",
+                    "de": "Fahrkartenschalter",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0217.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Transportation - Phrases",
+            "words": [
+                {
+                    "en": "I'd like a ticket to downtown.",
+                    "de": "Ich hätte gerne ein Ticket in die Innenstadt",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0238.mp3"
+                },
+                {
+                    "en": "Do you have a ticket?",
+                    "de": "Haben Sie ein Ticket?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0162.mp3"
+                },
+                {
+                    "en": "What time does the next train leave?",
+                    "de": "Um wie viel Uhr fährt der nächste Zug?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0240.mp3"
+                },
+                {
+                    "en": "Which platform?",
+                    "de": "Welches Gleis?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0164.mp3"
+                },
+                {
+                    "en": "Where is the subway station?",
+                    "de": "Wo ist die U-Bahn-Station?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0165.mp3"
+                },
+                {
+                    "en": "We are going by car.",
+                    "de": "Wir fahren mit dem Auto.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0166.mp3"
+                },
+                {
+                    "en": "Please fasten your seat belt.",
+                    "de": "Bitte schnallen Sie sich an.",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0167.mp3"
+                },
+                {
+                    "en": "Where can I validate my ticket?",
+                    "de": "Wo kann ich mein Ticket entwerten?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0245.mp3"
+                },
+                {
+                    "en": "I lost my passport.",
+                    "de": "Ich habe meinen Reisepass verloren",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0282.mp3"
+                },
+                {
+                    "en": "I missed my flight.",
+                    "de": "Ich habe meinen Flug verpasst",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0284.mp3"
+                },
+                {
+                    "en": "Can you help me rebook?",
+                    "de": "Können Sie mir beim Umbuchen helfen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0285.mp3"
+                },
+                {
+                    "en": "Where can I buy medicine nearby?",
+                    "de": "Wo kann ich in der Nähe Medikamente kaufen?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/de/04/de_0290.mp3"
+                }
+            ]
+        }
+    ]
+}

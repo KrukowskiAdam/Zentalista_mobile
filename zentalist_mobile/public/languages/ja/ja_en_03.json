@@ -1,0 +1,2003 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 03 - Food & Restaurants",
+    "categories": [
+        {
+            "name": "Food & Drinks",
+            "words": [
+                {
+                    "en": "Rice",
+                    "ja": "ご飯",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0001.mp3",
+                    "romaji": "Gohan"
+                },
+                {
+                    "en": "Bread",
+                    "ja": "パン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0002.mp3",
+                    "romaji": "Pan"
+                },
+                {
+                    "en": "Meat",
+                    "ja": "肉",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0003.mp3",
+                    "romaji": "Niku"
+                },
+                {
+                    "en": "Fish",
+                    "ja": "魚",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0004.mp3",
+                    "romaji": "Sakana"
+                },
+                {
+                    "en": "Vegetables",
+                    "ja": "野菜",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0005.mp3",
+                    "romaji": "Yasai"
+                },
+                {
+                    "en": "Fruit",
+                    "ja": "果物",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0006.mp3",
+                    "romaji": "Kudamono"
+                },
+                {
+                    "en": "Egg",
+                    "ja": "卵",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0007.mp3",
+                    "romaji": "Tamago"
+                },
+                {
+                    "en": "Milk",
+                    "ja": "牛乳",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0008.mp3",
+                    "romaji": "Gyuunyuu"
+                },
+                {
+                    "en": "Water",
+                    "ja": "水",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0009.mp3",
+                    "romaji": "Mizu"
+                },
+                {
+                    "en": "Coffee",
+                    "ja": "コーヒー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0010.mp3",
+                    "romaji": "Koohii"
+                },
+                {
+                    "en": "Tea",
+                    "ja": "お茶",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0011.mp3",
+                    "romaji": "Ocha"
+                },
+                {
+                    "en": "Juice",
+                    "ja": "ジュース",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0012.mp3",
+                    "romaji": "Juusu"
+                },
+                {
+                    "en": "Beer",
+                    "ja": "ビール",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0013.mp3",
+                    "romaji": "Biiru"
+                },
+                {
+                    "en": "Wine",
+                    "ja": "ワイン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0014.mp3",
+                    "romaji": "Wain"
+                },
+                {
+                    "en": "Soup",
+                    "ja": "スープ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0015.mp3",
+                    "romaji": "Suupu"
+                },
+                {
+                    "en": "Salad",
+                    "ja": "サラダ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0016.mp3",
+                    "romaji": "Sarada"
+                },
+                {
+                    "en": "Noodles",
+                    "ja": "麺",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0017.mp3",
+                    "romaji": "Men"
+                },
+                {
+                    "en": "Apple",
+                    "ja": "りんご",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0018.mp3",
+                    "romaji": "Ringo"
+                },
+                {
+                    "en": "Appetizer",
+                    "ja": "前菜",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0019.mp3",
+                    "romaji": "Zensai"
+                },
+                {
+                    "en": "Main course",
+                    "ja": "メインコース",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0020.mp3",
+                    "romaji": "Mein koosu"
+                },
+                {
+                    "en": "Side dish",
+                    "ja": "副菜",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0021.mp3",
+                    "romaji": "Fukusai"
+                },
+                {
+                    "en": "Dessert menu",
+                    "ja": "デザートメニュー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0022.mp3",
+                    "romaji": "Dezaato menyuu"
+                },
+                {
+                    "en": "Leftovers",
+                    "ja": "残り物",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0023.mp3",
+                    "romaji": "Nokorimono"
+                },
+                {
+                    "en": "Takeaway box",
+                    "ja": "持ち帰り用の箱",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0024.mp3",
+                    "romaji": "Mochikaeri you no hako"
+                },
+                {
+                    "en": "Food allergy",
+                    "ja": "食物アレルギー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0025.mp3",
+                    "romaji": "Shokumotsu arerugii"
+                },
+                {
+                    "en": "Gluten-free",
+                    "ja": "グルテンフリー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0026.mp3",
+                    "romaji": "Guruten furii"
+                },
+                {
+                    "en": "Vegan",
+                    "ja": "ビーガン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0027.mp3",
+                    "romaji": "Biigan"
+                },
+                {
+                    "en": "Spicy",
+                    "ja": "辛いです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0028.mp3",
+                    "romaji": "Karai desu"
+                },
+                {
+                    "en": "Mild",
+                    "ja": "マイルドです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0029.mp3",
+                    "romaji": "Mairudo desu"
+                },
+                {
+                    "en": "Savory",
+                    "ja": "塩味です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0030.mp3",
+                    "romaji": "Shioaji desu"
+                },
+                {
+                    "en": "Sweet tooth",
+                    "ja": "甘党です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0031.mp3",
+                    "romaji": "Amatou desu"
+                },
+                {
+                    "en": "Portion",
+                    "ja": "量",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0032.mp3",
+                    "romaji": "Ryou"
+                },
+                {
+                    "en": "Chef",
+                    "ja": "シェフ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0033.mp3",
+                    "romaji": "Shefu"
+                },
+                {
+                    "en": "Wait time",
+                    "ja": "待ち時間",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0034.mp3",
+                    "romaji": "Machijikan"
+                },
+                {
+                    "en": "Reservation list",
+                    "ja": "予約リスト",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0035.mp3",
+                    "romaji": "Yoyaku risuto"
+                },
+                {
+                    "en": "Split bill",
+                    "ja": "割り勘",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0036.mp3",
+                    "romaji": "Warikan"
+                },
+                {
+                    "en": "Watermelon",
+                    "ja": "スイカ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0037.mp3",
+                    "romaji": "Suika"
+                },
+                {
+                    "en": "Grape",
+                    "ja": "ブドウ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0038.mp3",
+                    "romaji": "Budō"
+                },
+                {
+                    "en": "Peach",
+                    "ja": "桃",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0039.mp3",
+                    "romaji": "Momo"
+                },
+                {
+                    "en": "Pear",
+                    "ja": "梨",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0040.mp3",
+                    "romaji": "Nashi"
+                },
+                {
+                    "en": "Banana",
+                    "ja": "バナナ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0041.mp3",
+                    "romaji": "Banana"
+                },
+                {
+                    "en": "Cherry",
+                    "ja": "さくらんぼ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0042.mp3",
+                    "romaji": "Sakurambo"
+                },
+                {
+                    "en": "Mango",
+                    "ja": "マンゴー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0043.mp3",
+                    "romaji": "Mangō"
+                },
+                {
+                    "en": "Plum",
+                    "ja": "プラム",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0044.mp3",
+                    "romaji": "Puramu"
+                },
+                {
+                    "en": "Strawberry",
+                    "ja": "イチゴ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0045.mp3",
+                    "romaji": "Ichigo"
+                },
+                {
+                    "en": "Orange",
+                    "ja": "オレンジ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0046.mp3",
+                    "romaji": "Orenji"
+                },
+                {
+                    "en": "Coconut",
+                    "ja": "ココナッツ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0047.mp3",
+                    "romaji": "Kokonattsu"
+                },
+                {
+                    "en": "Pineapple",
+                    "ja": "パイナップル",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0048.mp3",
+                    "romaji": "Painappuru"
+                },
+                {
+                    "en": "Lemon",
+                    "ja": "レモン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0049.mp3",
+                    "romaji": "Remon"
+                },
+                {
+                    "en": "Kiwi",
+                    "ja": "キウイ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0050.mp3",
+                    "romaji": "Kiui"
+                },
+                {
+                    "en": "Blueberry",
+                    "ja": "ブルーベリー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0051.mp3",
+                    "romaji": "Burūberī"
+                },
+                {
+                    "en": "Melon",
+                    "ja": "メロン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0052.mp3",
+                    "romaji": "Meron"
+                },
+                {
+                    "en": "Tomato",
+                    "ja": "トマト",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0053.mp3",
+                    "romaji": "Tomato"
+                },
+                {
+                    "en": "Cucumber",
+                    "ja": "キュウリ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0054.mp3",
+                    "romaji": "Kyūri"
+                },
+                {
+                    "en": "Eggplant",
+                    "ja": "ナス",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0055.mp3",
+                    "romaji": "Nasu"
+                },
+                {
+                    "en": "Mushroom",
+                    "ja": "キノコ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0056.mp3",
+                    "romaji": "Kinoko"
+                },
+                {
+                    "en": "Cabbage",
+                    "ja": "キャベツ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0057.mp3",
+                    "romaji": "Kyabetsu"
+                },
+                {
+                    "en": "Carrot",
+                    "ja": "ニンジン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0058.mp3",
+                    "romaji": "Ninjin"
+                },
+                {
+                    "en": "Spinach",
+                    "ja": "ホウレンソウ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0059.mp3",
+                    "romaji": "Hōrensō"
+                },
+                {
+                    "en": "Onion",
+                    "ja": "タマネギ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0060.mp3",
+                    "romaji": "Tamanegi"
+                },
+                {
+                    "en": "Green pepper",
+                    "ja": "ピーマン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0061.mp3",
+                    "romaji": "Pīman"
+                },
+                {
+                    "en": "Spring onions",
+                    "ja": "長ネギ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0062.mp3",
+                    "romaji": "Naganegi"
+                },
+                {
+                    "en": "Garlic",
+                    "ja": "ニンニク",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0063.mp3",
+                    "romaji": "Ninniku"
+                },
+                {
+                    "en": "Ginger",
+                    "ja": "ショウガ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0064.mp3",
+                    "romaji": "Shōga"
+                },
+                {
+                    "en": "Chilli",
+                    "ja": "唐辛子",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0065.mp3",
+                    "romaji": "Tōgarashi"
+                },
+                {
+                    "en": "Potato",
+                    "ja": "ジャガイモ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0066.mp3",
+                    "romaji": "Jagaimo"
+                },
+                {
+                    "en": "Lettuce",
+                    "ja": "レタス",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0067.mp3",
+                    "romaji": "Retasu"
+                },
+                {
+                    "en": "Broccoli",
+                    "ja": "ブロッコリー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0068.mp3",
+                    "romaji": "Burokkorī"
+                },
+                {
+                    "en": "Mineral water",
+                    "ja": "ミネラルウォーター",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0069.mp3",
+                    "romaji": "Mineraru wōtā"
+                },
+                {
+                    "en": "Champagne",
+                    "ja": "シャンパン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0070.mp3",
+                    "romaji": "Shampan"
+                },
+                {
+                    "en": "Vodka",
+                    "ja": "ウォッカ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0071.mp3",
+                    "romaji": "Wokka"
+                },
+                {
+                    "en": "White wine",
+                    "ja": "白ワイン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0072.mp3",
+                    "romaji": "Shiro wain"
+                },
+                {
+                    "en": "Red wine",
+                    "ja": "赤ワイン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0073.mp3",
+                    "romaji": "Akawain"
+                },
+                {
+                    "en": "Ice coffee",
+                    "ja": "アイスコーヒー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0074.mp3",
+                    "romaji": "Aisu kōhī"
+                },
+                {
+                    "en": "Ice water",
+                    "ja": "氷水",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0075.mp3",
+                    "romaji": "Kōrimizu"
+                },
+                {
+                    "en": "Orange juice",
+                    "ja": "オレンジジュース",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0076.mp3",
+                    "romaji": "Orenji jūsu"
+                },
+                {
+                    "en": "Apple juice",
+                    "ja": "リンゴジュース",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0077.mp3",
+                    "romaji": "Ringo jūsu"
+                },
+                {
+                    "en": "Soda",
+                    "ja": "ソーダ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0078.mp3",
+                    "romaji": "Sōda"
+                },
+                {
+                    "en": "Lemonade",
+                    "ja": "レモネード",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0079.mp3",
+                    "romaji": "Remonēdo"
+                },
+                {
+                    "en": "Cocktail",
+                    "ja": "カクテル",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0080.mp3",
+                    "romaji": "Kakuteru"
+                },
+                {
+                    "en": "Butter",
+                    "ja": "バター",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0081.mp3",
+                    "romaji": "Batā"
+                },
+                {
+                    "en": "Cheese",
+                    "ja": "チーズ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0082.mp3",
+                    "romaji": "Chīzu"
+                },
+                {
+                    "en": "Pasta",
+                    "ja": "パスタ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0083.mp3",
+                    "romaji": "Pasuta"
+                },
+                {
+                    "en": "Oil",
+                    "ja": "油",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0084.mp3",
+                    "romaji": "Abura"
+                },
+                {
+                    "en": "Yogurt",
+                    "ja": "ヨーグルト",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0085.mp3",
+                    "romaji": "Yōguruto"
+                },
+                {
+                    "en": "Honey",
+                    "ja": "ハチミツ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0086.mp3",
+                    "romaji": "Hachimitsu"
+                },
+                {
+                    "en": "Cake",
+                    "ja": "ケーキ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0087.mp3",
+                    "romaji": "Kēki"
+                },
+                {
+                    "en": "Flour",
+                    "ja": "小麦粉",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0088.mp3",
+                    "romaji": "Komugiko"
+                },
+                {
+                    "en": "Chicken",
+                    "ja": "鶏肉",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0089.mp3",
+                    "romaji": "Keiniku"
+                },
+                {
+                    "en": "Duck",
+                    "ja": "鴨肉",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0090.mp3",
+                    "romaji": "Kamo niku"
+                },
+                {
+                    "en": "Pork",
+                    "ja": "豚肉",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0091.mp3",
+                    "romaji": "Butaniku"
+                },
+                {
+                    "en": "Ham",
+                    "ja": "ハム",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0092.mp3",
+                    "romaji": "Hamu"
+                },
+                {
+                    "en": "Beef",
+                    "ja": "牛肉",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0093.mp3",
+                    "romaji": "Gyūniku"
+                },
+                {
+                    "en": "Shrimp",
+                    "ja": "エビ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0094.mp3",
+                    "romaji": "Ebi"
+                },
+                {
+                    "en": "Salmon",
+                    "ja": "サーモン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0095.mp3",
+                    "romaji": "Sāmon"
+                },
+                {
+                    "en": "Sausage",
+                    "ja": "ソーセージ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0096.mp3",
+                    "romaji": "Sōsēji"
+                }
+            ]
+        },
+        {
+            "name": "Food & Drinks - Phrases",
+            "words": [
+                {
+                    "en": "What do you want to eat?",
+                    "ja": "何が食べたいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0329.mp3",
+                    "romaji": "Nani ga tabetai desu ka"
+                },
+                {
+                    "en": "I'm hungry.",
+                    "ja": "お腹が空きました",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0330.mp3",
+                    "romaji": "Onaka ga sukimashita"
+                },
+                {
+                    "en": "I'm full.",
+                    "ja": "お腹いっぱいです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0331.mp3",
+                    "romaji": "Onaka ippai desu"
+                },
+                {
+                    "en": "It's delicious.",
+                    "ja": "美味しいです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0332.mp3",
+                    "romaji": "Oishii desu"
+                },
+                {
+                    "en": "It's not good.",
+                    "ja": "美味しくないです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0333.mp3",
+                    "romaji": "Oishikunai desu"
+                },
+                {
+                    "en": "Is it spicy?",
+                    "ja": "辛いですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0334.mp3",
+                    "romaji": "Karai desu ka"
+                },
+                {
+                    "en": "Too spicy.",
+                    "ja": "辛すぎます",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0335.mp3",
+                    "romaji": "Karasugimasu"
+                },
+                {
+                    "en": "A bit salty.",
+                    "ja": "少し塩辛いです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0336.mp3",
+                    "romaji": "Sukoshi shiokarai desu"
+                },
+                {
+                    "en": "What do you want to drink?",
+                    "ja": "何を飲みたいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0337.mp3",
+                    "romaji": "Nani wo nomitai desu ka"
+                },
+                {
+                    "en": "Water please.",
+                    "ja": "お水をください",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0338.mp3",
+                    "romaji": "Omizu wo kudasai"
+                },
+                {
+                    "en": "Want some coffee?",
+                    "ja": "コーヒーはいかがですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0339.mp3",
+                    "romaji": "Koohii wa ikaga desu ka"
+                },
+                {
+                    "en": "I drink tea.",
+                    "ja": "お茶を飲みます",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0340.mp3",
+                    "romaji": "Ocha wo nomimasu"
+                },
+                {
+                    "en": "Do you like beer?",
+                    "ja": "ビールは好きですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0341.mp3",
+                    "romaji": "Biiru wa suki desu ka"
+                },
+                {
+                    "en": "Can't drink alcohol?",
+                    "ja": "お酒は飲めません？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0342.mp3",
+                    "romaji": "Osake wa nomemasen"
+                },
+                {
+                    "en": "Want more?",
+                    "ja": "もっといりますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0343.mp3",
+                    "romaji": "Motto irimasu ka"
+                },
+                {
+                    "en": "Thank you for the food.",
+                    "ja": "ごちそうさまでした",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0344.mp3",
+                    "romaji": "Gochisousama deshita"
+                },
+                {
+                    "en": "I ate well.",
+                    "ja": "美味しくいただきました",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0345.mp3",
+                    "romaji": "Oishiku itadakimashita"
+                },
+                {
+                    "en": "Cheers!",
+                    "ja": "乾杯！",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0346.mp3",
+                    "romaji": "Kanpai!"
+                },
+                {
+                    "en": "Could we start with an appetizer?",
+                    "ja": "前菜から始めてもいいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0347.mp3",
+                    "romaji": "Zensai kara hajimetemo ii desu ka"
+                },
+                {
+                    "en": "Do you have vegan options?",
+                    "ja": "ビーガンのメニューはありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0348.mp3",
+                    "romaji": "Biigan no menyuu wa arimasu ka"
+                },
+                {
+                    "en": "Please make it mild.",
+                    "ja": "辛さ控えめにしてください",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0349.mp3",
+                    "romaji": "Karasa hikaeme ni shite kudasai"
+                },
+                {
+                    "en": "Can we get a takeaway box?",
+                    "ja": "持ち帰り用の箱をもらえますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0350.mp3",
+                    "romaji": "Mochikaeri you no hako wo moraemasu ka"
+                },
+                {
+                    "en": "How long is the wait?",
+                    "ja": "待ち時間はどれくらいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0351.mp3",
+                    "romaji": "Machijikan wa dore kurai desu ka"
+                },
+                {
+                    "en": "Our name is on the reservation list.",
+                    "ja": "予約リストに名前があります",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0352.mp3",
+                    "romaji": "Yoyaku risuto ni namae ga arimasu"
+                },
+                {
+                    "en": "Shall we split the bill?",
+                    "ja": "割り勘にしましょうか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0353.mp3",
+                    "romaji": "Warikan ni shimashou ka"
+                },
+                {
+                    "en": "Is the tip included?",
+                    "ja": "チップは含まれていますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0354.mp3",
+                    "romaji": "Chippu wa fukumareteimasu ka"
+                },
+                {
+                    "en": "Do you accept cash only?",
+                    "ja": "現金のみですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0355.mp3",
+                    "romaji": "Genkin nomi desu ka"
+                },
+                {
+                    "en": "I love the street food here.",
+                    "ja": "ここの屋台料理が大好きです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0356.mp3",
+                    "romaji": "Koko no yatai ryouri ga daisuki desu"
+                },
+                {
+                    "en": "I love bananas.",
+                    "ja": "バナナが大好きです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0125.mp3",
+                    "romaji": "Banana ga daisuki desu ."
+                },
+                {
+                    "en": "Do you like strawberries?",
+                    "ja": "イチゴは好きですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0126.mp3",
+                    "romaji": "Ichigo wa suki desu ka ?"
+                },
+                {
+                    "en": "The apples are fresh.",
+                    "ja": "このリンゴは新鮮です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0127.mp3",
+                    "romaji": "Kono ringo wa shinsen desu ."
+                },
+                {
+                    "en": "Can I have an orange?",
+                    "ja": "オレンジをもらえますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0128.mp3",
+                    "romaji": "Orenji o morae masu ka ?"
+                },
+                {
+                    "en": "Mangoes are sweet.",
+                    "ja": "マンゴーは甘いです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0129.mp3",
+                    "romaji": "Mangō wa amai desu ."
+                },
+                {
+                    "en": "Is this watermelon ripe?",
+                    "ja": "このスイカは熟していますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0130.mp3",
+                    "romaji": "Kono suika wa jukushi te i masu ka ?"
+                },
+                {
+                    "en": "I eat fruit every day.",
+                    "ja": "毎日フルーツを食べています。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0131.mp3",
+                    "romaji": "Mainichi furūtsu o tabe te i masu ."
+                },
+                {
+                    "en": "Would you like some grapes?",
+                    "ja": "ブドウはいかがですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0132.mp3",
+                    "romaji": "Budō wa ikaga desu ka ?"
+                },
+                {
+                    "en": "I need some tomatoes.",
+                    "ja": "トマトが必要です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0133.mp3",
+                    "romaji": "Tomato ga hitsuyō desu ."
+                },
+                {
+                    "en": "Do you eat carrots?",
+                    "ja": "ニンジンは食べますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0134.mp3",
+                    "romaji": "Ninjin wa tabe masu ka ?"
+                },
+                {
+                    "en": "The potatoes are ready.",
+                    "ja": "ジャガイモの準備ができました。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0135.mp3",
+                    "romaji": "Jagaimo no jumbi ga deki mashi ta ."
+                },
+                {
+                    "en": "Can you add more onion?",
+                    "ja": "タマネギをもっと入れてもらえますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0136.mp3",
+                    "romaji": "Tamanegi o motto ire te morae masu ka ?"
+                },
+                {
+                    "en": "I don't like mushrooms.",
+                    "ja": "キノコは苦手です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0137.mp3",
+                    "romaji": "Kinoko wa nigate desu ."
+                },
+                {
+                    "en": "Is there garlic in this?",
+                    "ja": "これにニンニクは入っていますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0138.mp3",
+                    "romaji": "Kore ni ninniku wa haitte i masu ka ?"
+                },
+                {
+                    "en": "Spinach is healthy.",
+                    "ja": "ホウレンソウは健康的です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0139.mp3",
+                    "romaji": "Hōrensō wa kenkō teki desu ."
+                },
+                {
+                    "en": "Would you like some salad?",
+                    "ja": "サラダはいかがですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0140.mp3",
+                    "romaji": "Sarada wa ikaga desu ka ?"
+                },
+                {
+                    "en": "I'll have some water.",
+                    "ja": "お水をください。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0141.mp3",
+                    "romaji": "O mizu o kudasai ."
+                },
+                {
+                    "en": "Would you like coffee or tea?",
+                    "ja": "コーヒーと紅茶、どちらがいいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0142.mp3",
+                    "romaji": "Kōhī to kōcha , dochira ga ii desu ka ?"
+                },
+                {
+                    "en": "The juice is fresh.",
+                    "ja": "そのジュースはフレッシュです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0143.mp3",
+                    "romaji": "Sono jūsu wa furesshu desu ."
+                },
+                {
+                    "en": "Do you drink wine?",
+                    "ja": "ワインは飲みますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0144.mp3",
+                    "romaji": "Wain wa nomi masu ka ?"
+                },
+                {
+                    "en": "I prefer iced coffee.",
+                    "ja": "アイスコーヒーの方がいいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0145.mp3",
+                    "romaji": "Aisu kōhī no hō ga ii desu ."
+                },
+                {
+                    "en": "Can I get a soda?",
+                    "ja": "ソーダをいただけますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0146.mp3",
+                    "romaji": "Sōda o itadake masu ka ?"
+                },
+                {
+                    "en": "This lemonade is good.",
+                    "ja": "このレモネードはおいしいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0147.mp3",
+                    "romaji": "Kono remonēdo wa oishii desu ."
+                },
+                {
+                    "en": "Is there any juice left?",
+                    "ja": "ジュースはまだ残っていますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0148.mp3",
+                    "romaji": "Jūsu wa mada nokotte i masu ka ?"
+                },
+                {
+                    "en": "I like chicken.",
+                    "ja": "鶏肉が好きです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0149.mp3",
+                    "romaji": "Keiniku ga suki desu ."
+                },
+                {
+                    "en": "Do you eat pork?",
+                    "ja": "豚肉は食べますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0150.mp3",
+                    "romaji": "Butaniku wa tabe masu ka ?"
+                },
+                {
+                    "en": "The beef is tender.",
+                    "ja": "この牛肉は柔らかいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0151.mp3",
+                    "romaji": "Kono gyūniku wa yawarakai desu ."
+                },
+                {
+                    "en": "Is there any cheese?",
+                    "ja": "チーズはありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0152.mp3",
+                    "romaji": "Chīzu wa ari masu ka ?"
+                },
+                {
+                    "en": "I need some butter.",
+                    "ja": "バターが必要です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0153.mp3",
+                    "romaji": "Batā ga hitsuyō desu ."
+                },
+                {
+                    "en": "Would you like pasta?",
+                    "ja": "パスタはいかがですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0154.mp3",
+                    "romaji": "Pasuta wa ikaga desu ka ?"
+                },
+                {
+                    "en": "The salmon is fresh.",
+                    "ja": "このサーモンは新鮮です。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0155.mp3",
+                    "romaji": "Kono sāmon wa shinsen desu ."
+                },
+                {
+                    "en": "Can I have some honey?",
+                    "ja": "ハチミツをもらえますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0156.mp3",
+                    "romaji": "Hachimitsu o morae masu ka ?"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering",
+            "words": [
+                {
+                    "en": "Restaurant",
+                    "ja": "レストラン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0357.mp3",
+                    "romaji": "Resutoran"
+                },
+                {
+                    "en": "Cafe",
+                    "ja": "カフェ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0358.mp3",
+                    "romaji": "Kafe"
+                },
+                {
+                    "en": "Menu",
+                    "ja": "メニュー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0359.mp3",
+                    "romaji": "Menyuu"
+                },
+                {
+                    "en": "Order",
+                    "ja": "注文",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0360.mp3",
+                    "romaji": "Chuumon"
+                },
+                {
+                    "en": "Food",
+                    "ja": "食べ物",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0361.mp3",
+                    "romaji": "Tabemono"
+                },
+                {
+                    "en": "Dish",
+                    "ja": "料理",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0362.mp3",
+                    "romaji": "Ryouri"
+                },
+                {
+                    "en": "Reservation",
+                    "ja": "予約",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0363.mp3",
+                    "romaji": "Yoyaku"
+                },
+                {
+                    "en": "Seat",
+                    "ja": "席",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0364.mp3",
+                    "romaji": "Seki"
+                },
+                {
+                    "en": "Table",
+                    "ja": "テーブル",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0365.mp3",
+                    "romaji": "Teeburu"
+                },
+                {
+                    "en": "Waiter",
+                    "ja": "ウェイター",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0366.mp3",
+                    "romaji": "Weitaa"
+                },
+                {
+                    "en": "Bill",
+                    "ja": "お会計",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0367.mp3",
+                    "romaji": "Okaikei"
+                },
+                {
+                    "en": "Tip",
+                    "ja": "チップ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0368.mp3",
+                    "romaji": "Chippu"
+                },
+                {
+                    "en": "Takeout",
+                    "ja": "持ち帰り",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0369.mp3",
+                    "romaji": "Mochikaeri"
+                },
+                {
+                    "en": "Delivery",
+                    "ja": "配達",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0370.mp3",
+                    "romaji": "Haitatsu"
+                },
+                {
+                    "en": "Chopsticks",
+                    "ja": "箸",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0371.mp3",
+                    "romaji": "Hashi"
+                },
+                {
+                    "en": "Napkin",
+                    "ja": "ナプキン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0372.mp3",
+                    "romaji": "Napukin"
+                },
+                {
+                    "en": "Flavour",
+                    "ja": "味",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0173.mp3",
+                    "romaji": "Aji"
+                },
+                {
+                    "en": "Tasty",
+                    "ja": "おいしい",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0174.mp3",
+                    "romaji": "Oishii"
+                },
+                {
+                    "en": "Bitter",
+                    "ja": "苦い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0175.mp3",
+                    "romaji": "Nigai"
+                },
+                {
+                    "en": "Sweet",
+                    "ja": "甘い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0176.mp3",
+                    "romaji": "Amai"
+                },
+                {
+                    "en": "Delicious",
+                    "ja": "とてもおいしい",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0177.mp3",
+                    "romaji": "Totemo oishii"
+                },
+                {
+                    "en": "Sour",
+                    "ja": "酸っぱい",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0178.mp3",
+                    "romaji": "Suppai"
+                },
+                {
+                    "en": "Salty",
+                    "ja": "塩辛い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0179.mp3",
+                    "romaji": "Shiokarai"
+                },
+                {
+                    "en": "Cook",
+                    "ja": "料理する",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0180.mp3",
+                    "romaji": "Ryōri suru"
+                },
+                {
+                    "en": "Bake",
+                    "ja": "焼く",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0181.mp3",
+                    "romaji": "Yaku"
+                },
+                {
+                    "en": "Fry",
+                    "ja": "炒める",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0182.mp3",
+                    "romaji": "Itameru"
+                },
+                {
+                    "en": "Deep fry",
+                    "ja": "揚げる",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0183.mp3",
+                    "romaji": "Ageru"
+                },
+                {
+                    "en": "Roast",
+                    "ja": "ローストする",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0184.mp3",
+                    "romaji": "Rōsuto suru"
+                },
+                {
+                    "en": "Steam",
+                    "ja": "蒸す",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0185.mp3",
+                    "romaji": "Fukasu"
+                },
+                {
+                    "en": "Boil",
+                    "ja": "茹でる",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0186.mp3",
+                    "romaji": "Yuderu"
+                },
+                {
+                    "en": "Pan fry",
+                    "ja": "ソテーする",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0187.mp3",
+                    "romaji": "Sotē suru"
+                },
+                {
+                    "en": "Cut",
+                    "ja": "切る",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0188.mp3",
+                    "romaji": "Kiru"
+                },
+                {
+                    "en": "Cube",
+                    "ja": "角切りにする",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0189.mp3",
+                    "romaji": "Kaku giri ni suru"
+                },
+                {
+                    "en": "Slice",
+                    "ja": "スライスする",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0190.mp3",
+                    "romaji": "Suraisu suru"
+                },
+                {
+                    "en": "Sugar",
+                    "ja": "砂糖",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0191.mp3",
+                    "romaji": "Satō"
+                },
+                {
+                    "en": "Salt",
+                    "ja": "塩",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0192.mp3",
+                    "romaji": "Shio"
+                },
+                {
+                    "en": "Vinegar",
+                    "ja": "酢",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0193.mp3",
+                    "romaji": "Su"
+                },
+                {
+                    "en": "Soy sauce",
+                    "ja": "醤油",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0194.mp3",
+                    "romaji": "Shōyu"
+                },
+                {
+                    "en": "Pepper",
+                    "ja": "コショウ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0195.mp3",
+                    "romaji": "Koshō"
+                },
+                {
+                    "en": "Spicy",
+                    "ja": "辛いです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0373.mp3",
+                    "romaji": "Karai desu"
+                }
+            ]
+        },
+        {
+            "name": "Restaurants & Ordering - Phrases",
+            "words": [
+                {
+                    "en": "Menu please.",
+                    "ja": "メニューをください",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0374.mp3",
+                    "romaji": "Menyuu wo kudasai"
+                },
+                {
+                    "en": "What's recommended?",
+                    "ja": "おすすめは何ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0375.mp3",
+                    "romaji": "Osusume wa nan desu ka"
+                },
+                {
+                    "en": "This please.",
+                    "ja": "これをください",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0376.mp3",
+                    "romaji": "Kore wo kudasai"
+                },
+                {
+                    "en": "I'll order.",
+                    "ja": "注文します",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0377.mp3",
+                    "romaji": "Chuumon shimasu"
+                },
+                {
+                    "en": "Is this spicy?",
+                    "ja": "これは辛いですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0378.mp3",
+                    "romaji": "Kore wa karai desu ka"
+                },
+                {
+                    "en": "How many people?",
+                    "ja": "何名様ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0379.mp3",
+                    "romaji": "Nanmei sama desu ka"
+                },
+                {
+                    "en": "Party of two.",
+                    "ja": "二名です",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0380.mp3",
+                    "romaji": "Nimei desu"
+                },
+                {
+                    "en": "Do you have seats?",
+                    "ja": "席はありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0381.mp3",
+                    "romaji": "Seki wa arimasu ka"
+                },
+                {
+                    "en": "I have a reservation.",
+                    "ja": "予約しています",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0382.mp3",
+                    "romaji": "Yoyaku shiteimasu"
+                },
+                {
+                    "en": "Can I get takeout?",
+                    "ja": "持ち帰りはできますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0097.mp3",
+                    "romaji": "Mochikaeri wa dekimasu ka"
+                },
+                {
+                    "en": "Do you deliver?",
+                    "ja": "配達はしていますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0098.mp3",
+                    "romaji": "Haitatsu wa shiteimasu ka"
+                },
+                {
+                    "en": "Check please.",
+                    "ja": "お会計お願いします",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0099.mp3",
+                    "romaji": "Okaikei onegaishimasu"
+                },
+                {
+                    "en": "Separate checks.",
+                    "ja": "別々で",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0100.mp3",
+                    "romaji": "Betsubetsu de"
+                },
+                {
+                    "en": "Together please.",
+                    "ja": "一緒にお願いします",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0101.mp3",
+                    "romaji": "Issho ni onegaishimasu"
+                },
+                {
+                    "en": "More water please.",
+                    "ja": "お水をもっとください",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0102.mp3",
+                    "romaji": "Omizu wo motto kudasai"
+                },
+                {
+                    "en": "Spoon please.",
+                    "ja": "スプーンをください",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0103.mp3",
+                    "romaji": "Supuun wo kudasai"
+                },
+                {
+                    "en": "Do you have a fork?",
+                    "ja": "フォークはありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0104.mp3",
+                    "romaji": "Fooku wa arimasu ka"
+                },
+                {
+                    "en": "How long will it take?",
+                    "ja": "どれくらいかかりますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0105.mp3",
+                    "romaji": "Dore kurai kakarimasu ka"
+                },
+                {
+                    "en": "Could we get separate plates for sharing?",
+                    "ja": "取り皿をもらえますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0106.mp3",
+                    "romaji": "Torizara wo moraemasu ka"
+                },
+                {
+                    "en": "Is the service charge already included?",
+                    "ja": "サービス料は含まれていますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0108.mp3",
+                    "romaji": "Saabisu ryou wa fukumareteimasu ka"
+                },
+                {
+                    "en": "It's too salty.",
+                    "ja": "塩辛すぎます。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0217.mp3",
+                    "romaji": "Shiokara sugi masu ."
+                },
+                {
+                    "en": "Is it sweet or sour?",
+                    "ja": "甘いですか、酸っぱいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0218.mp3",
+                    "romaji": "Amai desu ka , suppai desu ka ?"
+                },
+                {
+                    "en": "The food is delicious.",
+                    "ja": "料理はおいしいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0219.mp3",
+                    "romaji": "Ryōri wa oishii desu ."
+                },
+                {
+                    "en": "How do you cook this?",
+                    "ja": "これはどうやって調理しますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0220.mp3",
+                    "romaji": "Kore wa dō yatte chōri shi masu ka ?"
+                },
+                {
+                    "en": "I prefer fried chicken.",
+                    "ja": "フライドチキンの方が好きです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0221.mp3",
+                    "romaji": "Furaidochikin no hō ga suki desu ."
+                },
+                {
+                    "en": "Can you add more salt?",
+                    "ja": "塩をもっと足せますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0222.mp3",
+                    "romaji": "Shio o motto tase masu ka ?"
+                },
+                {
+                    "en": "This tastes bitter.",
+                    "ja": "これは苦い味がします。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0223.mp3",
+                    "romaji": "Kore wa nigai aji ga shi masu ."
+                },
+                {
+                    "en": "Do you like spicy food?",
+                    "ja": "辛い食べ物は好きですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0224.mp3",
+                    "romaji": "Tsurai tabemono wa suki desu ka ?"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance",
+            "words": [
+                {
+                    "en": "Clothes",
+                    "ja": "服",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0109.mp3",
+                    "romaji": "Fuku"
+                },
+                {
+                    "en": "T-shirt",
+                    "ja": "ティーシャツ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0110.mp3",
+                    "romaji": "Tiishatsu"
+                },
+                {
+                    "en": "Pants",
+                    "ja": "ズボン",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0111.mp3",
+                    "romaji": "Zubon"
+                },
+                {
+                    "en": "Skirt",
+                    "ja": "スカート",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0112.mp3",
+                    "romaji": "Sukaato"
+                },
+                {
+                    "en": "Dress",
+                    "ja": "ドレス",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0113.mp3",
+                    "romaji": "Doresu"
+                },
+                {
+                    "en": "Jacket",
+                    "ja": "ジャケット",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0114.mp3",
+                    "romaji": "Jaketto"
+                },
+                {
+                    "en": "Coat",
+                    "ja": "コート",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0115.mp3",
+                    "romaji": "Kooto"
+                },
+                {
+                    "en": "Shoes",
+                    "ja": "靴",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0116.mp3",
+                    "romaji": "Kutsu"
+                },
+                {
+                    "en": "Hat",
+                    "ja": "帽子",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0117.mp3",
+                    "romaji": "Boushi"
+                },
+                {
+                    "en": "Glasses",
+                    "ja": "眼鏡",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0118.mp3",
+                    "romaji": "Megane"
+                },
+                {
+                    "en": "Watch",
+                    "ja": "腕時計",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0119.mp3",
+                    "romaji": "Udedokei"
+                },
+                {
+                    "en": "Bag",
+                    "ja": "バッグ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0120.mp3",
+                    "romaji": "Baggu"
+                },
+                {
+                    "en": "Color",
+                    "ja": "色",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0121.mp3",
+                    "romaji": "Iro"
+                },
+                {
+                    "en": "Size",
+                    "ja": "サイズ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0122.mp3",
+                    "romaji": "Saizu"
+                },
+                {
+                    "en": "Big",
+                    "ja": "大きいです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0123.mp3",
+                    "romaji": "Ookii desu"
+                },
+                {
+                    "en": "Small",
+                    "ja": "小さいです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0124.mp3",
+                    "romaji": "Chiisai desu"
+                },
+                {
+                    "en": "Shirt",
+                    "ja": "シャツ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0241.mp3",
+                    "romaji": "Shatsu"
+                },
+                {
+                    "en": "Sweater",
+                    "ja": "セーター",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0242.mp3",
+                    "romaji": "Sētā"
+                },
+                {
+                    "en": "Trousers",
+                    "ja": "スラックス",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0243.mp3",
+                    "romaji": "Surakkusu"
+                },
+                {
+                    "en": "Jeans",
+                    "ja": "ジーンズ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0244.mp3",
+                    "romaji": "Jīnzu"
+                },
+                {
+                    "en": "Suit",
+                    "ja": "スーツ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0245.mp3",
+                    "romaji": "Sūtsu"
+                },
+                {
+                    "en": "Underwear",
+                    "ja": "下着",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0246.mp3",
+                    "romaji": "Shitagi"
+                },
+                {
+                    "en": "Socks",
+                    "ja": "靴下",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0247.mp3",
+                    "romaji": "Kutsushita"
+                },
+                {
+                    "en": "Boots",
+                    "ja": "ブーツ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0248.mp3",
+                    "romaji": "Būtsu"
+                },
+                {
+                    "en": "Gloves",
+                    "ja": "手袋",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0249.mp3",
+                    "romaji": "Tebukuro"
+                },
+                {
+                    "en": "Scarf",
+                    "ja": "マフラー",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0250.mp3",
+                    "romaji": "Mafurā"
+                },
+                {
+                    "en": "Belt",
+                    "ja": "ベルト",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0251.mp3",
+                    "romaji": "Beruto"
+                },
+                {
+                    "en": "Umbrella",
+                    "ja": "傘",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0252.mp3",
+                    "romaji": "Kasa"
+                },
+                {
+                    "en": "Appearance",
+                    "ja": "外見",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0253.mp3",
+                    "romaji": "Gaiken"
+                },
+                {
+                    "en": "Tall",
+                    "ja": "背が高い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0254.mp3",
+                    "romaji": "Se ga takai"
+                },
+                {
+                    "en": "Short",
+                    "ja": "背が低い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0255.mp3",
+                    "romaji": "Se ga hikui"
+                },
+                {
+                    "en": "Beautiful",
+                    "ja": "美しい",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0256.mp3",
+                    "romaji": "Utsukushii"
+                },
+                {
+                    "en": "Handsome",
+                    "ja": "ハンサム",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0257.mp3",
+                    "romaji": "Hansamu"
+                },
+                {
+                    "en": "Cute",
+                    "ja": "かわいい",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0258.mp3",
+                    "romaji": "Kawaii"
+                },
+                {
+                    "en": "Ugly",
+                    "ja": "醜い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0259.mp3",
+                    "romaji": "Minikui"
+                },
+                {
+                    "en": "Thin",
+                    "ja": "痩せている",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0260.mp3",
+                    "romaji": "Yase te iru"
+                },
+                {
+                    "en": "Fat",
+                    "ja": "太っている",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0261.mp3",
+                    "romaji": "Futotte iru"
+                },
+                {
+                    "en": "Young",
+                    "ja": "若い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0262.mp3",
+                    "romaji": "Wakai"
+                },
+                {
+                    "en": "Old",
+                    "ja": "年老いた",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0263.mp3",
+                    "romaji": "Toshioi ta"
+                },
+                {
+                    "en": "Attractive",
+                    "ja": "魅力的",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0264.mp3",
+                    "romaji": "Miryoku teki"
+                },
+                {
+                    "en": "Smart",
+                    "ja": "賢い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0265.mp3",
+                    "romaji": "Kashikoi"
+                },
+                {
+                    "en": "Clean",
+                    "ja": "清潔な",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0266.mp3",
+                    "romaji": "Seiketsu na"
+                },
+                {
+                    "en": "Dirty",
+                    "ja": "汚い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0267.mp3",
+                    "romaji": "Kitanai"
+                },
+                {
+                    "en": "Strong",
+                    "ja": "強い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0268.mp3",
+                    "romaji": "Tsuyoi desu"
+                },
+                {
+                    "en": "Red",
+                    "ja": "赤",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0269.mp3",
+                    "romaji": "Aka"
+                },
+                {
+                    "en": "Green",
+                    "ja": "緑",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0270.mp3",
+                    "romaji": "Midori"
+                },
+                {
+                    "en": "Blue",
+                    "ja": "青",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0271.mp3",
+                    "romaji": "Ao"
+                },
+                {
+                    "en": "Yellow",
+                    "ja": "黄色",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0272.mp3",
+                    "romaji": "Kiiro"
+                },
+                {
+                    "en": "Black",
+                    "ja": "黒",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0273.mp3",
+                    "romaji": "Kuro"
+                },
+                {
+                    "en": "White",
+                    "ja": "白",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0274.mp3",
+                    "romaji": "Shiro"
+                },
+                {
+                    "en": "Grey",
+                    "ja": "灰色",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0275.mp3",
+                    "romaji": "Haiiro"
+                },
+                {
+                    "en": "Brown",
+                    "ja": "茶色",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0276.mp3",
+                    "romaji": "Chairo"
+                },
+                {
+                    "en": "Orange",
+                    "ja": "オレンジ色",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0277.mp3",
+                    "romaji": "Orenji shoku"
+                },
+                {
+                    "en": "Pink",
+                    "ja": "ピンク",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0278.mp3",
+                    "romaji": "Pinku"
+                },
+                {
+                    "en": "Purple",
+                    "ja": "紫",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0279.mp3",
+                    "romaji": "Murasaki"
+                },
+                {
+                    "en": "Gold",
+                    "ja": "金色",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0280.mp3",
+                    "romaji": "Kin'iro"
+                },
+                {
+                    "en": "Silver",
+                    "ja": "銀色",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0281.mp3",
+                    "romaji": "Gin'iro"
+                },
+                {
+                    "en": "Light",
+                    "ja": "明るい",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0282.mp3",
+                    "romaji": "Akarui"
+                },
+                {
+                    "en": "Dark",
+                    "ja": "暗い",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0283.mp3",
+                    "romaji": "Kurai"
+                },
+                {
+                    "en": "Colorful",
+                    "ja": "カラフル",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0284.mp3",
+                    "romaji": "Karafuru"
+                }
+            ]
+        },
+        {
+            "name": "Clothing & Appearance - Phrases",
+            "words": [
+                {
+                    "en": "What should I wear?",
+                    "ja": "何を着ていけばいいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0383.mp3",
+                    "romaji": "Nani wo kite ikeba ii desu ka"
+                },
+                {
+                    "en": "That's pretty.",
+                    "ja": "それはきれいですね",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0384.mp3",
+                    "romaji": "Sore wa kirei desu ne"
+                },
+                {
+                    "en": "It suits you.",
+                    "ja": "似合っていますよ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0385.mp3",
+                    "romaji": "Niatteimasu yo"
+                },
+                {
+                    "en": "How about this?",
+                    "ja": "これはどうですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0386.mp3",
+                    "romaji": "Kore wa dou desu ka"
+                },
+                {
+                    "en": "Can I try it on?",
+                    "ja": "試着してもいいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0387.mp3",
+                    "romaji": "Shichaku shitemo ii desu ka"
+                },
+                {
+                    "en": "What size?",
+                    "ja": "サイズは何ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0388.mp3",
+                    "romaji": "Saizu wa nan desu ka"
+                },
+                {
+                    "en": "A bit small.",
+                    "ja": "少し小さいです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0389.mp3",
+                    "romaji": "Sukoshi chiisai desu"
+                },
+                {
+                    "en": "A bit big.",
+                    "ja": "少し大きいです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0390.mp3",
+                    "romaji": "Sukoshi ookii desu"
+                },
+                {
+                    "en": "It's a perfect fit.",
+                    "ja": "ぴったりです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0391.mp3",
+                    "romaji": "Pittari desu"
+                },
+                {
+                    "en": "Other colors?",
+                    "ja": "他の色はありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0392.mp3",
+                    "romaji": "Hoka no iro wa arimasu ka"
+                },
+                {
+                    "en": "Black please.",
+                    "ja": "黒をください",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0393.mp3",
+                    "romaji": "Kuro wo kudasai"
+                },
+                {
+                    "en": "White is good.",
+                    "ja": "白がいいです",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0394.mp3",
+                    "romaji": "Shiro ga ii desu"
+                },
+                {
+                    "en": "Is this on sale?",
+                    "ja": "これはセール品ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0395.mp3",
+                    "romaji": "Kore wa seeru hin desu ka"
+                },
+                {
+                    "en": "Did you cut your hair?",
+                    "ja": "髪を切りましたか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0396.mp3",
+                    "romaji": "Kami wo kirimashita ka"
+                },
+                {
+                    "en": "New glasses?",
+                    "ja": "新しい眼鏡ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0397.mp3",
+                    "romaji": "Atarashii megane desu ka"
+                },
+                {
+                    "en": "You dress well.",
+                    "ja": "おしゃれですね",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0398.mp3",
+                    "romaji": "Oshare desu ne"
+                },
+                {
+                    "en": "Cool shoes.",
+                    "ja": "かっこいい靴ですね",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0399.mp3",
+                    "romaji": "Kakkoii kutsu desu ne"
+                },
+                {
+                    "en": "Pretty bag.",
+                    "ja": "きれいなバッグですね",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0400.mp3",
+                    "romaji": "Kirei na baggu desu ne"
+                },
+                {
+                    "en": "Could you tailor it to a smaller size?",
+                    "ja": "小さいサイズに直してもらえますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0401.mp3",
+                    "romaji": "Chiisai saizu ni naoshite moraemasu ka"
+                },
+                {
+                    "en": "I'm looking for something that matches this jacket.",
+                    "ja": "このジャケットに合うものを探しています",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0402.mp3",
+                    "romaji": "Kono jaketto ni au mono wo sagashiteimasu"
+                },
+                {
+                    "en": "I like your shirt.",
+                    "ja": "そのシャツ、いいですね。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0305.mp3",
+                    "romaji": "Sono shatsu , ii desu ne ."
+                },
+                {
+                    "en": "Where are my socks?",
+                    "ja": "私の靴下はどこですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0306.mp3",
+                    "romaji": "Watashi no kutsushita wa doko desu ka ?"
+                },
+                {
+                    "en": "This sweater is warm.",
+                    "ja": "このセーターは暖かいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0307.mp3",
+                    "romaji": "Kono sētā wa atatakai desu ."
+                },
+                {
+                    "en": "Do you need a scarf?",
+                    "ja": "マフラーは必要ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0308.mp3",
+                    "romaji": "Mafurā wa hitsuyō desu ka ?"
+                },
+                {
+                    "en": "My jeans are too tight.",
+                    "ja": "ジーンズがきつすぎます。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0309.mp3",
+                    "romaji": "Jīnzu ga kitsu sugi masu ."
+                },
+                {
+                    "en": "Is it cold outside?",
+                    "ja": "外は寒いですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0310.mp3",
+                    "romaji": "Soto wa samui desu ka ?"
+                },
+                {
+                    "en": "I forgot my gloves.",
+                    "ja": "手袋を忘れました。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0311.mp3",
+                    "romaji": "Tebukuro o wasure mashi ta ."
+                },
+                {
+                    "en": "Did you bring an umbrella?",
+                    "ja": "傘を持ってきましたか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0312.mp3",
+                    "romaji": "Kasa o motte ki mashi ta ka ?"
+                },
+                {
+                    "en": "She looks beautiful.",
+                    "ja": "彼女はとても美しいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0313.mp3",
+                    "romaji": "Kanojo wa totemo utsukushii desu ."
+                },
+                {
+                    "en": "Is he tall or short?",
+                    "ja": "彼は背が高いですか、低いですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0314.mp3",
+                    "romaji": "Kare wa se ga takai desu ka , hikui desu ka ?"
+                },
+                {
+                    "en": "You look young.",
+                    "ja": "若く見えますね。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0315.mp3",
+                    "romaji": "Wakaku mie masu ne ."
+                },
+                {
+                    "en": "How old is she?",
+                    "ja": "彼女は何歳ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0316.mp3",
+                    "romaji": "Kanojo wa nan sai desu ka ?"
+                },
+                {
+                    "en": "He's very handsome.",
+                    "ja": "彼はとてもハンサムです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0317.mp3",
+                    "romaji": "Kare wa totemo hansamu desu ."
+                },
+                {
+                    "en": "Does she look like her mother?",
+                    "ja": "彼女はお母さんに似ていますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0318.mp3",
+                    "romaji": "Kanojo wa okāsan ni ni te i masu ka ?"
+                },
+                {
+                    "en": "The baby is so cute.",
+                    "ja": "その赤ちゃんはとてもかわいいです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0319.mp3",
+                    "romaji": "Sono akachan wa totemo kawaii desu ."
+                },
+                {
+                    "en": "Are my hands clean?",
+                    "ja": "私の手はきれいですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0320.mp3",
+                    "romaji": "Watashi no te wa kirei desu ka ?"
+                },
+                {
+                    "en": "I like blue.",
+                    "ja": "青が好きです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0321.mp3",
+                    "romaji": "Ao ga suki desu ."
+                },
+                {
+                    "en": "What's your favorite color?",
+                    "ja": "好きな色は何ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0322.mp3",
+                    "romaji": "Suki na iro wa nani desu ka ?"
+                },
+                {
+                    "en": "The sky is blue.",
+                    "ja": "空は青いです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0323.mp3",
+                    "romaji": "Sora wa aoi desu ."
+                },
+                {
+                    "en": "Do you have it in black?",
+                    "ja": "黒はありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0324.mp3",
+                    "romaji": "Kuro wa ari masu ka ?"
+                },
+                {
+                    "en": "Red looks good on you.",
+                    "ja": "赤が似合いますね。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0325.mp3",
+                    "romaji": "Aka ga niai masu ne ."
+                },
+                {
+                    "en": "Is this white or grey?",
+                    "ja": "これは白ですか、灰色ですか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0326.mp3",
+                    "romaji": "Kore wa shiro desu ka , haiiro desu ka ?"
+                },
+                {
+                    "en": "I prefer dark colors.",
+                    "ja": "暗い色の方が好きです。",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0327.mp3",
+                    "romaji": "Kurai iro no hō ga suki desu ."
+                },
+                {
+                    "en": "Does it come in green?",
+                    "ja": "緑色はありますか？",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0328.mp3",
+                    "romaji": "Ryokushoku wa ari masu ka ?"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1175 @@
+{
+    "info": "MASTER REFERENCE EXPANDED - File 08 - Education & Work",
+    "categories": [
+        {
+            "name": "School & Education",
+            "words": [
+                {
+                    "en": "School",
+                    "zh": "学校。",
+                    "pinyin": "Xuéxiào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0001.mp3"
+                },
+                {
+                    "en": "University",
+                    "zh": "大学。",
+                    "pinyin": "Dàxué",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0002.mp3"
+                },
+                {
+                    "en": "Student",
+                    "zh": "学生。",
+                    "pinyin": "Xuésheng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0003.mp3"
+                },
+                {
+                    "en": "Teacher",
+                    "zh": "老师。",
+                    "pinyin": "Lǎoshī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0004.mp3"
+                },
+                {
+                    "en": "Professor",
+                    "zh": "教授。",
+                    "pinyin": "Jiàoshòu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0005.mp3"
+                },
+                {
+                    "en": "Class",
+                    "zh": "班级。",
+                    "pinyin": "Bānjí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0006.mp3"
+                },
+                {
+                    "en": "Lesson",
+                    "zh": "课。",
+                    "pinyin": "Kè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0007.mp3"
+                },
+                {
+                    "en": "Homework",
+                    "zh": "作业。",
+                    "pinyin": "Zuòyè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0008.mp3"
+                },
+                {
+                    "en": "Test",
+                    "zh": "测试。",
+                    "pinyin": "Cèshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0009.mp3"
+                },
+                {
+                    "en": "Exam",
+                    "zh": "考试。",
+                    "pinyin": "Kǎoshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0010.mp3"
+                },
+                {
+                    "en": "Grade",
+                    "zh": "成绩。",
+                    "pinyin": "Chéngjì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0011.mp3"
+                },
+                {
+                    "en": "Degree",
+                    "zh": "学位。",
+                    "pinyin": "Xuéwèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0012.mp3"
+                },
+                {
+                    "en": "Study",
+                    "zh": "学习。",
+                    "pinyin": "Xuéxí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0013.mp3"
+                },
+                {
+                    "en": "Learn",
+                    "zh": "学习。",
+                    "pinyin": "Xuéxí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0014.mp3"
+                },
+                {
+                    "en": "Teach",
+                    "zh": "教。",
+                    "pinyin": "Jiāo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0015.mp3"
+                },
+                {
+                    "en": "Book",
+                    "zh": "书。",
+                    "pinyin": "Shū",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0016.mp3"
+                },
+                {
+                    "en": "Notebook",
+                    "zh": "笔记本。",
+                    "pinyin": "Bǐjìběn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0017.mp3"
+                },
+                {
+                    "en": "Library",
+                    "zh": "图书馆。",
+                    "pinyin": "Túshūguǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0018.mp3"
+                },
+                {
+                    "en": "Lecture",
+                    "zh": "讲座。",
+                    "pinyin": "Jiǎngzuò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0019.mp3"
+                },
+                {
+                    "en": "Seminar",
+                    "zh": "研讨会。",
+                    "pinyin": "Yántǎohuì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0020.mp3"
+                },
+                {
+                    "en": "Workshop",
+                    "zh": "工作坊。",
+                    "pinyin": "Gōngzuòfāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0021.mp3"
+                },
+                {
+                    "en": "Study group",
+                    "zh": "学习小组。",
+                    "pinyin": "Xuéxí xiǎozǔ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0022.mp3"
+                },
+                {
+                    "en": "Syllabus",
+                    "zh": "教学大纲。",
+                    "pinyin": "Jiàoxué dàgāng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0023.mp3"
+                },
+                {
+                    "en": "Curriculum",
+                    "zh": "课程。",
+                    "pinyin": "Kèchéng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0024.mp3"
+                },
+                {
+                    "en": "Presentation",
+                    "zh": "演示。",
+                    "pinyin": "Yǎnshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0025.mp3"
+                },
+                {
+                    "en": "Deadline extension",
+                    "zh": "延期。",
+                    "pinyin": "Yánqī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0026.mp3"
+                },
+                {
+                    "en": "Academic advisor",
+                    "zh": "学术顾问。",
+                    "pinyin": "Xuéshù gùwèn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0027.mp3"
+                },
+                {
+                    "en": "Scholarship",
+                    "zh": "奖学金。",
+                    "pinyin": "Jiǎngxuéjīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0028.mp3"
+                },
+                {
+                    "en": "Tuition",
+                    "zh": "学费。",
+                    "pinyin": "Xuéfèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0029.mp3"
+                },
+                {
+                    "en": "Campus",
+                    "zh": "校园。",
+                    "pinyin": "Xiàoyuán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0030.mp3"
+                }
+            ]
+        },
+        {
+            "name": "School & Education - Phrases",
+            "words": [
+                {
+                    "en": "Where's your school?",
+                    "zh": "您的学校在哪里？",
+                    "pinyin": "Nín de xuéxiào zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0031.mp3"
+                },
+                {
+                    "en": "Do you go to university?",
+                    "zh": "您上大学吗？",
+                    "pinyin": "Nín shàng dàxué ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0032.mp3"
+                },
+                {
+                    "en": "I'm a student",
+                    "zh": "我是学生。",
+                    "pinyin": "Wǒ shì xuésheng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0033.mp3"
+                },
+                {
+                    "en": "Who's your teacher?",
+                    "zh": "您的老师是谁？",
+                    "pinyin": "Nín de lǎoshī shì shéi?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0034.mp3"
+                },
+                {
+                    "en": "I have a professor",
+                    "zh": "我有一位教授。",
+                    "pinyin": "Wǒ yǒu yí wèi jiàoshòu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0035.mp3"
+                },
+                {
+                    "en": "What class are you in?",
+                    "zh": "您在哪个班？",
+                    "pinyin": "Nín zài nǎge bān?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0036.mp3"
+                },
+                {
+                    "en": "I have a lesson",
+                    "zh": "我有一节课。",
+                    "pinyin": "Wǒ yǒu yì jié kè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0037.mp3"
+                },
+                {
+                    "en": "Did you do your homework?",
+                    "zh": "您做作业了吗？",
+                    "pinyin": "Nín zuò zuòyè le ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0038.mp3"
+                },
+                {
+                    "en": "I have a test",
+                    "zh": "我有个测试。",
+                    "pinyin": "Wǒ yǒu gè cèshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0039.mp3"
+                },
+                {
+                    "en": "When's the exam?",
+                    "zh": "什么时候考试？",
+                    "pinyin": "Shénme shíhou kǎoshì?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0040.mp3"
+                },
+                {
+                    "en": "What's your grade?",
+                    "zh": "您的成绩是多少？",
+                    "pinyin": "Nín de chéngjì shì duōshǎo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0041.mp3"
+                },
+                {
+                    "en": "I got my degree",
+                    "zh": "我拿到了学位。",
+                    "pinyin": "Wǒ nádào le xuéwèi",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0042.mp3"
+                },
+                {
+                    "en": "I'm studying",
+                    "zh": "我在学习。",
+                    "pinyin": "Wǒ zài xuéxí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0043.mp3"
+                },
+                {
+                    "en": "What are you learning?",
+                    "zh": "您在学什么？",
+                    "pinyin": "Nín zài xué shénme?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0044.mp3"
+                },
+                {
+                    "en": "Can you teach me?",
+                    "zh": "您能教我吗？",
+                    "pinyin": "Nín néng jiāo wǒ ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0045.mp3"
+                },
+                {
+                    "en": "I need a book",
+                    "zh": "我需要一本书。",
+                    "pinyin": "Wǒ xūyào yì běn shū",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0046.mp3"
+                },
+                {
+                    "en": "Where's your notebook?",
+                    "zh": "您的笔记本在哪里？",
+                    "pinyin": "Nín de bǐjìběn zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0047.mp3"
+                },
+                {
+                    "en": "Let's go to the library",
+                    "zh": "我们去图书馆吧。",
+                    "pinyin": "Wǒmen qù túshūguǎn ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0048.mp3"
+                },
+                {
+                    "en": "Today's lecture was helpful",
+                    "zh": "今天的讲座很有帮助。",
+                    "pinyin": "Jīntiān de jiǎngzuò hěn yǒu bāngzhù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0049.mp3"
+                },
+                {
+                    "en": "We discussed it in the seminar",
+                    "zh": "我们在研讨会上讨论过。",
+                    "pinyin": "Wǒmen zài yántǎohuì shàng tǎolùn guò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0050.mp3"
+                },
+                {
+                    "en": "Join our study group",
+                    "zh": "加入我们的学习小组吧。",
+                    "pinyin": "Jiārù wǒmen de xuéxí xiǎozǔ ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0051.mp3"
+                },
+                {
+                    "en": "I need to update my notes",
+                    "zh": "我需要更新笔记。",
+                    "pinyin": "Wǒ xūyào gēngxīn bǐjì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0052.mp3"
+                },
+                {
+                    "en": "The syllabus is online",
+                    "zh": "教学大纲在网上。",
+                    "pinyin": "Jiàoxué dàgāng zài wǎngshàng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0053.mp3"
+                },
+                {
+                    "en": "When is the next exam?",
+                    "zh": "下次考试是什么时候？",
+                    "pinyin": "Xiàcì kǎoshì shì shénme shíhou?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0054.mp3"
+                },
+                {
+                    "en": "Can we get a deadline extension?",
+                    "zh": "我们可以延期吗？",
+                    "pinyin": "Wǒmen kěyǐ yánqī ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0055.mp3"
+                },
+                {
+                    "en": "Ask the academic advisor",
+                    "zh": "问问学术顾问。",
+                    "pinyin": "Wènwen xuéshù gùwèn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0056.mp3"
+                },
+                {
+                    "en": "How much is the tuition?",
+                    "zh": "学费是多少？",
+                    "pinyin": "Xuéfèi shì duōshǎo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0057.mp3"
+                },
+                {
+                    "en": "Let's meet on campus",
+                    "zh": "我们在校园见面吧。",
+                    "pinyin": "Wǒmen zài xiàoyuán jiànmiàn ba",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0058.mp3"
+                },
+                {
+                    "en": "Could you share the slides after class?",
+                    "zh": "课后能分享幻灯片吗？",
+                    "pinyin": "Kèhòu néng fēnxiǎng huàndēngpiàn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0059.mp3"
+                },
+                {
+                    "en": "I'm catching up on last week's lecture",
+                    "zh": "我在补上周的讲座。",
+                    "pinyin": "Wǒ zài bǔ shàngzhōu de jiǎngzuò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0060.mp3"
+                },
+                {
+                    "en": "Can we form a study pair for the exam?",
+                    "zh": "我们可以结对复习考试吗？",
+                    "pinyin": "Wǒmen kěyǐ jiéduì fùxí kǎoshì ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0061.mp3"
+                },
+                {
+                    "en": "I'll email the professor with our questions",
+                    "zh": "我会给教授发邮件问我们的问题。",
+                    "pinyin": "Wǒ huì gěi jiàoshòu fā yóujiàn wèn wǒmen de wèntí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0062.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career",
+            "words": [
+                {
+                    "en": "Work",
+                    "zh": "工作。",
+                    "pinyin": "Gōngzuò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0063.mp3"
+                },
+                {
+                    "en": "Job",
+                    "zh": "工作。",
+                    "pinyin": "Gōngzuò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0064.mp3"
+                },
+                {
+                    "en": "Career",
+                    "zh": "职业。",
+                    "pinyin": "Zhíyè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0065.mp3"
+                },
+                {
+                    "en": "Office",
+                    "zh": "办公室。",
+                    "pinyin": "Bàngōngshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0066.mp3"
+                },
+                {
+                    "en": "Company",
+                    "zh": "公司。",
+                    "pinyin": "Gōngsī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0067.mp3"
+                },
+                {
+                    "en": "Boss",
+                    "zh": "老板。",
+                    "pinyin": "Lǎobǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0068.mp3"
+                },
+                {
+                    "en": "Colleague",
+                    "zh": "同事。",
+                    "pinyin": "Tóngshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0069.mp3"
+                },
+                {
+                    "en": "Employee",
+                    "zh": "员工。",
+                    "pinyin": "Yuángōng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0070.mp3"
+                },
+                {
+                    "en": "Salary",
+                    "zh": "薪水。",
+                    "pinyin": "Xīnshuǐ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0071.mp3"
+                },
+                {
+                    "en": "Meeting",
+                    "zh": "会议。",
+                    "pinyin": "Huìyì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0072.mp3"
+                },
+                {
+                    "en": "Project",
+                    "zh": "项目。",
+                    "pinyin": "Xiàngmù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0073.mp3"
+                },
+                {
+                    "en": "Task",
+                    "zh": "任务。",
+                    "pinyin": "Rènwu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0074.mp3"
+                },
+                {
+                    "en": "Deadline",
+                    "zh": "截止日期。",
+                    "pinyin": "Jiézhǐ rìqī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0075.mp3"
+                },
+                {
+                    "en": "Promotion",
+                    "zh": "升职。",
+                    "pinyin": "Shēngzhí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0076.mp3"
+                },
+                {
+                    "en": "Experience",
+                    "zh": "经验。",
+                    "pinyin": "Jīngyàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0077.mp3"
+                },
+                {
+                    "en": "Skills",
+                    "zh": "技能。",
+                    "pinyin": "Jìnéng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0078.mp3"
+                },
+                {
+                    "en": "Resume",
+                    "zh": "简历。",
+                    "pinyin": "Jiǎnlì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0079.mp3"
+                },
+                {
+                    "en": "Interview",
+                    "zh": "面试。",
+                    "pinyin": "Miànshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0080.mp3"
+                },
+                {
+                    "en": "Coworker",
+                    "zh": "同事。",
+                    "pinyin": "Tóngshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0081.mp3"
+                },
+                {
+                    "en": "Supervisor",
+                    "zh": "主管。",
+                    "pinyin": "Zhǔguǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0082.mp3"
+                },
+                {
+                    "en": "Assignment",
+                    "zh": "任务。",
+                    "pinyin": "Rènwu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0083.mp3"
+                },
+                {
+                    "en": "Shift",
+                    "zh": "轮班。",
+                    "pinyin": "Lúnbān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0084.mp3"
+                },
+                {
+                    "en": "Overtime",
+                    "zh": "加班。",
+                    "pinyin": "Jiābān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0085.mp3"
+                },
+                {
+                    "en": "Meeting agenda",
+                    "zh": "会议议程。",
+                    "pinyin": "Huìyì yìchéng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0086.mp3"
+                },
+                {
+                    "en": "Meeting minutes",
+                    "zh": "会议纪要。",
+                    "pinyin": "Huìyì jìyào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0087.mp3"
+                },
+                {
+                    "en": "Training",
+                    "zh": "培训。",
+                    "pinyin": "Péixùn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0088.mp3"
+                },
+                {
+                    "en": "Reference",
+                    "zh": "推荐信。",
+                    "pinyin": "Tuījiànxìn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0089.mp3"
+                },
+                {
+                    "en": "Contract",
+                    "zh": "合同。",
+                    "pinyin": "Hétong",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0090.mp3"
+                },
+                {
+                    "en": "Full-time",
+                    "zh": "全职。",
+                    "pinyin": "Quánzhí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0091.mp3"
+                },
+                {
+                    "en": "Part-time",
+                    "zh": "兼职。",
+                    "pinyin": "Jiānzhí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0092.mp3"
+                },
+                {
+                    "en": "Remote work",
+                    "zh": "远程工作。",
+                    "pinyin": "Yuǎnchéng gōngzuò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0093.mp3"
+                },
+                {
+                    "en": "Flex schedule",
+                    "zh": "弹性工作制。",
+                    "pinyin": "Tánxìng gōngzuòzhì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0094.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Work & Career - Phrases",
+            "words": [
+                {
+                    "en": "Where do you work?",
+                    "zh": "您在哪里工作？",
+                    "pinyin": "Nín zài nǎlǐ gōngzuò?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0095.mp3"
+                },
+                {
+                    "en": "What's your job?",
+                    "zh": "您是做什么工作的？",
+                    "pinyin": "Nín shì zuò shénme gōngzuò de?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0096.mp3"
+                },
+                {
+                    "en": "I love my career",
+                    "zh": "我热爱我的事业。",
+                    "pinyin": "Wǒ rè'ài wǒ de shìyè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0097.mp3"
+                },
+                {
+                    "en": "I'm going to the office",
+                    "zh": "我要去办公室。",
+                    "pinyin": "Wǒ yào qù bàngōngshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0098.mp3"
+                },
+                {
+                    "en": "Which company?",
+                    "zh": "哪家公司？",
+                    "pinyin": "Nǎ jiā gōngsī?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0099.mp3"
+                },
+                {
+                    "en": "Who's your boss?",
+                    "zh": "您的老板是谁？",
+                    "pinyin": "Nín de lǎobǎn shì shéi?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0100.mp3"
+                },
+                {
+                    "en": "We're colleagues",
+                    "zh": "我们是同事。",
+                    "pinyin": "Wǒmen shì tóngshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0101.mp3"
+                },
+                {
+                    "en": "I'm an employee",
+                    "zh": "我是员工。",
+                    "pinyin": "Wǒ shì yuángōng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0102.mp3"
+                },
+                {
+                    "en": "What's your salary?",
+                    "zh": "您的薪水是多少？",
+                    "pinyin": "Nín de xīnshuǐ shì duōshǎo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0103.mp3"
+                },
+                {
+                    "en": "I have a meeting",
+                    "zh": "我有个会议。",
+                    "pinyin": "Wǒ yǒu gè huìyì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0104.mp3"
+                },
+                {
+                    "en": "I'm working on a project",
+                    "zh": "我正在做一个项目。",
+                    "pinyin": "Wǒ zhèngzài zuò yí gè xiàngmù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0105.mp3"
+                },
+                {
+                    "en": "I have many tasks",
+                    "zh": "我有很多任务。",
+                    "pinyin": "Wǒ yǒu hěn duō rènwu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0106.mp3"
+                },
+                {
+                    "en": "What's the deadline?",
+                    "zh": "截止日期是什么时候？",
+                    "pinyin": "Jiézhǐ rìqī shì shénme shíhou?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0107.mp3"
+                },
+                {
+                    "en": "I got a promotion!",
+                    "zh": "我升职了！",
+                    "pinyin": "Wǒ shēngzhí le!",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0108.mp3"
+                },
+                {
+                    "en": "Do you have experience?",
+                    "zh": "您有经验吗？",
+                    "pinyin": "Nín yǒu jīngyàn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0109.mp3"
+                },
+                {
+                    "en": "What are your skills?",
+                    "zh": "您有什么技能？",
+                    "pinyin": "Nín yǒu shénme jìnéng?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0110.mp3"
+                },
+                {
+                    "en": "Send your resume",
+                    "zh": "发送您的简历。",
+                    "pinyin": "Fāsòng nín de jiǎnlì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0111.mp3"
+                },
+                {
+                    "en": "I have an interview",
+                    "zh": "我有个面试。",
+                    "pinyin": "Wǒ yǒu gè miànshì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0112.mp3"
+                },
+                {
+                    "en": "I coordinate with my coworkers",
+                    "zh": "我和同事协调。",
+                    "pinyin": "Wǒ hé tóngshì xiétiáo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0113.mp3"
+                },
+                {
+                    "en": "Could you approve this task?",
+                    "zh": "您能批准这个任务吗？",
+                    "pinyin": "Nín néng pīzhǔn zhège rènwu ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0114.mp3"
+                },
+                {
+                    "en": "The deadline is next week",
+                    "zh": "截止日期是下周。",
+                    "pinyin": "Jiézhǐ rìqī shì xiàzhōu",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0115.mp3"
+                },
+                {
+                    "en": "Let's review the meeting agenda",
+                    "zh": "我们回顾一下会议议程。",
+                    "pinyin": "Wǒmen huígù yíxià huìyì yìchéng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0116.mp3"
+                },
+                {
+                    "en": "I'll write the minutes",
+                    "zh": "我来写会议纪要。",
+                    "pinyin": "Wǒ lái xiě huìyì jìyào",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0117.mp3"
+                },
+                {
+                    "en": "She received a promotion",
+                    "zh": "她升职了。",
+                    "pinyin": "Tā shēngzhí le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0118.mp3"
+                },
+                {
+                    "en": "This training builds new skills",
+                    "zh": "这次培训能培养新技能。",
+                    "pinyin": "Zhè cì péixùn néng péiyǎng xīn jìnéng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0119.mp3"
+                },
+                {
+                    "en": "I updated my work experience",
+                    "zh": "我更新了工作经验。",
+                    "pinyin": "Wǒ gēngxīn le gōngzuò jīngyàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0120.mp3"
+                },
+                {
+                    "en": "Can you sign the contract?",
+                    "zh": "您能签合同吗？",
+                    "pinyin": "Nín néng qiān hétong ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0121.mp3"
+                },
+                {
+                    "en": "We allow flexible schedules",
+                    "zh": "我们允许弹性工作制。",
+                    "pinyin": "Wǒmen yǔnxǔ tánxìng gōngzuòzhì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0122.mp3"
+                },
+                {
+                    "en": "Let's align on priorities before the meeting",
+                    "zh": "会议前我们先统一优先级。",
+                    "pinyin": "Huìyì qián wǒmen xiān tǒngyī yōuxiānjí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0123.mp3"
+                },
+                {
+                    "en": "Can you cover my shift on Friday afternoon?",
+                    "zh": "周五下午您能帮我顶班吗？",
+                    "pinyin": "Zhōuwǔ xiàwǔ nín néng bāng wǒ dǐngbān ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0124.mp3"
+                },
+                {
+                    "en": "I'll send a recap after the call",
+                    "zh": "通话后我会发个总结。",
+                    "pinyin": "Tōnghuà hòu wǒ huì fā gè zǒngjié",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0125.mp3"
+                },
+                {
+                    "en": "Could you loop me in on that thread?",
+                    "zh": "能把我也加进那个讨论吗？",
+                    "pinyin": "Néng bǎ wǒ yě jiā jìn nàge tǎolùn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0126.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices",
+            "words": [
+                {
+                    "en": "Computer",
+                    "zh": "电脑。",
+                    "pinyin": "Diànnǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0127.mp3"
+                },
+                {
+                    "en": "Laptop",
+                    "zh": "笔记本电脑。",
+                    "pinyin": "Bǐjìběn diànnǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0128.mp3"
+                },
+                {
+                    "en": "Phone",
+                    "zh": "电话。",
+                    "pinyin": "Diànhuà",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0129.mp3"
+                },
+                {
+                    "en": "Tablet",
+                    "zh": "平板电脑。",
+                    "pinyin": "Píngbǎn diànnǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0130.mp3"
+                },
+                {
+                    "en": "Screen",
+                    "zh": "屏幕。",
+                    "pinyin": "Píngmù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0131.mp3"
+                },
+                {
+                    "en": "Keyboard",
+                    "zh": "键盘。",
+                    "pinyin": "Jiànpán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0132.mp3"
+                },
+                {
+                    "en": "Mouse",
+                    "zh": "鼠标。",
+                    "pinyin": "Shǔbiāo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0133.mp3"
+                },
+                {
+                    "en": "Internet",
+                    "zh": "互联网。",
+                    "pinyin": "Hùliánwǎng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0134.mp3"
+                },
+                {
+                    "en": "Wifi",
+                    "zh": "无线网。",
+                    "pinyin": "Wúxiànwǎng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0135.mp3"
+                },
+                {
+                    "en": "Email",
+                    "zh": "电子邮件。",
+                    "pinyin": "Diànzǐ yóujiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0136.mp3"
+                },
+                {
+                    "en": "Password",
+                    "zh": "密码。",
+                    "pinyin": "Mìmǎ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0137.mp3"
+                },
+                {
+                    "en": "Website",
+                    "zh": "网站。",
+                    "pinyin": "Wǎngzhàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0138.mp3"
+                },
+                {
+                    "en": "App",
+                    "zh": "应用程序。",
+                    "pinyin": "Yìngyòng chéngxù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0139.mp3"
+                },
+                {
+                    "en": "Software",
+                    "zh": "软件。",
+                    "pinyin": "Ruǎnjiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0140.mp3"
+                },
+                {
+                    "en": "Battery",
+                    "zh": "电池。",
+                    "pinyin": "Diànchí",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0141.mp3"
+                },
+                {
+                    "en": "Charger",
+                    "zh": "充电器。",
+                    "pinyin": "Chōngdiànqì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0142.mp3"
+                },
+                {
+                    "en": "Camera",
+                    "zh": "相机。",
+                    "pinyin": "Xiàngjī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0143.mp3"
+                },
+                {
+                    "en": "Headphones",
+                    "zh": "耳机。",
+                    "pinyin": "Ěrjī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0144.mp3"
+                },
+                {
+                    "en": "Smartphone",
+                    "zh": "智能手机。",
+                    "pinyin": "Zhìnéng shǒujī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0145.mp3"
+                },
+                {
+                    "en": "Hotspot",
+                    "zh": "热点。",
+                    "pinyin": "Rèdiǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0146.mp3"
+                },
+                {
+                    "en": "Cloud storage",
+                    "zh": "云存储。",
+                    "pinyin": "Yún cúnchǔ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0147.mp3"
+                },
+                {
+                    "en": "File share",
+                    "zh": "文件共享。",
+                    "pinyin": "Wénjiàn gòngxiǎng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0148.mp3"
+                },
+                {
+                    "en": "Screenshot",
+                    "zh": "截屏。",
+                    "pinyin": "Jiépíng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0149.mp3"
+                },
+                {
+                    "en": "Software update",
+                    "zh": "软件更新。",
+                    "pinyin": "Ruǎnjiàn gēngxīn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0150.mp3"
+                },
+                {
+                    "en": "Download",
+                    "zh": "下载。",
+                    "pinyin": "Xiàzài",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0151.mp3"
+                },
+                {
+                    "en": "Upload",
+                    "zh": "上传。",
+                    "pinyin": "Shàngchuán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0152.mp3"
+                },
+                {
+                    "en": "Notification",
+                    "zh": "通知。",
+                    "pinyin": "Tōngzhī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0153.mp3"
+                },
+                {
+                    "en": "Username",
+                    "zh": "用户名。",
+                    "pinyin": "Yònghùmíng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0154.mp3"
+                },
+                {
+                    "en": "Two-factor login",
+                    "zh": "双重认证登录。",
+                    "pinyin": "Shuāngchóng rènzhèng dēnglù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0155.mp3"
+                },
+                {
+                    "en": "Browser",
+                    "zh": "浏览器。",
+                    "pinyin": "Liúlǎnqì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0156.mp3"
+                },
+                {
+                    "en": "Tab",
+                    "zh": "标签页。",
+                    "pinyin": "Biāoqiānyè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0157.mp3"
+                },
+                {
+                    "en": "Bookmark",
+                    "zh": "书签。",
+                    "pinyin": "Shūqiān",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0158.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Technology & Devices - Phrases",
+            "words": [
+                {
+                    "en": "Do you have a computer?",
+                    "zh": "您有电脑吗？",
+                    "pinyin": "Nín yǒu diànnǎo ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0159.mp3"
+                },
+                {
+                    "en": "I need my laptop",
+                    "zh": "我需要我的笔记本电脑。",
+                    "pinyin": "Wǒ xūyào wǒ de bǐjìběn diànnǎo",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0160.mp3"
+                },
+                {
+                    "en": "Where's my phone?",
+                    "zh": "我的电话在哪里？",
+                    "pinyin": "Wǒ de diànhuà zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0161.mp3"
+                },
+                {
+                    "en": "Can I use your tablet?",
+                    "zh": "我可以用您的平板电脑吗？",
+                    "pinyin": "Wǒ kěyǐ yòng nín de píngbǎn diànnǎo ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0162.mp3"
+                },
+                {
+                    "en": "Look at the screen",
+                    "zh": "看屏幕。",
+                    "pinyin": "Kàn píngmù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0163.mp3"
+                },
+                {
+                    "en": "I need a keyboard",
+                    "zh": "我需要键盘。",
+                    "pinyin": "Wǒ xūyào jiànpán",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0164.mp3"
+                },
+                {
+                    "en": "Where's the mouse?",
+                    "zh": "鼠标在哪里？",
+                    "pinyin": "Shǔbiāo zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0165.mp3"
+                },
+                {
+                    "en": "Is there internet?",
+                    "zh": "有网吗？",
+                    "pinyin": "Yǒu wǎng ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0166.mp3"
+                },
+                {
+                    "en": "What's the wifi password?",
+                    "zh": "无线网密码是多少？",
+                    "pinyin": "Wúxiànwǎng mìmǎ shì duōshǎo?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0167.mp3"
+                },
+                {
+                    "en": "Check your email",
+                    "zh": "查收您的邮件。",
+                    "pinyin": "Cháshōu nín de yóujiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0168.mp3"
+                },
+                {
+                    "en": "I forgot my password",
+                    "zh": "我忘记密码了。",
+                    "pinyin": "Wǒ wàngjì mìmǎ le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0185.mp3"
+                },
+                {
+                    "en": "Go to the website",
+                    "zh": "去那个网站。",
+                    "pinyin": "Qù nàge wǎngzhàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0170.mp3"
+                },
+                {
+                    "en": "Download the app",
+                    "zh": "下载应用程序。",
+                    "pinyin": "Xiàzài yìngyòng chéngxù",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0171.mp3"
+                },
+                {
+                    "en": "Install the software",
+                    "zh": "安装软件。",
+                    "pinyin": "Ānzhuāng ruǎnjiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0172.mp3"
+                },
+                {
+                    "en": "The battery is dead",
+                    "zh": "没电了。",
+                    "pinyin": "Méi diàn le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0173.mp3"
+                },
+                {
+                    "en": "I need a charger",
+                    "zh": "我需要充电器。",
+                    "pinyin": "Wǒ xūyào chōngdiànqì",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0174.mp3"
+                },
+                {
+                    "en": "Use the camera",
+                    "zh": "用相机。",
+                    "pinyin": "Yòng xiàngjī",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0175.mp3"
+                },
+                {
+                    "en": "Where are my headphones?",
+                    "zh": "我的耳机在哪里？",
+                    "pinyin": "Wǒ de ěrjī zài nǎlǐ?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0176.mp3"
+                },
+                {
+                    "en": "My battery life is low",
+                    "zh": "我电量低了。",
+                    "pinyin": "Wǒ diànliàng dī le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0177.mp3"
+                },
+                {
+                    "en": "Can I use your charger?",
+                    "zh": "我可以用您的充电器吗？",
+                    "pinyin": "Wǒ kěyǐ yòng nín de chōngdiànqì ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0178.mp3"
+                },
+                {
+                    "en": "The wifi signal is weak",
+                    "zh": "无线网信号很弱。",
+                    "pinyin": "Wúxiànwǎng xìnhào hěn ruò",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0179.mp3"
+                },
+                {
+                    "en": "Turn on the hotspot",
+                    "zh": "打开热点。",
+                    "pinyin": "Dǎkāi rèdiǎn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0180.mp3"
+                },
+                {
+                    "en": "I'll upload it to cloud storage",
+                    "zh": "我会把它上传到云存储。",
+                    "pinyin": "Wǒ huì bǎ tā shàngchuán dào yún cúnchǔ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0181.mp3"
+                },
+                {
+                    "en": "Please share the file",
+                    "zh": "请分享文件。",
+                    "pinyin": "Qǐng fēnxiǎng wénjiàn",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0182.mp3"
+                },
+                {
+                    "en": "Send me a screenshot",
+                    "zh": "发给我截屏。",
+                    "pinyin": "Fā gěi wǒ jiépíng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0183.mp3"
+                },
+                {
+                    "en": "Did you get the notification?",
+                    "zh": "您收到通知了吗？",
+                    "pinyin": "Nín shōudào tōngzhī le ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0184.mp3"
+                },
+                {
+                    "en": "I forgot my password",
+                    "zh": "我忘记密码了。",
+                    "pinyin": "Wǒ wàngjì mìmǎ le",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0185.mp3"
+                },
+                {
+                    "en": "Open a new browser tab",
+                    "zh": "打开一个新的浏览器标签页。",
+                    "pinyin": "Dǎkāi yí gè xīn de liúlǎnqì biāoqiānyè",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0186.mp3"
+                },
+                {
+                    "en": "Could you mute when you're not speaking?",
+                    "zh": "不说话时能静音吗？",
+                    "pinyin": "Bù shuōhuà shí néng jìngyīn ma?",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0187.mp3"
+                },
+                {
+                    "en": "Let's test the microphone before we start",
+                    "zh": "开始前我们测试一下麦克风。",
+                    "pinyin": "Kāishǐ qián wǒmen cèshì yíxià màikèfēng",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0188.mp3"
+                },
+                {
+                    "en": "I'll share the link in the chat",
+                    "zh": "我会在聊天中分享链接。",
+                    "pinyin": "Wǒ huì zài liáotiān zhōng fēnxiǎng liànjiē",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0189.mp3"
+                },
+                {
+                    "en": "Please back up the file to cloud storage",
+                    "zh": "请把文件备份到云存储。",
+                    "pinyin": "Qǐng bǎ wénjiàn bèifèn dào yún cúnchǔ",
+                    "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/zh/08/zh_0190.mp3"
+                }
+            ]
+        }
+    ]
+}
