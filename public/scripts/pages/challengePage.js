@@ -28,7 +28,6 @@ const SOURCE_MAIN_CATEGORY_TITLES = {
  * Initialize Challenge Page
  */
 export async function initChallengePageNew() {
- console.log('🎯 Initializing Challenge Page');
  challengeService.resetChallenge();
  const hadInterruptedChallenge = recoverInterruptedChallenge();
 
@@ -76,9 +75,6 @@ export async function initChallengePageNew() {
  }
  multiLanguageCategories = allCategories;
 
- console.log(
- `📚 Loaded ${allCategories.length} categories across ${languageCategoryCache.size} languages (current: ${currentLang})`
- );
 
  // Render category selection view
  renderCategorySelection(allCategories);
@@ -96,7 +92,6 @@ export async function initChallengePageNew() {
  // Fallback timeout - if auth doesn't resolve in 3 seconds, assume logged out
  setTimeout(() => {
  if (!authStateResolved) {
- console.log('⏱️ Auth timeout - assuming logged out');
  authStateResolved = true;
  toggleLoginAlert();
  renderCategorySelection(multiLanguageCategories);
@@ -110,7 +105,6 @@ export async function initChallengePageNew() {
  });
  // Listen for cloud sync complete to get fresh data
  window.addEventListener('cloudSyncComplete', () => {
- console.log('☁️ Challenge page: Cloud sync complete, refreshing button states');
  languageButtonStateCache.clear(); // Clear cache to force reload from localStorage
  if (isQuizActive()) {
  return;
@@ -558,7 +552,6 @@ function startChallenge(source, categoryName, language) {
  }
 
  const targetLanguage = language || languageService.getCurrentLanguage();
- console.log(`🎯 Starting challenge: ${targetLanguage} | ${source} - ${categoryName}`);
 
  // Find the category in the language bundle
  const languageBundle = languageCategoryCache.get(targetLanguage);
@@ -591,7 +584,6 @@ function startChallenge(source, categoryName, language) {
  startedAt: Date.now(),
  });
 
- console.log(`✅ Challenge generated: ${challenge.totalQuestions} questions`);
 
  // Hide category selection, show quiz view
  document.getElementById('category-selection-view').classList.add('hidden');
@@ -725,7 +717,6 @@ function showResults() {
  if (!results) return;
  clearActiveChallengeSession();
 
- console.log('📊 Challenge results:', results);
 
  // Save if passed
  if (results.passed) {

@@ -32,7 +32,6 @@ app.use(
   cors({
     origin: [
       "http://localhost:5000",
-      "https://mellowcards.com",
       "https://zentalist.app",
       "https://us-central1-costam-3f612.cloudfunctions.net",
     ],

@@ -153,9 +153,6 @@ const initialize = () => {
     // Retry after a short delay
     setTimeout(() => {
       if (window.languageService) {
-        console.log(
-          "🔍 [index.js] Calling languageService.initializeUI() (delayed)"
-        );
         window.languageService.initializeUI();
       } else {
         console.error("🔍 [index.js] languageService still not available");

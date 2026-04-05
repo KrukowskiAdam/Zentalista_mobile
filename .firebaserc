@@ -1,8 +1,5 @@
 {
   "projects": {
-    "default": "costam-3f612",
-    "development": "costam-3f612"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "costam-3f612"
+  }
 }

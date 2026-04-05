@@ -48,10 +48,6 @@ class MainApp {
     this.pendingInit = true;
 
     try {
-      console.log("🔍 Starting app initialization...");
-
-      // Initialize language service UI
-      console.log("🔍 [main.js] Checking languageService:", !!languageService);
       if (
         languageService &&
         typeof languageService.initializeUI === "function"
@@ -69,7 +65,6 @@ class MainApp {
 
       // Double-check premium status if needed
       if (auth.currentUser && typeof window.isPremiumUser !== "boolean") {
-        console.log("🔍 Double-checking premium status...");
         await premiumService.checkPremiumStatus(auth.currentUser);
         window.isPremiumUser = premiumService.isPremiumUser;
       }
@@ -77,17 +72,9 @@ class MainApp {
       // If we're coming from stats navigation, wait extra time for status to stabilize
       const targetCategoryInfo = localStorage.getItem("openCategory");
       if (targetCategoryInfo) {
-        console.log(
-          "🔍 Stats navigation in initApp - waiting for premium status to stabilize"
-        );
-        await new Promise((resolve) => setTimeout(resolve, 800)); // Wait 800ms
-        // Re-check premium status after wait
+        await new Promise((resolve) => setTimeout(resolve, 800));
         await premiumService.checkPremiumStatus(auth.currentUser);
         window.isPremiumUser = premiumService.isPremiumUser;
-        console.log(
-          "🔍 Premium status after stats wait:",
-          premiumService.isPremiumUser
-        );
       }
 
       // Initialize services
@@ -120,7 +107,6 @@ class MainApp {
         }
         if (firstCategory) {
           stateService.categoryFilter = firstCategory;
-          console.log("📌 Default category:", firstCategory);
         }
       }
 
@@ -138,7 +124,6 @@ class MainApp {
 
       this.setupEventListeners();
 
-      console.log("🔍 App initialization completed successfully");
     } catch (error) {
       console.error("Error initializing app:", error);
       alert("App initialization error! Check the console.");
@@ -161,9 +146,7 @@ class MainApp {
 
       // Initialize sync service if user is logged in
       if (user) {
-        console.log("🔍 User logged in, initializing sync...");
         await syncService.init(user);
-        console.log("🔍 Sync initialization complete");
       }
 
       // If app is not initialized yet and we're on /learn page, trigger init
@@ -187,7 +170,6 @@ class MainApp {
     // Listen for premium status changes
     window.addEventListener("premiumStatusChanged", async (event) => {
       if (this.isAppInitialized && !stateService._blockRerender) {
-        console.log("🔍 Re-rendering due to premium status change");
         await dataService.fetchAllCards();
         await uiService.renderCards();
         uiService.renderPremiumBanner();

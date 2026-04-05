@@ -36,7 +36,6 @@ export class SidebarComponent {
  window.removeEventListener('premiumStatusChanged', this._premiumStatusHandler);
  }
  this._premiumStatusHandler = () => {
- console.log('🔍 Premium status changed - rebuilding sidebar');
  this.rebuildSidebar();
  };
  window.addEventListener('premiumStatusChanged', this._premiumStatusHandler);
@@ -183,7 +182,6 @@ export class SidebarComponent {
  */
  handleSidebarNavigation(targetCategoryInfo, targetSection, firstSection, categoryData) {
  if (targetCategoryInfo && targetSection) {
- console.log('🔍 Opening target section for stats navigation');
  targetSection.checkbox.checked = true;
  stateService.categoryFilter = targetCategoryInfo.category;
  setTimeout(() => {

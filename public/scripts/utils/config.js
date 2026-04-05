@@ -1,5 +1,5 @@
 // /public/scripts/utils/config.js
-// Configuration constants for MellowCards application
+// Configuration constants for Zentalist application
 
 /**
  * Get JSON URLs based on selected language

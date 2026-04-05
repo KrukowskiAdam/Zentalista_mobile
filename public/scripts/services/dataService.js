@@ -43,13 +43,6 @@ class DataService {
       // Mark premium categories
       this.markPremiumCategories();
 
-      console.log(
-        "🔍 DataService: Loaded",
-        this.allWords.length,
-        "words from",
-        this.categories.length,
-        "categories"
-      );
 
       return stateService.cardsData.length > 0;
     } catch (error) {

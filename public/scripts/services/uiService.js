@@ -280,20 +280,12 @@ class UIService {
 
  if (!gridContainer) return;
 
- console.log(
-"🎴 Rendering cards:",
- filteredData.length,
-"cards with",
- filteredWords.length,
-"words"
- );
  gridContainer.innerHTML ="";
  const fragment = document.createDocumentFragment();
  filteredData.forEach((card) =>
  fragment.appendChild(this.cardComponent.createCardElement(card))
  );
  gridContainer.appendChild(fragment);
- console.log("✅ Cards rendered to DOM");
 
  setTimeout(() => this.progressBarComponent.updateAllProgressBars(), 100);
  } catch (error) {

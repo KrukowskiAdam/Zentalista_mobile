@@ -21,6 +21,8 @@ const themes = {
     "level-expert-progress": "#ff8c0299",
     "level-learning": "#0ea5e9",
     "level-mastered": "#02bf33",
+    "light-border": "#c3c3c3",
+    "button-disabled": "#acacac",
   },
 
   // OPTION TWO - 5 base colors
@@ -31,12 +33,13 @@ const themes = {
     "learning-app-design-4": "#758EBF",
     "learning-app-design-5": "#F2F2F2",
 
-
     // Individual exceptions
-   "level-expert": "#ff8c02",      // Primary CTA accent
+    "level-expert": "#ff8c02",      // Primary CTA accent
     "level-expert-progress": "#ffbf72",
     "level-learning": "#0ea5e9",
     "level-mastered": "#02bf33",
+    "light-border": "#c3c3c3",
+    "button-disabled": "#acacac",
   },
 
   // OPTION THREE - 5 base colors
@@ -46,13 +49,14 @@ const themes = {
     "learning-app-design-3": "#F2B705",
     "learning-app-design-4": "#F29F05",
     "learning-app-design-5": "#F21905",
-  
 
     // Individual exceptions
-   "level-expert": "#ff8c02",      // Primary CTA accent
+    "level-expert": "#ff8c02",      // Primary CTA accent
     "level-expert-progress": "#ffbf72",
     "level-learning": "#0ea5e9",
     "level-mastered": "#02bf33",
+    "light-border": "#c3c3c3",
+    "button-disabled": "#acacac",
   },
 };
 

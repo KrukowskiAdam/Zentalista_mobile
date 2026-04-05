@@ -1,19 +1,21 @@
-import { initializeApp } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import {
- getAuth,
- onAuthStateChanged,
- createUserWithEmailAndPassword,
- signInWithEmailAndPassword,
- signOut,
- sendPasswordResetEmail,
-} from"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-import {  getFirestore,
- doc,
- getDoc,
- setDoc,
- serverTimestamp
-} from"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
-import { setupUI } from"./index.js";
+  getAuth,
+  onAuthStateChanged,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+  sendPasswordResetEmail,
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import {
+  getFirestore,
+  doc,
+  getDoc,
+  setDoc,
+  serverTimestamp,
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { setupUI } from "./index.js";
+import { CONFIG } from "./utils/config.js";
 
 // Trial duration constant
 const TRIAL_DAYS = 7;
@@ -34,17 +36,7 @@ try {
  console.warn("Failed to read ref param:", error);
 }
 
-const firebaseConfig = {
- apiKey:"AIzaSyA5TmUWOFkanWSVj-GU3SgDiKyD86yDgoQ",
- authDomain:"costam-3f612.firebaseapp.com",
- databaseURL:"https://costam-3f612-default-rtdb.firebaseio.com",
- projectId:"costam-3f612",
- storageBucket:"costam-3f612.firebasestorage.app",
- messagingSenderId:"767407380440",
- appId:"1:767407380440:web:eb4a082d596a7a69c384ad",
-};
-
-export const app = initializeApp(firebaseConfig);
+export const app = initializeApp(CONFIG.firebase);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
 
@@ -103,7 +95,6 @@ onAuthStateChanged(auth, async (user) => {
  const redditRefActive = isRedditPromoEligible();
   // CRITICAL: Create user document with trial for NEW users
  if (!userData) {
- console.log("🔍 New user detected - creating document with 7-day trial");
  const avatarUrl = `https://api.dicebear.com/7.x/adventurer/svg?seed=${user.uid}`;
   await setDoc(userDocRef, {
  premium: redditRefActive ? true : false,
@@ -124,7 +115,6 @@ onAuthStateChanged(auth, async (user) => {
   // Re-fetch to get the created document with resolved timestamp
  userDocSnap = await getDoc(userDocRef);
  userData = userDocSnap.exists() ? userDocSnap.data() : {};
- console.log("✅ User document created with trial");
  }
 
  // If user came from Reddit during promo window, grant free access
@@ -158,7 +148,6 @@ onAuthStateChanged(auth, async (user) => {
 
  userData.trialStartDate = creationTime;
  userData.trialDays = userData.trialDays || TRIAL_DAYS;
- console.log("✅ Added missing trialStartDate for existing user");
  }
   // Check premium status OR active trial
  const isPremium = userData.premium || hasActiveTrial(userData);
@@ -210,7 +199,6 @@ onAuthStateChanged(auth, async (user) => {
  const cached = JSON.parse(cachedRaw);
  // Verify cache belongs to current user and is valid
  if (cached && cached.uid === user.uid && typeof cached.status ==="boolean") {
- console.log("🔍 Using cached premium status due to network error:", cached.status);
  setupUI(user, cached.status, { avatarStyle: 'adventurer', avatarSeed: user.uid });
  usedCache = true;
  }
@@ -291,9 +279,7 @@ if (signupForm) {
  passwordError.textContent ="";
 	emailInput.classList.remove("bg-learning-app-design-4");
 	passwordInput.classList.remove("bg-learning-app-design-4");
-  // Force refresh to sync new user state and UI
- console.log('🔍 Signup successful, refreshing to sync UI state');
- setTimeout(() => {
+  setTimeout(() => {
  window.location.reload();
  }, 500); // Small delay to let modal close smoothly
  })
@@ -355,7 +341,6 @@ if (loginForm) {
  // Check if different user is logging in - clear old data
  const previousUserId = localStorage.getItem("mc_current_user_id");
  if (previousUserId && previousUserId !== cred.user.uid) {
- console.log('🔍 Different user logging in, clearing previous user data');
  if (window.clearUserLocalData) {
  window.clearUserLocalData();
  }
@@ -366,9 +351,7 @@ if (loginForm) {
  passwordError.textContent ="";
 	emailInput.classList.remove("bg-learning-app-design-4");
 	passwordInput.classList.remove("bg-learning-app-design-4");
-  // Force refresh to sync premium status and UI
- console.log('🔍 Login successful, refreshing to sync UI state');
- setTimeout(() => {
+  setTimeout(() => {
  window.location.reload();
  }, 500); // Small delay to let modal close smoothly
  })
@@ -449,7 +432,6 @@ logoutBtns.forEach((btn) => {
  */
 function clearUserLocalData() {
  const LANGUAGES = ["es","de","fr","ru","zh","ja","ko","it"];
-  console.log("🧹 Clearing user data from localStorage...");
   // Clear all language-specific progress data
  LANGUAGES.forEach((lang) => {
  localStorage.removeItem(`buttonStates_${lang}`);
@@ -471,7 +453,6 @@ function clearUserLocalData() {
  window.AppState.categoryCompletionDates = {};
  window.AppState.categoryCompleted = {};
  }
-  console.log("✅ User data cleared from localStorage");
 }
 
 // Export for use in other modules

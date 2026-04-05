@@ -17,10 +17,48 @@ class SyncService {
     this.syncInterval = null;
     this.isSyncing = false;
     this.lastSyncTime = null;
-    this.SYNC_INTERVAL_MS = 15000; // Sync every 15 seconds (more frequent to minimize data loss)
+    this.SYNC_INTERVAL_MS = 15000;
     this.LANGUAGES = ["es", "de", "fr", "ru", "zh", "ja", "ko", "it"];
     this.initPromise = null;
-    this.currentUserId = null; // Track current user for data isolation
+    this.currentUserId = null;
+  }
+
+  /**
+   * Safely read and parse a JSON value from localStorage.
+   * Returns fallback if the key is missing or the value is corrupt.
+   * Removes the corrupt entry so it doesn't block future writes.
+   */
+  _safeParseLocalStorage(key, fallback = {}) {
+    try {
+      const raw = localStorage.getItem(key);
+      if (!raw) return fallback;
+      const parsed = JSON.parse(raw);
+      return parsed && typeof parsed === "object" ? parsed : fallback;
+    } catch {
+      localStorage.removeItem(key);
+      return fallback;
+    }
+  }
+
+  /**
+   * Retry an async function with exponential backoff.
+   * Throws the last error if all attempts fail.
+   */
+  async _withRetry(fn, maxRetries = 3, baseDelayMs = 1000) {
+    let lastError;
+    for (let attempt = 0; attempt < maxRetries; attempt++) {
+      try {
+        return await fn();
+      } catch (error) {
+        lastError = error;
+        if (attempt < maxRetries - 1) {
+          await new Promise((resolve) =>
+            setTimeout(resolve, baseDelayMs * Math.pow(2, attempt))
+          );
+        }
+      }
+    }
+    throw lastError;
   }
 
   /**
@@ -28,45 +66,31 @@ class SyncService {
    * @returns {Promise} - Promise that resolves when initial sync is complete
    */
   async init(user) {
-    if (!user) {
-      console.log("🔄 No user - sync disabled");
-      return false;
-    }
+    if (!user) return false;
 
-    // CRITICAL: Check if user has changed - if so, clear local data first
     const previousUserId = localStorage.getItem("mc_current_user_id");
     if (previousUserId && previousUserId !== user.uid) {
-      console.log("🔄 Different user detected! Clearing previous user data...");
       this.clearLocalUserData();
     }
-    
-    // Store current user ID for future checks
+
     this.currentUserId = user.uid;
     localStorage.setItem("mc_current_user_id", user.uid);
 
-    console.log("🔄 Initializing sync service for user:", user.uid);
-
-    // Store the init promise so other parts of app can await it
     this.initPromise = this._performInitialSync();
-    
     const result = await this.initPromise;
 
-    // Auto-sync every 15 seconds (more frequent to minimize data loss)
     this.startAutoSync();
 
-    // Sync before page unload using multiple strategies
-    window.addEventListener("beforeunload", (event) => {
+    window.addEventListener("beforeunload", () => {
       this.syncOnUnload();
     });
-    
-    // Also sync when page becomes hidden (more reliable than beforeunload)
+
     document.addEventListener("visibilitychange", () => {
       if (document.visibilityState === "hidden") {
-        console.log("🔄 Page hidden - syncing to cloud");
         this.syncToCloud(true);
       }
     });
-    
+
     return result;
   }
   
@@ -76,27 +100,20 @@ class SyncService {
   syncOnUnload() {
     const user = auth.currentUser;
     if (!user) return;
-    
-    console.log("🔄 Page unloading - attempting final sync");
-    
-    // Strategy 1: Use sendBeacon to queue data for background send
-    // This is the most reliable way to send data on page close
+
     try {
       const syncData = this.collectSyncData(user);
       if (syncData && navigator.sendBeacon) {
-        // Save to localStorage as backup (will be synced on next load)
         localStorage.setItem("pendingCloudSync", JSON.stringify({
           data: syncData,
           timestamp: Date.now(),
-          userId: user.uid
+          userId: user.uid,
         }));
-        console.log("💾 Saved pending sync data to localStorage");
       }
     } catch (error) {
       console.error("Error in syncOnUnload:", error);
     }
-    
-    // Strategy 2: Also try regular sync (may or may not complete)
+
     this.syncToCloud(true);
   }
   
@@ -105,17 +122,11 @@ class SyncService {
    */
   collectSyncData(user) {
     const languages = {};
-    
+
     this.LANGUAGES.forEach((lang) => {
-      const buttonStates = JSON.parse(
-        localStorage.getItem(`buttonStates_${lang}`) || "{}"
-      );
-      const repeatCounts = JSON.parse(
-        localStorage.getItem(`repeatCounts_${lang}`) || "{}"
-      );
-      const categoryCompletionDates = JSON.parse(
-        localStorage.getItem(`categoryCompletionDates_${lang}`) || "{}"
-      );
+      const buttonStates = this._safeParseLocalStorage(`buttonStates_${lang}`);
+      const repeatCounts = this._safeParseLocalStorage(`repeatCounts_${lang}`);
+      const categoryCompletionDates = this._safeParseLocalStorage(`categoryCompletionDates_${lang}`);
 
       languages[lang] = {
         buttonStates,
@@ -141,18 +152,9 @@ class SyncService {
    */
   async _performInitialSync() {
     try {
-      // First, check if there's pending sync data from a previous session
       await this.processPendingSync();
-      
-      // ALWAYS fetch fresh data from server on startup
       const success = await this.syncFromCloud(true);
-      console.log("🔄 Initial cloud sync completed:", success ? "success" : "failed");
-      
-      // Dispatch event to notify app that sync is complete
-      window.dispatchEvent(new CustomEvent("cloudSyncComplete", {
-        detail: { success }
-      }));
-      
+      window.dispatchEvent(new CustomEvent("cloudSyncComplete", { detail: { success } }));
       return success;
     } catch (error) {
       console.error("❌ Initial sync failed:", error);
@@ -165,33 +167,23 @@ class SyncService {
    */
   async processPendingSync() {
     try {
-      const pendingRaw = localStorage.getItem("pendingCloudSync");
-      if (!pendingRaw) return;
-      
-      const pending = JSON.parse(pendingRaw);
+      const pending = this._safeParseLocalStorage("pendingCloudSync", null);
+      if (!pending) return;
+
       const user = auth.currentUser;
-      
-      // Only process if it's for the current user and less than 24 hours old
       if (!user || pending.userId !== user.uid) {
         localStorage.removeItem("pendingCloudSync");
         return;
       }
-      
+
       const ageHours = (Date.now() - pending.timestamp) / (1000 * 60 * 60);
       if (ageHours > 24) {
-        console.log("🔄 Pending sync data too old, discarding");
         localStorage.removeItem("pendingCloudSync");
         return;
       }
-      
-      console.log("🔄 Found pending sync data from previous session, uploading...");
-      
-      // Push the pending data to cloud first
+
       await this.syncToCloud(true);
-      
-      // Clear the pending sync
       localStorage.removeItem("pendingCloudSync");
-      console.log("✅ Pending sync data processed successfully");
     } catch (error) {
       console.error("Error processing pending sync:", error);
       localStorage.removeItem("pendingCloudSync");
@@ -222,23 +214,18 @@ class SyncService {
    * Called when a different user logs in to prevent data mixing
    */
   clearLocalUserData() {
-    console.log("🧹 SyncService: Clearing local user data...");
-    
-    // Clear all language-specific progress data
     this.LANGUAGES.forEach((lang) => {
       localStorage.removeItem(`buttonStates_${lang}`);
       localStorage.removeItem(`repeatCounts_${lang}`);
       localStorage.removeItem(`categoryCompletionDates_${lang}`);
       localStorage.removeItem(`lastClickedPerCategory_${lang}`);
     });
-    
-    // Clear sync-related data
+
     localStorage.removeItem("lastSyncTime");
     localStorage.removeItem("pendingCloudSync");
     localStorage.removeItem("mc_premium_status_cache");
     localStorage.removeItem("openCategory");
-    
-    // Reset global state if available
+
     if (window.AppState) {
       window.AppState.buttonStates = {};
       window.AppState.repeatCounts = {};
@@ -246,8 +233,6 @@ class SyncService {
       window.AppState.categoryCompleted = {};
       window.AppState.lastClickedPerCategory = {};
     }
-    
-    console.log("✅ SyncService: Local user data cleared");
   }
 
   /**
@@ -257,22 +242,15 @@ class SyncService {
     if (this.syncInterval) {
       clearInterval(this.syncInterval);
     }
-
     this.syncInterval = setInterval(() => {
       this.syncToCloud();
     }, this.SYNC_INTERVAL_MS);
-
-    console.log("🔄 Auto-sync started (every 30s)");
   }
 
-  /**
-   * Stop automatic sync
-   */
   stopAutoSync() {
     if (this.syncInterval) {
       clearInterval(this.syncInterval);
       this.syncInterval = null;
-      console.log("🔄 Auto-sync stopped");
     }
   }
 
@@ -281,44 +259,27 @@ class SyncService {
    */
   async syncToCloud(force = false) {
     const user = auth.currentUser;
-    if (!user) {
-      console.log("🔄 Cannot sync - no user logged in");
-      return;
-    }
+    if (!user) return;
 
-    if (this.isSyncing && !force) {
-      console.log("🔄 Sync already in progress, skipping...");
-      return;
-    }
+    if (this.isSyncing && !force) return;
 
-    // CRITICAL: Verify localStorage data belongs to current user before syncing
     const storedUserId = localStorage.getItem("mc_current_user_id");
     if (storedUserId && storedUserId !== user.uid) {
       console.warn("⚠️ Cannot sync - localStorage data belongs to different user:", storedUserId);
-      console.log("🔄 Clearing stale data and fetching from cloud...");
       this.clearLocalUserData();
       localStorage.setItem("mc_current_user_id", user.uid);
       await this.syncFromCloud(true);
       return;
     }
 
-    // PROTECTION: Check if we have ANY local data before syncing
-    // This prevents overwriting cloud data with empty localStorage
     let hasAnyLocalData = false;
     this.LANGUAGES.forEach((lang) => {
-      const buttonStates = JSON.parse(
-        localStorage.getItem(`buttonStates_${lang}`) || "{}"
-      );
-      if (Object.keys(buttonStates).length > 0) {
+      if (Object.keys(this._safeParseLocalStorage(`buttonStates_${lang}`)).length > 0) {
         hasAnyLocalData = true;
       }
     });
 
-    if (!hasAnyLocalData) {
-      console.log("🔄 No local data found - skipping sync to prevent data loss");
-      console.log("🔄 Use syncFromCloud() to restore data from Firestore");
-      return;
-    }
+    if (!hasAnyLocalData) return;
 
     this.isSyncing = true;
 
@@ -326,57 +287,38 @@ class SyncService {
       const userData = {
         userId: user.uid,
         email: user.email,
-        displayName:
-          user.displayName || user.email?.split("@")[0] || "Anonymous",
+        displayName: user.displayName || user.email?.split("@")[0] || "Anonymous",
         lastSyncTime: new Date().toISOString(),
         languages: {},
       };
 
-      // Collect data from all languages
       this.LANGUAGES.forEach((lang) => {
-        const buttonStates = JSON.parse(
-          localStorage.getItem(`buttonStates_${lang}`) || "{}"
-        );
-        const repeatCounts = JSON.parse(
-          localStorage.getItem(`repeatCounts_${lang}`) || "{}"
-        );
-        const categoryCompletionDates = JSON.parse(
-          localStorage.getItem(`categoryCompletionDates_${lang}`) || "{}"
-        );
+        const buttonStates = this._safeParseLocalStorage(`buttonStates_${lang}`);
+        const repeatCounts = this._safeParseLocalStorage(`repeatCounts_${lang}`);
+        const categoryCompletionDates = this._safeParseLocalStorage(`categoryCompletionDates_${lang}`);
 
         userData.languages[lang] = {
           buttonStates,
           repeatCounts,
           categoryCompletionDates,
           wordCount: Object.keys(buttonStates).length,
-          completedWords: Object.values(buttonStates).filter((s) => s.locked)
-            .length,
+          completedWords: Object.values(buttonStates).filter((s) => s.locked).length,
         };
       });
 
-      // Calculate total stats
       userData.stats = this.calculateStats(userData.languages);
 
-      // Save to Firestore
       const userRef = doc(db, "users", user.uid);
       const syncTime = Date.now();
 
-      await setDoc(
-        userRef,
-        {
-          ...userData,
-          updatedAt: serverTimestamp(),
-        },
-        { merge: true }
+      await this._withRetry(() =>
+        setDoc(userRef, { ...userData, updatedAt: serverTimestamp() }, { merge: true })
       );
 
       this.lastSyncTime = syncTime;
-
-      // Save local sync timestamp
       localStorage.setItem("lastSyncTime", syncTime.toString());
 
       console.log("✅ Synced to cloud:", userData.stats);
-      
     } catch (error) {
       console.error("❌ Error syncing to cloud:", error);
     } finally {
@@ -389,115 +331,61 @@ class SyncService {
    */
   async syncFromCloud(forceServerFetch = true) {
     const user = auth.currentUser;
-    if (!user) {
-      console.log("🔄 Cannot sync from cloud - no user");
-      return false;
-    }
+    if (!user) return false;
 
     try {
-      console.log("🔄 Starting cloud sync for user:", user.uid);
       const userRef = doc(db, "users", user.uid);
 
-      // Use getDocFromServer to bypass cache when forcing refresh
       let docSnap;
       if (forceServerFetch) {
         try {
-          docSnap = await getDocFromServer(userRef);
-          console.log("🔄 Fetched from server (bypassing cache)");
+          docSnap = await this._withRetry(() => getDocFromServer(userRef));
         } catch (serverError) {
           console.warn("🔄 Server fetch failed, trying cache:", serverError.message);
           docSnap = await getDoc(userRef);
         }
       } else {
-        docSnap = await getDoc(userRef);
+        docSnap = await this._withRetry(() => getDoc(userRef));
       }
 
       if (!docSnap.exists()) {
-        console.log("🔄 No cloud data found - pushing local data to cloud");
-        // User's first sync - push local data to cloud
         await this.syncToCloud(true);
         return true;
       }
 
       const cloudData = docSnap.data();
       const cloudSyncTime = new Date(cloudData.lastSyncTime || 0).getTime();
-      const localSyncTime = parseInt(
-        localStorage.getItem("lastSyncTime") || "0"
-      );
+      const localSyncTime = parseInt(localStorage.getItem("lastSyncTime") || "0");
 
-      console.log("🔄 Cloud sync time:", new Date(cloudSyncTime).toISOString());
-      console.log("🔄 Local sync time:", new Date(localSyncTime).toISOString());
-
-      // If cloud is newer or we're forcing refresh, use cloud data
       if (forceServerFetch || cloudSyncTime > localSyncTime) {
-        console.log("🔄 Cloud data is newer - updating local storage");
-
-        // Merge strategy: newer data wins
         this.LANGUAGES.forEach((lang) => {
           if (cloudData.languages && cloudData.languages[lang]) {
             const cloudLang = cloudData.languages[lang];
-            const localButtonStates = JSON.parse(
-              localStorage.getItem(`buttonStates_${lang}`) || "{}"
-            );
+            const localButtonStates = this._safeParseLocalStorage(`buttonStates_${lang}`);
+            const merged = this.mergeButtonStates(localButtonStates, cloudLang.buttonStates, cloudSyncTime, localSyncTime);
+            localStorage.setItem(`buttonStates_${lang}`, JSON.stringify(merged));
 
-            // Merge: take cloud data but preserve any newer local changes
-            const merged = this.mergeButtonStates(
-              localButtonStates,
-              cloudLang.buttonStates,
-              cloudSyncTime,
-              localSyncTime
-            );
-
-            // Save merged data
-            localStorage.setItem(
-              `buttonStates_${lang}`,
-              JSON.stringify(merged)
-            );
-
-            // MERGE repeatCounts - take the HIGHER value for each category
             if (cloudLang.repeatCounts) {
-              const localRepeatCounts = JSON.parse(
-                localStorage.getItem(`repeatCounts_${lang}`) || "{}"
-              );
+              const localRepeatCounts = this._safeParseLocalStorage(`repeatCounts_${lang}`);
               const mergedRepeatCounts = this.mergeRepeatCounts(localRepeatCounts, cloudLang.repeatCounts);
-              localStorage.setItem(
-                `repeatCounts_${lang}`,
-                JSON.stringify(mergedRepeatCounts)
-              );
+              localStorage.setItem(`repeatCounts_${lang}`, JSON.stringify(mergedRepeatCounts));
             }
 
-            // MERGE categoryCompletionDates - keep the best scores
             if (cloudLang.categoryCompletionDates) {
-              const localCompletionDates = JSON.parse(
-                localStorage.getItem(`categoryCompletionDates_${lang}`) || "{}"
-              );
+              const localCompletionDates = this._safeParseLocalStorage(`categoryCompletionDates_${lang}`);
               const mergedCompletions = this.mergeCategoryCompletions(localCompletionDates, cloudLang.categoryCompletionDates);
-              localStorage.setItem(
-                `categoryCompletionDates_${lang}`,
-                JSON.stringify(mergedCompletions)
-              );
+              localStorage.setItem(`categoryCompletionDates_${lang}`, JSON.stringify(mergedCompletions));
             }
-
-            console.log(
-              `✅ Synced ${lang} from cloud: ${
-                Object.keys(merged).length
-              } words`
-            );
           }
         });
 
-        // Save sync timestamp
         localStorage.setItem("lastSyncTime", cloudSyncTime.toString());
-      } else {
-        console.log("🔄 Local data is up-to-date");
       }
 
-      // Reload state in app
       if (window.stateService) {
         window.stateService.loadButtonStates();
-        console.log("✅ State reloaded after cloud sync");
       }
-      
+
       return true;
     } catch (error) {
       console.error("❌ Error syncing from cloud:", error);
@@ -548,11 +436,9 @@ class SyncService {
     Object.keys(local).forEach((key) => {
       const localCount = local[key] || 0;
       const cloudCount = merged[key] || 0;
-      // Always keep the higher count - stars should never be lost
       merged[key] = Math.max(localCount, cloudCount);
     });
-    
-    console.log("🔄 Merged repeatCounts:", merged);
+
     return merged;
   }
 
@@ -594,7 +480,6 @@ class SyncService {
       }
     });
     
-    console.log("🔄 Merged categoryCompletions:", Object.keys(merged).length, "entries");
     return merged;
   }
 
@@ -664,7 +549,6 @@ class SyncService {
    * Force immediate sync (call when user completes a word/category)
    */
   forceSyncNow() {
-    console.log("🔄 Force sync triggered");
     this.syncToCloud(true);
   }
 
@@ -678,15 +562,9 @@ class SyncService {
     try {
       const languages = {};
       this.LANGUAGES.forEach((lang) => {
-        const buttonStates = JSON.parse(
-          localStorage.getItem(`buttonStates_${lang}`) || "{}"
-        );
-        const repeatCounts = JSON.parse(
-          localStorage.getItem(`repeatCounts_${lang}`) || "{}"
-        );
-        const categoryCompletionDates = JSON.parse(
-          localStorage.getItem(`categoryCompletionDates_${lang}`) || "{}"
-        );
+        const buttonStates = this._safeParseLocalStorage(`buttonStates_${lang}`);
+        const repeatCounts = this._safeParseLocalStorage(`repeatCounts_${lang}`);
+        const categoryCompletionDates = this._safeParseLocalStorage(`categoryCompletionDates_${lang}`);
         const validCompletions = Object.values(categoryCompletionDates).filter(
           (entry) => entry && typeof entry === "object" && "totalBonusPoints" in entry
         );
@@ -714,7 +592,7 @@ class SyncService {
             avatarUrl = userDoc.data().avatarUrl || null;
           }
         } catch (e) {
-          console.log("Could not fetch avatar from Firestore");
+          console.warn("Could not fetch avatar from Firestore:", e.message);
         }
       }
 

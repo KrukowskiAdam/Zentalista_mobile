@@ -102,7 +102,6 @@ class LanguageService {
 
     const currentLang = this.getCurrentLanguage();
     if (currentLang === newLanguageCode) {
-      console.log("Language already selected:", newLanguageCode);
       return;
     }
 
@@ -117,10 +116,8 @@ class LanguageService {
    * Initialize language selector UI
    */
   initializeUI() {
-    console.log("🌍 Initializing language service UI...");
     const currentLang = this.getCurrentLanguage();
     const langDetails = this.getLanguageDetails(currentLang);
-    console.log("🌍 Current language:", currentLang, langDetails);
 
     this.updateDropdownDisplay(langDetails);
 
@@ -153,7 +150,6 @@ class LanguageService {
       element.addEventListener("click", (e) => {
         e.preventDefault();
         const langCode = element.getAttribute("data-language");
-        console.log("🌍 Language clicked:", langCode);
         this.changeLanguage(langCode);
       });
     });

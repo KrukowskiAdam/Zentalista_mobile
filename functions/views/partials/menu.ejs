@@ -13,8 +13,8 @@
  <!-- LEFT SIDE: Logo + Navigation -->
  <div class="flex items-center">
  <!-- Logo -->
- <a href="/home" class="logo absolute left-1/2 -translate-x-1/2 text-[28px] font-bold leading-none">
- <span class="font-bold">Zentalist</span>
+ <a href="/home" class="logo absolute left-1/2 -translate-x-1/2 text-white text-[28px] font-bold leading-none">
+ <span class="text-level-expert">Zentalist</span>
  </a>
  </div>
 
@@ -169,29 +169,41 @@
  <div class="drawer-side z-[51] safe-drawer-side">
  <label for="menu-drawer" class="drawer-overlay"></label>
  <ul class="menu p-4 w-64 min-h-full bg-base-200 text-base-content">
- <li><a href="/home" class="text-base py-3">Home</a></li>
- <li><a href="/learn" class="text-base py-3 px-3 bg-learning-app-design-7 rounded-lg">Learn now</a></li>
+ <li>
+ <a href="/learn" class="text-base py-3 flex items-center gap-2">
+ <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M17 14.5001V11.4945C17 11.315 17 11.2253 16.9727 11.146C16.9485 11.076 16.9091 11.0122 16.8572 10.9592C16.7986 10.8993 16.7183 10.8592 16.5578 10.779L12 8.50006M4 9.50006V16.3067C4 16.6786 4 16.8645 4.05802 17.0274C4.10931 17.1713 4.1929 17.3016 4.30238 17.4082C4.42622 17.5287 4.59527 17.6062 4.93335 17.7612L11.3334 20.6945C11.5786 20.8069 11.7012 20.8631 11.8289 20.8853C11.9421 20.9049 12.0579 20.9049 12.1711 20.8853C12.2988 20.8631 12.4214 20.8069 12.6666 20.6945L19.0666 17.7612C19.4047 17.6062 19.5738 17.5287 19.6976 17.4082C19.8071 17.3016 19.8907 17.1713 19.942 17.0274C20 16.8645 20 16.6786 20 16.3067V9.50006M2 8.50006L11.6422 3.67895C11.7734 3.61336 11.839 3.58056 11.9078 3.56766C11.9687 3.55622 12.0313 3.55622 12.0922 3.56766C12.161 3.58056 12.2266 3.61336 12.3578 3.67895L22 8.50006L12.3578 13.3212C12.2266 13.3868 12.161 13.4196 12.0922 13.4325C12.0313 13.4439 11.9687 13.4439 11.9078 13.4325C11.839 13.4196 11.7734 13.3868 11.6422 13.3212L2 8.50006Z"/>
+ </svg>
+ Learn now
+ </a>
+ </li>
  <li>
  <a href="/stats" class="text-base py-3 flex items-center gap-2">
- <svg class="w-5 h-5 mr-1" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
  </svg>
  My Stats
  </a>
  </li>
- <li><a href="/challenge" class="text-base py-3">Challenge</a></li>
+ <li>
+ <a href="/challenge" class="text-base py-3 flex items-center gap-2">
+ <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
+ </svg>
+ Challenge
+ </a>
+ </li>
  <li>
  <a href="/leaderboard" class="text-base py-3 flex items-center gap-2">
- <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
- stroke="#0F9855">
- <path stroke-linecap="round" stroke-linejoin="round"
- d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
- </svg>
+ <img src="/img/svg/01/globe_logo.svg" alt="Globe" class="w-5 h-5">
  Leaderboard
  </a>
  </li>
  <li>
- <a href="/premium" class="text-base py-3 px-3 font-semibold flex items-center gap-2 bg-learning-app-design-6 rounded-lg">
+ <a href="/premium" class="text-base py-3 flex items-center gap-2">
+ <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M7 10V8C7 5.23858 9.23858 3 12 3C14.0503 3 15.8124 4.2341 16.584 6M12 14.5V16.5M8.8 21H15.2C16.8802 21 17.7202 21 18.362 20.673C18.9265 20.3854 19.3854 19.9265 19.673 19.362C20 18.7202 20 17.8802 20 16.2V14.8C20 13.1198 20 12.2798 19.673 11.638C19.3854 11.0735 18.9265 10.6146 18.362 10.327C17.7202 10 16.8802 10 15.2 10H8.8C7.11984 10 6.27976 10 5.63803 10.327C5.07354 10.6146 4.6146 11.0735 4.32698 11.638C4 12.2798 4 13.1198 4 14.8V16.2C4 17.8802 4 18.7202 4.32698 19.362C4.6146 19.9265 5.07354 20.3854 5.63803 20.673C6.27976 21 7.11984 21 8.8 21Z"/>
+ </svg>
  Premium
  </a>
  </li>

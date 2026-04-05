@@ -28,7 +28,8 @@
  display: grid;
  grid-template-columns: auto 1fr auto;
  grid-template-rows: auto auto;
- 0.75rem;
+ border: 1px solid var(--learning-app-design-3);
+ border-radius: 0.75rem;
  padding: 0.75rem;
  margin-bottom: 0.75rem;
  gap: 0.5rem;
@@ -180,11 +181,11 @@
  <div class="text-6xl mb-4">⚠️</div>
  <h3 class="text-xl font-bold mb-2">Error loading leaderboard</h3>
  <p class="mb-4">Please try again later</p>
- <button class="btn bg-level-expert hover:bg-level-expert" onclick="location.reload()">
+ <button class="btn bg-level-expert hover:bg-level-expert/80" onclick="location.reload()">
  Retry
+ </button>
  </div>
- </div>
- </div>
+
  </div>
  </div>
  </div>
@@ -241,11 +242,11 @@
  <script defer type="module" src="/scripts/auth.js"></script>
  <script defer type="module" src="/scripts/index.js"></script>
  <script type="module">
- import { initializeApp } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+ import { getApps, getApp, initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
  import {
  getAuth,
  onAuthStateChanged,
- } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+ } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
  import {
  getFirestore,
  collection,
@@ -255,8 +256,8 @@
  limit,
  doc,
  setDoc,
- getDoc,
- } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+ serverTimestamp,
+ } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
  // Firebase config
  const firebaseConfig = {
@@ -269,19 +270,17 @@
  appId:"1:767407380440:web:eb4a082d596a7a69c384ad",
  };
 
- const app = initializeApp(firebaseConfig);
+ const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
  const auth = getAuth(app);
  const db = getFirestore(app);
 
  let currentUser = null;
  let currentPage = 1;
+ let cachedLeaderboardData = null;
  const ITEMS_PER_PAGE = 50;
 
- // Points configuration
  const POINTS = {
- CATEGORY_COMPLETION: 5, // 5 points per category completion (star)
- CATEGORY_CHALLENGE_PASS: 10,
- CATEGORY_CHALLENGE_PERFECT: 20,
+ CATEGORY_COMPLETION: 5,
  POINTS_PER_LEVEL: 100,
  };
 
@@ -312,10 +311,8 @@
  languageBreakdown: {},
  };
 
- // CRITICAL: Verify localStorage data belongs to current user
  const storedUserId = localStorage.getItem("mc_current_user_id");
  if (!currentUser || storedUserId !== currentUser.uid) {
- console.warn("⚠️ localStorage data doesn't belong to current user, returning empty stats");
  stats.level = 1;
  stats.levelProgress ="0.0";
  return stats;
@@ -406,13 +403,12 @@
  starPoints: stats.starPoints || 0,
  challengePoints: stats.challengePoints || 0,
  languageBreakdown: stats.languageBreakdown || {},
- lastUpdated: new Date().toISOString(),
+ lastUpdated: serverTimestamp(),
  },
  { merge: true }
  );
- console.log("✅ Stats synced to Firestore");
  } catch (error) {
- console.error("❌ Error syncing stats:", error);
+ console.error("Error syncing leaderboard stats:", error);
  }
  }
 
@@ -425,18 +421,19 @@
  const emptyEl = document.getElementById("empty-state");
  const errorEl = document.getElementById("error-state");
 
+ if (cachedLeaderboardData) {
+ displayLeaderboard(cachedLeaderboardData);
+ return;
+ }
+
  loadingEl.classList.remove("hidden");
  contentEl.classList.add("hidden");
  emptyEl.classList.add("hidden");
  errorEl.classList.add("hidden");
 
  try {
- const leaderboardRef = collection(db,"leaderboard");
- const q = query(
- leaderboardRef,
- orderBy("totalPoints","desc"),
- limit(100)
- );
+ const leaderboardRef = collection(db, "leaderboard");
+ const q = query(leaderboardRef, orderBy("totalPoints", "desc"), limit(100));
  const snapshot = await getDocs(q);
 
  if (snapshot.empty) {
@@ -445,20 +442,37 @@
  return;
  }
 
- const leaderboardData = [];
+ cachedLeaderboardData = [];
  snapshot.forEach((doc) => {
- leaderboardData.push({ id: doc.id, ...doc.data() });
+ cachedLeaderboardData.push({ id: doc.id, ...doc.data() });
  });
 
- displayLeaderboard(leaderboardData);
+ displayLeaderboard(cachedLeaderboardData);
 
  loadingEl.classList.add("hidden");
  contentEl.classList.remove("hidden");
  } catch (error) {
- console.error("❌ Error loading leaderboard:", error);
+ console.error("Error loading leaderboard:", error);
  loadingEl.classList.add("hidden");
  errorEl.classList.remove("hidden");
  }
+ }
+
+ /**
+ * Return level badge HTML for a given level
+ */
+ function getLevelBadge(level) {
+   if (level === 1) {
+     return `<span class="px-3 py-1 text-xs font-medium rounded bg-learning-app-design-4">Lvl 1</span>`;
+   } else if (level === 2) {
+     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-learning">Lvl 2</span>`;
+   } else if (level === 3) {
+     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-mastered">Lvl 3</span>`;
+   } else if (level === 4) {
+     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl 4</span>`;
+   } else {
+     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl ${level}</span>`;
+   }
  }
 
  /**
@@ -510,20 +524,7 @@
  </div>
  </th>
  <td class="px-4 py-3 text-center" data-label="Level">
- ${(() => {
- const level = user.level || 1;
- if (level === 1) {
- return `<span class="px-3 py-1 text-xs font-medium rounded bg-learning-app-design-4">Lvl 1</span>`;
- } else if (level === 2) {
- return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-learning">Lvl 2</span>`;
- } else if (level === 3) {
- return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-mastered">Lvl 3</span>`;
- } else if (level === 4) {
- return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl 4</span>`;
- } else {
- return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl ${level}</span>`;
- }
- })()}
+ ${getLevelBadge(user.level || 1)}
  </td>
  <td class="px-4 py-3 text-center" data-label="Stars">
  <span class="font-medium">${user.starsEarned || 0}</span>
@@ -570,36 +571,12 @@
  document.getElementById("prev-page")?.addEventListener("click", () => {
  if (currentPage > 1) {
  currentPage--;
- loadLeaderboard();
+ displayLeaderboard(cachedLeaderboardData);
  }
  });
  document.getElementById("next-page")?.addEventListener("click", () => {
  currentPage++;
- loadLeaderboard();
- });
-
- // Tab switching
- document.querySelectorAll(".tab").forEach((tab) => {
- tab.addEventListener("click", (e) => {
- document
- .querySelectorAll(".tab")
- .forEach((t) => t.classList.remove("tab-active"));
- e.target.classList.add("tab-active");
-
- const tabType = e.target.dataset.tab;
- const leaderboardTitle = document.getElementById("leaderboard-title");
- if (leaderboardTitle) {
- leaderboardTitle.textContent =
- tabType ==="global"
- ?"Global Rankings"
- : tabType ==="friends"
- ?"Friends Rankings"
- :"Country Rankings";
- }
-
- // TODO: Implement friends and country filtering
- loadLeaderboard();
- });
+ displayLeaderboard(cachedLeaderboardData);
  });
  }
 

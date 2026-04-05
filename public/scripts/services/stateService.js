@@ -305,7 +305,6 @@ class StateService {
         }
       });
       
-      console.log(`🔍 Loaded state for ${currentLang}: ${Object.keys(this.buttonStates).length} words, ${Object.keys(this.repeatCounts).length} completed categories`);
     } catch (error) {
       console.error("Error loading button states:", error);
       this.buttonStates = {};
@@ -383,7 +382,6 @@ class StateService {
         // CRITICAL: Force sync to cloud immediately when category is completed
         // This ensures user's progress is saved even if they close the browser
         if (window.syncService) {
-          console.log("⭐ Category completed! Force syncing to cloud...");
           window.syncService.forceSyncNow();
           window.syncService.updateLeaderboard();
         }

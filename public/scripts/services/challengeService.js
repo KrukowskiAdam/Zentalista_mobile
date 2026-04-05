@@ -345,7 +345,6 @@ class ChallengeService {
 
     // CRITICAL: Force sync to cloud after challenge completion
     if (window.syncService) {
-      console.log("🏆 Challenge completed! Force syncing to cloud...");
       window.syncService.forceSyncNow();
       if (typeof window.syncService.updateLeaderboard === 'function') {
         window.syncService.updateLeaderboard();
@@ -360,7 +359,6 @@ class ChallengeService {
         ? `✅ Challenge passed! +${results.bonusPoints} points.`
         : `✅ Challenge passed! Play again for practice (no more points).`;
     
-    console.log(message);
   }
 
   /**
@@ -384,7 +382,6 @@ class ChallengeService {
       });
 
       localStorage.setItem(buttonStatesKey, JSON.stringify(buttonStates));
-      console.log(`🔄 Category "${categoryName}" reset for retry`);
     } catch (error) {
       console.error('Error resetting category button states:', error);
     }

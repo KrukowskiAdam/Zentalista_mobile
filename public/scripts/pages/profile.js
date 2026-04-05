@@ -287,7 +287,6 @@ class ProfileManager {
  // Update leaderboard with new avatar
  if (window.syncService && typeof window.syncService.updateLeaderboard === 'function') {
  await window.syncService.updateLeaderboard();
- console.log("✅ Leaderboard updated with new avatar");
  }
 
  } catch (error) {
