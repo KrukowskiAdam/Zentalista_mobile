@@ -8,7 +8,7 @@ Scope: mobile only (no desktop).
 - This repository is a mobile-only working base used to build iOS/Android apps (Capacitor).
 - It is not the production desktop/web repository.
 - Editing HTML/CSS/JS files here is allowed and expected when improving mobile app UX/UI.
-- Production web lives in a separate repository/folder and is out of scope for changes done here.
+- Production web lives in a separate repository/folder and is out of scope for changes done here...
 
 ## A) Test environment (mobile only)
 
