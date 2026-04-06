@@ -419,7 +419,7 @@
                 },
                 {
                     "en": "I'm going to the supermarket.",
-                    "ja": "スーパーに行きます。",
+                    "ja": "スーパーに行きます",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0069.mp3",
                     "romaji": "Sūpā ni iki masu ."
                 },
@@ -431,7 +431,7 @@
                 },
                 {
                     "en": "Let's meet at the cinema.",
-                    "ja": "映画館で会いましょう。",
+                    "ja": "映画館で会いましょう",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0071.mp3",
                     "romaji": "Eiga kan de ai masho u ."
                 },
@@ -443,7 +443,7 @@
                 },
                 {
                     "en": "The church is very old.",
-                    "ja": "その教会はとても古いです。",
+                    "ja": "その教会はとても古いです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0073.mp3",
                     "romaji": "Sono kyōkai wa totemo furui desu ."
                 },
@@ -455,7 +455,7 @@
                 },
                 {
                     "en": "We need to find a petrol station.",
-                    "ja": "ガソリンスタンドを見つけなければなりません。",
+                    "ja": "ガソリンスタンドを見つけなければなりません",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0075.mp3",
                     "romaji": "Gasorinsutando o mitsuke nakere ba nari mase n ."
                 },
@@ -467,7 +467,7 @@
                 },
                 {
                     "en": "The weather is nice today.",
-                    "ja": "今日はいい天気です。",
+                    "ja": "今日はいい天気です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0077.mp3",
                     "romaji": "Kyō wa ii tenki desu ."
                 },
@@ -479,7 +479,7 @@
                 },
                 {
                     "en": "It's very hot outside.",
-                    "ja": "外はとても暑いです。",
+                    "ja": "外はとても暑いです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0079.mp3",
                     "romaji": "Soto wa totemo atsui desu ."
                 },
@@ -491,7 +491,7 @@
                 },
                 {
                     "en": "I saw lightning in the sky.",
-                    "ja": "空に稲妻が見えました。",
+                    "ja": "空に稲妻が見えました",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0081.mp3",
                     "romaji": "Sora ni inazuma ga mie mashi ta ."
                 },
@@ -503,7 +503,7 @@
                 },
                 {
                     "en": "The forecast says snow.",
-                    "ja": "予報では雪だそうです。",
+                    "ja": "予報では雪だそうです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0083.mp3",
                     "romaji": "Yohō de wa yuki da sō desu ."
                 },
@@ -1031,13 +1031,13 @@
                 },
                 {
                     "en": "We are going by car.",
-                    "ja": "車で行きます。",
+                    "ja": "車で行きます",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0166.mp3",
                     "romaji": "Kuruma de iki masu ."
                 },
                 {
                     "en": "Please fasten your seat belt.",
-                    "ja": "シートベルトを締めてください。",
+                    "ja": "シートベルトを締めてください",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/04/ja_0167.mp3",
                     "romaji": "Shītoberuto o shime te kudasai ."
                 },

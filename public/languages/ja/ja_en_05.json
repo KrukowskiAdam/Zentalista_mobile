@@ -925,13 +925,13 @@
                 },
                 {
                     "en": "Please close the door.",
-                    "ja": "ドアを閉めてください。",
+                    "ja": "ドアを閉めてください",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/05/ja_0150.mp3",
                     "romaji": "Doa o shime te kudasai ."
                 },
                 {
                     "en": "Open the window.",
-                    "ja": "窓を開けてください。",
+                    "ja": "窓を開けてください",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/05/ja_0151.mp3",
                     "romaji": "Mado o ake te kudasai ."
                 },
@@ -943,7 +943,7 @@
                 },
                 {
                     "en": "I'm taking a shower.",
-                    "ja": "シャワーを浴びています。",
+                    "ja": "シャワーを浴びています",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/05/ja_0167.mp3",
                     "romaji": "Shawā o abi te i masu ."
                 },
@@ -955,7 +955,7 @@
                 },
                 {
                     "en": "The desk is new.",
-                    "ja": "その机は新しいです。",
+                    "ja": "その机は新しいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/05/ja_0169.mp3",
                     "romaji": "Sono tsukue wa atarashii desu ."
                 },

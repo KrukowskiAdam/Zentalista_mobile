@@ -11,30 +11,22 @@
  <%- include('partials/menu') %>
 
  <style>
- #stats-container .legend-reviews-row {
- display: flex;
- align-items: center;
- gap: 0.5rem;
+ #stats-container .px-2 {
+ padding-left: 0.2rem;
+ padding-right: 0.2rem;
  }
 
- #stats-container .legend-reviews-badges {
- display: flex;
- flex-wrap: wrap;
- gap: 0.5rem;
- width: 100%;
- }
-
- #stats-container .legend-progress-note {
- padding-left: 1.5rem;
- }
-
- @media (max-width: 640px) {
  #stats-container .stats-table {
  display: block;
  }
 
  #stats-container .stats-table thead {
- display: none;
+ display: block;
+ }
+
+ #stats-container .stats-table thead tr {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
  }
 
  #stats-container .stats-table tbody {
@@ -42,51 +34,32 @@
  }
 
  #stats-container .stats-table tbody tr {
- display: block;
- : 1px solid #4982A6;
- 0.75rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: auto auto;
  padding: 0.875rem 1rem;
- margin-bottom: 1rem;
- background-color: #27368C;
+ gap: 0 1.5rem;
  }
 
  #stats-container .stats-table tbody tr:last-child {
  margin-bottom: 0;
  }
 
- #stats-container .stats-table tbody th,
- #stats-container .stats-table tbody td {
+ #stats-container .stats-table tbody th {
+ grid-column: 1 / -1;
  display: block;
- width: 100%;
- padding: 0.625rem 0;
+ padding: 0 0 1rem 0;
  text-align: left;
  white-space: normal;
+ font-weight: 600;
+ color: #e5e7eb;
  }
 
- #stats-container .stats-table tbody [data-label]::before {
- content: attr(data-label);
+ #stats-container .stats-table tbody td {
  display: block;
- font-size: 0.7rem;
- letter-spacing: 0.05em;
- text-transform: uppercase;
-			color: var(--app-font-color);
- margin-bottom: 0.1rem;
- }
-
- #stats-container .legend-reviews-row {
- flex-direction: column;
- align-items: flex-start;
- gap: 0.75rem;
- }
-
- #stats-container .legend-reviews-badges {
- display: grid;
- grid-template-columns: 1fr;
- }
-
- #stats-container .legend-progress-note {
- padding-left: 0;
- }
+ padding: 0.375rem 0;
+ text-align: left;
+ white-space: normal;
  }
  </style>
 
@@ -112,7 +85,7 @@
  Track your learning progress, see category completion, and sync your stats across all your devices.
  </p>
  <label for="modal-login"
- class="btn touch-target bg-level-learning hover:bg-level-learning px-8 w-full sm:w-auto cursor-pointer">
+ class="inline-flex items-center justify-center rounded-full py-3 px-8 text-sm font-semibold bg-level-learning text-white border-0 w-full sm:w-auto cursor-pointer">
  Sign In
  </label>
  <p class="text-sm mt-4">
@@ -126,23 +99,23 @@
  <!-- Stats content (shown only when logged in) -->
  <div id="stats-content" class="hidden">
  <!-- Header -->
- <div class="text-center mb-6 sm:mb-7 px-1">
- <h1 class="text-3xl sm:text-4xl font-bold mb-2 flex items-center justify-center gap-2 sm:gap-3">
+ <div id="stats-header" class="text-center mb-6 sm:mb-7 px-1">
+ <h1 class="text-3xl sm:text-4xl font-bold text-gray-100 mb-2 flex items-center justify-center gap-2 sm:gap-3">
  <svg class="w-8 h-8 sm:w-10 sm:h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor"
  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
  </svg>
  Learning Statistics
  </h1>
- <p class="py-4 sm:py-8 max-w-2xl mx-auto">Track your learning progress and see category completion across all languages.
+ <p class="text-gray-400 py-4 sm:py-8 max-w-2xl mx-auto">Track your learning progress and see category completion across all languages.
  </p>
  </div>
- <div class="flex items-center justify-center gap-2 mb-5 sm:mb-6">
+ <div id="stats-lang-selector" class="flex items-center justify-center gap-2 mb-5 sm:mb-6">
  <span id="stats-lang-flag"
- class="inline-flex items-center justify-center w-8 h-8 rounded-full overflow-hidden">
+ class="inline-flex items-center justify-center w-8 h-8 rounded-full overflow-hidden border border-learning-app-design-3">
  <!-- Flag inserted by JS -->
  </span>
- <span id="stats-lang-name" class="text-base sm:text-lg font-normal"></span>
+ <span id="stats-lang-name" class="text-base sm:text-lg font-normal text-gray-400"></span>
  </div>
  <!-- Hidden selector that will be moved to table header by JS -->
  <select id="category-section-select" class="hidden">
@@ -155,14 +128,14 @@
  </div>
 
  <!-- All Languages Progress Table -->
- <div class="bg-learning-app-design-3 shadow-card mt-8 rounded-xl overflow-hidden">
- <div class="bg-learning-app-design-1 flex items-center"
+ <div id="stats-all-languages" class="bg-learning-app-design-1 border border-learning-app-design-3 shadow-xl mt-8 rounded-lg overflow-hidden">
+ <div class="border-b border-learning-app-design-3 bg-learning-app-design-2 flex items-center"
  style="height: 50px; padding-left: 1rem; padding-right: 1rem;">
- <h2 class="text-lg sm:text-xl font-bold">All Languages Progress</h2>
+ <h2 class="text-xl text-gray-100 font-bold">All Languages Progress</h2>
  </div>
  <div class="overflow-x-auto">
- <table class="w-full text-sm text-left min-w-[620px] sm:min-w-0">
- <thead class="text-xs uppercase bg-learning-app-design-3">
+ <table class="w-full text-sm text-left text-gray-400 min-w-[620px] sm:min-w-0">
+ <thead class="text-xs text-gray-300 uppercase bg-learning-app-design-1">
  <tr>
  <th scope="col" class="px-3 py-2 text-center">Language</th>
  <th scope="col" class="px-3 py-2 text-center">
@@ -186,69 +159,69 @@
  </tr>
  </thead>
  <tbody id="all-languages-progress-body">
- <tr class="hover:bg-learning-app-design-1" data-lang="es">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="es">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-spain-svgrepo-com.svg"
- alt="Spanish" class="w-6 h-6"><span class="font-medium">Spanish</span></div>
+ alt="Spanish" class="w-6 h-6"><span class="text-gray-200 font-medium">Spanish</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-es">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-es">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-es">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-es">0</td>
  </tr>
- <tr class="hover:bg-learning-app-design-1" data-lang="de">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="de">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-germany-svgrepo-com.svg"
- alt="German" class="w-6 h-6"><span class="font-medium">German</span></div>
+ alt="German" class="w-6 h-6"><span class="text-gray-200 font-medium">German</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-de">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-de">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-de">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-de">0</td>
  </tr>
- <tr class="hover:bg-learning-app-design-1" data-lang="fr">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="fr">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-france-svgrepo-com.svg"
- alt="French" class="w-6 h-6"><span class="font-medium">French</span></div>
+ alt="French" class="w-6 h-6"><span class="text-gray-200 font-medium">French</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-fr">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-fr">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-fr">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-fr">0</td>
  </tr>
- <tr class="hover:bg-learning-app-design-1" data-lang="ru">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="ru">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-russia-svgrepo-com.svg"
- alt="Russian" class="w-6 h-6"><span class="font-medium">Russian</span></div>
+ alt="Russian" class="w-6 h-6"><span class="text-gray-200 font-medium">Russian</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-ru">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-ru">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-ru">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-ru">0</td>
  </tr>
- <tr class="hover:bg-learning-app-design-1" data-lang="zh">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="zh">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-china-svgrepo-com.svg"
- alt="Chinese" class="w-6 h-6"><span class="font-medium">Chinese</span></div>
+ alt="Chinese" class="w-6 h-6"><span class="text-gray-200 font-medium">Chinese</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-zh">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-zh">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-zh">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-zh">0</td>
  </tr>
- <tr class="hover:bg-learning-app-design-1" data-lang="ja">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="ja">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-japan-svgrepo-com.svg"
- alt="Japanese" class="w-6 h-6"><span class="font-medium">Japanese</span></div>
+ alt="Japanese" class="w-6 h-6"><span class="text-gray-200 font-medium">Japanese</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-ja">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-ja">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-ja">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-ja">0</td>
  </tr>
- <tr class="hover:bg-learning-app-design-1" data-lang="ko">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="ko">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-south-korea-svgrepo-com.svg"
- alt="Korean" class="w-6 h-6"><span class="font-medium">Korean</span></div>
+ alt="Korean" class="w-6 h-6"><span class="text-gray-200 font-medium">Korean</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-ko">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-ko">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-ko">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-ko">0</td>
  </tr>
- <tr class="hover:bg-learning-app-design-1" data-lang="it">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="it">
  <td class="px-3 py-2">
  <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-italy-svgrepo-com.svg"
- alt="Italian" class="w-6 h-6"><span class="font-medium">Italian</span></div>
+ alt="Italian" class="w-6 h-6"><span class="text-gray-200 font-medium">Italian</span></div>
  </td>
- <td class="px-3 py-2 text-center font-semibold" id="all-stars-it">0</td>
- <td class="px-3 py-2 text-center font-semibold" id="all-challenges-it">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-it">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-it">0</td>
  </tr>
  </tbody>
  </table>
@@ -329,7 +302,7 @@
 
  const categorySelect = document.getElementById("category-section-select");
  const sectionSelectClasses =
-"w-full px-2 py-1 text-xs bg-learning-app-design-1 rounded focus:outline-none";
+"w-full px-2 py-1 text-xs bg-learning-app-design-2 text-gray-200 border border-learning-app-design-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500";
  const selectHome = categorySelect
  ? {
  parent: categorySelect.parentNode,
@@ -860,14 +833,14 @@
  let starsHtml = '';
  for (let i = 0; i < totalStars; i++) {
  if (i < filledStars) {
- starsHtml += `<svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="${starPathD}"></path></svg>`;
+ starsHtml += `<svg class="w-4 h-4" viewBox="0 0 24 24" fill="#FFD700" aria-hidden="true"><path d="${starPathD}"></path></svg>`;
  } else {
- starsHtml += `<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="${starPathD}"></path></svg>`;
+ starsHtml += `<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="1.5" aria-hidden="true"><path d="${starPathD}"></path></svg>`;
  }
  }
 
  // Show extra repeats counter if more than 5
- const extraHtml = extraRepeats > 0 ? `<span class="text-xs ml-1">(+${extraRepeats})</span>` : '';
+ const extraHtml = extraRepeats > 0 ? `<span class="text-xs text-gray-400 ml-1">(+${extraRepeats})</span>` : '';
 
  return `<span class="flex items-center gap-0.5">${starsHtml}${extraHtml}</span>`;
  };
@@ -933,98 +906,36 @@
  };
 
  if (categories.length > 0) {
- // Create outer wrapper with (like leaderboard)
+ // Create outer wrapper
  const outerWrapper = document.createElement("div");
- outerWrapper.className ="bg-learning-app-design-3 shadow-card rounded-xl overflow-hidden mb-6";
+ outerWrapper.className = "bg-learning-app-design-1 border border-learning-app-design-3 shadow-xl rounded-lg overflow-hidden mb-6";
 
- // Create header row (Flowbite-style with on top)
+ // Create header row
  const headerRow = document.createElement("div");
- headerRow.className =" bg-learning-app-design-1 flex items-center";
- headerRow.style.height ="70px";
+ headerRow.className = "border-b border-learning-app-design-3 bg-learning-app-design-2 flex items-center";
+ headerRow.style.height ="50px";
  headerRow.style.paddingLeft ="1rem";
  headerRow.style.paddingRight ="1rem";
 
  // Create title header
  const tableTitle = document.createElement("h2");
- tableTitle.className ="text-2xl font-bold";
+ tableTitle.className = "text-xl text-gray-100 font-bold";
  tableTitle.textContent ="Category Progress";
  headerRow.appendChild(tableTitle);
  outerWrapper.appendChild(headerRow);
 
- // Create inner padding container for content
- const innerContainer = document.createElement("div");
- innerContainer.className ="p-6";
-
- // Create legend inside the (before table)
- const legendAboveTable = document.createElement("div");
- legendAboveTable.className ="mb-4 bg-learning-app-design-1 shadow-card rounded-xl p-6";
- legendAboveTable.innerHTML = `
- <div class="space-y-3 text-sm">
- <!-- Row 1: Progress -->
- <div class="flex items-center gap-2">
- <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path d="M21 3L14 9L10 5L3 11M4.5 21C3.67157 21 3 20.3284 3 19.5V17.5C3 16.6716 3.67157 16 4.5 16C5.32843 16 6 16.6716 6 17.5V19.5C6 20.3284 5.32843 21 4.5 21ZM11.5 21C10.6716 21 10 20.3284 10 19.5V14.5C10 13.6716 10.6716 13 11.5 13C12.3284 13 13 13.6716 13 14.5V19.5C13 20.3284 12.3284 21 11.5 21ZM18.5 21C17.6716 21 17 20.3284 17 19.5V16.5C17 15.6716 17.6716 15 18.5 15C19.3284 15 20 15.6716 20 16.5V19.5C20 20.3284 19.3284 21 18.5 21Z"/>
- </svg>
- <span class=""><strong>Progress:</strong> Completed Cards vs Total Cards</span>
- </div>
- <!-- Row 2: Stars -->
- <div class="flex items-center gap-2">
- <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z"/>
- </svg>
- <span class=""><strong>Stars:</strong> Each category completion fills one star (max 5)</span>
- </div>
- <!-- Row 3: Cooldown Info -->
- <div class="flex items-center gap-2">
- <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path d="M12 7V12L9.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/>
- </svg>
- <span class=""><strong>Review Cooldown:</strong> 24 hours after completing a category</span>
- </div>
- </div>
- `;
- innerContainer.appendChild(legendAboveTable);
-
- // Create table wrapper
- const tableWrapper = document.createElement("div");
- tableWrapper.className =
-"relative overflow-hidden bg-learning-app-design-1 shadow-card sm:rounded-xl";
 
  const tableContainer = document.createElement("div");
- tableContainer.className ="overflow-x-auto";
+ tableContainer.className = "overflow-x-auto";
 
  const table = document.createElement("table");
- table.className ="w-full text-sm text-left stats-table";
+ table.className = "w-full text-sm text-left text-gray-400 stats-table";
  table.innerHTML = `
- <thead class="text-xs uppercase bg-learning-app-design-3">
- <tr class="h-[70px]">
- <th scope="col" class="px-4 py-3" style="width: 220px; max-width: 220px;">
- <div id="category-selector-container"></div>
- </th>
- <th scope="col" class="px-4 py-3" style="width: 120px;">
- <div class="flex items-center gap-1">
- <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path d="M21 3L14 9L10 5L3 11M4.5 21C3.67157 21 3 20.3284 3 19.5V17.5C3 16.6716 3.67157 16 4.5 16C5.32843 16 6 16.6716 6 17.5V19.5C6 20.3284 5.32843 21 4.5 21ZM11.5 21C10.6716 21 10 20.3284 10 19.5V14.5C10 13.6716 10.6716 13 11.5 13C12.3284 13 13 13.6716 13 14.5V19.5C13 20.3284 12.3284 21 11.5 21ZM18.5 21C17.6716 21 17 20.3284 17 19.5V16.5C17 15.6716 17.6716 15 18.5 15C19.3284 15 20 15.6716 20 16.5V19.5C20 20.3284 19.3284 21 18.5 21Z"/>
- </svg>
- <span>Progress</span>
- </div>
- </th>
- <th scope="col" class="px-4 py-3" style="width: 120px;">
- <div class="flex items-center gap-1">
- <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z"/>
- </svg>
- <span>Stars</span>
- </div>
- </th>
- <th scope="col" class="px-4 py-3" style="width: 160px;">
- <div class="flex items-center gap-1">
- <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path d="M12 7V12L9.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/>
- </svg>
- <span>When to Review</span>
- </div>
- </th>
+ <thead class="text-xs text-gray-500 uppercase bg-learning-app-design-1 border-b border-learning-app-design-3">
+ <tr>
+ <th scope="col" class="px-4 py-2">Progress</th>
+ <th scope="col" class="px-4 py-2">Levels</th>
+ <th scope="col" class="px-4 py-2">When to review</th>
  </tr>
  </thead>
  <tbody>
@@ -1112,51 +1023,51 @@
  if (hoursUntilReview > 0) {
  // Still in cooldown - show hours remaining
  nextReviewText = `Review in ${hoursUntilReview}h`;
- nextReviewBadgeClass ="text-xs";
+ nextReviewBadgeClass = "w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-2 text-gray-400 border-0 cursor-default";
  isReviewReady = false;
  } else {
  // Cooldown complete - ready to review!
  nextReviewText = `Review now`;
- nextReviewBadgeClass ="text-xs";
+ nextReviewBadgeClass = "text-xs text-green-600";
  isReviewReady = true;
  }
  }
 
  return `
- <tr class="hover:bg-learning-app-design-3">
- <th scope="row" class="px-4 py-4 font-medium whitespace-nowrap">${categoryName}</th>
- <td class="px-4 py-4" data-label="Progress">
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2">
+ <th scope="row" class="px-4 py-4 font-medium text-gray-200 whitespace-nowrap">${categoryName}</th>
+ <td class="px-4 py-4">
  <div class="flex flex-col gap-1">
- <span class="font-medium" style="font-size: .75rem; line-height: 1rem;">${progressPercentage}%</span>
- <div class="w-full bg-learning-app-design-3 rounded-full" style="height: .375rem;">
- <div class="rounded-full transition-all duration-300 bg-level-learning" style="width: ${progressPercentage}%; height: .375rem;"></div>
+ <span class="text-gray-300 font-medium" style="font-size: .75rem; line-height: 1rem;">${progressPercentage}%</span>
+ <div class="w-full bg-learning-app-design-1 rounded-full" style="height: .375rem;">
+ <div class="rounded-full transition-all duration-300" style="width: ${progressPercentage}%; background-color: #05C7F2; height: .375rem;"></div>
  </div>
  </div>
  </td>
- <td class="px-4 py-4" data-label="Levels">
+ <td class="px-4 py-4">
  ${renderLevelBadge(repeatCount)}
  </td>
- <td class="px-4 py-4" data-label="When to review">
+ <td class="px-4 py-4">
  ${(() => {
  // Category is NOT complete (progress < 100%)
  // Show Continue or Start based on whether user has started
  if (progressPercentage < 100) {
  if (startedCards > 0) {
- return `<button class="continue-btn btn btn text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Continue</button>`;
+ return `<button class="continue-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-7 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Continue</button>`;
  }
- return `<button class="start-btn btn btn text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Start</button>`;
+ return `<button class="start-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-6 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Start</button>`;
  }
 
  // Category is 100% complete
  // Check if cooldown has passed
  if (completionDate) {
  return isReviewReady
- ? `<button class="restart-btn btn btn hover:bg-learning-app-design-5 text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Review Now</button>`
+ ? `<button class="restart-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-4 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Review Now</button>`
  : `<span class="${nextReviewBadgeClass}">${nextReviewText}</span>`;
  }
 
  // 100% complete but no completion date (edge case - shouldn't happen)
- return `<button class="restart-btn btn btn hover:bg-learning-app-design-5 text-xs" style="padding: 0.125rem 0.75rem; min-height: auto; height: auto; width: 100px;" data-source="${section.source}" data-category="${categoryName}">Review Now</button>`;
+ return `<button class="restart-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-4 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Review Now</button>`;
  })()}
  </td>
  </tr>
@@ -1167,13 +1078,7 @@
  `;
 
  tableContainer.appendChild(table);
- tableWrapper.appendChild(tableContainer);
-
- // Append table to inner container
- innerContainer.appendChild(tableWrapper);
-
- // Append inner container to outer wrapper
- outerWrapper.appendChild(innerContainer);
+ outerWrapper.appendChild(tableContainer);
 
  // Append complete structure to stats container
  statsContainer.appendChild(outerWrapper);
@@ -1199,7 +1104,7 @@
  `;
 
  const upgradeButton = document.createElement("button");
- upgradeButton.className ="btn btn-xs mt-2 bg-level-expert hover:bg-level-expert";
+ upgradeButton.className ="inline-flex items-center justify-center rounded-full py-2 px-4 mt-2 text-sm font-semibold bg-level-expert text-white border-0";
  upgradeButton.innerHTML ="Upgrade to Premium";
  upgradeButton.onclick = () => {
  window.location.href ="/premium";

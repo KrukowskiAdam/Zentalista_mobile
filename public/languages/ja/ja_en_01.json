@@ -405,121 +405,121 @@
             "words": [
                 {
                     "en": "Yes",
-                    "ja": "はい。",
+                    "ja": "はい",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0090.mp3",
                     "romaji": "Hai"
                 },
                 {
                     "en": "No",
-                    "ja": "いいえ。",
+                    "ja": "いいえ",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0091.mp3",
                     "romaji": "Iie"
                 },
                 {
                     "en": "Maybe",
-                    "ja": "多分そうです。",
+                    "ja": "多分そうです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0092.mp3",
                     "romaji": "Tabun sou desu"
                 },
                 {
                     "en": "Ok",
-                    "ja": "大丈夫です。",
+                    "ja": "大丈夫です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0093.mp3",
                     "romaji": "Daijoubu desu"
                 },
                 {
                     "en": "Sure",
-                    "ja": "もちろんです。",
+                    "ja": "もちろんです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0094.mp3",
                     "romaji": "Mochiron desu"
                 },
                 {
                     "en": "Always",
-                    "ja": "いつも。",
+                    "ja": "いつも",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0225.mp3",
                     "romaji": "Itsumo"
                 },
                 {
                     "en": "Exactly",
-                    "ja": "その通りです。",
+                    "ja": "その通りです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0096.mp3",
                     "romaji": "Sono toori desu"
                 },
                 {
                     "en": "Right",
-                    "ja": "正解です。",
+                    "ja": "正解です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0097.mp3",
                     "romaji": "Seikai desu"
                 },
                 {
                     "en": "Wrong",
-                    "ja": "間違いです。",
+                    "ja": "間違いです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0098.mp3",
                     "romaji": "Machigai desu"
                 },
                 {
                     "en": "True",
-                    "ja": "本当です。",
+                    "ja": "本当です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0099.mp3",
                     "romaji": "Hontou desu"
                 },
                 {
                     "en": "False",
-                    "ja": "嘘です。",
+                    "ja": "嘘です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0100.mp3",
                     "romaji": "Uso desu"
                 },
                 {
                     "en": "Correct",
-                    "ja": "正しいです。",
+                    "ja": "正しいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0101.mp3",
                     "romaji": "Tadashii desu"
                 },
                 {
                     "en": "Incorrect",
-                    "ja": "間違っています。",
+                    "ja": "間違っています",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0102.mp3",
                     "romaji": "Machigatteimasu"
                 },
                 {
                     "en": "Possible",
-                    "ja": "可能です。",
+                    "ja": "可能です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0103.mp3",
                     "romaji": "Kanou desu"
                 },
                 {
                     "en": "Impossible",
-                    "ja": "不可能です。",
+                    "ja": "不可能です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0104.mp3",
                     "romaji": "Fukanou desu"
                 },
                 {
                     "en": "Agree",
-                    "ja": "同意します。",
+                    "ja": "同意します",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0105.mp3",
                     "romaji": "Doui shimasu"
                 },
                 {
                     "en": "Disagree",
-                    "ja": "同意しません。",
+                    "ja": "同意しません",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0106.mp3",
                     "romaji": "Doui shimasen"
                 },
                 {
                     "en": "Understand",
-                    "ja": "わかります。",
+                    "ja": "わかります",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0107.mp3",
                     "romaji": "Wakarimasu"
                 },
                 {
                     "en": "Depends",
-                    "ja": "場合によります。",
+                    "ja": "場合によります",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0108.mp3",
                     "romaji": "Baai ni yorimasu"
                 },
                 {
                     "en": "Absolutely",
-                    "ja": "絶対にそうです。",
+                    "ja": "絶対にそうです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0109.mp3",
                     "romaji": "Zettai ni sou desu"
                 }
@@ -578,13 +578,13 @@
                 },
                 {
                     "en": "Let me think.",
-                    "ja": "えっと。",
+                    "ja": "えっと",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0113.mp3",
                     "romaji": "Etto."
                 },
                 {
                     "en": "Always.",
-                    "ja": "いつも。",
+                    "ja": "いつも",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0227.mp3",
                     "romaji": "Itsumo ."
                 },
@@ -870,7 +870,7 @@
                 },
                 {
                     "en": "Let's discuss this later.",
-                    "ja": "これについては後で話し合いましょう。",
+                    "ja": "これについては後で話し合いましょう",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0228.mp3",
                     "romaji": "Kore nitsuite wa atode hanashiai masho u ."
                 }
@@ -982,7 +982,7 @@
             "words": [
                 {
                     "en": "It's a pleasure.",
-                    "ja": "お会いできて光栄です。",
+                    "ja": "お会いできて光栄です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0177.mp3",
                     "romaji": "Oai dekite kouei desu."
                 },
@@ -1006,7 +1006,7 @@
                 },
                 {
                     "en": "Do you live here?",
-                    "ja": "ここに住んでるの。",
+                    "ja": "ここに住んでるの",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0181.mp3",
                     "romaji": "Koko ni sunderu no."
                 },
@@ -1054,13 +1054,13 @@
                 },
                 {
                     "en": "I like your shirt.",
-                    "ja": "そのシャツ、いいですね。",
+                    "ja": "そのシャツ、いいですね",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0189.mp3",
                     "romaji": "Sono shatsu , ii desu ne ."
                 },
                 {
                     "en": "I like your outfit.",
-                    "ja": "その服装、素敵ですね。",
+                    "ja": "その服装、素敵ですね",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0190.mp3",
                     "romaji": "Sono fukusō , suteki desu ne ."
                 },
@@ -1072,7 +1072,7 @@
                 },
                 {
                     "en": "It was great to meet you.",
-                    "ja": "お会いできてよかったです。",
+                    "ja": "お会いできてよかったです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0192.mp3",
                     "romaji": "O ai deki te yokatta desu ."
                 },
@@ -1090,13 +1090,13 @@
                 },
                 {
                     "en": "We should do this again sometime.",
-                    "ja": "またいつか集まりましょう。",
+                    "ja": "またいつか集まりましょう",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0195.mp3",
                     "romaji": "Mata itsuka atsumari masho u ."
                 },
                 {
                     "en": "Enjoy the rest of your evening.",
-                    "ja": "残りの夜を楽しんでください。",
+                    "ja": "残りの夜を楽しんでください",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0196.mp3",
                     "romaji": "Nokori no yoru o tanoshin de kudasai ."
                 },
@@ -1108,7 +1108,7 @@
                 },
                 {
                     "en": "Let's keep in touch.",
-                    "ja": "連絡を取り合いましょう。",
+                    "ja": "連絡を取り合いましょう",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0198.mp3",
                     "romaji": "Renraku o toriai masho u ."
                 },
@@ -1120,7 +1120,7 @@
                 },
                 {
                     "en": "So, what's your story?",
-                    "ja": "で、あなたのことを教えてください。",
+                    "ja": "で、あなたのことを教えてください",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0200.mp3",
                     "romaji": "De , anata no koto o oshie te kudasai ."
                 },
@@ -1168,13 +1168,13 @@
                 },
                 {
                     "en": "It was a pleasure meeting you.",
-                    "ja": "お会いできて光栄でした。",
+                    "ja": "お会いできて光栄でした",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0208.mp3",
                     "romaji": "O ai deki te kōei deshi ta ."
                 },
                 {
                     "en": "Let me introduce you to my friends.",
-                    "ja": "私の友人を紹介させてください。",
+                    "ja": "私の友人を紹介させてください",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0209.mp3",
                     "romaji": "Watashi no yūjin o shōkai sa se te kudasai ."
                 },
@@ -1234,13 +1234,13 @@
                 },
                 {
                     "en": "I'm on vacation here.",
-                    "ja": "ここは旅行で来ているんです。",
+                    "ja": "ここは旅行で来ているんです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0219.mp3",
                     "romaji": "Koko wa ryokō de ki te iru n desu ."
                 },
                 {
                     "en": "I'm just learning the language.",
-                    "ja": "まだ言葉を勉強中なんです。",
+                    "ja": "まだ言葉を勉強中なんです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/01/ja_0220.mp3",
                     "romaji": "Mada kotoba o benkyō chū na n desu ."
                 },

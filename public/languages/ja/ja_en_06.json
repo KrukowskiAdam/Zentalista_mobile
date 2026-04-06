@@ -293,7 +293,7 @@
                 },
                 {
                     "en": "My family is small.",
-                    "ja": "私の家族は少人数です。",
+                    "ja": "私の家族は少人数です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/06/ja_0048.mp3",
                     "romaji": "Watashi no kazoku wa shō ninzū desu ."
                 }
@@ -567,7 +567,7 @@
                 },
                 {
                     "en": "I respect you.",
-                    "ja": "あなたを尊敬しています。",
+                    "ja": "あなたを尊敬しています",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/06/ja_0162.mp3",
                     "romaji": "Anata o sonkei shi te i masu ."
                 }

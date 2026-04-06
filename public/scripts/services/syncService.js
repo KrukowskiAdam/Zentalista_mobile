@@ -318,7 +318,6 @@ class SyncService {
       this.lastSyncTime = syncTime;
       localStorage.setItem("lastSyncTime", syncTime.toString());
 
-      console.log("✅ Synced to cloud:", userData.stats);
     } catch (error) {
       console.error("❌ Error syncing to cloud:", error);
     } finally {

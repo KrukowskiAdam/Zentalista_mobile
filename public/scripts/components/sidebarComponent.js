@@ -107,7 +107,7 @@ export class SidebarComponent {
  // Create accordion wrapper with join-item class
  const accordionDiv = createElement('div', {
  parent,
- className: 'collapse collapse-arrow join-item bg-learning-app-design-1'
+ className: 'collapse collapse-arrow join-item bg-learning-app-design-2'
  });
 
  // Create checkbox input for accordion (with id for label)
@@ -192,7 +192,6 @@ export class SidebarComponent {
  } else {
  // Default behavior
  if (firstSection) {
- firstSection.checkbox.checked = true;
  if (!stateService.categoryFilter && categoryData.freeCategories.length > 0) {
  stateService.categoryFilter = categoryData.freeCategories[0].name;
  this.updateCategorySidebar();
@@ -226,27 +225,12 @@ export class SidebarComponent {
  if (isActive) {
  link.className = 'text-sm py-2 px-4 rounded-lg transition-colors bg-level-expert hover:bg-level-expert';
  activeCategoryFound = true;
- // Open parent accordion
- const accordion = link.closest('.collapse');
- if (accordion) {
- const checkbox = accordion.querySelector('input[type="checkbox"]');
- if (checkbox) {
- checkbox.checked = true;
- }
- }
  } else {
  // Check if locked
  const isLocked = link.querySelector('svg');
  link.className = `text-sm py-2 px-4 rounded-lg hover:bg-learning-app-design-4 transition-colors ${isLocked ? 'opacity-60 cursor-not-allowed' : ''}`;
  }
  });
- if (!activeCategoryFound && stateService.categoryFilter) {
- const firstAccordion = document.querySelector('#category-sidebar-menu .collapse');
- if (firstAccordion) {
- const checkbox = firstAccordion.querySelector('input[type="checkbox"]');
- if (checkbox) checkbox.checked = true;
- }
- }
  }, 50);
  }
 }

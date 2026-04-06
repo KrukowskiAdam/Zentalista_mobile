@@ -11,7 +11,7 @@
 
  <!-- Mobile sidebar toggle button -->
  <button id="sidebar-toggle"
- class="fixed z-40 btn btn-circle touch-target bg-level-expert hover:bg-level-expert-dark shadow-lg <%= isAppHome ? 'hidden' : '' %>"
+ class="fixed z-40 btn btn-circle touch-target bg-level-expert hover:bg-level-expert-dark shadow-lg border-0 <%= isAppHome ? 'hidden' : '' %>"
  style="right: max(1rem, constant(safe-area-inset-right)); right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, constant(safe-area-inset-bottom)); bottom: max(1rem, env(safe-area-inset-bottom));">
  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -21,9 +21,9 @@
  <div id="main-container">
  <!-- Sidebar with responsive behavior -->
  <aside id="sidebar"
- class="pl-0 transition-all duration-300 bg-learning-app-design-3 rounded-xl <%= isAppHome ? 'hidden' : '' %>">
+ class="pl-0 transition-all duration-300 bg-learning-app-design-2<%= isAppHome ? ' hidden' : '' %>">
  <h2 id="categories"
- class="text-xl bg-learning-app-design-1 font-semibold px-4 py-3">
+ class="text-xl bg-learning-app-design-2 font-semibold px-4 py-3">
  Categories
  </h2>
  <div id="slider">
@@ -41,7 +41,7 @@
  <%- include('partials/modals') %>
 
  <!-- Skrypty -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie_light.min.js" defer></script>
+ <script src="/scripts/vendors/lottie_light.min.js" defer></script>
  <script defer type="module" src="/scripts/auth.js"></script>
  <script defer type="module" src="/scripts/index.js"></script>
  <script defer type="module" src="/scripts/main.js"></script>
@@ -72,17 +72,29 @@
  mainContainer.classList.add('sidebar-hidden');
 
  sidebarToggle.addEventListener('click', () => {
+ const isOpening = sidebar.classList.contains('hidden');
  sidebar.classList.toggle('hidden');
  mainContainer.classList.toggle('sidebar-hidden');
+ if (isOpening) {
+ document.querySelectorAll('#category-sidebar-menu input[type="checkbox"]').forEach(cb => cb.checked = false);
+ }
  });
 
- // Close sidebar when clicking on a category on mobile
- const categoryItems = document.querySelectorAll('#category-sidebar-menu a');
- categoryItems.forEach(item => {
- item.addEventListener('click', () => {
+ // Auto-open sidebar if navigated from home "Start learning" button
+ if (localStorage.getItem('autoOpenSidebar') === 'true') {
+ localStorage.removeItem('autoOpenSidebar');
+ sidebar.classList.remove('hidden');
+ mainContainer.classList.remove('sidebar-hidden');
+ // Close all accordions after sidebar renders (100ms > 50ms debounce in updateCategorySidebar)
+ setTimeout(() => {
+ document.querySelectorAll('#category-sidebar-menu input[type="checkbox"]').forEach(cb => cb.checked = false);
+ }, 100);
+ }
+
+ // Close sidebar when a category is selected (categories are built dynamically)
+ window.addEventListener('categoryChanged', () => {
  sidebar.classList.add('hidden');
  mainContainer.classList.add('sidebar-hidden');
- });
  });
  });
  </script>
@@ -103,10 +115,14 @@
  width: 100%;
  margin-left: 0;
  margin-top: 0;
- background: #030712;
  z-index: 30;
  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
  overflow-y: auto;
+ }
+
+ #category-sidebar-menu .join-item:last-child {
+ border-bottom-left-radius: 0 !important;
+ border-bottom-right-radius: 0 !important;
  }
 
  #main-content {

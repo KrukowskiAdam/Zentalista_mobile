@@ -346,12 +346,12 @@ class ProfileManager {
   if (isPremium) {
  // Paid premium user
  this.elements.accountType.textContent ="Premium";
- this.elements.accountType.className ="font-medium";
+ this.elements.accountType.className ="text-sm font-semibold";
  this.elements.trialInfoRow?.classList.add("hidden");
  } else {
  // Free user - check trial
  this.elements.accountType.textContent ="Free";
- this.elements.accountType.className ="font-medium";
+ this.elements.accountType.className ="text-sm font-semibold";
   const toDateSafe = (value) => {
  if (!value) return null;
  if (value.toDate) return value.toDate();
@@ -378,12 +378,12 @@ class ProfileManager {
  // Trial active
  this.elements.trialInfoRow?.classList.remove("hidden");
  this.elements.trialStatus.textContent = `${daysLeft} day${daysLeft !== 1 ? 's' : ''} left`;
- this.elements.trialStatus.className ="font-medium";
+ this.elements.trialStatus.className ="text-sm font-semibold";
  } else {
  // Trial expired
  this.elements.trialInfoRow?.classList.remove("hidden");
  this.elements.trialStatus.textContent ="Expired";
- this.elements.trialStatus.className ="font-medium";
+ this.elements.trialStatus.className ="text-sm font-semibold";
  }
  } else {
  // No trial data (old user before trial feature)

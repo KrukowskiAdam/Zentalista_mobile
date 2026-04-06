@@ -125,14 +125,14 @@ class CelebrationService {
 
  this.challengeButton = document.createElement("button");
  this.challengeButton.type ="button";
- this.challengeButton.className ="w-full rounded-xl text-sm font-semibold py-2 transition duration-150 hover:bg-level-expert focus:outline-none";
+ this.challengeButton.className ="w-full inline-flex items-center justify-center rounded-full py-3 text-sm font-semibold bg-level-expert text-white border-0";
  this.challengeButton.textContent ="Take the challenge";
  this.challengeButton.style.minHeight ="auto";
  this.challengeButton.addEventListener("click", () => this.launchChallenge());
 
  const maybeLaterButton = document.createElement("button");
  maybeLaterButton.type ="button";
- maybeLaterButton.className ="w-full rounded-xl text-sm font-medium py-2 focus:outline-none";
+ maybeLaterButton.className ="w-full inline-flex items-center justify-center rounded-full py-3 text-sm font-semibold bg-level-learning text-white border-0";
  maybeLaterButton.textContent ="Maybe later";
  maybeLaterButton.style.minHeight ="auto";
  maybeLaterButton.addEventListener("click", () => this.hideCelebration());
@@ -313,12 +313,10 @@ class CelebrationService {
 
  if (loggedIn) {
  this.challengeButton.textContent ="Take the challenge";
- this.challengeButton.classList.remove("bg-learning-app-design-2","");
- this.challengeButton.classList.add("");
+ this.challengeButton.classList.remove("bg-learning-app-design-2");
  } else {
  this.challengeButton.textContent ="Log in to take the challenge";
- this.challengeButton.classList.add("bg-learning-app-design-2","");
- this.challengeButton.classList.remove("");
+ this.challengeButton.classList.add("bg-learning-app-design-2");
  }
  }
 

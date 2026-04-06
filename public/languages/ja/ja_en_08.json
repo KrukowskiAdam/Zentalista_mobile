@@ -275,13 +275,13 @@
                 },
                 {
                     "en": "I like math class.",
-                    "ja": "数学の授業が好きです。",
+                    "ja": "数学の授業が好きです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0045.mp3",
                     "romaji": "Sūgaku no jugyō ga suki desu ."
                 },
                 {
                     "en": "The language course is full.",
-                    "ja": "その語学コースは満員です。",
+                    "ja": "その語学コースは満員です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0190.mp3",
                     "romaji": "Sono gogaku kōsu wa man'in desu ."
                 },
@@ -543,7 +543,7 @@
                 },
                 {
                     "en": "She works as a nurse.",
-                    "ja": "彼女は看護師として働いています。",
+                    "ja": "彼女は看護師として働いています",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0088.mp3",
                     "romaji": "Kanojo wa kango shi toshite hatarai te i masu ."
                 }
@@ -745,7 +745,7 @@
                 },
                 {
                     "en": "The printer is out of paper.",
-                    "ja": "プリンターの紙切れです。",
+                    "ja": "プリンターの紙切れです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/08/ja_0120.mp3",
                     "romaji": "Purintā no kamikire desu ."
                 }

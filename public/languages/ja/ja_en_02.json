@@ -881,7 +881,7 @@
             "words": [
                 {
                     "en": "I'm busy today.",
-                    "ja": "今日は忙しいです。",
+                    "ja": "今日は忙しいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0141.mp3",
                     "romaji": "Kyō wa isogashii desu ."
                 },
@@ -893,7 +893,7 @@
                 },
                 {
                     "en": "I saw him yesterday.",
-                    "ja": "昨日彼に会いました。",
+                    "ja": "昨日彼に会いました",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0143.mp3",
                     "romaji": "Kinō kare ni ai mashi ta ."
                 },
@@ -905,7 +905,7 @@
                 },
                 {
                     "en": "I'll call you next week.",
-                    "ja": "来週電話します。",
+                    "ja": "来週電話します",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0145.mp3",
                     "romaji": "Raishū denwa shi masu ."
                 },
@@ -917,7 +917,7 @@
                 },
                 {
                     "en": "We're leaving this month.",
-                    "ja": "私たちは今月出発します。",
+                    "ja": "私たちは今月出発します",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0147.mp3",
                     "romaji": "Watashi tachi wa kongetsu shuppatsu shi masu ."
                 },
@@ -1083,7 +1083,7 @@
             "words": [
                 {
                     "en": "I work on Monday.",
-                    "ja": "月曜日は仕事です。",
+                    "ja": "月曜日は仕事です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0173.mp3",
                     "romaji": "Getsuyōbi wa shigoto desu ."
                 },
@@ -1095,7 +1095,7 @@
                 },
                 {
                     "en": "Friday is my favorite day.",
-                    "ja": "金曜日は私のお気に入りの日です。",
+                    "ja": "金曜日は私のお気に入りの日です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0175.mp3",
                     "romaji": "Kin'yōbi wa watashi no okiniiri no hi desu ."
                 },
@@ -1107,7 +1107,7 @@
                 },
                 {
                     "en": "My birthday is in March.",
-                    "ja": "私の誕生日は3月です。",
+                    "ja": "私の誕生日は3月です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0177.mp3",
                     "romaji": "Watashi no tanjō bi wa 3 tsuki desu ."
                 },
@@ -1119,7 +1119,7 @@
                 },
                 {
                     "en": "I love spring.",
-                    "ja": "春が大好きです。",
+                    "ja": "春が大好きです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0179.mp3",
                     "romaji": "Haru ga daisuki desu ."
                 },
@@ -1131,7 +1131,7 @@
                 },
                 {
                     "en": "We met in January.",
-                    "ja": "私たちは1月に出会いました。",
+                    "ja": "私たちは1月に出会いました",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0181.mp3",
                     "romaji": "Watashi tachi wa 1 tsuki ni deai mashi ta ."
                 },
@@ -1143,7 +1143,7 @@
                 },
                 {
                     "en": "December is always busy.",
-                    "ja": "12月はいつも忙しいです。",
+                    "ja": "12月はいつも忙しいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/02/ja_0183.mp3",
                     "romaji": "12 tsuki wa itsumo isogashii desu ."
                 },

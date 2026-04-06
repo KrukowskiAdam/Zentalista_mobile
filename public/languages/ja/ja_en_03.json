@@ -755,7 +755,7 @@
                 },
                 {
                     "en": "I love bananas.",
-                    "ja": "バナナが大好きです。",
+                    "ja": "バナナが大好きです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0125.mp3",
                     "romaji": "Banana ga daisuki desu ."
                 },
@@ -767,7 +767,7 @@
                 },
                 {
                     "en": "The apples are fresh.",
-                    "ja": "このリンゴは新鮮です。",
+                    "ja": "このリンゴは新鮮です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0127.mp3",
                     "romaji": "Kono ringo wa shinsen desu ."
                 },
@@ -779,7 +779,7 @@
                 },
                 {
                     "en": "Mangoes are sweet.",
-                    "ja": "マンゴーは甘いです。",
+                    "ja": "マンゴーは甘いです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0129.mp3",
                     "romaji": "Mangō wa amai desu ."
                 },
@@ -791,7 +791,7 @@
                 },
                 {
                     "en": "I eat fruit every day.",
-                    "ja": "毎日フルーツを食べています。",
+                    "ja": "毎日フルーツを食べています",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0131.mp3",
                     "romaji": "Mainichi furūtsu o tabe te i masu ."
                 },
@@ -803,7 +803,7 @@
                 },
                 {
                     "en": "I need some tomatoes.",
-                    "ja": "トマトが必要です。",
+                    "ja": "トマトが必要です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0133.mp3",
                     "romaji": "Tomato ga hitsuyō desu ."
                 },
@@ -815,7 +815,7 @@
                 },
                 {
                     "en": "The potatoes are ready.",
-                    "ja": "ジャガイモの準備ができました。",
+                    "ja": "ジャガイモの準備ができました",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0135.mp3",
                     "romaji": "Jagaimo no jumbi ga deki mashi ta ."
                 },
@@ -827,7 +827,7 @@
                 },
                 {
                     "en": "I don't like mushrooms.",
-                    "ja": "キノコは苦手です。",
+                    "ja": "キノコは苦手です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0137.mp3",
                     "romaji": "Kinoko wa nigate desu ."
                 },
@@ -839,7 +839,7 @@
                 },
                 {
                     "en": "Spinach is healthy.",
-                    "ja": "ホウレンソウは健康的です。",
+                    "ja": "ホウレンソウは健康的です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0139.mp3",
                     "romaji": "Hōrensō wa kenkō teki desu ."
                 },
@@ -851,7 +851,7 @@
                 },
                 {
                     "en": "I'll have some water.",
-                    "ja": "お水をください。",
+                    "ja": "お水をください",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0141.mp3",
                     "romaji": "O mizu o kudasai ."
                 },
@@ -863,7 +863,7 @@
                 },
                 {
                     "en": "The juice is fresh.",
-                    "ja": "そのジュースはフレッシュです。",
+                    "ja": "そのジュースはフレッシュです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0143.mp3",
                     "romaji": "Sono jūsu wa furesshu desu ."
                 },
@@ -875,7 +875,7 @@
                 },
                 {
                     "en": "I prefer iced coffee.",
-                    "ja": "アイスコーヒーの方がいいです。",
+                    "ja": "アイスコーヒーの方がいいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0145.mp3",
                     "romaji": "Aisu kōhī no hō ga ii desu ."
                 },
@@ -887,7 +887,7 @@
                 },
                 {
                     "en": "This lemonade is good.",
-                    "ja": "このレモネードはおいしいです。",
+                    "ja": "このレモネードはおいしいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0147.mp3",
                     "romaji": "Kono remonēdo wa oishii desu ."
                 },
@@ -899,7 +899,7 @@
                 },
                 {
                     "en": "I like chicken.",
-                    "ja": "鶏肉が好きです。",
+                    "ja": "鶏肉が好きです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0149.mp3",
                     "romaji": "Keiniku ga suki desu ."
                 },
@@ -911,7 +911,7 @@
                 },
                 {
                     "en": "The beef is tender.",
-                    "ja": "この牛肉は柔らかいです。",
+                    "ja": "この牛肉は柔らかいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0151.mp3",
                     "romaji": "Kono gyūniku wa yawarakai desu ."
                 },
@@ -923,7 +923,7 @@
                 },
                 {
                     "en": "I need some butter.",
-                    "ja": "バターが必要です。",
+                    "ja": "バターが必要です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0153.mp3",
                     "romaji": "Batā ga hitsuyō desu ."
                 },
@@ -935,7 +935,7 @@
                 },
                 {
                     "en": "The salmon is fresh.",
-                    "ja": "このサーモンは新鮮です。",
+                    "ja": "このサーモンは新鮮です",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0155.mp3",
                     "romaji": "Kono sāmon wa shinsen desu ."
                 },
@@ -1317,7 +1317,7 @@
                 },
                 {
                     "en": "It's too salty.",
-                    "ja": "塩辛すぎます。",
+                    "ja": "塩辛すぎます",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0217.mp3",
                     "romaji": "Shiokara sugi masu ."
                 },
@@ -1329,7 +1329,7 @@
                 },
                 {
                     "en": "The food is delicious.",
-                    "ja": "料理はおいしいです。",
+                    "ja": "料理はおいしいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0219.mp3",
                     "romaji": "Ryōri wa oishii desu ."
                 },
@@ -1341,7 +1341,7 @@
                 },
                 {
                     "en": "I prefer fried chicken.",
-                    "ja": "フライドチキンの方が好きです。",
+                    "ja": "フライドチキンの方が好きです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0221.mp3",
                     "romaji": "Furaidochikin no hō ga suki desu ."
                 },
@@ -1353,7 +1353,7 @@
                 },
                 {
                     "en": "This tastes bitter.",
-                    "ja": "これは苦い味がします。",
+                    "ja": "これは苦い味がします",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0223.mp3",
                     "romaji": "Kore wa nigai aji ga shi masu ."
                 },
@@ -1855,7 +1855,7 @@
                 },
                 {
                     "en": "I like your shirt.",
-                    "ja": "そのシャツ、いいですね。",
+                    "ja": "そのシャツ、いいですね",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0305.mp3",
                     "romaji": "Sono shatsu , ii desu ne ."
                 },
@@ -1867,7 +1867,7 @@
                 },
                 {
                     "en": "This sweater is warm.",
-                    "ja": "このセーターは暖かいです。",
+                    "ja": "このセーターは暖かいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0307.mp3",
                     "romaji": "Kono sētā wa atatakai desu ."
                 },
@@ -1879,7 +1879,7 @@
                 },
                 {
                     "en": "My jeans are too tight.",
-                    "ja": "ジーンズがきつすぎます。",
+                    "ja": "ジーンズがきつすぎます",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0309.mp3",
                     "romaji": "Jīnzu ga kitsu sugi masu ."
                 },
@@ -1891,7 +1891,7 @@
                 },
                 {
                     "en": "I forgot my gloves.",
-                    "ja": "手袋を忘れました。",
+                    "ja": "手袋を忘れました",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0311.mp3",
                     "romaji": "Tebukuro o wasure mashi ta ."
                 },
@@ -1903,7 +1903,7 @@
                 },
                 {
                     "en": "She looks beautiful.",
-                    "ja": "彼女はとても美しいです。",
+                    "ja": "彼女はとても美しいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0313.mp3",
                     "romaji": "Kanojo wa totemo utsukushii desu ."
                 },
@@ -1915,7 +1915,7 @@
                 },
                 {
                     "en": "You look young.",
-                    "ja": "若く見えますね。",
+                    "ja": "若く見えますね",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0315.mp3",
                     "romaji": "Wakaku mie masu ne ."
                 },
@@ -1927,7 +1927,7 @@
                 },
                 {
                     "en": "He's very handsome.",
-                    "ja": "彼はとてもハンサムです。",
+                    "ja": "彼はとてもハンサムです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0317.mp3",
                     "romaji": "Kare wa totemo hansamu desu ."
                 },
@@ -1939,7 +1939,7 @@
                 },
                 {
                     "en": "The baby is so cute.",
-                    "ja": "その赤ちゃんはとてもかわいいです。",
+                    "ja": "その赤ちゃんはとてもかわいいです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0319.mp3",
                     "romaji": "Sono akachan wa totemo kawaii desu ."
                 },
@@ -1951,7 +1951,7 @@
                 },
                 {
                     "en": "I like blue.",
-                    "ja": "青が好きです。",
+                    "ja": "青が好きです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0321.mp3",
                     "romaji": "Ao ga suki desu ."
                 },
@@ -1963,7 +1963,7 @@
                 },
                 {
                     "en": "The sky is blue.",
-                    "ja": "空は青いです。",
+                    "ja": "空は青いです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0323.mp3",
                     "romaji": "Sora wa aoi desu ."
                 },
@@ -1975,7 +1975,7 @@
                 },
                 {
                     "en": "Red looks good on you.",
-                    "ja": "赤が似合いますね。",
+                    "ja": "赤が似合いますね",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0325.mp3",
                     "romaji": "Aka ga niai masu ne ."
                 },
@@ -1987,7 +1987,7 @@
                 },
                 {
                     "en": "I prefer dark colors.",
-                    "ja": "暗い色の方が好きです。",
+                    "ja": "暗い色の方が好きです",
                     "audio": "https://storage.googleapis.com/costam-3f612.firebasestorage.app/audio/ja/03/ja_0327.mp3",
                     "romaji": "Kurai iro no hō ga suki desu ."
                 },
