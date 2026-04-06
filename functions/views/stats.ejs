@@ -43,6 +43,11 @@
 
  #stats-container .stats-table tbody tr:last-child {
  margin-bottom: 0;
+ border-bottom: none;
+ }
+
+ #stats-all-languages tbody tr:last-child {
+ border-bottom: none;
  }
 
  #stats-container .stats-table tbody th {
@@ -63,7 +68,7 @@
  }
  </style>
 
- <div class="container mx-auto px-4 py-8 pt-12 max-w-6xl safe-bottom">
+ <div class="container mx-auto px-4 pt-4 max-w-6xl safe-bottom">
  <!-- Loading spinner while checking auth -->
  <div id="auth-loading" class="text-center py-16 space-y-4">
  <span class="loading loading-spinner loading-lg"></span>
@@ -97,25 +102,17 @@
  </div>
 
  <!-- Stats content (shown only when logged in) -->
- <div id="stats-content" class="hidden">
- <!-- Header -->
- <div id="stats-header" class="text-center mb-6 sm:mb-7 px-1">
- <h1 class="text-3xl sm:text-4xl font-bold text-gray-100 mb-2 flex items-center justify-center gap-2 sm:gap-3">
- <svg class="w-8 h-8 sm:w-10 sm:h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor"
- stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
- </svg>
- Learning Statistics
- </h1>
- <p class="text-gray-400 py-4 sm:py-8 max-w-2xl mx-auto">Track your learning progress and see category completion across all languages.
- </p>
+ <div id="stats-content" class="hidden space-y-3">
+ <!-- Header card -->
+ <div id="stats-header-card" class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
+ <p class="text-sm uppercase tracking-[0.15em] mb-3">Learning Statistics</p>
+ <p class="text-xs opacity-50">Track your learning progress and see category completion across all languages.</p>
  </div>
- <div id="stats-lang-selector" class="flex items-center justify-center gap-2 mb-5 sm:mb-6">
+ <div id="stats-lang-selector" class="hidden flex items-center">
  <span id="stats-lang-flag"
  class="inline-flex items-center justify-center w-8 h-8 rounded-full overflow-hidden border border-learning-app-design-3">
  <!-- Flag inserted by JS -->
  </span>
- <span id="stats-lang-name" class="text-base sm:text-lg font-normal text-gray-400"></span>
  </div>
  <!-- Custom dropdown selector (replaces native select) -->
  <div id="category-section-select" class="hidden relative w-full">
@@ -126,7 +123,7 @@
  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
  </svg>
  </button>
- <div id="custom-select-options" class="hidden absolute left-0 right-0 top-full z-50 bg-learning-app-design-1 rounded-b-xl shadow-card overflow-hidden" style="max-height: 70vh; overflow-y: auto;">
+ <div id="custom-select-options" class="hidden absolute left-0 right-0 top-full z-50 bg-learning-app-design-1 rounded-xl shadow-card overflow-hidden" style="max-height: 70vh; overflow-y: auto;">
  </div>
  </div>
  <div id="stats-container" class="mt-6">
@@ -137,9 +134,8 @@
 
  <!-- All Languages Progress Table -->
  <div id="stats-all-languages" class="bg-learning-app-design-1 rounded-xl shadow-card mt-8 overflow-hidden">
- <div class="border-b border-learning-app-design-3 bg-learning-app-design-2 rounded-t-xl flex items-center"
- style="height: 50px; padding-left: 1rem; padding-right: 1rem;">
- <h2 class="text-xl text-gray-100 font-bold">All Languages Progress</h2>
+ <div class="flex items-center px-4 pt-4 pb-3 border-b border-learning-app-design-3">
+ <p class="text-sm uppercase tracking-[0.15em]">All Languages Progress</p>
  </div>
  <div>
  <table class="w-full text-sm text-left text-gray-400">
@@ -896,6 +892,11 @@
  return `<span class="flex items-center gap-0.5">${starsHtml}${extraHtml}</span>`;
  };
 
+ // Preserve lang selector before clearing
+ const langSelectorOld = statsContainer.querySelector("#stats-lang-selector");
+ if (langSelectorOld) {
+ statsContainer.parentNode.insertBefore(langSelectorOld, statsContainer);
+ }
  statsContainer.innerHTML ="";
 
  const sectionData = categoryStats[section.source];
@@ -963,16 +964,22 @@
 
  // Create header row
  const headerRow = document.createElement("div");
- headerRow.className = "border-b border-learning-app-design-3 bg-learning-app-design-2 rounded-t-xl flex items-center";
- headerRow.style.height ="50px";
- headerRow.style.paddingLeft ="1rem";
- headerRow.style.paddingRight ="1rem";
+ headerRow.className = "flex items-center px-4 pt-4 pb-3 border-b border-learning-app-design-3";
 
  // Create title header
- const tableTitle = document.createElement("h2");
- tableTitle.className = "text-xl text-gray-100 font-bold";
+ const tableTitle = document.createElement("p");
+ tableTitle.className = "text-sm uppercase tracking-[0.15em]";
  tableTitle.textContent ="Category Progress";
  headerRow.appendChild(tableTitle);
+
+ // Move lang selector into header row
+ const langSelector = document.getElementById("stats-lang-selector");
+ if (langSelector) {
+ langSelector.classList.remove("hidden");
+ headerRow.style.justifyContent = "space-between";
+ headerRow.appendChild(langSelector);
+ }
+
  outerWrapper.appendChild(headerRow);
 
 

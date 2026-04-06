@@ -334,15 +334,15 @@ class UIService {
 
  <!-- Welcome card -->
  <div id="home-welcome-card" class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
- <p class="text-sm uppercase tracking-[0.15em] mb-3">${window.currentUser ? 'Welcome back' : 'Welcome'}</p>
+ <p class="text-m uppercase tracking-[0.15em] mb-3">${window.currentUser ? 'Welcome back' : 'Welcome'}</p>
  <div class="flex items-center gap-3">
  ${avatarHtml}
  <div class="min-w-0 flex-1">
  <h1 class="text-lg font-bold leading-tight">${safeName}</h1>
  </div>
- <div class="flex-shrink-0 text-center">
- <p class="text-sm uppercase tracking-[0.15em]">Global rank</p>
- <p class="text-xl font-bold">${rankDisplay}</p>
+ <div class="flex-shrink-0 flex items-center gap-2">
+ <p class="text-l font-bold leading-tight">Global rank</p>
+ <p class="text-l font-bold leading-tight">${rankDisplay}</p>
  </div>
  </div>
  <div class="mt-4">
@@ -357,7 +357,7 @@ class UIService {
  <!-- M3 Header -->
  <div class="flex items-center gap-3 px-4 pt-3 pb-2">
  <div class="flex-1 min-w-0">
- <p class="text-sm uppercase tracking-[0.15em]">Daily Repeat</p>
+ <p class="text-m uppercase tracking-[0.15em]">Daily Repeat</p>
  <p class="text-xs opacity-60 leading-tight">${stats.langName}</p>
  </div>
  </div>
@@ -379,7 +379,7 @@ class UIService {
  <div class="flex-shrink-0">
  ${stats.lastLearnedCanRepeat
  ? `<button class="home-review-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-4 text-white border-0" data-source="${stats.lastLearnedSource}" data-category="${stats.lastLearnedCategory}">Review Now</button>`
- : `<button class="inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold opacity-40 cursor-default" disabled>Review in ${stats.lastLearnedHoursLeft}h</button>`
+ : `<button class="inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-normal bg-learning-app-design-2 text-gray-400 border-0 cursor-default" disabled>Review in ${stats.lastLearnedHoursLeft}h</button>`
  }
  </div>
  </div>
@@ -418,15 +418,23 @@ class UIService {
  <!-- Quick stats -->
  <div id="home-quick-stats-card" class="rounded-xl bg-learning-app-design-1 overflow-hidden shadow-card">
  <div class="px-4 pt-3 pb-2">
- <p class="text-sm uppercase tracking-[0.15em]">Your stats</p>
+ <p class="text-m uppercase tracking-[0.15em]">Learning stats</p>
  </div>
- <!-- Learning stats -->
- <p class="px-4 pt-3 text-xs opacity-50">Learning stats</p>
  ${learningStatsRows}
- <div class="h-px bg-learning-app-design-3 mx-4"></div>
- <!-- Challenge stats -->
- <p class="px-4 pt-3 text-xs opacity-50">Challenge stats</p>
+ <div class="flex justify-end px-4 pb-3 pt-3">
+ <a href="/stats" class="inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-level-expert text-white border-0">Go to My Stats</a>
+ </div>
+ </div>
+
+ <!-- Quick challenge -->
+ <div id="home-quick-challenge-card" class="rounded-xl bg-learning-app-design-1 overflow-hidden shadow-card">
+ <div class="px-4 pt-3 pb-2">
+ <p class="text-m uppercase tracking-[0.15em]">Challenge stats</p>
+ </div>
  ${challengeStatsRows}
+ <div class="flex justify-end px-4 pb-3 pt-3">
+ <a href="/challenge" class="inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-level-expert text-white border-0">Go to Challenge</a>
+ </div>
  </div>
  </div>
  `;
