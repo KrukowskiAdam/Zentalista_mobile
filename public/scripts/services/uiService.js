@@ -88,14 +88,100 @@ class UIService {
  return Number.isFinite(lastTs) && Number.isFinite(prevTs) && lastTs - prevTs >= dayMs;
  });
 
- const reviewDueCount = completionEntries.filter(([, meta, repeatCount]) => {
- if (!meta?.lastCompletedAt) {
- // Legacy fallback: known completed category without timestamp is treated as due.
- return repeatCount > 0;
+ // --- Review status: replicate exact stats page computation ---
+ // Step 1: Count total words per category (same as stats fillTotalWords)
+ const totalWordsPerCat = {};
+ for (const word of (dataService.allWords || [])) {
+ const key = `${word.source}::${word.category}`;
+ totalWordsPerCat[key] = (totalWordsPerCat[key] || 0) + 1;
  }
- const lastTs = new Date(meta.lastCompletedAt).getTime();
- return Number.isFinite(lastTs) && now - lastTs >= dayMs;
- }).length;
+
+ // Step 2: Count locked words + find latest click per category (same as stats fillUserProgress)
+ const lockedPerCat = {};
+ const latestClickPerCat = {};
+ for (const state of Object.values(stateService.buttonStates || {})) {
+ if (!state?.locked || !state?.source || !state?.category) continue;
+ const key = `${state.source}::${state.category}`;
+ lockedPerCat[key] = (lockedPerCat[key] || 0) + 1;
+ const clicks = state.clicks || [];
+ if (clicks.length > 0) {
+ const lastClick = clicks[clicks.length - 1].timestamp || 0;
+ if (lastClick > (latestClickPerCat[key] || 0)) {
+ latestClickPerCat[key] = lastClick;
+ }
+ }
+ }
+
+ // Step 3: For each completed category, get completionDate exactly like stats page
+ const COOLDOWN_MS = dayMs; // 24h
+ const reviewCandidates = []; // { key, source, category, hoursLeft, canRepeat }
+
+ for (const key of Object.keys(repeatCountsByCategory)) {
+ if (Number(repeatCountsByCategory[key]) <= 0) continue;
+ const total = totalWordsPerCat[key] || 0;
+ const locked = lockedPerCat[key] || 0;
+ const isFullyComplete = total > 0 && locked === total;
+ if (!isFullyComplete) continue;
+
+ // Get completionDate same way as stats page (lines 960-985 of stats.ejs)
+ const completionEntry = completionDates[key];
+ let completionDate = null;
+
+ if (typeof completionEntry === "number") {
+ completionDate = completionEntry;
+ } else if (typeof completionEntry === "string") {
+ const parsed = Date.parse(completionEntry);
+ completionDate = Number.isFinite(parsed) ? parsed : null;
+ } else if (completionEntry && typeof completionEntry === "object") {
+ if (completionEntry.lastLockedDate) {
+ completionDate = completionEntry.lastLockedDate;
+ } else if (completionEntry.completedAt) {
+ const parsed = Date.parse(completionEntry.completedAt);
+ completionDate = Number.isFinite(parsed) ? parsed : null;
+ }
+ }
+
+ // Fallback to word-click timestamp (same as stats: stats.lastLockedDate)
+ if (!completionDate && latestClickPerCat[key]) {
+ completionDate = latestClickPerCat[key];
+ }
+
+ // Parse if string (same as stats line 983-986)
+ if (completionDate && typeof completionDate !== "number") {
+ const parsed = Date.parse(completionDate);
+ completionDate = Number.isFinite(parsed) ? parsed : null;
+ }
+
+ const parts = key.split("::");
+ const source = parts[0];
+ const category = parts.slice(1).join("::");
+
+ if (!completionDate) {
+ // No timestamp at all → treat as overdue (ready now)
+ reviewCandidates.push({ key, source, category, hoursLeft: 0, canRepeat: true });
+ continue;
+ }
+
+ const elapsed = now - completionDate;
+ const canRepeat = elapsed >= COOLDOWN_MS;
+ const hoursLeft = canRepeat ? 0 : Math.ceil((COOLDOWN_MS - elapsed) / (1000 * 60 * 60));
+ reviewCandidates.push({ key, source, category, hoursLeft, canRepeat });
+ }
+
+ // Pick best: first any that canRepeat (oldest first), else smallest hoursLeft
+ reviewCandidates.sort((a, b) => {
+ if (a.canRepeat && !b.canRepeat) return -1;
+ if (!a.canRepeat && b.canRepeat) return 1;
+ return a.hoursLeft - b.hoursLeft;
+ });
+
+ const bestReview = reviewCandidates[0] || null;
+ const lastLearnedCategory = bestReview?.category || null;
+ const lastLearnedSource = bestReview?.source || null;
+ const lastLearnedCanRepeat = bestReview?.canRepeat || false;
+ const lastLearnedHoursLeft = bestReview?.hoursLeft || 0;
+
+ const reviewDueCount = reviewCandidates.filter(c => c.canRepeat).length;
 
  const dailyPlanCompletedCount = Number(newCategoryDoneToday) + Number(reviewDoneToday);
  const dailyPlanGoalCount = 2;
@@ -113,27 +199,6 @@ class UIService {
 "Learner";
  const continueCategory =
  stateService.categoryFilter || availableCategories[0]?.name ||"Your first category";
-
- // --- Last learned category + repeat status ---
- let lastLearnedCategory = null;
- let lastLearnedSource = null;
- let lastLearnedTs = 0;
- let lastLearnedCanRepeat = false;
- let lastLearnedHoursLeft = 0;
-
- for (const [key, meta] of Object.entries(completionDates)) {
- const ts = meta?.lastCompletedAt ? new Date(meta.lastCompletedAt).getTime() : 0;
- if (Number.isFinite(ts) && ts > lastLearnedTs) {
- lastLearnedTs = ts;
- // key format: "source::categoryName"
- const parts = key.split("::");
- lastLearnedSource = parts[0];
- lastLearnedCategory = parts.slice(1).join("::");
- const elapsed = now - ts;
- lastLearnedCanRepeat = elapsed >= dayMs;
- lastLearnedHoursLeft = lastLearnedCanRepeat ? 0 : Math.ceil((dayMs - elapsed) / (1000 * 60 * 60));
- }
- }
 
  // --- Next new category (never completed) ---
  const completedKeys = new Set(
@@ -163,17 +228,6 @@ class UIService {
  const inProgressCategory = inProgressCatObj?.name || null;
  const inProgressCategorySource = inProgressCatObj?.source || null;
 
- // --- Completed main sections (0/9) ---
- const sourceGroups = {};
- for (const cat of availableCategories) {
- if (!sourceGroups[cat.source]) sourceGroups[cat.source] = [];
- sourceGroups[cat.source].push(cat);
- }
- const completedSections = Object.values(sourceGroups).filter(
- (cats) => cats.every((cat) => completedKeys.has(`${cat.source}::${cat.name}`))
- ).length;
- const totalSections = 9;
-
  // --- Challenges done (bestScore > 0) ---
  const challengesDone = Object.values(completionDates).filter(
  (meta) => (meta?.bestScore || 0) > 0
@@ -188,20 +242,9 @@ class UIService {
  const completedCats = Object.values(rc).filter(v => Number(v) > 0).length;
  const challengesDoneLang = Object.values(cd).filter(meta => (meta?.bestScore || 0) > 0).length;
  const hasAnyInteraction = Object.keys(bs).length > 0 || completedCats > 0 || challengesDoneLang > 0;
- // Derive completed sections from buttonStates: group unique categories by source, check all completed
- const catsBySource = {};
- Object.values(bs).forEach(state => {
- if (state?.source && state?.category) {
- if (!catsBySource[state.source]) catsBySource[state.source] = new Set();
- catsBySource[state.source].add(state.category);
- }
- });
- const completedSectionsLang = Object.entries(catsBySource).filter(([source, cats]) =>
- [...cats].every(cat => Number(rc[source + '::' + cat]) > 0)
- ).length;
- return { code: lang.code, name: lang.name, flag: lang.flag, completedCats, challengesDoneLang, completedSectionsLang, hasAnyInteraction };
+ return { code: lang.code, name: lang.name, flag: lang.flag, completedCats, challengesDoneLang, hasAnyInteraction };
  } catch(e) {
- return { code: lang.code, name: lang.name, flag: lang.flag, completedCats: 0, challengesDoneLang: 0, completedSectionsLang: 0, hasAnyInteraction: false };
+      return { code: lang.code, name: lang.name, flag: lang.flag, completedCats: 0, challengesDoneLang: 0, hasAnyInteraction: false };
  }
  }).filter(l => l.hasAnyInteraction);
 
@@ -235,8 +278,6 @@ class UIService {
  inProgressCategorySource,
  nextNewCategory,
  nextNewCategorySource,
- completedSections,
- totalSections,
  challengesDone,
  allLangsStats,
  };
@@ -254,6 +295,9 @@ class UIService {
  const cached = localStorage.getItem("mc_menu_avatar");
  if (cached) avatarUrl = JSON.parse(cached).avatarUrl || null;
  } catch (e) {}
+ if (!avatarUrl && window.currentUser?.uid) {
+ avatarUrl = `https://api.dicebear.com/7.x/adventurer/svg?seed=${window.currentUser.uid}`;
+ }
  const avatarHtml = avatarUrl
  ? `<img src="${avatarUrl}" alt="avatar" class="w-10 h-10 rounded-full object-cover flex-shrink-0" />`
  : `<div class="w-10 h-10 rounded-full bg-learning-app-design-4 flex items-center justify-center flex-shrink-0 text-sm font-bold">${safeName.charAt(0).toUpperCase()}</div>`;
@@ -261,14 +305,13 @@ class UIService {
  // Pre-compute multi-language stats rows
  const allRows = stats.allLangsStats.length > 0
  ? stats.allLangsStats
- : [{ name: stats.langName, flag: stats.langFlag, completedCats: stats.completedCategories, completedSectionsLang: stats.completedSections, challengesDoneLang: stats.challengesDone }];
+   : [{ name: stats.langName, flag: stats.langFlag, completedCats: stats.completedCategories, challengesDoneLang: stats.challengesDone }];
  const learningStatsRows = allRows.map(l =>
  '<div class="flex items-center gap-3 px-4 pb-3">'
  + '<div class="flex-1 min-w-0"><p class="mt-2 text-xs flex items-center gap-2">'
  + '<span class="inline-flex w-5 h-5 rounded-full overflow-hidden flex-shrink-0">' + l.flag + '</span>'
  + l.name + '</p></div>'
  + '<div class="flex-shrink-0 text-right"><p class="text-xs opacity-50">Categories</p><p class="text-xs">' + l.completedCats + '</p></div>'
- + '<div class="flex-shrink-0 text-right ml-3"><p class="text-xs opacity-50">Sections</p><p class="text-xs">' + l.completedSectionsLang + '/9</p></div>'
  + '</div>'
  ).join('');
  const challengeStatsRows = allRows.map(l =>
@@ -327,22 +370,35 @@ class UIService {
  </div>
 
  <!-- M3 Content + Actions: two columns -->
- <p class="px-4 pt-3 text-xs opacity-50">Last studied category</p>
+ ${stats.lastLearnedCategory ? `
+ <p class="px-4 pt-3 text-xs opacity-50">Ready to review</p>
  <div class="flex items-center gap-3 px-4 pb-3">
  <div class="flex-1 min-w-0">
- <p class="mt-2 text-xs">
- ${stats.inProgressCategory || stats.lastLearnedCategory || "No categories yet"}
- </p>
+ <p class="mt-2 text-xs">${stats.lastLearnedCategory}</p>
  </div>
  <div class="flex-shrink-0">
- ${stats.inProgressCategory
- ? `<button class="home-nav-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-7 text-white border-0" data-source="${stats.inProgressCategorySource}" data-category="${stats.inProgressCategory}">Continue</button>`
- : stats.lastLearnedCanRepeat && stats.lastLearnedCategory
+ ${stats.lastLearnedCanRepeat
  ? `<button class="home-review-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-4 text-white border-0" data-source="${stats.lastLearnedSource}" data-category="${stats.lastLearnedCategory}">Review Now</button>`
  : `<button class="inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold opacity-40 cursor-default" disabled>Review in ${stats.lastLearnedHoursLeft}h</button>`
  }
  </div>
  </div>
+ ` : `
+ <p class="px-4 pt-3 pb-3 text-xs opacity-50">No categories to review yet</p>
+ `}
+
+ ${stats.inProgressCategory ? `
+ <div class="h-px bg-learning-app-design-3 mx-4"></div>
+ <p class="px-4 pt-3 text-xs opacity-50">Continue learning</p>
+ <div class="flex items-center gap-3 px-4 pb-3">
+ <div class="flex-1 min-w-0">
+ <p class="mt-2 text-xs">${stats.inProgressCategory}</p>
+ </div>
+ <div class="flex-shrink-0">
+ <button class="home-nav-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-7 text-white border-0" data-source="${stats.inProgressCategorySource}" data-category="${stats.inProgressCategory}">Continue</button>
+ </div>
+ </div>
+ ` : ""}
 
  ${stats.nextNewCategory ? `
  <div class="h-px bg-learning-app-design-3 mx-4"></div>
@@ -352,7 +408,7 @@ class UIService {
  <p class="mt-2 text-xs">${stats.nextNewCategory}</p>
  </div>
  <div class="flex-shrink-0">
- <button class="home-nav-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-6 text-white border-0" data-source="${stats.nextNewCategorySource}" data-category="${stats.nextNewCategory}">Start</button>
+ <button class="home-nav-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-4 text-white border-0" data-source="${stats.nextNewCategorySource}" data-category="${stats.nextNewCategory}">Start</button>
  </div>
  </div>
  ` : ""}

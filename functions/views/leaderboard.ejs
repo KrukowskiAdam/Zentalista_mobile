@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-learning-app-design-3">
+<html lang="en" class="bg-learning-app-design-2">
 <%- include('partials/head') %>
 
- <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <body class="m-0 p-0 bg-learning-app-design-2" style="padding-top: 80px;">
  <!-- Google Tag Manager (noscript) -->
  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
  style="display: none; visibility: hidden"></iframe></noscript>
@@ -491,11 +491,11 @@
  const row = document.createElement("tr");
 
  // Base row look (mobile card background now comes from classes, not CSS)
- row.className ="bg-learning-app-design-3 hover:bg-learning-app-design-4 transition-colors shadow-xl rounded-xl";
+ row.className ="bg-learning-app-design-3 hover:bg-learning-app-design-4 transition-colors shadow-card rounded-xl";
 
  // Highlight current user with blue background
  if (currentUser && user.userId === currentUser.uid) {
- row.className ="bg-level-learning hover:bg-level-learning transition-colors shadow-xl rounded-xl";
+ row.className ="bg-level-learning hover:bg-level-learning transition-colors shadow-card rounded-xl";
  }
 
  // Medal SVG for top 3

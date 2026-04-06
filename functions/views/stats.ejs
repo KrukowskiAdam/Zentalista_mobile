@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark" class="bg-learning-app-design-3">
+<html lang="en" data-theme="dark" class="bg-learning-app-design-2">
 <%- include('partials/head') %>
 
- <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <body class="m-0 p-0 bg-learning-app-design-2" style="padding-top: 80px;">
  <!-- Google Tag Manager (noscript) -->
  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
  style="display: none; visibility: hidden"></iframe></noscript>
@@ -51,7 +51,7 @@
  padding: 0 0 1rem 0;
  text-align: left;
  white-space: normal;
- font-weight: 600;
+ font-weight: 400;
  color: #e5e7eb;
  }
 
@@ -117,28 +117,36 @@
  </span>
  <span id="stats-lang-name" class="text-base sm:text-lg font-normal text-gray-400"></span>
  </div>
- <!-- Hidden selector that will be moved to table header by JS -->
- <select id="category-section-select" class="hidden">
- <option disabled selected>Choose a section...</option>
- </select>
+ <!-- Custom dropdown selector (replaces native select) -->
+ <div id="category-section-select" class="hidden relative w-full">
+ <button id="custom-select-trigger" type="button"
+ class="w-full flex items-center justify-between px-4 py-3 text-base bg-learning-app-design-1 text-gray-200 rounded-xl shadow-card focus:outline-none focus:ring-2 focus:ring-blue-500">
+ <span id="custom-select-label">Choose a section...</span>
+ <svg class="w-5 h-5 text-gray-400 transition-transform" id="custom-select-arrow" viewBox="0 0 20 20" fill="currentColor">
+ <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+ </svg>
+ </button>
+ <div id="custom-select-options" class="hidden absolute left-0 right-0 top-full z-50 bg-learning-app-design-1 rounded-b-xl shadow-card overflow-hidden" style="max-height: 70vh; overflow-y: auto;">
+ </div>
+ </div>
  <div id="stats-container" class="mt-6">
- <div class="text-center py-8 rounded-lg">
+ <div class="text-center py-8">
  Loading statistics...
  </div>
  </div>
 
  <!-- All Languages Progress Table -->
- <div id="stats-all-languages" class="bg-learning-app-design-1 border border-learning-app-design-3 shadow-xl mt-8 rounded-lg overflow-hidden">
- <div class="border-b border-learning-app-design-3 bg-learning-app-design-2 flex items-center"
+ <div id="stats-all-languages" class="bg-learning-app-design-1 rounded-xl shadow-card mt-8 overflow-hidden">
+ <div class="border-b border-learning-app-design-3 bg-learning-app-design-2 rounded-t-xl flex items-center"
  style="height: 50px; padding-left: 1rem; padding-right: 1rem;">
  <h2 class="text-xl text-gray-100 font-bold">All Languages Progress</h2>
  </div>
- <div class="overflow-x-auto">
- <table class="w-full text-sm text-left text-gray-400 min-w-[620px] sm:min-w-0">
+ <div>
+ <table class="w-full text-sm text-left text-gray-400">
  <thead class="text-xs text-gray-300 uppercase bg-learning-app-design-1">
  <tr>
- <th scope="col" class="px-3 py-2 text-center">Language</th>
- <th scope="col" class="px-3 py-2 text-center">
+ <th scope="col" class="px-3 py-2 text-center font-normal">Language</th>
+ <th scope="col" class="px-3 py-2 text-center font-normal">
  <span class="inline-flex items-center gap-1">Stars
  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -147,7 +155,7 @@
  </svg>
  </span>
  </th>
- <th scope="col" class="px-3 py-2 text-center">
+ <th scope="col" class="px-3 py-2 text-center font-normal">
  <span class="inline-flex items-center gap-1">Challenges
  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -302,7 +310,7 @@
 
  const categorySelect = document.getElementById("category-section-select");
  const sectionSelectClasses =
-"w-full px-2 py-1 text-xs bg-learning-app-design-2 text-gray-200 border border-learning-app-design-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500";
+"w-full relative";
  const selectHome = categorySelect
  ? {
  parent: categorySelect.parentNode,
@@ -511,52 +519,98 @@
  * Initialize the section selector dropdown
  */
  function initSectionSelector() {
- const select = document.getElementById("category-section-select");
- if (!select) return;
+ const wrapper = document.getElementById("category-section-select");
+ const trigger = document.getElementById("custom-select-trigger");
+ const label = document.getElementById("custom-select-label");
+ const arrow = document.getElementById("custom-select-arrow");
+ const optionsContainer = document.getElementById("custom-select-options");
+ if (!wrapper || !trigger || !optionsContainer) return;
 
- // Clear existing options except the first one
- select.innerHTML =
-"<option disabled selected>Choose a section...</option>";
+ optionsContainer.innerHTML = "";
+ let selectedValue = null;
 
- // Add sections to dropdown
- categorySections.forEach((section, index) => {
- const option = document.createElement("option");
- option.value = section.source;
- option.textContent = section.title;
+ // Build option items
+ categorySections.forEach((section) => {
+ const item = document.createElement("button");
+ item.type = "button";
+ const isLocked = section.isPremium && !userIsPremium;
+ const lockIcon = `<img src="/img/svg/lock-01-svgrepo-com_gray.svg" alt="locked" class="inline w-4 h-4 ml-1 align-middle opacity-60">`;
+ const displayText = section.title + (section.isPremium ? (isLocked ? "" : " ⭐") : "");
+ const displayHtml = section.title + (section.isPremium ? (isLocked ? " " + lockIcon : " ⭐") : "");
 
- // Add premium indicator and disable if user is not premium
- if (section.isPremium) {
- if (!userIsPremium) {
- option.textContent +=" [LOCKED]";
- option.disabled = true;
- option.className ="";
- } else {
- option.textContent +=" [PREMIUM]";
+ item.className = "w-full text-left px-4 py-3 text-base transition-colors "
+ + (isLocked
+ ? "text-gray-500 cursor-not-allowed"
+ : "text-gray-200 hover:bg-learning-app-design-2 active:bg-learning-app-design-3 cursor-pointer");
+ item.innerHTML = displayHtml;
+ item.dataset.value = section.source;
+
+ if (!isLocked) {
+ item.addEventListener("click", () => {
+ selectedValue = section.source;
+ label.textContent = displayText;
+ optionsContainer.classList.add("hidden");
+ arrow.style.transform = "";
+ // Mark selected
+ optionsContainer.querySelectorAll("button").forEach(b => b.classList.remove("bg-learning-app-design-2"));
+ item.classList.add("bg-learning-app-design-2");
+
+ const selectedSection = categorySections.find(s => s.source === section.source);
+ if (selectedSection) renderSelectedSection(selectedSection);
+ });
  }
- }
 
- select.appendChild(option);
+ optionsContainer.appendChild(item);
+
+ // Add separator between items
+ const sep = document.createElement("div");
+ sep.className = "h-px bg-learning-app-design-3";
+ optionsContainer.appendChild(sep);
  });
 
- // Add event listener for section selection (replace instead of stacking listeners)
- select.onchange = function () {
- const selectedSource = this.value;
- const selectedSection = categorySections.find(
- (s) => s.source === selectedSource
- );
- if (selectedSection) {
- renderSelectedSection(selectedSection);
+ // Remove last separator
+ if (optionsContainer.lastChild) optionsContainer.removeChild(optionsContainer.lastChild);
+
+ // Toggle dropdown
+ trigger.addEventListener("click", () => {
+ const isOpen = !optionsContainer.classList.contains("hidden");
+ optionsContainer.classList.toggle("hidden");
+ arrow.style.transform = isOpen ? "" : "rotate(180deg)";
+ });
+
+ // Close on outside click
+ document.addEventListener("click", (e) => {
+ if (!wrapper.contains(e.target)) {
+ optionsContainer.classList.add("hidden");
+ arrow.style.transform = "";
  }
- };
+ });
 
  // Auto-select first available section
  const firstAvailableSection = categorySections.find(
  (s) => !s.isPremium || userIsPremium
  );
  if (firstAvailableSection) {
- select.value = firstAvailableSection.source;
+ selectedValue = firstAvailableSection.source;
+ const displayText = firstAvailableSection.title + (firstAvailableSection.isPremium ? " ⭐" : "");
+ label.textContent = displayText;
+ // Mark selected
+ optionsContainer.querySelectorAll("button").forEach(b => {
+ if (b.dataset.value === firstAvailableSection.source) b.classList.add("bg-learning-app-design-2");
+ });
  renderSelectedSection(firstAvailableSection);
  }
+
+ // Expose value getter for compatibility
+ wrapper._getValue = () => selectedValue;
+ wrapper._setValue = (source) => {
+ const sec = categorySections.find(s => s.source === source);
+ if (sec) {
+ selectedValue = source;
+ const dt = sec.title + (sec.isPremium ? ((!userIsPremium) ? " 🔒" : " ⭐") : "");
+ label.textContent = dt;
+ }
+ };
  }
 
  /**
@@ -602,6 +656,8 @@
 
  let datesUpdated = false;
  const categoryProgress = {};
+ // Track max click timestamp per category across ALL locked words (not just after tipping point)
+ const maxClickPerCat = {};
 
  // Single pass - collect data and update stats
  Object.values(buttonStates).forEach((state) => {
@@ -641,48 +697,43 @@
  categoryProgress[key].locked += 1;
  // Cap clicks contribution to user's clicksToComplete setting to avoid progress > 100%
  categoryProgress[key].totalClicks += Math.min(state.count || 0, userClicksToComplete);
+
+ // Track max click timestamp across ALL locked words in this category
+ const lastClick =
+ Array.isArray(state.clicks) && state.clicks.length > 0
+ ? state.clicks[state.clicks.length - 1].timestamp
+ : null;
+ if (lastClick && lastClick > (maxClickPerCat[key] || 0)) {
+ maxClickPerCat[key] = lastClick;
+ }
  } else if (hasBeenStarted) {
  // Count in-progress (started but not locked)
  categoryProgress[key].inProgress += 1;
  // Cap clicks contribution to user's clicksToComplete setting to avoid progress > 100%
  categoryProgress[key].totalClicks += Math.min(state.count || 0, userClicksToComplete);
  }
+ });
 
- if (state.locked) {
- // Check for category completion
- const lastClick =
- Array.isArray(state.clicks) && state.clicks.length > 0
- ? state.clicks[state.clicks.length - 1].timestamp
- : null;
+ // Second pass: assign lastLockedDate and update savedCompletionDates
+ // for fully complete categories (now that we have accurate locked counts)
+ Object.keys(categoryProgress).forEach((key) => {
+ const [source, cat] = key.split("::");
+ if (!categoryStats[source] || !categoryStats[source].categories[cat]) return;
 
- // Check if this is a fully completed category
- const totalWordsInCategory =
- categoryStats[source].categories[cat].totalWords || 0;
- const isFullyComplete =
- totalWordsInCategory > 0 &&
- categoryProgress[key].locked === totalWordsInCategory;
+ const totalWordsInCategory = categoryStats[source].categories[cat].totalWords || 0;
+ const isFullyComplete = totalWordsInCategory > 0 && categoryProgress[key].locked === totalWordsInCategory;
+ const maxClick = maxClickPerCat[key] || null;
 
- // Only update lastLockedDate and saved dates for fully completed categories
- if (isFullyComplete && lastClick) {
- // Only update if this is the latest timestamp for category completion
- if (
- !categoryStats[source].categories[cat].lastLockedDate ||
- lastClick >
- categoryStats[source].categories[cat].lastLockedDate
- ) {
- categoryStats[source].categories[cat].lastLockedDate =
- lastClick;
+ if (isFullyComplete && maxClick) {
+ categoryStats[source].categories[cat].lastLockedDate = maxClick;
 
  // IMPORTANT: Don't overwrite challenge data objects with timestamp!
- // Only set timestamp if there's no existing challenge data
  const existingData = savedCompletionDates[key];
  if (!existingData || typeof existingData !== 'object' || !('totalBonusPoints' in existingData)) {
- savedCompletionDates[key] = lastClick;
+ savedCompletionDates[key] = maxClick;
  datesUpdated = true;
  }
  delete savedCompletionDates[`${key}:inProgress`];
- }
- }
  }
  });
 
@@ -908,11 +959,11 @@
  if (categories.length > 0) {
  // Create outer wrapper
  const outerWrapper = document.createElement("div");
- outerWrapper.className = "bg-learning-app-design-1 border border-learning-app-design-3 shadow-xl rounded-lg overflow-hidden mb-6";
+ outerWrapper.className = "bg-learning-app-design-1 rounded-xl shadow-card overflow-hidden mb-6";
 
  // Create header row
  const headerRow = document.createElement("div");
- headerRow.className = "border-b border-learning-app-design-3 bg-learning-app-design-2 flex items-center";
+ headerRow.className = "border-b border-learning-app-design-3 bg-learning-app-design-2 rounded-t-xl flex items-center";
  headerRow.style.height ="50px";
  headerRow.style.paddingLeft ="1rem";
  headerRow.style.paddingRight ="1rem";
@@ -933,9 +984,9 @@
  table.innerHTML = `
  <thead class="text-xs text-gray-500 uppercase bg-learning-app-design-1 border-b border-learning-app-design-3">
  <tr>
- <th scope="col" class="px-4 py-2">Progress</th>
- <th scope="col" class="px-4 py-2">Levels</th>
- <th scope="col" class="px-4 py-2">When to review</th>
+ <th scope="col" class="px-4 py-2 font-normal">Progress</th>
+ <th scope="col" class="px-4 py-2 font-normal">Levels</th>
+ <th scope="col" class="px-4 py-2 font-normal">When to review</th>
  </tr>
  </thead>
  <tbody>
@@ -1035,7 +1086,7 @@
 
  return `
  <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2">
- <th scope="row" class="px-4 py-4 font-medium text-gray-200 whitespace-nowrap">${categoryName}</th>
+ <th scope="row" class="px-4 py-4 font-normal text-gray-200 whitespace-nowrap">${categoryName}</th>
  <td class="px-4 py-4">
  <div class="flex flex-col gap-1">
  <span class="text-gray-300 font-medium" style="font-size: .75rem; line-height: 1rem;">${progressPercentage}%</span>
@@ -1055,7 +1106,7 @@
  if (startedCards > 0) {
  return `<button class="continue-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-7 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Continue</button>`;
  }
- return `<button class="start-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-6 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Start</button>`;
+ return `<button class="start-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-4 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Start</button>`;
  }
 
  // Category is 100% complete
@@ -1333,7 +1384,7 @@
  const statsContainer = document.getElementById("stats-container");
  if (statsContainer.children.length === 0) {
  const noDataDiv = document.createElement("div");
- noDataDiv.className ="text-center py-8 rounded-lg bg-learning-app-design-1";
+ noDataDiv.className ="text-center py-8 rounded-xl bg-learning-app-design-1 shadow-card";
  noDataDiv.innerHTML = `
  <p class="text-sm">No statistics yet.</p>
  <p class="text-xs mt-1">Start learning categories to populate your progress overview.</p>
