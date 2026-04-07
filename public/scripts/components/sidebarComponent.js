@@ -107,7 +107,7 @@ export class SidebarComponent {
  // Create accordion wrapper with join-item class
  const accordionDiv = createElement('div', {
  parent,
- className: 'collapse collapse-arrow join-item bg-learning-app-design-2'
+ className: 'collapse collapse-arrow join-item bg-learning-app-design-3'
  });
 
  // Create checkbox input for accordion (with id for label)

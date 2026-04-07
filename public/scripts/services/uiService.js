@@ -330,19 +330,19 @@ class UIService {
  });
 
  overview.innerHTML = `
- <div class="mx-auto max-w-4xl space-y-3">
+ <div class="mx-auto max-w-4xl space-y-8">
 
  <!-- Welcome card -->
  <div id="home-welcome-card" class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
- <p class="text-m uppercase tracking-[0.15em] mb-3">${window.currentUser ? 'Welcome back' : 'Welcome'}</p>
+ <p class="text-xl font-semibold mb-3">${window.currentUser ? 'Welcome back' : 'Welcome'}</p>
  <div class="flex items-center gap-3">
  ${avatarHtml}
  <div class="min-w-0 flex-1">
  <h1 class="text-lg font-bold leading-tight">${safeName}</h1>
  </div>
  <div class="flex-shrink-0 flex items-center gap-2">
- <p class="text-l font-bold leading-tight">Global rank</p>
- <p class="text-l font-bold leading-tight">${rankDisplay}</p>
+ <p class="text-l leading-tight">Global rank</p>
+ <p class="text-l leading-tight">${rankDisplay}</p>
  </div>
  </div>
  <div class="mt-4">
@@ -351,19 +351,19 @@ class UIService {
  </div>
 
  <!-- Daily goals -->
- <div id="home-daily-goals" class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+ <div id="home-daily-goals" class="grid grid-cols-1 gap-8 sm:grid-cols-2">
  <div id="home-daily-plan-card" class="rounded-xl bg-learning-app-design-1 overflow-hidden shadow-card">
 
  <!-- M3 Header -->
  <div class="flex items-center gap-3 px-4 pt-3 pb-2">
  <div class="flex-1 min-w-0">
- <p class="text-m uppercase tracking-[0.15em]">Daily Repeat</p>
- <p class="text-xs opacity-60 leading-tight">${stats.langName}</p>
+ <p class="text-xl font-semibold">Daily Repeat</p>
+ <p class="text-xs opacity-50 leading-tight pt-3">${stats.langName}</p>
  </div>
  </div>
 
  <!-- M3 Media: language flag -->
- <div class="w-full flex items-center justify-center bg-learning-app-design-1" style="height:140px;">
+ <div class="w-full flex items-center justify-center bg-learning-app-design-1" style="height:110px;">
  <span class="inline-flex items-center justify-center rounded-full overflow-hidden" style="width:80px; height:80px;">
  ${stats.langFlag}
  </span>
@@ -408,7 +408,7 @@ class UIService {
  <p class="mt-2 text-xs">${stats.nextNewCategory}</p>
  </div>
  <div class="flex-shrink-0">
- <button class="home-nav-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-4 text-white border-0" data-source="${stats.nextNewCategorySource}" data-category="${stats.nextNewCategory}">Start</button>
+ <button class="home-nav-btn inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-5 text-white border-0" data-source="${stats.nextNewCategorySource}" data-category="${stats.nextNewCategory}">Start</button>
  </div>
  </div>
  ` : ""}
@@ -418,7 +418,7 @@ class UIService {
  <!-- Quick stats -->
  <div id="home-quick-stats-card" class="rounded-xl bg-learning-app-design-1 overflow-hidden shadow-card">
  <div class="px-4 pt-3 pb-2">
- <p class="text-m uppercase tracking-[0.15em]">Learning stats</p>
+ <p class="text-xl font-semibold">Learning stats</p>
  </div>
  ${learningStatsRows}
  <div class="flex justify-end px-4 pb-3 pt-3">
@@ -429,7 +429,7 @@ class UIService {
  <!-- Quick challenge -->
  <div id="home-quick-challenge-card" class="rounded-xl bg-learning-app-design-1 overflow-hidden shadow-card">
  <div class="px-4 pt-3 pb-2">
- <p class="text-m uppercase tracking-[0.15em]">Challenge stats</p>
+ <p class="text-xl font-semibold">Challenge stats</p>
  </div>
  ${challengeStatsRows}
  <div class="flex justify-end px-4 pb-3 pt-3">

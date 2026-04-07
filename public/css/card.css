@@ -129,15 +129,10 @@ body {
 /* ------------------ SIDEBAR ------------------ */
 aside,
 #sidebar {
-  width: 20%;
-  margin-left: 20px;
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  height: 88%;
   overflow: hidden;
-  position: relative;
 }
 
 .navbar {

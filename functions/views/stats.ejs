@@ -102,10 +102,10 @@
  </div>
 
  <!-- Stats content (shown only when logged in) -->
- <div id="stats-content" class="hidden space-y-3">
+ <div id="stats-content" class="hidden space-y-8">
  <!-- Header card -->
  <div id="stats-header-card" class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
- <p class="text-sm uppercase tracking-[0.15em] mb-3">Learning Statistics</p>
+ <p class="text-xl font-semibold mb-3">Learning Statistics</p>
  <p class="text-xs opacity-50">Track your learning progress and see category completion across all languages.</p>
  </div>
  <div id="stats-lang-selector" class="hidden flex items-center">
@@ -126,7 +126,7 @@
  <div id="custom-select-options" class="hidden absolute left-0 right-0 top-full z-50 bg-learning-app-design-1 rounded-xl shadow-card overflow-hidden" style="max-height: 70vh; overflow-y: auto;">
  </div>
  </div>
- <div id="stats-container" class="mt-6">
+ <div id="stats-container" class="mt-8">
  <div class="text-center py-8">
  Loading statistics...
  </div>
@@ -135,7 +135,7 @@
  <!-- All Languages Progress Table -->
  <div id="stats-all-languages" class="bg-learning-app-design-1 rounded-xl shadow-card mt-8 overflow-hidden">
  <div class="flex items-center px-4 pt-4 pb-3 border-b border-learning-app-design-3">
- <p class="text-sm uppercase tracking-[0.15em]">All Languages Progress</p>
+ <p class="text-xl font-semibold">All Languages Progress</p>
  </div>
  <div>
  <table class="w-full text-sm text-left text-gray-400">
@@ -960,7 +960,7 @@
  if (categories.length > 0) {
  // Create outer wrapper
  const outerWrapper = document.createElement("div");
- outerWrapper.className = "bg-learning-app-design-1 rounded-xl shadow-card overflow-hidden mb-6";
+ outerWrapper.className = "bg-learning-app-design-1 rounded-xl shadow-card overflow-hidden mb-8";
 
  // Create header row
  const headerRow = document.createElement("div");
@@ -968,7 +968,7 @@
 
  // Create title header
  const tableTitle = document.createElement("p");
- tableTitle.className = "text-sm uppercase tracking-[0.15em]";
+ tableTitle.className = "text-xl font-semibold";
  tableTitle.textContent ="Category Progress";
  headerRow.appendChild(tableTitle);
 
@@ -1113,7 +1113,7 @@
  if (startedCards > 0) {
  return `<button class="continue-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-7 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Continue</button>`;
  }
- return `<button class="start-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-4 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Start</button>`;
+ return `<button class="start-btn w-full inline-flex items-center justify-center rounded-full py-1 px-2 text-xs font-normal bg-learning-app-design-5 text-white border-0" data-source="${section.source}" data-category="${categoryName}">Start</button>`;
  }
 
  // Category is 100% complete

@@ -27,21 +27,13 @@
  #leaderboard-content .leaderboard-table tbody tr {
  display: grid;
  grid-template-columns: auto 1fr auto;
- grid-template-rows: auto auto;
+ grid-template-rows: auto;
  border: 1px solid var(--learning-app-design-3);
  border-radius: 0.75rem;
  padding: 0.75rem;
  margin-bottom: 0.75rem;
  gap: 0.5rem;
- }
-
- #leaderboard-content .leaderboard-table tbody tr:last-child {
- margin-bottom: 0;
- }
-
- #leaderboard-content .leaderboard-table tbody th,
- #leaderboard-content .leaderboard-table tbody td {
- display: block;
+ align-items: start;
  width: 100%;
  padding: 0;
  text-align: left;
@@ -65,30 +57,13 @@
  text-align: right;
  }
 
- #leaderboard-content .leaderboard-table tbody tr>*:nth-child(4) {
- grid-column: 1;
- grid-row: 2;
- }
-
- #leaderboard-content .leaderboard-table tbody tr>*:nth-child(5) {
- grid-column: 2;
- grid-row: 2;
- }
-
- #leaderboard-content .leaderboard-table tbody tr>*:nth-child(6) {
- grid-column: 3;
- grid-row: 2;
- justify-self: end;
- text-align: right;
- }
-
  #leaderboard-content .leaderboard-table tbody [data-label]::before {
  content: attr(data-label);
  display: block;
  font-size: 0.65rem;
  letter-spacing: 0.05em;
  text-transform: uppercase;
-			color: var(--app-font-color);
+ color: var(--app-font-color);
  margin-bottom: 0.15rem;
  }
 
@@ -97,14 +72,14 @@
 
  <div class="container mx-auto px-4 pt-4 max-w-6xl">
  <!-- Header card -->
- <div class="rounded-xl bg-learning-app-design-1 p-4 shadow-card mb-3">
- <p class="text-sm uppercase tracking-[0.15em] mb-3">Global Leaderboard</p>
+ <div class="rounded-xl bg-learning-app-design-1 p-4 shadow-card mb-8">
+ <p class="text-xl font-semibold mb-3">Global Leaderboard</p>
  </div>
 
  <!-- Leaderboard Table -->
  <div class="bg-learning-app-design-1 shadow-card rounded-xl backdrop-blur-sm">
  <!-- Content Area -->
- <div class="p-6 bg-learning-app-design-1 shadow-card rounded-xl">
+ <div class="p-4 bg-learning-app-design-1 shadow-card rounded-xl">
 
  <!-- Loading State -->
  <div id="loading-state" class="text-center py-12">
@@ -114,7 +89,7 @@
 
  <!-- Leaderboard Content -->
  <div id="leaderboard-content" class="hidden">
- <div class="overflow-x-auto overflow-y-visible py-2 px-1">
+ <div class="overflow-x-auto overflow-y-visible py-2">
  <table class="leaderboard-table w-full text-sm text-left">
  <thead class="text-xs uppercase bg-learning-app-design-1">
  <tr>
@@ -124,29 +99,8 @@
  <th scope="col" class="px-4 py-3" style="width: 250px">
  Player
  </th>
- <th scope="col" class="px-4 py-3 text-center" style="width: 100px">
- <div class="flex items-center justify-center gap-1">
- <span>Level</span>
- </div>
- </th>
- <th scope="col" class="px-4 py-3 text-center" style="width: 120px">
- <span class="inline-flex items-center gap-1">Stars <svg class="w-4 h-4 inline"
- viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- <path
- d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" />
- </svg></span>
- </th>
- <th scope="col" class="px-4 py-3 text-center" style="width: 120px">
- <span class="inline-flex items-center gap-1">Challenges <svg
- class="w-4 h-4 inline" viewBox="0 0 24 24" fill="none"
- stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
- <path
- d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" />
- </svg></span>
- </th>
  <th scope="col" class="px-4 py-3 text-center" style="width: 140px">
- Total Points
+ Points
  </th>
  </tr>
  </thead>
@@ -156,13 +110,7 @@
  </table>
  </div>
 
- <!-- Pagination -->
- <div class="flex justify-center mt-6 gap-2">
- <button class="inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-3 border-0" id="prev-page">« Previous</button>
- <span class="flex items-center px-4">Page
- <span id="current-page" class="font-bold mx-2">1</span></span>
- <button class="inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold bg-learning-app-design-3 border-0" id="next-page">Next »</button>
- </div>
+ <!-- Pagination removed - all users shown with scroll -->
  </div>
 
  <!-- Empty State -->
@@ -191,44 +139,22 @@
  <!-- Point System Explanation (full width with padding) -->
  <div class="w-full px-4 pb-8">
  <div class="w-full mt-8 bg-learning-app-design-1 shadow-card rounded-xl p-6">
- <h2 class="text-sm uppercase tracking-[0.15em] mb-4 flex items-center gap-2">
+ <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
  <img src="/img/svg/01/bulb-on-svgrepo-com.svg" alt="Bulb" class="w-6 h-6">
  How Leaderboard Points Work
  </h2>
  <div class="space-y-3 text-sm">
  <div class="flex items-center gap-3">
- <div class="px-3 py-1.5 text-sm font-bold bg-level-expert rounded">5</div>
- <div>
- <span class="font-semibold">Category Completed:</span>
- <span class=""> Complete all words in a category (earn a star)</span>
- </div>
- </div>
- <div class="flex items-center gap-3">
  <div class="px-3 py-1.5 text-sm font-bold bg-level-expert rounded">+5</div>
- <div>
- <span class="font-semibold">Repeat Category:</span>
- <span class=""> Complete a category again after 24h for extra stars</span>
- </div>
+ <div>Complete a category to earn points (repeatable every 24h)</div>
  </div>
  <div class="flex items-center gap-3">
- <div class="px-3 py-1.5 text-sm font-bold bg-level-mastered rounded">50</div>
- <div>
- <span class="font-semibold">Perfect first try (100%):</span>
- <span class="font-bold"> +50 points</span>
- </div>
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-mastered rounded">+50</div>
+ <div>Score 100% on a challenge quiz</div>
  </div>
  <div class="flex items-center gap-3">
- <div class="px-3 py-1.5 text-sm font-bold bg-level-learning rounded">20</div>
- <div>
- <span class="font-semibold">Pass first try (90%-99%):</span>
- <span class=""> +20 points</span>
- </div>
- </div>
- <div class="flex items-center gap-3">
- <div class="px-3 py-1.5 text-sm font-bold bg-level-learning rounded">Level</div>
- <div>
- <span class="font-semibold">Levels:</span>
- <span class=""> 100 points = 1 level increase</span>
+ <div class="px-3 py-1.5 text-sm font-bold bg-level-learning rounded">+20</div>
+ <div>Score 90%+ on a challenge quiz</div>
  </div>
  </div>
  </div>
@@ -273,13 +199,10 @@
  const db = getFirestore(app);
 
  let currentUser = null;
- let currentPage = 1;
  let cachedLeaderboardData = null;
- const ITEMS_PER_PAGE = 50;
 
  const POINTS = {
  CATEGORY_COMPLETION: 5,
- POINTS_PER_LEVEL: 100,
  };
 
  // Language configuration with flags
@@ -311,8 +234,6 @@
 
  const storedUserId = localStorage.getItem("mc_current_user_id");
  if (!currentUser || storedUserId !== currentUser.uid) {
- stats.level = 1;
- stats.levelProgress ="0.0";
  return stats;
  }
 
@@ -367,13 +288,6 @@
  });
 
  stats.totalPoints = stats.starPoints + stats.challengePoints;
- stats.level =
- Math.floor(stats.totalPoints / POINTS.POINTS_PER_LEVEL) + 1;
- stats.levelProgress = (
- ((stats.totalPoints % POINTS.POINTS_PER_LEVEL) /
- POINTS.POINTS_PER_LEVEL) *
- 100
- ).toFixed(1);
 
  return stats;
  }
@@ -394,7 +308,6 @@
 "Anonymous",
  email: currentUser.email,
  totalPoints: stats.totalPoints,
- level: stats.level,
  wordsCompleted: stats.wordsCompleted,
  starsEarned: stats.starsEarned || 0,
  challengesCompleted: stats.challengesCompleted || 0,
@@ -457,35 +370,14 @@
  }
 
  /**
- * Return level badge HTML for a given level
- */
- function getLevelBadge(level) {
-   if (level === 1) {
-     return `<span class="px-3 py-1 text-xs font-medium rounded bg-learning-app-design-4">Lvl 1</span>`;
-   } else if (level === 2) {
-     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-learning">Lvl 2</span>`;
-   } else if (level === 3) {
-     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-mastered">Lvl 3</span>`;
-   } else if (level === 4) {
-     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl 4</span>`;
-   } else {
-     return `<span class="px-3 py-1 text-xs font-medium rounded bg-level-expert">Lvl ${level}</span>`;
-   }
- }
-
- /**
  * Display leaderboard table
  */
  function displayLeaderboard(data) {
  const tbody = document.getElementById("leaderboard-table-body");
  tbody.innerHTML ="";
 
- const start = (currentPage - 1) * ITEMS_PER_PAGE;
- const end = start + ITEMS_PER_PAGE;
- const pageData = data.slice(start, end);
-
- pageData.forEach((user, index) => {
- const globalRank = start + index + 1;
+ data.forEach((user, index) => {
+ const globalRank = index + 1;
  const row = document.createElement("tr");
 
  // Base row look (mobile card background now comes from classes, not CSS)
@@ -508,28 +400,19 @@
  <td class="px-4 py-3 text-center" data-label="Rank">
  <span class="font-bold text-lg">${rankDisplay}</span>
  </td>
- <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap" data-label="Player">
- <div class="mobile-player-stack flex items-center gap-3">
- <div class="flex items-center justify-center w-10 h-10 rounded-full bg-learning-app-design-3 overflow-hidden">
+ <th scope="row" class="px-4 py-3 font-medium min-w-0" data-label="Player">
+ <div class="mobile-player-stack flex items-center gap-3 min-w-0">
+ <div class="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-learning-app-design-3 overflow-hidden">
  ${user.avatarUrl
  ? `<img src="${user.avatarUrl}" alt="Avatar" class="w-full h-full object-cover">`
  : `<span class="text-lg font-semibold">${user.displayName?.[0]?.toUpperCase() ||"?"}</span>`
  }
  </div>
- <div>
- <div class="font-semibold">${user.displayName ||"Anonymous"}</div>
+ <div class="min-w-0">
+ <div class="font-semibold truncate">${user.displayName ||"Anonymous"}</div>
  </div>
  </div>
  </th>
- <td class="px-4 py-3 text-center" data-label="Level">
- ${getLevelBadge(user.level || 1)}
- </td>
- <td class="px-4 py-3 text-center" data-label="Stars">
- <span class="font-medium">${user.starsEarned || 0}</span>
- </td>
- <td class="px-4 py-3 text-center" data-label="Challenges">
- <span class="font-medium">${user.challengesCompleted || 0}</span>
- </td>
  <td class="px-4 py-3 text-center" data-label="Points">
  <span class="font-bold text-lg">${(
  user.totalPoints || 0
@@ -538,11 +421,6 @@
  `;
  tbody.appendChild(row);
  });
-
- // Update pagination
- document.getElementById("current-page").textContent = currentPage;
- document.getElementById("prev-page").disabled = currentPage === 1;
- document.getElementById("next-page").disabled = end >= data.length;
  }
 
  /**
@@ -563,18 +441,6 @@
 
  // Load leaderboard
  await loadLeaderboard();
- });
-
- // Event listeners
- document.getElementById("prev-page")?.addEventListener("click", () => {
- if (currentPage > 1) {
- currentPage--;
- displayLeaderboard(cachedLeaderboardData);
- }
- });
- document.getElementById("next-page")?.addEventListener("click", () => {
- currentPage++;
- displayLeaderboard(cachedLeaderboardData);
  });
  }
 
