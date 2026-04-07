@@ -3461,11 +3461,6 @@ html:has(.drawer-toggle:checked) {
   margin: 0px;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -3505,10 +3500,6 @@ html:has(.drawer-toggle:checked) {
   margin-bottom: 1rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -3531,6 +3522,14 @@ html:has(.drawer-toggle:checked) {
 
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
 }
 
 .mt-1 {
@@ -3971,12 +3970,6 @@ html:has(.drawer-toggle:checked) {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -4050,16 +4043,6 @@ html:has(.drawer-toggle:checked) {
   border-radius: 0.75rem;
 }
 
-.rounded-b-xl {
-  border-bottom-right-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
-}
-
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
 .rounded-bl-lg {
   border-bottom-left-radius: 0.5rem;
 }
@@ -4083,6 +4066,10 @@ html:has(.drawer-toggle:checked) {
 .border-learning-app-design-3 {
   --tw-border-opacity: 1;
   border-color: rgb(74 101 114 / var(--tw-border-opacity));
+}
+
+.border-level-expert\/40 {
+  border-color: rgb(255 140 2 / 0.4);
 }
 
 .bg-base-200 {
@@ -4127,6 +4114,10 @@ html:has(.drawer-toggle:checked) {
 
 .bg-level-expert-progress {
   background-color: #ff8c0299;
+}
+
+.bg-level-expert\/20 {
+  background-color: rgb(255 140 2 / 0.2);
 }
 
 .bg-level-learning {
@@ -4298,11 +4289,6 @@ html:has(.drawer-toggle:checked) {
   padding-bottom: 2rem;
 }
 
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -4351,20 +4337,16 @@ html:has(.drawer-toggle:checked) {
   padding-top: 0.75rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pt-\[70px\] {
   padding-top: 70px;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .text-left {
@@ -4468,10 +4450,6 @@ html:has(.drawer-toggle:checked) {
   line-height: 1.25;
 }
 
-.tracking-\[0\.15em\] {
-  letter-spacing: 0.15em;
-}
-
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -4479,11 +4457,6 @@ html:has(.drawer-toggle:checked) {
 .text-base-content {
   --tw-text-opacity: 1;
   color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
-}
-
-.text-gray-100 {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
 .text-gray-200 {
@@ -4569,6 +4542,16 @@ html:has(.drawer-toggle:checked) {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.sepia {
+  --tw-sepia: sepia(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .filter {
@@ -4826,14 +4809,6 @@ html:has(.drawer-toggle:checked) {
 }
 
 @media (min-width: 640px) {
-  .sm\:mb-6 {
-    margin-bottom: 1.5rem;
-  }
-
-  .sm\:mb-7 {
-    margin-bottom: 1.75rem;
-  }
-
   .sm\:mb-8 {
     margin-bottom: 2rem;
   }
@@ -4868,12 +4843,6 @@ html:has(.drawer-toggle:checked) {
 
   .sm\:gap-3 {
     gap: 0.75rem;
-  }
-
-  .sm\:space-y-6 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
   }
 
   .sm\:p-6 {

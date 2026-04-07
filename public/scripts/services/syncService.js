@@ -381,8 +381,8 @@ class SyncService {
         localStorage.setItem("lastSyncTime", cloudSyncTime.toString());
       }
 
-      if (window.stateService) {
-        window.stateService.loadButtonStates();
+      if (window.AppState) {
+        window.AppState.loadButtonStates();
       }
 
       return true;

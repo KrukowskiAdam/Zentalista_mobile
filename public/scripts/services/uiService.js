@@ -24,6 +24,7 @@ class UIService {
  this.sidebarComponent = new SidebarComponent();
  this.progressBarComponent = new ProgressBarComponent();
  this._leaderboardRankCache = null;
+ this._renderVersion = 0;
  }
 
  async fetchLeaderboardRank() {
@@ -283,12 +284,19 @@ class UIService {
  };
  }
 
- async renderLearnHomeOverview(mainContent) {
+ async renderLearnHomeOverview(mainContent, renderVersion) {
  const stats = this.getLearnHomeStats();
  const safeName = String(stats.displayName).replace(/[<>]/g,"");
 
  const rank = await this.fetchLeaderboardRank();
+
+ // If a newer render was triggered while we awaited, abort this one
+ if (renderVersion !== undefined && renderVersion !== this._renderVersion) return;
+
  const rankDisplay = rank ? `#${rank}` : "—";
+
+ // Clear any content inserted by a prior concurrent render
+ mainContent.innerHTML = "";
 
  let avatarUrl = null;
  try {
@@ -334,7 +342,8 @@ class UIService {
 
  <!-- Welcome card -->
  <div id="home-welcome-card" class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
- <p class="text-xl font-semibold mb-3">${window.currentUser ? 'Welcome back' : 'Welcome'}</p>
+ <p class="text-xl font-semibold mb-1 mt-2">${window.currentUser ? 'Welcome back' : 'Learn languages faster than ever with <span class="text-level-expert">Zentalist</span>'}</p>
+ <p class="text-sm opacity-70 mb-6">${window.currentUser ? 'Keep your streak alive — learn, challenge, and rank up' : 'A unique and effective flashcard system. Learn vocabulary in 8 languages and compete with learners worldwide.'}</p>
  <div class="flex items-center gap-3">
  ${avatarHtml}
  <div class="min-w-0 flex-1">
@@ -349,6 +358,43 @@ class UIService {
  <button id="continue-learning-btn" type="button" class="w-full inline-flex items-center justify-center rounded-full bg-level-expert py-3 text-sm font-semibold text-white border-0">Start learning</button>
  </div>
  </div>
+
+ ${!window.currentUser ? `
+ <!-- How it works card (guest only) -->
+ <div class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
+ <p class="text-lg font-semibold mb-3">How it works</p>
+ <div class="space-y-4">
+ <div class="flex gap-3 items-start">
+ <svg class="w-6 h-6 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 10.4V20M12 10.4C12 8.15979 12 7.03969 11.564 6.18404C11.1805 5.43139 10.5686 4.81947 9.81596 4.43597C8.96031 4 7.84021 4 5.6 4H4.6C4.03995 4 3.75992 4 3.54601 4.10899C3.35785 4.20487 3.20487 4.35785 3.10899 4.54601C3 4.75992 3 5.03995 3 5.6V16.4C3 16.9601 3 17.2401 3.10899 17.454C3.20487 17.6422 3.35785 17.7951 3.54601 17.891C3.75992 18 4.03995 18 4.6 18H7.54668C8.08687 18 8.35696 18 8.61814 18.0466C8.84995 18.0879 9.0761 18.1563 9.29191 18.2506C9.53504 18.3567 9.75977 18.5065 10.2092 18.8062L12 20M12 10.4C12 8.15979 12 7.03969 12.436 6.18404C12.8195 5.43139 13.4314 4.81947 14.184 4.43597C15.0397 4 16.1598 4 18.4 4H19.4C19.9601 4 20.2401 4 20.454 4.10899C20.6422 4.20487 20.7951 4.35785 20.891 4.54601C21 4.75992 21 5.03995 21 5.6V16.4C21 16.9601 21 17.2401 20.891 17.454C20.7951 17.6422 20.6422 17.7951 20.454 17.891C20.2401 18 19.9601 18 19.4 18H16.4533C15.9131 18 15.643 18 15.3819 18.0466C15.15 18.0879 14.9239 18.1563 14.7081 18.2506C14.465 18.3567 14.2402 18.5065 13.7908 18.8062L12 20"/></svg>
+ <div>
+ <p class="text-sm font-semibold">1,500+ words & phrases in 8 languages</p>
+ <p class="text-xs opacity-70">9 categories per language built from the most commonly used words, expanded with dedicated phrases so you can use them in real conversations right away.</p>
+ </div>
+ </div>
+ <div class="flex gap-3 items-start">
+ <svg class="w-6 h-6 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z"/></svg>
+ <div>
+ <p class="text-sm font-semibold">Track your progress</p>
+ <p class="text-xs opacity-70">Complete a category and review it after 24 hours — spaced repetition is the most effective way to learn a language.</p>
+ </div>
+ </div>
+ <div class="flex gap-3 items-start">
+ <svg class="w-6 h-6 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="#ff8c02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10"/></svg>
+ <div>
+ <p class="text-sm font-semibold">Take the Challenge</p>
+ <p class="text-xs opacity-70">Score 90%+ for +20 pts or a perfect 100% for +50 pts on the Global Leaderboard.</p>
+ </div>
+ </div>
+ <div class="flex gap-3 items-start">
+ <img src="/img/svg/01/globe_logo.svg" alt="Globe" class="w-6 h-6 flex-shrink-0 mt-0.5" style="filter: brightness(0) saturate(100%) invert(55%) sepia(89%) saturate(1000%) hue-rotate(360deg) brightness(101%) contrast(106%);">
+ <div>
+ <p class="text-sm font-semibold">Compete on the Global Leaderboard</p>
+ <p class="text-xs opacity-70">Complete categories and finish challenges to earn points and climb the ranks!</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ ` : ''}
 
  <!-- Daily goals -->
  <div id="home-daily-goals" class="grid grid-cols-1 gap-8 sm:grid-cols-2">
@@ -469,6 +515,7 @@ class UIService {
  * Render main cards interface
  */
  async renderCards() {
+ const renderVersion = ++this._renderVersion;
  try {
  const mainContent = document.getElementById("main-content");
  if (!mainContent) return false;
@@ -478,7 +525,7 @@ class UIService {
  mainContent.innerHTML ="";
 
  if (isHomeRoute) {
- await this.renderLearnHomeOverview(mainContent);
+ await this.renderLearnHomeOverview(mainContent, renderVersion);
  return true;
  }
 

@@ -29,7 +29,7 @@ const SOURCE_MAIN_CATEGORY_TITLES = {
  */
 export async function initChallengePageNew() {
  challengeService.resetChallenge();
- const hadInterruptedChallenge = recoverInterruptedChallenge();
+ const interruptedSession = recoverInterruptedChallenge();
 
  // Ensure local progress state is loaded (not auto-run outside /learn)
  if (typeof stateService.init === 'function') {
@@ -78,8 +78,8 @@ export async function initChallengePageNew() {
 
  // Render category selection view
  renderCategorySelection(allCategories);
- if (hadInterruptedChallenge) {
- console.info('Previous challenge was interrupted. Start again when ready.');
+ if (interruptedSession) {
+ showInterruptedBanner(interruptedSession);
  }
  toggleLoginAlert();
 
@@ -586,6 +586,7 @@ function startChallenge(source, categoryName, language) {
 
 
  // Hide category selection, show quiz view
+ document.getElementById('interrupted-challenge-banner')?.remove();
  document.getElementById('category-selection-view').classList.add('hidden');
  document.getElementById('challenge-quiz-view').classList.remove('hidden');
 
@@ -649,13 +650,20 @@ function renderQuestion() {
  }
  }
 
+ // Safety: verify correct answer is present among options
+ if (!question.answers.includes(question.correctAnswer)) {
+ console.warn('⚠️ Correct answer missing from options, injecting it');
+ question.answers[Math.floor(Math.random() * question.answers.length)] = question.correctAnswer;
+ }
+
  // Render answer buttons
  const answersContainer = document.getElementById('quiz-answers');
+ const escapeAttr = (str) => String(str).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
  answersContainer.innerHTML = question.answers.map(answer => `
  <button class="answer-btn btn btn touch-target text-base sm:text-lg py-4 sm:py-6 h-auto hover:btn-primary transition-all"
- data-answer="${answer}"
+ data-answer="${escapeAttr(answer)}"
  >
- ${answer}
+ ${escapeAttr(answer)}
  </button>
  `).join('');
 
@@ -854,6 +862,37 @@ function maybeStartPendingChallenge() {
  window.addEventListener("authStateChanged", authHandler);
 }
 
+function showInterruptedBanner(session) {
+ const container = document.getElementById('categories-list');
+ if (!container || !session?.categoryName) return;
+
+ const banner = document.createElement('div');
+ banner.id = 'interrupted-challenge-banner';
+ banner.className = 'bg-level-expert/20 border border-level-expert/40 rounded-xl p-4 mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3';
+ banner.innerHTML = `
+   <div class="flex items-center gap-3">
+     <svg class="w-6 h-6 flex-shrink-0 text-level-expert" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+       <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"/>
+     </svg>
+     <div>
+       <p class="text-sm font-semibold">Challenge interrupted</p>
+       <p class="text-xs opacity-70">${session.categoryName}</p>
+     </div>
+   </div>
+   <button id="restart-interrupted-btn"
+     class="touch-target inline-flex items-center justify-center rounded-lg bg-level-expert px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-level-expert/80 w-full sm:w-auto">
+     Restart
+   </button>
+ `;
+
+ container.parentNode.insertBefore(banner, container);
+
+ banner.querySelector('#restart-interrupted-btn').addEventListener('click', () => {
+   banner.remove();
+   startChallenge(session.source, session.categoryName, session.language);
+ });
+}
+
 function setActiveChallengeSession(sessionData) {
  try {
  localStorage.setItem(CHALLENGE_SESSION_KEY, JSON.stringify(sessionData));
@@ -874,18 +913,19 @@ function recoverInterruptedChallenge() {
  try {
  const raw = localStorage.getItem(CHALLENGE_SESSION_KEY);
  if (!raw) {
- return false;
+ return null;
  }
 
+ const session = JSON.parse(raw);
  // Any leftover session means previous challenge was not cleanly completed.
  localStorage.removeItem(CHALLENGE_SESSION_KEY);
  challengeService.resetChallenge();
- return true;
+ return session;
  } catch (error) {
  console.error('Error recovering interrupted challenge', error);
  localStorage.removeItem(CHALLENGE_SESSION_KEY);
  challengeService.resetChallenge();
- return false;
+ return null;
  }
 }
 

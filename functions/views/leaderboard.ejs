@@ -73,7 +73,18 @@
  <div class="container mx-auto px-4 pt-4 max-w-6xl">
  <!-- Header card -->
  <div class="rounded-xl bg-learning-app-design-1 p-4 shadow-card mb-8">
- <p class="text-xl font-semibold mb-3">Global Leaderboard</p>
+ <p class="text-xl font-semibold mb-1">Global Leaderboard</p>
+ <p class="text-sm opacity-70 mb-3">Compete with learners worldwide and climb the ranks</p>
+ <div id="header-user-row" class="hidden flex items-center gap-3">
+ <img id="header-user-avatar" src="" alt="avatar" class="w-10 h-10 rounded-full object-cover flex-shrink-0">
+ <div class="min-w-0 flex-1">
+ <h1 id="header-user-name" class="text-lg font-bold leading-tight"></h1>
+ </div>
+ <div class="flex-shrink-0 flex items-center gap-2">
+ <p class="text-l leading-tight">Your rank</p>
+ <p id="header-user-rank" class="text-l leading-tight"></p>
+ </div>
+ </div>
  </div>
 
  <!-- Leaderboard Table -->
@@ -359,6 +370,27 @@
  });
 
  displayLeaderboard(cachedLeaderboardData);
+
+ // Populate header user row
+ if (currentUser && cachedLeaderboardData) {
+ const userIndex = cachedLeaderboardData.findIndex(u => u.userId === currentUser.uid);
+ if (userIndex !== -1) {
+ const userData = cachedLeaderboardData[userIndex];
+ const headerRow = document.getElementById('header-user-row');
+ const avatarEl = document.getElementById('header-user-avatar');
+ const nameEl = document.getElementById('header-user-name');
+ const rankEl = document.getElementById('header-user-rank');
+
+ if (userData.avatarUrl) {
+ avatarEl.src = userData.avatarUrl;
+ } else {
+ avatarEl.src = `https://api.dicebear.com/7.x/adventurer/svg?seed=${currentUser.uid}`;
+ }
+ nameEl.textContent = userData.displayName || 'Anonymous';
+ rankEl.textContent = `#${userIndex + 1}`;
+ headerRow.classList.remove('hidden');
+ }
+ }
 
  loadingEl.classList.add("hidden");
  contentEl.classList.remove("hidden");

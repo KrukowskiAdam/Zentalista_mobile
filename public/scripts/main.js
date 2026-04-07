@@ -160,6 +160,18 @@ class MainApp {
       }
     });
 
+    // Re-render home after cloud sync delivers fresh data
+    // (fixes race where initApp renders before sync completes)
+    window.addEventListener("cloudSyncComplete", async () => {
+      if (
+        window.location.pathname === "/home" ||
+        window.location.pathname === "/learn"
+      ) {
+        stateService.loadButtonStates();
+        await uiService.renderCards();
+      }
+    });
+
     // Listen for category changes
     window.addEventListener("categoryChanged", async (event) => {
       if (!stateService._blockRerender) {

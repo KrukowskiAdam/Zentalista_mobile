@@ -44,6 +44,11 @@ class ChallengeService {
         () => Math.random() - 0.5
       );
 
+      // Safety: guarantee correct answer is always present
+      if (!allAnswers.includes(word.en)) {
+        allAnswers[Math.floor(Math.random() * allAnswers.length)] = word.en;
+      }
+
       return {
         foreign: foreignText,
         romanization,
