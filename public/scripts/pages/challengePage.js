@@ -10,7 +10,6 @@ let authStateResolved = false;
 const languageCategoryCache = new Map();
 const languageButtonStateCache = new Map();
 let multiLanguageCategories = [];
-const CHALLENGE_SESSION_KEY = 'activeChallengeSession';
 
 const SOURCE_MAIN_CATEGORY_TITLES = {
  free: 'Greetings & Introductions',
@@ -29,7 +28,6 @@ const SOURCE_MAIN_CATEGORY_TITLES = {
  */
 export async function initChallengePageNew() {
  challengeService.resetChallenge();
- const interruptedSession = recoverInterruptedChallenge();
 
  // Ensure local progress state is loaded (not auto-run outside /learn)
  if (typeof stateService.init === 'function') {
@@ -78,9 +76,6 @@ export async function initChallengePageNew() {
 
  // Render category selection view
  renderCategorySelection(allCategories);
- if (interruptedSession) {
- showInterruptedBanner(interruptedSession);
- }
  toggleLoginAlert();
 
  // Setup event listeners
@@ -317,7 +312,6 @@ function renderLanguageHeader(langDetails) {
  </span>
  <div>
  <p class="text-base font-semibold">${name}</p>
- <p class="text-xs uppercase tracking-wide">${nativeName || details.code?.toUpperCase() || ''}</p>
  </div>
  </div>
  <div class="language-section-content space-y-4"></div>
@@ -577,16 +571,9 @@ function startChallenge(source, categoryName, language) {
  source,
  targetLanguage
  );
- setActiveChallengeSession({
- source,
- categoryName,
- language: targetLanguage,
- startedAt: Date.now(),
- });
 
 
  // Hide category selection, show quiz view
- document.getElementById('interrupted-challenge-banner')?.remove();
  document.getElementById('category-selection-view').classList.add('hidden');
  document.getElementById('challenge-quiz-view').classList.remove('hidden');
 
@@ -723,7 +710,6 @@ function handleAnswerClick(e) {
 function showResults() {
  const results = challengeService.getResults();
  if (!results) return;
- clearActiveChallengeSession();
 
 
  // Save if passed
@@ -803,7 +789,6 @@ function setupEventListeners() {
  if (exitBtn) {
  exitBtn.addEventListener('click', () => {
  if (confirm('Are you sure you want to exit? Your progress will be lost.')) {
- clearActiveChallengeSession();
  challengeService.resetChallenge();
  location.reload();
  }
@@ -860,73 +845,6 @@ function maybeStartPendingChallenge() {
  };
 
  window.addEventListener("authStateChanged", authHandler);
-}
-
-function showInterruptedBanner(session) {
- const container = document.getElementById('categories-list');
- if (!container || !session?.categoryName) return;
-
- const banner = document.createElement('div');
- banner.id = 'interrupted-challenge-banner';
- banner.className = 'bg-level-expert/20 border border-level-expert/40 rounded-xl p-4 mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3';
- banner.innerHTML = `
-   <div class="flex items-center gap-3">
-     <svg class="w-6 h-6 flex-shrink-0 text-level-expert" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-       <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"/>
-     </svg>
-     <div>
-       <p class="text-sm font-semibold">Challenge interrupted</p>
-       <p class="text-xs opacity-70">${session.categoryName}</p>
-     </div>
-   </div>
-   <button id="restart-interrupted-btn"
-     class="touch-target inline-flex items-center justify-center rounded-lg bg-level-expert px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-level-expert/80 w-full sm:w-auto">
-     Restart
-   </button>
- `;
-
- container.parentNode.insertBefore(banner, container);
-
- banner.querySelector('#restart-interrupted-btn').addEventListener('click', () => {
-   banner.remove();
-   startChallenge(session.source, session.categoryName, session.language);
- });
-}
-
-function setActiveChallengeSession(sessionData) {
- try {
- localStorage.setItem(CHALLENGE_SESSION_KEY, JSON.stringify(sessionData));
- } catch (error) {
- console.error('Error saving active challenge session', error);
- }
-}
-
-function clearActiveChallengeSession() {
- try {
- localStorage.removeItem(CHALLENGE_SESSION_KEY);
- } catch (error) {
- console.error('Error clearing active challenge session', error);
- }
-}
-
-function recoverInterruptedChallenge() {
- try {
- const raw = localStorage.getItem(CHALLENGE_SESSION_KEY);
- if (!raw) {
- return null;
- }
-
- const session = JSON.parse(raw);
- // Any leftover session means previous challenge was not cleanly completed.
- localStorage.removeItem(CHALLENGE_SESSION_KEY);
- challengeService.resetChallenge();
- return session;
- } catch (error) {
- console.error('Error recovering interrupted challenge', error);
- localStorage.removeItem(CHALLENGE_SESSION_KEY);
- challengeService.resetChallenge();
- return null;
- }
 }
 
 function isUserLoggedIn() {

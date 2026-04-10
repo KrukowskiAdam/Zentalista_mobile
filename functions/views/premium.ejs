@@ -13,7 +13,7 @@
  <div class="container mx-auto px-4 py-8 pt-12 max-w-5xl safe-bottom">
 
  <!-- Header -->
- <div class="text-center mb-8 px-2">
+ <div class="text-center mb-4 px-4">
  <h1 class="text-3xl sm:text-4xl font-bold mb-2">Start your language journey today
  </h1>
  <p class="py-5 sm:py-8 max-w-xl mx-auto">8 languages • 30,000+ words • Global competition</p>
@@ -21,7 +21,7 @@
 
  <!-- Pricing Cards Container -->
  <div id="price-cards"
- class="hidden grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-7xl mx-auto mb-10">
+ class="hidden grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-7xl mx-auto mb-4">
 
  <!-- Free Plan -->
  <div
@@ -50,7 +50,7 @@
  class="bg-learning-app-design-1 shadow-card hover:shadow-card-hover hover:-translate-y-[5px] transition-all duration-300 ease-in-out rounded-xl p-5 flex flex-col">
  <h3 class="font-bold mb-2">Monthly</h3>
  <p class="text-xs mb-2">Flexible, cancel anytime</p>
- <p class="text-2xl font-bold mb-6">$9.99<span class="text-sm">/month</span></p>
+ <p class="text-2xl font-bold mb-6" data-iap-price="monthly"><span data-iap-amount>$9.99</span><span class="text-sm">/month</span></p>
  <ul class="text-sm mb-6 space-y-2 mt-auto">
  <li class="">✓ All categories unlocked</li>
  <li>✓ Audio pronunciation</li>
@@ -77,8 +77,8 @@
  </div>
  <h3 class="font-bold mb-2">Yearly</h3>
  <p class="text-xs mb-2">Best value for subscriptions</p>
- <p class="text-2xl font-bold mb-1">$59<span class="text-sm">/year</span></p>
- <p class="text-xs mb-6">~$5/month</p>
+ <p class="text-2xl font-bold mb-1" data-iap-price="annual"><span data-iap-amount>$59</span><span class="text-sm">/year</span></p>
+ <p class="text-xs mb-6" data-iap-monthly-equiv>~$5/month</p>
  <ul class="text-sm mb-6 space-y-2 mt-auto">
  <li class="">✓ All categories unlocked</li>
  <li>✓ Audio pronunciation</li>
@@ -101,7 +101,7 @@
  class="bg-learning-app-design-1 shadow-card hover:shadow-card-hover hover:-translate-y-[5px] transition-all duration-300 ease-in-out rounded-xl p-5 flex flex-col">
  <h3 class="font-bold mb-2">Lifetime</h3>
  <p class="text-xs mb-2">One-time payment, forever access</p>
- <p class="text-2xl font-bold mb-1">$99<span class="text-sm"> one-time</span></p>
+ <p class="text-2xl font-bold mb-1" data-iap-price="lifetime"><span data-iap-amount>$99</span><span class="text-sm"> one-time</span></p>
  <p class="text-xs mb-6">Own it forever</p>
  <ul class="text-sm mb-6 space-y-2 mt-auto">
  <li class="">✓ All categories unlocked</li>
@@ -121,7 +121,7 @@
  </div>
  </div>
 
- <div class="text-center mb-10 px-2 max-w-3xl mx-auto">
+ <div class="text-center mb-4 px-4 max-w-3xl mx-auto">
  <div class="flex flex-col sm:flex-row gap-3 justify-center">
  <button
  class="inline-flex items-center justify-center rounded-full py-3 px-5 text-sm font-semibold bg-level-expert text-white border-0"
@@ -141,7 +141,7 @@
  </div>
 
  <!-- Features List -->
- <div id="features-list" class="hidden max-w-2xl mx-auto mb-10 px-2">
+ <div id="features-list" class="hidden max-w-2xl mx-auto mb-4 px-4">
  <h3 class="text-center font-semibold mb-6">What's included in Premium:</h3>
  <div class="grid grid-cols-1 gap-4 max-w-md mx-auto">
  <div class="flex items-center gap-3">

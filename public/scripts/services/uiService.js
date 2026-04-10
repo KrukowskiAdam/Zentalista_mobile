@@ -338,7 +338,7 @@ class UIService {
  });
 
  overview.innerHTML = `
- <div class="mx-auto max-w-4xl space-y-8">
+ <div class="mx-auto max-w-4xl space-y-4">
 
  <!-- Welcome card -->
  <div id="home-welcome-card" class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
@@ -397,7 +397,7 @@ class UIService {
  ` : ''}
 
  <!-- Daily goals -->
- <div id="home-daily-goals" class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+ <div id="home-daily-goals" class="grid grid-cols-1 gap-4 sm:grid-cols-2">
  <div id="home-daily-plan-card" class="rounded-xl bg-learning-app-design-1 overflow-hidden shadow-card">
 
  <!-- M3 Header -->

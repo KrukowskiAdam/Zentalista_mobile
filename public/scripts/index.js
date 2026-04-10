@@ -46,11 +46,16 @@ const updateMenuAvatar = (user, avatarData) => {
     avatarIcon.classList.add("hidden");
     
     // Cache avatar in localStorage for instant load on refresh
+    // Skip if profile page saved a fresher avatar within the last 30 seconds
     try {
-      localStorage.setItem('mc_menu_avatar', JSON.stringify({
-        uid: user.uid,
-        avatarUrl: avatarUrl
-      }));
+      const existing = JSON.parse(localStorage.getItem('mc_menu_avatar') || '{}');
+      const isFreshProfileSave = existing.savedAt && (Date.now() - existing.savedAt < 30000);
+      if (!isFreshProfileSave) {
+        localStorage.setItem('mc_menu_avatar', JSON.stringify({
+          uid: user.uid,
+          avatarUrl: avatarUrl
+        }));
+      }
     } catch (e) {
       console.warn('Could not cache avatar:', e);
     }

@@ -203,6 +203,40 @@ function bindPurchaseHandlers() {
  });
 }
 
+async function updatePricesFromOfferings() {
+ try {
+ const offering = await iapService.getOfferings();
+ if (!offering?.availablePackages) return;
+
+ for (const pkg of offering.availablePackages) {
+ const id = String(pkg.identifier || "").toLowerCase().replace(/^\$rc_/, "");
+ const priceStr = pkg.product?.priceString;
+ if (!priceStr) continue;
+
+ const priceEl = document.querySelector(`[data-iap-price="${id}"]`);
+ if (!priceEl) continue;
+
+ const amountEl = priceEl.querySelector("[data-iap-amount]");
+ if (amountEl) {
+ amountEl.textContent = priceStr;
+ }
+
+ // Update monthly equivalent for annual plan
+ if (id === "annual") {
+ const equivEl = document.querySelector("[data-iap-monthly-equiv]");
+ const numericPrice = pkg.product?.price;
+ if (equivEl && numericPrice) {
+ const currencyCode = pkg.product?.currencyCode || "";
+ const monthly = (numericPrice / 12).toFixed(2);
+ equivEl.textContent = currencyCode ? `~${currencyCode} ${monthly}/month` : `~${monthly}/month`;
+ }
+ }
+ }
+ } catch (e) {
+ console.error("Failed to update prices from offerings:", e);
+ }
+}
+
 async function initializeIAPForCurrentUser() {
  if (!iapService.isNativeApp()) return;
 
@@ -222,6 +256,7 @@ async function initializeIAPForCurrentUser() {
  }
 
  setStatus("IAP ready. Choose a plan.");
+ await updatePricesFromOfferings();
 }
 
 document.addEventListener("DOMContentLoaded", async () => {

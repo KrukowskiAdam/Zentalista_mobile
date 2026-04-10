@@ -307,14 +307,23 @@ class ProfileManager {
 
  updateMenuAvatar() {
  // Update avatar in navigation menu using global function
+ const avatarUrl = `https://api.dicebear.com/7.x/${this.currentAvatarStyle}/svg?seed=${this.currentAvatarSeed}`;
  if (window.updateMenuAvatar) {
  const avatarData = {
  avatarStyle: this.currentAvatarStyle,
  avatarSeed: this.currentAvatarSeed,
- avatarUrl: `https://api.dicebear.com/7.x/${this.currentAvatarStyle}/svg?seed=${this.currentAvatarSeed}`
+ avatarUrl: avatarUrl
  };
  window.updateMenuAvatar(auth.currentUser, avatarData);
  }
+ // Mark cache as fresh profile save so auth won't overwrite with stale Firestore data
+ try {
+ localStorage.setItem('mc_menu_avatar', JSON.stringify({
+ uid: auth.currentUser?.uid,
+ avatarUrl: avatarUrl,
+ savedAt: Date.now()
+ }));
+ } catch (e) {}
  }
 
  showSuccess() {
