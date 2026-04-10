@@ -127,6 +127,14 @@ const pages = [
       "Read Zentalist's Privacy Policy, Terms of Service and Cookie Policy. Learn how we protect your data and what terms apply.",
     customData: { isLegals: true },
   },
+  {
+    path: "/privacy",
+    template: "privacy",
+    title: "Zentalist | Privacy Policy",
+    description:
+      "Zentalist Privacy Policy — how we collect, use, and protect your personal data.",
+    customData: { isLegals: true },
+  },
 ];
 
 pages.forEach((page) => {

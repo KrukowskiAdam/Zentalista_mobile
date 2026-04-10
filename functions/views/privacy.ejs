@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-learning-app-design-3">
+<%- include('partials/head') %>
+
+ <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <%- include('partials/menu') %>
+
+ <main class="container mx-auto px-4 py-8 pt-12 max-w-4xl safe-bottom">
+
+ <div class="max-w-4xl mx-auto p-8 rounded-lg shadow-md bg-learning-app-design-1">
+ <h1 class="text-3xl font-bold mb-2">Privacy Policy</h1>
+ <p class="text-sm opacity-75 mb-6">Last updated: April 10, 2026</p>
+
+ <div class="space-y-6">
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Data Controller</h2>
+ <p class="pl-4">ZentaWeb — Adam Krukowski<br>
+ Contact: <a href="mailto:contact@zentalist.app" class="hover:underline">contact@zentalist.app</a></p>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Collected Data</h2>
+ <ul class="list-disc pl-8 list-outside">
+ <li class="mb-2"><strong>Account data:</strong> Email address, display name (when you create an account via Firebase Authentication)</li>
+ <li class="mb-2"><strong>Payment data:</strong> Processed by platform-specific providers — Apple App Store or Google Play for in-app purchases (managed via RevenueCat). We do not store credit card numbers.</li>
+ <li class="mb-2"><strong>Usage data:</strong> Learning progress, completed categories, challenge scores (stored locally on your device)</li>
+ <li class="mb-2"><strong>Leaderboard data:</strong> Display name and score submitted to our global leaderboard (stored in Firebase Firestore)</li>
+ <li><strong>Technical data:</strong> IP address, device type, OS version (for analytics and security)</li>
+ </ul>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Purpose of Processing</h2>
+ <ul class="list-disc pl-8 list-outside">
+ <li class="mb-2">To provide and maintain the Zentalist learning platform</li>
+ <li class="mb-2">To process in-app purchases and manage subscriptions</li>
+ <li class="mb-2">To sync your premium access across devices</li>
+ <li class="mb-2">To display your ranking on the Global Leaderboard</li>
+ <li>To respond to support inquiries</li>
+ </ul>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Legal Basis (GDPR)</h2>
+ <ul class="list-disc pl-8 list-outside">
+ <li class="mb-2"><strong>Article 6(1)(b)</strong> — Contract execution (providing the service you signed up for)</li>
+ <li class="mb-2"><strong>Article 6(1)(a)</strong> — Consent (for optional analytics)</li>
+ <li><strong>Article 6(1)(f)</strong> — Legitimate interest (security, fraud prevention)</li>
+ </ul>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Third-Party Services</h2>
+ <ul class="list-disc pl-8 list-outside">
+ <li class="mb-2"><strong>Google Firebase</strong> — Authentication and database (USA, Standard Contractual Clauses)</li>
+ <li class="mb-2"><strong>RevenueCat</strong> — Subscription infrastructure and entitlement synchronization for in-app purchases</li>
+ <li class="mb-2"><strong>Apple App Store</strong> — Payment processing for iOS in-app purchases</li>
+ <li class="mb-2"><strong>Google Play</strong> — Payment processing for Android in-app purchases</li>
+ <li><strong>Google Analytics</strong> — Anonymous usage statistics (optional, can be disabled)</li>
+ </ul>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Data Retention</h2>
+ <ul class="list-disc pl-8 list-outside">
+ <li class="mb-2"><strong>Account data:</strong> Until you delete your account</li>
+ <li class="mb-2"><strong>Payment records:</strong> 5 years (tax law requirement)</li>
+ <li><strong>Analytics data:</strong> 26 months (Google Analytics default)</li>
+ </ul>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Your Rights (GDPR)</h2>
+ <ul class="list-disc pl-8 list-outside">
+ <li class="mb-2">Right to access your personal data</li>
+ <li class="mb-2">Right to rectification (correct inaccurate data)</li>
+ <li class="mb-2">Right to erasure ("right to be forgotten")</li>
+ <li class="mb-2">Right to data portability</li>
+ <li class="mb-2">Right to object to processing</li>
+ <li>Right to lodge a complaint with your local Data Protection Authority</li>
+ </ul>
+ <p class="mt-4 pl-4">To exercise your rights, contact us at: <a href="mailto:contact@zentalist.app" class="hover:underline">contact@zentalist.app</a></p>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Children's Privacy</h2>
+ <p class="pl-4">Zentalist is not directed at children under 13. We do not knowingly collect personal data from children under 13. If you believe a child has provided us with personal data, please contact us so we can delete it.</p>
+ </div>
+
+ <div class="divider"></div>
+
+ <div>
+ <h2 class="text-xl font-semibold mb-3">Changes to This Policy</h2>
+ <p class="pl-4">We may update this Privacy Policy from time to time. We will notify users of significant changes through the app or by email. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+ </div>
+
+ </div>
+ </div>
+
+ </main>
+
+ <%- include('partials/modals') %>
+ </body>
+</html>
