@@ -100,7 +100,7 @@ Plik: `android/app/build/outputs/bundle/release/app-release.aab`
 | Zadanie | Status |
 |---|---|
 | Privacy Policy page (URL) | ✅ `/privacy` route added |
-| Ikona app (1024x1024 iOS, 512x512 Android) | ⬜ Sprawdź |
+| Ikona app (1024x1024 iOS, 512x512 Android) | ✅ Podpięta |
 | Screenshots (min 2 per rozdzielczość) | ⬜ Potrzebujesz |
 | RevenueCat produkcyjne klucze | ⬜ Zamień test_ → prod |
 | Produkty IAP w obu store'ach + RevenueCat | ⬜ Utwórz |
