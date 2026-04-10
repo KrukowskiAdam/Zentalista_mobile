@@ -14,3 +14,7 @@ firebase-service-account.json
 
 # Node
 node_modules/
+
+# Android signing
+*.keystore
+*.jks

@@ -104,5 +104,5 @@ Plik: `android/app/build/outputs/bundle/release/app-release.aab`
 | Screenshots (min 2 per rozdzielczość) | ⬜ Potrzebujesz |
 | RevenueCat produkcyjne klucze | ⬜ Zamień test_ → prod |
 | Produkty IAP w obu store'ach + RevenueCat | ⬜ Utwórz |
-| Keystore Android (i backup!) | ⬜ Wygeneruj |
+| Keystore Android (i backup!) | ✅ Wygenerowany |
 | `npx cap sync` po ostatnich zmianach | ✅ Done |
