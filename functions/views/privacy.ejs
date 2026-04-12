@@ -2,7 +2,7 @@
 <html lang="en" class="bg-learning-app-design-3">
 <%- include('partials/head') %>
 
- <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: 80px;">
+ <body class="m-0 p-0 bg-learning-app-design-3" style="padding-top: calc(80px + constant(safe-area-inset-top)); padding-top: calc(80px + env(safe-area-inset-top, 0px));">
  <%- include('partials/menu') %>
 
  <main class="container mx-auto px-4 py-8 pt-12 max-w-4xl safe-bottom">

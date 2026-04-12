@@ -128,6 +128,8 @@
  #main-content {
  width: 100%;
  transition: margin-left 0.3s ease;
+ padding-top: calc(60px + constant(safe-area-inset-top));
+ padding-top: calc(60px + env(safe-area-inset-top, 0px));
  }
 
  .sidebar-hidden #main-content {

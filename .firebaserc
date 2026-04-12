@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "costam-3f612"
-  }
+  },
+  "targets": {
+    "costam-3f612": {
+      "hosting": {
+        "mobile": [
+          "zentalist-mobile"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

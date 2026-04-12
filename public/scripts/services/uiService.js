@@ -344,7 +344,7 @@ class UIService {
  <div id="home-welcome-card" class="rounded-xl bg-learning-app-design-1 p-4 shadow-card">
  <p class="text-xl font-semibold mb-1 mt-2">${window.currentUser ? 'Welcome back' : 'Learn languages faster than ever with <span class="text-level-expert">Zentalist</span>'}</p>
  <p class="text-sm opacity-70 mb-6">${window.currentUser ? 'Keep your streak alive — learn, challenge, and rank up' : 'A unique and effective flashcard system. Learn vocabulary in 8 languages and compete with learners worldwide.'}</p>
- <div class="flex items-center gap-3">
+ ${window.currentUser ? `<div class="flex items-center gap-3">
  ${avatarHtml}
  <div class="min-w-0 flex-1">
  <h1 class="text-lg font-bold leading-tight">${safeName}</h1>
@@ -353,7 +353,7 @@ class UIService {
  <p class="text-l leading-tight">Global rank</p>
  <p class="text-l leading-tight">${rankDisplay}</p>
  </div>
- </div>
+ </div>` : ''}
  <div class="mt-4">
  <button id="continue-learning-btn" type="button" class="w-full inline-flex items-center justify-center rounded-full bg-level-expert py-3 text-sm font-semibold text-white border-0">Start learning</button>
  </div>

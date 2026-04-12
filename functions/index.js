@@ -160,7 +160,7 @@ app.use((req, res) => {
   });
 });
 
-export const ssr = onRequest(
+export const ssrMobile = onRequest(
   {
     cors: true,
   },

@@ -3504,10 +3504,6 @@ html:has(.drawer-toggle:checked) {
   margin-bottom: 1.5rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -3930,16 +3926,8 @@ html:has(.drawer-toggle:checked) {
   gap: 1rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .gap-y-28 {
@@ -4068,15 +4056,6 @@ html:has(.drawer-toggle:checked) {
   border-color: rgb(74 101 114 / var(--tw-border-opacity));
 }
 
-.border-level-expert\/40 {
-  border-color: rgb(255 140 2 / 0.4);
-}
-
-.bg-base-200 {
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
-}
-
 .bg-learning-app-design-1 {
   --tw-bg-opacity: 1;
   background-color: rgb(35 47 52 / var(--tw-bg-opacity));
@@ -4114,10 +4093,6 @@ html:has(.drawer-toggle:checked) {
 
 .bg-level-expert-progress {
   background-color: #ff8c0299;
-}
-
-.bg-level-expert\/20 {
-  background-color: rgb(255 140 2 / 0.2);
 }
 
 .bg-level-learning {
@@ -4197,11 +4172,6 @@ html:has(.drawer-toggle:checked) {
 
 .p-8 {
   padding: 2rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .px-2 {
@@ -4813,14 +4783,6 @@ html:has(.drawer-toggle:checked) {
     margin-bottom: 2rem;
   }
 
-  .sm\:h-10 {
-    height: 2.5rem;
-  }
-
-  .sm\:w-10 {
-    width: 2.5rem;
-  }
-
   .sm\:w-auto {
     width: auto;
   }
@@ -4847,10 +4809,6 @@ html:has(.drawer-toggle:checked) {
 
   .sm\:p-6 {
     padding: 1.5rem;
-  }
-
-  .sm\:p-8 {
-    padding: 2rem;
   }
 
   .sm\:py-6 {

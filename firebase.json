@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "mobile",
     "public": "public",
     "ignore": [
       "**/*.html",
@@ -119,11 +120,11 @@
     "rewrites": [
       {
         "source": "!/@(js|css|png|jpg|jpeg|gif|svg|webp|json|)/**",
-        "function": "ssr"
+        "function": "ssrMobile"
       },
       {
         "source": "**",
-        "function": "ssr"
+        "function": "ssrMobile"
       }
     ]
   },

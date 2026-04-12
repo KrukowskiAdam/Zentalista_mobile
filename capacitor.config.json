@@ -1,5 +1,9 @@
 {
   "appId": "com.zentalist.app",
   "appName": "Zentalist",
-  "webDir": "public"
+  "webDir": "public",
+  "server": {
+    "url": "https://zentalist-mobile.web.app/home",
+    "allowNavigation": ["zentalist-mobile.web.app", "*.googleapis.com", "*.firebaseapp.com"]
+  }
 }
