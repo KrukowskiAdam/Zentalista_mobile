@@ -102,7 +102,7 @@ Plik: `android/app/build/outputs/bundle/release/app-release.aab`
 | Privacy Policy page (URL) | ✅ `/privacy` route added |
 | Ikona app (1024x1024 iOS, 512x512 Android) | ✅ Podpięta |
 | Screenshots (min 2 per rozdzielczość) | ⬜ Potrzebujesz |
-| RevenueCat produkcyjne klucze | ⬜ Zamień test_ → prod |
+| RevenueCat produkcyjne klucze | ✅ Produkcyjne klucze wstawione |
 | Produkty IAP w obu store'ach + RevenueCat | ⬜ Utwórz |
 | Keystore Android (i backup!) | ✅ Wygenerowany |
 | `npx cap sync` po ostatnich zmianach | ✅ Done |

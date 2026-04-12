@@ -4,7 +4,7 @@
 export const IAP_CONFIG = {
   entitlementId: "premium",
   offeringId: "default",
-  iosApiKey: "test_SJnSmgCpzsbJeYbAXHSMIKFkAeP",
-  androidApiKey: "test_SJnSmgCpzsbJeYbAXHSMIKFkAeP",
+  iosApiKey: "appl_DupvlMtnItoOiGvOuEwNtCDhimu",
+  androidApiKey: "goog_yUZKhlfcSpSoovWugIOOBRdjCWx",
   packagePriority: ["monthly", "annual", "lifetime"],
 };
