@@ -273,6 +273,9 @@ if (signupForm) {
  if (window.clearUserLocalData) {
  window.clearUserLocalData();
  }
+  // Cache auth state BEFORE reload so menu shows correctly on next page load
+ localStorage.setItem('mc_auth_state', 'logged-in');
+ localStorage.setItem('mc_current_user_id', cred.user.uid);
   document.getElementById("modal-signup").checked = false;
  signupForm.reset();
  emailError.textContent ="";
@@ -345,6 +348,9 @@ if (loginForm) {
  window.clearUserLocalData();
  }
  }
+  // Cache auth state BEFORE reload so menu shows correctly on next page load
+ localStorage.setItem('mc_auth_state', 'logged-in');
+ localStorage.setItem('mc_current_user_id', cred.user.uid);
   document.getElementById("modal-login").checked = false;
  loginForm.reset();
  emailError.textContent ="";
@@ -418,7 +424,7 @@ logoutBtns.forEach((btn) => {
  // CRITICAL: Clear all user data from localStorage on logout
  // This prevents data bleeding between users on the same browser
  clearUserLocalData();
- window.location.href ="/"; // Redirect to home page after logout
+ window.location.href ="/home"; // Redirect to app home after logout
  })
  .catch((error) => {
  console.error("Error signing out:", error);

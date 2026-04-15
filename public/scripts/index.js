@@ -272,6 +272,14 @@ export const setupUI = (user, isPremium = false, avatarData = null) => {
     toggleElementsVisibility([elements.premiumStatusDiv], isPremiumUser);
     toggleElementsVisibility([elements.regularStatusDiv], !isPremiumUser);
   } else {
+    // Check if this is just Firebase SDK initializing (not a real logout)
+    // If cached state says logged-in, don't flash the menu to logged-out
+    const cachedAuth = localStorage.getItem('mc_auth_state');
+    if (cachedAuth === 'logged-in') {
+      // Firebase SDK hasn't verified session yet — keep menu as-is
+      return;
+    }
+
     // Cache auth state for instant load on refresh
     try {
       localStorage.setItem('mc_auth_state', 'logged-out');

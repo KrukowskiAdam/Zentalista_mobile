@@ -2,7 +2,7 @@
 // Fill these values from RevenueCat dashboard before production release.
 
 export const IAP_CONFIG = {
-  entitlementId: "premium",
+  entitlementId: "ZentaWeb Premium",
   offeringId: "default",
   iosApiKey: "appl_DupvlMtnItoOiGvOuEwNtCDhimu",
   androidApiKey: "goog_yUZKhlfcSpSoovWugIOOBRdjCWx",
