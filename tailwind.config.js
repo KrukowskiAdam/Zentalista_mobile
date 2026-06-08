@@ -16,7 +16,8 @@ const themes = {
     "learning-app-design-6": "#D44235",
     "learning-app-design-7": "#f9aa33",
 
-    // Individual exceptions
+    // Individual exceptions 
+    // (relax jasny B2DADA, Główny Marrs Green 008c8c, ciemny 005757, bardzo ciemny 002E2E) 
     "level-expert": "#ff8c02",      // Primary CTA accent
     "level-expert-progress": "#ff8c0299",
     "level-learning": "#0ea5e9",
@@ -27,10 +28,10 @@ const themes = {
 
   // OPTION TWO - 5 base colors
   two: {
-    "learning-app-design-1": "#0439D9",
-    "learning-app-design-2": "#011140",
-    "learning-app-design-3": "#5086F2",
-    "learning-app-design-4": "#758EBF",
+    "learning-app-design-1": "#0158a3",
+    "learning-app-design-2": "#5086F2",
+    "learning-app-design-3": "#758EBF",
+    "learning-app-design-4": "#02bf33",
     "learning-app-design-5": "#F2F2F2",
 
     // Individual exceptions

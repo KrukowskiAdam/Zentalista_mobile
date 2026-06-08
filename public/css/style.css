@@ -3930,8 +3930,8 @@ html:has(.drawer-toggle:checked) {
   gap: 1.5rem;
 }
 
-.gap-y-28 {
-  row-gap: 7rem;
+.gap-y-20 {
+  row-gap: 5rem;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
@@ -4174,6 +4174,11 @@ html:has(.drawer-toggle:checked) {
   padding: 2rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -4271,6 +4276,10 @@ html:has(.drawer-toggle:checked) {
   padding-bottom: 0.75rem;
 }
 
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -4289,6 +4298,10 @@ html:has(.drawer-toggle:checked) {
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pt-12 {
@@ -4313,10 +4326,6 @@ html:has(.drawer-toggle:checked) {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pt-\[70px\] {
-  padding-top: 70px;
 }
 
 .text-left {
@@ -4462,6 +4471,10 @@ html:has(.drawer-toggle:checked) {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .opacity-40 {
@@ -4745,6 +4758,10 @@ html:has(.drawer-toggle:checked) {
   text-decoration-line: underline;
 }
 
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 .hover\:shadow-card-hover:hover {
   --tw-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
   --tw-shadow-colored: 0 4px 16px var(--tw-shadow-color);
@@ -4819,10 +4836,6 @@ html:has(.drawer-toggle:checked) {
   .sm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .sm\:text-left {
-    text-align: left;
   }
 
   .sm\:text-3xl {

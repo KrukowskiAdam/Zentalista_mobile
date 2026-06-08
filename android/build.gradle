@@ -22,6 +22,11 @@ allprojects {
         google()
         mavenCentral()
     }
+    plugins.withId('org.jetbrains.kotlin.android') {
+        kotlin {
+            jvmToolchain(21)
+        }
+    }
 }
 
 task clean(type: Delete) {

@@ -85,4 +85,9 @@
   <meta name="description" content="<%= description || 'Zentalist is the best way to learn vocabulary!' %>" />
   <script defer src="/scripts/dropdown-handler.js"></script>
   <script defer type="module" src="/scripts/services/languageService.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(function() {});
+    }
+  </script>
 </head>

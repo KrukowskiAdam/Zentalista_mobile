@@ -211,6 +211,7 @@ export const setupUI = (user, isPremium = false, avatarData = null) => {
         uid: user.uid,
         email: user.email,
         displayName: user.displayName || user.email?.split("@")[0] || "",
+        avatarUrl: avatarData?.avatarUrl || null,
       }
     : null;
   // console.log('🔍 [setupUI] Setting window.isPremiumUser to:', window.isPremiumUser);

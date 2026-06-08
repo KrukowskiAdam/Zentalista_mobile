@@ -93,14 +93,13 @@ body {
   width: 100%;
   height: calc(100vh - 1px);
   overflow: hidden;
-  padding-top: 60px;
-  
+  padding-top: calc(60px + env(safe-area-inset-top, 0px));
 }
 
 /* ------------------  END SG ------------------ */
 #stats-page-container
 {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 /* ------------------ MAIN CONTENT ------------------ */
@@ -117,7 +116,6 @@ body {
 }
 
 #cards-grid {
-  padding-top: 100px;
 }
 
 @media (max-width: 768px) {

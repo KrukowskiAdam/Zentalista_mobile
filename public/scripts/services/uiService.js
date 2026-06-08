@@ -221,11 +221,25 @@ class UIService {
  const nextNewCategorySource = nextNewCatObj?.source || null;
  const nextNewCategoryStarted = false;
 
- // In-progress category: started but not completed
- const inProgressCatObj = availableCategories.find((cat) => {
+ // In-progress category: started but not completed — pick closest to completion
+ const inProgressCandidates = availableCategories.filter((cat) => {
  const key = `${cat.source}::${cat.name}`;
  return !completedKeys.has(key) && isStarted(cat.name);
  });
+ let inProgressCatObj = null;
+ if (inProgressCandidates.length > 0) {
+ inProgressCatObj = inProgressCandidates.reduce((best, cat) => {
+ const key = `${cat.source}::${cat.name}`;
+ const total = totalWordsPerCat[key] || 1;
+ const locked = lockedPerCat[key] || 0;
+ const progress = locked / total;
+ const bestKey = `${best.source}::${best.name}`;
+ const bestTotal = totalWordsPerCat[bestKey] || 1;
+ const bestLocked = lockedPerCat[bestKey] || 0;
+ const bestProgress = bestLocked / bestTotal;
+ return progress > bestProgress ? cat : best;
+ });
+ }
  const inProgressCategory = inProgressCatObj?.name || null;
  const inProgressCategorySource = inProgressCatObj?.source || null;
 
@@ -299,10 +313,15 @@ class UIService {
  mainContent.innerHTML = "";
 
  let avatarUrl = null;
+ if (window.currentUser?.avatarUrl) {
+ avatarUrl = window.currentUser.avatarUrl;
+ }
+ if (!avatarUrl) {
  try {
  const cached = localStorage.getItem("mc_menu_avatar");
  if (cached) avatarUrl = JSON.parse(cached).avatarUrl || null;
  } catch (e) {}
+ }
  if (!avatarUrl && window.currentUser?.uid) {
  avatarUrl = `https://api.dicebear.com/7.x/adventurer/svg?seed=${window.currentUser.uid}`;
  }
@@ -506,7 +525,23 @@ class UIService {
 
  document.querySelectorAll(".home-review-btn").forEach((btn) => {
  btn.addEventListener("click", () => {
- navigateToCategory(btn.dataset.source, btn.dataset.category);
+ const source = btn.dataset.source;
+ const category = btn.dataset.category;
+
+ // Reset all words in this category (same as stats page restart)
+ Object.entries(stateService.buttonStates).forEach(([key, state]) => {
+   if (state?.source === source && state?.category === category) {
+     state.locked = false;
+     state.count = 0;
+     state.clicks = [];
+     state.lastClicked = null;
+     state.wasReset = true;
+     state.resetTime = Date.now();
+   }
+ });
+ stateService.saveButtonStates();
+
+ navigateToCategory(source, category);
  });
  });
  }
@@ -535,11 +570,16 @@ class UIService {
  parent: mainContent,
  });
 
+ // Breadcrumb placeholder
+ const bc = createElement("div", { id: "learn-breadcrumb", className: "mt-2 text-xs opacity-50 px-1", parent: cardsContainer });
+ bc.style.margin = "0 16px";
+ this.updateBreadcrumb();
+
  this.renderPremiumBanner();
 
  const cardsGrid = createElement("div", {
  id:"cards-grid",
- className:"grid grid-cols-1 gap-y-28 place-items-center",
+ className:"grid grid-cols-1 gap-y-20 pt-20 pb-32 place-items-center",
  parent: cardsContainer,
  });
 
@@ -620,8 +660,29 @@ class UIService {
  async renderAllCards() {
  const grid = document.getElementById("cards-grid");
  if (grid) {
+ this.updateBreadcrumb();
  await this.renderAllCardsIntoContainer(grid);
  }
+ }
+
+ updateBreadcrumb() {
+ const el = document.getElementById("learn-breadcrumb");
+ if (!el) return;
+ if (!stateService.categoryFilter) { el.textContent = ""; return; }
+ const sectionMap = {
+  free: "Greetings & Introductions",
+  premium1: "Numbers & Time",
+  premium2: "Food & Dining",
+  premium3: "Travel & Tourism",
+  premium4: "Daily Life & Shopping",
+  premium5: "Family & Relationships",
+  premium6: "Health & Body",
+  premium7: "Education & Work",
+  premium8: "Hobbies & Interests",
+ };
+ const word = dataService.allWords.find(w => w.category === stateService.categoryFilter);
+ const section = word ? sectionMap[word.source] : null;
+ el.textContent = section ? `${section}  >  ${stateService.categoryFilter}` : stateService.categoryFilter;
  }
 
  /**

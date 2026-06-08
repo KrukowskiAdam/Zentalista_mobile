@@ -244,52 +244,7 @@
  </div>
 </div>
 
-<!-- Cookie Consent Banner -->
-<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-50 bg-learning-app-design-1 p-4 hidden">
- <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
- <div class="text-sm text-center sm:text-left">
- We use cookies to ensure the website functions properly and to improve your experience.
- <a href="/legals#cookie-policy" class="hover:underline">Learn more</a>
- </div>
- <div class="flex gap-2">
- <button id="cookie-accept"
- class="px-4 py-2 bg-level-expert hover:bg-level-expert-dark text-sm font-medium rounded-md">
- Accept All
- </button>
- <button id="cookie-essential"
- class="px-4 py-2 bg-learning-app-design-4 hover:bg-learning-app-design-2 text-sm font-medium rounded-md">
- Essential Only
- </button>
- </div>
- </div>
-</div>
 
-<script>
- // Cookie consent management
- (function () {
- const banner = document.getElementById('cookie-banner');
- const acceptBtn = document.getElementById('cookie-accept');
- const essentialBtn = document.getElementById('cookie-essential');
-
- // Check if consent already given
- const consent = localStorage.getItem('cookieConsent');
- if (!consent) {
- banner.classList.remove('hidden');
- }
-
- acceptBtn?.addEventListener('click', () => {
- localStorage.setItem('cookieConsent', 'all');
- banner.classList.add('hidden');
- });
-
- essentialBtn?.addEventListener('click', () => {
- localStorage.setItem('cookieConsent', 'essential');
- banner.classList.add('hidden');
- // Disable Google Analytics if essential only
- window['ga-disable-G-XXXXXXX'] = true;
- });
- })();
-</script>
 
 <!-- W sekcji skryptów pliku head.ejs -->
 <script defer src="/scripts/dropdown-handler.js"></script>

@@ -6,9 +6,11 @@ import { createElement, addLockIcon } from "../utils/helpers.js";
 import { stateService } from "../services/stateService.js";
 import { premiumService } from "../services/premiumService.js";
 
+const audioCache = new Map();
+let currentAudio = null;
+
 export class ButtonComponent {
  constructor() {
- // No throttling timers needed anymore
  }
 
  /**
@@ -202,9 +204,27 @@ export class ButtonComponent {
  primaryLangText.textContent = mainText;
  }
 
+ // Preload audio as soon as word is revealed (before user taps speaker)
+ if (word.audio && !audioCache.has(word.audio)) {
+  const preload = new Audio(word.audio);
+  preload.preload = "auto";
+  audioCache.set(word.audio, preload);
+ }
+
  audioButton.style.display = "flex";
- audioButton.onclick = () =>
- new Audio(word.audio).play().catch(console.error);
+ audioButton.onclick = () => {
+  if (!word.audio) return;
+  // Stop any currently playing audio to prevent double-play
+  if (currentAudio && !currentAudio.paused) {
+   currentAudio.pause();
+   currentAudio.currentTime = 0;
+  }
+  const audio = audioCache.get(word.audio) || new Audio(word.audio);
+  if (!audioCache.has(word.audio)) audioCache.set(word.audio, audio);
+  currentAudio = audio;
+  audio.currentTime = 0;
+  audio.play().catch(console.error);
+ };
  } else {
  primaryLangText.textContent = "[Premium] Unlock with premium account";
  audioButton.style.display = "none";

@@ -2,7 +2,7 @@
 <html lang="en" data-theme="dark" class="bg-learning-app-design-2">
 <%- include('partials/head') %>
 
- <body class="m-0 p-0 bg-learning-app-design-2" style="padding-top: calc(80px + constant(safe-area-inset-top)); padding-top: calc(80px + env(safe-area-inset-top, 0px));">
+ <body class="m-0 p-0 bg-learning-app-design-2" style="padding-top: calc(60px + env(safe-area-inset-top, 0px));">
  <!-- Google Tag Manager (noscript) -->
  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
  style="display: none; visibility: hidden"></iframe></noscript>
@@ -117,13 +117,14 @@
  <!-- Custom dropdown selector (replaces native select) -->
  <div id="category-section-select" class="hidden relative w-full">
  <button id="custom-select-trigger" type="button"
- class="w-full flex items-center justify-between px-4 py-3 text-base bg-learning-app-design-1 text-gray-200 rounded-xl shadow-card focus:outline-none focus:ring-2 focus:ring-blue-500">
+ class="w-full flex items-center justify-between px-4 py-3 text-base bg-learning-app-design-1 text-gray-200 rounded-xl shadow-card focus:outline-none focus:ring-2 focus:ring-blue-500"
+ style="touch-action:manipulation; -webkit-tap-highlight-color:transparent; cursor:pointer;">
  <span id="custom-select-label">Choose a section...</span>
  <svg class="w-5 h-5 text-gray-400 transition-transform" id="custom-select-arrow" viewBox="0 0 20 20" fill="currentColor">
  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
  </svg>
  </button>
- <div id="custom-select-options" class="hidden absolute left-0 right-0 top-full z-50 bg-learning-app-design-1 rounded-xl shadow-card overflow-hidden" style="max-height: 70vh; overflow-y: auto;">
+ <div id="custom-select-options" class="hidden absolute left-0 right-0 top-full z-50 bg-learning-app-design-1 rounded-xl shadow-card overflow-hidden" style="max-height: 70vh; overflow-y: auto; touch-action:manipulation;">
  </div>
  </div>
  <div id="stats-container" class="mt-4">
@@ -538,11 +539,14 @@
  + (isLocked
  ? "text-gray-500 cursor-not-allowed"
  : "text-gray-200 hover:bg-learning-app-design-2 active:bg-learning-app-design-3 cursor-pointer");
+ item.style.touchAction = "manipulation";
+ item.style.webkitTapHighlightColor = "transparent";
  item.innerHTML = displayHtml;
  item.dataset.value = section.source;
 
  if (!isLocked) {
- item.addEventListener("click", () => {
+ item.onclick = (e) => {
+ e.stopPropagation();
  selectedValue = section.source;
  label.textContent = displayText;
  optionsContainer.classList.add("hidden");
@@ -553,7 +557,7 @@
 
  const selectedSection = categorySections.find(s => s.source === section.source);
  if (selectedSection) renderSelectedSection(selectedSection);
- });
+ };
  }
 
  optionsContainer.appendChild(item);
@@ -567,20 +571,24 @@
  // Remove last separator
  if (optionsContainer.lastChild) optionsContainer.removeChild(optionsContainer.lastChild);
 
- // Toggle dropdown
- trigger.addEventListener("click", () => {
+ // Toggle dropdown — use onclick to avoid stacking on re-init
+ trigger.onclick = (e) => {
+ e.stopPropagation();
  const isOpen = !optionsContainer.classList.contains("hidden");
  optionsContainer.classList.toggle("hidden");
  arrow.style.transform = isOpen ? "" : "rotate(180deg)";
- });
+ };
 
- // Close on outside click
+ // Close on outside click — only register once
+ if (!wrapper._outsideClickBound) {
+ wrapper._outsideClickBound = true;
  document.addEventListener("click", (e) => {
  if (!wrapper.contains(e.target)) {
  optionsContainer.classList.add("hidden");
  arrow.style.transform = "";
  }
  });
+ }
 
  // Auto-select first available section
  const firstAvailableSection = categorySections.find(

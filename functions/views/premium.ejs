@@ -2,7 +2,7 @@
 <html lang="en" class="bg-learning-app-design-2">
 <%- include('partials/head') %>
 
- <body class="m-0 p-0 bg-learning-app-design-2" style="padding-top: calc(80px + constant(safe-area-inset-top)); padding-top: calc(80px + env(safe-area-inset-top, 0px));">
+ <body class="m-0 p-0 bg-learning-app-design-2" style="padding-top: calc(60px + env(safe-area-inset-top, 0px));">
  <!-- Google Tag Manager (noscript) -->
  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L47BNJP" height="0" width="0"
  style="display:none;visibility:hidden"></iframe></noscript>
@@ -122,22 +122,26 @@
  </div>
 
  <div class="text-center mb-4 px-4 max-w-3xl mx-auto">
- <div class="flex flex-col sm:flex-row gap-3 justify-center">
- <button
- class="inline-flex items-center justify-center rounded-full py-3 px-5 text-sm font-semibold bg-level-expert text-white border-0"
- data-iap-native-paywall
- type="button">
- Open Native Paywall (1-click test)
- </button>
+ <p id="iap-status" class="text-sm" role="status" aria-live="polite"></p>
+ <p id="iap-price-note" class="hidden mt-2 text-xs">Final price and currency are shown by Apple App Store or Google Play at checkout.</p>
 
+ <div class="mt-6">
+ <p class="text-xs opacity-50 mb-2">Already purchased on another device?</p>
  <button id="iap-restore"
- class="inline-flex items-center justify-center rounded-full py-3 px-5 text-sm font-semibold bg-learning-app-design-3 border-0"
+ class="text-sm underline opacity-70 hover:opacity-100 bg-transparent border-0 cursor-pointer"
  type="button">
  Restore purchases
  </button>
+ <p class="text-xs opacity-40 mt-1">Reinstalled the app or switched devices? Tap to recover your Premium access.</p>
  </div>
- <p id="iap-status" class="mt-3 text-sm" role="status" aria-live="polite"></p>
- <p id="iap-price-note" class="hidden mt-2 text-xs">Final price and currency are shown by Apple App Store or Google Play at checkout.</p>
+
+ <!-- Dev only: native paywall trigger (hidden from users) -->
+ <button
+ class="hidden"
+ data-iap-native-paywall
+ type="button">
+ Open Native Paywall
+ </button>
  </div>
 
  <!-- Features List -->

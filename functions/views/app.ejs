@@ -11,8 +11,8 @@
 
  <!-- Mobile sidebar toggle button -->
  <button id="sidebar-toggle"
- class="fixed z-40 btn btn-circle touch-target bg-level-expert hover:bg-level-expert-dark shadow-lg border-0 <%= isAppHome ? 'hidden' : '' %>"
- style="right: max(1rem, constant(safe-area-inset-right)); right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, constant(safe-area-inset-bottom)); bottom: max(1rem, env(safe-area-inset-bottom));">
+ class="fixed z-40 btn btn-circle touch-target shadow-lg border-0 <%= isAppHome ? 'hidden' : '' %>"
+ style="background-color: #ff8c02; color: white; right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, env(safe-area-inset-bottom));">
  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
  </svg>
@@ -109,7 +109,6 @@
  #sidebar {
  position: fixed;
  left: 0;
- top: calc(60px + constant(safe-area-inset-top));
  top: calc(60px + env(safe-area-inset-top, 0px));
  bottom: 0;
  width: 100%;
@@ -128,8 +127,7 @@
  #main-content {
  width: 100%;
  transition: margin-left 0.3s ease;
- padding-top: calc(60px + constant(safe-area-inset-top));
- padding-top: calc(60px + env(safe-area-inset-top, 0px));
+ padding-top: 20px;
  }
 
  .sidebar-hidden #main-content {

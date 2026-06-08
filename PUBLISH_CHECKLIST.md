@@ -74,7 +74,7 @@
 - **Decyzja:** Anulowanie migracji, pozostajemy na Individual enrollment
 - Wysłany mail do Kierana (Apple Developer Support) z prośbą o cancel
 - **Seller name na App Store** będzie: `Adam Krukowski` (nie ZentaWeb) — to normalne dla indie dev
-- ⏳ Czekamy na odpowiedź Apple i odblokowanie konta
+- ✅ Konto odblokowane (maj 2026) — Kieran (Apple Developer Support) przywrócił dostęp po mailowej korespondencji
 
 #### RevenueCat — pełna konfiguracja dashboardu
 - **Products** (3 szt., Zentalist iOS):
@@ -100,6 +100,7 @@
 
 | # | Zadanie | Status | Szczegóły |
 |---|---------|--------|-----------|
+| 0 | **Testy na iPhone XR (realne urządzenie)** | ⬜ | Nowo kupiony iPhone XR — przetestować całą apkę: logowanie, nauka fiszek, nawigacja, safe-area/notch, IAP paywall, logout. Zdeployować build deweloperski przez Xcode (Device → Run) lub TestFlight |
 | 1 | **Upload build do App Store Connect** | ⬜ | Otwórz Xcode → Window → Organizer → "Zentalist 2026-04-12" → Distribute App → App Store Connect → Upload. Xcode sam stworzy certyfikat "Apple Distribution" jeśli brakuje. Alternatywnie: Transporter app z `~/Desktop/ZentalistExport/App.ipa` |
 | 2 | **Produkty IAP w App Store Connect** | ⬜ | App Store Connect → Twoja app → Subscriptions → Create Subscription Group "Zentalist Premium" → Monthly ($9.99, ID: `zentalist_premium_monthly`), Annual ($59.99, ID: `zentalist_premium_annual`). In-App Purchases → Non-Consumable: Lifetime ($99.99, ID: `zentalist_premium_lifetime`) |
 | 3 | **Produkty IAP w RevenueCat** | ⬜ | RevenueCat dashboard → Products → dodaj te 3 produkty. Offerings → Create "default" offering → dodaj 3 packages (Monthly, Annual, Lifetime) |
@@ -108,17 +109,95 @@
 | 6 | **Commit ostatnich fixów** | ⬜ | Logout redirect i menu bug fix — `git add -A && git commit && git push` |
 | 7 | **Submit for Review** | ⬜ | App Store Connect → Submit for Review. Auto-release after approval jest ustawiony |
 
-### 🟡 Google Play (po iOS)
+### Sesja 17 kwietnia 2026 — Android build & QA na Samsung
+
+#### Android Signing & Build Infrastructure
+- Wygenerowano keystore: `zentalist_mobile/android/app/zentalist-release.keystore` (RSA 2048, ważny 10000 dni)
+- Skonfigurowano signing w `app/build.gradle` — `keystoreProperties` z `keystore.properties`, `signingConfigs.release`
+- `keystore.properties` (gitignored): storeFile, storePassword, keyAlias, keyPassword
+- AGP 9.1.0 wymagał JetBrains Runtime 21 — zainstalowano JBR 21 do `/Library/Java/JavaVirtualMachines/jbr-21.jdk`
+- Dodano `jvmToolchain(21)` w `build.gradle` (root) dla Kotlin
+- Release AAB: `app/build/outputs/bundle/release/app-release.aab` (14 MB) — gotowy do uploadu
+
+#### QA na Samsung (device: RFCW600MBWD via ADB)
+- Debug APK zainstalowany i testowany bezpośrednio na urządzeniu
+
+#### UI Fixes — mobile
+1. **Cookie banner na Capacitor** — `menu.ejs` (~linia 270): dodano `Capacitor.isNativePlatform()` check, auto-akceptuje cookies w native app
+2. **Hero padding** — `index.ejs` (linia 17): `pt-20` → `pt-10` (mniej pustej przestrzeni na górze home)
+3. **Cards-grid padding** — `card.css` (linia 120): `padding-top: 100px` → `50px`
+4. **Continue button logic** — `uiService.js` (~linia 225-242): zmieniono z `.find()` (pierwsza kategoria) na `.filter()+.reduce()` (kategoria najbliższa ukończeniu — najwyższy stosunek locked/total)
+
+#### Splash Screen Fix
+- **Problem:** Stare `splash.png` w 10 folderach `drawable-land-*` i `drawable-port-*` nadpisywały nowy splash
+- **Fix:** Usunięto wszystkie stare splash.png z folderów gęstości
+- `styles.xml` — zmieniono z `android:background` (nie działa z AndroidX SplashScreen) na:
+  - `windowSplashScreenBackground` → `#000000`
+  - `windowSplashScreenAnimatedIcon` → `@drawable/splash_logo`
+  - `postSplashScreenTheme` → `@style/AppTheme.NoActionBar`
+- Logo 300x300 osadzone w canvas 480x480 (90px padding) — mieści się w okrągłej masce Android 12+
+
+#### App Name Fix
+- `strings.xml` — zmieniono "Kanji Matcher" na "Zentalist" (app_name + title_activity_main)
+- `package_name` i `custom_url_scheme` zmienione na `com.zentalist.app`
+
+#### Launcher Icons
+- Ręcznie zastąpione przez użytkownika w Android Studio — wszystkie `mipmap-*` foldery z .webp
+- Usunięto stare `drawable/ic_launcher_background.xml` i `drawable-v24/ic_launcher_foreground.xml`
+
+#### Firebase Deploy
+- `firebase deploy --only functions,hosting` — wszystkie zmiany mobile wdrożone na `zentalist-mobile.web.app`
+
+#### Stan na koniec sesji
+- ✅ Debug APK działa poprawnie na Samsung — splash, ikona, nazwa, UI
+- ⬜ **Następny krok:** Rebuild release AAB (`bundleRelease`) z wszystkimi fixami i upload na Google Play Console
+
+---
+
+### Sesja 18–19 maja 2026 — Closed Alpha konfiguracja
+
+#### Co zrobiono
+- Rebuild release AAB (`bundleRelease`) — wszystkie taski UP-TO-DATE, podpisany, 14 MB
+- Google Play Console: Create App → "Zentalist", Free, Education
+- Wypełniono całą sekcję "Dokończ konfigurowanie aplikacji":
+  - Polityka prywatności: `https://zentalist.app/privacy`
+  - Dostęp aplikacji: wszystko dostępne bez specjalnego dostępu
+  - Reklamy: brak
+  - Ocena treści (IARC): wypełniona → PEGI 3 / Everyone
+  - Odbiorcy: 18+, blokada małoletnich włączona
+  - Bezpieczeństwo danych: email, user ID, purchase history, crash logs, diagnostyka, interakcje — wypełnione
+  - Funkcje finansowe: brak
+  - Zdrowie: brak
+  - Ad ID: nie używamy
+  - Kategoria: Edukacja
+  - Dane kontaktowe: krukowski.adam@gmail.com / zentalist.app
+  - Store listing: screenshoty Android wgrane, ikona 512×512, feature graphic 1024×500
+  - Opisy EN: krótki (80 znaków), pełny z akcentem na globalne rankingi i zbieranie punktów
+
+#### Closed Alpha — sesja 18–19.05.2026
+
+- Weszliśmy w Testing → Closed testing → Alpha
+- Kliknięto "Utwórz nową wersję" — wypełniono:
+  - Nazwa wersji: `1.0.0-alpha`
+  - Release notes (en-US): `Initial alpha release. Try out Zentalist — learn vocabulary with flashcards and compete on global leaderboards.`
+- Otwarto sekcję Kraje/regiony — lista widoczna, gotowa do zaznaczenia
+- **Problem:** brak 12 testerów — szukamy (znajomi, Reddit r/androiddev/r/betatesting, własne konta Gmail)
+- AAB jeszcze nie wgrany do tej wersji
+
+#### Następny krok — Closed Testing (14-dniowy zegar!)
+
+### 🟡 Google Play — pozostałe kroki
 
 | # | Zadanie | Status | Szczegóły |
 |---|---------|--------|-----------|
-| 8 | **Google Play Console — Create App** | ⬜ | play.google.com/console → Create app → "Zentalist", Free, Education |
-| 9 | **Store listing (Google Play)** | ⬜ | Opis, screenshoty (min 2), ikona 512×512 (mamy), feature graphic 1024×500 |
-| 10 | **Produkty IAP w Google Play** | ⬜ | Monetize → Subscriptions: Monthly, Annual. In-app products: Lifetime |
-| 11 | **Content Rating** | ⬜ | Wypełnij IARC questionnaire |
-| 12 | **Data Safety form** | ⬜ | Deklaracja zbieranych danych (email, purchases, user ID — analogicznie do PrivacyInfo) |
-| 13 | **Build AAB** | ⬜ | `npx cap sync android && cd android && ./gradlew bundleRelease` → `app-release.aab` |
-| 14 | **Upload & Submit** | ⬜ | Production → Create release → upload AAB → Submit |
+| 10 | **Closed Testing — konfiguracja** | 🔄 | Wersja `1.0.0-alpha` w toku — kraje do zaznaczenia (wszystkie), brak 12 testerów (szukamy: znajomi / Reddit / własne Gmail) |
+| 11 | **Upload AAB do Closed Testing** | 🔄 | Wersja otwarta, wypełnione szczegóły — AAB jeszcze nie wgrany. Plik: `android/app/build/outputs/bundle/release/app-release.aab` |
+| 12 | **12 testerów akceptuje zaproszenie** | ⬜ | Muszą zainstalować apkę — od tego momentu startuje 14-dniowy zegar |
+| 13 | **Produkty IAP w Google Play** | ⬜ | Monetize → Subscriptions: Monthly ($9.99, `zentalist_premium_monthly`), Annual ($59.99, `zentalist_premium_annual`). In-app: Lifetime ($99.99, `zentalist_premium_lifetime`) |
+| 14 | **Produkty IAP w RevenueCat (Android)** | ⬜ | RevenueCat dashboard → dodaj 3 produkty Google Play, podepnij do entitlement i offering |
+| 15 | **Czekaj 14 dni z min. 12 testerami** | ⬜ | Wymagane przez Google przed dostępem do produkcji |
+| 16 | **Poproś o dostęp produkcyjny** | ⬜ | Po 14 dniach → Production → złóż wniosek |
+| 17 | **Upload AAB do Production i Submit** | ⬜ | Production → Create release → upload AAB → Submit |
 
 ### ✅ Zrobione
 
@@ -145,6 +224,16 @@
 | Menu visibility after login fix | ✅ Cache auth state before reload |
 | `npx cap sync` | ✅ |
 | Apple migration cancel request | ✅ Mail wysłany 15.04.2026, czekamy na odblokowanie |
+| Android signing config (keystore + build.gradle) | ✅ Sesja 17.04 |
+| JetBrains Runtime 21 (dla AGP 9.1.0) | ✅ `/Library/Java/JavaVirtualMachines/jbr-21.jdk` |
+| Cookie banner hidden on Capacitor native | ✅ `menu.ejs` — auto-accept |
+| Hero + cards-grid padding reduced | ✅ `index.ejs` pt-10, `card.css` 50px |
+| Continue button — closest to completion | ✅ `uiService.js` — .filter+.reduce |
+| Splash screen fix (AndroidX SplashScreen API) | ✅ Czarne tło + padded logo 480x480 |
+| App name → "Zentalist" | ✅ `strings.xml` |
+| Launcher icons replaced | ✅ Wszystkie mipmap-* (.webp) |
+| Firebase mobile deploy (17.04) | ✅ functions + hosting |
+| Samsung QA — debug APK verified | ✅ Splash, ikona, nazwa, UI OK |
 
 ---
 
@@ -166,3 +255,10 @@
 | Distribution cert | ⬜ Brak — Xcode Organizer stworzy automatycznie przy Distribute App |
 | Mobile repo | `KrukowskiAdam/Zentalista_mobile` |
 | Web repo | `KrukowskiAdam/mellowcards` |
+| JAVA_HOME (AGP 9.1.0) | `/Library/Java/JavaVirtualMachines/jbr-21.jdk/Contents/Home` |
+| Keystore path | `android/app/zentalist-release.keystore` |
+| Keystore alias | `zentalist` |
+| ADB Samsung device | `RFCW600MBWD` |
+| Test device iOS | iPhone XR (nowo zakupiony, fizyczne testy przed submitem) |
+| Release AAB | `android/app/build/outputs/bundle/release/app-release.aab` (14 MB, podpisany, rebuild 17.05.2026) |
+| Google Play Console | play.google.com/console — app utworzona 17.05.2026 |

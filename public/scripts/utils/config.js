@@ -8,14 +8,8 @@ function getJsonUrls(languageOverride) {
  const selectedLanguage = languageOverride ||
  localStorage.getItem("selectedLanguage") ||
  "es";
- // Use current host for local development, production URL otherwise
- const isLocal =
- window.location.hostname === "127.0.0.1" ||
- window.location.hostname === "localhost";
- const baseUrl = isLocal ? "" : "https://costam-3f612.web.app";
-
- // console.log('🌍 [config.js] Selected language:', selectedLanguage);
- // console.log('🌍 [config.js] Is local:', isLocal, 'Base URL:', baseUrl || 'relative');
+ // Always fetch language JSON from web hosting (single source of truth)
+ const baseUrl = "https://costam-3f612.web.app";
 
  const urls = {
  free: `${baseUrl}/languages/${selectedLanguage}/${selectedLanguage}_en_01.json`,

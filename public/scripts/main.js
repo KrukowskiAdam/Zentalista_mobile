@@ -205,9 +205,10 @@ class MainApp {
     });
 
     // Listen for card completion (all 4 words on a card)
-    window.addEventListener("cardCompleted", (event) => {
-      celebrationService.showCardCelebration(event.detail);
-    });
+    // TODO: re-enable when better animation is found
+    // window.addEventListener("cardCompleted", (event) => {
+    //   celebrationService.showCardCelebration(event.detail);
+    // });
 
     // Listen for settings changes to re-render cards with updated progress
     window.addEventListener("settingsChanged", async () => {

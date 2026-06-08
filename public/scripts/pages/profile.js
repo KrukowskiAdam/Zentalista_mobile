@@ -316,6 +316,10 @@ class ProfileManager {
  };
  window.updateMenuAvatar(auth.currentUser, avatarData);
  }
+ // Update global currentUser so home page renders fresh avatar
+ if (window.currentUser) {
+ window.currentUser.avatarUrl = avatarUrl;
+ }
  // Mark cache as fresh profile save so auth won't overwrite with stale Firestore data
  try {
  localStorage.setItem('mc_menu_avatar', JSON.stringify({
