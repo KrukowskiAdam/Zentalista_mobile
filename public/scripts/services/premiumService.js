@@ -121,9 +121,10 @@ class PremiumService {
       const payload = {
         uid,
         status,
+        isPaidPremium: this.trialInfo?.isPaid === true,
         timestamp: Date.now(),
-        trialEndDate: this.trialInfo?.endDate instanceof Date 
-          ? this.trialInfo.endDate.getTime() 
+        trialEndDate: this.trialInfo?.endDate instanceof Date
+          ? this.trialInfo.endDate.getTime()
           : this.trialInfo?.endDate || null,
       };
       window.localStorage.setItem(CACHE_KEY, JSON.stringify(payload));

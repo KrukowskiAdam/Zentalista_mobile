@@ -171,8 +171,19 @@ class ProfileManager {
  this.currentAvatarSeed = user.uid;
  }
 
- // Check premium status and trial
- const isPremium = data.premium || false;
+ // Check premium status - Firestore as primary, localStorage cache as fallback
+ let isPremium = data.premium === true;
+ if (!isPremium) {
+   try {
+     const raw = localStorage.getItem("mc_premium_status_cache");
+     if (raw) {
+       const cached = JSON.parse(raw);
+       if (cached?.uid === user?.uid && cached?.isPaidPremium === true) {
+         isPremium = true;
+       }
+     }
+   } catch (_) {}
+ }
 
  // Fallback: use auth creationTime if trialStartDate is missing
  if (!data.trialStartDate && user.metadata?.creationTime) {

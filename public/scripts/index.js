@@ -201,7 +201,7 @@ const initialize = () => {
 };
 document.addEventListener("DOMContentLoaded", initialize);
 
-export const setupUI = (user, isPremium = false, avatarData = null) => {
+export const setupUI = (user, isPremium = false, avatarData = null, isPaidPremiumDirect = null) => {
   elements = getElements();
 
   // DODAJ TO - eksportuj status premium globalnie
@@ -246,7 +246,12 @@ export const setupUI = (user, isPremium = false, avatarData = null) => {
 
     const isPremiumUser = Boolean(isPremium);
     let isPaidPremium = false;
-    if (user) {
+
+    // Use direct parameter from auth.js if available (most reliable)
+    if (isPaidPremiumDirect !== null) {
+      isPaidPremium = Boolean(isPaidPremiumDirect);
+    } else if (user) {
+      // Fall back to cache
       try {
         const cachedRaw = localStorage.getItem("mc_premium_status_cache");
         if (cachedRaw) {
@@ -260,7 +265,7 @@ export const setupUI = (user, isPremium = false, avatarData = null) => {
       }
     }
 
-    // If current premium flag is false, never show premium card from stale cache
+    // Safety: never show premium card if auth says user is not premium
     if (!isPremiumUser) {
       isPaidPremium = false;
     }

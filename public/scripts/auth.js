@@ -188,7 +188,7 @@ onAuthStateChanged(auth, async (user) => {
  window.dispatchEvent(new CustomEvent("premiumStatusChanged", {
  detail: { isPremium: isPremium }
  }));
-  setupUI(user, isPremium, avatarData);
+  setupUI(user, isPremium, avatarData, userData.premium === true);
  } catch (error) {
  console.error("Error fetching user data:", error);
   // Attempt to fallback to cache
@@ -199,7 +199,7 @@ onAuthStateChanged(auth, async (user) => {
  const cached = JSON.parse(cachedRaw);
  // Verify cache belongs to current user and is valid
  if (cached && cached.uid === user.uid && typeof cached.status ==="boolean") {
- setupUI(user, cached.status, { avatarStyle: 'adventurer', avatarSeed: user.uid });
+ setupUI(user, cached.status, { avatarStyle: 'adventurer', avatarSeed: user.uid }, cached.isPaidPremium === true);
  usedCache = true;
  }
  }
