@@ -11,6 +11,8 @@
 | **Android Studio** | Build, run on device, Logcat |
 | **Xcode** | iOS builds, archives, signing |
 
+---
+
 ## 2) How the App Works
 
 ### 2.1) /learn — Data Flow
@@ -46,7 +48,7 @@ SW obsługuje offline w trybie hybrydowym:
 
 | Zasób | Strategia | Kiedy dostępne offline |
 |-------|-----------|------------------------|
-| JSON (wszystkie 8 języków × 9 plików = 72 pliki) | **Pre-cache przy instalacji SW** + cache-first + background revalidate | Od drugiego uruchomienia apki |
+| JSON (8 języków × 9 plików = 72 pliki) | **Pre-cache przy instalacji SW** + cache-first + background revalidate | Od drugiego uruchomienia apki |
 | MP3 | **Cache on demand** — sieć → zapis do cache → przy kolejnym odtworzeniu serwowane z cache | Po pierwszym odtworzeniu danego słowa |
 | Strony HTML | Network-first z fallbackiem na stronę offline | Zawsze (wbudowany offline HTML) |
 
@@ -66,9 +68,114 @@ Firestore **nie** przechowuje treści fiszek. Używany tylko do:
 
 ---
 
-## 3) Daily Workflow
+## 3) Ważne dane i ścieżki
 
-All commands from the project directory:
+| Co | Wartość |
+|---|---|
+| Bundle ID | `com.zentalist.app` |
+| Team ID | `6UZA69TBHY` |
+| Firebase Project | `costam-3f612` |
+| Mobile hosting | `zentalist-mobile.web.app` |
+| Web hosting (nie ruszać!) | `zentalist.app` |
+| Mobile function | `ssrMobile` |
+| Web function | `ssr` |
+| Mobile repo | `KrukowskiAdam/Zentalista_mobile` |
+| Web repo | `KrukowskiAdam/mellowcards` |
+| IPA path | `~/Desktop/ZentalistExport/App.ipa` |
+| Archive path | `~/Library/Developer/Xcode/Archives/2026-04-12/` |
+| Signing cert (development) | `Apple Development: krukowski.adam@gmail.com (VGQ69UMLQJ)` |
+| Keystore path | `android/app/zentalist-release.keystore` |
+| Keystore alias | `zentalist` |
+| Release AAB | `android/app/build/outputs/bundle/release/app-release.aab` |
+| JAVA_HOME (AGP 9.1.0) | `/Library/Java/JavaVirtualMachines/jbr-21.jdk/Contents/Home` |
+| ADB Samsung device | `RFCW600MBWD` |
+| Test device iOS | iPhone XR |
+| Google Play Console | play.google.com/console |
+| Review account | `review@zentalist.app` / `Review2026!` (premium: true w Firestore) |
+
+---
+
+## 4) IAP / RevenueCat
+
+### Klucze API
+
+| Platform | Klucz |
+|---|---|
+| iOS | `appl_DupvlMtnItoOiGvOuEwNtCDhimu` |
+| Android | `goog_yUZKhlfcSpSoovWugIOOBRdjCWx` |
+
+Oba klucze w `public/scripts/config/iapConfig.js`. Entitlement ID: `ZentaWeb Premium`.
+
+### Produkty
+
+| Plan | Product ID | Cena | iOS | Android |
+|---|---|---|---|---|
+| Monthly | `zentalist_premium_monthly` | $9.99/mies | ⬜ App Store Connect | ✅ Google Play |
+| Annual | `zentalist_premium_annual` | $59.99/rok | ⬜ App Store Connect | ✅ Google Play |
+| Lifetime | `zentalist_premium_lifetime` | $99.99 | ⬜ App Store Connect | ✅ Google Play |
+
+### RevenueCat dashboard — stan
+
+- ✅ Android products zaimportowane, podpięte do entitlement `ZentaWeb Premium` i offering `default`
+- ✅ Service account RevenueCat dodany do Google Play z uprawnieniami
+- ✅ Webhook skonfigurowany → `https://zentalist.app/revenuecatwebhook` (status 200 zweryfikowany)
+- ⬜ iOS products — dodać po wgraniu buildu do App Store Connect (blokada: brak uploadu IPA)
+
+### Webhook → Firestore (premium sync)
+
+Zakup lub anulowanie w mobile automatycznie aktualizuje `users/{uid}.premium` w Firestore:
+
+| Event RevenueCat | Akcja Firestore |
+|---|---|
+| `INITIAL_PURCHASE`, `RENEWAL`, `UNCANCELLATION`, `NON_RENEWING_PURCHASE` | `premium: true` |
+| `CANCELLATION`, `EXPIRATION`, `REFUND` | `premium: false` |
+| `BILLING_ISSUE` | `paymentFailed: true` |
+
+**Ważne:** `app_user_id` w RevenueCat musi być Firebase UID.
+Weryfikacja: `iapService.initialize(user.uid)` jest wywoływane z `window.currentUser?.uid` w `premiumPaywall.js:245` — poprawne. ✅
+
+Secret: `REVENUECAT_WEBHOOK_SECRET` zapisany w Firebase Secrets (wersja 2).
+Cloud Function: `revenuecatWebhook` w `zentalist_web/functions/index.js`.
+
+---
+
+## 5) Publication Status
+
+### Wspólne prerequisity
+
+| Zadanie | Status |
+|---------|--------|
+| **Privacy Policy URL** | ✅ Istnieje |
+| **Ikona app** (1024×1024 iOS, 512×512 Android) | ✅ Gotowe |
+
+### 🔴 iOS — pozostałe kroki
+
+| # | Zadanie | Status |
+|---|---------|--------|
+| 1 | **Testy na iPhone XR** | ⬜ Logowanie, nauka fiszek, safe-area, IAP paywall, logout |
+| 2 | **Upload IPA do App Store Connect** | ⬜ Xcode → Organizer → Distribute App → App Store Connect (Xcode sam stworzy cert "Apple Distribution") lub Transporter z `~/Desktop/ZentalistExport/App.ipa` |
+| 3 | **Produkty IAP w App Store Connect** | ⬜ Subscriptions → "Zentalist Premium" → Monthly ($9.99), Annual ($59.99). In-App Purchases → Lifetime ($99.99) |
+| 4 | **Produkty iOS w RevenueCat** | ⬜ Dodać po kroku 3 — Products → 3 produkty iOS → podpiąć do entitlement i offering |
+| 5 | **Screenshoty** | ✅ 7 szt. 1284×2778 — wgrane w App Store Connect |
+| 6 | **Age Rating** | ⬜ App Store Connect → Age Rating → 4+ (brak przemocy, gambling, adult content) |
+| 7 | **Submit for Review** | ⬜ Auto-release after approval ustawiony |
+
+### 🟡 Android — pozostałe kroki
+
+| # | Zadanie | Status |
+|---|---------|--------|
+| 1 | **Upload AAB do Closed Testing** | 🔄 Wersja `1.0.0-alpha` otwarta, AAB jeszcze nie wgrany |
+| 2 | **12 testerów akceptuje zaproszenie** | ⬜ Od tego momentu startuje 14-dniowy zegar |
+| 3 | **Produkty IAP w Google Play** | ✅ Wszystkie 3 utworzone |
+| 4 | **Czekaj 14 dni z min. 12 testerami** | ⬜ Wymagane przez Google przed produkcją |
+| 5 | **Złóż wniosek o dostęp produkcyjny** | ⬜ Po 14 dniach → Production |
+| 6 | **Upload AAB do Production i Submit** | ⬜ |
+
+---
+
+## 6) Daily Dev Workflow
+
+Wszystkie komendy z katalogu projektu:
 
 ```bash
 cd /Users/adamkrukowski/Desktop/WEB/ZENTALIST/zentalist_mobile
@@ -87,44 +194,50 @@ npm run tailwind
 ```
 
 ### Device testing
-1. Run app once via Android Studio / Xcode.
-2. After UI changes — refresh in-app. Full Run only as final check.
+1. Run app raz via Android Studio / Xcode.
+2. Po zmianach UI — odśwież w apce. Full Run tylko jako ostateczny check.
 
 ### Quick loop
-1. Edit in VS Code → 2. Check terminals running → 3. Refresh on device → 4. Verify.
+1. Edit w VS Code → 2. Terminale działają → 3. Refresh na urządzeniu → 4. Verify.
 
-## 4) When to Rebuild
+---
 
-**Full rebuild required** when changing:
+## 7) When to Rebuild
+
+**Full rebuild wymagany** przy zmianach:
 - Native Android/iOS code
-- Capacitor plugins or config
+- Capacitor plugins lub config
 - App launch mode
 
 ```bash
 npx cap copy android   # or: npx cap copy ios
 ```
-Then in Android Studio: Build > Clean Project > Run.
+Potem w Android Studio: Build > Clean Project > Run.
 
-**No rebuild needed** for: CSS, HTML/EJS, frontend JS (if running in dev mode loading from local server).
-
-## 5) Security Reminders
-
-- Never commit `firebase-service-account.json` (even if gitignored).
-- Keep secrets out of repo — use environment variables.
-- Verify `capacitor.config.json` has no `server.url` before release builds.
-
-## 6) Pre-release Quick Check
-
-1. No `server.url` in `capacitor.config.json`
-2. No secrets tracked by git
-3. Final build + test on physical device (iOS + Android)
-4. Check Logcat/Console for critical errors
+**Rebuild niepotrzebny** dla: CSS, HTML/EJS, frontend JS (w dev mode ładującym z lokalnego serwera).
 
 ---
 
-## 7) Mobile QA Checklist (per page)
+## 8) Security Reminders
 
-### 7.1) Challenge Page
+- Nigdy nie commituj `firebase-service-account.json` (nawet jeśli jest w .gitignore).
+- Sekrety trzymaj poza repo — używaj zmiennych środowiskowych.
+- Przed release buildem sprawdź że `capacitor.config.json` nie ma `server.url`.
+
+---
+
+## 9) Pre-release Quick Check
+
+1. Brak `server.url` w `capacitor.config.json`
+2. Brak sekretów śledzonych przez git
+3. Finalny build + test na fizycznym urządzeniu (iOS + Android)
+4. Sprawdź Logcat/Console pod kątem krytycznych błędów
+
+---
+
+## 10) Mobile QA Checklist (per page)
+
+### 10.1) Challenge Page
 
 | # | Scenario | Expected |
 |---|----------|----------|
@@ -135,7 +248,7 @@ Then in Android Studio: Build > Clean Project > Run.
 | 5 | Start challenge — quiz readability | Header wraps, text readable, buttons easy to tap |
 | 6 | Results screen (pass/fail) | Message readable, buttons stack, no safe-area overlap |
 
-### 7.2) Stats Page
+### 10.2) Stats Page
 
 | # | Scenario | Expected |
 |---|----------|----------|
@@ -146,7 +259,7 @@ Then in Android Studio: Build > Clean Project > Run.
 | 5 | Empty stats | Empty-state card with next-step guidance |
 | 6 | All Languages table on narrow phone | Horizontal scroll works, readable |
 
-### 7.3) Premium Page
+### 10.3) Premium Page
 
 | # | Scenario | Expected |
 |---|----------|----------|
@@ -154,7 +267,7 @@ Then in Android Studio: Build > Clean Project > Run.
 | 2 | Pricing cards | Consistent spacing, tappable CTAs, no badge clipping |
 | 3 | Paywall/restore actions | Status text readable, price note visible |
 
-### 7.4) Profile Page
+### 10.4) Profile Page
 
 | # | Scenario | Expected |
 |---|----------|----------|
@@ -164,70 +277,7 @@ Then in Android Studio: Build > Clean Project > Run.
 
 ---
 
-## 8) Home UX Plan
-
-### Phase 1 — Done
-- `/home` shows Learn Home block (continue learning CTA, daily plan, progress, quick actions)
-- `/learn` stays focused on flashcards
-- Logo/menu routes to `/home`
-
-### Phase 2 — Next
-- Tune info hierarchy based on reference apps (Quizlet, GeoGuessr)
-- Decide final top metrics (streak, minutes, words, stars)
-- Consider bottom quick-nav (without duplicating drawer UX)
-
-### Phase 3 — Motion polish
-- Card reveal stagger on first load
-- Progress bar count-up animation
-- Optional lightweight Lottie in Home hero
-- Respect `prefers-reduced-motion`
-
-### Acceptance
-- First screen answers: "What should I do now?"
-- Main CTA visible without scrolling
-- First learning interaction in ≤ 2 taps
-- No regression in sidebar/category/cards
-
----
-
-## 9) RevenueCat / Google Play — Status konfiguracji
-
-### Produkty Android (Google Play Console)
-
-| Plan | Typ | Cena | Product ID | Status |
-|---|---|---|---|---|
-| Monthly | Subskrypcja | $9.99/mies | `zentalist_premium_monthly` | ✅ Utworzony, base plan `monthly-base` |
-| Annual | Subskrypcja | $59/rok | `zentalist_premium_annual` | ✅ Utworzony, base plan `annual-base` |
-| Lifetime | Produkt jednorazowy (non-consumable) | $99 | `zentalist_premium_lifetime` | ✅ Utworzony, opcja `lifetime-base` |
-
-### Produkty iOS (App Store Connect)
-
-| Plan | Product ID | Status |
-|---|---|---|
-| Monthly | `zentalist_premium_monthly` | ⬜ "Not found" w RevenueCat — trzeba dodać w App Store Connect |
-| Annual | `zentalist_premium_annual` | ⬜ "Not found" w RevenueCat — trzeba dodać w App Store Connect |
-| Lifetime | `zentalist_premium_lifetime` | ⬜ "Not found" w RevenueCat — trzeba dodać w App Store Connect |
-
-### RevenueCat — co zostało skonfigurowane
-
-- ✅ Android API key: `goog_yUZKhlfcSpSoovWugIOOBRdjCWx` (w `iapConfig.js`)
-- ✅ iOS API key: `appl_DupvlMtnItoOiGvOuEwNtCDhimu` (w `iapConfig.js`)
-- ✅ Entitlement ID: `ZentaWeb Premium`
-- ✅ Service account RevenueCat dodany do Google Play Console z uprawnieniami (View financial data + Manage orders)
-- ✅ Android products — zaimportowane do RevenueCat
-- ✅ Entitlements — wszystkie 3 Android produkty podpięte do `ZentaWeb Premium`
-- ✅ Offerings `default` — każdy package (Monthly/Yearly/Lifetime) ma Android produkt
-- ⬜ iOS products — dodać w App Store Connect (blokada: czekamy na fizyczny iPhone do testów)
-
-### Następny krok
-
-1. Poczekać na 12 testerów (closed testing) → przetestować zakupy na Android
-2. iOS — gdy gotowy: App Store Connect → In-App Purchases → dodać 3 produkty z tymi samymi ID
-3. Po naprawieniu iOS "Not found" w RevenueCat — zrobić test zakupu na iPhone
-
----
-
-## 10) Defect Logging Template
+## 11) Defect Logging Template
 
 ```
 - ID:
