@@ -131,6 +131,12 @@ onAuthStateChanged(auth, async (user) => {
  userData = { ...userData, premium: true, source:"reddit" };
  }
 
+ // Migration: ensure premium field exists for old accounts that predate the premium feature
+ if (userData && typeof userData.premium !== 'boolean') {
+   await setDoc(userDocRef, { premium: false }, { merge: true });
+   userData = { ...userData, premium: false };
+ }
+
  // Ensure trialStartDate exists for existing users without it
  if (userData && !userData.trialStartDate && userData.premium !== true) {
  const creationTime = user.metadata?.creationTime
