@@ -92,6 +92,9 @@ Firestore **nie** przechowuje treści fiszek. Używany tylko do:
 | Test device iOS | iPhone XR |
 | Google Play Console | play.google.com/console |
 | Review account | `review@zentalist.app` / `Review2026!` (premium: true w Firestore) |
+| App Store Connect App ID | `6760947012` |
+| App Store Connect API Key (CLI/automatyzacja) | Key ID `4X497V8UMJ`, Issuer ID `ed9114eb-f18b-451e-bb69-186e34a51699`, plik `.p8` w `~/.appstoreconnect/private_keys/AuthKey_4X497V8UMJ.p8` (nie commitować, nie wklejać zawartości) |
+| App Store Connect API Key (RevenueCat) | `AuthKey_8S3P224QMC.p8` — osobny klucz używany przez RevenueCat do subscription status, zostawić w spokoju |
 
 ---
 
@@ -153,7 +156,7 @@ Cloud Function: `revenuecatWebhook` w `zentalist_web/functions/index.js`.
 | # | Zadanie | Status |
 |---|---------|--------|
 | 1 | **Testy na iPhone XR** | ⬜ Logowanie, nauka fiszek, safe-area, IAP paywall, logout |
-| 2 | **Upload IPA do App Store Connect** | ⬜ Xcode → Organizer → Distribute App → App Store Connect (Xcode sam stworzy cert "Apple Distribution") lub Transporter z `~/Desktop/ZentalistExport/App.ipa` |
+| 2 | **Upload IPA do App Store Connect** | ✅ Zrobione 2026-07-05 21:23 przez Xcode Organizer (Distribute App → App Store Connect → Upload). Build 1.0 (1) → status przetwarzania: **VALID** (zweryfikowane przez App Store Connect API). Archive z poprawnym `server.url` (drugi, po naprawie błędu z sekcji 5a). App ID w App Store Connect: `6760947012` |
 | 3 | **Produkty IAP w App Store Connect** | ⬜ Subscriptions → "Zentalist Premium" → Monthly ($9.99), Annual ($59.99). In-App Purchases → Lifetime ($99.99) |
 | 4 | **Produkty iOS w RevenueCat** | ⬜ Dodać po kroku 3 — Products → 3 produkty iOS → podpiąć do entitlement i offering |
 | 5 | **Screenshoty** | ✅ 7 szt. 1284×2778 — wgrane w App Store Connect |
@@ -170,6 +173,72 @@ Cloud Function: `revenuecatWebhook` w `zentalist_web/functions/index.js`.
 | 4 | **Czekaj 14 dni z min. 12 testerami** | ⬜ Wymagane przez Google przed produkcją |
 | 5 | **Złóż wniosek o dostęp produkcyjny** | ⬜ Po 14 dniach → Production |
 | 6 | **Upload AAB do Production i Submit** | ⬜ |
+
+---
+
+## 5a) Log: pierwszy Archive + Export iOS (2026-07-05)
+
+Poniżej pełna ścieżka od "release build ma `server.url`" do gotowego `App.ipa`, ze wszystkimi napotkanymi przeszkodami — przyda się przy kolejnych buildach, jeśli błędy signing/provisioning wrócą.
+
+### ⚠️ WAŻNE: `server.url` w `capacitor.config.json` MUSI zostać
+
+Na początku tej sesji usunęliśmy `server.url` z `capacitor.config.json`, myśląc że to zalecane dla release (błędnie wzięte z punktu 9 "Pre-release Quick Check" poniżej). **To był błąd i zostało cofnięte.**
+
+`public/index.html` bundlowany w appce to tylko cienka "shell" strona (`<title>Zentalist Mobile Shell</title>`) z linkiem "Open app" — **nie zawiera prawdziwej appki**. Prawdziwa appka jest renderowana server-side (funkcja `ssrMobile`, patrz sekcja 2) i serwowana z `zentalist-mobile.web.app` — to jest właściwy, produkcyjny mobile hosting, nie jakiś dev/staging URL. Bez `server.url` appka po starcie pokazuje tylko niebieski ekran-shell zamiast prawdziwej treści, bo self-redirect w `index.html` działa tylko w trybie http/https, nie w `capacitor://`.
+
+**Wniosek:** punkt 9 "Brak `server.url`" w Pre-release Quick Check odnosi się najpewniej do lokalnego dev-owego URL-a używanego przy live-reloadzie (np. `http://192.168.x.x:3000`), a NIE do usunięcia produkcyjnego `zentalist-mobile.web.app`. Jeśli kiedyś ta appka faktycznie ma działać w pełni z bundlowanych plików (offline-first SPA), to wymaga osobnego przepisania `public/` na pełną appkę — to nie jest obecny stan projektu.
+
+### Co zostało zmienione w repo (finalnie)
+
+1. **`ios/App/App.xcodeproj/project.pbxproj`** — usunięty stary wpis `CODE_SIGN_IDENTITY = "iPhone Developer"` z **projektowej** (nie targetowej) konfiguracji Release — pozostałość domyślnego szablonu Xcode/Capacitor, kolidująca z automatycznym signing na poziomie targetu.
+2. `capacitor.config.json` — **bez zmian względem stanu wyjściowego** (server.url z `zentalist-mobile.web.app/home` zostaje).
+3. `npx cap sync ios` uruchamiane po każdej zmianie configu (skopiuje `public/` do `ios/App/App/public` + zaktualizuje `ios/App/App/capacitor.config.json` + `pod install`).
+
+### Wymagane narzędzia (brakowało ich na tym Macu)
+
+- **CocoaPods** nie był zainstalowany → `brew install cocoapods`.
+- **`xcode-select` wskazywał na Command Line Tools**, nie na pełne Xcode → `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` (wymaga hasła, trzeba odpalić ręcznie w terminalu, nie przez agenta).
+
+### Signing/Provisioning — dlaczego `xcodebuild archive` failował (4 rundy błędów)
+
+1. **Keychain miał 0 identity code-signing** (`security find-identity -v -p codesigning` → `0 valid identities found`), mimo że w Xcode dodano konto Apple ID (Settings → Accounts). Automatyczne signing nie miało z czego stworzyć certyfikatu.
+2. Po dodaniu konta: błąd **"Revoke certificate: ... its private key is not installed in your keychain"** — konto miało już zarejestrowany certyfikat Apple Development z innej maszyny, ale bez lokalnego klucza prywatnego. To wymaga **interaktywnego** potwierdzenia w Xcode GUI (celowe zabezpieczenie Apple — `xcodebuild -allowProvisioningUpdates` samo tego nie zrobi).
+3. Po interakcji w Xcode (Signing & Capabilities): błąd **"Your team has no devices from which to generate a provisioning profile"** — nawet dla Release/archive, automatyczne signing Xcode zawsze chce mieć też ważny profil **Development** (dev+distribution trzymane w parze), a to wymaga zarejestrowanego urządzenia.
+4. Podłączenie fizycznego iPhone'a XR **nie zadziałało** — przejściówka Lightning nie miała pinów danych (tylko zasilanie), więc Mac w ogóle nie widział urządzenia (`system_profiler`, `xcrun devicectl`, `xcrun xctrace list devices` — wszystkie puste dla urządzeń fizycznych).
+5. **iPad z natywnym kablem USB-C zadziałał** — `xcrun xctrace list devices` zaczął go pokazywać. Ale samo podłączenie **nie rejestruje** urządzenia na koncie deweloperskim — potrzebny był:
+   - Enable **Developer Mode** na urządzeniu (Ustawienia → Prywatność i bezpieczeństwo → Developer Mode → restart)
+   - Faktyczny **Run (▶️) z Xcode GUI** na to urządzenie (build Debug z terminala przez `xcodebuild ... -destination "id=..." build` NIE rejestrował urządzenia mimo `-allowProvisioningUpdates` — rejestracja zadziałała dopiero przez pełną sesję IDE, nie CLI)
+6. Dopiero po tym `xcodebuild archive` przeszedł. Archive podpisał się `Apple Development` (bo taki miał w danej chwili aktywny profil), ale **`xcodebuild -exportArchive`** z `method: app-store-connect` w `exportOptions.plist` poprawnie **re-podpisał wszystko certyfikatem "Cloud Managed Apple Distribution"** — to jest oczekiwane zachowanie, nie błąd.
+
+### Komendy użyte do finalnego archive + export
+
+```bash
+cd ios/App
+xcodebuild -workspace App.xcworkspace -scheme App -configuration Release \
+  -archivePath ~/Desktop/ZentalistExport/App.xcarchive \
+  -destination "generic/platform=iOS" -allowProvisioningUpdates archive
+
+xcodebuild -exportArchive \
+  -archivePath ~/Desktop/ZentalistExport/App.xcarchive \
+  -exportPath ~/Desktop/ZentalistExport \
+  -exportOptionsPlist exportOptions.plist -allowProvisioningUpdates
+```
+
+`exportOptions.plist` użyty:
+```xml
+<dict>
+  <key>method</key><string>app-store-connect</string>
+  <key>teamID</key><string>6UZA69TBHY</string>
+  <key>signingStyle</key><string>automatic</string>
+  <key>uploadSymbols</key><true/>
+</dict>
+```
+
+**Wynik:** `~/Desktop/ZentalistExport/App.ipa` (12.5 MB), build 1, version 1.0, podpisany Apple Distribution, ważny do 12/2027.
+
+**Uwaga:** archiwum zbudowane przez `xcodebuild archive -archivePath <custom path>` **nie pojawia się automatycznie w Xcode Organizer** (Organizer domyślnie skanuje tylko `~/Library/Developer/Xcode/Archives/`). Żeby je tam zobaczyć: `open ~/Desktop/ZentalistExport/App.xcarchive` (otwarcie pliku archiwum rejestruje go w Organizerze).
+
+**Upload do App Store Connect:** zrobiony przez Xcode Organizer → Distribute App → App Store Connect → Upload (Transporter.app nie był zainstalowany na tym Macu, ale nie jest potrzebny — Organizer używa już zalogowanego w Xcode konta Apple ID). Status: "Uploaded to Apple", 2026-07-05 21:23, build 1.0 (1).
 
 ---
 
