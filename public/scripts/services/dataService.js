@@ -3,6 +3,7 @@
 
 import { CONFIG } from "../utils/config.js";
 import { stateService } from "./stateService.js";
+import { fetchWithTimeout } from "../utils/helpers.js";
 
 const PREMIUM_SOURCES = [
   "premium1",
@@ -57,7 +58,7 @@ class DataService {
         ? CONFIG.jsonUrlsForLanguage(languageCode)
         : CONFIG.jsonUrls;
 
-    const freeResponse = await fetch(
+    const freeResponse = await fetchWithTimeout(
       `${urls.free}?nocache=${Date.now()}`,
       {
         cache: "no-store",
@@ -70,7 +71,7 @@ class DataService {
 
     const premiumResponses = await Promise.all(
       PREMIUM_SOURCES.map((source) =>
-        fetch(`${urls[source]}?nocache=${Date.now()}`, {
+        fetchWithTimeout(`${urls[source]}?nocache=${Date.now()}`, {
           cache: "no-store",
         })
       )
@@ -224,7 +225,7 @@ class DataService {
       const cacheBuster = Date.now();
       const dataArray = await Promise.all(
         sources.map(async (source, index) => {
-          const response = await fetch(
+          const response = await fetchWithTimeout(
             `${CONFIG.jsonUrls[source.key]}?nocache=${cacheBuster}`,
             { cache: "no-store" }
           );

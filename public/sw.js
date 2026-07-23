@@ -2,6 +2,18 @@ const CACHE_VERSION = 'v2';
 const JSON_CACHE = `zentalist-json-${CACHE_VERSION}`;
 const AUDIO_CACHE = `zentalist-audio-${CACHE_VERSION}`;
 
+// Fetch with a hard timeout so a bad/slow connection fails fast instead of
+// hanging indefinitely (plain fetch() has no built-in timeout).
+async function fetchWithTimeout(request, timeoutMs = 8000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(request, { signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 const LANGUAGES = ['es', 'de', 'fr', 'ru', 'zh', 'ja', 'ko', 'it'];
 const JSON_BASE = 'https://costam-3f612.web.app/languages';
 const PRECACHE_URLS = LANGUAGES.flatMap(lang =>
@@ -115,7 +127,7 @@ async function handleJson(request, url) {
 
   if (cached) {
     // Serve stale immediately, revalidate in background
-    fetch(request)
+    fetchWithTimeout(request)
       .then(res => { if (res.ok) cache.put(cacheKey, res); })
       .catch(() => {});
     return cached;
@@ -123,7 +135,7 @@ async function handleJson(request, url) {
 
   // Not cached yet — fetch from network and store
   try {
-    const response = await fetch(request);
+    const response = await fetchWithTimeout(request);
     if (response.ok) cache.put(cacheKey, response.clone());
     return response;
   } catch {
@@ -138,7 +150,7 @@ async function handleJson(request, url) {
 // Network-first: cache MP3 on first play, serve from cache when offline
 async function handleAudio(request) {
   try {
-    const response = await fetch(request);
+    const response = await fetchWithTimeout(request);
     if (response.ok) {
       const cache = await caches.open(AUDIO_CACHE);
       cache.put(request, response.clone());

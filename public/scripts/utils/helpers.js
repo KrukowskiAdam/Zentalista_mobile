@@ -55,6 +55,20 @@ export function debounce(func, wait) {
 }
 
 /**
+ * Fetch with a hard timeout so a bad/slow connection fails fast instead of
+ * hanging indefinitely (plain fetch() has no built-in timeout).
+ */
+export async function fetchWithTimeout(url, options = {}, timeoutMs = 8000) {
+ const controller = new AbortController();
+ const timer = setTimeout(() => controller.abort(), timeoutMs);
+ try {
+ return await fetch(url, { ...options, signal: controller.signal });
+ } finally {
+ clearTimeout(timer);
+ }
+}
+
+/**
  * Format timestamp to relative time
  */
 export function formatRelativeTime(timestamp) {

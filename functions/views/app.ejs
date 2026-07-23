@@ -35,6 +35,14 @@
 
  <div id="main-content" class="">
  <!-- Content goes here -->
+ <!-- Loading skeleton shown until JS finishes fetching/rendering; renderCards() clears
+ this via mainContent.innerHTML = "" as its first step, so no JS wiring is needed. -->
+ <div id="main-content-skeleton" class="container mx-auto p-4 space-y-4" aria-hidden="true">
+ <div class="skeleton-block" style="height:48px; width:60%;"></div>
+ <div class="skeleton-block" style="height:140px;"></div>
+ <div class="skeleton-block" style="height:140px;"></div>
+ <div class="skeleton-block" style="height:140px;"></div>
+ </div>
  </div>
  </div>
 
@@ -132,6 +140,18 @@
 
  .sidebar-hidden #main-content {
  margin-left: 0;
+ }
+
+ .skeleton-block {
+ border-radius: 16px;
+ background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 25%, rgba(255, 255, 255, 0.12) 37%, rgba(255, 255, 255, 0.06) 63%);
+ background-size: 400% 100%;
+ animation: skeleton-pulse 1.4s ease-in-out infinite;
+ }
+
+ @keyframes skeleton-pulse {
+ 0% { background-position: 100% 50%; }
+ 100% { background-position: 0 50%; }
  }
  </style>
  </body>

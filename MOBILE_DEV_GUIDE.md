@@ -1,5 +1,7 @@
 # Zentalist Mobile — Dev Guide
 
+> **Status (2026-07-23):** 🟢 **Android jest na produkcji** — https://play.google.com/store/apps/details?id=com.zentalist.app. 🔴 **iOS jeszcze nie wysłany** — patrz sekcja 5, "iOS — pozostałe kroki".
+
 ---
 
 ## 1) Tools
@@ -111,18 +113,36 @@ Oba klucze w `public/scripts/config/iapConfig.js`. Entitlement ID: `ZentaWeb Pre
 
 ### Produkty
 
-| Plan | Product ID | Cena | iOS | Android |
+| Plan | Product ID | Cena docelowa (zgodna z web/Stripe) | iOS | Android |
 |---|---|---|---|---|
-| Monthly | `zentalist_premium_monthly` | $9.99/mies | ⬜ App Store Connect | ✅ Google Play |
-| Annual | `zentalist_premium_annual` | $59.99/rok | ⬜ App Store Connect | ✅ Google Play |
-| Lifetime | `zentalist_premium_lifetime` | $99.99 | ⬜ App Store Connect | ✅ Google Play |
+| Monthly | `zentalist_premium_monthly` | $9.99/mies | ✅ App Store Connect, $9.99 | ✅ Google Play |
+| Annual | `zentalist_premium_annual` | $59/rok | ✅ App Store Connect, **$59.99** (patrz uwaga) | ⚠️ Google Play skonfigurowany na $59.99 — do poprawy na $59 |
+| Lifetime | `zentalist_premium_lifetime` | $99 | ✅ App Store Connect, **$99.99** (patrz uwaga) | ⚠️ Google Play skonfigurowany na $99.99 — do poprawy na $99 |
+
+**Do zrobienia:** cena Annual/Lifetime w Google Play Console nie zgadza się z ceną pokazywaną na web (Stripe: $59/$99). Poprawić ręcznie w Google Play Console → Monetize → Products (zmiana ceny istniejącego produktu nie wymaga nowego Product ID).
+
+**⚠️ App Store Connect nie ma price tieru $59,00 ani $99,00 (sprawdzone 2026-07-23):** lista cenowa USD w App Store Connect składa się wyłącznie z wartości kończących się na `.99` (rzadziej `.90`/`.95` przy niskich kwotach) — przewinięto całą listę w okolicach $59 i $99, nie istnieje płaski `.00`. W przeciwieństwie do Google Play (gdzie dało się ręcznie wpisać $59,00), na iOS **nie da się dopasować dokładnie do ceny ze Stripe**. Zaakceptowana decyzja: **Annual = $59.99, Lifetime = $99.99 na iOS** — świadoma, nieunikniona niespójność platformowa.
 
 ### RevenueCat dashboard — stan
 
 - ✅ Android products zaimportowane, podpięte do entitlement `ZentaWeb Premium` i offering `default`
 - ✅ Service account RevenueCat dodany do Google Play z uprawnieniami
 - ✅ Webhook skonfigurowany → `https://zentalist.app/revenuecatwebhook` (status 200 zweryfikowany)
-- ⬜ iOS products — dodać po wgraniu buildu do App Store Connect (blokada: brak uploadu IPA)
+- ✅ **Google Real-time Developer Notifications (RTDN) — połączone 2026-07-23.** Topic Pub/Sub `projects/costam-3f612/topics/Play-Store-Notifications` podpięty w RevenueCat (Zentalist Android → Google developer notifications → "Connected to Google"). `Track new purchases from server-to-server notifications` włączone, App User ID detection: anonymous (recommended). **Nie wymagało to statusu produkcyjnego w Play Store** — to niezależna konfiguracja, można było zrobić wcześniej.
+  - ✅ **Zweryfikowane 2026-07-23 realnym testowym zakupem** (nowe konto Google, subskrypcja monthly, 44 zł). Efekt w Firestore (`users/{uid}`): `premium: true`, `premiumSource: "revenuecat"`, `premiumUpdatedAt` ze świeżym timestampem — czyli RTDN → webhook → Firestore działa end-to-end. (Przycisk "Send test notification" w Play Console nadal nie istnieje w tym UI — patrz niżej — ale nie jest już potrzebny, bo mamy potwierdzenie realnym zakupem.)
+- ⬜ iOS products — dodać po wgraniu buildu do App Store Connect (blokada: brak uploadu IPA — **uwaga, ta blokada jest już nieaktualna, patrz sekcja 5 pkt 2, IPA zostało wgrane 2026-07-05**)
+
+**Archiwalna notatka (przycisk "Send test notification" zniknął z Play Console):** opisany w dokumentacji RevenueCat przycisk (Google Play Console → Monetize → Monetization setup → Real-time developer notifications) **nie istnieje już w tym Play Console** — sprawdzone 2026-07-23, brak tej sekcji w całej konsoli (Zarabiaj w Google Play, Ustawienia zaawansowane, Ustawienia konta, `/api-access`). Google widocznie usunął/przeniósł tę funkcję. Jeśli RTDN kiedyś przestanie działać i trzeba będzie to zdiagnozować: nadać `google-play-developer-notifications@system.gserviceaccount.com` rolę **Pub/Sub Publisher** na topicu `Play-Store-Notifications` w GCP (projekt `costam-3f612` → Pub/Sub → Permissions → Add Principal).
+
+### 🔴 Do przetestowania: auto-refresh strony Premium po zakupie (fix 2026-07-23)
+
+Podczas testowego zakupu (opisanego wyżej) wyszło na jaw, że strona `/premium` **nie odświeżała się automatycznie** po udanej płatności — dalej pokazywała karty cenowe/przyciski zakupu zamiast karty "You're Premium!", mimo że transakcja i zapis do Firestore przeszły poprawnie. Trzeba było przeładować stronę / przejść gdzie indziej i wrócić.
+
+**Przyczyna:** `premiumPaywall.js` po sukcesie zakupu ustawiał tylko tekst statusu ("Premium unlocked successfully.") i nic więcej — nie przełączał widoczności `#price-cards` / `#features-list` / `#user-card` (to normalnie robi `index.js` → `setupUI()`, ale tylko przy pełnym ładowaniu strony).
+
+**Fix:** dodano `showPremiumUnlockedUI()` w `public/scripts/pages/premiumPaywall.js`, wywoływaną natychmiast po każdym z 4 miejsc sukcesu (natywny paywall, zakup monthly/annual/lifetime, restore purchases) — chowa karty cenowe, pokazuje kartę "You're Premium!" bez przeładowania.
+
+- ⬜ **Do przetestowania na urządzeniu:** kliknąć "Buy monthly/annual/lifetime in app" (lub Restore) i sprawdzić, czy karta "You're Premium!" pojawia się od razu po zamknięciu okna płatności Google Play, bez ręcznego odświeżania/nawigacji.
 
 ### Webhook → Firestore (premium sync)
 
@@ -157,7 +177,8 @@ Cloud Function: `revenuecatWebhook` w `zentalist_web/functions/index.js`.
 |---|---------|--------|
 | 1 | **Testy na iPhone XR** | ⬜ Logowanie, nauka fiszek, safe-area, IAP paywall, logout |
 | 2 | **Upload IPA do App Store Connect** | ✅ Zrobione 2026-07-05 21:23 przez Xcode Organizer (Distribute App → App Store Connect → Upload). Build 1.0 (1) → status przetwarzania: **VALID** (zweryfikowane przez App Store Connect API). Archive z poprawnym `server.url` (drugi, po naprawie błędu z sekcji 5a). App ID w App Store Connect: `6760947012` |
-| 3 | **Produkty IAP w App Store Connect** | ⬜ Subscriptions → "Zentalist Premium" → Monthly ($9.99), Annual ($59.99). In-App Purchases → Lifetime ($99.99) |
+| 2b | **Agreements, Tax and Banking** | ✅ **Odblokowane 2026-07-23.** Paid Apps Agreement + Free Apps Agreement: Active. Bank account (mBank SA, PLN/USD): Active. Oba formularze podatkowe (**U.S. Form W-8BEN** + **U.S. Certificate of Foreign Status of Beneficial Owner**): Active, złożone 2026-07-23. Bez tego nie dało się założyć żadnych płatnych produktów — patrz log w sekcji 5c. |
+| 3 | **Produkty IAP w App Store Connect** | ✅ **Założone 2026-07-23.** Subscription group "Zentalist Premium" → **Monthly** (`zentalist_premium_monthly`, $9.99/mies) + **Annual** (`zentalist_premium_annual`, **$59,99** — nie $59, patrz uwaga niżej). Osobno **In-App Purchase Non-Consumable** → **Lifetime** (`zentalist_premium_lifetime`, $99,99 — nie $99.99→$99.99 zaakceptowane, patrz uwaga). Wszystkie: Availability all countries, lokalizacja EN-US dodana, ceny zapisane. Status: "Prepare for Submission" (wymagają dodania do wersji appki + zdjęcia w Review Information przed faktycznym Submit for Review). |
 | 4 | **Produkty iOS w RevenueCat** | ⬜ Dodać po kroku 3 — Products → 3 produkty iOS → podpiąć do entitlement i offering |
 | 5 | **Screenshoty** | ✅ 7 szt. 1284×2778 — wgrane w App Store Connect |
 | 6 | **Age Rating** | ⬜ App Store Connect → Age Rating → 4+ (brak przemocy, gambling, adult content) |
@@ -165,14 +186,68 @@ Cloud Function: `revenuecatWebhook` w `zentalist_web/functions/index.js`.
 
 ### 🟡 Android — pozostałe kroki
 
+**2026-07-07: konto Play Console przełączone z osobistego na organizacyjne** (firma + numer D-U-N-S). Wymóg "12 testerów przez 14 dni ciągłości" dotyczy tylko **osobistych** kont deweloperskich założonych po 13.11.2023 ([źródło](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en)) — konta organizacyjne są z niego zwolnione, więc kroki 2 i 4 poniżej najpewniej nie obowiązują i można iść od razu do wniosku o dostęp produkcyjny.
+
 | # | Zadanie | Status |
 |---|---------|--------|
-| 1 | **Upload AAB do Closed Testing** | 🔄 Wersja `1.0.0-alpha` otwarta, AAB jeszcze nie wgrany |
-| 2 | **12 testerów akceptuje zaproszenie** | ⬜ Od tego momentu startuje 14-dniowy zegar |
-| 3 | **Produkty IAP w Google Play** | ✅ Wszystkie 3 utworzone |
-| 4 | **Czekaj 14 dni z min. 12 testerami** | ⬜ Wymagane przez Google przed produkcją |
-| 5 | **Złóż wniosek o dostęp produkcyjny** | ⬜ Po 14 dniach → Production |
-| 6 | **Upload AAB do Production i Submit** | ⬜ |
+| 1 | **Upload AAB do Closed Testing** | ✅ Wgrane 2026-07-07, `versionCode 2` |
+| 2 | ~~12 testerów akceptuje zaproszenie~~ | ⬜ Nie dotyczy — konto organizacyjne (potwierdzone w praktyce, patrz krok 6) |
+| 3 | **Produkty IAP w Google Play** | ✅ Wszystkie 3 utworzone. ⬜ **TODO: poprawić cenę** Annual $59.99→$59 i Lifetime $99.99→$99 w Google Play Console → Monetize → Products, żeby zgadzało się z web/Stripe (patrz sekcja 4) |
+| 4 | ~~Czekaj 14 dni z min. 12 testerami~~ | ⬜ Nie dotyczy — konto organizacyjne |
+| 5 | **Złóż wniosek o dostęp produkcyjny** | ✅ Nie wymagany — konto organizacyjne poszło od razu do produkcji bez blokady |
+| 6 | **Upload AAB do Production i Submit** | ✅ Wgrane 2026-07-22, `versionCode 3` / `targetSdk 36`. Patrz log w sekcji 5b |
+| 7 | **Review Google — app live** | ✅ **Potwierdzone 2026-07-23** — aplikacja przeszła recenzję i jest publicznie dostępna: https://play.google.com/store/apps/details?id=com.zentalist.app |
+
+**🔴 Deadline Google Play — targetSdk:** od 31 sie 2026 aplikacje kierowane na API < 36 nie będą mogły być aktualizowane. **Rozwiązane 2026-07-22** — patrz 5b.
+
+**🟢 Android jest na produkcji od 2026-07-23.** iOS pozostaje jedyną niedokończoną platformą (patrz sekcja iOS wyżej).
+
+---
+
+## 5b) Log: Android 16 (API 36) targetSdk upgrade (2026-07-22)
+
+### Powód
+
+Google Play Console zgłosił krytyczne ostrzeżenie: aplikacja celowała w API 35 (Android 15), a od 31 sie 2026 wymagane jest API w przedziale 1 roku od najnowszego Androida — czyli minimum API 36 (Android 16).
+
+### Co zostało zmienione w repo
+
+1. **`android/variables.gradle`** — `compileSdkVersion` i `targetSdkVersion`: `35` → `36`.
+2. **`android/app/build.gradle`** — `versionCode`: `2` → `3` (wymagane przez Play Console dla nowego uploadu; poprzedni `versionCode 2` był już wykorzystany w Closed Testing).
+
+### Build lokalny
+
+Brak `JAVA_HOME` w środowisku domyślnym — użyty JBR dołączony do Android Studio:
+
+```bash
+export ANDROID_HOME=~/Library/Android/sdk
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+cd android
+./gradlew assembleDebug   # weryfikacja kompilacji, BUILD SUCCESSFUL
+./gradlew bundleRelease   # podpisany release AAB
+```
+
+Wynik: `android/app/build/outputs/bundle/release/app-release.aab` (13,7 MB), podpisany kluczem `zentalist-release.keystore`.
+
+**Uwaga:** wcześniejsza tabela w sekcji 3 podaje inny `JAVA_HOME` (`/Library/Java/JavaVirtualMachines/jbr-21.jdk/Contents/Home`) — na tym Macu ta ścieżka nie istniała, zadziałał dopiero JBR z Android Studio. Jeśli któraś ścieżka przestanie działać, sprawdzić obie.
+
+### ⚠️ Ryzyko do przetestowania: edge-to-edge
+
+`MainActivity.java` zawiera `WindowCompat.setDecorFitsSystemWindows(getWindow(), true)` — świadomy opt-out z trybu edge-to-edge. **Android 16 usuwa możliwość tego opt-outu** dla aplikacji z `targetSdk 36` — system wymusi edge-to-edge niezależnie od tego wywołania. Jeśli zdalna appka webowa (`zentalist-mobile.web.app`, patrz sekcja 5a) nie obsługuje w pełni `env(safe-area-inset-*)` w CSS, treść może wyjechać pod pasek statusu/nawigacji na urządzeniu z Android 16. **Nie zweryfikowane fizycznie — do sprawdzenia przy najbliższym teście na urządzeniu** (dodać do checklisty w sekcji 10).
+
+### Upload do Play Console
+
+1. Pierwsza próba uploadu AAB do wersji produkcyjnej: w wersji roboczej zostały **dwa** pakiety (stary `versionCode 2`/SDK 35 + nowy `versionCode 3`/SDK 36) → błąd "Ten plik APK nie zostanie wysłany do żadnego użytkownika...". **Fix:** usunięcie starego pakietu (`versionCode 2`) z wersji roboczej, zostawienie tylko `versionCode 3`.
+2. **Produkcja:** `versionCode 3` wysłany bezpośrednio na produkcję (bez Closed/Open Testing) — zgodnie z ustaleniem w sekcji 5 (linia "Wspólne prerequisity"/wiersz 2 i 4), konto organizacyjne jest zwolnione z wymogu 12 testerów/14 dni.
+3. Próba dodatkowego uploadu tego samego `versionCode 3` do **Open Testing** → błąd "Nie możesz wdrożyć tej wersji... nie pozwala uaktualnić" + "Ta wersja nie dodaje ani nie usuwa żadnych pakietów". Powód: `versionCode 3` już opublikowany w Production, więc Play nie widzi sensu w dołączeniu go też do Open Testing (brak upgrade path). **Fix:** odrzucona wersja robocza Open Testing — niepotrzebna, skoro produkcja już ma tę wersję.
+4. Przy okazji porządków ścieżka **Test zamknięty - Alpha** została ustawiona na "Wstrzymaj ścieżkę" — zmiana wysłana do sprawdzenia przez Google (ekran "Przegląd publikowanych zmian"), stan: oczekująca na review, zwykle kilka minut–godzin.
+
+### Stan na koniec sesji (2026-07-22)
+
+- ✅ Produkcja: `versionCode 3`, `targetSdk 36` — wgrane i wysłane
+- ✅ Weryfikacja statusu review produkcyjnego — **potwierdzone 2026-07-23**, appka przeszła recenzję Google i jest live na Play Store: https://play.google.com/store/apps/details?id=com.zentalist.app
+- ⬜ Test na fizycznym urządzeniu z Android 16 — priorytet: edge-to-edge / safe-area (patrz wyżej) — **nadal nie zweryfikowane, mimo że appka jest już live**
+- ⬜ Ścieżka Test zamknięty - Alpha wstrzymana — potwierdzić, że zmiana przeszła review
 
 ---
 
@@ -239,6 +314,48 @@ xcodebuild -exportArchive \
 **Uwaga:** archiwum zbudowane przez `xcodebuild archive -archivePath <custom path>` **nie pojawia się automatycznie w Xcode Organizer** (Organizer domyślnie skanuje tylko `~/Library/Developer/Xcode/Archives/`). Żeby je tam zobaczyć: `open ~/Desktop/ZentalistExport/App.xcarchive` (otwarcie pliku archiwum rejestruje go w Organizerze).
 
 **Upload do App Store Connect:** zrobiony przez Xcode Organizer → Distribute App → App Store Connect → Upload (Transporter.app nie był zainstalowany na tym Macu, ale nie jest potrzebny — Organizer używa już zalogowanego w Xcode konta Apple ID). Status: "Uploaded to Apple", 2026-07-05 21:23, build 1.0 (1).
+
+---
+
+## 5c) Log: Agreements, Tax and Banking (2026-07-23)
+
+### Blocker odkryty
+
+Przed założeniem jakichkolwiek płatnych produktów IAP w App Store Connect trzeba mieć **Paid Apps Agreement** ze statusem Active (Business → Agreements). U nas był **"New"** (niepodpisany) — bez tego App Store Connect nie pozwala tworzyć subskrypcji ani in-app purchases.
+
+### Kolejność działań
+
+1. **Podpisanie Paid Apps Agreement** — Business → Agreements → "View and Agree to Terms" (Schedule 2 do Apple Developer Program License Agreement — Apple staje się agentem/komisantem sprzedaży).
+2. Po podpisaniu odblokowały się dwa **osobne** formularze podatkowe (Apple traktuje je jako różne dokumenty, mimo że wyglądają podobnie — łatwo pomyśleć że jeden wystarczy):
+   - **U.S. Certificate of Foreign Status of Beneficial Owner** — krótszy formularz, wymaga uzupełnienia pola **Title** (wpisane: "Owner").
+   - **U.S. Form W-8BEN** — pełny formularz IRS.
+3. **Konto bankowe** (mBank SA, PLN, royalty currency USD) dodane osobno w sekcji Bank Accounts.
+
+### ⚠️ Pułapka w W-8BEN — Line 10 ("Special rates and conditions")
+
+Formularz w App Store Connect ma pole 10 z gotowym radio-buttonem **"Income from the sale of applications"** i polami na Article/paragraph + % rate — wygląda jak coś, co trzeba wypełnić, żeby dostać obniżoną stawkę traktatową. **To jest błędne założenie.**
+
+Oficjalny dokument Apple "Tips for Completing Form W-8BEN" (link na stronie formularza, PDF) mówi wprost:
+> *"Complete this item only if you are eligible to claim any applicable treaty benefits that require you to meet conditions not covered by the representation on line 9. **It is expected that Line 10 would not normally be applicable.**"*
+
+**Poprawne wypełnienie (dla zwykłego JDG bez PE w USA):**
+- Linia 5 (U.S. TIN) — puste
+- **Linia 6.a (Foreign TIN) = polski NIP** — to jest to pole, które faktycznie odblokowuje obniżoną stawkę traktatową (cytat z tips sheet: *"A U.S. TIN or Foreign TIN is required in order to receive any applicable benefit of the reduced tax treaty rate for your country."*)
+- **Checkbox 9** (rezydencja podatkowa w Polsce) — zaznaczyć
+- **Linia 10 — zostawić całkowicie puste** (żaden Article, żadna stawka, żaden radio button)
+
+### Adres "Permanent Residence" bez numeru mieszkania
+
+Formularze pobierają adres z **Apple Developer Program → Membership details** (developer.apple.com/account), nie z samego formularza podatkowego — tam nie da się tego edytować bezpośrednio. Nasz adres pokazuje "Sliczna 32c" bez "/9". **Świadomie zostawione bez zmian** — zmiana adresu członkostwa wymaga formalnego review/weryfikacji przez Apple (ostrzeżenie: *"any changes to this information will need to be reviewed and verified"*) i zablokowałaby/opóźniła bieżący proces. Drobna nieścisłość (brak numeru mieszkania), nie błąd w kraju/mieście/kodzie pocztowym — nie krytyczne.
+
+### Stan końcowy (2026-07-23)
+
+- ✅ Paid Apps Agreement: Active
+- ✅ Free Apps Agreement: Active
+- ✅ Bank Account (mBank SA): Active
+- ✅ U.S. Form W-8BEN: Active (złożony 23 lip 2026)
+- ✅ U.S. Certificate of Foreign Status of Beneficial Owner: Active (złożony 23 lip 2026)
+- 🟢 **Odblokowane zakładanie produktów IAP** — patrz sekcja 5, punkt 3
 
 ---
 

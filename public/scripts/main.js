@@ -60,6 +60,16 @@ class MainApp {
         );
       }
 
+      // Initialize services
+      stateService.init();
+
+      // Flashcard JSON doesn't depend on auth/premium status (premium only
+      // filters already-fetched data), so kick it off now and let it run
+      // alongside the auth/premium resolution below instead of after it —
+      // this is what was making /learn sit on a blank page for several
+      // seconds on first load (auth + JSON fetch were fully serialized).
+      const cardsPromise = dataService.fetchAllCards();
+
       // Wait for auth state to be determined
       await this.waitForAuthState();
 
@@ -77,11 +87,8 @@ class MainApp {
         window.isPremiumUser = premiumService.isPremiumUser;
       }
 
-      // Initialize services
-      stateService.init();
-
       // Load data
-      const dataLoaded = await dataService.fetchAllCards();
+      const dataLoaded = await cardsPromise;
 
       if (!dataLoaded) {
         console.error("Failed to load card data!");

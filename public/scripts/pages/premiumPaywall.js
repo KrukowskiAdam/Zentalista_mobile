@@ -2,6 +2,9 @@ import { iapService } from"../services/iapService.js";
 
 const statusNode = () => document.getElementById("iap-status");
 const infoNoteNode = () => document.getElementById("iap-price-note");
+const priceCardsNode = () => document.getElementById("price-cards");
+const featuresListNode = () => document.getElementById("features-list");
+const userCardNode = () => document.getElementById("user-card");
 
 const STATUS_CLASS_BY_TONE = {
  info:" bg-learning-app-design-1",
@@ -18,6 +21,13 @@ function setStatus(message, tone ="info") {
  el.setAttribute("role", tone ==="error" ?"alert" :"status");
  el.setAttribute("aria-live","polite");
  el.textContent = message;
+}
+
+function showPremiumUnlockedUI() {
+ priceCardsNode()?.classList.add("hidden");
+ featuresListNode()?.classList.add("hidden");
+ userCardNode()?.classList.remove("hidden");
+ window.isPremiumUser = true;
 }
 
 function setButtonBusy(button, busy, busyLabel) {
@@ -96,6 +106,7 @@ function bindNativePaywallHandlers() {
 
  if (paywallResult.ok && paywallResult.hasPremiumEntitlement) {
  setStatus("Premium unlocked successfully.","success");
+ showPremiumUnlockedUI();
  return;
  }
 
@@ -138,6 +149,7 @@ function bindPurchaseHandlers() {
 
  if (paywallResult.ok && paywallResult.hasPremiumEntitlement) {
  setStatus("Premium unlocked successfully.","success");
+ showPremiumUnlockedUI();
  return;
  }
 
@@ -163,6 +175,7 @@ function bindPurchaseHandlers() {
 
  if (result.ok && result.hasPremiumEntitlement) {
  setStatus("Premium unlocked successfully.","success");
+ showPremiumUnlockedUI();
  return;
  }
 
@@ -191,6 +204,7 @@ function bindPurchaseHandlers() {
 
  if (result.ok && result.hasPremiumEntitlement) {
  setStatus("Purchases restored. Premium is active.","success");
+ showPremiumUnlockedUI();
  return;
  }
 
