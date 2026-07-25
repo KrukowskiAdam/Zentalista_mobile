@@ -1,6 +1,6 @@
 # Zentalist Mobile — Dev Guide
 
-> **Status (2026-07-23):** 🟢 **Android jest na produkcji** — https://play.google.com/store/apps/details?id=com.zentalist.app. 🔴 **iOS jeszcze nie wysłany** — patrz sekcja 5, "iOS — pozostałe kroki".
+> **Status (2026-07-25):** 🟢 **Android jest na produkcji** — https://play.google.com/store/apps/details?id=com.zentalist.app. 🟡 **iOS wysłany do review** — Submitted 2026-07-25 20:19, "Waiting for Review" (App Version 1.0 + IAP Lifetime Premium), do 48h na decyzję Apple. Patrz sekcja 5, "iOS — pozostałe kroki" i log 5e.
 
 ---
 
@@ -179,10 +179,10 @@ Cloud Function: `revenuecatWebhook` w `zentalist_web/functions/index.js`.
 | 2 | **Upload IPA do App Store Connect** | ✅ Zrobione 2026-07-05 21:23 przez Xcode Organizer (Distribute App → App Store Connect → Upload). Build 1.0 (1) → status przetwarzania: **VALID** (zweryfikowane przez App Store Connect API). Archive z poprawnym `server.url` (drugi, po naprawie błędu z sekcji 5a). App ID w App Store Connect: `6760947012` |
 | 2b | **Agreements, Tax and Banking** | ✅ **Odblokowane 2026-07-23.** Paid Apps Agreement + Free Apps Agreement: Active. Bank account (mBank SA, PLN/USD): Active. Oba formularze podatkowe (**U.S. Form W-8BEN** + **U.S. Certificate of Foreign Status of Beneficial Owner**): Active, złożone 2026-07-23. Bez tego nie dało się założyć żadnych płatnych produktów — patrz log w sekcji 5c. |
 | 3 | **Produkty IAP w App Store Connect** | ✅ **Założone 2026-07-23.** Subscription group "Zentalist Premium" → **Monthly** (`zentalist_premium_monthly`, $9.99/mies) + **Annual** (`zentalist_premium_annual`, **$59,99** — nie $59, patrz uwaga niżej). Osobno **In-App Purchase Non-Consumable** → **Lifetime** (`zentalist_premium_lifetime`, $99,99 — nie $99.99→$99.99 zaakceptowane, patrz uwaga). Wszystkie: Availability all countries, lokalizacja EN-US dodana, ceny zapisane. Status: "Prepare for Submission" (wymagają dodania do wersji appki + zdjęcia w Review Information przed faktycznym Submit for Review). |
-| 4 | **Produkty iOS w RevenueCat** | ⬜ Dodać po kroku 3 — Products → 3 produkty iOS → podpiąć do entitlement i offering |
+| 4 | **Produkty iOS w RevenueCat** | ✅ **Zrobione (zweryfikowane 2026-07-24).** 3 produkty iOS (`zentalist_premium_monthly/_annual/_lifetime`) w RevenueCat → App `Zentalist iOS`, każdy podpięty do entitlement `ZentaWeb Premium` i do offeringu `default` (każdy pakiet Monthly/Yearly/Lifetime zawiera teraz oba store'y). App Store Connect API key + In-app purchase key: "Valid credentials". Status produktów nadal pokazuje **"Missing Metadata"** w RevenueCat — to stan Apple (`MISSING_METADATA`), bo produkty są w ASC dopiero "Prepare for Submission"; zniknie automatycznie po kroku 7 (Submit for Review), nic do zrobienia po stronie RevenueCat. |
 | 5 | **Screenshoty** | ✅ 7 szt. 1284×2778 — wgrane w App Store Connect |
-| 6 | **Age Rating** | ⬜ App Store Connect → Age Rating → 4+ (brak przemocy, gambling, adult content) |
-| 7 | **Submit for Review** | ⬜ Auto-release after approval ustawiony |
+| 6 | **Age Rating** | ✅ **Zrobione 2026-07-24.** App Store Connect → Age Ratings, kwestionariusz wypełniony. Wynik: **13+** (nie 4+ jak pierwotnie zakładano) dla 172 krajów/regionów — 12+ Wietnam/Korea, A12 Brazylia. Przyczyna: kategoria "Contests" (Chance-Based Activities) zaznaczona jako **Frequent**, bo leaderboard ma być kluczową, motywującą funkcją appki (świadoma decyzja użytkownika — ranking punktów po kategoriach/quizach ma zachęcać do rywalizacji jak w GeoGuessr). Test potwierdził: przy Contests = None/Infrequent wynik to 4+; tylko Frequent podbija do 13+. Reszta kwestionariusza (przemoc, treści dla dorosłych, hazard, itd.) — wszystko None/No, zgodnie ze stanem appki. |
+| 7 | **Submit for Review** | ✅ **Zrobione 2026-07-25 20:19 — patrz log w sekcji 5e.** 2 elementy złożone razem: "iOS App 1.0" (App Version) + "Zentalist Lifetime Premium" (In-App Purchase), oba status **Waiting for Review**. Submission ID `5e6782d4-ed61-40fc-97a8-ef010022f95d`. Do 48h na decyzję. |
 
 ### 🟡 Android — pozostałe kroki
 
@@ -356,6 +356,121 @@ Formularze pobierają adres z **Apple Developer Program → Membership details**
 - ✅ U.S. Form W-8BEN: Active (złożony 23 lip 2026)
 - ✅ U.S. Certificate of Foreign Status of Beneficial Owner: Active (złożony 23 lip 2026)
 - 🟢 **Odblokowane zakładanie produktów IAP** — patrz sekcja 5, punkt 3
+
+---
+
+## 5d) Log: Submit for Review — sesja przerwana (2026-07-24)
+
+### Co zrobione w App Store Connect
+
+1. **Build** — dopięty build `1` (wersja 1.0) do "iOS App Version 1.0" (był pusty, Build sekcja pokazywała "Upload your builds..." mimo że IPA było już przetworzone jako VALID). Zapisane przez Save.
+2. **App Information** — ustawione:
+   - **Category (Primary)**: Education
+   - **Content Rights**: "No, this app does not contain, show, or access third-party content"
+3. **Pricing and Availability** — ustawione:
+   - **Price**: Free (0,00 $), 175 krajów
+   - **Availability**: All Countries or Regions
+4. **App Privacy → Privacy Policy URL**: ustawione na `https://zentalist.app/privacy` (pole było wymagane osobno od App Information, mimo że support URL już tam był).
+5. **In-App Purchase "Zentalist Lifetime Premium"** — dodano zrzut ekranu do Review Information (wymagany rozmiar dla tego pola to jeden z rozmiarów App Store screenshotów, np. 1284×2778 — próba wgrania dowolnego rozmiaru z przeglądarki dawała błąd "dimensions are wrong"; zadziałał zrzut przeskalowany do rozmiaru zgodnego z istniejącymi screenshotami). Status IAP: **Ready for Review**, dodane do Draft Submission razem z wersją 1.0.
+
+### Co zablokowało "Add for Review" (pełna lista z App Store Connect, sprawdzone 2026-07-24)
+
+Przy próbie **Add for Review** dla wersji 1.0 (żeby dołączyć do niej Draft Submission z IAP), ASC zwrócił listę brakujących rzeczy — wszystkie już rozwiązane **poza dwoma**:
+
+- ✅ Primary category — rozwiązane (Education)
+- ✅ Content Rights Information — rozwiązane
+- ✅ Privacy Policy URL w App Privacy — rozwiązane
+- ✅ Price tier w Pricing — rozwiązane (Free)
+- ⬜ **Screenshot dla 13" iPad displays** — **NIEZROBIONE, sesja przerwana tutaj.** Wymagany rozmiar (z UI ASC): `2064 x 2752px`, `2752 x 2064px`, `2048 x 2732px` lub `2732 x 2048px`. Trzeba wgrać min. 1 zrzut w zakładce iPad → "13\" Display" w sekcji Previews and Screenshots (obecnie 0 z 10). **Użytkownik wraca z gotowymi screenami iPada — do wgrania przy następnej sesji.**
+- ⬜ **App Privacy — kwestionariusz Data Collection** — **NIEZROBIONE.** Kliknięcie "Get Started" na stronie App Privacy otwiera wieloetapowy formularz "jakie typy danych zbiera appka". Wymaga świadomych odpowiedzi (nie robić na szybko — to publiczna deklaracja prawna widoczna na App Store).
+
+### Dane do wykorzystania przy wypełnianiu App Privacy (z analizy kodu, agent Explore, 2026-07-24)
+
+Zweryfikowane w kodzie (`public/scripts/`):
+
+| Typ danych | Zbierane? | Źródło w kodzie | Uwagi |
+|---|---|---|---|
+| **Email Address** | ✅ Tak | `auth.js` (Firebase Auth email/password) | Linked to identity. Po fixie (patrz niżej) już NIE trafia do publicznego leaderboardu. |
+| **User ID** | ✅ Tak | Firebase UID wszędzie (Firestore, RevenueCat `app_user_id`) | Linked to identity, not used for tracking |
+| **Purchase History** | ✅ Tak | RevenueCat przez `iapService.js` | Linked to identity. Już zadeklarowane w `ios/App/App/PrivacyInfo.xcprivacy` |
+| **Nazwa użytkownika / Avatar** | ✅ Tak (displayName, avatarUrl generowany z Dicebear, nie zdjęcie usera) | `syncService.js`, `premiumService.js` | Firestore `users/{uid}` — prywatne, tylko właściciel |
+| **Dane o postępach nauki / statystyki** | ✅ Tak (totalPoints, level, starsEarned, challengesCompleted, languageBreakdown) | `syncService.js` leaderboard + progress sync | Częściowo publiczne przez leaderboard (bez emaila po fixie) |
+| **Analytics/Crash reporting** | ❌ Nie | Brak Firebase Analytics/Crashlytics/Mixpanel/Sentry w kodzie ani w Podfile.lock | — |
+| **Reklamy** | ❌ Nie | Brak AdMob/ad SDK | — |
+| **Lokalizacja/Kamera/Mikrofon/Kontakty/Zdjęcia** | ❌ Nie | Brak `*UsageDescription` w `ios/App/App/Info.plist` — appka fizycznie nie może o to prosić | — |
+| **IP / identyfikatory urządzenia** | ❓ Nieznane | Może być zbierane przez SDK RevenueCat poza tym repo — wymaga sprawdzenia dokumentacji RevenueCat | Nie zweryfikowane w tym repo |
+
+### 🔒 Znaleziony i naprawiony bug prywatności: email publicznie widoczny w leaderboardzie
+
+**Problem:** `firestore.rules` linia ~22: kolekcja `leaderboard/{userId}` miała `allow read: if true` (publiczny odczyt przez kogokolwiek, bez logowania). `syncService.js` (funkcja `updateLeaderboard()`, była linia 605) zapisywała tam **prawdziwy adres email użytkownika** (`email: user.email`) obok displayName/avatara/wyników — czyli mail każdego gracza na leaderboardzie był publicznie dostępny (np. przez Firestore REST API bez auth).
+
+**Fix zastosowany (2026-07-24):** usunięto linię `email: user.email,` z zapisu w `syncService.js` → `updateLeaderboard()`. `displayName` już wcześniej miał fallback na `user.email?.split("@")[0]`, więc UI leaderboardu działa bez zmian. Zweryfikowano (agent Explore), że `uiService.js` (odczyt leaderboardu, ranking) nigdzie nie czyta pola `email` — bezpieczne do usunięcia.
+
+**✅ Wyczyszczone 2026-07-25.** Fix w kodzie działa tylko na nowe zapisy (`setDoc` z `merge: true` nie usuwa pól, których nie ma w nowym payloadzie), więc istniejące dokumenty trzeba było wyczyścić osobno. Okazało się, że lokalnie jest zalogowane `gcloud` (`krukowski.adam@gmail.com`, dostęp do `costam-3f612`) — użyto `gcloud auth print-access-token` + Firestore REST API (`PATCH .../leaderboard/{docId}?updateMask.fieldPaths=email` z pustym body `{}`, co usuwa pole zamiast je nadpisywać) do usunięcia `email` ze wszystkich **6** dokumentów w kolekcji `leaderboard` (więcej niż zakładane 1-2 — kolekcja miała już dane testowe/deweloperskie z kilku kont, w tym `review@zentalist.app` i prywatne adresy). Zweryfikowano po fakcie: żaden dokument nie ma już pola `email`, reszta pól (displayName, avatarUrl, statystyki) bez zmian.
+
+Zmiana w `syncService.js` scommitowana do gita (patrz commit z 2026-07-25).
+
+### Stan na koniec sesji (2026-07-24, przerwana)
+
+- ✅ Build, kategoria, Content Rights, Pricing/Availability, Privacy Policy URL — zrobione
+- ✅ IAP Lifetime Premium — Ready for Review ze screenshotem
+- ✅ Bug prywatności (email w leaderboardzie) — naprawiony w kodzie, niescommitowany
+- ✅ Screenshot iPada 13" — dodane w sesji 2026-07-25, patrz 5e
+- ✅ Kwestionariusz App Privacy Data Collection — wypełniony w sesji 2026-07-25, patrz 5e
+- ✅ **Submit for Review** — zrobione 2026-07-25, patrz 5e
+- ⬜ Zweryfikować czy Subscriptions (Monthly, Annual) też potrzebują własnego "Add for Review" + screenshotu jak Lifetime — **okazało się nie**: finalny Draft Submission zawierał tylko 2 pozycje (App Version + Lifetime IAP), Monthly/Annual nie wymagały osobnego dodania (prawdopodobnie dlatego, że to pierwsza wersja appki — subskrypcje idą do review razem z appką automatycznie, bez osobnego kroku Add for Review)
+- ⬜ Commit zmiany w `syncService.js` do gita — **nadal niescommitowane**, do zrobienia
+
+---
+
+## 5e) Log: DAC7, App Privacy, iPad screenshot, Submit for Review (2026-07-25)
+
+Dokończenie sesji przerwanej w 5d.
+
+### 1. DAC7 (Directive on Administrative Cooperation – 7th Amendment)
+
+Business → Agreements, Tax, and Banking zgłosił dodatkowy blocker: DAC7 compliance info wymagane przed submitem (unijna dyrektywa podatkowa, Apple raportuje dane sprzedawców cyfrowych usług do urzędów skarbowych UE).
+
+Pytanie: **"Do any of your apps provide personal services in any country or region?"** → odpowiedziane **No** — "personal services" w DAC7 oznacza platformy łączące dwie strony, gdzie jedna wykonuje zleconą usługę dla drugiej (jazda, dostawa, freelancing, korepetycje 1:1 zlecane przez appkę). Zentalist to appka do nauki solo (fiszki, spaced repetition), nie marketplace usług — więc nie kwalifikuje się.
+
+### 2. App Privacy — Data Collection questionnaire (wypełniony w całości)
+
+Odpowiedzi oparte na tabeli z sekcji 5d (zweryfikowanej w kodzie). Finalnie zadeklarowane **4 typy danych**: Email Address, Name, User ID, Purchase History.
+
+Dla każdego z 4 typów — identyczny wzorzec odpowiedzi:
+
+| Pytanie | Odpowiedź | Uzasadnienie |
+|---|---|---|
+| Linked to user's identity? | **Yes** | wszystko powiązane z Firebase `uid` / kontem, nic anonimowego |
+| Used for tracking? | **No** | brak sieci reklamowych, brak udostępniania danych brokerom, brak cross-app/cross-site linkowania |
+| Purposes (multi-select) | tylko **App Functionality** | autentykacja, zarządzanie subskrypcją/premium, customer support — nic więcej (bez Analytics, bez Advertising, bez Product Personalization) |
+
+Wynik widoczny w App Store Connect: *"4 data types collected from this app: Email Address, Name, User ID, Purchase History"*.
+
+**Nie zaznaczono** (świadomie): Analytics — appka mobilna nie ma żadnego SDK analitycznego (Google Analytics jest tylko na stronie web, nie w kodzie iOS/Capacitor); Third-Party/Developer Advertising — brak reklam i kampanii marketingowych opartych o te dane.
+
+### 3. Screenshot iPada 13"
+
+Użytkownik dodał zrzuty ekranu iPada (`public/img/appstore_screenshots/`) i wgrał je w zakładce iPad → "13\" Display" w App Store Connect — blocker z 5d zdjęty.
+
+### 4. Submit for Review — finalny
+
+Po uzupełnieniu DAC7 + App Privacy + screenshotów, **Add for Review** → **Submit for Review** przeszło bez dodatkowych blockerów.
+
+Wynik:
+- **Draft Submission**, "Items Submitted (2)":
+  - **iOS App 1.0** (App Version, build 1.0 (1)) — status **Waiting for Review**
+  - **Zentalist Lifetime Premium** (In-App Purchase) — status **Waiting for Review**
+- **Date Submitted**: Jul 25, 2026 at 8:19 PM
+- **Submission ID**: `5e6782d4-ed61-40fc-97a8-ef010022f95d`
+- Obie pozycje recenzowane **razem** — standardowe zachowanie Apple dla pierwszego submitu appki z IAP (pierwszy in-app purchase zawsze idzie do review razem z wersją aplikacji).
+- Apple: do 48h na decyzję, powiadomienie mailem.
+
+### Otwarte do zrobienia (następna sesja / po odpowiedzi Apple)
+
+- ⬜ Czekać na mail od Apple (approve / reject / needs info) — jeśli reject, wrócić do rozkminienia powodu
+- ✅ Commit `syncService.js` (fix bug prywatności z 5d, punkt "email w leaderboardzie") — zrobione 2026-07-25
+- ✅ Czyszczenie pola `email` z istniejących dokumentów `leaderboard` — zrobione 2026-07-25 przez Firestore REST API, patrz 5d
 
 ---
 

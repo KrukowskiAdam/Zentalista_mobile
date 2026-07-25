@@ -602,7 +602,6 @@ class SyncService {
           userId: user.uid,
           displayName:
             user.displayName || user.email?.split("@")[0] || "Anonymous",
-          email: user.email,
           avatarUrl: avatarUrl,
           totalPoints: stats.totalPoints,
           level: stats.level,
