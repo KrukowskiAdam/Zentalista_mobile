@@ -24,8 +24,13 @@ class MainApp {
     const startTime = Date.now();
 
     while (Date.now() - startTime < maxWait) {
-      if (this.authStateReady || typeof window.isPremiumUser === "boolean") {
-        // console.log('🔍 Auth state ready, premium status:', window.isPremiumUser);
+      // window.isPremiumUser can be set synchronously from a localStorage cache
+      // (premiumService's constructor) before Firebase has actually confirmed
+      // the session, so it's not a valid proxy for "auth resolved" — that would
+      // let renderCards() run with window.currentUser still undefined and flash
+      // the guest home view. window.currentUser is only ever set by setupUI(),
+      // which only runs from the real onAuthStateChanged callback.
+      if (this.authStateReady || typeof window.currentUser !== "undefined") {
         return true;
       }
       await new Promise((resolve) => setTimeout(resolve, 100));

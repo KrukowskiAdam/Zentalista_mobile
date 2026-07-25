@@ -202,6 +202,15 @@ const initialize = () => {
 document.addEventListener("DOMContentLoaded", initialize);
 
 export const setupUI = (user, isPremium = false, avatarData = null, isPaidPremiumDirect = null) => {
+  // Firebase can fire onAuthStateChanged once with user=null before it finishes
+  // verifying the persisted session. If cache says we were logged in, ignore this
+  // transient callback entirely — don't touch window.currentUser/isPremiumUser or
+  // dispatch authStateChanged, otherwise renderCards() reads a null user and
+  // flashes the logged-out home view before the real callback corrects it.
+  if (!user && localStorage.getItem('mc_auth_state') === 'logged-in') {
+    return;
+  }
+
   elements = getElements();
 
   // DODAJ TO - eksportuj status premium globalnie
@@ -278,14 +287,6 @@ export const setupUI = (user, isPremium = false, avatarData = null, isPaidPremiu
     toggleElementsVisibility([elements.premiumStatusDiv], isPremiumUser);
     toggleElementsVisibility([elements.regularStatusDiv], !isPremiumUser);
   } else {
-    // Check if this is just Firebase SDK initializing (not a real logout)
-    // If cached state says logged-in, don't flash the menu to logged-out
-    const cachedAuth = localStorage.getItem('mc_auth_state');
-    if (cachedAuth === 'logged-in') {
-      // Firebase SDK hasn't verified session yet — keep menu as-is
-      return;
-    }
-
     // Cache auth state for instant load on refresh
     try {
       localStorage.setItem('mc_auth_state', 'logged-out');
