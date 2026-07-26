@@ -37,6 +37,7 @@ export const CONFIG = {
  storageBucket: "costam-3f612.firebasestorage.app",
  messagingSenderId: "767407380440",
  appId: "1:767407380440:web:eb4a082d596a7a69c384ad",
+ measurementId: "G-QDLH7SX1MF",
  },
  get jsonUrls() {
  return getJsonUrls();

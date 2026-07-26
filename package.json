@@ -33,7 +33,9 @@
     "validate:phrases": "node tools/validate_phrases.mjs",
     "fix:phrases": "node tools/apply_phrase_fixes.mjs",
     "update:translations": "node tools/update_translations.mjs",
-    "audio:regenerate": "node tools/regenerate_audio.mjs"
+    "audio:regenerate": "node tools/regenerate_audio.mjs",
+    "deploy": "PATH=\"/opt/homebrew/opt/node@22/bin:$PATH\" firebase deploy",
+    "deploy:hosting": "PATH=\"/opt/homebrew/opt/node@22/bin:$PATH\" firebase deploy --only hosting"
   },
   "devDependencies": {
     "@capacitor/cli": "^7.6.0",

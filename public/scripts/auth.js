@@ -14,6 +14,11 @@ import {
   setDoc,
   serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import {
+  getAnalytics,
+  isSupported as isAnalyticsSupported,
+  setUserProperties,
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
 import { setupUI } from "./index.js";
 import { CONFIG } from "./utils/config.js";
 
@@ -39,6 +44,25 @@ try {
 export const app = initializeApp(CONFIG.firebase);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
+// Capacitor injects window.Capacitor at runtime inside the native app's webview;
+// it's absent in a regular browser, so this tells web and mobile-app traffic apart.
+export const appPlatform = window.Capacitor?.isNativePlatform?.()
+  ? window.Capacitor.getPlatform() // "ios" | "android"
+  : "web";
+
+// Analytics isn't supported in every webview/browser context, so guard the init
+export let analytics = null;
+isAnalyticsSupported()
+  .then((supported) => {
+    if (supported) {
+      analytics = getAnalytics(app);
+      setUserProperties(analytics, { app_platform: appPlatform });
+    }
+  })
+  .catch((error) => {
+    console.warn("Analytics not initialized:", error);
+  });
 
 // Check if user has active trial
 function hasActiveTrial(userData) {
