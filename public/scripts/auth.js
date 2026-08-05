@@ -4,6 +4,9 @@ import {
   onAuthStateChanged,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
+  signInAnonymously,
+  linkWithCredential,
+  EmailAuthProvider,
   signOut,
   sendPasswordResetEmail,
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
@@ -96,6 +99,22 @@ function isRedditPromoEligible() {
  const refAt = getDateValue(refAtRaw);
  if (!refAt) return false;
  return refAt <= REDDIT_CUTOFF_DATE;
+}
+
+// Ensures there is a signed-in Firebase user before an in-app purchase, without
+// requiring the user to register (App Store guideline 5.1.1(v)). If nobody is
+// signed in yet, creates an anonymous account — no personal info collected —
+// which the user can later upgrade to a real account via the signup form to
+// sync their purchase across devices.
+export async function ensurePurchaseUser() {
+  if (auth.currentUser) return auth.currentUser;
+  try {
+    const cred = await signInAnonymously(auth);
+    return cred.user;
+  } catch (error) {
+    console.error("Anonymous sign-in for purchase failed:", error);
+    return null;
+  }
 }
 
 // Simple email validation
@@ -297,7 +316,15 @@ if (signupForm) {
  }
  if (!valid) return;
 
- createUserWithEmailAndPassword(auth, email, password)
+ // If the user already has an anonymous account (e.g. from an in-app purchase
+ // made before registering), upgrade it in place via linkWithCredential so the
+ // same UID — and everything tied to it (premium entitlement, progress) —
+ // carries over, instead of creating a disconnected second account.
+ const signupPromise = auth.currentUser?.isAnonymous
+ ? linkWithCredential(auth.currentUser, EmailAuthProvider.credential(email, password))
+ : createUserWithEmailAndPassword(auth, email, password);
+
+ signupPromise
  .then((cred) => {
  // CRITICAL: Clear any previous user's data before setting up new user
  if (window.clearUserLocalData) {

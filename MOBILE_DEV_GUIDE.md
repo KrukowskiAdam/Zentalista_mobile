@@ -1,6 +1,6 @@
 # Zentalist Mobile — Dev Guide
 
-> **Status (2026-07-25):** 🟢 **Android jest na produkcji** — https://play.google.com/store/apps/details?id=com.zentalist.app. 🟡 **iOS wysłany do review** — Submitted 2026-07-25 20:19, "Waiting for Review" (App Version 1.0 + IAP Lifetime Premium), do 48h na decyzję Apple. Patrz sekcja 5, "iOS — pozostałe kroki" i log 5e.
+> **Status (2026-08-05):** 🟢 **Android jest na produkcji** — https://play.google.com/store/apps/details?id=com.zentalist.app. 🔴 **iOS odrzucony przez App Review** (2026-08-05, submission `5e6782d4-ed61-40fc-97a8-ef010022f95d`) — 4 powody, patrz log **5f**. Poprawki kodu dla 3 z 4 powodów już napisane i **zdeployowane na produkcję** (`zentalist-mobile.web.app`, 2026-08-05). Zostało: kroki w App Store Connect (Monthly/Annual do review + EULA link) + upload nowego builda + nagranie ekranu do Review Notes. **Następna sesja: dokończyć 5f.**
 
 ---
 
@@ -159,6 +159,20 @@ Weryfikacja: `iapService.initialize(user.uid)` jest wywoływane z `window.curren
 
 Secret: `REVENUECAT_WEBHOOK_SECRET` zapisany w Firebase Secrets (wersja 2).
 Cloud Function: `revenuecatWebhook` w `zentalist_web/functions/index.js`.
+
+---
+
+## 4a) Analytics (Firebase / GA4)
+
+**Dodane 2026-07-26.** Wcześniej appka (web ani mobile) w ogóle nie wysyłała danych do Firebase Analytics — `measurementId` był pominięty w configu, `getAnalytics()` nigdzie nie było wywoływane (patrz stare stwierdzenia "Analytics: Nie" w sekcjach 5d/5e — nieaktualne od tej zmiany).
+
+Co zrobione:
+- `measurementId: "G-QDLH7SX1MF"` dodany do `firebaseConfig` w `public/scripts/utils/config.js`.
+- `getAnalytics()` (z guardem `isSupported()`) zainicjalizowane w `public/scripts/auth.js`.
+- User property `app_platform` (`web` / `ios` / `android`, wykrywane przez `window.Capacitor`) wysyłane przy starcie — pozwala odróżnić ruch z appki mobilnej od zwykłej przeglądarki, mimo że oba korzystają z tego samego web streamu GA4 (mobile ładuje `zentalist-mobile.web.app` w webview, patrz `server.url` w `capacitor.config.json`).
+- Zdeployowane na hosting + functions.
+
+⬜ **Do zrobienia:** zarejestrować `app_platform` jako Custom Dimension w GA4 — Admin → Custom definitions → Create custom dimension, **Zakres: "Właściwość użytkownika"** (nie "Zdarzenie"), wybrać `app_platform` z listy. Bez tego dane się zbierają, ale nie da się ich wygodnie filtrować w standardowych raportach.
 
 ---
 
@@ -471,6 +485,60 @@ Wynik:
 - ⬜ Czekać na mail od Apple (approve / reject / needs info) — jeśli reject, wrócić do rozkminienia powodu
 - ✅ Commit `syncService.js` (fix bug prywatności z 5d, punkt "email w leaderboardzie") — zrobione 2026-07-25
 - ✅ Czyszczenie pola `email` z istniejących dokumentów `leaderboard` — zrobione 2026-07-25 przez Firestore REST API, patrz 5d
+
+---
+
+## 5f) Log: App Review rejection — 4 powody, poprawki (2026-08-05, sesja w toku)
+
+Apple odrzucił submission `5e6782d4-ed61-40fc-97a8-ef010022f95d` (review 2026-08-05, iPad Air 11" M3). 4 powody, wszystkie typowe dla pierwszego submitu appki z IAP:
+
+### 1. Guideline 5.1.1(v) — zakup Premium wymagał rejestracji
+
+**Problem:** `premiumPaywall.js` blokował każdy przycisk kup/restore/native-paywall komunikatem "sign in first", jeśli `window.currentUser?.uid` było puste. Apple zabrania wymuszania rejestracji przed zakupem IAP niepowiązanego z kontem.
+
+**Fix (✅ zrobiony i zdeployowany):**
+- `auth.js` — nowa funkcja `ensurePurchaseUser()`: jeśli nikt niezalogowany, cicho zakłada **anonimowe konto Firebase** (`signInAnonymously`, zero danych osobowych) i na jego UID idzie zakup. Formularz Sign Up wykrywa `auth.currentUser?.isAnonymous` i używa `linkWithCredential` zamiast `createUserWithEmailAndPassword` — czyli późniejsza rejestracja **zachowuje ten sam UID** (zakup/postępy nie gubią się przy "dopięciu" maila/hasła).
+- `premiumPaywall.js` — usunięty modal logowania z 3 miejsc (kup, restore, native paywall), zastąpiony przez `ensurePurchaseIdentity()` (używa istniejącego usera albo zakłada anonimowego + `Purchases.logIn` do RevenueCat pod tym UID).
+- `index.js` (`setupUI`) — goście (anonimowi) widzą górne menu tak jak niezalogowani (Sign In/Sign Up widoczne, nie "Zalogowany jako undefined"). `mc_auth_state` w cache ustawiane na `logged-out` dla gości, żeby nie było flashu przy odświeżeniu.
+- `premiumService.js` — bez zmian: `iap:entitlementChanged` handler już zapisywał premium do Firestore pod `auth.currentUser`, co teraz działa automatycznie też dla anonimowych UID.
+
+### 2. Guideline 2.1(b) — subskrypcje niewysłane do review
+
+**Problem:** Tylko "Zentalist Lifetime Premium" poszło do submission (patrz 5e) — Monthly i Annual nigdy nie dostały "Add for Review".
+
+**Status: ⬜ NIEZROBIONE — to czysto App Store Connect, nie kod.** Do zrobienia następnym razem:
+1. App Store Connect → In-App Purchases → Monthly (`zentalist_premium_monthly`) i Annual (`zentalist_premium_annual`) → dodać screenshot w Review Information (jak przy Lifetime w 5d, wymagany rozmiar zgodny ze screenshotami appki).
+2. Dołączyć oba do nowego Draft Submission razem z App Version.
+3. **Apple wprost wymaga uploadu nowego builda** ("upload a new binary") — zrobić nowy archive/export/upload przez Xcode Organizer (build number +1), mimo że treść appki (server-rendered z `zentalist-mobile.web.app`) już ma poprawki z punktów 1/4 bez potrzeby nowego builda — nowy binary jest wymagany tylko dlatego, że Apple tak napisał w tym konkretnym punkcie.
+
+### 3. Guideline 5.1.1(v) — brak usuwania konta
+
+**Fix (✅ zrobiony i zdeployowany):** `profile.ejs` + `profile.js` — sekcja "Delete Account" (Danger Zone) z modalem potwierdzenia hasłem (reauth przez `reauthenticateWithCredential` przed `deleteUser`, żeby Firebase nie odrzucił jako `auth/requires-recent-login`). Usuwa `users/{uid}`, `leaderboard/{uid}`, czyści localStorage, kasuje konto Firebase Auth, redirect na `/home`. Konta-goście (anonimowe, patrz punkt 1) usuwają się bez hasła — nie mają email/password credentiala do reauth.
+
+**⬜ Do zrobienia:** nagrać na fizycznym urządzeniu (iPad/iPhone) filmik: logowanie na `review@zentalist.app` (albo zakup jako gość) → Profile → Delete Account → potwierdzenie → wynik. Wkleić do Notes w App Review Information przy resubmisji (Apple wprost o to prosi w mailu).
+
+### 4. Guideline 3.1.2(c) — brak wymaganych informacji o subskrypcji
+
+**Fix (✅ zrobiony i zdeployowany):** `premium.ejs` — pod kartami cenowymi dodany zawsze widoczny akapit z warunkami auto-renewal + linkami do `/legals#terms-of-service` i `/privacy`. Nazwa/długość/cena planu już wcześniej były na kartach (Monthly/Yearly/Lifetime + `data-iap-price`).
+
+**⬜ Do zrobienia (App Store Connect, nie kod):** dodać funkcjonalny link do Terms of Use (EULA) w App Description (albo w polu EULA w App Store Connect) — Apple wskazał to jako brakujące w metadanych, niezależnie od linku na samym ekranie zakupu.
+
+### Deploy
+
+Zdeployowano 2026-08-05 przez `firebase deploy --only hosting:mobile,functions` (hosting = statyczne JS, functions = `ssrMobile` renderuje zmienione `.ejs`). **Uwaga — napotkany i obejście problemu z Node:** lokalny `node` (Homebrew, v26.4.0) jest zbyt nowy dla `firebase-tools` — analiza kodu funkcji pada na `buffer-equal-constant-time` (transitywna zależność `firebase-admin` → `google-auth-library` → `jws` → `jwa`, używa starego `Buffer` API usuniętego w Node 26). **Fix:** `brew install node@22` (już było zainstalowane), potem `export PATH="/opt/homebrew/opt/node@22/bin:$PATH"` przed `firebase deploy` — nie podmienia domyślnego `node` w PATH na stałe, tylko na czas tej komendy. Jeśli deploy znów padnie na tym samym błędzie, użyć tego samego obejścia.
+
+Zweryfikowane po deployu (`curl`): `/premium` zawiera "Terms of Use", `/profile` zawiera "Delete Account" — obie strony serwują nową wersję.
+
+**Niescommitowane w git:** wszystkie zmiany z tej sesji (`auth.js`, `index.js`, `premiumPaywall.js`, `profile.js`, `profile.ejs`, `premium.ejs`) są na dysku i już zdeployowane, ale jeszcze nie ma commita — do zrobienia w następnej sesji razem z resztą (patrz też niescommitowane zmiany w sekcji 4a, Analytics, z 2026-07-26 — też czekają na commit).
+
+### Otwarte do zrobienia (następna sesja)
+
+- ⬜ Monthly + Annual → Add for Review w App Store Connect (screenshot + dołączenie do Draft Submission)
+- ⬜ Nowy build (Xcode archive/export/upload, build number +1) — wymagany przez Apple dla punktu 2.1(b)
+- ⬜ EULA link w App Description / polu EULA w App Store Connect (punkt 3.1.2(c), metadata)
+- ⬜ Nagranie ekranu: zakup jako gość (lub login) → Delete Account flow → dołączyć do Review Notes
+- ⬜ Submit for Review (nowy submission)
+- ⬜ Commit zmian z tej sesji do gita (+ zaległy commit z sekcji 4a)
 
 ---
 

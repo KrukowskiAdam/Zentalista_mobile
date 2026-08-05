@@ -155,6 +155,16 @@
  </a>
  </div>
 
+ <!-- Danger Zone -->
+ <div class="bg-learning-app-design-1 rounded-xl p-5 sm:p-6 shadow-card border border-red-500/30">
+ <h2 class="text-xl font-semibold mb-2">Delete Account</h2>
+ <p class="text-sm opacity-60 mb-4">Permanently deletes your account and all data associated with it (profile, learning progress, leaderboard entry). This cannot be undone.</p>
+ <label for="modal-delete-account"
+ class="inline-flex items-center justify-center rounded-full py-3 px-6 text-sm font-semibold bg-red-600 text-white border-0 cursor-pointer">
+ Delete Account
+ </label>
+ </div>
+
  <!-- Success/Error Messages -->
  <div id="save-success" class="hidden alert alert-success">
  <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none"
@@ -172,6 +182,26 @@
  </svg>
  <span id="error-message">Error saving profile. Please try again.</span>
  </div>
+ </div>
+ </div>
+
+ <!-- Modal usuwania konta -->
+ <input type="checkbox" id="modal-delete-account" class="modal-toggle" />
+ <div class="modal modal-bottom sm:modal-middle">
+ <div class="modal-box bg-learning-app-design-2 text-base-content">
+ <h3 class="font-bold text-lg">Delete Account</h3>
+ <p class="text-sm opacity-70 mt-2">This permanently deletes your account and all associated data. This cannot be undone. Your App Store/Google Play subscription (if any) is not affected — cancel it separately in your device's subscription settings.</p>
+ <form id="delete-account-form" class="space-y-4 mt-4">
+ <input type="password" id="delete-account-password" placeholder="Confirm your password" autocomplete="current-password"
+ class="input input-bordered w-full" required />
+ <p id="delete-account-error" class="hidden text-sm text-red-500"></p>
+ <div class="modal-action">
+ <label for="modal-delete-account" class="inline-flex items-center justify-center rounded-full py-3 px-6 text-sm font-semibold bg-learning-app-design-3 border-0 cursor-pointer">Cancel</label>
+ <button type="submit" id="delete-account-confirm-btn" class="inline-flex items-center justify-center rounded-full py-3 px-6 text-sm font-semibold bg-red-600 text-white border-0">
+ Permanently Delete
+ </button>
+ </div>
+ </form>
  </div>
  </div>
 

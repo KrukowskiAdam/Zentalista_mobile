@@ -213,6 +213,13 @@ export const setupUI = (user, isPremium = false, avatarData = null, isPaidPremiu
 
   elements = getElements();
 
+  // Anonymous accounts exist only to let a purchase go through without forced
+  // registration (App Store 5.1.1(v)) — from the user's point of view they're
+  // still "logged out" and should keep seeing Sign In/Sign Up, not a broken
+  // account menu with no email.
+  const isGuest = Boolean(user?.isAnonymous);
+  const isRegistered = Boolean(user) && !isGuest;
+
   // DODAJ TO - eksportuj status premium globalnie
   window.isPremiumUser = Boolean(isPremium);
   window.currentUser = user
@@ -221,12 +228,13 @@ export const setupUI = (user, isPremium = false, avatarData = null, isPaidPremiu
         email: user.email,
         displayName: user.displayName || user.email?.split("@")[0] || "",
         avatarUrl: avatarData?.avatarUrl || null,
+        isAnonymous: isGuest,
       }
     : null;
   // console.log('🔍 [setupUI] Setting window.isPremiumUser to:', window.isPremiumUser);
 
-  // Update menu avatar
-  updateMenuAvatar(user, avatarData);
+  // Update menu avatar (guests keep the default icon, not a broken avatar)
+  updateMenuAvatar(isRegistered ? user : null, avatarData);
 
   // Dispatch event to notify other services about auth state change
   window.dispatchEvent(
@@ -244,14 +252,19 @@ export const setupUI = (user, isPremium = false, avatarData = null, isPaidPremiu
   if (user) {
     // Cache auth state for instant load on refresh
     try {
-      localStorage.setItem('mc_auth_state', 'logged-in');
+      localStorage.setItem('mc_auth_state', isRegistered ? 'logged-in' : 'logged-out');
     } catch (e) {}
-    
-    updateAccountDetails(elements.accountDetails, user);
 
-    toggleElementsVisibility(elements.authLoggedIn, true);
-    toggleElementsVisibility(elements.authLoggedOut, false);
-    syncAuthMenuVisibility(true);
+    if (isRegistered) {
+      updateAccountDetails(elements.accountDetails, user);
+      toggleElementsVisibility(elements.authLoggedIn, true);
+      toggleElementsVisibility(elements.authLoggedOut, false);
+      syncAuthMenuVisibility(true);
+    } else {
+      toggleElementsVisibility(elements.authLoggedIn, false);
+      toggleElementsVisibility(elements.authLoggedOut, true);
+      syncAuthMenuVisibility(false);
+    }
 
     const isPremiumUser = Boolean(isPremium);
     let isPaidPremium = false;

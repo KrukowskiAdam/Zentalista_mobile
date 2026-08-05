@@ -2,8 +2,8 @@
 // Profile page functionality - display name and avatar generator
 
 import { auth, db } from"../auth.js";
-import { doc, getDoc, setDoc, serverTimestamp } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
-import { updateProfile } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { doc, getDoc, setDoc, deleteDoc, serverTimestamp } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { updateProfile, deleteUser, reauthenticateWithCredential, EmailAuthProvider } from"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 class ProfileManager {
  constructor() {
@@ -42,6 +42,11 @@ class ProfileManager {
  saveError: document.getElementById("save-error"),
  errorMessage: document.getElementById("error-message"),
  pageStatus: document.getElementById("profile-page-status"),
+ deleteAccountForm: document.getElementById("delete-account-form"),
+ deleteAccountPassword: document.getElementById("delete-account-password"),
+ deleteAccountError: document.getElementById("delete-account-error"),
+ deleteAccountConfirmBtn: document.getElementById("delete-account-confirm-btn"),
+ deleteAccountModal: document.getElementById("modal-delete-account"),
  };
 
  this.showLoading();
@@ -74,6 +79,80 @@ class ProfileManager {
  // Only allow letters, numbers, spaces
  e.target.value = e.target.value.replace(/[^a-zA-Z0-9\s]/g,"").slice(0, 20);
  });
+
+ // Delete account
+ this.elements.deleteAccountForm?.addEventListener("submit", (e) => {
+ e.preventDefault();
+ this.deleteAccount();
+ });
+ }
+
+ async deleteAccount() {
+ const user = auth.currentUser;
+ if (!user) return;
+
+ // Guest (anonymous) accounts have no email/password credential to reauthenticate
+ // with — they only exist to let an in-app purchase go through without registration.
+ const isGuest = user.isAnonymous;
+ const password = this.elements.deleteAccountPassword.value;
+ this.hideDeleteAccountError();
+
+ if (!isGuest && !password) {
+ this.showDeleteAccountError("Please enter your password to confirm.");
+ return;
+ }
+
+ this.elements.deleteAccountConfirmBtn.disabled = true;
+ this.elements.deleteAccountConfirmBtn.classList.add("opacity-70","cursor-wait");
+ this.elements.deleteAccountConfirmBtn.textContent ="Deleting...";
+
+ try {
+ // Deleting a Firebase Auth account requires a recent sign-in; reauthenticate
+ // with the confirmed password first so the delete call doesn't fail with
+ // auth/requires-recent-login.
+ if (!isGuest) {
+ const credential = EmailAuthProvider.credential(user.email, password);
+ await reauthenticateWithCredential(user, credential);
+ }
+
+ const uid = user.uid;
+ await Promise.all([
+ deleteDoc(doc(db,"users", uid)).catch(() => {}),
+ deleteDoc(doc(db,"leaderboard", uid)).catch(() => {}),
+ ]);
+
+ if (window.clearUserLocalData) {
+ window.clearUserLocalData();
+ }
+
+ await deleteUser(user);
+
+ if (this.elements.deleteAccountModal) {
+ this.elements.deleteAccountModal.checked = false;
+ }
+
+ window.location.href ="/home";
+ } catch (error) {
+ console.error("Error deleting account:", error);
+ const message = error.code ==="auth/invalid-credential" || error.code ==="auth/wrong-password"
+ ?"Incorrect password. Please try again."
+ :"Could not delete account. Please try again.";
+ this.showDeleteAccountError(message);
+ } finally {
+ this.elements.deleteAccountConfirmBtn.disabled = false;
+ this.elements.deleteAccountConfirmBtn.classList.remove("opacity-70","cursor-wait");
+ this.elements.deleteAccountConfirmBtn.textContent ="Permanently Delete";
+ }
+ }
+
+ showDeleteAccountError(message) {
+ if (!this.elements.deleteAccountError) return;
+ this.elements.deleteAccountError.textContent = message;
+ this.elements.deleteAccountError.classList.remove("hidden");
+ }
+
+ hideDeleteAccountError() {
+ this.elements.deleteAccountError?.classList.add("hidden");
  }
 
  async handleAuthState(user) {
@@ -134,8 +213,12 @@ class ProfileManager {
 
  async loadUserProfile(user) {
  try {
- // Set email
- this.elements.userEmail.textContent = user.email;
+ // Set email (guests from an anonymous in-app purchase have none yet)
+ this.elements.userEmail.textContent = user.email || "Guest (not registered)";
+
+ // Guests reauthenticate-free deletion — no email/password credential exists yet.
+ this.elements.deleteAccountPassword?.classList.toggle("hidden", user.isAnonymous);
+ this.elements.deleteAccountPassword.required = !user.isAnonymous;
 
  // Set member since
  const creationTime = user.metadata?.creationTime;

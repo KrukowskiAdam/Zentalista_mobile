@@ -1,4 +1,21 @@
 import { iapService } from"../services/iapService.js";
+import { ensurePurchaseUser } from"../auth.js";
+
+// Makes sure a Firebase user (anonymous if nobody is signed in yet) is behind
+// the purchase before talking to RevenueCat, and that RevenueCat is logged in
+// as that same uid. Apple 5.1.1(v) forbids gating IAP behind account
+// registration, so purchases must never require the login modal.
+async function ensurePurchaseIdentity() {
+ const user = window.currentUser?.uid ? window.currentUser : await ensurePurchaseUser();
+ if (!user?.uid) return null;
+
+ if (!window.currentUser?.uid) {
+ window.currentUser = { uid: user.uid, email: user.email || null, isAnonymous: Boolean(user.isAnonymous) };
+ }
+
+ await iapService.initialize(user.uid);
+ return user.uid;
+}
 
 const statusNode = () => document.getElementById("iap-status");
 const infoNoteNode = () => document.getElementById("iap-price-note");
@@ -83,7 +100,7 @@ function setupButtonsForContext() {
  }
 
  infoNoteNode()?.classList.remove("hidden");
- setStatus("Sign in and choose a plan to continue.");
+ setStatus("Choose a plan to continue.");
 }
 
 function bindNativePaywallHandlers() {
@@ -91,10 +108,11 @@ function bindNativePaywallHandlers() {
 
  nativePaywallButtons.forEach((button) => {
  button.addEventListener("click", async () => {
- if (!window.currentUser?.uid) {
- const loginModal = document.getElementById("modal-login");
- if (loginModal) loginModal.checked = true;
- setStatus("Sign in first to continue with purchase.","error");
+ setButtonBusy(button, true,"Preparing...");
+ const uid = await ensurePurchaseIdentity();
+ if (!uid) {
+ setButtonBusy(button, false);
+ setStatus("Could not start purchase. Please try again.","error");
  return;
  }
 
@@ -133,10 +151,11 @@ function bindPurchaseHandlers() {
  button.addEventListener("click", async () => {
  const packageType = button.dataset.iapPackage;
 
- if (!window.currentUser?.uid) {
- const loginModal = document.getElementById("modal-login");
- if (loginModal) loginModal.checked = true;
- setStatus("Sign in first to continue with purchase.","error");
+ setButtonBusy(button, true,"Preparing...");
+ const uid = await ensurePurchaseIdentity();
+ if (!uid) {
+ setButtonBusy(button, false);
+ setStatus("Could not start purchase. Please try again.","error");
  return;
  }
 
@@ -189,10 +208,11 @@ function bindPurchaseHandlers() {
  });
 
  restoreButton?.addEventListener("click", async () => {
- if (!window.currentUser?.uid) {
- const loginModal = document.getElementById("modal-login");
- if (loginModal) loginModal.checked = true;
- setStatus("Sign in first to restore purchases.","error");
+ setButtonBusy(restoreButton, true,"Preparing...");
+ const uid = await ensurePurchaseIdentity();
+ if (!uid) {
+ setButtonBusy(restoreButton, false);
+ setStatus("Could not restore purchases. Please try again.","error");
  return;
  }
 
@@ -282,10 +302,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 window.addEventListener("authStateChanged", async (event) => {
  const user = event?.detail?.user || null;
+ // Skip anonymous sign-ins created mid-purchase by ensurePurchaseIdentity() —
+ // that flow already calls iapService.initialize() itself with the right uid.
+ if (user?.isAnonymous) return;
  await iapService.initialize(user?.uid || null);
- if (user) {
  setStatus("IAP ready. Choose a plan.");
- } else {
- setStatus("Sign in and choose a plan to continue.");
- }
 });
