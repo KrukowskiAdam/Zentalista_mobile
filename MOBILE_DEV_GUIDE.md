@@ -533,12 +533,12 @@ Zweryfikowane po deployu (`curl`): `/premium` zawiera "Terms of Use", `/profile`
 
 ### Otwarte do zrobienia (następna sesja)
 
-- ⬜ Monthly + Annual → Add for Review w App Store Connect (screenshot + dołączenie do Draft Submission)
-- ⬜ Nowy build (Xcode archive/export/upload, build number +1) — wymagany przez Apple dla punktu 2.1(b)
-- ⬜ EULA link w App Description / polu EULA w App Store Connect (punkt 3.1.2(c), metadata)
+- ✅ 2026-10-24: Monthly + Annual → screenshot do review (strona /premium, iPad 2048×2732) + notatki, lokalizacja grupy (EN „Zentalist Premium”), grupa + obie subskrypcje dodane do **Draft Submission** (osobny od starego, odrzuconego submission z wersją 1.0 i Lifetime — przy wysyłce trzeba zebrać wszystko w jednym)
+- ⬜ Nowy build (Xcode archive/export/upload, build number +1) — wymagany przez Apple dla punktu 2.1(b). 2026-10-24: `CURRENT_PROJECT_VERSION` podniesiony do 2, `cap sync` OK; archive blokuje brak platformy iOS 26.5 w Xcode 26.6 (`xcodebuild -downloadPlatform iOS`)
+- ✅ 2026-10-24: EULA (standardowa Apple) + Privacy Policy + sekcja SUBSCRIPTION TERMS w App Description; przy okazji 9 języków (+ Polish), 14,000+ słów, ceny $59.99/$99.99, keyword `polish`
 - ⬜ Nagranie ekranu: zakup jako gość (lub login) → Delete Account flow → dołączyć do Review Notes
 - ⬜ Submit for Review (nowy submission)
-- ⬜ Commit zmian z tej sesji do gita (+ zaległy commit z sekcji 4a)
+- ✅ Commit zmian (`e6aa2e03`)
 
 ---
 
