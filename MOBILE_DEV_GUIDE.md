@@ -1,6 +1,6 @@
 # Zentalist Mobile — Dev Guide
 
-> **Status (2026-08-05):** 🟢 **Android jest na produkcji** — https://play.google.com/store/apps/details?id=com.zentalist.app. 🔴 **iOS odrzucony przez App Review** (2026-08-05, submission `5e6782d4-ed61-40fc-97a8-ef010022f95d`) — 4 powody, patrz log **5f**. Poprawki kodu dla 3 z 4 powodów już napisane i **zdeployowane na produkcję** (`zentalist-mobile.web.app`, 2026-08-05). Zostało: kroki w App Store Connect (Monthly/Annual do review + EULA link) + upload nowego builda + nagranie ekranu do Review Notes. **Następna sesja: dokończyć 5f.**
+> **Status (2026-08-05):** 🟢 **Android jest na produkcji** — https://play.google.com/store/apps/details?id=com.zentalist.app. 🟡 **iOS ponownie wysłany do App Review 2026-10-24** (poprzednio odrzucony 2026-08-05, submission `5e6782d4-ed61-40fc-97a8-ef010022f95d`) — 4 powody, patrz log **5f**. Poprawki kodu dla 3 z 4 powodów już napisane i **zdeployowane na produkcję** (`zentalist-mobile.web.app`, 2026-08-05). Zostało: kroki w App Store Connect (Monthly/Annual do review + EULA link) + upload nowego builda + nagranie ekranu do Review Notes. **Następna sesja: dokończyć 5f.**
 
 ---
 
@@ -536,8 +536,8 @@ Zweryfikowane po deployu (`curl`): `/premium` zawiera "Terms of Use", `/profile`
 - ✅ 2026-10-24: Monthly + Annual → screenshot do review (strona /premium, iPad 2048×2732) + notatki, lokalizacja grupy (EN „Zentalist Premium”), grupa + obie subskrypcje dodane do **Draft Submission** (osobny od starego, odrzuconego submission z wersją 1.0 i Lifetime — przy wysyłce trzeba zebrać wszystko w jednym)
 - ✅ 2026-10-24: Build 1.0 (2) — archive/export z terminala, upload przez Xcode Organizer (Distribute App; `xcodebuild -exportArchive` z `destination=upload` padał na „App Store Connect Credentials Error”). Projekt odpowiedzi dla Apple: `APP_REVIEW_REPLY.md`
 - ✅ 2026-10-24: EULA (standardowa Apple) + Privacy Policy + sekcja SUBSCRIPTION TERMS w App Description; przy okazji 9 języków (+ Polish), 14,000+ słów, ceny $59.99/$99.99, keyword `polish`
-- ⬜ Nagranie ekranu: zakup jako gość (lub login) → Delete Account flow → dołączyć do Review Notes
-- ⬜ Submit for Review (nowy submission)
+- ✅ 2026-10-24: Nagranie (iPhone XR, debug build z Xcode): Sign Up review@zentalist.app → Profile → Delete Account → Permanently Delete; załącznik `zentalist_account_deletion.mp4` w App Review Information + nowe Notes (opis 4 poprawek). Konto review@ założone ponownie po nagraniu
+- ✅ 2026-10-24 ~20:45: stary submission `5e6782d4…` anulowany; nowy submission (5 pozycji: iOS 1.0 (2), grupa Zentalist Premium + Monthly + Annual, Lifetime) wysłany do App Review. Czekamy na wynik (do 48 h)
 - ✅ Commit zmian (`e6aa2e03`)
 
 ---
