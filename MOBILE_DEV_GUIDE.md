@@ -540,6 +540,19 @@ Zweryfikowane po deployu (`curl`): `/premium` zawiera "Terms of Use", `/profile`
 - ✅ 2026-10-24 ~20:45: stary submission `5e6782d4…` anulowany; nowy submission (5 pozycji: iOS 1.0 (2), grupa Zentalist Premium + Monthly + Annual, Lifetime) wysłany do App Review. Czekamy na wynik (do 48 h)
 - ✅ Commit zmian (`e6aa2e03`)
 
+### Po decyzji Apple: wolny ekran główny po rejestracji (zgłoszone 2026-10-24)
+
+Po Sign Up nowego konta strona główna pokazuje szkielet (zaślepki) przez kilkanaście sekund na iPhonie XR. Logowanie na istniejące konto jest szybkie (~1,8 s do treści na desktopie, szybko na iPhonie), więc wstrzymane do czasu po App Review, żeby nie zmieniać kodu w trakcie recenzji.
+
+Łańcuch po rejestracji: reload → auth restore → `auth.js` onAuthStateChanged: getDoc + setDoc + ponowny getDoc profilu (szeregowo) → `setupUI` → `main.js` listener `authStateChanged` robi `await syncService.init(user)` (getDocFromServer z retry 1 s/2 s) **zanim** wywoła `initApp()` → `renderLearnHomeOverview` czeka na `fetchLeaderboardRank()` (getDocs 200 wpisów) zanim cokolwiek narysuje.
+
+Planowane poprawki:
+1. `main.js`: wywołać `initApp()` bez czekania na `syncService.init` (odświeżenie po syncu już obsługuje `cloudSyncComplete`).
+2. `uiService.renderLearnHomeOverview`: rysować od razu z „—” i dociągać rank w tle.
+3. `auth.js`: usunąć ponowny getDoc po setDoc dla nowego usera.
+4. Sprawdzić, czy pierwszy `syncFromCloud` dla pustego konta nie wpada w retry (błąd → +3 s).
+Te same zmiany przenieść do `zentalist_web`.
+
 ---
 
 ## 6) Daily Dev Workflow
