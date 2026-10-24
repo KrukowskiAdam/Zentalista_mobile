@@ -5,7 +5,7 @@ import admin from "./adminInit.js"; // też korzysta z tego samego admina
 const storage = admin.storage().bucket();
 
 const uploadCardsSecret = defineSecret("UPLOAD_CARDS_SECRET");
-const SUPPORTED_LANGS = ["es", "de", "fr", "ru", "zh", "ja", "ko", "it"];
+const SUPPORTED_LANGS = ["es", "de", "fr", "ru", "zh", "ja", "ko", "it", "pl"];
 
 export const uploadCards = onRequest(
   { secrets: [uploadCardsSecret] },

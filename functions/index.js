@@ -23,7 +23,7 @@ const pageConfig = {
   mainCss: "/css/style.css",
   cardCss: "/css/card.css",
   defaultDescription:
-    "Free flashcard app to learn vocabulary in 8 languages with audio pronunciation.",
+    "Free flashcard app to learn vocabulary in 9 languages with audio pronunciation.",
 };
 
 app.use(express.json());
@@ -60,7 +60,7 @@ const pages = [
     template: "index",
     title: "Zentalist | Learn Vocabulary with Free Flashcards",
     description:
-      "Free flashcard app to learn vocabulary in 8 languages. Spanish, German, French, Japanese with audio. Track progress & compete on global leaderboard.",
+      "Free flashcard app to learn vocabulary in 9 languages. Spanish, German, French, Japanese with audio. Track progress & compete on global leaderboard.",
     customData: { isHome: true },
   },
   {
@@ -76,7 +76,7 @@ const pages = [
     template: "app",
     title: "Zentalist | Start Learning - Free Vocabulary Flashcards",
     description:
-      "Learn Spanish, German, French, Japanese, Korean, Chinese, Russian & Italian vocabulary. Free flashcards with audio pronunciation and progress tracking.",
+      "Learn Spanish, German, French, Japanese, Korean, Chinese, Russian, Italian & Polish vocabulary. Free flashcards with audio pronunciation and progress tracking.",
     customData: { isApp: true, isAppHome: false },
   },
   {
@@ -100,7 +100,7 @@ const pages = [
     template: "stats",
     title: "Zentalist | Your Learning Statistics & Progress",
     description:
-      "Track your vocabulary learning progress. View completed categories, study streaks, and mastered words across all 8 languages.",
+      "Track your vocabulary learning progress. View completed categories, study streaks, and mastered words across all 9 languages.",
     customData: { isStats: true },
   },
   {

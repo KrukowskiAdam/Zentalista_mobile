@@ -125,6 +125,7 @@ class ChallengeService {
       case 'ja': return word.ja || '';
       case 'ko': return word.ko || '';
       case 'it': return word.it || '';
+      case 'pl': return word.pl || '';
       default: return word.en || '';
     }
   }
@@ -154,6 +155,8 @@ class ChallengeService {
       romanization = word.romaja || "";
     } else if (currentLang === "it") {
       foreignText = word.it || "";
+    } else if (currentLang === "pl") {
+      foreignText = word.pl || "";
     }
 
     if (!foreignText) {

@@ -189,6 +189,8 @@ export class ButtonComponent {
  romanization = word.romaja || "";
  } else if (currentLang === "it") {
  mainText = word.it || "";
+ } else if (currentLang === "pl") {
+ mainText = word.pl || "";
  }
 
  // Display main text

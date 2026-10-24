@@ -14,7 +14,7 @@ async function fetchWithTimeout(request, timeoutMs = 8000) {
   }
 }
 
-const LANGUAGES = ['es', 'de', 'fr', 'ru', 'zh', 'ja', 'ko', 'it'];
+const LANGUAGES = ['es', 'de', 'fr', 'ru', 'zh', 'ja', 'ko', 'it', 'pl'];
 const JSON_BASE = 'https://costam-3f612.web.app/languages';
 const PRECACHE_URLS = LANGUAGES.flatMap(lang =>
   Array.from({ length: 9 }, (_, i) =>

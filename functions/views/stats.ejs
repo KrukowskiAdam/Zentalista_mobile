@@ -228,6 +228,14 @@
  <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-it">0</td>
  <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-it">0</td>
  </tr>
+ <tr class="border-b border-learning-app-design-3 hover:bg-learning-app-design-2" data-lang="pl">
+ <td class="px-3 py-2">
+ <div class="flex items-center gap-2"><img src="/img/svg/flag-for-flag-poland-svgrepo-com.svg"
+ alt="Polish" class="w-6 h-6"><span class="text-gray-200 font-medium">Polish</span></div>
+ </td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-stars-pl">0</td>
+ <td class="px-3 py-2 text-center text-gray-200 font-semibold" id="all-challenges-pl">0</td>
+ </tr>
  </tbody>
  </table>
  </div>
@@ -355,6 +363,10 @@
  it: {
  name:"Italian",
  flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#009246"/><rect y="0" x="11" height="32" width="10" fill="#eeeeee"/><rect y="0" x="21" height="32" width="11" fill="#ce2b36"/></svg>',
+ },
+ pl: {
+ name:"Polish",
+ flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="16" width="32" fill="#ffffff"/><rect y="16" x="0" height="16" width="32" fill="#dc143c"/></svg>',
  },
  };
 
@@ -789,7 +801,7 @@
  * CRITICAL: Only show data if it belongs to the current user
  */
  function fillAllLanguagesProgress() {
- const LANGUAGES = ['es', 'de', 'fr', 'ru', 'zh', 'ja', 'ko', 'it'];
+ const LANGUAGES = ['es', 'de', 'fr', 'ru', 'zh', 'ja', 'ko', 'it', 'pl'];
 
  // Verify data ownership
  const storedUserId = localStorage.getItem("mc_current_user_id");

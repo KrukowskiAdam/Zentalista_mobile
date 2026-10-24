@@ -494,7 +494,7 @@ logoutBtns.forEach((btn) => {
  * Called on logout and before new user login to prevent data mixing
  */
 function clearUserLocalData() {
- const LANGUAGES = ["es","de","fr","ru","zh","ja","ko","it"];
+ const LANGUAGES = ["es","de","fr","ru","zh","ja","ko","it","pl"];
   // Clear all language-specific progress data
  LANGUAGES.forEach((lang) => {
  localStorage.removeItem(`buttonStates_${lang}`);

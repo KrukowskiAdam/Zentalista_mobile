@@ -18,7 +18,7 @@ class SyncService {
     this.isSyncing = false;
     this.lastSyncTime = null;
     this.SYNC_INTERVAL_MS = 15000;
-    this.LANGUAGES = ["es", "de", "fr", "ru", "zh", "ja", "ko", "it"];
+    this.LANGUAGES = ["es", "de", "fr", "ru", "zh", "ja", "ko", "it", "pl"];
     this.initPromise = null;
     this.currentUserId = null;
   }

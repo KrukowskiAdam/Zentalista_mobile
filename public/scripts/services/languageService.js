@@ -54,6 +54,12 @@ class LanguageService {
         flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="32" width="11" fill="#009246"/><rect y="0" x="11" height="32" width="11" fill="#eeeeee"/><rect y="0" x="22" height="32" width="10" fill="#ce2b36"/></svg>',
         nativeName: "Italiano",
       },
+      {
+        code: "pl",
+        name: "Polish",
+        flag: '<svg viewBox="0 0 32 32" class="w-full h-full"><rect y="0" x="0" height="16" width="32" fill="#ffffff"/><rect y="16" x="0" height="16" width="32" fill="#dc143c"/></svg>',
+        nativeName: "Polski",
+      },
     ];
   }
 

@@ -164,6 +164,8 @@ class DataService {
         word.romaja = word.romaja || "";
       } else if (currentLang === "it") {
         word.it = word.it || "";
+      } else if (currentLang === "pl") {
+        word.pl = word.pl || "";
       }
     });
   }
