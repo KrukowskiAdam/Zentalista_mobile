@@ -1,3 +1,21 @@
+# Jak działa nauka w Zentalist (mechanika)
+
+Ta sama logika działa w `zentalist_mobile` i `zentalist_web` (stan na 2026-11-03).
+
+1. **Karta = 4 przyciski.** Każdy przycisk to jedna rzecz do zapamiętania (słówko, a w przyszłych appkach np. cytat albo obrazek).
+   `CONFIG.cards.groupSize = 4` w `public/scripts/utils/config.js`.
+2. **5 kliknięć na przycisk.** Każde kliknięcie = powtórz na głos. Po 5 kliknięciach przycisk się blokuje.
+   `CONFIG.cards.clicksToComplete = 5` (config.js). Wartość jest też wpisana na sztywno w `services/stateService.js` i `functions/views/stats.ejs`. Zmieniając ją, popraw wszystkie trzy miejsca.
+3. **Wymuszone przeplatanie.** Nie można kliknąć tego samego przycisku dwa razy z rzędu. Trzeba przejść na inne słówko i potem wrócić, a mózg musi sobie przypomnieć, co było przed chwilą (interleaving + retrieval practice).
+   Wyjątek: jeśli na karcie zostało tylko jedno niezablokowane słówko, można je klikać pod rząd.
+   Kod: `button.onclick` i `isOnlyRemainingInCard()` w `public/scripts/components/buttonComponent.js`. Ostatni klik jest pamiętany per kategoria (`lastClickedPerCategory`).
+4. **Kategoria ukończona**, gdy wszystkie jej słówka są zablokowane. Wtedy odblokowuje się quiz „Challenge” (punkty do rankingu).
+5. **Powtórka po 24h (spaced repetition).** Odliczanie startuje od ukończenia **całej kategorii**, nie pojedynczego słówka. Po 24h pojawia się przycisk „Review Now”, który zeruje postęp kategorii, i nauka zaczyna się od nowa.
+   `COOLDOWN_HOURS = 24` w `functions/views/stats.ejs` oraz `COOLDOWN_MS = dayMs` w `public/scripts/services/uiService.js`. Teksty „24 hours” są też w `functions/views/index.ejs`.
+   Test: `?testHours=X` w URL strony statystyk symuluje upływ X godzin.
+
+---
+
 # Ręcznie kiedy chcesz
 cd tools && node update_fake_leaderboard.mjs
 localStorage.clear()
